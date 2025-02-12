@@ -22,31 +22,31 @@ Whether you’re here to **observe, contribute, or embark on your own intellectu
 
 Alternef’s knowledge ecosystem is structured like a **tree**, with each branch representing a different landscape of inquiry.  
 
-### **🌱 [Land and Nature Stewardship](/knowledge/land-and-nature-stewardship/)**  
+### **🌱 [[knowledge/land-and-nature-stewardship|Land and Nature Stewardship]]**
 
 Regenerative ecosystems, sustainable land use, and deep ecological thinking.  
 
-### **🏙️ [Built Environment](/knowledge/built-environment/)**  
+### **🏙️ [[knowledge/built-environment|Built Environment]]**  
 
 The architecture of resilience, urban transformation, and nature-integrated design.  
 
-### **🛠️ [Tools and Technology](/knowledge/tools-and-technology/)**  
+### **🛠️ [[knowledge/tools-and-technology|Tools and Technology]]**  
 
 Decentralized tools, digital infrastructure, and innovations shaping human agency.  
 
-### **🌍 [Culture and Education](/knowledge/culture-and-education/)**  
+### **🌍 [[knowledge/culture-and-education|Culture and Education]]**  
 
 Rethinking learning, open knowledge systems, and cultural evolution.  
 
-### **🌈 [Health and Wellbeing](/knowledge/health-and-wellbeing/)**  
+### **🌈 [[knowledge/health-and-wellbeing|Health and Wellbeing]]**  
 
 Holistic health, mind-body integration, and regenerative well-being practices.  
 
-### **💰 [Finance and Economics](/knowledge/finance-and-economics/)**  
+### **💰 [[knowledge/finance-and-economics|Finance and Economics]]**  
 
 Post-capitalist economies, mutual credit, and alternative value exchange.  
 
-### **🤝 [Governance and Community](/knowledge/governance-and-community/)**  
+### **🤝 [[knowledge/governance-and-community|Governance and Community]]**  
 
 Decentralized networks, self-organizing communities, and participatory governance.  
 
@@ -65,15 +65,15 @@ Like a **floating tree-airship**, this knowledge system thrives on:
 
 ## **🌟 Branches of My Journey**  
 
-### **[🧑‍🚀 About Me](/about-me/)**  
+### **[[about-me|🧑‍🚀 About Me]]**  
 
 Meet the navigator and gardener of this floating ecosystem.  
 
-### **[📖 Blog](/blog/)**  
+### **[[blog|Blog]]**  
 
 A journal of discoveries, thoughts, and experiments.  
 
-### **[💡 Portfolio](/portfolio/)**  
+### **[[portfolio|Portfolio]]**  
 
 A collection of projects and knowledge artifacts.  
 
@@ -85,4 +85,4 @@ Alternef is a **living, evolving space**. You are welcome to **traverse its bran
 
 Let’s **soar together** into new frontiers of understanding.  
 
-🪄 *Bon voyage!*  
+🪄 *Bon voyage*

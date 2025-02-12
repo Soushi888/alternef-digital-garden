@@ -1,11 +1,8 @@
 ---
 title: "🌿 About the Navigator of Alternef"
 ---
-Here’s a **well-structured and engaging "About Me" page** that aligns with your **Alternef digital garden** and your vision of **P2P knowledge transfer, open value networks, and alternative economies**.
 
----
-
-**Welcome, fellow traveler.** I’m [Your Name], the gardener and navigator of **Alternef**, a **living knowledge airship** soaring through the vast landscapes of ideas, innovation, and alternative systems.  
+**Welcome, fellow traveler.** I’m Soushi888, the gardener and navigator of **Alternef**, a **living knowledge airship** soaring through the vast landscapes of ideas, innovation, and alternative systems.  
 
 For years, I’ve been exploring the intersections of **peer-to-peer economies, digital autonomy, decentralized networks, and regenerative models of collaboration**. My journey has taken me through the worlds of **software development, open-source communities, digital gardening, and alternative economic paradigms**—all in pursuit of systems that empower individuals and collectives to **co-create a better future**.  
 
@@ -54,8 +51,8 @@ Through **Alternef**, I aim to **cultivate ideas, prototype alternatives, and in
 
 If you’re interested in **collaborating, sharing insights, or exchanging ideas**, you can find me here:  
 
-💡 **[Blog](/blog/)** – My latest writings and research.  
-🔧 **[Projects](/portfolio/)** – A showcase of my work.  
+💡 **[[blog|Blog]]** – My latest writings and research.  
+🔧 **[[portfolio|Portfolio]]** – A showcase of my work.  
 📬 **Contact** – Reach out for discussions, collaborations, or just to say hello!  
 
 🌿 *Welcome aboard the knowledge airship.* Let’s navigate these uncharted territories together.  
