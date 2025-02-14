@@ -1,10 +1,10 @@
 ---
 title: "Holochain Technical Terminology: A Developer's Lexicon"
 description: "A comprehensive guide mapping Holochain-specific concepts to conventional software development terminology, helping developers transition to distributed application development."
-date: 2024-01-20
+date: 2025-01-20
 author: "soushi888"
-tags: ["Holochain", "Distributed Systems", "p2p", "Technical Guide", "Development", "Lexicon"]
-category: "Technical Documentation"
+tags: ["blog", "holochain", "distributed-systems", "p2p", "technical-guide", "development", "lexicon"]
+category: "technical documentation"
 ---
 
 This lexicon provides a comprehensive mapping between [[knowledge/tools-and-technology/holochain|Holochain]]-specific terminology and conventional software development concepts. It's designed to help developers familiar with traditional architectures understand Holochain's distributed paradigm.

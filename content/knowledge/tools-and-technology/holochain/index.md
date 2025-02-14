@@ -1,7 +1,7 @@
 ---
-title: "Holochain"
+title: "holochain"
 date: 2025-02-13
-tags: ["holochain", "distributed systems", "technology", "p2p"]
+tags: ["holochain", "distributed-systems", "technology", "p2p"]
 enableToc: true
 ---
 

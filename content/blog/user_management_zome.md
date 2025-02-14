@@ -3,9 +3,9 @@ title: "Building a User Management Feature in Holochain"
 description: "A comprehensive guide on implementing a basic user management zome in Holochain, including entry types, validation rules, and UI integration with SvelteKit."
 date: 2025-01-30
 author: "soushi888"
-tags: ["Holochain", "User Management", "Technical Guide", "Development", "SvelteKit", "Zome"]
-category: "Technical Documentation"
-draft: true
+tags: ["blog", "holochain", "user-management", "technical-guide", "development", "sveltekit", "zome"]
+category: "technical documentation"
+# draft: true
 ---
 
 ## Introduction
