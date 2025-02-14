@@ -2,17 +2,17 @@
 
 @media all and (max-width: 768px) {
   .page > #quartz-body {
-    & > :not(.sidebar.left:has(.custom-sidebar)) {
+    & > :not(.sidebar.left:has(.main-menu-nav)) {
       transform: translateX(0);
       transition: transform 300ms ease-in-out;
     }
     
-    &.lock-scroll > :not(.sidebar.left:has(.custom-sidebar)) {
+    &.lock-scroll > :not(.sidebar.left:has(.main-menu-nav)) {
       transform: translateX(100dvw);
       transition: transform 300ms ease-in-out;
     }
 
-    .sidebar.left:has(.custom-sidebar) {
+    .sidebar.left:has(.main-menu-nav) {
       box-sizing: border-box;
       position: sticky;
       background-color: var(--light);
@@ -20,7 +20,7 @@
   }
 }
 
-.custom-sidebar-container {
+.main-menu-container {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -35,7 +35,7 @@
   }
 }
 
-#mobile-sidebar-toggle {
+#mobile-menu-toggle {
   display: none;
   position: fixed;
   top: 1rem;
@@ -82,7 +82,7 @@
   }
 }
 
-.custom-sidebar {
+.main-menu-nav {
   padding: 1rem;
   background: var(--light);
   border-right: 1px solid var(--lightgray);
@@ -123,38 +123,52 @@
   }
 }
 
-.lock-scroll .custom-sidebar {
+.lock-scroll .main-menu-nav {
   transform: translateX(0);
 }
 
+.main-menu,
+.permaculture-petals {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    color: var(--dark);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-radius: 6px;
+  }
+
+  a:hover {
+    background: var(--lightgray);
+    color: var(--secondary);
+    transform: translateX(4px);
+  }
+
+  a.active {
+    background: var(--secondary);
+    color: var(--light);
+  }
+}
+
 .main-menu {
-  margin-bottom: 2rem;
-}
-
-.main-menu a,
-.permaculture-petals a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.75rem;
-  color: var(--dark);
-  text-decoration: none;
-  transition: all 0.2s ease;
-  border-radius: 6px;
-  margin-bottom: 0.25rem;
-}
-
-.main-menu a:hover,
-.permaculture-petals a:hover {
-  background: var(--lightgray);
-  color: var(--secondary);
-  transform: translateX(4px);
-}
-
-.main-menu a.active,
-.permaculture-petals a.active {
-  background: var(--secondary);
-  color: var(--light);
+  margin-bottom: 0;
+  
+  & + .knowledge-base {
+    margin-top: 2rem;
+  }
 }
 
 .knowledge-base h3 {

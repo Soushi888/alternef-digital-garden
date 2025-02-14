@@ -2,10 +2,10 @@ import { QuartzComponent, QuartzComponentProps, QuartzComponentConstructor } fro
 import { classNames } from "../util/lang"
 import { resolveRelative } from "../util/path"
 import { FullSlug } from "../util/path"
-import style from "./styles/customSidebar.scss"
+import style from "./styles/mainMenu.scss"
 
 // @ts-ignore
-import script from "./scripts/customSidebar.inline"
+import script from "./scripts/mainMenu.inline"
 
 interface MenuItem {
   title: string
@@ -41,43 +41,43 @@ const defaultOptions: Options = {
 export default ((userOpts?: Options) => {
   const opts = { ...defaultOptions, ...userOpts }
 
-  function CustomSidebar({ displayClass, fileData }: QuartzComponentProps) {
+  function MainMenu({ displayClass, fileData }: QuartzComponentProps) {
     const currentPath = fileData.slug ?? ("/" as FullSlug)
 
+    const renderMenu = (items: MenuItem[]) => (
+      <ul>
+        {items.map((item) => (
+          <li key={item.path}>
+            <a
+              href={resolveRelative(currentPath, item.path)}
+              class={currentPath === item.path ? "active" : ""}
+            >
+              {item.icon && <span class="icon">{item.icon}</span>}
+              <span class="title">{item.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+
     return (
-      <div class={classNames(displayClass, "custom-sidebar-container")}>
-        <button id="mobile-sidebar-toggle" aria-label="Open sidebar">
+      <div class={classNames(displayClass, "main-menu-container")}>
+        <button id="mobile-menu-toggle" aria-label="Open menu">
           <div class="hamburger-icon">
             <span></span>
             <span></span>
             <span></span>
           </div>
         </button>
-        <nav class="custom-sidebar">
+        <nav class="main-menu-nav">
           <div class="main-menu">
-            {mainMenu.map((item) => (
-              <a 
-                href={resolveRelative(currentPath, item.path)}
-                class={currentPath === item.path ? "active" : ""}
-              >
-                <span class="icon">{item.icon}</span>
-                <span class="title">{item.title}</span>
-              </a>
-            ))}
+            {renderMenu(mainMenu)}
           </div>
           
           <div class="knowledge-base">
-            <h3>🌺 Knowledge Garden</h3>
+            <h3><span class="icon">🌺</span>Knowledge Garden</h3>
             <div class="permaculture-petals">
-              {permaculturePetals.map((petal) => (
-                <a 
-                  href={resolveRelative(currentPath, petal.path)}
-                  class={currentPath?.startsWith(petal.path.toString()) ? "active" : ""}
-                >
-                  <span class="icon">{petal.icon}</span>
-                  <span class="title">{petal.title}</span>
-                </a>
-              ))}
+              {renderMenu(permaculturePetals)}
             </div>
           </div>
         </nav>
@@ -85,8 +85,8 @@ export default ((userOpts?: Options) => {
     )
   }
 
-  CustomSidebar.css = style
-  CustomSidebar.afterDOMLoaded = script
+  MainMenu.css = style
+  MainMenu.afterDOMLoaded = script
 
-  return CustomSidebar
+  return MainMenu
 }) satisfies QuartzComponentConstructor
