@@ -1,11 +1,9 @@
 ---
 title: "The Rise of New Economic Paradigms: Between Corporate Co-optation and Economic Emancipation"
-pubDate: "2025-01-06"
-last_updated: "2025-01-09"
+date: "2025-01-06"
 author: "Soushi888"
 description: "An analysis of how the information and peer-to-peer economies manifest in two forms: as tools for corporate control and as pathways to economic emancipation. Exploring the tension between co-optation and genuine alternatives in digital age economics."
 tags: ["economics", "technology", "p2p", "information economy", "digital transformation", "open source", "blockchain", "economic emancipation", "platform capitalism"]
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 ## Introduction
@@ -90,7 +88,7 @@ Mutual Credit Currencies (MCCs) provide the financial infrastructure for true P2
 
 #### Decentralized Infrastructure
 
-The technological foundation continues to evolve with frameworks like [Holochain](https://holochain.org/), which enables truly scalable peer-to-peer interactions through:
+The technological foundation continues to evolve with frameworks like [[Holochain]] ble peer-to-peer interactions through:
 
 - Distributed hash table (DHT) architecture
 - Agent-centric design

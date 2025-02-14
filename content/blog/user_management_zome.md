@@ -1,15 +1,12 @@
 ---
 title: "Building a User Management Feature in Holochain"
 description: "A comprehensive guide on implementing a basic user management zome in Holochain, including entry types, validation rules, and UI integration with SvelteKit."
-pubDate: 2025-01-30
+date: 2025-01-30
 author: "soushi888"
 tags: ["Holochain", "User Management", "Technical Guide", "Development", "SvelteKit", "Zome"]
 category: "Technical Documentation"
-heroImage: "/blog-placeholder-2.jpg"
-featured: true
+draft: true
 ---
-
-# Building a User Management Feature in Holochain
 
 ## Introduction
 
@@ -52,6 +49,7 @@ pub struct User {
 ```
 
 Each field in the User struct serves a specific purpose:
+
 - `name` and `nickname`: For user identification
 - `bio`: For user description
 - `picture`: An optional profile picture
@@ -121,6 +119,7 @@ pub fn get_all_users() -> ExternResult<Vec<Record>> {
 ## Step-by-Step Guide to Building the User Zome
 
 1. **Set Up the Project Structure**
+
    ```bash
    nix develop
    hc scaffold zome users
@@ -192,6 +191,7 @@ nix develop --command "cargo test"
 ```
 
 This will run the test suite, which should include:
+
 - Validation tests for user creation
 - CRUD operation tests
 - Link tests for user discovery

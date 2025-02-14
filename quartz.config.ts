@@ -30,26 +30,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fcfbf8",           // Soft cream background
+          lightgray: "#e8e4d7",       // Light earthy tone
+          gray: "#a69f8d",            // Muted earth
+          darkgray: "#4a5d46",        // Forest shade
+          dark: "#2d3a29",            // Deep forest
+          secondary: "#6b8f5e",       // Sage green
+          tertiary: "#a4733d",        // Warm brown
+          highlight: "rgba(147, 171, 120, 0.2)",  // Soft moss highlight
+          textHighlight: "#9ab86688",  // Light sage highlight
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1a1d19",           // Deep forest night
+          lightgray: "#2d3729",       // Dark forest
+          gray: "#5c6855",            // Muted forest
+          darkgray: "#c9d1c3",        // Light sage
+          dark: "#e8eae5",            // Pale forest light
+          secondary: "#8fb080",       // Moonlit sage
+          tertiary: "#c49455",        // Autumn brown
+          highlight: "rgba(147, 171, 120, 0.15)",  // Soft moss highlight
+          textHighlight: "#9ab86655",  // Light sage highlight
         },
       },
     },
@@ -70,7 +70,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "absolute" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
