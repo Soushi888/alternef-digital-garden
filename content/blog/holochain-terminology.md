@@ -7,7 +7,7 @@ tags: ["Holochain", "Distributed Systems", "P2P", "Technical Guide", "Developmen
 category: "Technical Documentation"
 ---
 
-This lexicon provides a comprehensive mapping between [[knowledge/tools-and-technology/holochain]]-specific terminology and conventional software development concepts. It's designed to help developers familiar with traditional architectures understand Holochain's distributed paradigm.
+This lexicon provides a comprehensive mapping between [[knowledge/tools-and-technology/holochain|Holochain]]-specific terminology and conventional software development concepts. It's designed to help developers familiar with traditional architectures understand Holochain's distributed paradigm.
 
 ## Core Architecture Components
 

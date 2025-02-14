@@ -30,26 +30,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fcfbf8",           // Soft cream background
-          lightgray: "#e8e4d7",       // Light earthy tone
-          gray: "#a69f8d",            // Muted earth
-          darkgray: "#4a5d46",        // Forest shade
-          dark: "#2d3a29",            // Deep forest
-          secondary: "#6b8f5e",       // Sage green
-          tertiary: "#a4733d",        // Warm brown
-          highlight: "rgba(147, 171, 120, 0.2)",  // Soft moss highlight
-          textHighlight: "#9ab86688",  // Light sage highlight
+          light: "#faf8f5", // Softer cream background
+          lightgray: "#e5e1d8", // Softer earthy tone
+          gray: "#9e988a", // Muted earth
+          darkgray: "#445240", // Softer forest shade
+          dark: "#2a3527", // Softer deep forest
+          secondary: "#637f54", // Muted sage green
+          tertiary: "#96693a", // Softer warm brown
+          highlight: "rgba(147, 171, 120, 0.15)", // More subtle moss highlight
+          textHighlight: "#9ab86655", // More transparent sage highlight
         },
         darkMode: {
-          light: "#1a1d19",           // Deep forest night
-          lightgray: "#2d3729",       // Dark forest
-          gray: "#5c6855",            // Muted forest
-          darkgray: "#c9d1c3",        // Light sage
-          dark: "#e8eae5",            // Pale forest light
-          secondary: "#8fb080",       // Moonlit sage
-          tertiary: "#c49455",        // Autumn brown
-          highlight: "rgba(147, 171, 120, 0.15)",  // Soft moss highlight
-          textHighlight: "#9ab86655",  // Light sage highlight
+          light: "#1a1d19", // Deep forest night
+          lightgray: "#2d3729", // Dark forest
+          gray: "#8a9683", // Lighter muted forest for better contrast
+          darkgray: "#e0e5dc", // Lighter sage for better contrast
+          dark: "#f4f6f2", // Brighter forest light for better contrast
+          secondary: "#a3c193", // Brighter moonlit sage
+          tertiary: "#d4a56b", // Brighter autumn brown
+          highlight: "rgba(147, 171, 120, 0.2)", // Slightly stronger moss highlight
+          textHighlight: "#9ab86666", // Slightly stronger sage highlight
         },
       },
     },
@@ -70,7 +70,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "absolute" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],

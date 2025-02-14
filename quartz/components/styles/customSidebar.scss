@@ -1,0 +1,174 @@
+@use "../../styles/variables.scss" as *;
+
+@media all and (max-width: 768px) {
+  .page > #quartz-body {
+    & > :not(.sidebar.left:has(.custom-sidebar)) {
+      transform: translateX(0);
+      transition: transform 300ms ease-in-out;
+    }
+    
+    &.lock-scroll > :not(.sidebar.left:has(.custom-sidebar)) {
+      transform: translateX(100dvw);
+      transition: transform 300ms ease-in-out;
+    }
+
+    .sidebar.left:has(.custom-sidebar) {
+      box-sizing: border-box;
+      position: sticky;
+      background-color: var(--light);
+    }
+  }
+}
+
+.custom-sidebar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: hidden;
+
+  @media all and (max-width: 768px) {
+    order: -1;
+    height: initial;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-self: flex-start;
+  }
+}
+
+#mobile-sidebar-toggle {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+  @media all and (max-width: 768px) {
+    display: block;
+  }
+
+  &.active .hamburger-icon {
+    span:nth-child(1) {
+      transform: translateY(9px) rotate(45deg);
+    }
+    span:nth-child(2) {
+      opacity: 0;
+    }
+    span:nth-child(3) {
+      transform: translateY(-9px) rotate(-45deg);
+    }
+  }
+}
+
+.hamburger-icon {
+  width: 24px;
+  height: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark);
+    transition: all 0.3s ease;
+  }
+}
+
+.custom-sidebar {
+  padding: 1rem;
+  background: var(--light);
+  border-right: 1px solid var(--lightgray);
+  width: 220px;
+  height: 100%;
+  overflow-y: auto;
+  font-family: var(--headerFont);
+  font-size: 0.95rem;
+  transition: transform 0.3s ease;
+  z-index: 100;
+  
+  @media all and (max-width: 768px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+    padding-top: 4rem;
+  }
+
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--lightgray) transparent;
+
+  /* For Chrome/Safari/Edge */
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--lightgray);
+    border-radius: 3px;
+  }
+}
+
+.lock-scroll .custom-sidebar {
+  transform: translateX(0);
+}
+
+.main-menu {
+  margin-bottom: 2rem;
+}
+
+.main-menu a,
+.permaculture-petals a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  color: var(--dark);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  margin-bottom: 0.25rem;
+}
+
+.main-menu a:hover,
+.permaculture-petals a:hover {
+  background: var(--lightgray);
+  color: var(--secondary);
+  transform: translateX(4px);
+}
+
+.main-menu a.active,
+.permaculture-petals a.active {
+  background: var(--secondary);
+  color: var(--light);
+}
+
+.knowledge-base h3 {
+  color: var(--dark);
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+  padding: 0 0.75rem 0.75rem;
+  border-bottom: 2px solid var(--tertiary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  font-size: 1.1em;
+  opacity: 0.9;
+}
