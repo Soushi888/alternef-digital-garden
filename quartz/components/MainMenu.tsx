@@ -42,21 +42,25 @@ export default ((userOpts?: Options) => {
   const opts = { ...defaultOptions, ...userOpts }
 
   function MainMenu({ displayClass, fileData }: QuartzComponentProps) {
-    const currentPath = fileData.slug ?? ("/" as FullSlug)
+    // Using non-null assertion like in ExplorerNode
+    const currentPath = fileData.slug!
 
     const renderMenu = (items: MenuItem[]) => (
       <ul>
-        {items.map((item) => (
-          <li key={item.path}>
-            <a
-              href={resolveRelative(currentPath, item.path)}
-              class={currentPath === item.path ? "active" : ""}
-            >
-              {item.icon && <span class="icon">{item.icon}</span>}
-              <span class="title">{item.title}</span>
-            </a>
-          </li>
-        ))}
+        {items.map((item) => {
+          const resolvedPath = resolveRelative(currentPath, item.path)
+          return (
+            <li key={item.path}>
+              <a
+                href={resolvedPath}
+                class={currentPath === item.path ? "active" : ""}
+              >
+                {item.icon && <span class="icon">{item.icon}</span>}
+                <span class="title">{item.title}</span>
+              </a>
+            </li>
+          )
+        })}
       </ul>
     )
 
