@@ -3,7 +3,7 @@ title: "Holochain Technical Terminology: A Developer's Lexicon"
 description: "A comprehensive guide mapping Holochain-specific concepts to conventional software development terminology, helping developers transition to distributed application development."
 date: 2024-01-20
 author: "soushi888"
-tags: ["Holochain", "Distributed Systems", "P2P", "Technical Guide", "Development"]
+tags: ["Holochain", "Distributed Systems", "p2p", "Technical Guide", "Development", "Lexicon"]
 category: "Technical Documentation"
 ---
 
@@ -80,7 +80,7 @@ This lexicon provides a comprehensive mapping between [[knowledge/tools-and-tech
 
 **Data Structure**:
 
-```
+``` text
 {
   type: EntryType,
   content: Any,
@@ -151,7 +151,7 @@ This lexicon provides a comprehensive mapping between [[knowledge/tools-and-tech
 
 **Conventional Equivalent**: Client-Server becomes Agent-DHT
 
-```
+``` text
 Traditional:          Holochain:
 Client → Server       Agent → Local Chain → DHT
 ```
@@ -160,7 +160,7 @@ Client → Server       Agent → Local Chain → DHT
 
 **Conventional Equivalent**: CRUD Operations
 
-```
+``` text
 Create: Agent commits entry → Source Chain → DHT
 Read:   Agent queries DHT → Retrieves from peers
 Update: New entry with reference to previous
