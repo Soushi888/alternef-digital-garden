@@ -1,0 +1,5 @@
+---
+aliases:
+  - AGI
+---
+[[Artificial Intelligence]]

@@ -1,0 +1,10 @@
+#programmation/AI 
+
+```embed
+title: "ELNA - Your AI Companion on Blockchain"
+image: "https://www.elna.ai/assets/images/agents/01-8eea2914.png"
+description: "true"
+url: "https://www.elna.ai"
+```
+
+ELNA AI is a platform designed to decentralize AI on the [[Internet Computer Protocol|Internet Computer]] aiming to democratize access to [[Artificial Intelligence]] beyond the confines of large, centralized entities. This initiative is crucial for mitigating risks related to data privacy, bias, and control, fostering a more collaborative and inclusive ecosystem where developers and users can contribute to and benefit from AI advancements. ELNA provides the essential infrastructure required to orchestrate AI tools and models on the [[Blockchain]], including an on-chain prompt engine, a [[Vector Data Base|vector database]], and seamless integration with both on-chain and off-chain [[Large Language Models|large language model]] (LLM) inference engines. Additionally, it offers integration tools to interface the agent with external applications, ensuring that AI operations are verifiable, tamper-proof, and secure. This integration enhances the trustworthiness of AI solutions and opens up new avenues for creating [[Decentralized Application|decentralized applications]] (DApps) that are intelligent, responsive, and highly secure.
