@@ -4,9 +4,9 @@
   display: flex;
   flex-direction: column;
 
-  &.desktop-only {
-    max-height: 40%;
-  }
+  // &.desktop-only {
+    // max-height: 40%;
+  // }
 }
 
 @media all and not ($mobile) {
