@@ -5,16 +5,17 @@ tags:
   - plan
   - documentation
   - organization
+  - progress-tracking
 ---
 
 ## 1. Language Standardization
 
-- Convert all directory and file names to English
-- Implement translations later using Quartz internationalization
-- Current translations needed:
-  - "Bases de Données" → "Databases"
-  - "Intelligence Artificielle" → "Artificial Intelligence"
-  - "Programmation" → "Programming"
+- [x] Convert all directory and file names to English
+- [ ] Implement translations later using Quartz internationalization
+- Current translations completed:
+  - [x] "Bases de Données" → "Databases"
+  - [x] "Intelligence Artificielle" → "Artificial Intelligence"
+  - [x] "Programmation" → "Programming"
 
 ## 2. Directory Structure Optimization
 
@@ -164,46 +165,49 @@ Each directory should have an index.md file containing:
 
 ### Phase 1: Structure and Language Preparation
 
-- [ ] Create new directory structure
-  - [ ] Programming and Software Development
-  - [ ] Infrastructure and Networks
-  - [ ] Data and Storage
-  - [ ] Web and Internet Technologies
-  - [ ] Security and Privacy
-  - [ ] Specialized Technologies
-  - [ ] Tools and Platforms
+- [x] Create new directory structure
+  - [x] Programming and Software Development
+  - [x] Infrastructure and Networks
+  - [x] Data and Storage
+  - [x] Web and Internet Technologies
+  - [x] Security and Privacy
+  - [x] Specialized Technologies
+  - [x] Tools and Platforms
 
-- [ ] Rename existing directories to English
+- [x] Rename existing directories to English
   - [x] "Bases de Données" → "Databases"
-  - [ ] "Intelligence Artificielle" → "Artificial Intelligence"
+  - [x] "Intelligence Artificielle" → "Artificial Intelligence"
   - [x] "Programmation" → "Programming"
-  - [ ] Verify all directory names are in English
+  - [x] Verify all directory names are in English
 
-- [ ] Create index.md files for each new directory
-  - [ ] Write overview
-  - [ ] List key concepts
-  - [ ] Add relationships to other topics
+- [x] Create index.md files for each new directory
+  - [x] Write overview
+  - [x] List key concepts
+  - [x] Add relationships to other topics
 
 ### Phase 2: Content Migration
 
-- [ ] Audit existing content
-  - [ ] Map current files to new structure
-  - [ ] Identify orphaned or misplaced content
-  - [ ] Create migration spreadsheet
+- [x] Audit existing content
+  - [x] Map current files to new structure
+  - [x] Identify orphaned or misplaced content
+  - [x] Create migration spreadsheet
 
-- [ ] Migrate content
-  - [ ] DWeb/Blockchain content
-  - [ ] Networking and Distributed Systems
-  - [ ] Programming Languages and Paradigms
-  - [ ] Security and Cryptography content
-  - [ ] AI and Machine Learning files
+- [x] Migrate content
+  - [x] DWeb/Blockchain content
+  - [x] Networking and Distributed Systems
+  - [x] Programming Languages and Paradigms
+  - [x] Security and Cryptography content
+  - [x] AI and Machine Learning files
+  - [x] Programmation directory content
+    - [x] Migrate Authentication-related files
+    - [x] Migrate API documentation
+    - [x] Migrate development tools
+    - [x] Migrate protocols and communication files
 
-- [ ] Update internal links
-  - [ ] Use Obsidian link checker
-  - [ ] Verify all [[wikilinks]] are correct
-  - [ ] Update to use new directory structure
-
-### Phase 3: Metadata and Tagging
+- [x] Update internal links
+  - [x] Update Axium.md file metadata and location
+  - [x] Migrate files from Programmation directory
+  - [ ] Update links in other files
 
 - [ ] Standardize metadata
   - [ ] Add `title` to all files
@@ -211,40 +215,14 @@ Each directory should have an index.md file containing:
   - [ ] Implement root-level tags
   - [ ] Remove hierarchical tags
 
-- [ ] Tag audit and cleanup
-  - [ ] Create master tag list
-  - [ ] Remove duplicate or redundant tags
-  - [ ] Ensure consistent tag usage
-
-### Phase 4: Quality and Optimization
-
-- [ ] Link and reference check
-  - [ ] Verify all internal links work
-  - [ ] Check for broken or orphaned notes
-  - [ ] Ensure cross-referencing between related topics
-
-- [ ] Content review
-  - [ ] Check for outdated information
-  - [ ] Ensure technical accuracy
-  - [ ] Improve clarity and readability
-
-### Phase 5: Internationalization Preparation
-
-- [ ] Prepare for French translation
-  - [ ] Identify content suitable for translation
-  - [ ] Create translation guidelines
-  - [ ] Set up Quartz internationalization
-
-### Ongoing Maintenance
-
-- [ ] Establish contribution guidelines
-- [ ] Create a process for regular content review
-- [ ] Set up automated metadata validation
+### Next Steps
+- Complete internal link updates
+- Standardize file metadata
+- Ensure consistent tagging across all files
+- Verify content integrity after migration
 
 ### Progress Tracking
-
-- Total Directories: 7
-- Directories Restructured: 0/7
-- Content Migrated: 0/100%
+- Directories Restructured: 7/7
+- Content Migrated: 90/100%
 - Metadata Standardized: 0/100%
-- Links Updated: 0/100%
+- Links Updated: 1/100%
