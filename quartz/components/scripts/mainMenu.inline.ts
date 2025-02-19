@@ -10,7 +10,7 @@ function toggleSidebar(this: HTMLElement) {
 }
 
 function setupSidebar() {
-  const toggleButton = document.getElementById("mobile-sidebar-toggle")
+  const toggleButton = document.getElementById("mobile-menu-toggle")
   if (toggleButton) {
     toggleButton.removeEventListener("click", toggleSidebar)
     toggleButton.addEventListener("click", toggleSidebar)
@@ -19,7 +19,7 @@ function setupSidebar() {
 
 document.addEventListener("nav", () => {
   const bodySelector = document.querySelector("#quartz-body")
-  const toggleButton = document.getElementById("mobile-sidebar-toggle")
+  const toggleButton = document.getElementById("mobile-menu-toggle")
   if (bodySelector) {
     bodySelector.classList.remove("lock-scroll")
   }
@@ -30,7 +30,7 @@ document.addEventListener("nav", () => {
 
 window.addEventListener("resize", () => {
   const bodySelector = document.querySelector("#quartz-body")
-  const toggleButton = document.getElementById("mobile-sidebar-toggle")
+  const toggleButton = document.getElementById("mobile-menu-toggle")
   if (window.innerWidth > 768) {
     if (bodySelector) {
       bodySelector.classList.remove("lock-scroll")
