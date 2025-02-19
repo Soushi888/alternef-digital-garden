@@ -7,12 +7,8 @@ Subset of the [[HDK]]
 
 Technology : [[Rust]], [[Outils et Technologie/DWeb/Holochain/Holochain]]
 
-```embed
-title: "hdk - Rust"
-image: "https://docs.rs/-/rustdoc.static/rust-logo-151179464ae7ed46.svg"
-description: "The Holochain Development Kit (HDK) provides high and low level functions for writing Holochain applications."
-url: "https://docs.rs/hdk/latest/hdk/"
-```
+[hdk - Rust](https://docs.rs/hdk/latest/hdk/)
+> The Holochain Development Kit (HDK) provides high and low level functions for writing Holochain applications.
 
 [Holochain Deterministic Integrity (HDI)](https://docs.rs/hdi/latest/hdi/) is Holochain's data model and integrity toolset for writing zomes.
 

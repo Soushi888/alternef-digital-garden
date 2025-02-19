@@ -9,9 +9,5 @@ An Unspent Transaction Output (UTXO) is **the amount of digital currency that r
 UTXOs are used as the inputs of every [[Bitcoin]] transaction and can be used as an input in a later transaction. The UTXO model allows for the breaking up of cryptocurrency into fractional pieces.
 Every crypto transaction consists of an input and an output, and any output that is left behind and is not spent immediately is an UTXO that can be later spent in a new transaction.
 
-```embed
-title: 'UTXO Model: Definition, How It Works, and Goals'
-image: 'https://www.investopedia.com/thmb/XS9ZsY3h5r0y9YMTBeNJW4umphU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-bitcoins-991448988-71d4a10500fb4958bcfde76feaffdbe8.jpg'
-description: 'UTXOs are the unspent output in the transactions at the database level in some cryptocurrencies. Learn more about UTXOs and how they work.'
-url: 'https://www.investopedia.com/terms/u/utxo.asp'
-```
+['UTXO Model: Definition, How It Works, and Goals']('https://www.investopedia.com/terms/u/utxo.asp')
+> 'UTXOs are the unspent output in the transactions at the database level in some cryptocurrencies. Learn more about UTXOs and how they work.'

@@ -4,12 +4,8 @@ language: rust
 ---
 #programmation/rust/crates
 
-```embed
-title: "GitHub - graphql-rust/juniper: GraphQL server library for Rust"
-image: "https://opengraph.githubassets.com/276c731aa75c6ae1ea2d11ce5cd694623a7640db266b44899f372d2c664059c0/graphql-rust/juniper"
-description: "GraphQL server library for Rust. Contribute to graphql-rust/juniper development by creating an account on GitHub."
-url: "https://github.com/graphql-rust/juniper"
-```
+[GitHub - graphql-rust/juniper: GraphQL server library for Rust](https://github.com/graphql-rust/juniper)
+> GraphQL server library for Rust. Contribute to graphql-rust/juniper development by creating an account on GitHub.
 
 The Juniper library in [[Rust]] is a powerful tool for building [[GraphQL]] servers. GraphQL is a query language developed by Facebook, designed to serve mobile and web application frontends efficiently. Juniper allows developers to write GraphQL servers in Rust that are both type-safe and highly performant. It aims to make declaring and resolving GraphQL schemas as convenient as possible within the Rust ecosystem.
 

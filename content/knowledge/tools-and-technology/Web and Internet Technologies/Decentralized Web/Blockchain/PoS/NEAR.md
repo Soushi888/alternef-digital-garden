@@ -1,19 +1,10 @@
 #blockchains/PoS
 Language : [[Rust]], [[WebAssembly]], [[TypeScript]]
 
-```embed
-title: "NEAR | Blockchains, Abstracted"
-image: "https://near.org/near-meta.png"
-description: "“NEAR is the chain abstraction stack, empowering builders to create apps that scale to billions of users and across all blockchains.”"
-url: "https://near.org"
-```
+[NEAR | Blockchains, Abstracted](https://near.org)
+> “NEAR is the chain abstraction stack, empowering builders to create apps that scale to billions of users and across all blockchains.”
 
-```embed
-title: "doc.near.org"
-image: "https://near.org/favicon.png"
-description: ""
-url: "https://doc.near.org"
-```
+[doc.near.org](https://doc.near.org)
 
 The NEAR [[Blockchain]] is a user-friendly, carbon-neutral, and infinitely scalable blockchain designed with performance, security, and usability in mind. It is a layer one, sharded, [[Proof of Stake|proof-of-stake]] blockchain, which means it operates on a single, continuous chain that is divided into smaller pieces (shards) to improve scalability and efficiency. NEAR is built to be environmentally friendly, consuming significantly less energy than Bitcoin, for example, consuming the same amount of energy Bitcoin does in just 3 minutes in a year.
 

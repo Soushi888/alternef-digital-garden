@@ -1,11 +1,7 @@
 [[Blockchain]] [[Artificial Intelligence]]
 
-```embed
-title: "ChainGPT - Unleash The Power of Blockchain AI"
-image: "https://assets-global.website-files.com/64354b8ce4872ad8cd1c7b04/64d9d5f89cc52bd948b9d53b_Chain-GPT.jpg"
-description: "ChainGPT offers the fastest growing AI technology for all Crypto and Blockchain related topics. Access unlimited solutions and use-cases using our advanced AI model: Blockchain analytics, AI NFT Generator, AI trading, smart-contract development, AI auditing, risk management, source of crypto news, and much more. Visit ChainGPT.org today. Chain GPT Crypto AI Tools."
-url: "https://www.chaingpt.org"
-```
+[ChainGPT - Unleash The Power of Blockchain AI](https://www.chaingpt.org)
+> ChainGPT offers the fastest growing AI technology for all Crypto and Blockchain related topics. Access unlimited solutions and use-cases using our advanced AI model: Blockchain analytics, AI NFT Generator, AI trading, smart-contract development, AI auditing, risk management, source of crypto news, and much more. Visit ChainGPT.org today. Chain GPT Crypto AI Tools.
 
 ChainGPT is an advanced artificial intelligence model designed specifically for the blockchain and cryptocurrency sectors. It leverages the latest algorithms and high-speed processing capabilities to address complex problems within these fields. ChainGPT is not just a single AI model but constitutes an ecosystem of AI-powered utilities and tools aimed at assisting individuals, blockchain developers, and enterprises in various aspects related to cryptocurrency and blockchain technology.
 

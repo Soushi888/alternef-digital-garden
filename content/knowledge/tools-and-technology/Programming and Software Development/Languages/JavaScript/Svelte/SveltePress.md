@@ -19,9 +19,5 @@ Key features include:
 
 SveltePress aims to provide a straightforward and efficient way to build and maintain documentation, websites, or other content-driven projects, while still offering the power and customization options of Svelte and SvelteKit.
 
-```embed
-title: "Sveltepress"
-image: "https://sveltepress.site/android-chrome-512x512.png"
-description: "A simple, easy to use, content centered site build tool with the full power of Sveltekit"
-url: "https://sveltepress.site/"
-```
+[Sveltepress](https://sveltepress.site/)
+> A simple, easy to use, content centered site build tool with the full power of Sveltekit

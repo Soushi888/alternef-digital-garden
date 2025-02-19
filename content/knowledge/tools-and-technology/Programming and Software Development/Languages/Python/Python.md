@@ -1,11 +1,7 @@
 #programmation/backend 
 
-```embed
-title: "Welcome to Python.org"
-image: "https://www.python.org/static/opengraph-icon-200x200.png"
-description: "The official home of the Python Programming Language"
-url: "https://www.python.org"
-```
+[Welcome to Python.org](https://www.python.org)
+> The official home of the Python Programming Language
 
 Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. It is known for its simplicity, readability, and the emphasis on code readability, which reduces the cost of program maintenance. Python's syntax is designed to be easy to learn, making it accessible to both beginners and experienced programmers from other languages. It supports modules and packages, encouraging program modularity and code reuse. Python is widely used for Rapid Application Development (RAD), scripting, and as a glue language to connect existing components together.
 

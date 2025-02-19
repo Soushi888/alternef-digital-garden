@@ -1,10 +1,6 @@
 Origin : 
-```embed
-title: "How to design a Holochain Application"
-image: "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://github.io/design-workshop/&size=128"
-description: "Holochain’s crucial aspect regarding DHT architecture is the fact that every happ creates its own network or DHT. Those networks can be public, private, permissioned, or impose certain conditions for an agent to be able to enter."
-url: "https://holochain-community-resources.github.io/design-workshop/"
-```
+[How to design a Holochain Application](https://holochain-community-resources.github.io/design-workshop/)
+> Holochain’s crucial aspect regarding DHT architecture is the fact that every happ creates its own network or DHT. Those networks can be public, private, permissioned, or impose certain conditions for an agent to be able to enter.
 
 This workshop is a work in progress. [Contributions](https://github.com/holochain-community-resources/design-workshop/issues) are greatly appreciated!
 

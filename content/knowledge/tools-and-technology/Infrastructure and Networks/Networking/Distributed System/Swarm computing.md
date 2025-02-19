@@ -3,7 +3,7 @@ aliases:
 tags:
   - programmation/networking
 ---
-[[Distributed System/index]]
+[[Distributed Systems]]
 [[Networking]]
 
 ![[swarm-computing.jpeg]]

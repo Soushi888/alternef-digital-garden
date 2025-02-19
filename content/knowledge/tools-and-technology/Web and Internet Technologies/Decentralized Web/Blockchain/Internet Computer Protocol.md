@@ -7,12 +7,8 @@ aliases:
 
 [[Blockchain]]
 
-```embed
-title: "Home | Internet Computer"
-image: "https://internetcomputer.org/img/share.jpg"
-description: "Step into the era of blockchain as a limitless smart contract cloud that hosts everything on-chain: data, content, computations, and user experiences."
-url: "https://internetcomputer.org"
-```
+[Home | Internet Computer](https://internetcomputer.org)
+> Step into the era of blockchain as a limitless smart contract cloud that hosts everything on-chain: data, content, computations, and user experiences.
 
 The Internet Computer is a blockchain project developed by the DFINITY Foundation. It aims to create a decentralized internet where software can be built and run with the same capabilities as traditional web services, but with the added benefits of blockchain technology. The Internet Computer extends the functionality of the public internet so that it can host software, making next-generation dapps and open internet services possible. It is powered by machines in data centers across the world that communicate through the Internet Computer Protocol (ICP) [source](https://medium.com/dfinity/achieving-consensus-on-the-internet-computer-ee9fbfbafcbc#fd10).
 

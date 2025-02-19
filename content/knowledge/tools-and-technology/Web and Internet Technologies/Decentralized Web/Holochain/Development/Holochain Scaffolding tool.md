@@ -3,19 +3,11 @@
 [[Outils et Technologie/DWeb/Holochain/Holochain]]
 [[HDK]]
 
-```embed
-title: 'Get Building'
-image: 'https://d33wubrfki0l68.cloudfront.net/79f6577e3c8102e1f0caf8d2f43d4fcf472a3e34/3e15e/assets/img/holochain-logo-small.png'
-description: 'In Quick Start you installed Holochain and built a templated forum application. Here you will use the scaffolding tool to build your own application and learn the basic commands for using the scaffold.'
-url: 'https://developer.holochain.org/get-building/'
-```
+['Get Building']('https://developer.holochain.org/get-building/')
+> 'In Quick Start you installed Holochain and built a templated forum application. Here you will use the scaffolding tool to build your own application and learn the basic commands for using the scaffold.'
 
-```embed
-title: "Holochain"
-image: "https://avatars.githubusercontent.com/u/29492745?s=280&v=4"
-description: "Scalable framework for P2P distributed apps. For all those projects you wish you could take from centralized web servers but you know can’t scale on blockchain. - Holochain"
-url: "https://github.com/holochain/"
-```
+[Holochain](https://github.com/holochain/)
+> Scalable framework for P2P distributed apps. For all those projects you wish you could take from centralized web servers but you know can’t scale on blockchain. - Holochain
 
 ``` shell
 nix run github:/holochain/holochain#hc-scaffold -- web-app

@@ -20,9 +20,5 @@ Huginn AI is a general-purpose model, capable of maintaining a broad range of kn
 
 The system is designed to be flexible and customizable, allowing users to create complex automation scenarios by combining multiple agents and events. Huginn AI's architecture is based on Bayesian networks, which provide a robust and scalable foundation for its decision-making capabilities.
 
-```embed
-title: "GitHub - huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by!"
-image: "https://opengraph.githubassets.com/08ab1049cbe68a63eed92248b1825b82bc3ff550e7f36cb4cfaf6853f56713ef/huginn/huginn"
-description: "Create agents that monitor and act on your behalf. Your agents are standing by! - huginn/huginn"
-url: "https://github.com/huginn/huginn"
-```
+[GitHub - huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by!](https://github.com/huginn/huginn)
+> Create agents that monitor and act on your behalf. Your agents are standing by! - huginn/huginn

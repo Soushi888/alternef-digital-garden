@@ -7,36 +7,20 @@ Consensus: #blockchains/PoS (Pool Staking)
 [[UTXO Alliance]]
 Currency: ADA
 
-```embed
-title: 'TapTools'
-image: 'https://d2wbrxwn38q552.cloudfront.net/images/meta-image-v3.png'
-description: 'The number one asset tracking platform on Cardano'
-url: 'https://www.taptools.io/'
-```
+['TapTools']('https://www.taptools.io/')
+> 'The number one asset tracking platform on Cardano'
 
-```embed
-title: 'Minswap | Multi-pool DEX on the Cardano Blockchain'
-image: 'https://asset-logos.minswap.org/meta-bg.jpg'
-description: 'Minswap is a Multi-pool decentralized exchange (DEX) that runs on the Cardano (ADA) Blockchain. Swap tokens with minimal cost, minimal time and maximal convenience.'
-url: 'https://app.minswap.org/'
-```
+['Minswap | Multi-pool DEX on the Cardano Blockchain']('https://app.minswap.org/')
+> 'Minswap is a Multi-pool decentralized exchange (DEX) that runs on the Cardano (ADA) Blockchain. Swap tokens with minimal cost, minimal time and maximal convenience.'
 
 
 ## Développement
 
-```embed
-title: 'Marlowe | Secure, easy, & efficient Cardano smart contracts'
-image: 'https://cdn.sanity.io/images/cogl778i/production/75ec2257c84aa5d900ae00699071d1be9e80f9ea-1200x629.png'
-description: 'Marlowe offers developers a complete set of open source tools to easily create, verify, and deploy secure smart contracts on Cardano in a variety of programming languages.'
-url: 'https://marlowe.iohk.io'
-```
+['Marlowe | Secure, easy, & efficient Cardano smart contracts']('https://marlowe.iohk.io')
+> 'Marlowe offers developers a complete set of open source tools to easily create, verify, and deploy secure smart contracts on Cardano in a variety of programming languages.'
 
-```embed
-title: 'Aiken | A modern smart contract platform for Cardano'
-image: 'https://aiken-lang.org/open-graph.png'
-description: 'A modern smart contract platform for Cardano'
-url: 'https://aiken-lang.org'
-```
+['Aiken | A modern smart contract platform for Cardano']('https://aiken-lang.org')
+> 'A modern smart contract platform for Cardano'
 
 ### Languages de programmation
 

@@ -7,9 +7,5 @@ This tool seeks to be a one-stop shop for building and working with [[Rust]]- ge
 
 This project is a part of the [[Rust and WebAssembly|rust-wasm]] group. You can find more info by visiting that repo!
 
-```embed
-title: 'Introduction - Hello wasm-pack!'
-image: 'https://rustwasm.github.io/wasm-pack/public/img/wasm-ferris.png'
-description: ''
-url: 'https://rustwasm.github.io/docs/wasm-pack/'
-```
+['Introduction - Hello wasm-pack!']('https://rustwasm.github.io/docs/wasm-pack/')
+> ''

@@ -2,19 +2,11 @@ Bittensor is essentially a language for writing numerous decentralized commodity
 
 Understanding Bittensor is difficult for the exact same reason that it is powerful. This is because the majority of Bittensor's computational power is not concretely defined, but instead abstracted _underneath markets_. For instance, Bittensor leverages [[Machine Learning]] models to produce intelligence products, but Bittensor also leverages physical storage to create storage products. Meanwhile, it does _not define_ the specifics of how these resources are produced. Instead, Bittensor simply defines _the market_ which will reward those commodities for becoming available to the network.
 
-```embed
-title: "Bittensor"
-image: "https://bittensor.com/_next/static/media/metadata/favicon.83662ded.ico"
-description: "Internet-scale machine learning"
-url: "https://bittensor.com/about"
-```
+[Bittensor](https://bittensor.com/about)
+> Internet-scale machine learning
 
-```embed
-title: "Welcome | Bittensor"
-image: "https://docs.bittensor.com/img/bittensor-docs-social-card.png"
-description: "See what’s new in docs."
-url: "https://docs.bittensor.com"
-```
+[Welcome | Bittensor](https://docs.bittensor.com)
+> See what’s new in docs.
 
 ## Apps
 

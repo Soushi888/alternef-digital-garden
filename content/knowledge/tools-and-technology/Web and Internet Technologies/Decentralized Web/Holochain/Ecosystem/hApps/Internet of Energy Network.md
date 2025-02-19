@@ -6,12 +6,7 @@ aliases:
 [[Ethereum Virtual Machine]]
 [[hApp]]
 
-```embed
-title: "ioen website"
-image: "https://assets-global.website-files.com/62f1416b3d1cea4b8c35ede6/62f1472fca91e9660c453a20_logo.svg"
-description: ""
-url: "https://www.ioen.tech"
-```
+[ioen website](https://www.ioen.tech)
 
 The Internet of Energy Network (IOEN) is a [[Blockchain]]-based platform designed to promote clean energy by enabling connections and value flow between any energy device, user, and market. It provides an open protocol and standard for distributed accounting, transactions, and applications related to clean energy. 
 

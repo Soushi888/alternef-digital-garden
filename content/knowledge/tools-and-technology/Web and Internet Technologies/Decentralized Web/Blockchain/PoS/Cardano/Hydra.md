@@ -6,9 +6,5 @@ related pages:
   - "[[Cardano]]"
 ---
 
- ```embed
-title: "Hydra: Head Protocol"
-image: "https://hydra.family/head-protocol/img/hydra.png"
-description: "User manual, core concepts, API reference"
-url: "https://hydra.family/head-protocol/"
-```
+[Hydra: Head Protocol](https://hydra.family/head-protocol/)
+> User manual, core concepts, API reference

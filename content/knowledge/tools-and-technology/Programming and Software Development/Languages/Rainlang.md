@@ -2,12 +2,8 @@
 #blockchains/smart-contracts 
 #blockchains/EVM 
 
-```embed
-title: "Introduction | Rainlang | Raindex"
-image: "https://raw.githubusercontent.com/rainlanguage/rain.brand/main/Rainlang-og.png"
-description: "Rainlang is defi’s native language. If you know your way around a spreadsheet, you can learn Rain."
-url: "https://docs.rainlang.xyz/"
-```
+[Introduction | Rainlang | Raindex](https://docs.rainlang.xyz/)
+> Rainlang is defi’s native language. If you know your way around a spreadsheet, you can learn Rain.
 
 Rainlang is an on-chain smart contract language designed for the [[Ethereum Virtual Machine]] (EVM) and other compatible [[Blockchain]] environments. It aims to simplify the process of writing and reading smart contracts by making them more accessible and understandable. Rainlang is characterized by its simplicity, allowing users to write expressions in a human-readable format that can be easily audited without relying on a third party or compiler. This language is designed to be easy to learn, especially for those familiar with spreadsheet formulas, as it uses a sequence of words to perform specific tasks or calculations.
 

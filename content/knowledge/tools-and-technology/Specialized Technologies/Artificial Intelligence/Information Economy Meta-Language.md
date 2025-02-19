@@ -5,19 +5,11 @@ aliases:
 ---
 #programmation/AI 
 
-```embed
-title: "IEML: The Information Economy MetaLanguage"
-image: "https://intlekt.io/wp-content/uploads/2021/02/e-sphere-copie.jpg"
-description: "IEML is an acronym for Information Economy MetaLanguage. IEML is intended to become a standard for expressing semantic metadata and for modelling complex human systems. IEML is the result of many y…"
-url: "https://intlekt.io/ieml/"
-```
+[IEML: The Information Economy MetaLanguage](https://intlekt.io/ieml/)
+> IEML is an acronym for Information Economy MetaLanguage. IEML is intended to become a standard for expressing semantic metadata and for modelling complex human systems. IEML is the result of many y…
 
-```embed
-title: "Semantic computing with IEML"
-image: "https://pierrelevyblog.files.wordpress.com/2013/03/kandinsky_thirty_trente__1937.jpg"
-description: "A complete and up-to-date presentation of IEML can be found at: (peer reviewed scientific publication) Une présentation complète en français: (peer reviewed) The IEML website: The IEML Dictionary T…"
-url: "https://pierrelevyblog.com/my-research-in-a-nutshell/"
-```
+[Semantic computing with IEML](https://pierrelevyblog.com/my-research-in-a-nutshell/)
+> A complete and up-to-date presentation of IEML can be found at: (peer reviewed scientific publication) Une présentation complète en français: (peer reviewed) The IEML website: The IEML Dictionary T…
 
 IEML (Information Economy Meta-Language) is an open-source artificial method designed to represent the semantic content of linguistic signs in a computer-readable way. It was developed by Pierre Lévy as part of his work on collective intelligence, aiming to encode meaning in a way that is inspired by the structure of natural languages but also grounded in mathematics and logic abstractions.
 

@@ -1,12 +1,8 @@
 #blockchains/PoS 
 #blockchains/storage 
 
-```embed
-title: 'The docs'
-image: ''
-description: 'Filecoin is making the web more secure and efficient with a decentralized data storage marketplace, protocol, cryptocurrency, and smart contracts.'
-url: 'https://docs.filecoin.io'
-```
+['The docs']('https://docs.filecoin.io')
+> 'Filecoin is making the web more secure and efficient with a decentralized data storage marketplace, protocol, cryptocurrency, and smart contracts.'
 
 Filecoin is a decentralized storage network and cryptocurrency that allows users to store, retrieve, and share data in a secure and efficient manner. The project was launched in 2017 and is based on [[Blockchain|blockchain]] technology, specifically the InterPlanetary File System ([[IPFS]]) protocol.
 

@@ -3,12 +3,8 @@ aliases:
 tags:
   - programmation/cryptography
 ---
-```embed
-title: "GitHub - holochain/lair: secret lair private keystore"
-image: "https://opengraph.githubassets.com/04287903367dd2b5e7ec36c85a57038b618dc1f30fab81b9d6c8913f73bf8447/holochain/lair"
-description: "secret lair private keystore. Contribute to holochain/lair development by creating an account on GitHub."
-url: "https://github.com/holochain/lair"
-```
+[GitHub - holochain/lair: secret lair private keystore](https://github.com/holochain/lair)
+> secret lair private keystore. Contribute to holochain/lair development by creating an account on GitHub.
 
 The `lair-keystore` in [[Outils et Technologie/DWeb/Holochain/Holochain]] is a component that plays a crucial role in managing cryptographic keys securely. It is part of the Lair project, which is a suite of tools and libraries designed to provide secure cryptographic operations for Holochain and other applications. The `lair-keystore` executable allows for the initialization, configuration, and running of a Lair keystore, which is essential for generating and signing with cryptographically secure keys.
 

@@ -4,12 +4,8 @@ tags:
   - holochain/organizations
   - articles
 ---
-```embed
-title: "coasys.org"
-image: "https://coasys.org/favicon.ico"
-description: "Application error: a client-side exception has occurred (see the browser console for more information)."
-url: "https://coasys.org"
-```
+[coasys.org](https://coasys.org)
+> Application error: a client-side exception has occurred (see the browser console for more information).
 
 [[Coasys Whitepaper.pdf]]
 

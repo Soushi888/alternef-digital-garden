@@ -12,9 +12,5 @@ Real-time simultanous editing of documents is perhaps the most important additio
 
 Read more in [Eric's blog post about Syn](https://blog.holochain.org/decentralized-next-level-collaboration-apps-with-syn/) and explore the details in [Syn's GitHub repo.](https://github.com/holochain/syn)
 
-```embed
-title: 'GitHub - holochain/syn: Generalized Holochain DNA and UI library for building real-time shared state hApps'
-image: 'https://repository-images.githubusercontent.com/312073092/a57b6580-8126-11eb-9120-800de8006e92'
-description: 'Generalized Holochain DNA and UI library for building real-time shared state hApps - GitHub - holochain/syn: Generalized Holochain DNA and UI library for building real-time shared state hApps'
-url: 'https://github.com/holochain/syn'
-```
+['GitHub - holochain/syn: Generalized Holochain DNA and UI library for building real-time shared state hApps']('https://github.com/holochain/syn')
+> 'Generalized Holochain DNA and UI library for building real-time shared state hApps - GitHub - holochain/syn: Generalized Holochain DNA and UI library for building real-time shared state hApps'

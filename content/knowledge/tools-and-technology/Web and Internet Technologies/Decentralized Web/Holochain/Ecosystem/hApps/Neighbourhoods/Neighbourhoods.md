@@ -8,12 +8,8 @@ Currencie : NHT
 #holochain/mutual-currencies 
 #holochain/frameworks 
 
-```embed
-title: 'Neighbourhoods'
-image: 'https://neighbourhoods.network/preview_banner.png'
-description: 'Neighbourhoods is a web3 framework for groupware and socials that helps communities design and select custom cultural patterns using Holochain.'
-url: 'https://neighbourhoods.network'
-```
+['Neighbourhoods']('https://neighbourhoods.network')
+> 'Neighbourhoods is a web3 framework for groupware and socials that helps communities design and select custom cultural patterns using Holochain.'
 
 Linked to [[Moss]].
 

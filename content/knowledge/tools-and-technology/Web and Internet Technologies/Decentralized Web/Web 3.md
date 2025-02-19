@@ -7,4 +7,4 @@ tags:
 ---
 [[Digital Permaculture]]
 [[Tokenomie]]
-[[Distributed System/index]]
+[[Distributed Systems]]

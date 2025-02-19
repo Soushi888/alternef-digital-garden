@@ -5,12 +5,8 @@ language: rust
 
 #programmation/SDK 
 
-```embed
-title: "hdk - Rust"
-image: "https://docs.rs/-/rustdoc.static/rust-logo-151179464ae7ed46.svg"
-description: "The Holochain Development Kit (HDK) provides high and low level functions for writing Holochain applications."
-url: "https://docs.rs/hdk/latest/hdk/"
-```
+[hdk - Rust](https://docs.rs/hdk/latest/hdk/)
+> The Holochain Development Kit (HDK) provides high and low level functions for writing Holochain applications.
 
 Is executed by the [[Host]].
 

@@ -5,9 +5,5 @@ Git is a [free and open source](https://git-scm.com/about/free-and-open-source)
 
 Git is [easy to learn](https://git-scm.com/doc) and has a [tiny footprint with lightning fast performance](https://git-scm.com/about/small-and-fast). It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like [cheap local branching](https://git-scm.com/about/branching-and-merging), convenient [staging areas](https://git-scm.com/about/staging-area), and [multiple workflows](https://git-scm.com/about/distributed).
 
-```embed
-title: 'Git - Reference'
-image: 'https://git-scm.com/images/logo@2x.png'
-description: 'Quick reference guides: GitHub Cheat Sheet | Visual Git Cheat Sheet'
-url: 'https://git-scm.com/docs'
-```
+['Git - Reference']('https://git-scm.com/docs')
+> 'Quick reference guides: GitHub Cheat Sheet | Visual Git Cheat Sheet'

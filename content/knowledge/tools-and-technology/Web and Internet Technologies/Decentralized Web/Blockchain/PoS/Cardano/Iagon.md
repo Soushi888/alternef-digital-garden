@@ -25,9 +25,5 @@ Iagon was founded by a group of PhDs who identified the fundamental issues assoc
 
 The Iagon token (IAG) is designed for use specifically on the Iagon cloud platform, facilitating payment for storage services. These services are priced against fiat currencies (e.g., USD or EUR), with an established exchange rate for IAG tokens, ensuring a stable utility value.
 
-```embed
-title: "Iagon - Decentralized Cloud Service"
-image: "https://iagon.com/imgs/meta-image.jpg"
-description: "Making waves in Decentralized Cloud Computing, Iagon is leading a tech revolution."
-url: "https://iagon.com/"
-```
+[Iagon - Decentralized Cloud Service](https://iagon.com/)
+> Making waves in Decentralized Cloud Computing, Iagon is leading a tech revolution.

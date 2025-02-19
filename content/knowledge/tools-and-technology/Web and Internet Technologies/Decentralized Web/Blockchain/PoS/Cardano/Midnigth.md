@@ -12,16 +12,7 @@ Midnight will enable developers to quickly build and deploy data protection-firs
 
 ## Dev Network
 
-```embed
-title: "Midnight wiki"
-image: "https://docs.midnight.network/img/og-image.png"
-description: "This is the place to learn more about every aspect of Midnight, including why it was created, what technologies are used, its features and capabilities, use cases, and why it’s different from other blockchain and smart contract platforms. Use the navigation to find out more and explore"
-url: "https://docs.midnight.network"
-```
+[Midnight wiki](https://docs.midnight.network)
+> This is the place to learn more about every aspect of Midnight, including why it was created, what technologies are used, its features and capabilities, use cases, and why it’s different from other blockchain and smart contract platforms. Use the navigation to find out more and explore
 
-```embed
-title: "devnetdocs.midnight.network"
-image: "https://midnight.network/favicon.ico"
-description: ""
-url: "https://devnetdocs.midnight.network"
-```
+[devnetdocs.midnight.network](https://devnetdocs.midnight.network)

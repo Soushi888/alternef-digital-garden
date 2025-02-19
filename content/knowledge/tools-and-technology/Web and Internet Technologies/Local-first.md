@@ -16,16 +16,8 @@ Citations:
 [5] https://news.ycombinator.com/item?id=19804478
 [6] https://fission.codes/blog/the-evolution-of-local-first-software-empowering-users-in-a-connected-world/
 
-```embed
-title: "Local-First Web Development"
-image: "https://localfirstweb.dev/assets/images/logo.png"
-description: "A fresh way to think about building web applications."
-url: "https://localfirstweb.dev"
-```
+[Local-First Web Development](https://localfirstweb.dev)
+> A fresh way to think about building web applications.
 
-```embed
-title: "Local-first software: You own your data, in spite of the cloud"
-image: "https://www.inkandswitch.com/local-first/static/cuneiform.jpg"
-description: "A new generation of collaborative software that allows users to retain ownership of their data."
-url: "https://www.inkandswitch.com/local-first/"
-```
+[Local-first software: You own your data, in spite of the cloud](https://www.inkandswitch.com/local-first/)
+> A new generation of collaborative software that allows users to retain ownership of their data.

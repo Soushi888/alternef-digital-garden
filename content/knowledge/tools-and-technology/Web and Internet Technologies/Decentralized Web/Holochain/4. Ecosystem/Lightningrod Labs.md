@@ -5,12 +5,8 @@ tags:
 
 [[Outils et Technologie/DWeb/Holochain/Holochain]] [[Holochain Ecosystem]]
 
-```embed
-title: 'Lightningrod Labs'
-image: 'https://lightningrodlabs.org/lrl_logo.png'
-description: ''
-url: 'https://lightningrodlabs.org'
-```
+['Lightningrod Labs']('https://lightningrodlabs.org')
+> ''
 
 ## Projects
 ### [[Acorn]]

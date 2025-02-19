@@ -1,11 +1,7 @@
 [[Blockchain]] [[Artificial Intelligence]]
 
-```embed
-title: "Sahara AI: Leading Decentralized Network for AI"
-image: "https://www.saharalabs.ai/_astro/close_line_768_375.D_cHOyNk.svg"
-description: "A permissionless, high performance blockchain designed for securely deploying personalized autonomous AI with privacy and provenance"
-url: "https://www.saharalabs.ai"
-```
+[Sahara AI: Leading Decentralized Network for AI](https://www.saharalabs.ai)
+> A permissionless, high performance blockchain designed for securely deploying personalized autonomous AI with privacy and provenance
 
 Sahara AI is a decentralized AI network that aims to transform how knowledge is owned, shared, and monetized globally. It focuses on creating a high-performance, trustless, and privacy-preserving ecosystem for AI. Sahara AI's mission is to reward AI trainers, data providers, and users for their contributions to AI development, addressing the current economic model of the AI industry where the proceeds from AI models are often directed towards the companies that created them.
 

@@ -9,7 +9,7 @@ tags:
   - programmation/networking
 ---
 [[Networking]]
-[[Distributed System/index]]
+[[Distributed Systems]]
 [[Web 3]]
 
 ### Introduction to Peer-to-Peer Networking

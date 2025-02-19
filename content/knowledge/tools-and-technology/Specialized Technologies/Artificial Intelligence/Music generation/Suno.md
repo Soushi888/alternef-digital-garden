@@ -1,11 +1,7 @@
 [[Artificial Intelligence]] [[Musique]]
 
-```embed
-title: "Suno"
-image: "https://cdn1.suno.ai/groove-assets/public/icons/LogoBlack1.png"
-description: "Suno is building a future where anyone can make great music."
-url: "https://suno.com"
-```
+[Suno](https://suno.com)
+> Suno is building a future where anyone can make great music.
 
 Suno AI is a revolutionary AI music generator that allows users to create complete songs in seconds by providing a text description. It is designed to democratize music creation, making it accessible to both aspiring songwriters and those with a passion for unique musical experiences. Suno AI achieves this by utilizing two main AI models, Bark and Chirp, which work collaboratively to produce both vocal and non-vocal elements of a song. Bark focuses on adding melodies to lyrics, while Chirp creates intricate musical tapestries, resulting in a harmonious blend that showcases the potential of AI in crafting personalized musical compositions.
 

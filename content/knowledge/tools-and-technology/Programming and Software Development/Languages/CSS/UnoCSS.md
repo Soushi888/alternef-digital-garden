@@ -18,9 +18,5 @@ Here are some key features of UnoCSS:
 
 Overall, UnoCSS is a powerful and flexible tool for building custom CSS frameworks, making it an attractive choice for developers who want more control over their CSS and a faster development experience.
 
-```embed
-title: "UnoCSS"
-image: "https://unocss.dev/og.png#1"
-description: "The instant on-demand Atomic CSS engine"
-url: "https://unocss.dev/"
-```
+[UnoCSS](https://unocss.dev/)
+> The instant on-demand Atomic CSS engine

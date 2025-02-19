@@ -6,7 +6,7 @@ related pages:
   - "[[Cryptography]]"
 ---
 
-[[Distributed System/index]]
+[[Distributed Systems]]
 
 The Minimum Attack Vector (MAV) is a metric that measures the level of decentralization in the mining of a blockchain.
 It is similar to the Nakamoto coefficient, which measures the level of decentralization in the production of blocks.

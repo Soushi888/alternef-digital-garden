@@ -2,12 +2,8 @@
 [[Outils et Technologie/DWeb/Holochain/Holochain]] [[hApp]]
 [[The Weave]]
 
-```embed
-title: "moss"
-image: "https://theweave.social/images/moss_icon.png"
-description: "Create spaces for you and your groups to work and play together!"
-url: "https://theweave.social/moss/"
-```
+[moss](https://theweave.social/moss/)
+> Create spaces for you and your groups to work and play together!
 
 A core feature of Moss is the the ability for groups to pick the fit-for-purpose tooling that's appropriate for each group, and, as desired add specific new tools as the group's purpose and needs evolve.
 

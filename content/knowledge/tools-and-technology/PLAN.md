@@ -216,13 +216,26 @@ Each directory should have an index.md file containing:
   - [ ] Remove hierarchical tags
 
 ### Next Steps
+
 - Complete internal link updates
-- Standardize file metadata
-- Ensure consistent tagging across all files
-- Verify content integrity after migration
+  - [x] Replace all embedded links with standard markdown links
+    - [x] Convert ````embed` blocks to `[Title](url)` format
+    - [x] Replace "Fetching" placeholder links with proper titles
+    - [x] Clean up redundant URL blockquotes
+  - [ ] Update remaining internal wiki-style links
+  - [ ] Verify all links are working
+- Finish metadata standardization
+  - [x] Add `title` and `description` to library files
+  - [ ] Add `title` and `description` to remaining files
+  - [ ] Update tags to follow new convention
+  - [ ] Remove hierarchical tags
+- Review and verify content integrity
+- Implement comprehensive tagging strategy
+- Perform final cross-linking audit
 
 ### Progress Tracking
+
 - Directories Restructured: 7/7
-- Content Migrated: 90/100%
-- Metadata Standardized: 0/100%
-- Links Updated: 1/100%
+- Content Migrated: 95/100%
+- Metadata Standardized: 15/100%
+- Links Updated: 75/100%

@@ -20,9 +20,5 @@ DeepKey's workflows include injecting seeds (master, revocation, device) and pro
 
 DeepKey's implementation is crucial for Holochain's agent-centric architecture, allowing keys to be associated with authorship and control of data rather than the data itself. This approach enables the legitimate author to replace or revoke keys at any time using a master seed and/or revocation key that are never stored within applications, enhancing the security and flexibility of key management in the Holochain ecosystem [1](https://github.com/holochain/deepkey#:~:text=Deepkey%20is%20a%20foundational%20app,with%20holochain's%20secure%20keystore%2C%20Lair.)[2](https://medium.com/h-o-l-o/a-tour-of-holos-initial-apps-45b00f7e9054).
 
-```embed
-title: "GitHub - holochain/deepkey: DeepKey happ"
-image: "https://opengraph.githubassets.com/cb8ba924b22c6ae1424c39d94056d88f34693897756e8e0bd318abbcfb8bba78/holochain/deepkey"
-description: "DeepKey happ. Contribute to holochain/deepkey development by creating an account on GitHub."
-url: "https://github.com/holochain/deepkey"
-```
+[GitHub - holochain/deepkey: DeepKey happ](https://github.com/holochain/deepkey)
+> DeepKey happ. Contribute to holochain/deepkey development by creating an account on GitHub.

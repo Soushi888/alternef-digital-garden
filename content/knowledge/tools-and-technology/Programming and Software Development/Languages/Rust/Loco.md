@@ -1,11 +1,7 @@
 #programmation/backend
 
-```embed
-title: "Loco"
-image: "https://loco.rs/images/logo.png"
-description: "Loco is a productivity-first web and service framework in Rust"
-url: "https://loco.rs"
-```
+[Loco](https://loco.rs)
+> Loco is a productivity-first web and service framework in Rust
 
 Loco is a web and API framework for [[Rust]], designed to facilitate the development of full-stack applications. It is inspired by Ruby on Rails, aiming to provide a familiar developer experience for those transitioning from Rails to Rust. The framework is positioned as a "one-person framework" for Rust, suitable for side projects and startups. It is designed to be accessible to developers with a moderate level of familiarity with Rust, without requiring deep knowledge of complex Rust concepts or advanced macros.
 

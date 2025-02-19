@@ -25,16 +25,6 @@ Some benefits of using Tailwind CSS include:
 
 Overall, Tailwind CSS is an excellent choice for developers seeking a flexible, customizable, and efficient way to style their HTML elements and build responsive web applications.
 
-```embed
-title: "Rapidly build modern websites without ever leaving your HTML."
-image: "https://tailwindcss.com/_next/static/media/social-card-large.a6e71726.jpg"
-description: "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
-url: "https://tailwindcss.com"
-```
+[Rapidly build modern websites without ever leaving your HTML.](https://tailwindcss.com)
+> Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.
 
-```embed
-title: ""
-image: ""
-description: ""
-url: "https://tailwindcomponents.com/cheatsheet/"
-```

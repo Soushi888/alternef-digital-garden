@@ -5,12 +5,8 @@ aliases:
 tags:
 ---
 
-```embed
-title: "Butane | Decentralized Synthetic Assets for Cardano"
-image: "https://butane.dev/butane.png"
-description: "Butane protocol is an advanced synthetics assets platform on the Cardano blockchain."
-url: "https://butane.dev"
-```
+[Butane | Decentralized Synthetic Assets for Cardano](https://butane.dev)
+> Butane protocol is an advanced synthetics assets platform on the Cardano blockchain.
 
 Butane in the [[Cardano]] ecosystem refers to the Butane Protocol, a decentralized synthetic assets platform built on the Cardano blockchain. This protocol enables the creation and trading of synthetic assets that are pegged to real-world assets such as [[Bitcoin]] (BTC), the US Dollar (USD), and the Nasdaq Composite index. Here are the key features and developments related to Butane:
 

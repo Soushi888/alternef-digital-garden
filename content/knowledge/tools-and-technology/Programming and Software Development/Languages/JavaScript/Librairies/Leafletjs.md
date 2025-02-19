@@ -13,9 +13,5 @@ description:: An open-source JavaScript library for mobile-friendly interactive 
 
 Based on [[OpenStreet Map]].
 
-```embed
-title: 'Leaflet — an open-source JavaScript library for interactive maps'
-image: 'https://leafletjs.com/docs/images/logo.png'
-description: 'Leaflet is a modern, lightweight open-source JavaScript library for mobile-friendly interactive maps.'
-url: 'https://leafletjs.com'
-```
+['Leaflet — an open-source JavaScript library for interactive maps']('https://leafletjs.com')
+> 'Leaflet is a modern, lightweight open-source JavaScript library for mobile-friendly interactive maps.'

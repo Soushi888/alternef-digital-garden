@@ -13,12 +13,8 @@ Citations:
 [5] https://www.openhealthnews.com/story/2021-03-03/osi-approves-cryptographic-autonomy-license-and-cern-open-hardware-licenses
 [6] https://heathermeeker.com/2020/02/15/cryptographic-autonomy-license-approved-by-osi/
 
-```embed
-title: "Cryptographic Autonomy License"
-image: "https://i0.wp.com/opensource.org/wp-content/uploads/2006/10/OSIApproved_1.png?fit=900%2C1200&ssl=1"
-description: "1. Purpose This License gives You unlimited permission to use and modify the software to which it applies (the “Work”), either as-is or in modified form, for Your private purposes, while protecting…"
-url: "https://opensource.org/license/cal-1-0/"
-```
+[Cryptographic Autonomy License](https://opensource.org/license/cal-1-0/)
+> 1. Purpose This License gives You unlimited permission to use and modify the software to which it applies (the “Work”), either as-is or in modified form, for Your private purposes, while protecting…
 
 # Cryptographic Autonomy License version 1.0
 

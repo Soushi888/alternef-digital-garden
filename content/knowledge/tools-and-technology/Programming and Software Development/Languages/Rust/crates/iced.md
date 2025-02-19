@@ -52,9 +52,5 @@ impl Counter {
 * GitHub repository: <https://github.com/iced-rs/iced>
 * API documentation: <https://docs.rs/iced>
 
-```embed
-title: "iced - A cross-platform GUI library for Rust"
-image: "https://iced.rs/logo.black.svg"
-description: "A cross-platform GUI library for Rust focused on simplicity and type-safety."
-url: "https://iced.rs/"
-```
+[iced - A cross-platform GUI library for Rust](https://iced.rs/)
+> A cross-platform GUI library for Rust focused on simplicity and type-safety.

@@ -1,11 +1,7 @@
 #programmation/low-code 
 
-```embed
-title: 'Generative Objects'
-image: 'https://www.generativeobjects.com/images/blank.gif?crc=4208392903'
-description: 'Generative Objects is the first open source'
-url: 'https://www.generativeobjects.com'
-```
+['Generative Objects']('https://www.generativeobjects.com')
+> 'Generative Objects is the first open source'
 
 Works on a [[Outils et Technologie/DWeb/Holochain/Holochain]] integration.
 
@@ -56,12 +52,8 @@ GO Platform is the Low Code Development Platform you need to get access to your 
 
 ## Open Source
 
-```embed
-title: 'Low-code development platform Generative Objects : the journey to open source'
-image: 'https://modeling-languages.com/wp-content/uploads/2020/06/postopensourcego.jpg'
-description: 'The journey to create, and then make fully open source, a low-code development platform. Empowering citizens to develop the services they need.'
-url: 'https://modeling-languages.com/low-code-open-source-platform-generative-objects/'
-```
+['Low-code development platform Generative Objects : the journey to open source']('https://modeling-languages.com/low-code-open-source-platform-generative-objects/')
+> 'The journey to create, and then make fully open source, a low-code development platform. Empowering citizens to develop the services they need.'
 
 
 ## Potential integration for [[hApp|Holochain Application]]

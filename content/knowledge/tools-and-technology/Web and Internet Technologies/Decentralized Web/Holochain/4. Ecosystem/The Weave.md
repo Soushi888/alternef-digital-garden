@@ -1,11 +1,7 @@
 ## Growing Thrivable Social Fabric
 
-```embed
-title: "theweave.social"
-image: "https://theweave.social/images/the-weave-logo-vertical.png"
-description: "Growing Thrivable Social Fabric"
-url: "https://theweave.social"
-```
+[theweave.social](https://theweave.social)
+> Growing Thrivable Social Fabric
 
 The social fabric of complex and healthy societies is composed of many interlocking social agreements involving many community subsets.
 

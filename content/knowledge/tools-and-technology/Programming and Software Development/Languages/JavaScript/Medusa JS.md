@@ -12,16 +12,8 @@ description:: Medusa is a set of commerce tools and modules that can be used to 
 
 Medusa provides the essential building blocks that developers can put together to create a powerful commerce store. Developers have full control over their tech stack and the logic behind the commerce features.
 
-```embed
-title: "Building blocks for digital commerce"
-image: "https://medusajs.com/images/www-meta-image-standard%20(2).jpg"
-description: "The most popular ecommerce project on GitHub. Medusa provides open-source ecommerce backend infrastructure in NodeJS."
-url: "https://medusajs.com"
-```
+[Building blocks for digital commerce](https://medusajs.com)
+> The most popular ecommerce project on GitHub. Medusa provides open-source ecommerce backend infrastructure in NodeJS.
 
-```embed
-title: "Medusa Documentation | Medusa"
-image: "https://docs.medusajs.com/img/docs-meta.jpg"
-description: "Medusa is an open source composable commerce platform. Learn about its features and how to use it."
-url: "https://docs.medusajs.com"
-```
+[Medusa Documentation | Medusa](https://docs.medusajs.com)
+> Medusa is an open source composable commerce platform. Learn about its features and how to use it.

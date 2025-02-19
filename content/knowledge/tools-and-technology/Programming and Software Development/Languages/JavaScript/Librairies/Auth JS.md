@@ -7,9 +7,5 @@ related pages:
   - "[[Authentification]]"
   - "[[JavaScript]]"
 ---
-```embed
-title: "Auth.js | Authentication for the Web"
-image: "https://authjs.dev/api/og?title=Auth.js%20%7C%20Authentication%20for%20the%20Web"
-description: "Authentication for the Web"
-url: "https://authjs.dev/"
-```
+[Auth.js | Authentication for the Web](https://authjs.dev/)
+> Authentication for the Web

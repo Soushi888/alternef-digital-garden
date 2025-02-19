@@ -1,18 +1,10 @@
-[[Distributed System/index]] [[Networking]] [[Peer to Peer]] [[Local-first]]
+[[Distributed Systems]] [[Networking]] [[Peer to Peer]] [[Local-first]]
 
-```embed
-title: "Automerge CRDT | Automerge CRDT"
-image: "https://automerge.org/img/automerge.png"
-description: "Automerge is a library of data structures for building collaborative applications."
-url: "https://automerge.org"
-```
+[Automerge CRDT | Automerge CRDT](https://automerge.org)
+> Automerge is a library of data structures for building collaborative applications.
 
-```embed
-title: "Welcome to Automerge | Automerge CRDT"
-image: "https://automerge.org/img/automerge.png"
-description: "Automerge is a library of data structures for building collaborative"
-url: "https://automerge.org/docs/hello/"
-```
+[Welcome to Automerge | Automerge CRDT](https://automerge.org/docs/hello/)
+> Automerge is a library of data structures for building collaborative
 
 Automerge is a library of data structures for building collaborative applications. You can have a copy of the application state locally on several devices which may belong to the same user, or to different users. Each user can independently update the application state on their local device, even while offline, and save the state to local disk. This is similar to Git, which allows you to edit files and commit changes offline.
 

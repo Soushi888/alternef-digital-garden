@@ -3,12 +3,8 @@
 [[perspect3vism]]
 [[SynergyFuel]]
 
-```embed
-title: 'AD4M'
-image: 'https://ad4m.dev/images/ogimage.png'
-description: 'The first social network'
-url: 'https://ad4m.dev'
-```
+['AD4M']('https://ad4m.dev')
+> 'The first social network'
 
 [[hApp|Holochain Application]] framework.
 
