@@ -11,6 +11,10 @@ export const sharedPageComponents: SharedLayout = {
       localGraph: {
         depth: 2,
       },
+      globalGraph: {
+        centerForce: 0.3,
+        repelForce: 0.5,
+      },
     }),
   ],
   footer: Component.Footer({

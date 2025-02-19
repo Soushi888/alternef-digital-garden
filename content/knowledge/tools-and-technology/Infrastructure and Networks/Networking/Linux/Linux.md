@@ -1,4 +1,5 @@
 ---
+title: Linux
 aliases:
   - GNU + Linux
 tags:
@@ -28,4 +29,4 @@ Linux is an open-source operating system (OS) that is a Unix-like system. It was
 
 **In summary**, Linux is a versatile, open-source operating system that offers a high degree of customization, flexibility, and community support. Its widespread adoption in various industries and use cases makes it one of the most popular and widely used operating systems in the world.
 
-<iframe title="100+ Linux Things you Need to Know" src="https://www.youtube.com/embed/LKCVKw9CzFo?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
+![100+ Linux Things you Need to Know](https://www.youtube.com/embed/LKCVKw9CzFo?feature=oembed)
