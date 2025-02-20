@@ -106,7 +106,7 @@ tags:
      - Visual Development
      - Automation Tools
 
-## 3. Content Standards
+## 3. Documentation Standards
 
 ### Metadata Requirements
 
@@ -160,6 +160,49 @@ Each directory should have an index.md file containing:
   - implementation
   - comparison
   - case-study
+
+### Note Metadata Structure
+
+```markdown
+---
+title: [Clear, descriptive title]
+description: [Concise summary of the note's content]
+aliases: 
+tags: 
+  - [relevant tags in kebab-case]
+related pages:
+  - "[[Related Page]]"
+---
+```
+
+### Content Organization
+
+- Use ## for main section headings
+- Use ### for subsections
+- Start with a clear, concise introduction
+- Use bullet points for key information
+- Include citations and references
+- Use wikilinks `[[Page Name]]` for internal links
+
+### Naming Conventions
+
+- Filenames: lowercase with hyphens
+- Placement: Logical directory structure
+- Tags: Use kebab-case
+- Ensure descriptive, meaningful names
+
+### Tagging Guidelines
+
+- Use consistent, meaningful tags
+- Prioritize clarity and discoverability
+- Tags should help with navigation and categorization
+
+### Best Practices
+
+- Maintain consistent tone and style
+- Focus on readability
+- Regularly update and refactor notes
+- Ensure notes are self-contained yet interconnected
 
 ## 4. Implementation Phases
 
