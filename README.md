@@ -1,73 +1,137 @@
 # 🌿 Alternef Digital Garden
 
-A soaring vessel of ideas, growing and evolving in the digital sky.
+A personal knowledge management system designed as an interconnected digital ecosystem.
 
-## 🌳 Overview
+🌐 **Explore the Digital Garden**: [https://soushi888.github.io/alternef-digital-garden/](https://soushi888.github.io/alternef-digital-garden/)
 
-Alternef Digital Garden is a living knowledge ecosystem built with [Quartz](https://quartz.jzhao.xyz/), designed to cultivate and share interconnected ideas. It serves as both a personal wiki and a platform for sharing insights across various domains of knowledge.
+## 🌳 Project Overview
 
-## 🌱 Key Features
+Alternef Digital Garden is a sophisticated personal wiki and knowledge sharing platform built to cultivate, organize, and interconnect ideas across multiple domains of human experience.
 
-### Knowledge Base Structure
+## 🏗️ Project Structure
 
-- **Land and Nature Stewardship** 🌾
-- **Built Environment** 🏗️
-- **Tools and Technology** 🛠️
-- **Culture and Education** 🌍
-- **Health and Wellbeing** 🌈
-- **Finance and Economics** 💰
-- **Governance and Community** 🤝
+### Content Organization
 
-### Core Functionality
+``` text
+content/
+├── about-me.md         # Personal introduction
+├── blog/               # Thought pieces and articles
+├── knowledge/          # Core knowledge base
+│   ├── land-and-nature/
+│   ├── built-environment/
+│   ├── tools-and-technology/
+│   ├── culture-and-education/
+│   ├── health-and-wellbeing/
+│   ├── finance-and-economics/
+│   └── governance-and-community/
+└── portfolio/          # Project showcases
+```
 
-- **Dynamic Knowledge Graph**: Visualize connections between ideas
-- **Bi-directional Links**: Discover related content naturally
-- **Responsive Design**: Optimized for both desktop and mobile viewing
-- **Custom Sidebar**: Easy navigation through knowledge domains
-- **Dark/Light Modes**: Comfortable reading in any lighting condition
+### Technical Architecture
 
-## 🚀 Technical Stack
+``` text
+alternef-digital-garden/
+├── quartz/             # Quartz framework customizations
+│   ├── components/     # React/TypeScript UI components
+│   ├── plugins/        # Site generation plugins
+│   ├── styles/         # Custom SCSS styling
+│   └── util/           # Utility functions
+├── public/             # Static assets
+├── content/            # Markdown content files
+└── config files        # Project configuration
+```
 
-- **Framework**: Quartz v4 (Hugo-based)
-- **Content**: Markdown files
-- **Styling**: Custom SCSS with nature-inspired theme
+## 🌱 Core Knowledge Domains
+
+Our digital garden spans seven critical areas of knowledge:
+
+1. **Land and Nature Stewardship** 🌾
+   - Sustainable practices
+   - Ecological understanding
+   - Environmental conservation
+
+2. **Built Environment** 🏗️
+   - Architecture
+   - Urban planning
+   - Infrastructure design
+
+3. **Tools and Technology** 🛠️
+   - Digital tools
+   - Technological innovations
+   - Software and hardware insights
+
+4. **Culture and Education** 🌍
+   - Learning methodologies
+   - Cultural studies
+   - Social dynamics
+
+5. **Health and Wellbeing** 🌈
+   - Holistic health approaches
+   - Mental and physical wellness
+   - Lifestyle strategies
+
+6. **Finance and Economics** 💰
+   - Economic theories
+   - Personal finance
+   - Sustainable economic models
+
+7. **Governance and Community** 🤝
+   - Civic engagement
+   - Community building
+   - Governance structures
+
+## 🚀 Technical Architecture
+
+### Technology Stack
+
+- **Framework**: Quartz v4 (Hugo-based static site generator)
+- **Content Management**: Markdown files
+- **Styling**: Custom SCSS
 - **Hosting**: GitHub Pages
 - **Version Control**: Git
-- **Editor**: Obsidian-compatible
+
+### Key Features
+
+- **Dynamic Knowledge Graph**: Visualize complex idea relationships
+- **Bi-directional Links**: Discover organic content connections
+- **Responsive Design**: Seamless experience across devices
+- **Customizable Sidebar**: Intuitive knowledge navigation
+- **Adaptive Theming**: Dark and light mode support
 
 ## 📖 Content Categories
 
-1. **Knowledge Base**: Structured wiki with interconnected notes
-2. **Blog**: Regular articles and insights
-3. **Portfolio**: Project showcases and achievements
+1. **Knowledge Base**: Structured, interconnected notes
+2. **Blog**: Thought pieces and insights
+3. **Portfolio**: Project showcases and personal achievements
 
-## 🛠️ Development
+## 🛠️ Development Setup
 
 ### Prerequisites
 
-- Node.js
+- Node.js (latest LTS version)
 - Git
-- VSCode/Codium with the Foam extension (recommended for editing)
+- Code Editor (VSCode/Codium recommended)
 
 ### Local Development
 
-```bash
-# Clone the repository
-git clone https://github.com/Soushi888/alternef-digital-garden.git
+1. Clone the repository
 
-# Install dependencies
-npm install
+   ```bash
+   git clone https://github.com/Soushi888/alternef-digital-garden.git
+   cd alternef-digital-garden
+   ```
 
-# Start development server
-npx quartz build --serve
-```
+2. Install dependencies
 
-### Building for Production
+   ```bash
+   npm install
+   ```
 
-```bash
-# Generate static site
-npx quartz build
-```
+3. Start local development server
+
+   ```bash
+   npx quartz build --serve
+   ```
 
 ## 🤝 Contributing
 
@@ -77,10 +141,6 @@ While this is primarily a personal knowledge garden, suggestions and improvement
 2. Submit pull requests for technical improvements
 3. Suggest content additions or corrections
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
-> "A garden is never finished; it is a creation that evolves from season to season and year to year."
+"A garden is never finished; it is a creation that evolves from season to season and year to year."
