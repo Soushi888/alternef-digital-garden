@@ -1,5 +1,4 @@
 ---
-title: Peer-to-Peer Networking
 aliases:
   - p2p
   - peer-to-peer

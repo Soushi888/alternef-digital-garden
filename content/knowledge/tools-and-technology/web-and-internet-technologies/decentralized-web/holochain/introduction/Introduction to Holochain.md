@@ -7,7 +7,7 @@ Welcome to the Holochain documentation! This section provides a comprehensive in
 ### Technological Context
 
 1. [[Distributed System/index|Distributed Computing]]
-2. [[Peer to Peer]]
+2. [[peer-to-peer]]
 3. [[Web3]]
 4. [[Decentralized Technology]]
 5. [[Local-first Software]]
@@ -60,7 +60,7 @@ Welcome to the Holochain documentation! This section provides a comprehensive in
 2. [[Centralized Systems]]
 3. [[Distributed Ledger]]
 4. [[Web3]]
-5. [[Peer to Peer]]
+5. [[peer-to-peer]]
 
 ## Use Case Domains
 
@@ -122,4 +122,4 @@ We welcome contributions to improve this documentation. Please see our contribut
 2. [[Distributed Systems]]
 3. [[Web3]]
 4. [[Local-first]]
-5. [[Peer to Peer]]
+5. [[peer-to-peer]]

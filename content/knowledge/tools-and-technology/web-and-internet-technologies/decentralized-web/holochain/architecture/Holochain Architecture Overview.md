@@ -6,7 +6,7 @@ A comprehensive exploration of [[Holochain/index]]'s innovative architectural de
 
 1. [[Agent-Centric Architecture]]
 2. [[Distributed System/index|Distributed Systems]]
-3. [[Peer to Peer]]
+3. [[peer-to-peer]]
 4. [[Cryptographic Autonomy]]
 5. [[Decentralized Technology]]
 

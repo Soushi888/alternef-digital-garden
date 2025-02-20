@@ -20,7 +20,7 @@ Local-first software is a design philosophy that prioritizes local data storage 
 
 ## Related Concepts
 
-- [[Holochain]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain|Holochain]]
 - [[P2P]]
 - [[Sovereignty]]
 

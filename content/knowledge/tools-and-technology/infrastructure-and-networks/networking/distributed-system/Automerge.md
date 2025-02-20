@@ -1,4 +1,4 @@
-[[Distributed Systems]] [[Networking]] [[Peer to Peer]] [[Local-first]]
+[[Distributed Systems]] [[Networking]] [[peer-to-peer]] [[Local-first]]
 
 [Automerge CRDT | Automerge CRDT](https://automerge.org)
 > Automerge is a library of data structures for building collaborative applications.
