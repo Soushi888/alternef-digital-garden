@@ -235,6 +235,10 @@ Each directory should have an index.md file containing:
 
 ### Progress Tracking
 
+- Documents Standardized: 8/50
+- Directories Reorganized: 2/7
+- Link Updates: Partial
+- Translation Preparation: Not Started
 - Directories Restructured: 7/7
 - Content Migrated: 95/100%
 - Metadata Standardized: 15/100%

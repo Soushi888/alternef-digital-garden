@@ -1,13 +1,14 @@
 ---
+title: Coasys
 aliases: 
 tags:
   - holochain/organizations
   - articles
 ---
-[coasys.org](https://coasys.org)
-> Application error: a client-side exception has occurred (see the browser console for more information).
 
-[[Coasys Whitepaper.pdf]]
+[coasys.org](https://coasys.org)
+
+![[Coasys Whitepaper.pdf]]
 
 Coasys offers a contribution to the public’s capacity to sense-make as a
 collective by providing the infrastructure for an open, interoperable web, a

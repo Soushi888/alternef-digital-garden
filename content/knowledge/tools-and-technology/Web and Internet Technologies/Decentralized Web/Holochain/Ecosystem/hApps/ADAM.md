@@ -1,67 +1,100 @@
-#holochain/frameworks
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
-[[perspect3vism]]
-[[SynergyFuel]]
+---
+title: ADAM
+description: An agent-centric, distributed application meta-ontology framework for creating interoperable social networks and collaborative applications
+tags:
+- decentralized-web
+- holochain
+- social-network
+- framework
+aliases:
+- Agent-Centric Distributed Application Meta-ontology
+---
 
-['AD4M']('https://ad4m.dev')
-> 'The first social network'
+## Overview
 
-[[hApp|Holochain Application]] framework.
+AD4M (Agent-Centric Distributed Application Meta-ontology) is a revolutionary framework that reimagines how we build and interact with digital communication networks. It introduces a novel approach to software architecture, prioritizing human communication and agent-centricity over traditional monolithic application design.
 
-An agent-centric, distributed app development framework and social network engine introducing low-code Social DNA for ultra-interoperability and Social Organisms as a replacement for DAOs.
+## Core Concepts
 
-The name AD4M is an ackronym for _The **A**gent-Centric **D**istributed **A**pplication **M**eta-ontology_ or just: **A**gent-Centric **DA**pp **M**eta-ontology.
+### Meta-Ontology
 
-AD4M is a meta-ontology and a spanning layer - an upper extension to the TCP/IP stack. But AD4M is also a framework for building apps - mainly social apps, which renders it an engine (like a game engine) for social networks and collaboration apps. With its ability to bootstrap specific ontologies from its meta-ontology, it is a malleable social network itself. It could be the last one.
+AD4M distills human communication networks into three fundamental, irreducible concepts:
 
-At its core, AD4M is just an idea, a formalization of a different approach, a complete set of basic concepts that together span a new paradigm of (distributed) software architecture.
+- **[[Agent|Agents]]**: Sovereign digital entities
+- **Languages**: Means of expression and communication
+- **Perspectives**: Subjective interpretations and associations
 
-It tries to capture the quintessence of what _really_ goes on in human communication networks, in order to shape the digital space around that reality - instead of having the technology dictate how we communicate.
+#### Derived Concepts
 
-Putting the human first and starting from a pure agent-centric approach, AD4M deconstructs the concept of applications and suggests a different principle for the creation and maintenance of coherence in communication networks: social contexts (who am I talking to?) and shared subjective meaning, instead of assumed objectivity implied by monolithic apps that don't differentiate between agents' different renderings and associations of the same data or event or subject.
+- **Neighbourhoods**: Shared perspectives
+- **Social Organisms**: Fractal, collaborative agent networks
 
-## Meta-Ontology
+## Key Features
 
-What _really goes on_ is that agents/humans exchange expressions of various (and evolving) languages in order to share their partial perspectives/associations with each other and thus convey meaning, build meaning, make sense of things together.
+### Agent-Centric Design
 
-![AD4M ontology](https://docs.ad4m.dev/ad4m-ontology.png)
+- Puts human communication at the center of digital interaction
+- Allows for subjective meaning and context
+- Breaks down monolithic application boundaries
 
-In order to suggest a minimal assumption for maximum buy-in, AD4M carves out this quintessence of what human networks and the internet have in common, by postulating an ontology of three basic and irreducible concepts:
+### Interoperability
 
--   **[[Agent|Agents]]**
--   **Languages**, and
--   **Perspectives**.
+- Decouples application semantics from storage technologies
+- Enables switching languages and storage layers seamlessly
+- Provides a spanning layer above traditional network protocols
 
-**Languages** include **Expressions** in their definition, and **Perspectives** include **Links** (Link Expressions, to be precise).
+### Social DNA
 
-Through combination of these basic principles, two important derived concepts are constructed:
+- Introduces low-code approach for creating collaborative networks
+- Supports ultra-interoperability
+- Replaces traditional DAO (Decentralized Autonomous Organization) models
 
--   **Neighbourhoods** (i.e. shared Perspectives)
--   **Social Organisms** (i.e. fractal, super agents, defined through shared perspectives and shared interaction patterns/social DNA).
+## Technical Architecture
 
-All these are discussed in detail in the [Concepts section](https://docs.ad4m.dev/concepts.md).
+### Spanning Layer
 
-## Spanning Layer
+- Sits between application UI and backend/p2p networks
+- Integrates Decentralized Identifiers (DID)
+- Provides sovereign addressing for agents
 
-Similar to how the IP layer decouples application protocols from physical links and allows many-to-many combinations between them by capturing the quintessence of computer networks through the assignment of a unique address to each and every node, AD4M integrates DID to assume a unique and independent/sovereign address per human/agent and decouple application specific semantics from data storage and integrity layers.
+## Practical Applications
 
-![spanning layer](https://docs.ad4m.dev/ad4m-spanning-layer.png)
+- Decentralized Social Networks
+- Collaborative Platforms
+- Sense-making Infrastructure
+- Web3 Communication Tools
+- Distributed Collaboration Frameworks
 
-AD4M is an interoperability layer that sits between an app's UI and the (centralized or decentralized) back-end components or p2p networks. Using AD4M, an app can be built without being coupled to a specific storage technology. Both app developers and users are able to switch Languages and with them storage layers while keeping the other components of their running app.
+## Related Technologies
 
-The sections [Getting started](https://docs.ad4m.dev/start.html) and [Writing and using Social DNA](https://docs.ad4m.dev/sdna.html) cover the uper parts of the stack, [Creating AD4M Languages](https://docs.ad4m.dev/languages.md) shows how to wrap existing storage layers and create new ones as Languages.
+- [[Holochain]]
+- [[IPFS]]
+- [[Decentralized Web]]
+- [[Web3]]
+- [[Perspect3vism]]
 
-## Why?
+## Philosophical Implications
 
-The goal is to arrive at scalable and interoparable communication infrastructure that enables **group agency**, i.e. **super agents** (here called Social Organisms) **without imposing a bias on how a group manages itself** (and how it defines its coherence) to have agency and which technological details or semantic slaings they have chosen.
+AD4M represents more than a technology—it's a paradigm shift in digital communication:
 
-_This is the real problem we're facing when trying to provide a technological solution to the web's fractured sense-making._
+- Challenges existing software architecture models
+- Emphasizes human agency and subjective meaning
+- Enables more organic, context-aware digital interactions
 
-AD4M is a sense-making network disguised as app development framework. AD4M apps don't have to leak any of the AD4M concepts at all, and they would still be interoperable with each other to the degree of just being different views/portals into the same agent-centric semantic web.
+## Challenges and Limitations
 
-AD4M brings Game B qualities to web3.
+- Complexity of implementation
+- Requires significant mindset shift
+- Nascent technology with evolving ecosystem
 
-It's **web B**.
+## Resources
 
-Use [[IPFS]].
+- Official Website: [AD4M](https://ad4m.dev)
+- Concepts Documentation: [AD4M Concepts](https://docs.ad4m.dev/concepts.md)
+- Getting Started: [AD4M Start](https://docs.ad4m.dev/start.html)
 
+## Conclusion
+
+AD4M brings "Game B" qualities to web3, offering a transformative approach to digital communication that prioritizes human connection, context, and collective sense-making.
+
+It's not just a technology—it's a vision for a more interconnected, meaningful digital future.
