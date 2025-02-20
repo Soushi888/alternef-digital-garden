@@ -108,15 +108,15 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
         const slug = joinSegments(folder, "index") as FullSlug
         const [tree, file] = folderDescriptions[folder]
         
-        // Skip folder page generation if an index.md exists
-        const hasIndexPage = allFiles.some(f => 
-          f.slug === joinSegments(folder, "index") || 
-          f.slug === joinSegments(folder, "index.md")
-        )
+        // // Skip folder page generation if an index.md exists
+        // const hasIndexPage = allFiles.some(f => 
+        //   f.slug === joinSegments(folder, "index") || 
+        //   f.slug === joinSegments(folder, "index.md")
+        // )
         
-        if (hasIndexPage) {
-          continue // Skip folder page generation
-        }
+        // if (hasIndexPage) {
+        //   continue // Skip folder page generation
+        // }
 
         const externalResources = pageResources(pathToRoot(slug), file.data, resources)
         const componentData: QuartzComponentProps = {
