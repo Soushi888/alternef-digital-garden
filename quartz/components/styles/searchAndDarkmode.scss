@@ -1,0 +1,15 @@
+.search-and-darkmode {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+
+  .search {
+    flex: 1;
+    min-width: 0; // This prevents the search from overflowing
+  }
+
+  .darkmode {
+    flex-shrink: 0;
+  }
+}
