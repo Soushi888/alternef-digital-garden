@@ -31,6 +31,7 @@ type NodeData = {
   id: SimpleSlug
   text: string
   tags: string[]
+  isIndex?: boolean
 } & SimulationNodeDatum
 
 type SimpleLinkData = {
@@ -146,11 +147,17 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   const nodes = [...neighbourhood].map((url) => {
-    const text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
+    const isIndex = url.endsWith("/index")
+    const text = url.startsWith("tags/")
+      ? "#" + url.substring(5)
+      : isIndex
+        ? `📁 ${data.get(url)?.title ?? url.split("/").slice(-2, -1)[0]}`
+        : (data.get(url)?.title ?? url)
     return {
       id: url,
       text,
       tags: data.get(url)?.tags ?? [],
+      isIndex,
     }
   })
   const graphData: { nodes: NodeData[]; links: LinkData[] } = {
@@ -221,10 +228,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   function nodeRadius(d: NodeData) {
-    const numLinks = graphData.links.filter(
-      (l) => l.source.id === d.id || l.target.id === d.id,
-    ).length
-    return 2 + Math.sqrt(numLinks)
+    const baseRadius = 4
+    const indexMultiplier = d.isIndex ? 1.4 : 1
+    return baseRadius * scale * indexMultiplier
   }
 
   let hoveredNodeId: string | null = null
