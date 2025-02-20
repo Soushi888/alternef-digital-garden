@@ -84,6 +84,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.GitHubEditButton(),
+    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),

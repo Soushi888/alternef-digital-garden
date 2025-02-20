@@ -9,7 +9,6 @@ tags:
 aliases:
   - Holochain Overview
   - Holochain Documentation
-enableToc: true
 ---
 
 ## What is Holochain?
@@ -100,7 +99,3 @@ Holochain is a revolutionary framework for building truly peer-to-peer applicati
 ## Licensing
 
 Holochain is released under the Cryptographic Autonomy License, ensuring user sovereignty and open collaboration.
-
-## Disclaimer
-
-This documentation is a community-driven effort to provide clear, accessible information about Holochain. Always refer to the official sources for the most up-to-date information.
