@@ -38,47 +38,47 @@ Holochain is a revolutionary framework for building truly peer-to-peer applicati
 
 ## Documentation Structure
 
-### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Introduction]]
+### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Introduction|Introduction to Holochain]]
 
 - Foundational concepts
 - First steps to understanding Holochain
 - Core philosophical underpinnings
 
-### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Architecture]]
+### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Architecture|Architecture]]
 
 - Technical design overview
 - Core components
 - DNA and validation mechanisms
 - Distributed Hash Table (DHT) implementation
 
-### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Development]]
+### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Development|Development]]
 
 - Getting started guides
 - Best practices
 - Holochain Development Kit (HDK)
 - Tools and resources
 
-### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Ecosystem]]
+### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Ecosystem|Ecosystem]]
 
 - Community projects
 - Featured hApps
 - Frameworks and libraries
 - Organizational ecosystem
 
-### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Use Cases]]
+### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Use Cases|Use Cases]]
 
 - Governance applications
 - Resource management
 - Social networks
 - Practical implementations
 
-### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Concepts]]
+### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Concepts|Concepts]]
 
 - Technical deep dives
 - Philosophical implications
 - Advanced topics
 
-### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Governance]]
+### [[knowledge/tools-and-technology/Web and Internet Technologies/Decentralized Web/Holochain/Governance|Governance]]
 
 - Community guidelines
 - Licensing

@@ -19,6 +19,3 @@ Land and nature stewardship is about understanding, respecting, and working in h
 - Regenerative Practices
 - Environmental Stewardship
 - Biodiversity Protection
-
-## Recent Entries
-<!-- Dynamically populated by Quartz -->

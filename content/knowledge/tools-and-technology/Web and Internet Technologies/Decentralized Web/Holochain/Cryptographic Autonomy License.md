@@ -1,22 +1,93 @@
 ---
-Aliases: [CAL]
+title: Cryptographic Autonomy License
+description: A novel open-source license designed to protect user sovereignty and data autonomy in decentralized systems
+tags:
+  - licensing
+  - open-source
+  - decentralized-web
+  - legal-framework
+aliases:
+  - CAL
+  - Holochain License
 ---
-Developed by and for [[Outils et Technologie/DWeb/Holochain/Holochain]].
 
-The Cryptographic Autonomy [[Licenses|License]] (CAL-1.0) is a new open-source license designed to protect end-users' rights and cryptographic keys in decentralized applications. It was approved by the Open Source Initiative in February 2020[1][2][6]. The license grants unlimited permission to use and modify the software to which it applies, either as-is or in modified form, for private use or distribution[1][3]. The license is intended to preserve a user's access to its own data and protect their privacy[4]. It is specifically designed for distributed cryptographic applications[5].
+## Overview of the Cryptographic Autonomy License
 
-Citations:
-[1] https://opensource.org/license/cal-1-0/
-[2] https://blog.jwf.io/2020/10/cryptographic-autonomy-license-cal-1-0/?amp=1
-[3] https://spdx.org/licenses/CAL-1.0.html
-[4] https://www.natlawreview.com/article/controversial-new-open-source-license-decentralized-apps-protects-users-data-and
-[5] https://www.openhealthnews.com/story/2021-03-03/osi-approves-cryptographic-autonomy-license-and-cern-open-hardware-licenses
-[6] https://heathermeeker.com/2020/02/15/cryptographic-autonomy-license-approved-by-osi/
+The Cryptographic Autonomy License (CAL) is a groundbreaking legal framework specifically designed for decentralized and distributed systems, with a primary focus on preserving individual user autonomy and data sovereignty.
 
-[Cryptographic Autonomy License](https://opensource.org/license/cal-1-0/)
-> 1. Purpose This License gives You unlimited permission to use and modify the software to which it applies (the “Work”), either as-is or in modified form, for Your private purposes, while protecting…
+## Key Principles
 
-# Cryptographic Autonomy License version 1.0
+### User Sovereignty
+
+- Ensures users retain control over their personal data
+- Protects individual rights in digital ecosystems
+- Prevents unauthorized data exploitation
+
+### Open Source Commitment
+
+- Promotes transparency in software development
+- Encourages collaborative innovation
+- Maintains core open-source values
+
+### Data Autonomy
+
+- Guarantees users can extract and use their data
+- Prevents vendor lock-in
+- Supports interoperability between platforms
+
+## Unique Features
+
+### Cryptographic Rights
+
+- Protects cryptographic keys and personal identifiers
+- Enables users to maintain control over their digital identity
+- Prevents centralized control of personal cryptographic resources
+
+### Distributed System Considerations
+
+- Specifically designed for peer-to-peer and decentralized technologies
+- Addresses challenges unique to distributed computing
+- Supports agent-centric computing models
+
+## Comparison with Traditional Licenses
+
+### Traditional Open-Source Licenses
+
+- Focus primarily on software distribution
+- Limited protection of user data
+- Less emphasis on individual autonomy
+
+### Cryptographic Autonomy License
+
+- Prioritizes user data rights
+- Provides comprehensive protection mechanisms
+- Adapts to emerging decentralized technologies
+
+## Practical Implications
+
+- Used extensively in [[Holochain]] ecosystem
+- Supports [[Web3]] principles
+- Aligns with privacy-preserving technology goals
+
+## Limitations and Considerations
+
+- Relatively new legal framework
+- Requires careful interpretation
+- May have complex implementation details
+
+## Resources
+
+- [Official CAL Documentation](https://cryptographicautonomylicense.org)
+- [Holochain CAL Explanation](https://holochain.org/cal)
+- Legal consultations recommended for specific implementations
+
+## Conclusion
+
+The Cryptographic Autonomy License represents a significant step towards creating legal frameworks that protect individual rights in the digital age, particularly in decentralized and peer-to-peer systems.
+
+---
+
+## Cryptographic Autonomy License version 1.0
 
 *This Cryptographic Autonomy License (the “License”) applies to any Work whose owner has marked it with any of the following notices:*
 
@@ -28,11 +99,9 @@ Citations:
 
 *“SPDX-License-Identifier: CAL-1.0 with Combined-Work-Exception.”*
 
-------
-
 ## 1. Purpose
 
-This License gives You unlimited permission to use and modify the software to which it applies (the “Work”), either as-is or in modified form, for Your private purposes, while protecting the owners and contributors to the software from liability. 
+This License gives You unlimited permission to use and modify the software to which it applies (the “Work”), either as-is or in modified form, for Your private purposes, while protecting the owners and contributors to the software from liability.
 
 This License also strives to protect the freedom and autonomy of third parties who receive the Work from you.  If any non-affiliated third party receives any part, aspect, or element of the Work from You, this License requires that You provide that third party all the permissions and materials needed to independently use and modify the Work without that third party having a loss of data or capability due to your actions.
 
@@ -40,7 +109,7 @@ The full permissions, conditions, and other terms are laid out below.
 
 ## 2. Receiving a License
 
-In order to receive this License, You must agree to its rules. The rules of this License are both obligations of Your agreement with the Licensor and conditions to your License. You must not do anything with the Work that triggers a rule You cannot or will not follow. 
+In order to receive this License, You must agree to its rules. The rules of this License are both obligations of Your agreement with the Licensor and conditions to your License. You must not do anything with the Work that triggers a rule You cannot or will not follow.
 
 ### 2.1. Application
 
@@ -48,7 +117,7 @@ The terms of this License apply to the Work as you receive it from Licensor, as 
 
 ### 2.2. Offer and Acceptance
 
-This License is automatically offered to every person and organization. You show that you accept this License and agree to its conditions by taking any action with the Work that, absent this License, would infringe any intellectual property right held by Licensor. 
+This License is automatically offered to every person and organization. You show that you accept this License and agree to its conditions by taking any action with the Work that, absent this License, would infringe any intellectual property right held by Licensor.
 
 ### 2.3. Compliance and Remedies
 
@@ -58,7 +127,7 @@ Any failure to act according to the terms and conditions of this License places 
 
 ### 3.1. Permissions Granted
 
-Conditioned on compliance with section 4, and subject to the limitations of section 3.2, Licensor grants You the world-wide, royalty-free, non-exclusive permission to: 
+Conditioned on compliance with section 4, and subject to the limitations of section 3.2, Licensor grants You the world-wide, royalty-free, non-exclusive permission to:
 
 > a) Take any action with the Work that would infringe the non-patent intellectual property laws of any jurisdiction to which You are subject; and
 >
@@ -74,7 +143,7 @@ The following limitations apply to the permissions granted in section 3.1:
 
 ## 4. Conditions
 
-If You exercise any permission granted by this License, such that the Work, or any part, aspect, or element of the Work, is distributed, communicated, made available, or made perceptible to a non-Affiliate third party (a “Recipient”), either via physical delivery or via a network connection to the Recipient, You must comply with the following conditions: 
+If You exercise any permission granted by this License, such that the Work, or any part, aspect, or element of the Work, is distributed, communicated, made available, or made perceptible to a non-Affiliate third party (a “Recipient”), either via physical delivery or via a network connection to the Recipient, You must comply with the following conditions:
 
 ### 4.1. Provide Access to Source Code
 
@@ -104,7 +173,7 @@ In addition to providing each Recipient the opportunity to have Access to the So
 
 #### 4.2.1. No Withholding User Data
 
-Throughout any period in which You exercise any of the permissions granted to You under this License, You must also provide to any Recipient to whom you provide services via the Work, a no-charge copy, provided in a commonly used electronic form, of the Recipient’s User Data in your possession, to the extent that such User Data is available to You for use in conjunction with the Work. 
+Throughout any period in which You exercise any of the permissions granted to You under this License, You must also provide to any Recipient to whom you provide services via the Work, a no-charge copy, provided in a commonly used electronic form, of the Recipient’s User Data in your possession, to the extent that such User Data is available to You for use in conjunction with the Work.
 
 #### 4.2.2. No Technical Measures that Limit Access
 
@@ -120,7 +189,7 @@ You must retain all licensing, authorship, or attribution notices contained in t
 
 ### 4.4. Scope of Conditions in this License
 
-You are required to uphold the conditions of this License only relative to those who are Recipients of the Work from You.  Other than providing Recipients with the applicable Notices, Access to Source Code, and a copy of and full control of their User Data, nothing in this License requires You to provide processing services to or engage in network interactions with anyone. 
+You are required to uphold the conditions of this License only relative to those who are Recipients of the Work from You.  Other than providing Recipients with the applicable Notices, Access to Source Code, and a copy of and full control of their User Data, nothing in this License requires You to provide processing services to or engage in network interactions with anyone.
 
 ### 4.5. Combined Work Exception
 
@@ -128,7 +197,7 @@ As an exception to condition that You provide Recipients Access to Source Code, 
 
 ## 5. Term and Termination
 
-The term of this License begins when You receive the Work, and continues until terminated for any of the reasons described herein, or until all Licensor’s intellectual property rights in the Software expire, whichever comes first (“Term”). This License cannot be revoked, only terminated for the reasons listed below. 
+The term of this License begins when You receive the Work, and continues until terminated for any of the reasons described herein, or until all Licensor’s intellectual property rights in the Software expire, whichever comes first (“Term”). This License cannot be revoked, only terminated for the reasons listed below.
 
 ### 5.1. Effect of Termination
 
@@ -136,7 +205,7 @@ If this License is terminated for any reason, all permissions granted to You und
 
 ### 5.2. Termination for Non-Compliance; Reinstatement
 
-This License terminates automatically if You fail to comply with any of the conditions in section 4. As a special exception to termination for non-compliance, Your permissions for the Work under this License will automatically be reinstated if You come into compliance with all the conditions in section 2 within sixty (60) days of being notified by Licensor or an intended third party beneficiary of Your noncompliance. You are eligible for reinstatement of permissions for the Work one time only, and only for the sixty days immediately after becoming aware of noncompliance. Loss of permissions granted for the Work under this License due to either a) sustained noncompliance lasting more than sixty days or b) subsequent termination for noncompliance after reinstatement, is permanent, unless rights are specifically restored by Licensor in writing. 
+This License terminates automatically if You fail to comply with any of the conditions in section 4. As a special exception to termination for non-compliance, Your permissions for the Work under this License will automatically be reinstated if You come into compliance with all the conditions in section 2 within sixty (60) days of being notified by Licensor or an intended third party beneficiary of Your noncompliance. You are eligible for reinstatement of permissions for the Work one time only, and only for the sixty days immediately after becoming aware of noncompliance. Loss of permissions granted for the Work under this License due to either a) sustained noncompliance lasting more than sixty days or b) subsequent termination for noncompliance after reinstatement, is permanent, unless rights are specifically restored by Licensor in writing.
 
 ### 5.3 Termination Due to Litigation
 
@@ -144,7 +213,7 @@ If You initiate litigation against Licensor, or any Recipient of the Work, eithe
 
 ## 6. Disclaimer of Warranty and Limit on Liability
 
-As far as the law allows, the Work comes AS-IS, without any warranty of any kind, and no Licensor or contributor will be liable to anyone for any damages related to this software or this license, under any kind of legal claim, or for any type of damages, including indirect, special, incidental, or consequential damages of any type arising as a result of this License or the use of the Work including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, loss of profits, revenue, or any and all other commercial damages or losses. 
+As far as the law allows, the Work comes AS-IS, without any warranty of any kind, and no Licensor or contributor will be liable to anyone for any damages related to this software or this license, under any kind of legal claim, or for any type of damages, including indirect, special, incidental, or consequential damages of any type arising as a result of this License or the use of the Work including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, loss of profits, revenue, or any and all other commercial damages or losses.
 
 ## 7. Other Provisions
 
@@ -158,7 +227,7 @@ A Licensor may require that any action or suit by a Licensee relating to a Work 
 
 ### 7.3. No Sublicensing
 
-This License is not sublicensable. Each time You provide the Work or a Modified Work to a Recipient, the Recipient automatically receives a license under the terms described in this License. You may not impose any further reservations, conditions, or other provisions on any Recipients’ exercise of the permissions granted herein. 
+This License is not sublicensable. Each time You provide the Work or a Modified Work to a Recipient, the Recipient automatically receives a license under the terms described in this License. You may not impose any further reservations, conditions, or other provisions on any Recipients’ exercise of the permissions granted herein.
 
 ### 7.4. Attorneys' Fees
 
@@ -175,4 +244,3 @@ If any provision of this License is held to be unenforceable, such provision sha
 ### 7.7. License for the Text of this License
 
 The text of this license is released under the Creative Commons Attribution-ShareAlike 4.0 International License, with the caveat that any modifications of this license may not use the name “Cryptographic Autonomy License” or any name confusingly similar thereto to describe any derived work of this License.
-

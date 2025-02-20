@@ -18,6 +18,3 @@ Culture and education are fundamental to human progress, encompassing how we lea
 - Educational Innovation
 - Knowledge Sharing
 - Intercultural Understanding
-
-## Recent Entries
-<!-- Dynamically populated by Quartz -->

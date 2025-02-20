@@ -18,6 +18,3 @@ The built environment encompasses the human-designed spaces where we live, work,
 - Infrastructure Design
 - Community Spaces
 - Architectural Innovation
-
-## Recent Entries
-<!-- Dynamically populated by Quartz -->
