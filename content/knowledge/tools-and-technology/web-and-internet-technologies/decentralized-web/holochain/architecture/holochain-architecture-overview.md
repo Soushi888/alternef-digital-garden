@@ -5,7 +5,7 @@ A comprehensive exploration of [[Holochain/index]]'s innovative architectural de
 ## Foundational Concepts
 
 1. [[Agent-Centric Architecture]]
-2. [[Distributed System/index|Distributed Systems]]
+2. [[knowledge/tools-and-technology/infrastructure-and-networks|Distributed Systems]]
 3. [[peer-to-peer]]
 4. [[Cryptographic Autonomy]]
 5. [[Decentralized Technology]]
