@@ -16,27 +16,27 @@ Examining the technologies, protocols, and innovations that power the modern int
 
 ### Static Site Generation
 
-- [[Quartz]]: A modern digital garden framework
+- [[quartz|Quartz]]: A modern digital garden framework
 - Other Static Site Generators
 
 ### Markup and Content Technologies
 
-- [[Markdown]]: Lightweight markup language for content creation
+- [[markdown|Markdown]]: Lightweight markup language for content creation
 
 ### Web Domains
 
 #### Decentralized Web
 
-Explore our comprehensive section on [[Decentralized Web]] technologies and their potential to reshape internet infrastructure.
+Explore our comprehensive section on [[decentralized-web|Decentralized Web]] technologies and their potential to reshape internet infrastructure.
 
 #### Protocols
 
-Deep dive into [[Protocols]] that form the backbone of internet communication.
+Deep dive into [[protocols|Protocols]] that form the backbone of internet communication.
 
 ## Key Focus Areas
 
 - Web Protocols and Standards
-- [[Decentralized Web]] Technologies
+- Decentralized Web Technologies
 - Frontend and Backend Development
 - Web Security
 - API Integration
@@ -44,7 +44,7 @@ Deep dive into [[Protocols]] that form the backbone of internet communication.
 
 ## Notable Local Resources
 
-- [[decentralized-web/concepts/local-first]]: Understanding local-first software principles
+- [[local-first|Local-first]]: Understanding local-first software principles
 
 ## Learning Pathways
 

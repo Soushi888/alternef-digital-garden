@@ -204,6 +204,28 @@ related pages:
 - Regularly update and refactor notes
 - Ensure notes are self-contained yet interconnected
 
+## 3. Linking Conventions
+
+### Index File Links
+
+- Always use full path from `knowledge/` directory
+- Include `index` in the path for section-level links
+- Use clear, descriptive display names
+
+#### Example
+
+```markdown
+[[knowledge/tools-and-technology/index|Tools and Technology]]
+[[knowledge/infrastructure-and-networks/networking/distributed-systems/index|Distributed Systems]]
+```
+
+### Rationale
+
+- Provides absolute, unambiguous references
+- Ensures consistency across the knowledge base
+- Prevents broken links during restructuring
+- Makes the link's destination immediately clear
+
 ## 4. Implementation Phases
 
 ### Phase 1: Structure and Language Preparation
