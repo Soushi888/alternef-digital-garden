@@ -199,14 +199,25 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // calculate color
   const color = (d: NodeData) => {
-    const isCurrent = d.id === slug
-    if (isCurrent) {
+    // Check if the node is a tag
+    if (d.id.startsWith("tags/")) {
       return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return computedStyleMap["--tertiary"]
-    } else {
-      return computedStyleMap["--gray"]
     }
+
+    // If nodeColorMap is provided, use path-based coloring
+    const nodeColorMap = JSON.parse(graph.dataset["cfg"]!)["nodeColorMap"] ?? {}
+
+    // Find the best matching path color
+    const matchingPath = Object.keys(nodeColorMap)
+      .filter((path) => d.id.startsWith(path))
+      .sort((a, b) => b.length - a.length)[0] // Prefer more specific paths
+
+    if (matchingPath) {
+      return nodeColorMap[matchingPath]
+    }
+
+    // Default color based on visited status
+    return visited.has(d.id) ? computedStyleMap["--tertiary"] : computedStyleMap["--secondary"]
   }
 
   function nodeRadius(d: NodeData) {
