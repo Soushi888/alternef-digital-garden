@@ -2,7 +2,8 @@
 title: Wiki
 aliases: 
 tags:
-  - programmation/content-management-system
+  - content-management-system
+  - digital-garden
 related pages:
   - "[[Content Management System]]"
 ---
@@ -21,9 +22,10 @@ A **wiki** is a **collaborative, web-based system** that allows users to create,
 
 ### **Examples of Wikis**  
 
-- **Wikipedia** – The world’s largest open-source encyclopedia.  
-- **Obsidian & Quartz** – Used for personal knowledge management and digital gardens.  
-- **Wiki.js, MediaWiki, DokuWiki** – Popular self-hosted wiki software for documentation.  
+- **[Wikipedia](https://wikipedia.org/)** – The world’s largest open-source encyclopedia.  
+- **[[obsidian|Obsidian]] & [[quartz|Quartz]]** – Used for personal knowledge management and digital gardens.  
+- **[Wiki.js](https://js.wiki/)** 🌟 – *My personal favorite wiki software, despite its limited maintenance*
+- **[MediaWiki](https://www.mediawiki.org/), [DokuWiki](https://www.dokuwiki.org/)** – Popular self-hosted wiki software for documentation.  
 
 ### **Use Cases of Wikis**  
 
@@ -31,6 +33,38 @@ A **wiki** is a **collaborative, web-based system** that allows users to create,
 - **Open Collaboration** – Wikis facilitate teamwork and content co-creation.  
 - **Personal Knowledge Bases** – Individuals use private wikis for research, notes, and digital gardening.  
 
+## **Digital Gardens and Wikis**
+
+### Evolving Knowledge Platforms
+
+Wikis share many philosophical similarities with [[digital-garden|Digital Gardens]], both focusing on:
+
+- Collaborative knowledge creation
+- Non-linear information organization
+- Continuous content evolution
+
+### Modern Knowledge Management
+
+The concept of [[digital-garden|Digital Gardens]] builds upon wiki principles, offering a more personal, reflective approach to knowledge sharing. Explore our [[digital-garden|comprehensive guide to digital gardens]] to understand this innovative knowledge management approach.
+
 ## **Why Use a Wiki?**  
 
 A wiki is an excellent tool for **structuring information**, **sharing knowledge**, and **collaborating efficiently** in both personal and professional environments.  
+
+### **Personal Toolkit Recommendation**
+
+🛠️ **My Wiki and Documentation Strategy**:
+
+- **[[quartz|Quartz]]** for:
+  - Personal digital gardens
+  - Static knowledge bases
+  - Documentation websites
+  - Single-user content management
+
+- **[Wiki.js](https://js.wiki/)** for:
+  - Multi-user collaborative environments
+  - Complex team documentation
+  - Sophisticated access control
+  - Real-time collaborative editing
+
+*Choosing the right tool depends on your specific collaboration and publishing needs.*

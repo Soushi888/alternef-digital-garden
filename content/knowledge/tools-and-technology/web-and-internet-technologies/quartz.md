@@ -7,12 +7,13 @@ tags:
   - static-site-generator
   - open-source
   - markdown
+  - digital-garden
 date: 2025-02-20
 ---
 
 ## Overview
 
-Quartz is an open-source, batteries-included static site generator designed specifically for transforming [[Markdown]] content into fully functional digital gardens and personal knowledge websites. Created by Jack Zhao, it represents a modern approach to publishing interconnected notes and thoughts online.
+Quartz is an open-source, batteries-included static site generator designed specifically for transforming [[Markdown]] content into fully functional [[digital-garden|Digital Gardens]] and personal knowledge websites. Created by Jack Zhao, it represents a modern approach to publishing interconnected notes and thoughts online.
 
 ## Origin and Philosophy
 
@@ -71,7 +72,7 @@ The fourth major version (v4) brought significant improvements:
 
 **This very digital garden is built using Quartz v4!** 🌱
 
-The [[Alternef Digital Garden]] serves as a living example of Quartz's capabilities, demonstrating:
+The [[/|Alternef Digital Garden]] serves as a living example of Quartz's capabilities, demonstrating:
 
 - Bi-directional linking
 - Knowledge graph visualization
@@ -85,6 +86,18 @@ By using Quartz, this digital garden embodies the framework's core philosophy of
 - Continuous learning and growth
 
 *Every page you're reading is a testament to Quartz's power and flexibility.*
+
+## Related Concepts
+
+### Digital Gardens
+
+Quartz is a key technology in the [[digital-garden|Digital Garden]] ecosystem. Digital gardens represent a modern approach to knowledge management, where content is:
+
+- Continuously evolving
+- Interconnected
+- Personally curated
+
+Learn more about the philosophical and technical foundations of digital gardens in our [[digital-garden|comprehensive digital garden overview]].
 
 ## Community and Ecosystem
 

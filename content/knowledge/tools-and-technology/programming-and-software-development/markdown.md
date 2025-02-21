@@ -7,6 +7,7 @@ tags:
   - documentation
   - plain-text
   - formatting
+  - digital-garden
 date: 2025-02-20
 ---
 
@@ -98,6 +99,16 @@ Here's a sentence with a footnote.[^1]
 
 [^1]: This is the footnote.
 ```
+
+## Digital Gardens and Markdown
+
+### Markdown in Knowledge Management
+Markdown plays a crucial role in [[digital-garden|Digital Gardens]], providing a lightweight, readable format for creating and organizing interconnected notes. In digital gardens, Markdown enables:
+- Easy content creation
+- Simple formatting
+- Seamless linking between ideas
+
+Learn more about the broader context of digital gardens and their approach to knowledge management in our [[digital-garden|comprehensive digital garden guide]].
 
 ## Usage in Digital Gardens
 

@@ -6,6 +6,7 @@ tags:
   - internet
   - protocols
   - decentralized-web
+  - digital-garden
 ---
 
 ## Overview
