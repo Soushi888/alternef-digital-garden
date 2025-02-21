@@ -7,8 +7,6 @@ tags:
   - distributed-systems
 ---
 
-# Infrastructure and Networks
-
 ## Overview
 
 Exploring the complex world of computing infrastructure, network architecture, and distributed system design.
