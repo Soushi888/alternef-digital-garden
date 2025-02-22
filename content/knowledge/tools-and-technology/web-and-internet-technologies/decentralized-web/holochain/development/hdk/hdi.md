@@ -5,7 +5,7 @@ language: rust
 
 Subset of the [[HDK]]
 
-Technology : [[Rust]], [[Outils et Technologie/DWeb/Holochain/Holochain]]
+Technology : [[rust/index]], [[Outils et Technologie/DWeb/Holochain/Holochain]]
 
 [hdk - Rust](https://docs.rs/hdk/latest/hdk/)
 > The Holochain Development Kit (HDK) provides high and low level functions for writing Holochain applications.
@@ -24,16 +24,16 @@ The DNA’s data model is defined in integrity zomes. They comprise all data typ
 
 The MVC (model, view, controller) design pattern can be used as an analogy. **The application’s integrity zomes comprise its model layer** — everything that defines the shape of the data. In practice, this means three things:
 
--   entry type definitions
--   link type definitions
--   a validation callback that constrains the kinds of data that can validly be called entries and links of those types (see also [`Op`](https://docs.rs/hdi/0.2.1/hdi/prelude/enum.Op.html)).
+- entry type definitions
+- link type definitions
+- a validation callback that constrains the kinds of data that can validly be called entries and links of those types (see also [`Op`](https://docs.rs/hdi/0.2.1/hdi/prelude/enum.Op.html)).
 
 **The coordination zomes comprise the application’s controller layer** — the code that actually writes and retrieves data, handles countersigning sessions and sends and receives messages between peers or between a cell and its UI. In other words, all the zome functions, `init` functions, remote signal receivers, and scheduler callbacks will all live in coordinator zomes.
 
 Advantages of this approach are:
 
--   The DNA hash is constant as long as the integrity zomes remain the same. The peer network of a DNA is tied to its hash. Changes to the DNA hash result in a new peer network. Changes to the domain logic enclosed in coordinator zomes, however, do not affect the DNA hash. Hence the DNAs and therefore hApps can be modified without creating a new peer network on every deployment.
--   Integrity zomes can be shared among DNAs. Any coordinator zome can import an integrity zome’s data types and implement functions for data manipulation. This composability of integrity and coordinator zomes allows for a multitude of permutations with shared integrity zomes, i. e. a shared data model.
+- The DNA hash is constant as long as the integrity zomes remain the same. The peer network of a DNA is tied to its hash. Changes to the DNA hash result in a new peer network. Changes to the domain logic enclosed in coordinator zomes, however, do not affect the DNA hash. Hence the DNAs and therefore hApps can be modified without creating a new peer network on every deployment.
+- Integrity zomes can be shared among DNAs. Any coordinator zome can import an integrity zome’s data types and implement functions for data manipulation. This composability of integrity and coordinator zomes allows for a multitude of permutations with shared integrity zomes, i. e. a shared data model.
 
 ## Data validation
 

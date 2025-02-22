@@ -18,7 +18,7 @@ Some key features of Aiken include:
 - Familiar C-family syntax while still being a purely functional language
 - A package manager that encourages the development of open-source libraries with clean and easy-to-host generated documentation[3]
 - A toolkit for working with [[Plutus]]
-- Written in [[Rust]], licensed under _Apache-2.0_
+- Written in [[rust/index]], licensed under _Apache-2.0_
 
 Aiken is still a work in progress, and developers can install it from source or [[Nix]] Flakes[2]. The Aiken git repository provides a comprehensive guide for getting started with Aiken[2]. The language comes with a variety of command-line tools to help developers be productive right away[5]. The Aiken team aims to reduce the time it takes for developers to get started and finish their projects, turning what is currently a multi-day setup experience into a 10-minute quickstart without compromising any of the security and quality aspects[3].
 

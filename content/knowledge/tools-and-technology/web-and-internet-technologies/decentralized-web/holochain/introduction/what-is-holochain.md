@@ -48,7 +48,7 @@ Framework pour créer des applications [[peer-to-peer|Pair-à-Pair]] et des [[di
 
 ### Écosystème Technique
 
-1. **Langage**: [[rust|Rust]]
+1. **Langage**: [[rust/index|Rust]]
 2. **Frameworks**:
    - [[holochain-development-kit|HDK]] (Holochain Development Kit)
    - [[holochain-development-interface|HDI]] (Holochain Development Interface)

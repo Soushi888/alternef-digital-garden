@@ -8,7 +8,7 @@
 
 Langages available :
 
-- [[Rust]]
+- [[rust/index]]
 - [[TypeScript]]
 - [[C++]]
 - [[Python]]

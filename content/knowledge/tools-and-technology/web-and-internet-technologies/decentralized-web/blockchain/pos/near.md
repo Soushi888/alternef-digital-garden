@@ -1,5 +1,5 @@
-#blockchains/PoS
-Language : [[Rust]], [[WebAssembly]], [[TypeScript]]
+# blockchains/PoS
+Language : [[rust/index]], [[WebAssembly]], [[TypeScript]]
 
 [NEAR | Blockchains, Abstracted](https://near.org)
 > “NEAR is the chain abstraction stack, empowering builders to create apps that scale to billions of users and across all blockchains.”

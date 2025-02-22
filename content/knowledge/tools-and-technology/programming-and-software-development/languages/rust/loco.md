@@ -1,9 +1,21 @@
-#programmation/backend
+---
+title: Loco
+description: Loco is a web and API framework for [[rust/index]], designed to facilitate the development of full-stack applications. It is inspired by Ruby on Rails, aiming to provide a familiar developer experience for those transitioning from Rails to Rust. The framework is positioned as a "one-person framework" for Rust, suitable for side projects and startups. It is designed to be accessible to developers with a moderate level of familiarity with Rust, without requiring deep knowledge of complex Rust concepts or advanced macros.
+aliases:
+  - Loco
+tags:
+  - programmation
+  - backend
+related pages:
+  - /knowledge/tools-and-technology/programming-and-software-development/languages/rust/axium.md
+  - /knowledge/tools-and-technology/programming-and-software-development/languages/rust/loco.md
+---
+
 
 [Loco](https://loco.rs)
 > Loco is a productivity-first web and service framework in Rust
 
-Loco is a web and API framework for [[Rust]], designed to facilitate the development of full-stack applications. It is inspired by Ruby on Rails, aiming to provide a familiar developer experience for those transitioning from Rails to Rust. The framework is positioned as a "one-person framework" for Rust, suitable for side projects and startups. It is designed to be accessible to developers with a moderate level of familiarity with Rust, without requiring deep knowledge of complex Rust concepts or advanced macros.
+Loco is a web and API framework for [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]], designed to facilitate the development of full-stack applications. It is inspired by Ruby on Rails, aiming to provide a familiar developer experience for those transitioning from Rails to Rust. The framework is positioned as a "one-person framework" for Rust, suitable for side projects and startups. It is designed to be accessible to developers with a moderate level of familiarity with Rust, without requiring deep knowledge of complex Rust concepts or advanced macros.
 
 Loco incorporates many of the concepts and features of Rails, such as MVC (Model-View-Controller) architecture, a CLI (Command Line Interface) for application creation and management, and a local development server. It is built with the intention of making it easier for Rust developers to build MVC-style web applications, leveraging Rust's strengths in concurrency, safety, strong typing, and performance.
 
