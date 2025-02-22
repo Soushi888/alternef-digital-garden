@@ -52,6 +52,7 @@ Reusable solutions to common software design problems.
 - Command
 - State
 - Template Method
+- [[event-bus|Event Bus Pattern]]
 
 ### 3. Architectural Patterns
 High-level strategies for system organization.
@@ -59,6 +60,7 @@ High-level strategies for system organization.
 - Model-View-Controller (MVC)
 - Model-View-ViewModel (MVVM)
 - Event-Driven Architecture
+  - [[event-bus|Event Bus Pattern]]
 - Microservices
 - Layered Architecture
 

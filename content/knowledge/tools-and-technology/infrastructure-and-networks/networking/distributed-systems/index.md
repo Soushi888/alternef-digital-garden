@@ -23,17 +23,26 @@ However, designing and implementing a distributed system can be challenging due 
 
 Overall, distributed systems are an important tool in modern computing, enabling the creation of large-scale, highly available, and scalable applications and services.
 
+## Communication Mechanisms in Distributed Systems
+
+Distributed systems rely on various communication patterns and design techniques:
+
+- Message Passing
+- Remote Procedure Calls (RPC)
+- [[event-bus|Event Bus Pattern]]
+- Publish-Subscribe Models
+
 ## Examples of distributed systems
 
-- [[Domain Name System]] (DNS)
+- [[domain-name-system|Domain Name System]] (DNS)
   - Distributed lookup table of hostname to [[IP address]]
-- [[Content Delivery Network]] (CDN)
+- [[content-delivery-network|Content Delivery Network]] (CDN)
 - Facebook and Google
   - Massive scale
   - Fast
   - Very reliable
-- Email servers ([[Simple Mail Transfer Protocol|SMTP]])
-- [[TOR network]]
+- Email servers ([[simple-mail-transfer-protocol|SMTP]])
+- [[tor-network|TOR network]]
 - Phone networks
   - Land line and cellular
 - Cars network electronic components via CANbus
@@ -50,5 +59,5 @@ Overall, distributed systems are an important tool in modern computing, enabling
 - User integrity
 - Hardware sharing economy
 
-![[Faillures]]
-![[Byzantine Fault Tolerance]]
+![[failures|Failures in Distributed Systems]]
+![[byzantine-fault-tolerance|Byzantine Fault Tolerance]]
