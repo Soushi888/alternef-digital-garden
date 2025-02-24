@@ -45,7 +45,7 @@ Discover the diverse applications and possibilities enabled by [[Holochain/index
 1. [[Distributed Systems]]
 2. [[Web3]]
 3. [[Local-first Software]]
-4. [[peer-to-peer]]
+4. [[peer-to-peer|Peer to Peer]]
 5. [[Agent-Centric Computing]]
 
 ## Related Ecosystems

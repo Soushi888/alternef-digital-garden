@@ -8,7 +8,6 @@ tags:
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/index|Programming and Software Development]]"
 ---
-
 ## Overview
 
 Development patterns encompass various approaches to designing, structuring, and implementing software. This section explores different paradigms, design strategies, and construction techniques that guide software development.
