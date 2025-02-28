@@ -1,10 +1,21 @@
-The relationship between [[Theory building]] and [[Systems Thinking]] is closely intertwined, though they approach problem-solving from slightly different angles. Here's an exploration of their connection:
+---
+title: Theory Building and Systems Thinking Applied to Software Engineering
+description: Unpacking the connection between theory building and systems thinking in software engineering, highlighting their shared goals and differences.
+tags:
+  - software-engineering
+  - theory-building
+  - systems-thinking
+  - critical-thinking
+  - problem-solving
+---
+
+The relationship between [[theory-building|Theory building]] and [[systems-thinking|Systems Thinking]] is closely intertwined, though they approach problem-solving from slightly different angles. Here's an exploration of their connection:
 
 ## Shared Goals
 
 Both Theory Building and Systems Thinking aim to develop a deeper understanding of complex problems and systems:
 
-1. [[Holism|Holistic]] Perspective: Both approaches emphasize viewing problems as part of larger systems rather than isolated components.
+1. [[holism|Holistic]] Perspective: Both approaches emphasize viewing problems as part of larger systems rather than isolated components.
 
 2. Contextual Understanding: They both seek to understand the problem within its broader context and environment.
 
