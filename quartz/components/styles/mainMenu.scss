@@ -14,8 +14,12 @@
 
     .sidebar.left:has(.main-menu-nav) {
       box-sizing: border-box;
-      position: sticky;
+      position: static;
       background-color: var(--light);
+      height: auto;
+      width: auto;
+      z-index: 99;
+      padding: 0;
     }
   }
 }
@@ -28,10 +32,12 @@
 
   @media all and (max-width: 768px) {
     order: -1;
-    height: initial;
-    overflow: hidden;
+    height: auto;
+    overflow: visible;
     flex-shrink: 0;
+    width: auto;
     align-self: flex-start;
+    position: relative; /* Added to ensure proper positioning */
   }
 }
 
@@ -111,10 +117,15 @@
       background-color: var(--lightgray);
     }
 
+    position: fixed;
     height: 100vh;
+    width: 80%;
+    max-width: 300px;
     transform: translateX(-100%);
     box-shadow: 2px 0 8px rgba(0,0,0,0.1);
     padding-top: 4rem;
+    left: 0;
+    top: 0;
   }
 
   /* For Firefox */
@@ -135,8 +146,10 @@
   }
 }
 
+/* Ensure the menu is visible when active */
 .lock-scroll .main-menu-nav {
   transform: translateX(0);
+  visibility: visible;
 }
 
 .main-menu,

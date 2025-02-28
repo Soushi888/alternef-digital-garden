@@ -66,7 +66,7 @@ export default ((userOpts?: Options) => {
 
     return (
       <div class={classNames(displayClass, "main-menu-container")}>
-        <button id="mobile-menu-toggle" aria-label="Open menu">
+        <button id="mobile-menu-toggle" aria-label="Toggle menu">
           <div class="hamburger-icon">
             <span></span>
             <span></span>
@@ -79,7 +79,7 @@ export default ((userOpts?: Options) => {
           </div>
           
           <div class="knowledge-base">
-            <h3><span class="icon">🌺</span>Knowledge Garden</h3>
+            <h3><a href="/knowledge"><span class="icon">🌺</span> Knowledge Garden</a></h3>
             <div class="permaculture-petals">
               {renderMenu(permaculturePetals)}
             </div>
