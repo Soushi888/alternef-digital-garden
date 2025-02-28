@@ -1,58 +1,52 @@
 ---
-title: Alternef Digital Garden - Knowledge Base
+title: Knowledge Base
+description: A holistic exploration of human knowledge, interconnected domains, and transformative understanding
 tags:
-  - knowledge-management
-  - personal-wiki
-  - interdisciplinary-learning
+  - knowledge
+  - interdisciplinary
+  - systems-thinking
+  - learning
+  - human-potential
 ---
 
-## Interconnected Knowledge Ecosystem
+## Overview
 
-Welcome to the Alternef Digital Garden's Knowledge Base – a dynamic, interconnected repository of insights spanning multiple domains of human experience and understanding.
-
-### Inspired by Permaculture Principles
-
-This knowledge base is structured around the seven domains of knowledge, drawing inspiration from the holistic design principles of permaculture. Just as permaculture seeks to create sustainable and regenerative systems by understanding the interconnections between different elements, our knowledge base aims to explore the intricate relationships across diverse domains of human experience.
-
-The seven domains represent a holistic approach to understanding our world:
-
-- Recognizing the interconnectedness of different aspects of life
-- Promoting systemic thinking
-- Valuing diversity and complex interactions
-- Seeking regenerative and sustainable solutions
+This knowledge base represents an interconnected exploration of human experience, understanding, and potential across diverse domains of knowledge and practice.
 
 ## Knowledge Domains
 
-### 1. [[knowledge/land-and-nature-stewardship|Land and Nature Stewardship]]
+### 1. Tools and Technology
+Exploring technological innovations, computational systems, and the transformative power of human creativity in digital and physical realms.
 
-Exploring regenerative practices, environmental stewardship, and our relationship with the natural world.
+### 2. Built Environment
+Examining human-made spaces, architectural design, and the intricate relationship between human societies and their physical surroundings.
 
-### 2. [[knowledge/built-environment|Built Environment]]
+### 3. Culture and Education
+Investigating learning paradigms, cultural dynamics, and the transmission of knowledge across human communities.
 
-Investigating infrastructure design, community spaces, and architectural innovation.
+### 4. Finance and Economics
+Delving into economic systems, value creation, and the complex mechanisms of resource allocation and human collaboration.
 
-### 3. [[knowledge/tools-and-technology|Tools and Technology]]
+### 5. Governance and Community
+Exploring collective organization, social dynamics, and collaborative approaches to addressing shared challenges.
 
-Examining technological innovations and their transformative impact on human society and problem-solving.
+### 6. Health and Wellbeing
+Examining the multidimensional nature of human wellness, integrating physical, mental, emotional, and spiritual perspectives.
 
-### 4. [[knowledge/culture-and-education|Culture and Education]]
+### 7. Land and Nature Stewardship
+Investigating the profound relationship between humans and the natural world, emphasizing regenerative practices and ecological understanding.
 
-Delving into educational innovation, knowledge sharing, and intercultural understanding.
+## Guiding Principles
+- Holistic and interconnected thinking
+- Continuous learning and adaptation
+- Respect for diverse knowledge systems
+- Ethical and sustainable approaches
+- Transformative understanding
 
-### 5. [[knowledge/health-and-wellbeing|Health and Wellbeing]]
+## Learning Approach
+- Interdisciplinary exploration
+- Critical and reflective thinking
+- Practical and theoretical integration
+- Embracing complexity and nuance
 
-Focusing on holistic approaches to personal and community health, nutrition, and preventive strategies.
-
-### 6. [[knowledge/finance-and-economics|Finance and Economics]]
-
-Analyzing sustainable economics, investment strategies, and economic policy.
-
-### 7. [[knowledge/governance-and-community|Governance and Community]]
-
-Exploring social collaboration, participatory democracy, and collective decision-making.
-
-## Navigating the Knowledge Base
-
-This digital garden is designed as an interconnected ecosystem, where ideas flow and intersect across different domains. Each section represents a unique lens through which we can understand and engage with complex systems and human experiences.
-
-Use the sidebar or navigation to explore individual domains, and discover the rich, interconnected nature of knowledge.
+*A living document reflecting the dynamic landscape of human knowledge and potential.*
