@@ -103,7 +103,9 @@ Here's a sentence with a footnote.[^1]
 ## Digital Gardens and Markdown
 
 ### Markdown in Knowledge Management
+
 Markdown plays a crucial role in [[digital-garden|Digital Gardens]], providing a lightweight, readable format for creating and organizing interconnected notes. In digital gardens, Markdown enables:
+
 - Easy content creation
 - Simple formatting
 - Seamless linking between ideas
@@ -112,7 +114,7 @@ Learn more about the broader context of digital gardens and their approach to kn
 
 ## Usage in Digital Gardens
 
-In digital gardens like the [[Alternef Digital Garden]], Markdown serves as the primary content format:
+In digital gardens like the [[/|Alternef Digital Garden]], Markdown serves as the primary content format:
 
 - Easy content creation
 - Simple version control
@@ -123,7 +125,7 @@ In digital gardens like the [[Alternef Digital Garden]], Markdown serves as the 
 
 ### Static Site Generators
 
-- [[Quartz]]
+- [[quartz|Quartz]]
 - Hugo
 - Jekyll
 - Gatsby

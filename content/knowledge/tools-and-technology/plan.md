@@ -190,7 +190,7 @@ related pages:
 - Start with a clear, concise introduction
 - Use bullet points for key information
 - Include citations and references
-- Use wikilinks `[[Page Name]]` for internal links
+- Use wikilinks `[[page-name|Page Name]]` for internal links
 
 ### Naming Conventions
 

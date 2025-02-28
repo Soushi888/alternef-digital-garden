@@ -56,5 +56,5 @@ Metera is a decentralized platform built on [[Cardano]] that enables users to cr
 
 ## Related Technologies
 
-[[Cardano]] - The underlying blockchain platform
-[[Unspent Transaction Output|UTXO]] - Cardano's transaction model
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/pos/cardano/index|Cardano]] - The underlying blockchain platform
+[[utxo|Unspent Transaction Output]] - Cardano's transaction model

@@ -34,19 +34,19 @@ Cardano is a decentralized, open-source blockchain platform that aims to provide
 
 ### Blockchain Infrastructure
 
-- [[Unspent Transaction Output|UTXO]] Extended Model
+- [[utxo|Unspent Transaction Output]] Extended Model
 - Native Token Support
 - Advanced Smart Contract Capabilities
 
 ### Development Tools
 
-- [[Aiken]] - Smart contract development platform
-- [[TapTool]] - Development and deployment tools
-- [[Singularity Network]] - Advanced blockchain solutions
+- [[aiken|Aiken]] - Smart contract development platform
+- [[taptool|TapTool]] - Development and deployment tools
+- [[singularity-network|Singularity Network]] - Advanced blockchain solutions
 
 ### Ecosystem Projects
 
-- [[Metera]] - Decentralized portfolio management
+- [[metera|Metera]] - Decentralized portfolio management
 - Various DeFi and dApp projects
 
 ## Technical Innovations
@@ -70,6 +70,6 @@ Cardano is a decentralized, open-source blockchain platform that aims to provide
 
 ## Related Technologies
 
-[[Proof of Stake]] - Consensus mechanism
-[[Blockchain]] - Foundational technology
-[[Web 3]] - Decentralized web ecosystem
+[[proof-of-stake|Proof of Stake]] - Consensus mechanism
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/index|Blockchain]] - Foundational technology
+[[web-3|Web 3]] - Decentralized web ecosystem

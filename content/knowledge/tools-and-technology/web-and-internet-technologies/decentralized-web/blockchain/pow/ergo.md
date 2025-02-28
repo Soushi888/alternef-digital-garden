@@ -1,6 +1,16 @@
-#blockchains/PoW 
-[[Zero-knowledge proofs]]
-[[Unspent Transaction Output|UTXO]]
-[[UTXO Alliance]]
+---
+title: Ergo
+description: What is Ergo?
+tags:
+    - blockchain
+    - cryptocurrency
+    - ergo
+---
 
-[[Rosen Bridge]]
+
+[[zero-knowledge-proofs|Zero-knowledge proofs]]
+[[utxo|Unspent Transaction Output]]
+[[utxo-alliance|UTXO Alliance]]
+[[proof-of-work|Proof of Work]]
+
+[[rosen-bridge|Rosen Bridge]]

@@ -1,4 +1,6 @@
 ---
+title: Bitcoin
+description: What is Bitcoin?
 aliases: [BTC]
 ---
 
