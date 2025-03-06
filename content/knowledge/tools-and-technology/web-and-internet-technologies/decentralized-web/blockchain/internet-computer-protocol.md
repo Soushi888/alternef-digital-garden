@@ -1,19 +1,74 @@
 ---
-aliases:
+title: Internet Computer Protocol (ICP)
+description: A revolutionary blockchain protocol enabling decentralized internet computing
+aliases: 
   - ICP
   - Internet Computer
+tags:
+  - blockchain
+  - decentralization
+  - internet-protocols
+  - web3
+related pages:
+  - "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/index|Blockchain]]"
+  - "[[knowledge/tools-and-technology/index|Tools and Technology]]"
 ---
 
+## Overview
 
-[[Blockchain]]
+The Internet Computer Protocol (ICP) is an innovative blockchain technology developed by the DFINITY Foundation, designed to create a decentralized, comprehensive internet computing platform.
 
-[Home | Internet Computer](https://internetcomputer.org)
-> Step into the era of blockchain as a limitless smart contract cloud that hosts everything on-chain: data, content, computations, and user experiences.
+## Key Characteristics
 
-The Internet Computer is a blockchain project developed by the DFINITY Foundation. It aims to create a decentralized internet where software can be built and run with the same capabilities as traditional web services, but with the added benefits of blockchain technology. The Internet Computer extends the functionality of the public internet so that it can host software, making next-generation dapps and open internet services possible. It is powered by machines in data centers across the world that communicate through the Internet Computer Protocol (ICP) [source](https://medium.com/dfinity/achieving-consensus-on-the-internet-computer-ee9fbfbafcbc#fd10).
+### Core Purpose
 
-The Internet Computer uses a novel consensus protocol to maintain a coherent state across its network. This protocol ensures that all nodes in a subnet process the same messages in the same order. The consensus protocol achieves this by creating a chain of blocks containing the inputs and handing over the content to the message routing layer, which ensures that the inputs reach their targets. The protocol relies on an unbiased and unpredictable pseudorandom function to determine which node is supposed to create the next block [source](https://internetcomputer.org/blog/features/node-metrics#how-consensus-has-always-worked).
+- Host software and services entirely on-chain
+- Extend internet functionality through blockchain
+- Enable next-generation decentralized applications (dapps)
 
-A unique aspect of the Internet Computer's consensus protocol is that it provides cryptographically guaranteed finality, which is different from other consensus protocols, such as the one used by Bitcoin, which provides probabilistic finality [source](https://internetcomputer.org/docs/current/tutorials/developer-journey/level-0/ic-overview#consensus).
+### Technical Innovations
 
-The consensus algorithm of the Internet Computer uses a voting mechanism that does not waste power on computing hashes of artificial difficulties, making it more energy-efficient than Proof-of-Work-based blockchains [source](https://support.dfinity.org/hc/en-us/articles/4417926836372-Is-there-anything-the-Internet-Computer-Protocol-is-doing-or-anything-about-the-technology-that-makes-it-an-environmentally-sustainable-option).
+- Novel consensus protocol
+- Cryptographically guaranteed finality
+- Energy-efficient blockchain architecture
+
+## Consensus Mechanism
+
+### Unique Approach
+
+- Unbiased pseudorandom function for block creation
+- Deterministic message routing
+- Subnet-based network architecture
+
+### Comparative Advantages
+
+- Cryptographic finality vs. probabilistic finality
+- Low energy consumption
+- Scalable network design
+
+## Architectural Principles
+
+### Distributed Computing
+
+- Global network of independent data centers
+- Seamless software deployment
+- Transparent, decentralized infrastructure
+
+### Security and Performance
+
+- Cryptographic message validation
+- Consistent state across network nodes
+- Efficient computational model
+
+## Potential Applications
+
+- Decentralized web services
+- Smart contract platforms
+- Distributed computing environments
+- Transparent, trustless applications
+
+## Future Implications
+
+- Reimagining internet infrastructure
+- Democratizing computational resources
+- Enabling new paradigms of digital interaction
