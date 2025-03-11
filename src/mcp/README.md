@@ -1,11 +1,4 @@
----
-title: Alternef Digital Garden MCP Implementation
-description: Documentation for the Model Context Protocol implementation for the Alternef Digital Garden
-tags:
-  - mcp
-  - digital-garden
-  - documentation
----
+# Alternef Digital Garden MCP Implementation
 
 ## Overview
 
@@ -77,20 +70,20 @@ bun run src/utils/test-mcp.ts
 
 ## Implementation Details
 
-The MCP implementation follows functional programming principles using the fp-ts library. It leverages several key functional programming concepts:
+The MCP implementation follows functional programming principles using the Effect library. It leverages several key functional programming concepts:
 
 ### Functional Error Handling
 
-The implementation uses the `TaskEither` monad from fp-ts to handle asynchronous operations that may fail:
+The implementation uses the `Effect` type from Effect to handle asynchronous operations that may fail:
 
 ```typescript
-const ensureDomainDir = (domain: KnowledgeDomain): TE.TaskEither<Error, void> =>
-  TE.tryCatch(
-    async () => {
+const ensureDomainDir = (domain: KnowledgeDomain) =>
+  Effect.tryPromise({
+    try: async () => {
       await fs.mkdir(path.join(KNOWLEDGE_DIR, domain), { recursive: true })
     },
-    (reason) => new Error(`Failed to create domain directory: ${reason}`),
-  )
+    catch: (reason) => new Error(`Failed to create domain directory: ${reason}`)
+  })
 ```
 
 ### Function Composition
@@ -98,17 +91,10 @@ const ensureDomainDir = (domain: KnowledgeDomain): TE.TaskEither<Error, void> =>
 Operations are composed using the `pipe` function, allowing for clean and readable code:
 
 ```typescript
-const ensureDirs = (): TE.TaskEither<Error, undefined> =>
+const ensureDirs = () =>
   pipe(
     ensureKnowledgeDir(),
-    TE.chain(() =>
-      pipe(
-        [...KnowledgeDomains],
-        A.map(ensureDomainDir),
-        TE.sequenceArray,
-        TE.map(() => undefined),
-      ),
-    ),
+    Effect.flatMap(() => Effect.forEach(KnowledgeDomains, ensureDomainDir))
   )
 ```
 
@@ -122,7 +108,7 @@ Data is treated as immutable, with transformations creating new data rather than
 
 ### Type Safety
 
-The implementation leverages TypeScript's strong typing system along with fp-ts to ensure type safety throughout the codebase.
+The implementation leverages TypeScript's strong typing system along with Effect to ensure type safety throughout the codebase.
 
 ### Metadata Structure
 
@@ -159,7 +145,7 @@ The implementation enforces the project's linking conventions, using full paths 
 
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io)
 - [Quartz Documentation](https://quartz.jzhao.xyz/)
-- [fp-ts Documentation](https://gcanti.github.io/fp-ts/)
-- [Functional Programming in TypeScript](https://github.com/gcanti/functional-programming)
-- [TaskEither Documentation](https://gcanti.github.io/fp-ts/modules/TaskEither.ts.html)
+- [Effect Documentation](https://effect.website/docs)
+- [Functional Programming in TypeScript with Effect](https://effect.website/docs/getting-started)
+- [Effect vs fp-ts](https://effect.website/docs/additional-resources/effect-vs-fp-ts)
 - [Zod Schema Validation](https://github.com/colinhacks/zod)

@@ -1,0 +1,17 @@
+{
+  "name": "alternef-digital-garden-mcp",
+  "module": "mcp-server",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/mcp-server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "effect": "^3.13.10"
+  }
+}

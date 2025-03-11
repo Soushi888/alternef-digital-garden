@@ -9,11 +9,8 @@ import { z } from "zod"
 import fs from "fs/promises"
 import path from "path"
 import matter from "gray-matter"
-import { pipe, flow } from "fp-ts/function"
-import * as E from "fp-ts/Either"
-import * as TE from "fp-ts/TaskEither"
-import * as A from "fp-ts/Array"
-import * as O from "fp-ts/Option"
+import { Effect, pipe } from "effect"
+import * as Either from "effect/Either"
 
 // Content Metadata Schema
 const ContentMetadataSchema = z.object({
@@ -53,37 +50,35 @@ const normalizeTag = (tag: string): string => tag.toLowerCase().replace(/\s+/g, 
 
 const normalizeTags = (tags?: string[]): string[] => tags?.map(normalizeTag) ?? []
 
-const readFileContents = (filePath: string): TE.TaskEither<Error, string> =>
-  TE.tryCatch(
-    () => fs.readFile(filePath, "utf8"),
-    (reason) => new Error(`Failed to read file: ${reason}`),
-  )
+const readFileContents = (filePath: string) =>
+  Effect.tryPromise({
+    try: () => fs.readFile(filePath, "utf8"),
+    catch: (reason: unknown) => new Error(`Failed to read file: ${reason}`),
+  })
 
-const parseFileMetadata = (fileContents: string): E.Either<Error, ContentMetadata> =>
-  E.tryCatch(
-    () => {
+const parseFileMetadata = (fileContents: string) =>
+  Either.try({
+    try: () => {
       const { data } = matter(fileContents)
       return ContentMetadataSchema.parse(data)
     },
-    (reason) => new Error(`Failed to parse metadata: ${reason}`),
-  )
+    catch: (reason: unknown) => new Error(`Failed to parse metadata: ${reason}`),
+  })
 
-const enrichMetadata =
-  (filePath: string) =>
-  (metadata: ContentMetadata): TE.TaskEither<Error, ContentMetadata> =>
-    TE.tryCatch(
-      async () => ({
-        ...metadata,
-        lastModified: metadata.lastModified ?? (await fs.stat(filePath)).mtime,
-        tags: normalizeTags(metadata.tags),
-      }),
-      (reason) => new Error(`Failed to enrich metadata: ${reason}`),
-    )
+const enrichMetadata = (filePath: string) => (metadata: ContentMetadata) =>
+  Effect.tryPromise({
+    try: async () => ({
+      ...metadata,
+      lastModified: metadata.lastModified ?? (await fs.stat(filePath)).mtime,
+      tags: normalizeTags(metadata.tags),
+    }),
+    catch: (reason: unknown) => new Error(`Failed to enrich metadata: ${reason}`),
+  })
 
 // Functional Content Discovery
-const walkDirectory = (rootPath: string): TE.TaskEither<Error, string[]> =>
-  TE.tryCatch(
-    async () => {
+const walkDirectory = (rootPath: string) =>
+  Effect.tryPromise({
+    try: async () => {
       const walkDir = async (dir: string): Promise<string[]> => {
         const entries = await fs.readdir(dir, { withFileTypes: true })
         const files = await Promise.all(
@@ -96,28 +91,28 @@ const walkDirectory = (rootPath: string): TE.TaskEither<Error, string[]> =>
       }
       return walkDir(rootPath)
     },
-    (reason) => new Error(`Directory walk failed: ${reason}`),
-  )
+    catch: (reason: unknown) => new Error(`Directory walk failed: ${reason}`),
+  })
 
-const findRelatedContent =
-  (tags: string[]) =>
-  (allFiles: string[]): TE.TaskEither<Error, string[]> =>
-    pipe(
-      allFiles,
-      TE.traverseArray((file) =>
-        pipe(
-          readFileContents(file),
-          TE.chain(
-            flow(
-              parseFileMetadata,
-              E.map((metadata) => (metadata.tags?.some((tag) => tags.includes(tag)) ? file : null)),
-              TE.fromEither,
-            ),
-          ),
-        ),
+const findRelatedContent = (tags: string[]) => (allFiles: string[]) =>
+  pipe(
+    Effect.forEach(allFiles, (file: string) =>
+      pipe(
+        readFileContents(file),
+        Effect.flatMap((content: string) => {
+          const metadata = parseFileMetadata(content)
+          return Either.match(metadata, {
+            onLeft: () => Effect.succeed(null),
+            onRight: (meta: ContentMetadata) =>
+              meta.tags?.some((tag: string) => tags.includes(tag))
+                ? Effect.succeed(file)
+                : Effect.succeed(null),
+          })
+        }),
       ),
-      TE.map((files) => files.filter((file): file is string => file !== null)),
-    )
+    ),
+    Effect.map((files) => files.filter((file): file is string => file !== null)),
+  )
 
 // Link Management
 const createWikilink = (targetPath: string, displayName?: string): string => {
@@ -146,15 +141,20 @@ const addWikilinkToContent = (
 // Model Context Protocol as a Functional Module
 const createModelContextProtocol = (contentRootPath: string) => {
   return {
-    readFileContext: (filePath: string): TE.TaskEither<Error, ContentContext> =>
+    readFileContext: (filePath: string) =>
       pipe(
         readFileContents(filePath),
-        TE.chain((content) =>
+        Effect.flatMap((content: string) =>
           pipe(
-            parseFileMetadata(content),
-            TE.fromEither,
-            TE.chain(enrichMetadata(filePath)),
-            TE.map((metadata) => ({
+            Effect.succeed(parseFileMetadata(content)),
+            Effect.flatMap(
+              Either.match({
+                onLeft: (error) => Effect.fail(error),
+                onRight: (metadata) => Effect.succeed(metadata),
+              }),
+            ),
+            Effect.flatMap(enrichMetadata(filePath)),
+            Effect.map((metadata: ContentMetadata) => ({
               filePath,
               content,
               metadata,
@@ -163,8 +163,8 @@ const createModelContextProtocol = (contentRootPath: string) => {
         ),
       ),
 
-    findRelatedContent: (tags: string[]): TE.TaskEither<Error, string[]> =>
-      pipe(walkDirectory(contentRootPath), TE.chain(findRelatedContent(tags))),
+    findRelatedContent: (tags: string[]) =>
+      pipe(walkDirectory(contentRootPath), Effect.flatMap(findRelatedContent(tags))),
 
     createNote: (
       domain: KnowledgeDomain,
@@ -172,9 +172,9 @@ const createModelContextProtocol = (contentRootPath: string) => {
       description: string,
       content: string,
       tags: string[] = [],
-    ): TE.TaskEither<Error, string> =>
-      TE.tryCatch(
-        async () => {
+    ) =>
+      Effect.tryPromise({
+        try: async () => {
           const normalizedTitle = title.toLowerCase().replace(/\s+/g, "-")
           const domainPath = path.join(contentRootPath, "knowledge", domain)
 
@@ -194,17 +194,17 @@ const createModelContextProtocol = (contentRootPath: string) => {
 
           return filePath
         },
-        (reason) => new Error(`Note creation failed: ${reason}`),
-      ),
+        catch: (reason: unknown) => new Error(`Note creation failed: ${reason}`),
+      }),
 
     createBidirectionalLink: (
       sourcePath: string,
       targetPath: string,
       sourceDisplayName?: string,
       targetDisplayName?: string,
-    ): TE.TaskEither<Error, void> =>
-      TE.tryCatch(
-        async () => {
+    ) =>
+      Effect.tryPromise({
+        try: async () => {
           const sourceContent = await fs.readFile(sourcePath, "utf8")
           const targetContent = await fs.readFile(targetPath, "utf8")
 
@@ -222,20 +222,20 @@ const createModelContextProtocol = (contentRootPath: string) => {
           await fs.writeFile(sourcePath, updatedSourceContent)
           await fs.writeFile(targetPath, updatedTargetContent)
         },
-        (reason) => new Error(`Link creation failed: ${reason}`),
-      ),
+        catch: (reason: unknown) => new Error(`Link creation failed: ${reason}`),
+      }),
 
-    buildGarden: (): TE.TaskEither<Error, void> =>
-      TE.tryCatch(
-        async () => {
+    buildGarden: () =>
+      Effect.tryPromise({
+        try: async () => {
           const { exec } = require("child_process")
           const util = require("util")
           const execAsync = util.promisify(exec)
 
           await execAsync("npx quartz build", { cwd: contentRootPath })
         },
-        (reason) => new Error(`Garden build failed: ${reason}`),
-      ),
+        catch: (reason: unknown) => new Error(`Garden build failed: ${reason}`),
+      }),
 
     getKnowledgeDomains: (): KnowledgeDomain[] => [...KnowledgeDomains],
   }
