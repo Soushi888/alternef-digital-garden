@@ -9,6 +9,9 @@ updates:
         applies-to: "version-updates"
         patterns:
           - "*"
+    ignore:
+      - dependency-name: "shiki"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
