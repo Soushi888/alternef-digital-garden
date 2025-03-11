@@ -1,114 +1,132 @@
 ---
+title: What is Holochain?
+description: A comprehensive explanation of Holochain's unique approach to distributed computing and its key differentiators
 tags:
+  - holochain
   - p2p
-  - decentralized-technology
+  - decentralized-web
+  - distributed-systems
+  - agent-centric
+aliases:
+  - Holochain Explained
+  - Holochain Overview
 related pages:
-  - "[[web3|Web3]]"
-  - "[[local-first|Local-first]]"
-  - "[[layer0|Layer0]]"
-  - "[[holism|Holism]]"
+  - "[[../concepts/web3|Web3]]"
+  - "[[../concepts/local-first|Local-first]]"
+  - "[[../concepts/layer0|Layer0]]"
+  - "[[../index|Holochain]]"
 ---
-# Holochain: Revolutionizing Distributed Computing
 
-Framework pour créer des applications [[peer-to-peer|Pair-à-Pair]] et des [[distributed-system|Systèmes Distribués]] agent-centriques.
+# What is Holochain?
 
-## Contexte Technologique
+Holochain is a framework for building peer-to-peer applications and agent-centric distributed systems. It offers a revolutionary approach to decentralized computing that differs significantly from blockchain-based systems.
 
-### Paradigmes Émergents
+## Technological Context
 
-1. [[distributed-system|Systèmes Distribués]]
-2. [[distributed-system|Systèmes Distribués]]
-3. [[peer-to-peer|Peer to Peer]]
-4. [[decentralized-technology|Decentralized Technology]]
-5. [[local-first-software|Local-first Software]]
+### Emerging Paradigms
 
-## Vue d'ensemble
+1. [[../../../../../../infrastructure-and-networks/distributed-systems/index|Distributed Systems]]
+2. [[../../peer-to-peer/index|Peer-to-Peer Networks]]
+3. [[../../index|Decentralized Technology]]
+4. [[../concepts/local-first|Local-first Software]]
+5. [[../concepts/web3|Web3]]
 
-[[holochain|Holochain]] est une plateforme de développement qui permet de créer des applications distribuées sans dépendre d'une blockchain centralisée. Son approche agent-centrique et biomimétique en fait une alternative unique dans l'écosystème Web3.
+## Overview
 
-## Architecture Fondamentale
+Holochain is a development platform that enables the creation of distributed applications without relying on centralized blockchain architecture. Its agent-centric and biomimetic approach makes it a unique alternative in the Web3 ecosystem.
 
-### Concepts Clés
+## Fundamental Architecture
 
-1. **[[agent|Agent]]**: L'unité fondamentale, chaque utilisateur est un agent autonome
-2. **[[source-chain|Source Chain]]**: Historique personnel cryptographique de chaque agent
-3. **[[distributed-hash-table|Distributed Hash Table]]**: Espace de stockage distribué pour le partage de données
-4. **[[validation-rules|Validation Rules]]**: Garantissent l'intégrité du système
-5. **[[agent-centric-architecture|Agent-Centric Architecture]]**: Paradigme de conception unique
+### Key Concepts
 
-### Structure Applicative
+1. **[[../concepts/action|Agent]]** - The fundamental unit; each user is an autonomous agent
+2. **[[../concepts/source-chain|Source Chain]]** - Personal cryptographic history chain for each agent
+3. **[[../concepts/distributed-hash-table|Distributed Hash Table]]** - Distributed storage space for data sharing
+4. **Validation Rules** - Ensure system integrity through distributed validation
+5. **[[../concepts/agent-centric|Agent-Centric Architecture]]** - Unique design paradigm
 
-1. **[[happ|hApp]]**: Application Holochain complète
-2. **[[dna|DNA]]**: Règles et logique métier
-3. **[[zome|Zome]]**: Modules fonctionnels d'une DNA
-4. **[[conductor|Conductor]]**: Runtime qui exécute les hApps
-5. **[[capability-tokens|Capability Tokens]]**: Gestion des autorisations
+### Application Structure
 
-## Développement
+1. **hApp** - Complete Holochain application
+2. **DNA** - Rules and business logic
+3. **[[../concepts/zome|Zome]]** - Functional modules of a DNA
+4. **[[../architecture/conductor|Conductor]]** - Runtime that executes hApps
+5. **[[../concepts/capability-tokens|Capability Tokens]]** - Permission management
 
-### Écosystème Technique
+## Development
 
-1. **Langage**: [[rust/index|Rust]]
+### Technical Ecosystem
+
+1. **Language**: [[../../../../programming/languages/rust/index|Rust]]
 2. **Frameworks**:
-   - [[holochain-development-kit|HDK]] (Holochain Development Kit)
-   - [[holochain-development-interface|HDI]] (Holochain Development Interface)
-3. **Outils**:
-   - [[holochain-scaffolding-tool|Holochain Scaffolding tool]]
-   - [[lair-keystore|Lair Keystore]]
+   - HDK (Holochain Development Kit)
+   - HDI (Holochain Development Interface)
+3. **Tools**:
+   - [[../development/holochain-scaffolding-tool|Holochain Scaffolding tool]]
+   - [[../development/lair-keystore|Lair Keystore]]
 
-### Approches de Développement
+### Development Approaches
 
-1. [[functional-programming|Functional Programming]]
-2. [[reactive-programming|Reactive Programming]]
-3. [[distributed-computing|Distributed Computing]]
-4. [[modular-architecture|Modular Architecture]]
-5. [[event-driven-design|Event-Driven Design]]
+1. Functional Programming
+2. Reactive Programming
+3. Distributed Computing
+4. Modular Architecture
+5. Event-Driven Design
 
-## Cas d'Usage
+## Use Cases
 
-### Modèles de Gouvernance
+### Governance Models
 
-1. [[dao|DAO]]
-2. [[voting-systems|Voting Systems]]
-3. [[reputation-systems|Reputation Systems]]
-4. [[distributed-governance|Distributed Governance]]
-5. [[collaborative-platforms|Collaborative Platforms]]
+1. DAOs (Decentralized Autonomous Organizations)
+2. Voting Systems
+3. Reputation Systems
+4. Distributed Governance
+5. Collaborative Platforms
 
-### Applications Émergentes
+### Emerging Applications
 
-1. Réseaux Sociaux Décentralisés
-2. Systèmes de Réputation
-3. Monnaies Mutuelles
-4. [[sharing-economy|Sharing Economy]]
-5. [[coordination-tools|Coordination Tools]]
+1. Decentralized Social Networks
+2. Reputation Systems
+3. Mutual Currencies
+4. Sharing Economy
+5. Coordination Tools
 
-## Concepts Philosophiques
+## Philosophical Concepts
 
-1. [[biomimetic-design|Biomimetic Design]]
-2. [[holistic-systems|Holistic Systems]]
-3. [[cryptographic-autonomy|Cryptographic Autonomy]]
-4. [[self-organizing-systems|Self-Organizing Systems]]
-5. [[regenerative-technology|Regenerative Technology]]
+1. Biomimetic Design - Systems inspired by natural patterns
+2. Holistic Systems - Considering the whole rather than just parts
+3. Cryptographic Autonomy - Preserving user sovereignty
+4. Self-Organizing Systems - Emergent order without central control
+5. Regenerative Technology - Creating systems that build capacity over time
 
-## Écosystème
+## Ecosystem
 
-![[ecosystem.canvas]]
+### Core Components
 
-### Composants Principaux
+1. **[[../cryptographic-autonomy-license|Cryptographic Autonomy License]]** - Protects user autonomy
+2. **[[../development/index|Development]]** - Tools and resources
+3. **[[../ecosystem/index|Ecosystem]]** - Projects and community
 
-1. **[[cryptographic-autonomy-license|Cryptographic Autonomy License]]**: Protège l'autonomie des utilisateurs
-2. **[[development|Development]]**: Outils et ressources
-3. **[[ecosystem|Ecosystem]]**: Projets et communauté
+## Key Differentiators from Blockchain
 
-## Tags
+1. **Agent-Centricity** - Focus on individual agency rather than global consensus
+2. **Scalability** - Naturally scales with the number of users
+3. **Energy Efficiency** - No mining or proof-of-work required
+4. **Data Sovereignty** - Users control their own data
+5. **Application-Specific Validation** - Rules tailored to each application
 
-- Frameworks: #holochain/frameworks
-- Applications: #holochain/hApps
-- Monnaies Mutuelles: #holochain/mutual-currencies
+## Getting Started
 
-## Pages Connexes
+1. Explore the [[introduction-to-holochain|Introduction to Holochain]]
+2. Learn about [[../architecture/index|Holochain Architecture]]
+3. Dive into [[../development/index|Development Resources]]
+4. Discover [[../use-cases/index|Use Cases]]
+5. Join the [[../ecosystem/index|Holochain Community]]
 
-1. [[web3|Web3]]
-2. [[local-first|Local-first]]
-3. [[layer0|Layer0]]
-4. [[holism|Holism]]
+## Related Topics
+
+- [[../concepts/web3|Web3]]
+- [[../concepts/local-first|Local-first]]
+- [[../concepts/layer0|Layer0]]
+- [[../../blockchain/index|Blockchain]]
+- [[../../peer-to-peer/index|Peer-to-Peer Networks]]
