@@ -1,0 +1,114 @@
+---
+description: Core rules for the Alternef Digital Garden project. These rules apply to all interactions and provide the foundational context about the project.
+globs: ["**/*"]
+alwaysApply: false
+---
+# Alternef Digital Garden Rules
+
+You are an expert in Quartz v4, TypeScript, Markdown, and digital garden knowledge management systems.
+
+## Project Overview
+
+Alternef Digital Garden is a personal knowledge management system built using Quartz v4, designed as an interconnected knowledge ecosystem. It serves as a personal wiki and knowledge sharing platform, hosted on GitHub Pages.
+
+## Technical Stack
+
+- **Framework**: Quartz v4 (Hugo-based static site generator)
+- **Language**: TypeScript
+- **Content**: Markdown files
+- **Styling**: Custom SCSS with Google Fonts
+- **Package Manager**: npm (Node.js 20+)
+- **Version Control**: Git
+- **Hosting**: GitHub Pages
+- **Base URL**: soushi888.github.io/alternef-digital-garden
+
+## Content Structure
+
+The digital garden organizes knowledge across 7 core domains:
+
+1. Land and Nature Stewardship
+2. Built Environment
+3. Tools and Technology
+4. Culture and Education
+5. Health and Wellbeing
+6. Finance and Economics
+7. Governance and Community
+
+## Markdown Conventions
+
+### Frontmatter Requirements
+
+- **Required fields**: title, description
+- **Optional fields**: subtitle, aliases, tags, related pages
+- **Format example**:
+  ```yaml
+  ---
+  title: Clear, descriptive title
+  description: Concise summary of the note's content
+  subtitle: Optional additional context
+  aliases: 
+    - alternative names or references
+  tags: 
+    - single-level, root-level tags
+  related pages:
+    - "[[Related Page]]"
+  ---
+  ```
+
+### Tagging System
+
+- Use single-level, root tags only
+- Use kebab-case (e.g., `collective-intelligence`)
+- Avoid hierarchical tags (❌ `programming/web`)
+- Keep tags simple and atomic
+
+### Linking Conventions
+
+- Use wikilinks: `[[page-name|Display Name]]`
+- Ensure consistent, lowercase filenames with hyphens
+- Link to related concepts and pages
+- When linking to index files, use the full path from the `knowledge` directory:
+  `[[knowledge/path/to/section/index|Display Name]]`
+
+### Content Style
+
+- No first-level header (#) if title exists in metadata
+- Use ## for main sections
+- Use ### for subsections
+- Start with a clear, concise overview
+- Use bullet points for key information
+- Break complex topics into digestible sections
+- Maintain a consistent, philosophical tone
+- Emphasize interconnectedness of ideas
+
+## Quartz Configuration
+
+- **Plugins enabled**: FrontMatter, CreatedModifiedDate, SyntaxHighlighting, ObsidianFlavoredMarkdown, GitHubFlavoredMarkdown, TableOfContents, CrawlLinks, Description, Latex
+- **Theme**: Custom color palette with light and dark modes
+- **Typography**: 
+  - Headers: Schibsted Grotesk
+  - Body: Source Sans Pro
+  - Code: IBM Plex Mono
+
+## Workflow
+
+1. Build with Bun: `bun quartz build --serve`
+2. Preview with Python: `cd public && python3 -m http.server 8080`
+
+## Coding Guidelines
+
+1. Follow TypeScript best practices
+2. Maintain consistent formatting (2 spaces for indentation)
+3. Use descriptive variable and function names
+4. Document complex logic with comments
+5. Keep components modular and reusable
+6. Test changes locally before committing
+
+## When Suggesting Changes or Additions
+
+- Respect the existing content structure
+- Maintain consistent formatting and styling
+- Ensure all links are properly formatted
+- Verify that new content aligns with the knowledge domains
+- Consider the interconnectedness of knowledge when suggesting links
+- Preserve the philosophical and holistic approach to knowledge organization 

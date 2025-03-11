@@ -1,0 +1,82 @@
+---
+description: Rules for TypeScript development in Quartz v4. Apply these rules when working with TypeScript files, Quartz plugins, or component development.
+globs: ["**/*.ts", "**/*.tsx", "quartz/**/*.ts", "quartz/**/*.tsx"]
+---
+# TypeScript Development Rules
+
+## Quartz v4 Development
+
+When working with Quartz v4 codebase:
+
+- Understand the plugin architecture (transformers, filters, emitters)
+- Follow the existing patterns for plugin development
+- Use TypeScript interfaces for plugin configuration
+- Respect the content processing pipeline
+
+## Code Style
+
+- Use 2 spaces for indentation
+- Use double quotes for strings
+- Use semicolons at the end of statements
+- Use trailing commas in multi-line object/array literals
+- Keep line length under 100 characters
+- Use descriptive variable and function names
+
+## TypeScript Best Practices
+
+- Use explicit typing rather than relying on inference when intent isn't clear
+- Use interfaces for object shapes
+- Use type aliases for complex types
+- Use generics for reusable components
+- Use readonly for immutable properties
+- Use optional properties with care
+
+## Component Structure
+
+- Keep components small and focused
+- Use functional components
+- Separate logic from presentation
+- Use proper TypeScript interfaces for props
+- Document complex logic with comments
+
+## Plugin Development
+
+When creating or modifying Quartz plugins:
+
+- Follow the plugin interface definitions
+- Implement proper error handling
+- Document the plugin's purpose and configuration options
+- Test thoroughly with different content types
+- Consider performance implications
+
+## File Organization
+
+- Group related functionality in directories
+- Use index.ts files for exports
+- Keep file names descriptive and consistent
+- Use kebab-case for file names
+- Use PascalCase for component names and interfaces
+- Use camelCase for variables, functions, and methods
+
+## Error Handling
+
+- Use try/catch blocks for error-prone operations
+- Provide meaningful error messages
+- Log errors appropriately
+- Fail gracefully when possible
+
+## Performance Considerations
+
+- Minimize DOM manipulations
+- Use memoization for expensive calculations
+- Avoid unnecessary re-renders
+- Consider lazy loading for large components
+- Profile and optimize critical paths
+
+## Testing
+
+- Write unit tests for critical functionality
+- Test edge cases
+- Use meaningful test descriptions
+- Mock external dependencies
+- Keep tests independent and isolated 
