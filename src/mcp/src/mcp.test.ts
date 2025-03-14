@@ -12,7 +12,7 @@ import { describe, it, expect, beforeAll, afterAll } from "bun:test"
 import * as path from "path"
 import { Effect } from "effect"
 import * as fs from "fs/promises"
-import { createModelContextProtocol, KnowledgeDomain } from "./model-context-protocol"
+import { createModelContextProtocol, type KnowledgeDomain } from "./model-context-protocol"
 
 // Set up paths
 const CONTENT_DIR = path.resolve(__dirname, "../../content")

@@ -3,7 +3,8 @@
   "module": "mcp-server",
   "type": "module",
   "scripts": {
-    "dev": "bun run src/mcp-server.ts"
+    "dev": "bun run src/mcp-server.ts",
+    "test": "bun test"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -12,6 +13,9 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "effect": "^3.13.10"
+    "effect": "^3.13.10",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "gray-matter": "^4.0.3",
+    "zod": "^3.24.2"
   }
 }

@@ -12,12 +12,11 @@ import * as path from "path"
 import * as z from "zod"
 import {
   createModelContextProtocol,
-  KnowledgeDomain,
+  type KnowledgeDomain,
   KnowledgeDomains,
 } from "./model-context-protocol"
 import { Readable } from "stream"
 import { Effect, pipe } from "effect"
-import * as Either from "effect/Either"
 
 // Configurable root directory (default to project root)
 const PROJECT_ROOT = process.env.PROJECT_ROOT || path.resolve(__dirname, "../..")

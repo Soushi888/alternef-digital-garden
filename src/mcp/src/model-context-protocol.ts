@@ -244,8 +244,8 @@ const createModelContextProtocol = (contentRootPath: string) => {
 export {
   createModelContextProtocol,
   ContentMetadataSchema,
-  ContentMetadata,
-  ContentContext,
+  type ContentMetadata,
+  type ContentContext,
   KnowledgeDomains,
-  KnowledgeDomain,
+  type KnowledgeDomain,
 }
