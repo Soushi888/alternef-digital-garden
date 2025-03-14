@@ -1,6 +1,6 @@
 ---
-description: Rules for working with markdown content in the digital garden. Apply these rules when editing or creating .md files, or when discussing content structure and formatting.
-globs: ["**/*.md", "content/**/*.md"]
+description: When you work on markdown notes
+globs: 
 alwaysApply: false
 ---
 # Markdown Content Rules
@@ -26,7 +26,7 @@ related pages:
 ## Filename Conventions
 
 - Use lowercase with hyphens for filenames (e.g., `digital-garden.md`)
-- Avoid spaces, underscores, or camelCase
+- Avoid spaces, underscores, or camelCase 
 - Keep filenames concise but descriptive
 - Example: `permaculture-principles.md` not `PermaculturePrinciples.md` or `permaculture_principles.md`
 
@@ -41,7 +41,7 @@ related pages:
 ## Linking
 
 - Use wiki-style links: `[[page-name|Display Text]]`
-- For index pages, use full paths: `[[knowledge/domain/index|Domain Name]]`
+- For index pages, use full paths from knowledge folder: `[[knowledge/domain/index|Domain Name]]`
 - Link liberally to related concepts
 - Ensure all links use proper display text for context
 

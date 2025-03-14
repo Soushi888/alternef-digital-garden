@@ -1,6 +1,7 @@
 ---
-description: Templates and snippets for creating new content. Apply these rules when creating new notes, blog posts, domain indexes, or portfolio items.
-globs: ["content/**/*.md", "content/blog/*.md", "content/knowledge/**/*.md", "content/portfolio/*.md"]
+description: When you need to create a new note
+globs: 
+alwaysApply: false
 ---
 # Snippets and Templates
 

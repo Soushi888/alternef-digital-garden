@@ -1,6 +1,7 @@
 ---
-description: Rules for TypeScript development in Quartz v4. Apply these rules when working with TypeScript files, Quartz plugins, or component development.
-globs: ["**/*.ts", "**/*.tsx", "quartz/**/*.ts", "quartz/**/*.tsx"]
+description: When you work on the quartz features
+globs: 
+alwaysApply: false
 ---
 # TypeScript Development Rules
 

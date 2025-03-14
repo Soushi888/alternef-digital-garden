@@ -1,6 +1,7 @@
 ---
-description: Rules for organizing content in the digital garden. Apply these rules when discussing content structure, creating new sections, or organizing knowledge domains.
-globs: ["content/**/*", "content/knowledge/**/*"]
+description: Main structure of the knowledge base
+globs: 
+alwaysApply: false
 ---
 # Content Organization Rules
 
