@@ -2,5 +2,5 @@
 Aliases: [Makefile, MakeFile]
 ---
 
-#programmation/DevOps 
+#DevOps 
 [[C++]]

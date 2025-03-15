@@ -2,7 +2,7 @@
 Aliases: [rustwasm, rust-wasm]
 ---
 
-[[rust/index]] et [[WebAssembly]]
+[[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index]] et [[WebAssembly]]
 
 ['Rust and WebAssembly']('https://rustwasm.github.io')
 > 'Stay up to date with events, learning resources, and recent developments in Rust and WebAssembly community.'

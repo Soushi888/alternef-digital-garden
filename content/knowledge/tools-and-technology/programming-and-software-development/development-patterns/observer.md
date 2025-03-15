@@ -5,6 +5,7 @@ tags:
   - programming
   - typescript
   - patterns
+  - event-driven
   - design-patterns
   - functional-programming
 related pages:

@@ -1,7 +1,7 @@
 ---
 tags:
-  - programmation/authentification
-  - programmation/backend
+  - authentification
+  - backend
 ---
 ### Introduction to Session in Backend Programming
 

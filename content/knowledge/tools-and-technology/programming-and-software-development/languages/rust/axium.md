@@ -12,7 +12,7 @@ tags:
 [axum - Rust](https://docs.rs/axum/latest/)
 > axum is a web application framework that focuses on ergonomics and modularity.
 
-Axium is a web application framework for [[rust/index]] that emphasizes ergonomics and modularity. It is designed to make building web applications in Rust more straightforward and efficient. Axium is backed by the Tokio team and is known for its compatibility with the Tower ecosystem, which provides a robust library of reusable, modular components for building network applications.
+Axium is a web application framework for [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index]] that emphasizes ergonomics and modularity. It is designed to make building web applications in Rust more straightforward and efficient. Axium is backed by the Tokio team and is known for its compatibility with the Tower ecosystem, which provides a robust library of reusable, modular components for building network applications.
 
 Key features of Axium include:
 

@@ -1,4 +1,4 @@
-#programmation/DevOps 
+#DevOps 
 #blockchains/EVM 
 
 [[Ethereum]] [[Blockchain|blockchain]]

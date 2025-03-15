@@ -57,7 +57,7 @@ Holochain is a development platform that enables the creation of distributed app
 
 ### Technical Ecosystem
 
-1. **Language**: [[../../../../programming/languages/rust/index|Rust]]
+1. **Language**: [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]]
 2. **Frameworks**:
    - HDK (Holochain Development Kit)
    - HDI (Holochain Development Interface)

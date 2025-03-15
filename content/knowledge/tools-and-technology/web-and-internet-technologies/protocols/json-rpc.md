@@ -1,4 +1,4 @@
-#programmation/web 
+#web 
 
 JSON-RPC (Remote Procedure Call) is a protocol used for remote procedure calls, typically between a client and a server over a network. It uses the [[JavaScript Object Notation]] (JavaScript Object Notation) data format for data serialization and transmission, and it is designed to be lightweight and efficient.
 

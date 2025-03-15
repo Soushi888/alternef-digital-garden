@@ -2,7 +2,7 @@
 title: Fedora
 aliases: 
 tags:
-  - programmation/operating-system
+  - operating-system
 related pages:
   - "[[Linux]]"
   - "[[Red Hat]]"

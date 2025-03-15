@@ -1,8 +1,14 @@
-# programmation/rust/crates
+---
+title: Derive More
+description: A library designed to reduce boilerplate code by allowing developers to derive common traits for their custom structs and enums.
+tags:
+  - rust
+  - crate
+---
 
 [derive_more 2.0.1 - Docs.rs](https://docs.rs/crate/derive_more/latest)
 
-The `derive_more` crate in [[rust/index]] is a library designed to reduce boilerplate code by allowing developers to derive common traits for their custom structs and enums. This is particularly useful when wrapping basic types like `i32`, `u32`, etc., inside your own
+The `derive_more` crate in [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]] is a library designed to reduce boilerplate code by allowing developers to derive common traits for their custom structs and enums. This is particularly useful when wrapping basic types like `i32`, `u32`, etc., inside your own
 structs or enums, as you would otherwise lose the implementations of these traits. The crate supports a wide range of built-in traits such as `Add`, `Not`, `From`, and `Display`, which are commonly implemented for Rust's basic types. By using `derive_more`, you can easily derive these traits for your custom types, making your code more concise and readable.
 
 To use `derive_more`, you need to add it as a dependency in your `Cargo.toml` file. The library requires Rust 1.36 or higher and supports `no_std` environments out of the box. You can enable specific features to reduce compilation times, such as `from`, `add`, and `iterator`, or use the `full` feature to support all possible derives. If you're working in a `no_std` environment, you should disable the default features.

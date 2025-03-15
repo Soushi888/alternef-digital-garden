@@ -2,10 +2,11 @@
 aliases:
   - lucia-auth
 tags:
-  - programmation/javascript
+  - javascript
+  - authentification
 related pages:
-  - "[[Authentification]]"
-  - "[[JavaScript]]"
+  - [[authentification]]
+  - [[javaScript]]
 ---
 [Lucia documentation](https://lucia-auth.com/)
 > Lucia is an open source auth library that abstracts away the complexity of handling sessions.

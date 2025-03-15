@@ -1,10 +1,12 @@
 ---
+title: Elliptic-curve cryptography
+description: Elliptic-curve cryptography (ECC) is a type of public-key cryptography that is based on the algebraic structure of elliptic curves over finite fields. It is an alternative to traditional public-key cryptography algorithms such as RSA and is used for encryption, authentication, and digital signatures. 
 aliases:
   - ECC
 tags:
-  - programmation/cryptography
-related pages:
-  - "[[Cryptography]]"
+  - cryptography
+  - security
+  - encryption
 ---
 Elliptic-curve cryptography (ECC) is a type of public-key cryptography that is based on the algebraic structure of elliptic curves over finite fields. It is an alternative to traditional public-key cryptography algorithms such as RSA and is used for encryption, authentication, and digital signatures. 
 
@@ -12,10 +14,6 @@ ECC generates keys through the properties of an elliptic curve equation instead 
 
 ![[Elliptic-curve cryptography.png]]
 
-Citations:
-[1] https://en.wikipedia.org/wiki/Elliptic-curve_cryptography
-[2] https://www.techtarget.com/searchsecurity/definition/elliptical-curve-cryptography
-[3] https://www.keyfactor.com/blog/elliptic-curve-cryptography-what-is-it-how-does-it-work/
-[4] https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc
-[5] https://www.geeksforgeeks.org/blockchain-elliptic-curve-cryptography/
-[6] https://youtube.com/watch?v=dCvB-mhkT0w
+## Related pages
+- [[cryptography|Cryptography]]
+- [[asymetric-encryption|Asymetric encryption]]

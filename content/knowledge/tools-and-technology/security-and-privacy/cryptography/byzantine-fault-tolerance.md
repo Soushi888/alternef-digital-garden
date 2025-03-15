@@ -1,13 +1,14 @@
 ---
+title: Byzantine Fault Tolerance
+description: Byzantine Fault Tolerance is a feature of a distributed network to reach consensus(agreement on the same value) even when some of the nodes in the network fail to respond or respond with incorrect information.
 aliases:
   - BFT
 tags:
-  - programmation/cryptography
-related pages:
-  - "[[Distributed System]]"
+  - cryptography
+  - security
 ---
 
-<iframe src="https://www.youtube.com/embed/_e4wNoTV3Gw?list=PLOE1GTZ5ouRPbpTnrZ3Wqjamfwn_Q5Y9A" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
+![Byzantine Fault Tolerance](https://www.youtube.com/embed/_e4wNoTV3Gw?list=PLOE1GTZ5ouRPbpTnrZ3Wqjamfwn_Q5Y9A)
 
 ## What is BFT
 Byzantine Fault Tolerance(BFT) is the feature of a distributed network to reach consensus(agreement on the same value) even when some of the nodes in the network fail to respond or respond with incorrect information. The objective of a BFT mechanism is to safeguard against the system failures by employing collective decision making(both – correct and faulty nodes) which aims to reduce to influence of the faulty nodes.
@@ -70,3 +71,9 @@ Allowing that it is quite simple for the generals to come to an agreement on the
 	- Less than 1/3 of generals are traitors
 	- Oral messages (p2p)
 	- No crypto
+
+### Related pages
+- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|Distributed System]]
+- [[consensus|Consensus]]
+- [[asymmetric-encryption|Asymmetric encryption]]
+- [[cryptography|Cryptography]]

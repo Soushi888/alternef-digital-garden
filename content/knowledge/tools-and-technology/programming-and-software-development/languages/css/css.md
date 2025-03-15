@@ -2,12 +2,8 @@
 aliases:
   - CSS3
 tags:
-  - programmation/frontend
+  - frontend
+  - css
 related pages:
   - "[[HTML]]"
 ---
-## Frameworks
-``` dataview
-LIST
-FROM #programmation/web/css/frameworks
-```

@@ -2,9 +2,10 @@
 type: library
 language: javascript
 tags:
-  - programmation/backend
-  - programmation/web/e-commerce
-  - programmation/javascript/librairies
+  - backend
+  - e-commerce
+  - javascript
+  - librairies
 ---
 [[Javascript librairies]]
 

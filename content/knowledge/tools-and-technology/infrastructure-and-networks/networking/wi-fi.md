@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - programmation/networking
+  - networking
 related pages:
   - "[[Networking]]"
 ---

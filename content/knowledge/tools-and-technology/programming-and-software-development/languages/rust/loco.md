@@ -1,14 +1,12 @@
 ---
 title: Loco
-description: Loco is a web and API framework for [[rust/index]], designed to facilitate the development of full-stack applications. It is inspired by Ruby on Rails, aiming to provide a familiar developer experience for those transitioning from Rails to Rust. The framework is positioned as a "one-person framework" for Rust, suitable for side projects and startups. It is designed to be accessible to developers with a moderate level of familiarity with Rust, without requiring deep knowledge of complex Rust concepts or advanced macros.
+description: Loco is a web and API framework for Rust, designed to facilitate the development of full-stack applications. It is inspired by Ruby on Rails, aiming to provide a familiar developer experience for those transitioning from Rails to Rust. The framework is positioned as a "one-person framework" for Rust, suitable for side projects and startups. It is designed to be accessible to developers with a moderate level of familiarity with Rust, without requiring deep knowledge of complex Rust concepts or advanced macros.
 aliases:
   - Loco
 tags:
   - programmation
   - backend
-related pages:
-  - /knowledge/tools-and-technology/programming-and-software-development/languages/rust/axium.md
-  - /knowledge/tools-and-technology/programming-and-software-development/languages/rust/loco.md
+
 ---
 
 
@@ -26,3 +24,11 @@ Loco's design philosophy is rooted in the idea of a "One Person Framework," as d
 To get started with Loco, developers need to have a basic understanding of Rust, including how to build, test, and run Rust projects, and familiarity with some popular Rust libraries. The framework is designed to be approachable for those new to Rust, offering a refreshing experience for those transitioning from Rails to Rust development.
 
 Loco is actively developed and has seen multiple minor versions since its inception, with the latest version being Loco 0.3.1. It is built by a community of contributors, aiming to provide a comprehensive solution for Rust developers looking to build modern web applications.
+
+## Related pages
+
+- [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]]
+- [[axium|Axium]]
+- [[tokio|Tokio]]
+- [[warp|Warp]]
+- [[reqwest|Reqwest]] 

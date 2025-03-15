@@ -2,13 +2,13 @@
 
  [[smart-contracts]]
 
-# programmation/SDK for developing [[Antelope]] blockchain smart contracts
+# SDK for developing [[Antelope]] blockchain smart contracts
 
 [https://wharfkit.com](https://wharfkit.com)
 
 Langages available :
 
-- [[rust/index]]
+- [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index]]
 - [[TypeScript]]
 - [[C++]]
 - [[Python]]

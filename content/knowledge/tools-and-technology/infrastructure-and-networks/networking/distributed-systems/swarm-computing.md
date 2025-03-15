@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - programmation/networking
+  - networking
 ---
 [[Distributed Systems]]
 [[Networking]]

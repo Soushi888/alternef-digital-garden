@@ -3,14 +3,14 @@ type: library
 language: rust
 ---
 
-# programmation/SDK
+# SDK
 
 [hdk - Rust](https://docs.rs/hdk/latest/hdk/)
 > The Holochain Development Kit (HDK) provides high and low level functions for writing Holochain applications.
 
 Is executed by the [[Host]].
 
-The [[rust/index]] HDK crate is the Holochain Development Kit, which provides high and low-level functions for writing [[Outils et Technologie/DWeb/Holochain/Holochain]] applications. Holochain is a distributed computing platform that allows developers to build decentralized applications (dApps) that are secure, scalable, and resilient.
+The [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index]] HDK crate is the Holochain Development Kit, which provides high and low-level functions for writing [[Outils et Technologie/DWeb/Holochain/Holochain]] applications. Holochain is a distributed computing platform that allows developers to build decentralized applications (dApps) that are secure, scalable, and resilient.
 
 The HDK crate provides a set of tools and libraries that make it easier to develop Holochain [[Zome]], which are the building blocks of Holochain applications. Zomes are self-contained modules that can be combined to create complex applications. The HDK crate provides a domain-specific language (DSL) that is ergonomic and composable, making it easy to write zome functions and handle data.
 

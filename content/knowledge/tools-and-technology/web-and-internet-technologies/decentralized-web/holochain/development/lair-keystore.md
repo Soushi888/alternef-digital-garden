@@ -1,12 +1,15 @@
 ---
-aliases: 
+title: Lair Keystore
+description: Lair Keystore is a component that plays a crucial role in managing cryptographic keys securely.
 tags:
-  - programmation/cryptography
+  - holochain
+  - lair
+  - keystore
 ---
 [GitHub - holochain/lair: secret lair private keystore](https://github.com/holochain/lair)
 > secret lair private keystore. Contribute to holochain/lair development by creating an account on GitHub.
 
-The `lair-keystore` in [[Outils et Technologie/DWeb/Holochain/Holochain]] is a component that plays a crucial role in managing cryptographic keys securely. It is part of the Lair project, which is a suite of tools and libraries designed to provide secure cryptographic operations for Holochain and other applications. The `lair-keystore` executable allows for the initialization, configuration, and running of a Lair keystore, which is essential for generating and signing with cryptographically secure keys.
+The `lair-keystore` in [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] is a component that plays a crucial role in managing cryptographic keys securely. It is part of the Lair project, which is a suite of tools and libraries designed to provide secure cryptographic operations for Holochain and other applications. The `lair-keystore` executable allows for the initialization, configuration, and running of a Lair keystore, which is essential for generating and signing with cryptographically secure keys.
 
 The `lair-keystore` can be used in various ways, including importing seeds for key generation and running a server for managing keys. It is designed to be integrated into client applications through the `lair_keystore_api` crate, providing a way to interact with the keystore programmatically
 

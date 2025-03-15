@@ -1,6 +1,6 @@
 ---
 tags:
-  - programmation/frontend
+  - frontend
 related pages:
   - "[[Tailwind CSS]]"
 ---

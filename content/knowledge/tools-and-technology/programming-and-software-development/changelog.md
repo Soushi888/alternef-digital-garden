@@ -1,7 +1,7 @@
 ---
 tags:
   - programmation
-  - programmation/DevOps
+  - DevOps
 related pages: []
 ---
 ## Understanding Changelogs

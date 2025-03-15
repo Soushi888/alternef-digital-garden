@@ -1,11 +1,11 @@
 ---
+title: Pretty Good Privacy
+description: Pretty Good Privacy is a cryptographic method for secure online communication.
 aliases:
   - PGP
 tags:
-  - programmation/cryptography
-related pages:
-  - "[[Cryptography]]"
-  - "[[Rivest–Shamir–Adleman|RSA]]"
+  - cryptography
+
 ---
 PGP (Pretty Good Privacy) is a cryptographic method for secure online communication. It encrypts data and provides:
 
@@ -47,3 +47,8 @@ PGP provides robust security features, including:
  Protection against tampering and eavesdropping
 
 By using PGP encryption, individuals and organizations can ensure the confidentiality, authenticity, and integrity of their online communications and data.
+
+## related pages:
+  
+  - [[knowledge/tools-and-technology/security-and-privacy/cryptography/index|Cryptography]]
+  - [[rivest–shamir–adleman|RSA]]

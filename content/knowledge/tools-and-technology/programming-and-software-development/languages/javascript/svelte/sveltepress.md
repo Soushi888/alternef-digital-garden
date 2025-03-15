@@ -1,11 +1,10 @@
 ---
 aliases: 
 tags:
-  - programmation/web/static-sites
-related pages:
-  - "[[Svelte]]"
-  - "[[SvelteKit]]"
-  - "[[UnoCSS]]"
+  - static-sites
+  - svelte
+  - sveltekit
+  - frameworks
 ---
 **SveltePress**: A content-centered site build tool built on top of SvelteKit, a "serverless-first" framework for building web applications. It's designed to allow users to create and publish content with ease, leveraging the simplicity and performance of Svelte and SvelteKit.
 
@@ -21,3 +20,9 @@ SveltePress aims to provide a straightforward and efficient way to build and mai
 
 [Sveltepress](https://sveltepress.site/)
 > A simple, easy to use, content centered site build tool with the full power of Sveltekit
+
+## Related pages
+
+- [[svelte|Svelte]]
+- [[sveltekit|SvelteKit]]
+- [[unocss|UnoCSS]]

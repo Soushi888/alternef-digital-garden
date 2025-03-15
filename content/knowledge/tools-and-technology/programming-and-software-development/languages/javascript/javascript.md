@@ -1,7 +1,7 @@
 ---
 tags:
   - programmation
-  - programmation/frontend
+  - frontend
 ---
 JavaScript is a high-level, interpreted programming language that is primarily used to enhance interactivity and provide rich web content on websites. Developed by Netscape Communications Corporation, it was first released in **1995**. Over the years, JavaScript has evolved significantly, becoming one of the core technologies of the **World Wide Web**, alongside **HTML** and **CSS**. With the advent of **ECMAScript** standards and the introduction of frameworks and libraries like **React**, **Angular**, **Vue.js**, and **Svelte**, JavaScript has expanded beyond web browsers to become a versatile language for server-side scripting (**Node.js**), mobile app development, desktop applications, and even Internet of Things (IoT) devices.
 

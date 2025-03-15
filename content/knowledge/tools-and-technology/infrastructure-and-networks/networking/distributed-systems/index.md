@@ -5,7 +5,7 @@ aliases:
   - distributed system
   - distributed systems
 tags:
-  - programmation/networking
+  - networking
 ---
 [[Networking]]
 

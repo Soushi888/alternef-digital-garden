@@ -2,10 +2,11 @@
 aliases:
   - Auth.js
 tags:
-  - programmation/javascript/librairies
+  - librairies
+  - javascript
 related pages:
-  - "[[Authentification]]"
-  - "[[JavaScript]]"
+  - [[authentification]]
+  - [[javaScript]]
 ---
 [Auth.js | Authentication for the Web](https://authjs.dev/)
 > Authentication for the Web

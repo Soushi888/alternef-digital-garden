@@ -6,7 +6,7 @@ tags:
   - patterns
   - typescript
   - rust
-  - development-patterns
+  - design-patterns
   - event-driven
 related pages:
   - "[[functional-programming|Functional Programming]]"

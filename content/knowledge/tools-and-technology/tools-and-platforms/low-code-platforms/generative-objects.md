@@ -1,4 +1,4 @@
-#programmation/low-code 
+#low-code 
 
 ['Generative Objects']('https://www.generativeobjects.com')
 > 'Generative Objects is the first open source'

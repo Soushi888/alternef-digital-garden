@@ -2,6 +2,6 @@
 aliases:
   - IP
 ---
-#programmation/networking 
+#networking 
 [[Networking]]
 [[TCP-IP]]

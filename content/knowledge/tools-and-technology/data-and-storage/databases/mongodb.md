@@ -1,2 +1,2 @@
-#programmation/database
+#database
 programmation

@@ -3,7 +3,7 @@ title: Linux
 aliases:
   - GNU + Linux
 tags:
-  - programmation/operating-system
+  - operating-system
 related pages:
   - "[[Networking]]"
 ---

@@ -3,7 +3,7 @@ title: Extension Traits
 description: Learn about Extension Traits in Rust, a powerful pattern for adding new methods to existing types without modifying the original type definitions.
 aliases: 
 tags:
-  - programmation/rust
+  - rust
 ---
 Extension traits in [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]] are a powerful pattern that allows developers to add new methods to existing types without modifying the original type definitions. This capability is particularly useful when working with types from external crates or the standard library, where modifying the source code is not an option.
 

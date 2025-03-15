@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - programmation/networking/security
+  - networking/security
 related pages:
   - "[[Networking]]"
   - "[[Linux]]"

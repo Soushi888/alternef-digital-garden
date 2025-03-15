@@ -5,7 +5,7 @@ language: rust
 
 Subset of the [[HDK]]
 
-Technology : [[rust/index]], [[Outils et Technologie/DWeb/Holochain/Holochain]]
+Technology : [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index]], [[Outils et Technologie/DWeb/Holochain/Holochain]]
 
 [hdk - Rust](https://docs.rs/hdk/latest/hdk/)
 > The Holochain Development Kit (HDK) provides high and low level functions for writing Holochain applications.

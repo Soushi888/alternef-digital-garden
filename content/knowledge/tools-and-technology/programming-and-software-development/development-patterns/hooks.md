@@ -7,7 +7,7 @@ aliases:
   - Software Hooks
 tags:
   - programming
-  - development-patterns
+  - design-patterns
   - software-design
   - event-driven
 related pages:

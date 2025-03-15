@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - programmation/DevOps
+  - DevOps
 related pages:
   - "[[Changelog]]"
 ---

@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - programmation/frontend
+  - frontend
 related pages:
   - "[[Rust]]"
   - "[[JavaScript]]"

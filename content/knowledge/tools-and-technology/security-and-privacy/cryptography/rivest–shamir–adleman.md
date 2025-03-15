@@ -1,12 +1,12 @@
 ---
+title: Rivest–Shamir–Adleman
+description: Rivest–Shamir–Adleman is a public-key encryption system that is widely used to secure sensitive data, particularly when being transmitted over an insecure network like the internet.
 aliases:
   - RSA
 tags:
-  - programmation/cryptography
-related pages:
-  - "[[Cryptography]]"
-  - "[[Asymmetric encryption]]"
+  - cryptography
 ---
+
 RSA encryption is a public-key encryption system that is widely used to secure sensitive data, particularly when being transmitted over an insecure network like the internet. It is based on the principle that there are easy problems that are associated with hard problems. In RSA encryption, the easy problem is multiplying two large prime numbers, while the hard problem is factoring the product of those primes back into its original factors. This asymmetry allows for secure communication without the need for a previously shared secret key.
 
 ## Key Points
@@ -29,12 +29,7 @@ Alice wants to send a secure message to Bob without having previously shared any
 
 RSA encryption plays a critical role in modern cryptography, enabling secure communication over insecure networks. Its strength lies in the computational difficulty of factoring large prime numbers, although advancements in quantum computing could pose future challenges to its security. RSA is foundational to many secure communication protocols and systems, including TLS for web traffic encryption, [[Pretty Good Privacy|PGP]] for email encryption, and VPNs for secure remote connections.
 
-Citations:
-[1] https://en.wikipedia.org/wiki/RSA_(cryptosystem)
-[2] https://www.techtarget.com/searchsecurity/definition/RSA
-[3] https://brilliant.org/wiki/rsa-encryption/
-[4] https://www.comparitech.com/blog/information-security/rsa-encryption/
-[5] https://www.geeksforgeeks.org/rsa-algorithm-cryptography/
-[6] https://www.simplilearn.com/tutorials/cryptography-tutorial/rsa-algorithm
-[7] https://www.encryptionconsulting.com/education-center/what-is-rsa/
-[8] https://www.veritas.com/information-center/rsa-encryption
+## related pages:
+  
+  - [[knowledge/tools-and-technology/security-and-privacy/cryptography/index|Cryptography]]
+  - [[pretty-good-privacy|Pretty Good Privacy]]

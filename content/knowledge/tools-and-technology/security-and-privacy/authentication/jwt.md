@@ -1,3 +1,3 @@
 ## [[JavaScript Object Notation]] Web Token
-#programmation/authentification protocol.
+#authentification protocol.
 programmation

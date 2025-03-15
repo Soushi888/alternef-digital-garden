@@ -3,6 +3,6 @@ aliases:
   - C#
 tags:
   - programmation
-  - programmation/backend
+  - backend
 related pages:
 ---

@@ -1,4 +1,4 @@
-#programmation/database 
+#database 
 #programmation/AI 
 
  [[Artificial Intelligence]]

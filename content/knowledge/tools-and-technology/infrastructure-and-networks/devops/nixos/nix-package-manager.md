@@ -1,4 +1,4 @@
-#programmation/DevOps 
+#DevOps 
 [[Nix]]
 [[NixOS]]
 [[Nix Package Manager]]

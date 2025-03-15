@@ -1,4 +1,4 @@
-#programmation/database
+#database
 #blockchains/storage 
 
 Distributed Storage for web3. Often use in combination with #blockchains/smart-contracts.

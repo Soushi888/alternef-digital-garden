@@ -2,7 +2,7 @@
 aliases:
   - SMTP
 tags:
-  - programmation/networking
+  - networking
 related pages:
   - "[[Networking]]"
 ---
