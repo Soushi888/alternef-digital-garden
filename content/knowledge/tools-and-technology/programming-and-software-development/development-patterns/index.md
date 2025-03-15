@@ -46,12 +46,13 @@ Reusable solutions to common software design problems.
 - Proxy
 
 #### Behavioral Patterns
-- Observer
+- [[observer|Observer]]
 - Strategy
 - Command
 - State
 - Template Method
 - [[event-bus|Event Bus Pattern]]
+- [[hooks|Hooks]]
 
 ### 3. Architectural Patterns
 High-level strategies for system organization.
@@ -60,6 +61,7 @@ High-level strategies for system organization.
 - Model-View-ViewModel (MVVM)
 - Event-Driven Architecture
   - [[event-bus|Event Bus Pattern]]
+  - [[hooks|Hooks]]
 - Microservices
 - Layered Architecture
 
