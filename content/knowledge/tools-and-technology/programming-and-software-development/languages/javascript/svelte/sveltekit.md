@@ -1,7 +1,7 @@
-#backend 
-#frontend
+# backend
+# frontend
 
-[[Svelte]]
+[[svelte/index]]
 [[JavaScript]]
 [[Node]]
 

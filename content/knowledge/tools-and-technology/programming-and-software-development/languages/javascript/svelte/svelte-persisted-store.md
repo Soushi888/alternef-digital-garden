@@ -11,5 +11,5 @@ tags:
 
 ## Related pages
 
-- [[svelte|Svelte]]
+- [[svelte/index|Svelte]]
 - [[javascript|JavaScript]]

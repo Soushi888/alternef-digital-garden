@@ -12,10 +12,12 @@ One of the key features of **JavaScript** is its event-driven nature, which me
 **JavaScript**'s widespread adoption and support across all major web browsers make it essential for web developers. Its evolution continues with ongoing improvements and additions to the language, ensuring its relevance and utility in modern web development.
 
 Runtimes for backend :
+
 - [[Node]]
 - [[Deno]]
 - [[Bun]]
 
 Frontend frameworks :
-- [[Svelte]]
+
+- [[svelte/index]]
 - [[React]]

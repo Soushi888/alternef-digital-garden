@@ -23,6 +23,6 @@ SveltePress aims to provide a straightforward and efficient way to build and mai
 
 ## Related pages
 
-- [[svelte|Svelte]]
-- [[sveltekit|SvelteKit]]
-- [[unocss|UnoCSS]]
+* [[svelte/index|Svelte]]
+* [[sveltekit|SvelteKit]]
+* [[unocss|UnoCSS]]
