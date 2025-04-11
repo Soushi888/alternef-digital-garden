@@ -3,14 +3,12 @@
 .toc {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  max-height: calc(100vh - #{$topSpacing} * 2); // Account for top and bottom spacing
+  position: sticky;
+  top: $topSpacing;
 
-  // &.desktop-only {
-    // max-height: 40%;
-  // }
-}
-
-@media all and not ($mobile) {
-  .toc {
+  @media all and not ($mobile) {
     display: flex;
   }
 }
@@ -24,6 +22,11 @@ button#toc {
   color: var(--dark);
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--light);
+  margin-bottom: 0.5rem;
 
   & h3 {
     font-size: 1rem;
@@ -46,12 +49,28 @@ button#toc {
   list-style: none;
   overflow: hidden;
   overflow-y: auto;
-  max-height: 100%;
+  max-height: calc(100vh - #{$topSpacing} * 3); // Account for header height
   transition:
     max-height 0.35s ease,
     visibility 0s linear 0s;
   position: relative;
   visibility: visible;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray) transparent;
+
+  // Custom scrollbar styling for webkit browsers
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--gray);
+    border-radius: 3px;
+  }
 
   &.collapsed {
     max-height: 0;
@@ -75,14 +94,23 @@ button#toc {
       transition:
         0.5s ease opacity,
         0.3s ease color;
+      display: block;
+      padding: 0.2rem 0;
+      
       &.in-view {
         opacity: 0.75;
       }
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
+
   > ul.overflow {
     max-height: none;
     width: 100%;
+    padding-bottom: 1rem; // Add some bottom padding for better scrolling
   }
 
   @for $i from 0 through 6 {
