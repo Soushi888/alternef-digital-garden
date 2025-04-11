@@ -1,6 +1,6 @@
 ---
 title: "Integrating Holochain, Mattereum and OVN: A Framework for Peer Production"
-pubDate: 2024-01-15
+date: 2024-01-15
 author: "soushi888"
 description: "An exploration of how Holochain's hREA and Mattereum's Asset Passport technology can enhance Open Value Networks"
 tags: ["blog", "holochain", "mattereum", "ovn", "hrea", "peer-production", "blockchain", "p2p"]
