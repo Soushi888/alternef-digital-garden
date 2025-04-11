@@ -32,42 +32,74 @@ Open Value Networks operate on principles that recognize value as a complex, tri
 
 OVNs also embrace a more complex approach to ownership, recognizing multiple forms of property relations including private, shared, commons, and notably, ["nondominium"](https://ovn.world/index.php?title=Nondominium) - assets that by their nature cannot be owned. For instance, while individual components of the network may be privately owned or held in commons, the network's emergent capabilities often exist as nondominium, similar to how the [Bitcoin network](https://bitcoin.org/) itself transcends traditional ownership models.
 
-- **Openness and Transparency**: OVNs prioritize open access to information, processes, and decision-making. This transparency extends to contribution tracking, resources flows, and governance, ensuring that all participants can audit and verify activities. [Holochain's distributed hash table (DHT)](https://developer.holochain.org/concepts/4_dht/) and [hREA](https://hrea.io/)/[ValueFlows'](https://www.valueflo.ws/) transparent logging of economic events (Resources, Events, Agents) support this principle by providing auditable records of all interactions within the network.
+### Openness and Transparency
 
-- **Nondominium and Diverse Property Regimes**: OVNs embrace a variety of property regimes, including private, shared, commons, and public, but they also introduce the concept of *nondominium*—assets that, by their nature, cannot be owned or controlled. For example, the [Bitcoin Network](https://bitcoin.org/) operates as a nondominium: it exists as an aggregated entity providing token exchange services, but if any individual or group gains enough influence to control it, the network dissipates due to loss of trust. In contrast, mining computers are privately owned, and the Bitcoin code exists as a commons. [Cardano's blockchain](https://cardano.org/) complements this by tokenizing assets (e.g., NFTs for certified designs) that can exist under various property regimes, while [Holochain](https://holochain.org/) ensures that the network itself remains a nondominium, fostering trust and decentralization.
+OVNs prioritize open access to information, processes, and decision-making. This transparency extends to contribution tracking, resources flows, and governance, ensuring that all participants can audit and verify activities. [Holochain's distributed hash table (DHT)](https://developer.holochain.org/concepts/4_dht/) and [hREA](https://hrea.io/)/[ValueFlows'](https://www.valueflo.ws/) transparent logging of economic events (Resources, Events, Agents) support this principle by providing auditable records of all interactions within the network.
 
-- **Meritocratic Governance**: Access to decision-making in OVNs is based on contributions rather than hierarchical power structures. Holochain's agent-centric architecture supports this by accurately tracking individual contributions via hREA/ValueFlows, ensuring that influence is distributed based on merit. Cardano's smart contracts further enable merit-based reward systems, linking contributions to token rewards.
+### Nondominium and Diverse Property Regimes
 
-- **Value as a Triadic Relation**: OVNs redefine value as a triadic relation between a *valuable* (a reality), a *token* (a symbol, which may or may not be monetary), and a *valuation* (a subjective and inter-subjective experience shaped by culture and socialization). Value is not a thing that can be created, stored, or transferred; rather, it emerges from subjective experiences that move individuals to action. This perspective avoids value fetishism and emphasizes the relational nature of economic interactions. hREA/ValueFlows captures this by modeling economic events and processes as relational flows, while Cardano's token reward system provides symbolic tokens that reflect these valuations, ensuring rewards align with the subjective and inter-subjective value perceived by the network.
+OVNs embrace a variety of property regimes, including private, shared, commons, and public, but they also introduce the concept of *nondominium*—assets that, by their nature, cannot be owned or controlled. For example, the [Bitcoin Network](https://bitcoin.org/) operates as a nondominium: it exists as an aggregated entity providing token exchange services, but if any individual or group gains enough influence to control it, the network dissipates due to loss of trust. In contrast, mining computers are privately owned, and the Bitcoin code exists as a commons. [Cardano's blockchain](https://cardano.org/) complements this by tokenizing assets (e.g., NFTs for certified designs) that can exist under various property regimes, while [Holochain](https://holochain.org/) ensures that the network itself remains a nondominium, fostering trust and decentralization.
 
-- **Modularity and Interoperability**: OVNs embrace modular designs and interoperable systems to ensure flexibility and scalability. Holochain's customizable application framework supports this by allowing tailored solutions for specific use cases, while Cardano's interoperability with decentralized storage solutions like Iagon ensures seamless integration with other systems.
+### Meritocratic Governance
+
+Access to decision-making in OVNs is based on contributions rather than hierarchical power structures. Holochain's agent-centric architecture supports this by accurately tracking individual contributions via hREA/ValueFlows, ensuring that influence is distributed based on merit. Cardano's smart contracts further enable merit-based reward systems, linking contributions to token rewards.
+
+### Value as a Triadic Relation
+
+OVNs redefine value as a triadic relation between a *valuable* (a reality), a *token* (a symbol, which may or may not be monetary), and a *valuation* (a subjective and inter-subjective experience shaped by culture and socialization). Value is not a thing that can be created, stored, or transferred; rather, it emerges from subjective experiences that move individuals to action. This perspective avoids value fetishism and emphasizes the relational nature of economic interactions. hREA/ValueFlows captures this by modeling economic events and processes as relational flows, while Cardano's token reward system provides symbolic tokens that reflect these valuations, ensuring rewards align with the subjective and inter-subjective value perceived by the network.
+
+### Modularity and Interoperability
+
+OVNs embrace modular designs and interoperable systems to ensure flexibility and scalability. Holochain's customizable application framework supports this by allowing tailored solutions for specific use cases, while Cardano's interoperability with decentralized storage solutions like Iagon ensures seamless integration with other systems.
 
 Holochain's modular architecture, built on Zomes and DNA, provides core composability features that integrate with Moss and Neighborhood as building blocks for collaboration and social sensemaking. This architectural approach enables flexible and adaptable solutions for different use cases.
 
 Cardano complements this modularity through its cross-chain and cross-platform interoperability capabilities. A future Cardano Zome will enable direct integration with Holochain, while Cardano's native interoperability with other blockchains (demonstrated through `BitcoinOS` and `FluidToken`) leverages the robustness of its EUTXO transaction model and the Inter-Blockchain-Protocol (IBP).
 
-- **Global Accessibility**: OVNs aim to create networks that transcend geographical boundaries through a "glocal" (global + local) approach. Cardano's blockchain enables transactional global interoperability via its smart-contracts system, while Holochain provides local context and governance through its agent-centric architecture. This hybrid model allows contributors to transport their credentials and reputation across different OVNs seamlessly.
+### Global Accessibility
+
+OVNs aim to create networks that transcend geographical boundaries through a "glocal" (global + local) approach. Cardano's blockchain enables transactional global interoperability via its smart-contracts system, while Holochain provides local context and governance through its agent-centric architecture. This hybrid model allows contributors to transport their credentials and reputation across different OVNs seamlessly.
 
 The integration of Holochain with ADAM (https://coasys.org/adam) establishes a common language and perspective for translating local credentials, while Cardano secures the cross-network transaction of these credentials and reputations. ADAM's meta-ontology, which defines three classes (Agents, Languages, and Perspectives), creates a spanning layer that enables many-to-many mappings between user interfaces and existing web technologies. This architecture allows for private, locally stored graph databases that associate data across different Languages while maintaining global interoperability.
 
-- **Sustainability**: OVNs prioritize environmentally and economically sustainable practices. Holochain's energy-efficient architecture aligns with this principle by minimizing the environmental impact of peer production networks, while Cardano's Ouroboros Proof-of-Stake (PoS) consensus mechanism ensures long-term sustainability through a more energy-efficient consensus mechanism than Proof-of-Work (PoW) or other PoS mechanisms used by other blockchains.
+### Sustainability
 
-...More details about Holochain and Cardano energy efficiency...
+OVNs prioritize environmentally and economically sustainable practices. Holochain's energy-efficient architecture aligns with this principle by minimizing the environmental impact of peer production networks, while Cardano's Ouroboros Proof-of-Stake (PoS) consensus mechanism ensures long-term sustainability through a more energy-efficient consensus mechanism than Proof-of-Work (PoW) or other PoS mechanisms used by other blockchains.
 
-- **Peer-to-Peer Collaboration**: OVNs emphasize direct interactions between participants, reducing reliance on intermediaries. Holochain's peer-to-peer networking capabilities enable real-time collaboration, while Cardano ensures secure and transparent transactions without centralized control.
+Holochain's agent-centric architecture fundamentally differs from traditional blockchain approaches by eliminating the need for global consensus. Instead of all nodes processing all transactions, each agent maintains their own local chain and only validates the data they need. This distributed validation approach dramatically reduces computational overhead and energy consumption. The system scales linearly with the number of users, rather than exponentially like traditional blockchains, making it inherently more energy-efficient.
 
-- **Continuous Innovation**: OVNs model is in continuous improvment/evolution, iteratively improving through the current societal and technological transitions.  Holochain, by it's lack of censensus mechanisme bring the necessary flexiblity for the OVNs model to evolve and experiment in pararel in different economic contexte like a living economic-lab.
+Cardano's Ouroboros protocol represents a significant advancement in sustainable blockchain technology. Unlike energy-intensive Proof-of-Work systems, Ouroboros achieves the same security guarantees while consuming only a fraction of the energy. Research indicates that Cardano's energy consumption is approximately 0.01% of Bitcoin's, using about 6 GWh annually compared to Bitcoin's 110.53 TWh. This efficiency is achieved through:
+- Stake-based validator selection instead of computational puzzles
+- Deterministic block creation process
+- Efficient network communication protocols
+- Optimized transaction validation
+
+The combination of Holochain's agent-centric architecture and Cardano's Ouroboros protocol creates a highly sustainable infrastructure for OVNs, enabling them to scale their operations without compromising environmental responsibility.
+
+
+### Peer-to-Peer Collaboration
+
+OVNs emphasize direct interactions between participants, reducing reliance on intermediaries. Holochain's peer-to-peer networking capabilities enable real-time collaboration, while Cardano ensures secure and transparent transactions without centralized control.
+
+### Continuous Innovation
+
+OVNs model is in continuous improvment/evolution, iteratively improving through the current societal and technological transitions.  Holochain, by it's lack of censensus mechanisme bring the necessary flexiblity for the OVNs model to evolve and experiment in pararel in different economic contexte like a living economic-lab.
 Cardano, bring the transactional backbone with its structured data and financial architecture. It's a global security that allow local experimentations with HOlochain communities. It's the perfect hybridation between data and agent centricity.
 
 Each OVN can have its own local economic model, enable by Holochain and hREA/Valueflows and then the global Cardano smart contract architecture can make the connection and validation at a global level.
 
 ADAM (https://coasys.org/adam) could be a bridge between the OVNs and the Cardano smart-contracts. It's a meta-ontology defining 3 classes: Agents, Languages and Perspectives. These form a spanning-layer that enables many-to-many mappings between user-interfaces (i.e. apps) and existing web technologies wrapped in "Languages". Apps interface with "Perspectives" which are private and locally stored graph databases associating data across different Languages.
 
-- **Global Accessibility**: OVNs aim to create networks that transcend geographical boundaries. Cardano's blockchain enables transactional global interoperability via its smart-contracts system, while Holochain provide the local context and governance via it's agent-centric architecture. It's a mix between local and global (Glocal). Contributors to a local OVN can transport their credentials and reputation to facilitate their access to other OVNs.
+### Global Accessibility
+
+OVNs aim to create networks that transcend geographical boundaries. Cardano's blockchain enables transactional global interoperability via its smart-contracts system, while Holochain provide the local context and governance via it's agent-centric architecture. It's a mix between local and global (Glocal). Contributors to a local OVN can transport their credentials and reputation to facilitate their access to other OVNs.
+
 Holochain + ADAM favorize the translations of those local credential by establishing a common language/perspective while Cardano secure the transactions of theses credetentials and reputations across the local networks.
 
 
-- **Self-Sovereignty**: OVNs respect the autonomy of individual contributors, allowing them to maintain control over their data and contributions. Holochain's agent-centric design ensures that participants retain sovereignty over their personal data, while Cardano's decentralized identity (DID) zone supports secure and self-sovereign identity management.
+### Self-Sovereignty
+
+OVNs respect the autonomy of individual contributors, allowing them to maintain control over their data and contributions. Holochain's agent-centric design ensures that participants retain sovereignty over their personal data, while Cardano's decentralized identity (DID) zone supports secure and self-sovereign identity management.
 
 By adhering to these principles, OVNs create ecosystems that foster collaboration, innovation, and equitable economic interactions. The integration of Holochain, hREA/ValueFlows, and Cardano provides a technical foundation that not only supports but also amplifies these principles, enabling OVNs to operate effectively in contexts like the PEP Master project, where transparency, fairness, and regulatory compliance are critical.
 
