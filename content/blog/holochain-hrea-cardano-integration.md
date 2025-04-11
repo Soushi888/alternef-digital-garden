@@ -42,9 +42,13 @@ OVNs also embrace a more complex approach to ownership, recognizing multiple for
 
 - **Modularity and Interoperability**: OVNs embrace modular designs and interoperable systems to ensure flexibility and scalability. Holochain's customizable application framework supports this by allowing tailored solutions for specific use cases, while Cardano's interoperability with decentralized storage solutions like Iagon ensures seamless integration with other systems.
 
-Holochain allows the composability and modularity because of its Zomes and DNA architecture, those core composability features are integrated with Moss and Neighborhood as building blocks for collaboration and social sensemaking.
+Holochain's modular architecture, built on Zomes and DNA, provides core composability features that integrate with Moss and Neighborhood as building blocks for collaboration and social sensemaking. This architectural approach enables flexible and adaptable solutions for different use cases.
 
-Cardano is well positioned too for interoperability cross-chain and cross-platform. It will be complementary to Holochain via an Cardano Zome that will be developed in the future. Cardano can have native interoperability with other blockchains as demonstrated with Bitcoin via `BitcoinOS` or `FluidToken`. It bring the robustness of the EUTXO transaction model and the security of the Cardano blockchain. Cardano adopt the Inter-Blockchain-Protocol (IBP)
+Cardano complements this modularity through its cross-chain and cross-platform interoperability capabilities. A future Cardano Zome will enable direct integration with Holochain, while Cardano's native interoperability with other blockchains (demonstrated through `BitcoinOS` and `FluidToken`) leverages the robustness of its EUTXO transaction model and the Inter-Blockchain-Protocol (IBP).
+
+- **Global Accessibility**: OVNs aim to create networks that transcend geographical boundaries through a "glocal" (global + local) approach. Cardano's blockchain enables transactional global interoperability via its smart-contracts system, while Holochain provides local context and governance through its agent-centric architecture. This hybrid model allows contributors to transport their credentials and reputation across different OVNs seamlessly.
+
+The integration of Holochain with ADAM (https://coasys.org/adam) establishes a common language and perspective for translating local credentials, while Cardano secures the cross-network transaction of these credentials and reputations. ADAM's meta-ontology, which defines three classes (Agents, Languages, and Perspectives), creates a spanning layer that enables many-to-many mappings between user interfaces and existing web technologies. This architecture allows for private, locally stored graph databases that associate data across different Languages while maintaining global interoperability.
 
 - **Sustainability**: OVNs prioritize environmentally and economically sustainable practices. Holochain's energy-efficient architecture aligns with this principle by minimizing the environmental impact of peer production networks, while Cardano's Ouroboros Proof-of-Stake (PoS) consensus mechanism ensures long-term sustainability through a more energy-efficient consensus mechanism than Proof-of-Work (PoW) or other PoS mechanisms used by other blockchains.
 
@@ -72,12 +76,12 @@ By adhering to these principles, OVNs create ecosystems that foster collaboratio
 PEP Master is an open-source DIY therapeutic device and game developed by a consortium involving [Sensorica](https://www.sensorica.co/), [Sainte Justine Hospital](https://www.chusj.org/), [Breathing Games](https://www.sensorica.co/communities/breathing-games) and Ludociels. The project aims to increase accessibility to medical and therapeutic equipment by leveraging peer production and Web3 technologies. The primary objectives include:
 
 1. Achieving ISO standards for the PEP Master device.
-2. Validate the clinical pertinance of p2p PEP Master device through medical research.
-3. Validation and Certification method of the p2p device blueprint and fabrication process
-4. Implement a safe and secure data medical data storage and transfer mechanism.
+2. Validating the clinical relevance of peer-produced PEP Master devices through medical research.
+3. Establishing validation and certification methods for device blueprints and fabrication processes.
+4. Implementing secure medical data storage and transfer mechanisms.
 5. Engaging with governmental agencies like Health Canada for regulatory approval.
 
-The PEP Master project operates within a niche where quality, safety, and regulatory compliance are paramount. Traditional economic models fail to respond effictevely to rare mdical conditions. The PEP Master project implement an economic trust-based economic model that leverage open collaboration and distributed fabrication that increase accessibility to medical devices, ideal for marginalized/niche rare medical conditions.
+The PEP Master project operates within a niche where quality, safety, and regulatory compliance are paramount. Traditional economic models often fail to effectively address rare medical conditions. To overcome this limitation, the PEP Master project implements a trust-based economic model that leverages open collaboration and distributed fabrication. This approach increases accessibility to medical devices, making it particularly valuable for addressing marginalized or niche rare medical conditions.
 
 ## The hREA/ValueFlows Framework
 
