@@ -13,6 +13,10 @@ tags:
   - peer-production
 ---
 
+> [!warning] Work in Progress
+> 
+> This is a work in progress and is not ready to be published yet.
+
 The integration of [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]], [[hrea|hREA]]/[[valueflows|ValueFlows]], and [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/proof-of-stake/cardano/index|Cardano]] offers a groundbreaking approach for [Open Value Networks (OVNs)](https://ovn.world/) engaged in peer production, particularly within the context of open-source, Do-It-Yourself (DIY) projects like [PEP Master](https://www.sensorica.co/ventures/scientific-instruments/pep-master). By combining Holochain's decentralized contribution tracking, hREA/ValueFlows' economic modeling, and Cardano's robust blockchain infrastructure, this hybrid model enables distributed fabrication, secure asset tokenization, and regulatory compliance for collaboratively produced therapeutic devices. This article explores how these technologies converge to support OVNs, with a specific focus on the PEP Master project, its objectives, and the current implementation plan, as illustrated in the accompanying diagram.
 
 - **Open Value Networks** are a type of peer production network that are characterized by their focus on value distribution and the use of blockchain technology to support their operations.
