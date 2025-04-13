@@ -1,7 +1,7 @@
 ---
-description: Main structure of the knowledge base
+description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
 # Content Organization Rules
 

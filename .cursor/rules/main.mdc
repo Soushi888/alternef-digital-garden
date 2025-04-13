@@ -1,7 +1,7 @@
 ---
-description: Main rules for the project
+description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
 # Alternef Digital Garden Rules
 

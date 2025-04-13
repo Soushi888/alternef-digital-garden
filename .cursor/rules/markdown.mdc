@@ -1,9 +1,13 @@
 ---
-description: When you work on markdown notes
+description: When you work on markdown notes in content/
 globs: 
 alwaysApply: false
 ---
 # Markdown Content Rules
+
+## Related rules
+
+Read the [snippets.mdc](mdc:.cursor/rules/snippets.mdc) rules to get a template for notes.
 
 ## Frontmatter Structure
 
