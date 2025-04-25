@@ -18,6 +18,7 @@ This task list tracks the implementation of a "Recent Changes" feature using the
 - [x] Create the dedicated page markdown file (`content/recent-changes.md`)
 - [x] Implement human-readable date formatting (e.g., "2 days ago")
 - [x] Implement differentiation between 'new' and 'updated' items visually
+- [x] Refactor `RecentChanges.tsx`: Extract data processing logic to `utils/recentChanges.ts`.
 
 ## In Progress Tasks
 
@@ -43,31 +44,31 @@ This task list tracks the implementation of a "Recent Changes" feature using the
 The Recent Changes feature has been implemented as a reusable component leveraging the core `effect` package for robust, declarative, and type-safe handling of asynchronous operations, data transformations, and potential errors.
 
 ### Component Design
-- ✅ Created a configurable component `RecentChanges.tsx` using TypeScript and functional component patterns.
-- ✅ Defined a clear `RecentChangesProps` interface.
-- ✅ Component displays recently created and updated notes with metadata (title, date, link).
-- ✅ Supports differentiation between new and updated content.
+- Created a configurable component `RecentChanges.tsx` using TypeScript and functional component patterns.
+- Defined a clear `RecentChangesProps` interface.
+- Component displays recently created and updated notes with metadata (title, date, link).
+- Supports differentiation between new and updated content.
 
 ### Data Fetching and Processing
-- ✅ Utilized Quartz's content index/file system APIs to get file metadata.
-- ✅ Wrapped data retrieval in `Effect` computations (e.g., `Effect.try`).
-- ✅ Used `Effect` combinators for data transformation and sorting.
-- ⏳ Ready to implement `Cache` from the `effect` package for efficient data caching.
-- ✅ Handled potential errors gracefully.
+- Utilized Quartz's content index/file system APIs to get file metadata.
+- Wrapped data retrieval in `Effect` computations (e.g., `Effect.try`).
+- Used `Effect` combinators for data transformation and sorting.
+- Ready to implement `Cache` from the `effect` package for efficient data caching.
+- Handled potential errors gracefully.
 
 ### Placement Strategy
-1.  **Homepage Integration**: ⏳ Plan to add condensed view (3-5 items, title/date), with link to full page.
-2.  **Dedicated Page (`/recent-changes`)**: ⏳ Ready to add comprehensive view, detailed info, filtering, pagination.
-3.  **Sidebar Navigation**: ⏳ Will add link to the dedicated page, with visual indicator for new changes.
+1.  **Homepage Integration**: Plan to add condensed view (3-5 items, title/date), with link to full page.
+2.  **Dedicated Page (`/recent-changes`)**: Ready to add comprehensive view, detailed info, filtering, pagination.
+3.  **Sidebar Navigation**: Will add link to the dedicated page, with visual indicator for new changes.
 
 ### Technical Implementation
 
 The component has been implemented with the following features:
-- ✅ Retrieving and processing file metadata (creation/modification dates)
-- ✅ Filtering items by type and category
-- ✅ Human-readable date formatting
-- ✅ Responsive design for different screen sizes
-- ✅ Demo mode for easy testing
+- Retrieving and processing file metadata (creation/modification dates)
+- Filtering items by type and category
+- Human-readable date formatting
+- Responsive design for different screen sizes
+- Demo mode for easy testing
 
 ### Next Steps
 
@@ -78,8 +79,19 @@ The component has been implemented with the following features:
 
 ### Relevant Files
 
-- `quartz/components/RecentChanges.tsx` - ✅ Main component (using core `effect` package)
-- `quartz.layout.ts` - ⏳ Layout configuration (to be updated for homepage & sidebar)
-- `content/recent-changes.md` - ✅ Dedicated page (created)
-- `quartz/styles/custom.scss` - ✅ Styling updates (added)
-- `quartz.config.ts` - ⏳ Potentially needed for accessing file data or configuring caching
+- `quartz/components/RecentChanges.tsx` - Main component (using core `effect` package)
+- `quartz.layout.ts` - Layout configuration (to be updated for homepage & sidebar)
+- `content/recent-changes.md` - Dedicated page (created)
+- `quartz/styles/custom.scss` - Styling updates (added)
+- `quartz.config.ts` - Potentially needed for accessing file data or configuring caching
+
+## Refactoring & Code Quality
+- [x] Refactor `mainMenu.inline.ts` using Effect-TS.
+    - [x] Address TypeScript lint errors.
+- [x] Refactor `RecentChanges.tsx`: Extract data processing logic to `utils/recentChanges.ts`.
+- [ ] Implement unit tests for Effect-TS logic in `mainMenu.inline.ts`.
+- [ ] Consider unit tests for `utils/recentChanges.ts`.
+- [ ] Review Effect-TS usage for potential optimizations or simplification.
+
+## Features
+{{ ... }}

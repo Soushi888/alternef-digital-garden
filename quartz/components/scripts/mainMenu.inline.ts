@@ -1,71 +1,162 @@
-function toggleSidebar(this: HTMLElement) {
-  // Toggle active state of button
-  this.classList.toggle("active")
+import * as E from "effect/Effect"
+import * as O from "effect/Option"
+import {Scope} from "effect/Scope"
+import { pipe } from "effect/Function"
 
-  // Toggle lock-scroll on body to prevent background scrolling
-  const bodySelector = document.querySelector("#quartz-body")
-  if (bodySelector) {
-    bodySelector.classList.toggle("lock-scroll")
-  }
-  
-  // Prevent body scrolling when menu is open
-  document.body.style.overflow = this.classList.contains("active") ? "hidden" : ""
-}
+// --- DOM Access Effects ---
 
-function setupSidebar() {
-  const toggleButton = document.getElementById("mobile-menu-toggle")
-  if (toggleButton) {
-    toggleButton.removeEventListener("click", toggleSidebar)
-    toggleButton.addEventListener("click", toggleSidebar)
-  }
-  
-  // Close menu when clicking outside of it
-  document.addEventListener("click", (e) => {
-    const menuNav = document.querySelector(".main-menu-nav")
-    const toggleButton = document.getElementById("mobile-menu-toggle")
-    
-    if (menuNav && toggleButton && toggleButton.classList.contains("active")) {
-      // Check if the click target is not part of the menu or toggle button
-      // @ts-ignore
-      const isMenuClick = menuNav.contains(e.target)
-      // @ts-ignore
-      const isToggleClick = toggleButton.contains(e.target)
-      
-      if (!isMenuClick && !isToggleClick) {
-        toggleButton.click() // Close the menu
+const getElementById = (id: string): E.Effect<O.Option<HTMLElement>> =>
+  E.sync(() => O.fromNullable(document.getElementById(id)))
+
+const querySelector = (selector: string): E.Effect<O.Option<Element>> =>
+  E.sync(() => O.fromNullable(document.querySelector(selector)))
+
+const getToggleButton = (): E.Effect<O.Option<HTMLElement>> =>
+  getElementById("mobile-menu-toggle")
+
+const getBodySelector = (): E.Effect<O.Option<Element>> =>
+  querySelector("#quartz-body") // Assuming #quartz-body is the intended selector
+
+const getMenuNav = (): E.Effect<O.Option<Element>> =>
+  querySelector(".main-menu-nav")
+
+// --- DOM Manipulation Effects ---
+
+const toggleClass = (element: Element, className: string): E.Effect<void> =>
+  E.sync(() => element.classList.toggle(className))
+
+const removeClass = (element: Element, className: string): E.Effect<void> =>
+  E.sync(() => element.classList.remove(className))
+
+const setBodyOverflow = (value: string): E.Effect<void> =>
+  E.sync(() => { document.body.style.overflow = value })
+
+const elementContains = (parent: Element, child: EventTarget | null): E.Effect<boolean> =>
+  E.sync(() => parent.contains(child as Node | null))
+
+const getWindowInnerWidth = (): E.Effect<number> =>
+  E.sync(() => window.innerWidth)
+
+// --- Core Logic Effects ---
+
+const toggleSidebarEffect = (toggleButton: HTMLElement): E.Effect<void> =>
+  E.gen(function*(_) {
+    yield* _(toggleClass(toggleButton, "active"))
+    const isActive = toggleButton.classList.contains("active")
+
+    const bodySelectorOpt = yield* _(getBodySelector())
+
+    yield* _(O.match(bodySelectorOpt, {
+      onNone: () => E.void,
+      onSome: (body) => toggleClass(body, "lock-scroll")
+    }))
+
+    yield* _(setBodyOverflow(isActive ? "hidden" : ""))
+  }).pipe(
+    E.catchAllCause(cause => E.logError(cause)),
+    E.ignore
+  )
+
+const resetSidebarState = (): E.Effect<void> =>
+  E.gen(function*(_) {
+    const bodySelectorOpt = yield* _(getBodySelector())
+    const toggleButtonOpt = yield* _(getToggleButton())
+
+    yield* _(O.match(bodySelectorOpt, {
+      onNone: () => E.void,
+      onSome: (body) => removeClass(body, "lock-scroll")
+    }))
+
+    yield* _(O.match(toggleButtonOpt, {
+      onNone: () => E.void,
+      onSome: (button) => removeClass(button, "active")
+    }))
+
+    yield* _(setBodyOverflow(""))
+  }).pipe(
+    E.catchAllCause(cause => E.logError(cause)),
+    E.ignore
+  )
+
+
+// --- Event Listener Resource Management ---
+
+const manageEventListener = <T extends EventTarget, K extends string>(
+  target: T,
+  type: K,
+  listener: (ev: Event) => E.Effect<void>, 
+  options?: boolean | AddEventListenerOptions
+): E.Effect<void, never, Scope> =>
+  E.acquireRelease(
+    E.sync(() => {
+      const handler = (ev: Event) => {
+        E.runFork(pipe(
+          listener(ev),
+          E.catchAllCause(cause => E.logError(cause)),
+          E.ignore
+        ))
       }
-    }
-  }, { passive: true })
-}
+      target.addEventListener(type, handler, options)
+      return handler 
+    }),
+    (handler) => E.sync(() => {
+      if (typeof (target as any).removeEventListener === 'function') {
+         (target as any).removeEventListener(type, handler, options)
+      }
+    })
+  ).pipe(
+     E.flatMap(() => E.void),
+     E.catchAllCause(cause => E.logWarning(cause)),
+     E.ignore
+   )
 
-document.addEventListener("nav", () => {
-  const bodySelector = document.querySelector("#quartz-body")
-  const toggleButton = document.getElementById("mobile-menu-toggle")
-  if (bodySelector) {
-    bodySelector.classList.remove("lock-scroll")
-  }
-  if (toggleButton) {
-    toggleButton.classList.remove("active")
-  }
-  
-  // Reset body overflow
-  document.body.style.overflow = ""
+
+// --- Main Program ---
+
+const program = E.gen(function* (_) {
+  const toggleButtonOpt = yield* _(getToggleButton())
+
+  yield* _(O.match(toggleButtonOpt, {
+      onNone: () => E.logInfo("Mobile menu toggle button not found"),
+      onSome: (button) =>
+        manageEventListener(button, "click", () => toggleSidebarEffect(button))
+    }))
+
+  yield* _(manageEventListener(document as unknown as EventTarget, "click", (e) => E.gen(function* (_) {
+      const menuNavOpt = yield* _(getMenuNav())
+      const toggleButtonOpt = yield* _(getToggleButton())
+
+      if (O.isSome(menuNavOpt) && O.isSome(toggleButtonOpt)) {
+        const menuNav = menuNavOpt.value
+        const toggleButton = toggleButtonOpt.value
+
+        if (toggleButton.classList.contains("active")) {
+          const isMenuClick = yield* _(elementContains(menuNav, e.target))
+          const isToggleClick = yield* _(elementContains(toggleButton, e.target))
+
+          if (!isMenuClick && !isToggleClick) {
+            yield* _(toggleSidebarEffect(toggleButton))
+          }
+        }
+      }
+  }), { passive: true }))
+
+
+  yield* _(manageEventListener(document as unknown as EventTarget, "nav", () => resetSidebarState()))
+
+  yield* _(manageEventListener(window, "resize", () => E.gen(function*(_) {
+    const width = yield* _(getWindowInnerWidth())
+    if (width > 768) {
+       yield* _(resetSidebarState())
+    }
+  })))
+
+  yield* _(E.logInfo("Mobile menu sidebar effects initialized"))
 })
 
-window.addEventListener("resize", () => {
-  const bodySelector = document.querySelector("#quartz-body")
-  const toggleButton = document.getElementById("mobile-menu-toggle")
-  if (window.innerWidth > 768) {
-    if (bodySelector) {
-      bodySelector.classList.remove("lock-scroll")
-    }
-    if (toggleButton) {
-      toggleButton.classList.remove("active")
-    }
-    
-    // Reset body overflow
-    document.body.style.overflow = ""
-  }
-})
 
-setupSidebar()
+// --- Execution ---
+
+const main = E.scoped(program)
+
+E.runFork(main)
