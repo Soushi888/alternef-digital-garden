@@ -1,0 +1,159 @@
+.recent-changes {
+  margin: 1.5rem 0;
+  
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: var(--secondary);
+  }
+  
+  .recent-changes-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    &.detailed {
+      .recent-change-item {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.2rem;
+        border-bottom: 1px solid var(--lightgray);
+        
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+      
+      .recent-change-excerpt {
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        color: var(--gray);
+        line-height: 1.4;
+      }
+      
+      .recent-change-tags {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        
+        .recent-change-tag {
+          font-size: 0.75rem;
+          padding: 0.2rem 0.5rem;
+          background-color: var(--lightgray);
+          border-radius: 4px;
+          color: var(--darkgray);
+        }
+      }
+    }
+    
+    &.condensed {
+      .recent-change-item {
+        margin-bottom: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        
+        @media (min-width: 768px) {
+          flex-direction: row;
+          align-items: baseline;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+  
+  .recent-change-item {
+    position: relative;
+    
+    &.created {
+      .recent-change-type {
+        background-color: #b3e6cc; // Lighter green for "new" items
+        color: #005500;
+      }
+    }
+    
+    &.updated {
+      .recent-change-type {
+        background-color: #d0e0f0; // Light blue for "updated" items
+        color: #003366;
+      }
+    }
+  }
+  
+  .recent-change-link {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--dark);
+    
+    &:hover {
+      text-decoration: underline;
+      color: var(--secondary);
+    }
+  }
+  
+  .recent-change-meta {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    
+    @media (min-width: 768px) {
+      .condensed & {
+        margin-top: 0;
+      }
+    }
+  }
+  
+  .recent-change-type {
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .recent-change-date {
+    color: var(--gray);
+  }
+  
+  .recent-changes-more {
+    margin-top: 1rem;
+    text-align: right;
+    
+    a {
+      font-size: 0.85rem;
+      text-decoration: none;
+      color: var(--secondary);
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Dark mode adjustments
+@media (prefers-color-scheme: dark) {
+  .recent-changes {
+    .recent-change-item {
+      &.created {
+        .recent-change-type {
+          background-color: rgba(179, 230, 204, 0.2);
+          color: #b3e6cc;
+        }
+      }
+      
+      &.updated {
+        .recent-change-type {
+          background-color: rgba(208, 224, 240, 0.2);
+          color: #d0e0f0;
+        }
+      }
+    }
+    
+    .recent-changes-list.detailed .recent-change-tags .recent-change-tag {
+      background-color: var(--darkgray);
+      color: var(--light);
+    }
+  }
+} 

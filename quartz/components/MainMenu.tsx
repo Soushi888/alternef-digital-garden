@@ -79,7 +79,7 @@ export default ((userOpts?: Options) => {
           </div>
           
           <div class="knowledge-base">
-            <h3><a href="/knowledge"><span class="icon">🌺</span> Knowledge Garden</a></h3>
+            <h3><a href={resolveRelative(currentPath, "/knowledge" as FullSlug)}><span class="icon">🌺</span> Knowledge Garden</a></h3>
             <div class="permaculture-petals">
               {renderMenu(permaculturePetals)}
             </div>

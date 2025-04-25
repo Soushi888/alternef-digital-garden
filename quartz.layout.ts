@@ -94,3 +94,41 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [Component.DesktopOnly(Component.TableOfContents())],
 }
+
+// Homepage layout - special case for showing recent changes
+export const customLayouts = {
+  // Add RecentChanges to the homepage
+  index: {
+    beforeBody: [...defaultContentPageLayout.beforeBody],
+    left: [...defaultContentPageLayout.left],
+    right: [...defaultContentPageLayout.right],
+  },
+  // Dedicated page for recent changes with more features
+  "recent-changes": {
+    beforeBody: [...defaultContentPageLayout.beforeBody],
+    left: [...defaultContentPageLayout.left],
+    right: [...defaultContentPageLayout.right],
+  },
+}
+
+// Register the afterBody component separately since it's part of SharedLayout, not PageLayout
+sharedPageComponents.afterBody.push((props: any) => {
+  // Use different configurations based on the current page
+  if (props.fileData.slug === "recent-changes") {
+    return Component.RecentChanges({
+      ...props,
+      limit: 20,
+      detailed: true,
+      showExcerpt: true,
+      showTags: true,
+    })
+  } else if (props.fileData.slug === "index") {
+    return Component.RecentChanges({
+      ...props,
+      limit: 5,
+      detailed: false,
+      title: "Recent Updates",
+    })
+  }
+  return null
+})
