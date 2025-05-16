@@ -1,167 +1,121 @@
 ---
-description: Workflow for analyzing changes and writing meaningful git commit messages
+description: How to write a meaningful git commit message
 ---
 
-# Write Git Commit Message Workflow
+# Git Commit Message Workflow
 
-This workflow guides you through the process of analyzing changes and writing a clear, informative git commit message for the Alternef Digital Garden. This workflow will ONLY analyze changes and suggest a commit message - it will NEVER perform the actual commit.
+This workflow helps create standardized, meaningful git commit message suggestions by analyzing staged changes and relevant GitHub issues. The AI will only suggest a message format - it will NOT execute any commits. Don't ask questions, just suggest a commit message.
 
-## 1. Check Repository Status
+## Steps
 
-- Run `git status` to see which files have been modified, added, or deleted
-- Note the general areas of the codebase that have been affected (content, components, configuration, etc.)
+1. List all staged files to get an overview:
 
-```bash
-git status
-```
+   ```bash
+   git status
+   ```
 
-## 2. Review Staged Changes
+   or for a more concise list:
 
-- Run `git diff --staged` to see the specific changes that have been staged for commit
-- This will show you the exact lines that have been added, modified, or removed
+   ```bash
+   git diff --staged --name-only
+   ```
 
-```bash
-git diff --staged
-```
+2. Identify files with the most significant changes:
 
-## 3. Handle Large Diffs
+   ```bash
+   git diff --staged --stat
+   ```
 
-If the diff output is too large or truncated:
+   This helps prioritize which diffs to review in detail if there are many changes.
+3. Review the diffs of staged files to understand the changes:
+   - If there are few files, review each one:
 
-- Identify the most important or representative files that have been changed
-- Run individual diffs on these files to understand the changes better
+     ```bash
+     git diff --staged <file_path>
+     ```
 
-```bash
-git diff --staged path/to/important/file.md
-```
+   - If there are many files, prioritize reviewing the ones identified as having the biggest changes. In some cases, a full `git diff --staged` might still be useful, but be mindful of potentially large outputs that could be truncated or overwhelming.
 
-## 4. Analyze Content Changes
+4. Check if the commit is related to a GitHub issue:
+   - Look for issue numbers in branch names (e.g., `feature/123-add-new-component`)
+   - Look for issue references in the code comments (e.g., `// Fixes #123`)
+   - Look for issue reference in the task-list that is potentially updated with the commit.
+   - If found, fetch the issue details using the GitHub MCP.
 
-For content files (Markdown notes, blog posts, etc.):
+5. Craft a commit message following this structure:
 
-- What new content was added?
-- What existing content was modified?
-- Were there structural changes to the content organization?
-- Were there changes to frontmatter, tags, or links?
+   ```text
+   <type>(<scope>): <short summary>
+   
+   <detailed body explanation with implementation details and impact>
+   
+   [optional footer with "Fixes #123" or "Related to #123"]
+   ```
 
-## 5. Analyze Code Changes
+   Where:
+   - **type**: feat (feature), fix, docs, style, refactor, test, chore, etc.
+   - **scope**: component or area of the codebase (optional)
+   - **summary**: concise description in present tense, not capitalized, no period
+   - **body**: REQUIRED detailed explanation that addresses:
+     - WHAT was changed (implementation details)
+     - HOW it affects the system (impact and dependencies)
+     - Any trade-offs or considerations made
+   - **footer**: reference to issues, breaking changes, etc.
 
-For code files (TypeScript components, configuration, etc.):
+6. Examples of good commit messages:
 
-- What functionality was added, modified, or removed?
-- Were there bug fixes or performance improvements?
-- Were there changes to dependencies or build configuration?
-- Were there style or UI changes?
+   ```text
+   feat(search): add brave search api integration
+   
+   This change implements a new search provider using the Brave Search API.
+   The integration allows users to perform private, untracked web searches
+   directly from our application without relying on Google's services.
+   
+   The implementation includes:
+   - A new BraveSearchClient class with rate limiting and error handling
+   - Updated SearchProvider interface to support the new provider
+   - Configuration options for API keys and regional settings
+   - Unit and integration tests for the new client
+   
+   The implementation provides a more ethical search alternative with improved privacy.
+   
+   Fixes #42
+   ```
 
-## 6. Categorize the Changes
+   ```text
+   fix(data-layer): resolve profile database connection issue
+   
+   This fix addresses a critical race condition that occurs when multiple
+   profile databases are opened simultaneously. The issue was causing
+   intermittent data corruption and application crashes for users with
+   multiple profiles.
+   
+   Technical changes:
+   - Added mutex locks around database connection initialization
+   - Implemented connection pooling to reuse existing connections
+   - Added retry logic with exponential backoff for failed connections
+   - Improved error reporting to help diagnose similar issues
+   
+   Performance impact is minimal (<5ms per operation) but significantly
+   improves stability for multi-profile users. This was extensively tested
+   with 100+ simultaneous connections without failures.
+   
+   Related to #123
+   ```
 
-Determine the primary category of changes:
+**IMPORTANT**: The AI will NEVER execute the commit command automatically.
 
-- `feat`: New feature or significant enhancement
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Formatting, missing semicolons, etc. (no code change)
-- `refactor`: Code changes that neither fix bugs nor add features
-- `perf`: Performance improvements
-- `test`: Adding or correcting tests
-- `chore`: Maintenance tasks, dependency updates, etc.
-- `content`: New or updated content in the digital garden
+## Tips
 
-## 7. Craft the Commit Message
-
-Follow this format for the commit message:
-
-```text
-<type>(<scope>): <short summary>
-
-<body>
-
-<footer>
-```
-
-Where:
-
-- `<type>`: The category from step 6
-- `<scope>`: The area of the codebase affected (optional)
-- `<short summary>`: A concise description (50 chars or less)
-- `<body>`: Detailed explanation of the changes (optional)
-- `<footer>`: References to issues, breaking changes, etc. (optional)
-
-### Examples
-
-```text
-feat(content): add permaculture principles note
-
-Add comprehensive note on permaculture principles with detailed explanations
-of each principle and practical applications. Include links to related
-concepts and appropriate tags.
-```
-
-```text
-fix(components): resolve mobile menu display issue
-
-Fix issue where main menu wasn't properly displaying on mobile devices
-below 375px width. Adjust media queries and overflow handling.
-
-Closes #42
-```
-
-## 8. Consider Conventional Commits
-
-For more structured commit messages, consider following the [Conventional Commits](https://www.conventionalcommits.org/) specification:
-
-- Breaking changes should be indicated with `!` after the type/scope
-- Include `BREAKING CHANGE:` in the footer with explanation
-
-Example:
-
-```text
-feat(api)!: change authentication endpoint response format
-
-BREAKING CHANGE: Authentication endpoint now returns JWT token in 
-response body instead of header
-```
-
-## 9. Review the Commit Message
-
-Before finalizing:
-
-- Ensure the message accurately reflects all important changes
-- Check that the summary is concise but descriptive
-- Verify that any issue references are correct
-- Make sure the message follows project conventions
-
-## 10. Suggested Commit Message Format
-
-Once the commit message is crafted, it will be presented as a suggestion in the following format:
-
-```text
-Suggested commit message:
-
-type(scope): short summary
-
-Detailed explanation of changes.
-```
-
-IMPORTANT: This workflow will NEVER execute the commit command. You must manually run the commit command yourself using the suggested message:
-
-```bash
-git commit -m "type(scope): short summary" -m "Detailed explanation of changes."
-```
-
-Or for multi-line messages, use the editor:
-
-```bash
-git commit
-```
-
-Then enter the full commit message in the editor that opens.
-
-## Additional Tips
-
-- Keep the first line (summary) under 50 characters
-- Wrap the body text at around 72 characters
-- Use the imperative mood ("add feature" not "added feature")
-- Explain the "why" behind changes, not just the "what"
-- Reference relevant issues or pull requests when applicable
-- For content changes, mention which knowledge domains were affected
+- Keep the summary line under 50 characters if possible
+- Wrap body text at 72 characters
+- Use imperative mood ("add" not "added" or "adds")
+- Make the body message detailed and comprehensive:
+  - Describe the key technical changes (WHAT)
+  - Outline the impact and any trade-offs (HOW it affects the system)
+  - Include relevant metrics or test results when applicable
+  - Use bullet points for clarity when listing multiple changes
+  - Ensure all changes in the `git diff --staged` are addressed in the commit message body.
+- Structure the body with paragraphs for different aspects (implementation, impact)
+- Reference relevant issues in the footer
+- Consider including links to relevant documentation or discussions

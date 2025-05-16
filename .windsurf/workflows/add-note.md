@@ -20,7 +20,25 @@ This workflow guides you through the process of creating a new note in the Alter
   - Portfolio items go in: `content/portfolio/[filename].md`
   - Domain indexes go in: `content/knowledge/[domain]/index.md`
 
-Analyse deeply the domains structure to determine where is the perfect location for the note.
+### Knowledge Domain Structure
+
+To view the current knowledge domain structure and find the appropriate location for your note, run the following command:
+
+```bash
+find /home/soushi888/Projets/alternef-digital-garden/content/knowledge -type d | sort | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
+```
+
+This command will display the complete, up-to-date directory structure of the knowledge domain, helping you identify the most appropriate location for your note.
+
+For more detailed exploration of a specific subdomain, you can run:
+
+```bash
+find /home/soushi888/Projets/alternef-digital-garden/content/knowledge/[specific-domain] -type d | sort | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
+```
+
+Replace `[specific-domain]` with the domain you're interested in (e.g., `tools-and-technology`).
+
+Analyze the domain structure carefully to determine the perfect location for the note. If you're creating a note about a technology, tool, or concept that fits within a specific subdomain, place it in the appropriate subdirectory.
 
 ## 2. Create the File
 
