@@ -14,6 +14,7 @@ Guidelines for creating and managing task lists in markdown files to track proje
    - Include a clear title and description of the feature being implemented
 
 2. Structure the file with these sections:
+
    ```markdown
    # Feature Name Implementation
    

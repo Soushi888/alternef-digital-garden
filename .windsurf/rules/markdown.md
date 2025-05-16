@@ -30,7 +30,7 @@ related pages:
 ## Filename Conventions
 
 - Use lowercase with hyphens for filenames (e.g., `digital-garden.md`)
-- Avoid spaces, underscores, or camelCase 
+- Avoid spaces, underscores, or camelCase
 - Keep filenames concise but descriptive
 - Example: `permaculture-principles.md` not `PermaculturePrinciples.md` or `permaculture_principles.md`
 
@@ -80,4 +80,4 @@ Consider including these sections in longer notes:
 - "Related Concepts" - linking to other relevant notes
 - "Further Reading" - external resources and references
 - "Practical Applications" - how to apply theoretical concepts
-- "Questions to Explore" - open questions for further investigation 
+- "Questions to Explore" - open questions for further investigation

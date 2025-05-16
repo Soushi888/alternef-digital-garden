@@ -60,7 +60,7 @@ The digital garden is organized into 7 core domains:
 
 ## Directory Structure
 
-```
+``` text
 content/
   ├── about-me.md
   ├── index.md
@@ -81,24 +81,28 @@ content/
 ## Content Types
 
 ### Notes
+
 - Core knowledge units
 - Focused on a single concept or idea
 - Heavily linked to related concepts
 - Located in domain-specific directories
 
 ### Indexes
+
 - Provide overview and navigation for a domain or subdomain
 - List key concepts and relationships
 - Serve as entry points to knowledge areas
 - Named `index.md` within their respective directories
 
 ### Blog Posts
+
 - Date-based content
 - More narrative and personal
 - Can cross-reference notes
 - Located in the `blog` directory
 
 ### Portfolio Items
+
 - Project showcases
 - Case studies
 - Demonstrations of applied knowledge
@@ -126,4 +130,4 @@ content/
 - Use consistent navigation patterns
 - Ensure no content is orphaned (unlinked)
 - Create thematic entry points
-- Balance depth and breadth in content organization 
+- Balance depth and breadth in content organization
