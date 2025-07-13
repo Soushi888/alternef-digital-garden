@@ -1,9 +1,0 @@
-{
-    "tools": [
-      {
-        "name": "alternef-digital-garden-mcp",
-        "command": "bun run dev",
-        "transport": "stdio"
-      }
-    ]
-}

@@ -8,3 +8,10 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# IDEs
+.vscode
+.cursor
+.windsurf
+.zed
+.idea
