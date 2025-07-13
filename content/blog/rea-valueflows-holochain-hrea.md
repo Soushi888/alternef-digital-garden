@@ -147,7 +147,7 @@ As these technologies mature, they offer a tangible path toward creating economi
 ---
 
 ### Further Reading & Citations
--   [Wikipedia: Resources, Events, Agents](https://en.wikipedia.org/wiki/Resources,_events,_agents)
+-   [Wikipedia: Resources, Events, Agents](https://en.wikipedia.org/wiki/Resources,_Events,_Agents)
 -   [McCarthy, W. E. (1982). The REA Accounting Model: A Generalized Framework for Accounting Information Systems in a Shared Data Environment](https://home.business.utah.edu/actme/7410/McCarthy-82.pdf)
 -   [Valueflows: A High-Level Introduction](https://valueflo.ws/introduction/accounting.html)
 -   [Holochain Official Website](https://www.holochain.org/)
