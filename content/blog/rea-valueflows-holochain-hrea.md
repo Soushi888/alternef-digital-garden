@@ -13,7 +13,7 @@ We'll start with the foundational concepts of REA accounting, see how ValueFlows
 
 ## 1. Back to Basics: What is REA Accounting?
 
-REA (Resources, Events, Agents) is a conceptual model developed by William E. McCarthy in 1982 to revolutionize accounting for the digital age. Instead of the abstract debits and credits of traditional double-entry bookkeeping, REA focuses on the tangible economic activities that drive a business. It has since become a cornerstone of modern Accounting Information Systems (AIS) and influenced international standards like [ISO 15944-4](https://www.iso.org/standard/38853.html).
+REA (Resources, Events, Agents) is a conceptual model developed by William E. McCarthy starting in 1982 to revolutionize accounting for the digital age. Instead of the abstract debits and credits of traditional double-entry bookkeeping, REA focuses on the tangible economic activities that drive a business. It has since become a cornerstone of modern Accounting Information Systems (AIS) and influenced international standards like [ISO 15944-4](https://www.iso.org/standard/38853.html).
 
 ### The Core Trio: Resources, Events, Agents
 
@@ -47,11 +47,11 @@ This creates a rich, semantic representation of business activities, effectively
 
 ValueFlows turbocharges the REA model in several critical ways:
 
--   **Comprehensive Resource Representation**: ValueFlows expands the definition of "resource" to explicitly include goods, services, money, knowledge, energy, and even ecological factors like water quality, soil pH, or air purity. This makes it a versatile tool for any value system.
--   **A Network-First Perspective**: Basic REA often focuses on the activities of a single agent (one company). ValueFlows introduces the concept of a "collaboration space," allowing accounting for entire networks. You can track resource flows across a whole supply chain, within a local community, or even through a global commons.
+-   **Comprehensive Resource Representation**: ValueFlows expands the definition of "resource" to explicitly include goods, services, money, knowledge, energy, and even ecological factors like CO2, nitrogen, or atrazine (an herbicide). This makes it a versatile tool for any value system.
+-   **A Network-First Perspective**: Basic REA often focuses on the activities of a single agent (one company). Both ValueFlows and modern REA include the concept of a "collaboration space," allowing accounting for entire networks. You can track resource flows across a whole supply chain, within a local community, or even through a global commons.
 -   **Ecological and Social Accounting**: ValueFlows is designed to track more than just profit. It can meticulously record environmental impacts (like water usage, soil health metrics, or waste reduction) and social contributions, making it ideal for sustainability and regeneration-focused initiatives.
 -   **Input-Process-Output (IPO) Pattern**: It formalizes the modeling of transformation processes. A `Process` takes `Resource` inputs, transforms them, and produces `Resource` outputs (e.g., raw materials → production → finished goods). This provides a granular view of any value chain.
--   **A Multi-Level Structure**: ValueFlows organizes economic information into three layers:
+-   **A Multi-Level Structure**: ValueFlows adopts McCarthy's REA multi-level organization of economic information into three layers:
     1.  **Knowledge Level**: Defines the "rules of the game"—classifications, policies, and standard processes that a network agrees upon.
     2.  **Plan Level**: Captures future intentions—offers, requests, schedules, and commitments.
     3.  **Observation Level**: Records what actually happened—the concrete economic events, as they occur.
@@ -101,9 +101,9 @@ hREA provides a ready-made, decentralized platform for economic coordination. It
 hREA provides developers with a powerful, out-of-the-box backend system for economic coordination. Here’s how it works in practice, based on its official documentation and resources:
 
 -   **GraphQL API**: The primary way to interact with hREA is through its extensive **GraphQL API**. This provides a flexible and efficient way to query and mutate economic data. The API is designed for both browser and Node.js JavaScript projects, as detailed in its [developer documentation](https://docs.hrea.io/).
--   **Modular Building Blocks**: hREA is not monolithic. It's composed of simple, composable economic modules based on the ValueFlows specification. Developers can mix and match these building blocks to tailor the system to their specific needs without unnecessary overhead.
+-   **Unified Implementation**: hREA implements the ValueFlows specification as a comprehensive DNA (Holochain application), providing a complete economic coordination system out of the box.
 -   **Bring-Your-Own-UI**: Because hREA handles the backend logic and data integrity, it allows developers to build any user interface they need. This separation of concerns means teams can focus on creating the best user experience for their specific application, whether it's a complex supply chain dashboard or a simple community mutual credit app.
--   **Current Status**: hREA is under active development, with the current release being v0.3.2. Its API is stable and being used to build the first generation of applications. The project is open-source under an Apache 2.0 license, with ongoing community growth, as shown on its [official website](https://hrea.io/).
+-   **Current Status**: hREA is under active development, with the current release being v0.3.2. Its API is stable and being used to build the first generation of applications. The project is open-source under an Apache 2.0 license. Check the [official website](https://hrea.io/) for the latest updates.
 
 ### hREA Use Cases
 
@@ -112,9 +112,9 @@ The combination of ValueFlows' rich economic grammar and Holochain's decentraliz
 #### Use Case 1: A Community Food Cooperative
 
 Imagine a local food co-op. Using an application built with hREA:
--   **Farmers** log the `Harvest` (event) of `Produce` (resource).
+-   **Farmers** perform the `Harvest` (process) of `Produce` (resource), logging the associated events.
 -   **Distributors** commit to a `Transport` (plan) and later log the `Delivery` (event).
--   **Consumers** place `Orders` (plan) and log their `Purchase` (event).
+-   **Consumers** place `Orders` (plan) and complete their `Purchase` (typically involving two events: payment and receipt).
 
 The system seamlessly tracks the flow of food and payments across the entire network. It can generate real-time inventory reports for the co-op, traceability reports for consumers, and fair payment distributions for farmers. Furthermore, it could track ecological data—such as water usage for irrigation, soil health indicators from the farm, or waste produced during distribution—adding another layer of verifiable value.
 
@@ -123,10 +123,10 @@ The system seamlessly tracks the flow of food and payments across the entire net
 hREA can serve as a powerful off-chain "economic lens" for on-chain activities. Consider Cardano's eUTXO (Extended Unspent Transaction Output) model. In this model, transactions consume inputs (UTXOs) and create new outputs (UTXOs), each carrying value and data. This is fundamentally an accounting system.
 
 We can use hREA to map this on-chain reality into a rich, queryable database:
--   **Resources**: The assets (ADA, native tokens, NFTs) held within a Cardano `UTXO`. The `datum` attached to a UTXO provides rich descriptive data for the resource.
--   **Agents**: The `wallet addresses` that own the UTXOs and sign the transactions.
--   **Events**: A `Cardano transaction` itself is an economic event that consumes input resources and produces output resources.
--   **Processes**: A `validator script` (smart contract) on Cardano dictates the rules for how UTXOs at its address can be transformed. This logic acts as a ValueFlows `Process`—a recipe that defines how input resources can be turned into output resources.
+-   **Resources**: The assets (ADA, native tokens, NFTs) held within a Cardano `UTXO`, as well as the wallets themselves. The `datum` attached to a UTXO provides rich descriptive data for the resource.
+-   **Agents**: The entities (people or organizations) that control wallet addresses and sign transactions.
+-   **Events**: A `Cardano transaction` is a transfer event that consumes input resources and produces output resources.
+-   **Agreements**: Smart contracts on Cardano can represent agreements between agents, defining the rules for resource transformation.
 
 By mirroring this data in hREA, developers can create applications that offer powerful analytics and insights that are difficult to achieve on-chain. For example, one could easily trace the entire lifecycle of a specific NFT across dozens of transactions or analyze the complex flow of liquidity through a DeFi protocol over months—all without having to run expensive and slow queries on the blockchain itself.
 
