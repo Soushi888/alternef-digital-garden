@@ -15,3 +15,5 @@ replit.nix
 .windsurf
 .zed
 .idea
+
+**/*.local.*
