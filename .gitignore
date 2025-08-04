@@ -16,4 +16,5 @@ replit.nix
 .zed
 .idea
 
+# Local files
 **/*.local.*
