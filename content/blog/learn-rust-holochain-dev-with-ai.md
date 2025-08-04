@@ -329,22 +329,10 @@ This creates efficient queryable relationships:
 
 Based on 2025 market research and user testing, here's an objective comparison of leading AI development tools:
 
-#### **[Cursor](https://cursor.com/) - VS Code Fork with AI Integration**
-
-**Pricing**: $20-60-200/month Pro plans (API pricing)
-**Key Features**:
-
-- Built on VS Code, familiar interface with AI capabilities
-- Powered by Supermaven for fastest tab completion
-- Agent Mode and Edit Mode for different workflows
-- Uses Claude 4 Sonnet and Opus 4 models
-- Very similar to Windsurf
-
-**Best For**: Solo developers who want fast prototyping in a familiar VS Code environment
-
 #### **[Windsurf](https://windsurf.com/) - Agentic AI Development**
 
-**Pricing**: $15/month Pro plan (500 premium requests)
+**Pricing**: \$15/month Pro plan (500 premium requests + \$10/250 additional requests)
+
 **Key Features**:
 
 - Cascade feature for deep contextual codebase awareness
@@ -357,7 +345,8 @@ Based on 2025 market research and user testing, here's an objective comparison o
 
 #### **[Claude Code](https://www.anthropic.com/claude-code) - Terminal-Based Assistant**
 
-**Pricing**: Pay-as-you-go ($50-100/day active use), Pro ($20/month) or MAX ($100-200/month) plans
+**Pricing**: Pay-as-you-go (\$50-100/day active use), Pro (\$20/month) or MAX (\$100-200/month) plans
+
 **Key Features**:
 
 - Terminal-native, maps entire codebases in seconds
@@ -370,7 +359,8 @@ Based on 2025 market research and user testing, here's an objective comparison o
 
 #### **[Zed](https://zed.dev/) - High-Performance Native Editor**
 
-**Pricing**: Free (use your own API keys)
+**Pricing**: Free (use your own API keys or 20$/month)
+
 **Key Features**:
 
 - Built from scratch in Rust, not a VS Code fork
@@ -380,20 +370,11 @@ Based on 2025 market research and user testing, here's an objective comparison o
 
 **Best For**: Performance-conscious developers who want control over their AI model usage
 
-#### **Objective Performance Comparison**
-
-**Real-World Testing Results** (source: research data):
-
-- **Windsurf**: 67% success rate on API creation tasks, 20-minute average completion
-- **Cursor**: Lower success rate on complex tasks but faster code completion
-- **Claude Code**: Highest success rate for architectural changes and multi-file edits
-- **Zed**: Fastest editor performance, but requires more manual AI configuration
-
 **Key Decision Factors**:
 
-- **Budget**: Zed (free) < Windsurf ($15) < Cursor ($20) < Claude Code (premium)
-- **Learning Curve**: Windsurf (easiest) → Cursor → Zed → Claude Code (most complex)
-- **Codebase Size**: Claude Code (enterprise) > Windsurf (large) > Cursor (medium) > Zed (any)
+- **Budget**: Zed (free) < Windsurf ($15) < Claude Code (premium)
+- **Learning Curve**: Windsurf (easiest) → Zed → Claude Code (most complex)
+- **Codebase Size**: Claude Code (enterprise) > Windsurf (large) > Zed (any)
 
 **Recommendation**: Try free tiers to assess which interface and AI interaction model fits your learning style. Most users report success with any of these tools for Holochain development.
 
