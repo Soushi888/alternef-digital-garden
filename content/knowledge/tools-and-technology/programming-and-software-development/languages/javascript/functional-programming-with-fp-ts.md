@@ -7,7 +7,7 @@ tags:
   - typescript
   - effect
   - monads
-aliases: 
+aliases:
   - FP in JS
   - Functional JS
   - Effect Programming
@@ -41,7 +41,7 @@ Preserving data integrity by avoiding direct mutations:
 ```typescript
 // Immutable array manipulation
 const numbers = [1, 2, 3]
-const doubled = numbers.map(x => x * 2) // Creates a new array
+const doubled = numbers.map((x) => x * 2) // Creates a new array
 ```
 
 ## Advanced Functional Techniques with Effect
@@ -49,6 +49,7 @@ const doubled = numbers.map(x => x * 2) // Creates a new array
 ### Effect Type and Error Handling
 
 The Effect library revolves around the `Effect<A, E, R>` type, which represents a computation that:
+
 - May succeed with a value of type `A`
 - May fail with an error of type `E`
 - May require an environment of type `R`
@@ -60,8 +61,7 @@ Safely handle potentially undefined values:
 ```typescript
 import { Option, some, none } from "effect/Option"
 
-const divide = (a: number, b: number): Option<number> => 
-  b === 0 ? none() : some(a / b)
+const divide = (a: number, b: number): Option<number> => (b === 0 ? none() : some(a / b))
 ```
 
 #### Either Type for Error Handling
@@ -71,8 +71,8 @@ Explicit error management:
 ```typescript
 import { Either, left, right } from "effect/Either"
 
-const safeDivide = (a: number, b: number): Either<string, number> => 
-  b === 0 ? left('Division by zero') : right(a / b)
+const safeDivide = (a: number, b: number): Either<string, number> =>
+  b === 0 ? left("Division by zero") : right(a / b)
 ```
 
 ### Asynchronous Operations with Effect
@@ -82,8 +82,8 @@ import { Effect } from "effect"
 
 const fetchUser = (id: string) =>
   Effect.tryPromise({
-    try: () => fetch(`https://api.example.com/users/${id}`).then(res => res.json()),
-    catch: (error) => new Error(`Failed to fetch user: ${error}`)
+    try: () => fetch(`https://api.example.com/users/${id}`).then((res) => res.json()),
+    catch: (error) => new Error(`Failed to fetch user: ${error}`),
   })
 ```
 
@@ -95,11 +95,7 @@ import { pipe } from "effect"
 const addOne = (x: number) => x + 1
 const double = (x: number) => x * 2
 
-const addOneThenDouble = pipe(
-  5,
-  addOne,
-  double
-) // 12
+const addOneThenDouble = pipe(5, addOne, double) // 12
 
 // With Effect
 import { Effect } from "effect"
@@ -107,11 +103,7 @@ import { Effect } from "effect"
 const safeAddOne = (x: number) => Effect.succeed(x + 1)
 const safeDouble = (x: number) => Effect.succeed(x * 2)
 
-const program = pipe(
-  Effect.succeed(5),
-  Effect.flatMap(safeAddOne),
-  Effect.flatMap(safeDouble)
-)
+const program = pipe(Effect.succeed(5), Effect.flatMap(safeAddOne), Effect.flatMap(safeDouble))
 
 // Run the program
 const result = Effect.runSync(program) // 12
@@ -139,17 +131,17 @@ const acquireResource = Effect.acquireRelease(
     return { data: "important data" }
   }),
   // Release the resource
-  (resource) => Effect.sync(() => {
-    console.log("Resource released")
-  })
+  (resource) =>
+    Effect.sync(() => {
+      console.log("Resource released")
+    }),
 )
 
 // Use the resource safely
-const program = Effect.flatMap(
-  acquireResource,
-  (resource) => Effect.sync(() => {
+const program = Effect.flatMap(acquireResource, (resource) =>
+  Effect.sync(() => {
     console.log(`Using resource: ${resource.data}`)
-  })
+  }),
 )
 ```
 

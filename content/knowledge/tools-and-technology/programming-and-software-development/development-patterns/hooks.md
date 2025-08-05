@@ -40,28 +40,34 @@ This pattern creates a powerful extension mechanism without requiring direct mod
 ### Common Types of Hooks
 
 #### Event Hooks
+
 Triggered when specific events occur in a system, such as user interactions, state changes, or system events.
 
 #### Lifecycle Hooks
+
 Execute at specific points in an object or component's lifecycle (initialization, update, destruction).
 
 #### Interception Hooks
+
 Allow modification of inputs or outputs of function calls, or even replacement of the function's behavior entirely.
 
 #### System Hooks
+
 Low-level hooks that intercept operating system calls or framework operations.
 
 ### Implementation Approaches
 
 #### Callback Registration
+
 ```javascript
 // Example: Event listener in JavaScript
-element.addEventListener('click', () => {
-  console.log('Element was clicked');
-});
+element.addEventListener("click", () => {
+  console.log("Element was clicked")
+})
 ```
 
 #### Hook Arrays/Collections
+
 ```php
 // Example: WordPress action hooks
 add_action('save_post', 'my_custom_function');
@@ -72,6 +78,7 @@ function my_custom_function($post_id) {
 ```
 
 #### Dependency Injection
+
 ```java
 // Example: Spring framework hooks via aspects
 @Aspect
@@ -90,30 +97,28 @@ public class LoggingAspect {
 React introduced hooks as a way to use state and lifecycle features in functional components:
 
 ```javascript
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react"
 
 function ExampleComponent() {
   // State hook
-  const [count, setCount] = useState(0);
-  
+  const [count, setCount] = useState(0)
+
   // Effect hook (runs after render)
   useEffect(() => {
-    document.title = `You clicked ${count} times`;
-    
+    document.title = `You clicked ${count} times`
+
     // Cleanup function (runs before next effect or unmount)
     return () => {
-      document.title = 'React App';
-    };
-  }, [count]); // Only re-run if count changes
-  
+      document.title = "React App"
+    }
+  }, [count]) // Only re-run if count changes
+
   return (
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
-  );
+  )
 }
 ```
 
@@ -177,4 +182,4 @@ HHOOK hHook = SetWindowsHookEx(
 - [React Hooks Documentation](https://reactjs.org/docs/hooks-intro.html)
 - [WordPress Plugin API: Actions and Filters](https://codex.wordpress.org/Plugin_API)
 - "Game Programming Patterns" by Robert Nystrom (Event Queue pattern)
-- "Design Patterns: Elements of Reusable Object-Oriented Software" by Gang of Four (Observer pattern) 
+- "Design Patterns: Elements of Reusable Object-Oriented Software" by Gang of Four (Observer pattern)

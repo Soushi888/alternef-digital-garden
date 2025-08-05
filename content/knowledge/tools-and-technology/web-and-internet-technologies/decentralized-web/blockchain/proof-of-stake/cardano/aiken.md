@@ -2,9 +2,9 @@
 title: Aiken
 description: A functional programming language for developing smart contracts on the Cardano blockchain
 tags:
-- blockchain
-- programming
-- development
+  - blockchain
+  - programming
+  - development
 ---
 
 [[utxo|Unspent Transaction Output]]
@@ -18,7 +18,7 @@ Some key features of Aiken include:
 - Familiar C-family syntax while still being a purely functional language
 - A package manager that encourages the development of open-source libraries with clean and easy-to-host generated documentation
 - A toolkit for working with [[plutus|Plutus]]
-- Written in [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]], licensed under _Apache-2.0_
+- Written in [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]], licensed under *Apache-2.0*
 
 Aiken is still a work in progress, and developers can install it from source or [[nix|Nix]] Flakes. The Aiken git repository provides a comprehensive guide for getting started with Aiken. The language comes with a variety of command-line tools to help developers be productive right away. The Aiken team aims to reduce the time it takes for developers to get started and finish their projects, turning what is currently a multi-day setup experience into a 10-minute quickstart without compromising any of the security and quality aspects.
 

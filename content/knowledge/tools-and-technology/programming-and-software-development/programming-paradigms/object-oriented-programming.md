@@ -18,21 +18,25 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" 
 ## Characteristics of Object-Oriented Programming
 
 ### 1. Encapsulation
+
 - Bundling data and methods within a single unit (object)
 - Hiding internal state
 - Exposing only necessary interfaces
 
 ### 2. Inheritance
+
 - Creating new classes based on existing classes
 - Promotes code reuse
 - Supports hierarchical classification of objects
 
 ### 3. Polymorphism
+
 - Objects of different types can be treated uniformly
 - Method overriding and overloading
 - Enables flexible and extensible code design
 
 ### 4. Abstraction
+
 - Simplifying complex systems by modeling classes based on essential properties
 - Hiding implementation details
 - Focusing on what an object does, not how it does it

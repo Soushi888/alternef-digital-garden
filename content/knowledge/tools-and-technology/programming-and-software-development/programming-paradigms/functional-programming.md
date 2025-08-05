@@ -1,5 +1,5 @@
 ---
-title: Functional Programming
+title: Functional Programming (FP)
 description: A programming paradigm based on function composition, immutability, and declarative computation
 tags:
   - programming-paradigm
@@ -18,21 +18,25 @@ Functional Programming (FP) is a declarative programming paradigm that treats co
 ## Characteristics of Functional Programming
 
 ### 1. Pure Functions
+
 - Deterministic output for the same input
 - No side effects
 - Easier to test and debug
 
 ### 2. Immutability
+
 - Data cannot be changed after creation
 - Prevents unexpected state mutations
 - Supports concurrent and parallel processing
 
 ### 3. First-Class and Higher-Order Functions
+
 - Functions can be assigned to variables
 - Functions can be passed as arguments
 - Functions can be returned from other functions
 
 ### 4. Declarative Style
+
 - Focuses on WHAT to do, not HOW to do it
 - Reduces complexity of code
 - Improves code readability
