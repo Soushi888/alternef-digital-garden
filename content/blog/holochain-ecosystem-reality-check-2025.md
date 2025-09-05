@@ -117,7 +117,7 @@ Let's explore the key players and their contributions:
   - Status: Alpha testing phase (transparently labeled)
   - Strength: Complex features with professional development
 
-- **[Moss](https://github.com/lightningrodlabs/moss)**: Group coherence platform
+- **[Moss](https://github.com/lightningrodlabs/moss)** (36⭐): Group coherence platform
   - Status: Early development
   - Strength: Active community engagement
 
@@ -128,7 +128,7 @@ Let's explore the key players and their contributions:
 **Core Infrastructure:**
 - **[File Storage](https://github.com/holochain-open-dev/file-storage)** (37⭐): DHT-based file storage with TypeScript UI
 - **[Profiles](https://github.com/holochain-open-dev/profiles)** (34⭐): Identity management used across ecosystem
-- **[Infrastructure](https://github.com/holochain-open-dev/infrastructure)**: Common development framework
+- **[Infrastructure](https://github.com/holochain-open-dev/infrastructure)** (7⭐): Common development framework
 
 **Advanced Components:**
 - **[Y-Holochain](https://github.com/holochain-open-dev/y-holochain)**: Real-time collaborative editing via Yjs
@@ -220,7 +220,7 @@ Let's explore the key players and their contributions:
 
 ### The Alpha Reality
 
-**[Acorn](https://github.com/lightningrodlabs/acorn)**: "Currently in **Alpha** testing phase" - honest about maturity
+**[Acorn](https://github.com/lightningrodlabs/acorn)** (146⭐): "Currently in **Alpha** testing phase" - honest about maturity
 - **Professional Development**: Sophisticated project management capabilities
 - **Transparent Communication**: Clear about current development stage
 
@@ -257,10 +257,11 @@ The developer experience stands out as particularly mature:
 - **Version Status**: Currently using Holochain v0.4.1 (not up to date)
 - **User Adoption**: Significant community usage with built-in app store
 
-**[Kangaroo-Tauri](https://github.com/holochain-apps/kangaroo-tauri)**: Bundle Holochain apps as standalone desktop apps
-- **Tauri Integration**: Modern, lightweight alternative to Electron
-- **Active Development**: Updated for recent Holochain versions
-- **Version Status**: Up to date with Holochain 0.5.x
+**[Kangaroo Electron](https://github.com/holochain/kangaroo-electron)** (8⭐): Bundle Holochain apps as standalone desktop apps
+- **Electron Integration**: Cross-platform desktop app packaging (Windows, macOS, Linux)
+- **Multi-version Support**: Supports Holochain 0.3.x, 0.4.x, and 0.5.x versions
+- **Features**: Built-in auto-updates, code signing support, flexible versioning
+- **Official Tool**: Maintained by the Holochain organization
 
 **Assessment**: **Developer experience is genuinely strong**, reflecting the project's current developer-focused maturity stage. The quality and comprehensiveness of developer tooling exceeds what you typically find in emerging technology ecosystems.
 
