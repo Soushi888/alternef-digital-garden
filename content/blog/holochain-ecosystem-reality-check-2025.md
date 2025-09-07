@@ -311,12 +311,12 @@ Now for the honest part - and this isn't bad news, it's **realistic news**.
 
 Here's what my research revealed across the entire ecosystem:
 
-**Applications Status**:
+**Applications Status Examples**:
 - **Acorn**: Explicitly labeled "Currently in Alpha testing phase"
-- **Comet**: Multiple incomplete UI components (❌ Tags, ❌ Posts UI, ❌ Comments UI)
 - **Mewsfeed**: "Working towards first major release" - still in development
+- **hREA**: Beta stage (v0.3.3-beta) - Feature-complete ValueFlows implementation with 600+ integration tests
 - **Requests and Offers**: Professional 7-layer Effect-TS architecture but alpha stage
-- **true_commons**: Sophisticated concepts but labeled as "Proof of Concept (PoC)"
+- **nondominium**: Sophisticated concepts but labeled as "Proof of Concept (PoC)"
 
 **What This Means**: Every major application remains in alpha or development stages. This isn't a failure - it's **honest labeling** of current maturity levels.
 
