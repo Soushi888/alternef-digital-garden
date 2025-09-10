@@ -21,7 +21,7 @@ tags:
 
 ## Introduction
 
-The digital age has given rise to two transformative economic paradigms: the information economy and the peer-to-peer (P2P) economy. While often celebrated as innovations in value creation and exchange, these paradigms have manifested in starkly different forms. On one hand, they have been co-opted by corporate interests to create new forms of digital capitalism - from data exploitation to platform monopolies. On the other hand, they contain the seeds of genuine economic alternatives that could fundamentally reshape how we organize economic activity.
+The digital age has given rise to two transformative economic paradigms: the information economy and the [[peer-to-peer|peer-to-peer (P2P)]] economy. While often celebrated as innovations in value creation and exchange, these paradigms have manifested in starkly different forms. On one hand, they have been co-opted by corporate interests to create new forms of digital capitalism - from data exploitation to platform monopolies. On the other hand, they contain the seeds of genuine economic alternatives that could fundamentally reshape how we organize economic activity.
 
 This article examines these parallel developments, contrasting how these economic models have been adapted to serve corporate interests while exploring their potential for genuine economic emancipation. We analyze how the information economy splits between corporate data monopolies and the commons-based peer production model, and how the P2P economy divides between platform capitalism and true decentralized systems. Through this analysis, we uncover how these paradigms might offer pathways to economic systems that enhance both individual sovereignty and collective empowerment.
 

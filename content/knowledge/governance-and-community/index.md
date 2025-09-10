@@ -38,12 +38,19 @@ This section explores the intricate dynamics of human organization, examining ho
 - Digital democracy technologies
 - Open-source governance models
 - Collaborative digital platforms
+- [[agent-centric-architecture|Agent-centric architectures]]
 
 ### 5. Social Justice and Equity
 - Systemic inequality analysis
 - Inclusive policy development
 - Community empowerment strategies
 - Intersectional approaches to social change
+
+### 6. Place-Based Governance
+- [[cosmo-localisme|Cosmo-localisme]] - Global knowledge, local production
+- [[bioregionalisme|Bioregionalisme]] - Governance by natural boundaries
+- Watershed councils and ecological democracy
+- Glocal approaches to resilience
 
 ## Guiding Principles
 - Collective empowerment

@@ -15,7 +15,7 @@ tags:
 category: "Development"
 ---
 
-The landscape of learning complex technologies has fundamentally shifted with the advent of sophisticated AI assistants. This transformation is particularly evident in the realm of Rust programming and Holochain development, where the intersection of systems programming, distributed architecture, and novel paradigms traditionally presented significant barriers to entry.
+The landscape of learning complex technologies has fundamentally shifted with the advent of sophisticated AI assistants. This transformation is particularly evident in the realm of [[rust|Rust programming]] and [[what-is-holochain|Holochain development]], where the intersection of systems programming, distributed architecture, and novel paradigms traditionally presented significant barriers to entry.
 
 ## Why This Guide Matters for Beginners
 

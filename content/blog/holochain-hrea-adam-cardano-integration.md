@@ -34,11 +34,11 @@ Open Value Networks (OVNs) are decentralized, collaborative frameworks that faci
 
 ### Holochain
 
-Holochain is an agent-centric p2p framework that empowers participants with self-sovereignty and fosters direct collaboration. Unlike traditional blockchains, Holochain uses a distributed hash table (DHT) to enable scalable, serverless digital environments where each participant maintains their own data and interactions, aligning perfectly with the decentralized ethos of OVNs.
+[[what-is-holochain|Holochain]] is an agent-centric p2p framework that empowers participants with self-sovereignty and fosters direct collaboration. Unlike traditional blockchains, Holochain uses a [[distributed-hash-table|distributed hash table (DHT)]] to enable scalable, serverless digital environments where each participant maintains their own data and interactions, aligning perfectly with the decentralized ethos of OVNs.
 
 ### hREA/ValueFlows
 
-hREA/ValueFlows provides a standardized vocabulary and framework for modeling economic and production activities within peer production networks. By capturing contributions, resource flows, and economic events, hREA/ValueFlows ensures transparency and auditability, allowing OVNs to track and reward individual efforts in a fair and verifiable manner.
+[[hrea|hREA]]/[[valueflows|ValueFlows]] provides a standardized vocabulary and framework for modeling economic and production activities within peer production networks. By capturing contributions, resource flows, and economic events, hREA/ValueFlows ensures transparency and auditability, allowing OVNs to track and reward individual efforts in a fair and verifiable manner.
 
 ### ADAM
 
@@ -144,7 +144,7 @@ Decision-making is based on contributions rather than hierarchy.
 
 **Implementation**:
 
-- **Holochain + hREA/ValueFlows**: Tracks individual contributions
+- **[[what-is-holochain|Holochain]] + [[hrea|hREA]]/[[valueflows|ValueFlows]]**: Tracks individual contributions
 - **Cardano Smart Contracts**: Enable merit-based reward systems
 
 ## Value as a Triadic Relation
@@ -157,8 +157,8 @@ Value in OVNs is defined by three interconnected elements:
 
 **Technology Support**:
 
-- **hREA/ValueFlows**: Models economic events as relational flows
-- **Holochain**: Implements various symbolic systems
+- **[[hrea|hREA]]/[[valueflows|ValueFlows]]**: Models economic events as relational flows
+- **[[what-is-holochain|Holochain]]**: Implements various symbolic systems
 - **Cardano**: Provides flexible tokenization for value representation
 
 ## Modularity and Interoperability
@@ -218,9 +218,9 @@ OVNs combine global reach with local context:
 
 ### Technology Implementation
 
-- **Holochain**:
-  - Peer-to-peer networking
-  - Distributed hash tables (DHTs)
+- **[[what-is-holochain|Holochain]]**:
+  - [[peer-to-peer|Peer-to-peer]] networking
+  - [[distributed-hash-table|Distributed hash tables (DHTs)]]
   - Individual source chains
 - **Cardano**:
   - Ouroboros PoS consensus

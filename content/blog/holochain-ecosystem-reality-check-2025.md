@@ -66,7 +66,7 @@ This methodology ensures that **every claim in this analysis is verifiable** and
 
 ## Introduction: Why This Reality Check Matters
 
-If you're part of the [Holochain](https://holochain.org) community, you've probably noticed some conflicting signals lately. On one hand, there's incredible technical progress, vibrant community projects, and genuine innovation happening. On the other hand, there are questions about production readiness, adoption timelines, and ecosystem maturity.
+If you're part of the [[what-is-holochain|Holochain]] community, you've probably noticed some conflicting signals lately. On one hand, there's incredible technical progress, vibrant community projects, and genuine innovation happening. On the other hand, there are questions about production readiness, adoption timelines, and ecosystem maturity.
 
 **This article aims to give you the complete picture** - celebrating the real achievements while honestly addressing the challenges. As someone who's been deeply researching the ecosystem (examining over 140 repositories across [Holochain](https://github.com/holochain) and [Holo-Host](https://github.com/Holo-Host) organizations), I want to share what I've discovered in a way that's both realistic and reassuring.
 

@@ -23,7 +23,7 @@ We'll start with the foundational concepts of REA accounting, see how ValueFlows
 
 ## 1. Back to Basics: What is REA Accounting?
 
-REA (Resources, Events, Agents) is a conceptual model developed by William E. McCarthy starting in 1982 to revolutionize accounting for the digital age. Instead of the abstract debits and credits of traditional double-entry bookkeeping, REA focuses on the tangible economic activities that drive a business. It has since become a cornerstone of modern Accounting Information Systems (AIS) and influenced international standards like [ISO 15944-4](https://www.iso.org/standard/38853.html).
+[[rea-accounting|REA (Resources, Events, Agents)]] is a conceptual model developed by William E. McCarthy starting in 1982 to revolutionize accounting for the digital age. Instead of the abstract debits and credits of traditional double-entry bookkeeping, REA focuses on the tangible economic activities that drive a business. It has since become a cornerstone of modern Accounting Information Systems (AIS) and influenced international standards like [ISO 15944-4](https://www.iso.org/standard/38853.html).
 
 ### The Core Trio: Resources, Events, Agents
 
@@ -51,7 +51,7 @@ This creates a rich, semantic representation of business activities, effectively
 
 ## 2. Leveling Up: How ValueFlows Enhances REA
 
-[ValueFlows](https://valueflo.ws/) is not a replacement for REA, but a powerful extension. It's a standardized vocabulary and specification built upon the REA ontology, designed to model economic flows within complex, networked environments like supply chains, circular economies, and community ecosystems.
+[[valueflows|ValueFlows]] is not a replacement for REA, but a powerful extension. It's a standardized vocabulary and specification built upon the REA ontology, designed to model economic flows within complex, networked environments like supply chains, circular economies, and community ecosystems.
 
 ### Key Improvements Over REA
 
@@ -70,13 +70,13 @@ With ValueFlows, accounting becomes a real-time log of economic reality, capable
 
 ## 3. The Decentralized Foundation: What is Holochain?
 
-[Holochain](https://www.holochain.org/) is an open-source framework for building truly peer-to-peer applications. It offers a compelling alternative to blockchain for creating decentralized systems, especially those that need to scale.
+[[what-is-holochain|Holochain]] is an open-source framework for building truly [[peer-to-peer|peer-to-peer]] applications. It offers a compelling alternative to blockchain for creating [[decentralized-application|decentralized systems]], especially those that need to scale.
 
 ### Agent-Centric by Design
 
 Unlike blockchain's data-centric model (where everyone shares one massive, global ledger), Holochain is **agent-centric**. Each user runs their own instance of an application on their device, operating under shared rules called DNA (Distributed Network Application). They have their own personal "chain" or ledger, giving them full control and ownership of their data, while the shared DNA ensures they can coordinate effectively as an organization or community.
 
-Data is shared with others on a need-to-know basis using a Distributed Hash Table (DHT)—a technology similar to what powers BitTorrent. This combination of individual autonomy with shared organizational rules means there are no centralized servers and no need for every participant to validate every transaction across the entire network, while still maintaining coherent collective coordination.
+Data is shared with others on a need-to-know basis using a [[distributed-hash-table|Distributed Hash Table (DHT)]]—a technology similar to what powers [[bittorrent|BitTorrent]]. This combination of individual autonomy with shared organizational rules means there are no centralized servers and no need for every participant to validate every transaction across the entire network, while still maintaining coherent collective coordination.
 
 ### Holochain vs. Blockchain
 
@@ -104,7 +104,7 @@ These two models are not mutually exclusive; they solve different problems and c
 
 ## 4. The Grand Synthesis: What is hREA?
 
-This brings us to [hREA](https://hrea.io/) (Holochain Resource-Event-Agent). hREA is the fusion of the powerful economic grammar of ValueFlows with the scalable, decentralized architecture of Holochain. It is a software toolkit that implements the full ValueFlows specification as a modular library for Holochain applications.
+This brings us to [[hrea|hREA]] (Holochain Resource-Event-Agent). hREA is the fusion of the powerful economic grammar of ValueFlows with the scalable, decentralized architecture of Holochain. It is a software toolkit that implements the full ValueFlows specification as a modular library for Holochain applications.
 
 hREA provides a ready-made, decentralized platform for economic coordination that leverages Holochain's agent-centric architecture. By encoding economic coordination rules as shared DNA, hREA enables organizations, communities, and commons to coordinate their economic activities through many-to-many interactions while maintaining individual agency and collective coherence. This creates transparent, peer-to-peer economic systems that can scale from small cooperatives to large networks.
 
