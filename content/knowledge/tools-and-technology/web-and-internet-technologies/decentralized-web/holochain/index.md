@@ -1,7 +1,7 @@
 ---
 title: Holochain
 date: 2025-02-13
-tags: 
+tags:
   - holochain
   - decentralized-web
   - blockchain-alternative
@@ -38,49 +38,46 @@ Holochain is a revolutionary framework for building truly peer-to-peer applicati
 ## Documentation Structure
 
 ### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/introduction/index|Introduction to Holochain]]
-
 - Foundational concepts
 - First steps to understanding Holochain
 - Core philosophical underpinnings
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Architecture]]
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Fundamentals]]
+- Core data structures (cells, entries, records, links)
+- Essential concepts for all users
+- Building blocks of Holochain applications
 
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
+- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/index|Core Primitives]]** - Essential technical building blocks
+- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/index|Advanced Topics]]** - Specialized and complex concepts
+
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Architecture]]
 - Technical design overview
 - Core components
 - DNA and validation mechanisms
 - Distributed Hash Table (DHT) implementation
 
 ### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Development]]
-
 - Getting started guides
 - Best practices
 - Holochain Development Kit (HDK)
 - Tools and resources
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/ecosystem/index|Ecosystem]]
-
-- Community projects
-- Featured hApps
-- Frameworks and libraries
-- Organizational ecosystem
-
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/use-cases/index|Use Cases]]
-
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/applications/index|Applications]]
 - Governance applications
 - Resource management
 - Social networks
 - Practical implementations
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Concepts]]
-
-- Technical deep dives
-- Philosophical implications
-- Advanced topics
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/ecosystem/index|Ecosystem]]
+- Community projects
+- Featured hApps
+- Frameworks and libraries
+- Organizational ecosystem
 
 ### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/governance/index|Governance]]
-
 - Community guidelines
-- Licensing
+- Licensing and legal framework
 - Contribution frameworks
 
 ## Key Resources

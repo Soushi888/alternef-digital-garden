@@ -1,9 +1,16 @@
 ---
-Aliases: [Links, link, links]
+title: Holochain Links
+description: Connections between entries that create relationships in the distributed hash table
+tags:
+  - holochain
+  - fundamentals
+  - links
+  - relationships
+aliases: [Links, link, links]
+parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]"
 ---
 
-#holochain/concepts
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+# Holochain Links
 
 A piece of [metadata](https://developer.holochain.org/glossary/#metadata) connecting one [address](https://developer.holochain.org/glossary/#address) on the [[Distributed Hash Table]] to another. Each link has a [tag](https://developer.holochain.org/glossary/#link-tag) for storing arbitrary content and is stored in the DHT at its [base](https://developer.holochain.org/glossary/#link-base)‘s [address](https://developer.holochain.org/glossary/#address).
 

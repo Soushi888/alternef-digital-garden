@@ -1,4 +1,17 @@
-LinkTypes::[[Outils et Technologie/DWeb/Holochain/Holochain]], [[HDK]]
+---
+title: Links Manipulation
+description: HDK functions for creating and managing links between entries in Holochain
+tags:
+  - holochain
+  - hdk
+  - links
+  - data-relationships
+parent: "[[../index|HDK]]"
+---
+
+# Links Manipulation
+
+Related: [[../../fundamentals/link|Links]] • [[index|HDK]] • [[../../fundamentals/index|Fundamentals]]
 
 ## [[Link|Links]]
 

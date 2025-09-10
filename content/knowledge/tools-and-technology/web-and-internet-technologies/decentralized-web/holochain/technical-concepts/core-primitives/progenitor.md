@@ -1,6 +1,6 @@
 #holochain/concepts 
 
-The Progenitor pattern in [[Outils et Technologie/DWeb/Holochain/Holochain]] hApp development refers to a design strategy used to bootstrap and manage administrative privileges within a Holochain application. This pattern is particularly useful for initializing new instances of a hApp, especially when setting up the initial state or assigning default roles and permissions.
+The Progenitor pattern in [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] hApp development refers to a design strategy used to bootstrap and manage administrative privileges within a Holochain application. This pattern is particularly useful for initializing new instances of a hApp, especially when setting up the initial state or assigning default roles and permissions.
 
 In the context of Holochain, a hApp (holochain application) is a decentralized application built on the Holochain framework. Each hApp is defined by its DNA (Distributed Network Architecture), which specifies the rules and logic for how data is stored, shared, and processed across the network. The Progenitor pattern plays a crucial role in managing the early stages of a hApp's lifecycle, especially concerning administrative control and setup.
 

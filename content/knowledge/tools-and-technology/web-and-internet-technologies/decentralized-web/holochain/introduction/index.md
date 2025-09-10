@@ -33,13 +33,13 @@ This section provides a comprehensive introduction to Holochain, covering its co
 
 1. Introduction to Holochain
 2. What is Holochain
-3. Related [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Concepts]] documents
+3. Related [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Fundamentals]] and [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
 
 ## Next Steps
 
 - Dive deeper into [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Architecture]]
 - Explore [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Development]] resources
-- Examine practical [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/use-cases/index|Use Cases]]
+- Examine practical [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/applications/index|Use Cases]]
 
 ## Related Concepts
 

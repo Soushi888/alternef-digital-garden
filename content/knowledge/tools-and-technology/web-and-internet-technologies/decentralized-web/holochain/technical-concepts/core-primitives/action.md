@@ -3,7 +3,7 @@ Aliases: [action, actions, Actions]
 ---
 
 #holochain/concepts 
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 A piece of data that represents a [record](https://developer.holochain.org/glossary/#record) on an [[Agent|agent]]‘s [[Source Chain|source chain]]. Everything an [agent](https://developer.holochain.org/glossary/#agent) does in an [application](https://developer.holochain.org/glossary/#application) is expressed as one or multiple actions, recorded on their [[Source Chain|source chain]] as one or multiple [records](https://developer.holochain.org/glossary/#record). That is, when the source chain records a piece of data, it’s more accurate to say that it’s recording the agent’s _act_ of creating it. Actions link to the hash of their previous action, which creates a tamper-evident [journal](https://developer.holochain.org/glossary/#journal) or [ledger](https://developer.holochain.org/glossary/#ledger) of all their actions in an application.
 

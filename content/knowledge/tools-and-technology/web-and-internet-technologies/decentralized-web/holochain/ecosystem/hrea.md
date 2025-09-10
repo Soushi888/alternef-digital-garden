@@ -101,9 +101,9 @@ A local food network could use hREA to:
 
 ## Related Concepts and Projects
 
-- [[local-first-accountability]]
-- [[valueflows]]
-- [[rea-accounting]]
-- [[what-is-holochain]]
-- [[agent-centric-architecture]]
-- [[ovn-hrea-mattereum]] 
+- [[local-first-accountability|Local-First Accountability]]
+- [[valueflows|ValueFlows]]
+- [[rea-accounting|REA Accounting]]
+- [[what-is-holochain|What is Holochain]]
+- [[agent-centric-architecture|Agent-Centric Architecture]]
+- [[ovn-hrea-mattereum|OVN hREA Mattereum]] 

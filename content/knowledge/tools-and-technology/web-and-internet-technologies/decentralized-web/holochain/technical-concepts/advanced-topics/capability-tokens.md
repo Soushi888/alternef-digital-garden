@@ -2,7 +2,7 @@
 Aliases: [capability tokens, capability token, Capability Token]
 ---
  #holochain/concepts 
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 -   Private entries that manage authorization to execute zome calls by sources external to the cell
 -   Two types of private entries: 

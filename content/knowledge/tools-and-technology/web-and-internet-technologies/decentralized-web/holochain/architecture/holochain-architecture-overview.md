@@ -79,7 +79,7 @@ A comprehensive exploration of [[knowledge/tools-and-technology/web-and-internet
 ## Related Resources
 
 1. [[holochain-development-guide|Holochain Development Guide]]
-2. [[holochain-use-cases-overview|Holochain Use Cases Overview]]
+2. [[holochain-applications-overview|Holochain Use Cases Overview]]
 3. [[technical-specifications|Technical Specifications]]
 4. [[architecture-diagrams|Architecture Diagrams]]
 5. [[example-happs|Example hApps]]

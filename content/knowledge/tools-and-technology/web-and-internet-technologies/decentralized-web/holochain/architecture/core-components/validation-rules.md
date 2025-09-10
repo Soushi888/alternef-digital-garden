@@ -1,8 +1,8 @@
 ---
 Aliases: [Validation Rules, validation rule, validation rules]
 ---
-#holochain/concepts 
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+#holochain/concepts
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 ## Validation workflow
 -   Validation needs to be deterministic: same result no matter who runs it and when.
@@ -41,8 +41,8 @@ Aliases: [Validation Rules, validation rule, validation rules]
 ``` rust
 #[hdk_extern]
 pub fn validate(op: Op) -> ExternResult<ValidateCallbackResult> {
-  // Right now there is bunch of boilerplate here that's going to be replaced in the next version 
-}     
+  // Right now there is bunch of boilerplate here that's going to be replaced in the next version
+}
 ```
 -   Three results possible:
     1.  Valid
@@ -66,18 +66,18 @@ pub fn validate(op: Op) -> ExternResult<ValidateCallbackResult> {
         -   Returns the record
         -   Never returns `None`, rather the validation has unresolved dependencies
 
-### Example code ([[HDK]])
+### Example code ([[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/hdk/index|HDK]])
 #### must_get_entry
 ``` rust
-let role = PublicationRole::new("editor", author);  
-let role_entry_hash = hash_entry(&EntryTypes::PublicationRole(role))?;  
-  
-let entry = must_get_entry(role_entry_hash);  
-match entry {  
-  Ok(_) => Ok(ValidateCallbackResult::Valid),  
-  Err(_) => Ok(ValidateCallbackResult::Invalid(String::from(  
-    "Only editors can create posts",  
-  ))),  
+let role = PublicationRole::new("editor", author);
+let role_entry_hash = hash_entry(&EntryTypes::PublicationRole(role))?;
+
+let entry = must_get_entry(role_entry_hash);
+match entry {
+  Ok(_) => Ok(ValidateCallbackResult::Valid),
+  Err(_) => Ok(ValidateCallbackResult::Invalid(String::from(
+    "Only editors can create posts",
+  ))),
 }
 ```
 

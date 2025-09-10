@@ -93,7 +93,8 @@ This section provides structured educational resources and learning paths for de
 
 - [[../holochain-development-guide|Holochain Development Guide]]
 - [[../hdk/index|Holochain Development Kit]]
-- [[../../concepts/index|Holochain Concepts]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
 - [[../../architecture/index|Holochain Architecture]]
 
 ## External Resources

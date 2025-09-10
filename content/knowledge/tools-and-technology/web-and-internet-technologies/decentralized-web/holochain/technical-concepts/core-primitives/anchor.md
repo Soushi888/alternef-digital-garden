@@ -1,7 +1,7 @@
 #holochain/concepts 
 
 
-- Data in [[Outils et Technologie/DWeb/Holochain/Holochain]] is best structured as a directed acyclic graph of linked actions, entries and public keys
+- Data in [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] is best structured as a directed acyclic graph of linked actions, entries and public keys
 - From a starting point ID (action, entry or agent), we typically want to retrieve certain data related to it
 - For example, if our application will need to "get_comments_by_author(author: AgentPubKey)", then:
     - When we create the comment,
@@ -20,7 +20,7 @@
         - These deterministic entries are called "anchors"
 - Demo: [https://holochain-gym.github.io/developers/intermediate/anchors/#try-it](https://holochain-gym.github.io/developers/intermediate/anchors/#try-it)
 
-## Example Code ([[HDK]])
+## Example Code ([[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/hdk/index|HDK]])
 ### Integrity
 ``` rust
 // Integrity

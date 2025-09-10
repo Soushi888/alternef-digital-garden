@@ -1,16 +1,19 @@
 ---
-aliases:
-  - entry
-  - Entries
+title: Holochain Entries
+description: The basic data structure stored in the distributed hash table and source chain
+tags:
+  - holochain
+  - fundamentals
   - entries
-  - record
-  - records
-related pages:
-  - "[[Outils et Technologie/DWeb/Holochain/Holochain]]"
+  - data-structures
+aliases: [entry, Entries, entries]
+parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]"
 ---
 
+# Holochain Entries
+
 #holochain/concepts
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 A basic unit of user data in a Holochain app. Each entry has its own defined [entry type](https://developer.holochain.org/glossary/#entry-type). When an agent commits an entry, it is combined with an [action](https://developer.holochain.org/glossary/#action) into a [record](https://developer.holochain.org/glossary/#record) that expresses a [new-entry action](https://developer.holochain.org/glossary/#new-entry-action). Then it is written to their [[Source Chain|source chain]] as a record of the action having taken place. An entry can be [public](https://developer.holochain.org/glossary/#public-entry) or [private](https://developer.holochain.org/glossary/#private-entry); if it’s public, it’s also [published](https://developer.holochain.org/glossary/#publish) to the [[Distributed Hash Table]]. There are [app entries](https://developer.holochain.org/glossary/#app-entry) whose purpose and structure are defined by the [[Holochain DNA|DNA]] developer, and there are special [system entries](https://developer.holochain.org/glossary/#system-entry) such as an [agent ID entry](https://developer.holochain.org/glossary/#agent-id-entry).
 

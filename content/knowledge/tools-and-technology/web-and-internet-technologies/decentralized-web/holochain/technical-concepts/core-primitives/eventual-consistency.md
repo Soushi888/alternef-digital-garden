@@ -11,7 +11,7 @@ Eventual consistency is often used in large-scale distributed systems, such as c
 
 # holochain/concepts
 
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[../index|Holochain]]
 
 - The data state converges to being free of internal contradiction
         -   Relativity does not allow for a universally correct sequence of events

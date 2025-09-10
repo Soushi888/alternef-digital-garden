@@ -74,7 +74,7 @@ Comprehensive resources for developers building [[Holochain/index]] applications
 
 ## Tools and Frameworks
 
-1. [[HDK]]
+1. [[hdk/index|HDK]] - Holochain Development Kit
 2. [[HDI]]
 3. [[Holochain Scaffolding tool]]
 4. [[Testing Frameworks]]

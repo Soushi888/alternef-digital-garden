@@ -1,4 +1,4 @@
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[../index|Holochain]]
 
 ## 3 sources of [[Zome|zome]] calls
 -   Conductor receives request on the application port 

@@ -1,24 +1,25 @@
 ---
-title: Holochain Use Cases
+title: Holochain Applications
 description: Practical applications, implementation examples, and potential domains for Holochain technology
 tags:
   - holochain
-  - use-cases
+  - applications
   - applications
   - decentralized-web
   - p2p
+parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]"
 aliases:
-  - Holochain Applications
+  - Holochain Use Cases
   - Holochain Implementation Examples
 ---
 
-## Overview of Holochain Use Cases
+# Holochain Applications
 
 This section explores the diverse range of applications and use cases for Holochain technology. From social networks to supply chain management, Holochain's agent-centric architecture enables new approaches to solving complex coordination problems.
 
 ## Application Domains
 
-### [[holochain-use-cases-overview|Holochain Use Cases Overview]]
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/applications/holochain-applications-overview|Holochain Use Cases Overview]]
 
 - Comprehensive overview of application domains
 - Key benefits for different use case categories
@@ -87,12 +88,12 @@ This section explores the diverse range of applications and use cases for Holoch
 
 ## Related Topics
 
-- [[../Development|Holochain Development]]
-- [[../Architecture|Holochain Architecture]]
-- [[../Ecosystem|Holochain Ecosystem]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Holochain Development]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Holochain Architecture]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/ecosystem/index|Holochain Ecosystem]]
 
 ## External Resources
 
-- [Holochain Use Cases](https://holo.host/use-cases/)
+- [Holochain Use Cases](https://holo.host/applications/)
 - [Holochain Forum Projects](https://forum.holochain.org/c/projects/)
 - [Holochain Case Studies](https://blog.holochain.org/category/case-studies/) 

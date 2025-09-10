@@ -89,7 +89,8 @@ This section explores the fundamental building blocks that make up Holochain's a
 
 - [[../conductor|Holochain Conductor]]
 - [[../holochain-architecture-overview|Architecture Overview]]
-- [[../../concepts/index|Holochain Concepts]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
 - [[../../development/index|Holochain Development]]
 
 ## External Resources

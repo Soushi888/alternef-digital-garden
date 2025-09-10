@@ -1,4 +1,4 @@
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[../index|Holochain]]
 [[ADAM]]
 
 <https://www.perspect3vism.org>

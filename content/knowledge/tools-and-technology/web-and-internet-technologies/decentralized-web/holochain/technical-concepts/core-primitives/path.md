@@ -1,5 +1,5 @@
 #holochain/concepts 
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[../index|Holochain]]
 
 ## Theory
 -   Anchors are great, but they can introduce problems
@@ -18,7 +18,7 @@
 		-   Normally constructed from a string
 -   Demo: [https://holochain-gym.github.io/developers/intermediate/paths/#try-it](https://holochain-gym.github.io/developers/intermediate/paths/#try-it)
 
-## Code example ([[HDK]])
+## Code example ([[../../development/hdk/index|HDK]])
 ``` rust
 use hdk::prelude::*;
 use integrity_zome::{EntryTypes, Comment, LinkTypes}; // Import the types defined in our integrity zome

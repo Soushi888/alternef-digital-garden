@@ -6,7 +6,7 @@ This workshop is a work in progress. [Contributions](https://github.com/holocha
 
 ## Goal
 
-**Have an idea for a [[Outils et Technologie/DWeb/Holochain/Holochain]] app?**
+**Have an idea for a [[../index|Holochain]] app?**
 
 Follow along this codelab to get a **first draft of a design** for your [[hApp]].
 

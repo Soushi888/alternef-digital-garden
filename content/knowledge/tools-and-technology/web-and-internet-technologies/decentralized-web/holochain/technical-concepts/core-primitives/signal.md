@@ -2,7 +2,7 @@
 Aliases: [Signals, signal, signals] 
 ---
 #holochain/concepts 
-[[Outils et Technologie/DWeb/Holochain/Holochain]]
+[[../index|Holochain]]
 
 -   Don't wait for a response: fire and forget
 -   Not reliable: signals can be lost without our code knowing

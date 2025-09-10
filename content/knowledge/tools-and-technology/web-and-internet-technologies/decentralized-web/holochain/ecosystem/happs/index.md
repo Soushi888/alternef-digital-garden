@@ -111,8 +111,9 @@ This section provides a comprehensive directory of applications (hApps) built on
 
 - [[../index|Holochain Ecosystem]]
 - [[../../development/index|Holochain Development]]
-- [[../../use-cases/index|Holochain Use Cases]]
-- [[../../concepts/index|Holochain Concepts]]
+- [[../../applications/index|Holochain Use Cases]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
 
 ## External Resources
 

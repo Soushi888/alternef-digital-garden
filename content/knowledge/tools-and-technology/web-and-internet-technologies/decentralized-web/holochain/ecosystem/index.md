@@ -84,9 +84,9 @@ This section explores the vibrant ecosystem surrounding Holochain technology, in
 
 ## Related Topics
 
-- [[../Development|Holochain Development]]
-- [[../Use-Cases|Holochain Use Cases]]
-- [[../Introduction|Introduction to Holochain]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Holochain Development]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/applications/index|Holochain Applications]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/introduction/index|Introduction to Holochain]]
 
 ## External Resources
 

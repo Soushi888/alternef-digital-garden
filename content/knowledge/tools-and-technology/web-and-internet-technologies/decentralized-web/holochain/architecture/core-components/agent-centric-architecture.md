@@ -4,7 +4,7 @@ Aliases: [Agents, agents, agent, agent ID]
 
 #holochain/concepts
 
-In [[Outils et Technologie/DWeb/Holochain/Holochain]], the agency is the power of an [agent](https://developer.holochain.org/glossary/#agent) to act in their environment.
+In [[../index|Holochain]], the agency is the power of an [agent](https://developer.holochain.org/glossary/#agent) to act in their environment.
 
 ## An agent is :
 

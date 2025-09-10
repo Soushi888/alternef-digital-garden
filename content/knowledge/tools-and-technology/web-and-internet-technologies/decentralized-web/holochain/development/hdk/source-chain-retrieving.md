@@ -1,4 +1,17 @@
-[[Outils et Technologie/DWeb/Holochain/Holochain]], [[Source Chain]], [[HDK]]
+---
+title: Source Chain Retrieving
+description: Methods for querying and retrieving data from the Holochain source chain
+tags:
+  - holochain
+  - hdk
+  - source-chain
+  - data-retrieval
+parent: "[[../index|HDK]]"
+---
+
+# Source Chain Retrieving
+
+Related: [[../../fundamentals/index|Fundamentals]] • [[index|HDK]] • [[../../architecture/index|Architecture]]
 
 ##  Query
 -   Retrieve the source chain for the cell that's calling "query()"

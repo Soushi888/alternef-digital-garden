@@ -63,9 +63,9 @@ This section provides comprehensive resources for developers looking to build ap
 
 ## Related Topics
 
-- [[../Architecture|Holochain Architecture]]
-- [[../Concepts|Holochain Concepts]]
-- [[../Use-Cases|Holochain Use Cases]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Holochain Architecture]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Holochain Concepts]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/applications/index|Holochain Applications]]
 
 ## External Resources
 
