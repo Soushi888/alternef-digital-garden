@@ -92,6 +92,18 @@ In this example:
 
 Effect is actively maintained by the team at **Effect-TS** and has a growing community. It's hosted on GitHub (`Effect-TS/effect`), with extensive documentation available at [effect.website](https://effect.website) and a supportive Discord community for discussions and help.
 
+## Advanced Patterns
+
+### Supervision and Fault Tolerance
+
+Effect-TS enables implementing sophisticated fault-tolerance patterns inspired by proven distributed systems approaches:
+
+- **[[effect-supervision-patterns|Supervision Patterns]]** - Implement Erlang-style supervision trees with Effect's Fiber and Scope systems
+- **Structured Concurrency** - Hierarchical process management with automatic cleanup and resource management
+- **Typed Error Recovery** - Explicit error handling strategies with compile-time safety guarantees
+
+These patterns are particularly valuable for building resilient services that need to handle failures gracefully while maintaining system stability.
+
 ## Resources
 
 [Effect - The Functional TypeScript Library](https://effect.website/)

@@ -29,8 +29,17 @@ Distributed systems rely on various communication patterns and design techniques
 
 - Message Passing
 - Remote Procedure Calls (RPC)
-- [[event-bus|Event Bus Pattern]]
+- [[knowledge/tools-and-technology/programming-and-software-development/development-patterns/event-bus|Event Bus Pattern]]
 - Publish-Subscribe Models
+- [[actor-model|Actor Model]] - Concurrent computation through message-passing actors
+
+## Programming Models and Languages
+
+- [[erlang|Erlang/OTP]] - Language designed for distributed, fault-tolerant systems
+- [[actor-model|Actor Model]] - Mathematical model for concurrent computation
+- [[supervision-tree|Supervision Trees]] - Hierarchical fault-tolerance pattern
+- [[agent-vs-actor-models|Agent vs Actor Models]] - Comparison of distributed computing paradigms
+- [[knowledge/tools-and-technology/programming-and-software-development/languages/typescript/libraries/effect-supervision-patterns|Effect-TS Supervision Patterns]] - Implementing Erlang supervision patterns in TypeScript
 
 ## Examples of distributed systems
 
@@ -59,5 +68,14 @@ Distributed systems rely on various communication patterns and design techniques
 - User integrity
 - Hardware sharing economy
 
+## Fault Tolerance Patterns
+
+- [[supervision-tree|Supervision Trees]] - Hierarchical process supervision for automatic recovery
+- [[fail-stop|Fail-Stop Model]] - Failure detection and handling
+- [[knowledge/tools-and-technology/security-and-privacy/cryptography/byzantine-fault-tolerance|Byzantine Fault Tolerance]] - Handling arbitrary failures
+- [[consensus|Consensus Algorithms]] - Agreement in distributed systems
+
+## Related Topics
+
 ![[failures|Failures in Distributed Systems]]
-![[byzantine-fault-tolerance|Byzantine Fault Tolerance]]
+![[knowledge/tools-and-technology/security-and-privacy/cryptography/byzantine-fault-tolerance|Byzantine Fault Tolerance]]
