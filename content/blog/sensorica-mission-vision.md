@@ -6,6 +6,8 @@ description: "Exploring Sensorica's 15-year evolution from hardware development 
 tags: ["blog", "sensorica", "ovn", "open-value-networks", "bioregionalism", "cosmo-localism", "hyper-localism", "holochain", "valueflows", "peer-production", "regenerative-economics", "complexity-science", "nondominium"]
 ---
 
+---
+
 *This article is work in progress. We are currently reviewing it and improving it iteratively.*
 
 ---
