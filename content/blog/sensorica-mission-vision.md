@@ -6,6 +6,10 @@ description: "Exploring Sensorica's 15-year evolution from hardware development 
 tags: ["blog", "sensorica", "ovn", "open-value-networks", "bioregionalism", "cosmo-localism", "hyper-localism", "holochain", "valueflows", "peer-production", "regenerative-economics", "complexity-science", "nondominium"]
 ---
 
+*This article is work in progress. We are currently reviewing it and improving it iteratively.*
+
+---
+
 ## Introduction
 
 In February 2011, just two years after Bitcoin's revolutionary emergence, a group of visionaries in Montreal launched an experiment that would challenge fundamental assumptions about how economic activity could be organized. [Sensorica](https://www.sensorica.co/home), initially focused on open-source sensor development, has evolved over fifteen years into something far more profound: a living laboratory for regenerative economic systems that mirror the cyclical patterns of natural ecosystems rather than the extractive logic of industrial capitalism.
