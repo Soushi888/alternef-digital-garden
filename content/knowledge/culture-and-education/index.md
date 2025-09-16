@@ -36,6 +36,7 @@ This section explores the intricate relationship between culture, education, and
 - Academic and scholarly practices
 - Interdisciplinary learning
 - Critical thinking and epistemology
+- [[hermeneutics|Hermeneutics]] - Theory and methodology of interpretation
 
 ### 5. Social and Emotional Learning
 - Emotional intelligence development
