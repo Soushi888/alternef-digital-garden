@@ -39,6 +39,7 @@ This section explores the intricate dynamics of human organization, examining ho
 - Open-source governance models
 - Collaborative digital platforms
 - [[agent-centric-architecture|Agent-centric architectures]]
+- [[network-state-movement|Network State Movement]] - Digital nations and crypto-governance
 
 ### 5. Social Justice and Equity
 - Systemic inequality analysis

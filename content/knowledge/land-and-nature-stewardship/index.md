@@ -22,7 +22,8 @@ Land and Nature Stewardship is an interdisciplinary approach that seeks to under
 - Interconnected natural systems
 
 ### 2. Regenerative Land Management
-- Permaculture principles
+- [[permaculture|Permaculture principles and design philosophy]]
+- [[regenerative-agriculture|Regenerative agriculture systems]]
 - Holistic landscape design
 - Soil health and regeneration
 - Agroecological practices

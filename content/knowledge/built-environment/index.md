@@ -26,6 +26,7 @@ This section examines the intricate relationship between human societies and the
 - Community-driven urban design
 - Transportation and mobility systems
 - Public space optimization
+- [[place-based-resistance-regeneration|Place-Based Resistance and Regeneration]]
 
 ### 3. Environmental Integration
 - Green building technologies
@@ -44,6 +45,7 @@ This section examines the intricate relationship between human societies and the
 - Community engagement in spatial development
 - Cultural heritage preservation
 - Psychological impacts of built environments
+- [[place-based-resistance-regeneration|Place-Based Resistance and Regeneration]] - Community-led transformation
 
 ## Guiding Principles
 - Harmony between human needs and natural systems
