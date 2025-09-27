@@ -71,6 +71,7 @@ High-level strategies for system organization.
 - Event-Driven Architecture
   - [[event-bus|Event Bus Pattern]]
   - [[hooks|Hooks]]
+- [[cqrs-pattern|CQRS Pattern]]
 - Microservices
 - Layered Architecture
 
@@ -98,7 +99,7 @@ Techniques for building robust and maintainable software.
 
 ## Principles and Best Practices
 
-- SOLID Principles
+- [[solid-principles|SOLID Principles]]
 - DRY (Don't Repeat Yourself)
 - KISS (Keep It Simple, Stupid)
 - YAGNI (You Aren't Gonna Need It)
