@@ -26,7 +26,7 @@ The fundamental principles of regenerative agriculture include:
 - **Integrating livestock grazing** that mimics natural ecosystem patterns
 - **Avoiding synthetic inputs** such as fertilizers, pesticides, and heavy machinery
 
-These practices work together to improve water retention, enhance nutrient cycling, and create more resilient agroecosystems capable of withstanding extreme weather events like droughts and floods.
+These practices work together to improve water retention, enhance nutrient cycling, and create more resilient agroecosystems capable of withstanding extreme weather events like droughts and floods. When viewed through a [[bioregional-stewardship|bioregional lens]], these practices also support watershed health, biodiversity conservation, and community resilience beyond the farm boundary.
 
 ## Historical Context
 
@@ -79,6 +79,8 @@ Despite its growing popularity, regenerative agriculture faces several challenge
 ## Related Topics
 
 - [[permaculture|Permaculture]] - Design philosophy sharing many regenerative principles
+- [[bioregional-stewardship|Bioregional Stewardship]] - Scaling regenerative practices to watershed and ecosystem levels
+- [[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]] - Organizing agriculture within bioregional boundaries and governance systems
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/digital-permaculture|Digital Permaculture]] - Application of regenerative principles to digital systems
 
 ## References

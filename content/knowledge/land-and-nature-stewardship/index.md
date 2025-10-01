@@ -34,11 +34,12 @@ Land and Nature Stewardship is an interdisciplinary approach that seeks to under
 - Cultural landscape preservation
 - Wisdom of place-based communities
 
-### 4. Climate Adaptation and Resilience
-- Climate change mitigation strategies
-- Ecosystem-based adaptation
-- Resilient landscape design
-- Carbon sequestration practices
+### 4. Bioregional Regeneration and Resilience
+- [[bioregional-stewardship|Watershed restoration and natural hydrology rebuilding]]
+- Soil health regeneration and ecosystem function enhancement
+- Native biodiversity recovery and keystone species reintroduction
+- [[circular-bioregional-economies|Circular local economies and bioregional resource flows]]
+- Community-scale ecological stewardship and resilience building
 
 ### 5. Human-Nature Relationships
 - Environmental psychology

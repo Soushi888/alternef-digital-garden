@@ -103,6 +103,7 @@ Permaculture shares principles and practices with several related movements:
 Contemporary permaculture continues to evolve with new applications:
 
 - **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/digital-permaculture|Digital Permaculture]]**: Applying principles to technology and digital systems
+- **[[bioregional-stewardship|Bioregional permaculture]]**: Watershed-scale design and bioregional organization
 - **Climate adaptation**: Designing for changing environmental conditions
 - **Social permaculture**: Focusing on human relationships and social systems
 - **Urban permaculture**: Adapting principles for city environments
@@ -110,6 +111,8 @@ Contemporary permaculture continues to evolve with new applications:
 ## Related Topics
 
 - [[regenerative-agriculture|Regenerative Agriculture]] - Agricultural system sharing many permaculture principles
+- [[bioregional-stewardship|Bioregional Stewardship]] - Applying permaculture design at watershed and bioregional scales
+- [[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]] - Philosophical foundation for bioregional organization aligned with permaculture principles
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/digital-permaculture|Digital Permaculture]] - Application of permaculture principles to digital systems
 
 ## References
