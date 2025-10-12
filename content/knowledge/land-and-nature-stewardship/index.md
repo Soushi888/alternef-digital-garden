@@ -17,6 +17,7 @@ Land and Nature Stewardship is an interdisciplinary approach that seeks to under
 
 ### 1. Ecological Systems
 - Ecosystem dynamics
+- [[mycorrhizal-networks|Mycorrhizal networks and fungal symbiosis]]
 - Biodiversity conservation
 - Ecological restoration
 - Interconnected natural systems

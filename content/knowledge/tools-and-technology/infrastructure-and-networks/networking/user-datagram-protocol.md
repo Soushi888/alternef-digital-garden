@@ -1,12 +1,68 @@
 ---
-Aliases: [UDP]
-type: protocol
+title: User Datagram Protocol (UDP)
+description: A lightweight, connectionless communication protocol in the Internet protocol suite
+aliases:
+  - UDP
+tags:
+  - networking
+  - internet-protocols
+  - communication
+related pages:
+  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]"
+  - "[[knowledge/tools-and-technology/index|Tools and Technology]]"
 ---
 
-In computer [[Networking]], the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
+## Overview
 
-UDP uses a simple connectionless communication model with a minimum of protocol mechanisms. UDP provides checksums for data integrity, and port numbers for addressing different functions at the source and destination of the datagram. It has no handshaking dialogues and thus exposes the user's program to any unreliability of the underlying network; there is no guarantee of delivery, ordering, or duplicate protection. If error-correction facilities are needed at the network interface level, an application may instead use Transmission Control Protocol (TCP) or Stream Control Transmission Protocol (SCTP) which are designed for this purpose.
+User Datagram Protocol (UDP) is a core communication protocol in the Internet protocol suite, designed for rapid, lightweight data transmission across IP networks.
 
-UDP is suitable for purposes where error checking and correction are either not necessary or are performed in the application; UDP avoids the overhead of such processing in the protocol stack. Time-sensitive applications often use UDP because dropping packets is preferable to waiting for packets delayed due to retransmission, which may not be an option in a real-time system.
+## Key Characteristics
 
-The protocol was designed by David P. Reed in 1980 and formally defined in RFC 768.
+### Core Principles
+
+- Connectionless communication model
+- Minimal protocol mechanisms
+- Low-overhead data transmission
+
+### Technical Specifications
+
+- Part of the Internet Protocol (IP) suite
+- Uses datagrams for message transportation
+- Provides basic checksums for data integrity
+- Supports port-based addressing
+
+## Functional Mechanics
+
+### Communication Model
+
+- No prior communication setup required
+- No handshaking dialogues
+- No guaranteed delivery or ordering
+
+### Use Cases
+
+- Real-time applications
+- Streaming media
+- Online gaming
+- DNS queries
+- VoIP communications
+
+## Comparative Analysis
+
+### Advantages
+
+- Low latency
+- Minimal processing overhead
+- Suitable for time-sensitive data transmission
+
+### Limitations
+
+- No error correction
+- No packet delivery guarantee
+- Potential data loss
+
+## Historical Context
+
+- Designed by David P. Reed in 1980
+- Formally defined in RFC 768
+- Continues to be critical for high-performance network applications

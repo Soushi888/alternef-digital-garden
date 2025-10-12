@@ -111,6 +111,7 @@ Contemporary permaculture continues to evolve with new applications:
 ## Related Topics
 
 - [[regenerative-agriculture|Regenerative Agriculture]] - Agricultural system sharing many permaculture principles
+- [[mycorrhizal-networks|Mycorrhizal Networks]] - Underground fungal networks that support healthy soil biology and plant nutrition
 - [[bioregional-stewardship|Bioregional Stewardship]] - Applying permaculture design at watershed and bioregional scales
 - [[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]] - Philosophical foundation for bioregional organization aligned with permaculture principles
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/digital-permaculture|Digital Permaculture]] - Application of permaculture principles to digital systems

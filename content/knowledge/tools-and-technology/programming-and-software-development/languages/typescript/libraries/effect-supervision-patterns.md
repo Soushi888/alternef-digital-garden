@@ -22,7 +22,7 @@ draft: false
 
 # Effect-TS Supervision Patterns
 
-The [[supervision-tree|Supervision Tree]] pattern from [[knowledge/tools-and-technology/programming-and-software-development/languages/erlang/index|Erlang/OTP]] can be effectively reproduced in [[effect|Effect-TS]] using its powerful concurrency primitives and structured resource management. This approach brings Erlang's proven fault-tolerance patterns to the TypeScript ecosystem with the added benefits of static typing and Effect's composable architecture.
+The [[supervision-tree|Supervision Tree]] pattern from [[knowledge/tools-and-technology/programming-and-software-development/languages/erlang|Erlang/OTP]] can be effectively reproduced in [[effect|Effect-TS]] using its powerful concurrency primitives and structured resource management. This approach brings Erlang's proven fault-tolerance patterns to the TypeScript ecosystem with the added benefits of static typing and Effect's composable architecture.
 
 ## Core Concepts Translation
 
@@ -883,7 +883,7 @@ Effect.runPromise(main)
 
 - [[effect|Effect-TS]] - The foundational Effect-TS library
 - [[supervision-tree|Supervision Tree]] - The original Erlang/OTP supervision pattern
-- [[knowledge/tools-and-technology/programming-and-software-development/languages/erlang/index|Erlang/OTP]] - Origin of supervision patterns
+- [[knowledge/tools-and-technology/programming-and-software-development/languages/erlang|Erlang/OTP]] - Origin of supervision patterns
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/actor-model|Actor Model]] - Underlying concurrency model
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|Distributed Systems]] - Application domain for supervision patterns
 

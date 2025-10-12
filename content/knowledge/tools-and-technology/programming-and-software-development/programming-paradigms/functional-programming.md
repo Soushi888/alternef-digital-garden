@@ -51,7 +51,7 @@ Functional Programming (FP) is a declarative programming paradigm that treats co
 
 ## Practical Applications
 
-- Functional languages: Haskell, Erlang, Scala
+- Functional languages: [[haskell|Haskell]], [[knowledge/tools-and-technology/programming-and-software-development/languages/erlang|Erlang]], [[ocaml|OCaml]], Scala
 - Functional programming in multi-paradigm languages
   - JavaScript (map, reduce, filter)
   - Python (functional programming modules)
