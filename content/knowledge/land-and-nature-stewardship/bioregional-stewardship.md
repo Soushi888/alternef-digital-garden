@@ -2,6 +2,7 @@
 title: Bioregional Stewardship
 description: Place-based ecological management organized by natural boundaries rather than political lines, focusing on whole ecosystem health
 tags:
+  - stewardship
   - bioregionalism
   - place-based-management
   - watershed-stewardship
@@ -155,6 +156,8 @@ This shifts our identity from warriors fighting an enemy to stewards healing our
 
 ## Related Topics
 
+- [[watersheds|Watersheds]] - Fundamental natural units that define bioregional boundaries
+- [[stewardship|Stewardship]] - Ethical framework for responsible resource management
 - [[permaculture|Permaculture]] - Design philosophy for bioregional-scale applications
 - [[regenerative-agriculture|Regenerative Agriculture]] - Agricultural practices supporting bioregional health
 - [[circular-bioregional-economies|Circular Bioregional Economies]] - Economic systems for bioregional resilience

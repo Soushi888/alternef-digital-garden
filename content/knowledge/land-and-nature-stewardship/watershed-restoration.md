@@ -207,11 +207,11 @@ Specific practices for watershed restoration:
 
 Watershed restoration connects with several related movements:
 
-- **[[bioregional-stewardship|Bioregional Stewardship]]: Watersheds as fundamental bioregional units
-- **[[regenerative-agriculture|Regenerative Agriculture]]: Agricultural practices supporting watershed health
-- **[[permaculture|Permaculture]]: Design principles applied at watershed scale
-- **[[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]]: Governance organized around watershed boundaries
-- **[[circular-bioregional-economies|Circular Bioregional Economies]]: Water cycling in local economic systems
+- **[[bioregional-stewardship|Bioregional Stewardship]]**: Watersheds as fundamental bioregional units
+- **[[regenerative-agriculture|Regenerative Agriculture]]**: Agricultural practices supporting watershed health
+- **[[permaculture|Permaculture]]**: Design principles applied at watershed scale
+- **[[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]]**: Governance organized around watershed boundaries
+- **[[circular-bioregional-economies|Circular Bioregional Economies]]**: Water cycling in local economic systems
 - **Climate adaptation**: Watershed restoration as climate resilience strategy
 
 ## Success Stories
@@ -249,6 +249,7 @@ The future of watershed restoration lies in:
 
 ## Related Topics
 
+- [[watersheds|Watersheds]] - Fundamental understanding of watershed structure and function
 - [[bioregional-stewardship|Bioregional Stewardship]] - Organizing management around watershed boundaries
 - [[permaculture|Permaculture]] - Design principles for watershed-scale applications
 - [[regenerative-agriculture|Regenerative Agriculture]] - Agricultural practices supporting watershed health

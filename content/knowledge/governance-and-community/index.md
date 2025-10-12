@@ -50,6 +50,7 @@ This section explores the intricate dynamics of human organization, examining ho
 ### 6. Place-Based Governance
 - [[cosmo-localisme|Cosmo-localisme]] - Global knowledge, local production
 - [[bioregionalisme|Bioregionalisme]] - Governance by natural boundaries
+- [[stewardship|Stewardship]] - Caretaker mindset for responsible management
 - Watershed councils and ecological democracy
 - Glocal approaches to resilience
 
