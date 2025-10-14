@@ -107,5 +107,6 @@ Techniques for building robust and maintainable software.
 ## Related Concepts
 
 - [[knowledge/tools-and-technology/programming-and-software-development/software-architecture/index|Software Architecture]]
+- [[specification-driven-development|Specification-Driven Development]]
 - Clean Code
 - Software Design Principles

@@ -25,6 +25,7 @@ This section is a comprehensive journey through the art and science of software 
 - Design patterns
 - Architectural approaches
 - Problem-solving strategies in software design
+- [[specification-driven-development|Specification-Driven Development]]
 
 ### 3. Software Architecture
 
@@ -43,6 +44,7 @@ This section is a comprehensive journey through the art and science of software 
 - System thinking
 - Computational theory
 - Software engineering philosophy
+- [[specification-driven-development|Development methodologies]]
 
 ## Guiding Principles
 
