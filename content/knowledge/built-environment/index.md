@@ -20,6 +20,7 @@ This section examines the intricate relationship between human societies and the
 - Innovative architectural concepts
 - Cultural and historical context of design
 - Human-centered spatial planning
+- [[organic-architecture|Organic Architecture]] - Harmony between buildings and natural systems
 
 ### 2. Urban Planning
 - City infrastructure development
