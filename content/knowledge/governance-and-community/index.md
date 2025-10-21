@@ -32,6 +32,7 @@ This section explores the intricate dynamics of human organization, examining ho
 - Decentralized organizational design
 - Adaptive governance systems
 - Conflict resolution mechanisms
+- [[open-value-networks|Open Value Networks]] - Commons-based peer production models
 
 ### 4. Digital Governance
 - Online community management
@@ -40,6 +41,8 @@ This section explores the intricate dynamics of human organization, examining ho
 - Collaborative digital platforms
 - [[agent-centric-architecture|Agent-centric architectures]]
 - [[network-state-movement|Network State Movement]] - Digital nations and crypto-governance
+- [[open-value-networks|Open Value Networks]] - Decentralized collaborative economic models
+- [[sensorica|Sensorica]] - Pioneering OVN for open-source scientific instrumentation
 
 ### 5. Social Justice and Equity
 - Systemic inequality analysis

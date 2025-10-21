@@ -37,6 +37,8 @@ Focusing on cryptography, network security, authentication systems, and privacy-
 
 Exploring cutting-edge fields like artificial intelligence, geographic information systems, and game development.
 
+- **[[sensorica|Sensorica]]** - Open-source IoT sensors and scientific instrumentation
+
 ### 7. [[knowledge/tools-and-technology/tools-and-platforms/index|Tools and Platforms]]
 
 Analyzing development tools, content management systems, low-code platforms, and digital productivity ecosystems.
