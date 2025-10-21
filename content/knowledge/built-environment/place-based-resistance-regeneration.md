@@ -177,6 +177,7 @@ Contrasts with place-based approaches through:
 - Pop-up markets and events
 - Street art and cultural expression
 - Informal space appropriation
+- Creation of temporary [[knowledge/built-environment/open-collaborative-spaces|Open Collaborative Spaces]] for community organizing and resistance
 
 **Institutional Strategies**:
 - Community land trusts
@@ -269,6 +270,7 @@ By centering lived experiences and acknowledging complex temporalities, place-ba
 - [[bioregionalisme|Bioregionalisme]] - Natural boundaries and ecological governance
 - [[cosmo-localisme|Cosmo-Localisme]] - Global knowledge with local production
 - [[network-state-movement|Network State Movement]] - Digital communities and sovereignty
+- [[knowledge/built-environment/open-collaborative-spaces|Open Collaborative Spaces]] - Physical spaces that enable community resistance and organizing
 - Urban Commons and Right to the City
 - Indigenous Urbanism and Planning
 - Tactical and Guerrilla Urbanism

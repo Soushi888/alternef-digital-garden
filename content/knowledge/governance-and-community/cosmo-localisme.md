@@ -91,6 +91,7 @@ The synthesis of global and local perspectives:
 - Shared designs and documentation
 - Community workshops and tools
 - Distributed manufacturing capacity
+- Physical manifestations of [[knowledge/built-environment/open-collaborative-spaces|Open Collaborative Spaces]] that enable hands-on innovation and community-driven production
 
 ### Open Source Ecology
 - Global repository of open hardware designs
@@ -144,6 +145,7 @@ The synthesis of global and local perspectives:
 ## See Also
 
 - [[bioregionalisme|Bioregionalisme]]
+- [[knowledge/built-environment/open-collaborative-spaces|Open Collaborative Spaces]] - Physical spaces where cosmo-localist principles are put into practice
 - [[local-first|Local-First Computing]]
 - [[peer-to-peer|Peer-to-Peer Networks]]
 - [[distributed-systems|Distributed Systems]]

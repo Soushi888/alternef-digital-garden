@@ -164,7 +164,7 @@ Research supports organic architecture principles for health:
 
 - **Stress Reduction**: Natural materials and views promote calm and healing
 - **Cognitive Function**: Connection to nature improves focus and creativity
-- **Social Connection**: Flowing spaces encourage interaction and community
+- **Social Connection**: Flowing spaces encourage interaction and community, creating proto-[[knowledge/built-environment/open-collaborative-spaces|Open Collaborative Spaces]]
 - **Physical Health**: Natural light and ventilation support physical wellbeing
 
 ### Digital Age Balance
@@ -233,6 +233,7 @@ Organic architecture provides counterbalance to technology saturation:
 
 - [[knowledge/built-environment/index|Built Environment]] - Architectural design and human-made spaces
 - [[place-based-resistance-regeneration|Place-Based Resistance and Regeneration]] - Harmony between communities and environments
+- [[knowledge/built-environment/open-collaborative-spaces|Open Collaborative Spaces]] - Modern interpretations of flowing, interactive spatial design
 - Sustainable Architecture and Green Building
 - Biophilic Design and Nature Connection
 - Critical Regionalism and Place-Based Design

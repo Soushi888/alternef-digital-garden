@@ -48,6 +48,13 @@ This section examines the intricate relationship between human societies and the
 - Psychological impacts of built environments
 - [[place-based-resistance-regeneration|Place-Based Resistance and Regeneration]] - Community-led transformation
 
+### 6. Collaborative Spaces
+- Design of environments for teamwork and innovation
+- Community workshops and maker spaces
+- Technology integration for hybrid collaboration
+- Flexible spatial arrangements for diverse activities
+- [[open-collaborative-spaces|Open Collaborative Spaces]] - MakerSpaces, FabLabs, and modern workplace design
+
 ## Guiding Principles
 - Harmony between human needs and natural systems
 - Sustainable and regenerative design
