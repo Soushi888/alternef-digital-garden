@@ -104,6 +104,7 @@ Many OVNs incorporate [[agent-centric-architecture|agent-centric architectures]]
 - **Platform Cooperativism**: Worker-owned platform alternatives to gig economy
 - **Decentralized Autonomous Organizations (DAOs)**: Blockchain-based governance experiments, many built on [[ethereum|Ethereum]] and similar platforms
 - **[[local-first-accountability|Local-first accountability]]**: Community-focused responsibility systems that complement OVN transparency principles
+- **[[cognicism|Cognicism]]**: AI-augmented framework for collective belief tracking and decision-making that could enhance OVN governance systems
 
 ### Theoretical Context
 

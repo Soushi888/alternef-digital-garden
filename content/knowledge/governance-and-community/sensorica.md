@@ -159,6 +159,7 @@ The network has contributed significantly to understanding:
 - Advanced AI and machine learning for sensemaking systems
 - Expanded IoT capabilities and sensor networks
 - Improved tools for distributed project management
+- Integration with [[cognicism|Cognicism]] frameworks for AI-augmented collective decision-making and enhanced contribution tracking
 
 ### Network Expansion
 

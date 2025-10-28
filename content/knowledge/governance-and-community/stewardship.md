@@ -330,6 +330,7 @@ System Questions:
 - [[bioregionalisme|Bioregionalisme]]
 - [[commons|The Commons]]
 - [[cosmo-localisme|Cosmo-localisme]]
+- [[cognicism|Cognicism]] - AI-augmented accountability and collective decision-making systems
 - [[governance|Governance Systems]]
 - [[sustainability|Sustainability]]
 - [[regenerative-agriculture|Regenerative Agriculture]]

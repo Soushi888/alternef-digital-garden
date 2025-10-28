@@ -195,6 +195,7 @@ These questions extend beyond the network state movement to broader consideratio
 - [[agent-centric-architecture|Agent-Centric Architecture]] - Technical infrastructure for digital sovereignty
 - [[cosmo-localisme|Cosmo-Localisme]] - Alternative glocal governance model
 - [[bioregionalisme|Bioregionalisme]] - Place-based governance systems
+- [[cognicism|Cognicism]] - AI-augmented collective decision-making and belief tracking systems
 - Decentralized Autonomous Organizations (DAOs)
 - Digital Identity and Self-Sovereignty
 - Cryptocurrency and Economic Systems
