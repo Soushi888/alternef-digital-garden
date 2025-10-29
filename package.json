@@ -19,6 +19,20 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:debug": "playwright test --debug",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:report": "playwright show-report",
+    "test:e2e:install": "playwright install",
+    "test:e2e:chrome": "playwright test --project=chromium",
+    "test:e2e:firefox": "playwright test --project=firefox",
+    "test:e2e:safari": "playwright test --project=webkit",
+    "test:e2e:mobile": "playwright test --project='Mobile Chrome'",
+    "test:e2e:accessibility": "playwright test --project=accessibility",
+    "test:e2e:performance": "playwright test --project=performance",
+    "test:recent-changes": "playwright test tests/e2e/recent-changes.spec.ts",
+    "test:ci": "playwright test --reporter=html,/json --output=test-results/ci",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
@@ -103,6 +117,7 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.50.0",
     "@types/cli-spinner": "^0.2.3",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",

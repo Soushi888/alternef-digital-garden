@@ -1,5 +1,4 @@
 import { FullSlug, simplifySlug } from "../../util/path"
-// import { getDate } from "../../util/compat" // Removed: compat.ts not found
 import { PerfTimer } from "../../util/perf"
 import { type QuartzPluginData } from "../../plugins/vfile" // Correct path
 
@@ -35,6 +34,25 @@ export const formatDate = (d: Date | undefined): string => {
   })
 }
 
+// Local date utility function that doesn't require GlobalConfiguration
+const getDateFromFile = (file: QuartzPluginData, dateType: "created" | "modified"): Date | undefined => {
+  if (!file.dates) {
+    return undefined
+  }
+
+  const date = file.dates[dateType]
+  if (!date) {
+    return undefined
+  }
+
+  // Validate that it's a valid Date object
+  if (isNaN(date.getTime())) {
+    return undefined
+  }
+
+  return date
+}
+
 // Function to process files into ChangedItems
 export const processRecentChanges = ({
   allFiles,
@@ -49,19 +67,17 @@ export const processRecentChanges = ({
   perf.addEvent("start:processRecentChanges")
 
   const validFiles = allFiles.filter((file) => {
-    // const frontmatterDate = // Commented out: depends on getDate
-    //   sortOrder === "created" ? file.dates?.created : file.dates?.modified
-    // const gitDate = sortOrder === "created" ? file.dates?.gitCreated : file.dates?.gitModified // Commented out: depends on getDate
-
-    // Validate date
-    // const dt = getDate(file.dates, sortOrder === "created" ? "created" : "modified") // Commented out: getDate not found
-    // if (!dt) {
-    //   // console.log(`Skipping ${file.filePath}: invalid date`)
-    //   return false
-    // }
+    // Validate date using our local utility function
+    const dt = getDateFromFile(file, sortOrder)
+    if (!dt) {
+      // console.log(`Skipping ${file.filePath}: invalid ${sortOrder} date`)
+      return false
+    }
 
     // Validate draft status
-    if (file.frontmatter?.draft && !showDraft) {
+    const frontmatter = file.frontmatter as any // Type assertion for frontmatter access
+    const isDraft = frontmatter?.draft === true || frontmatter?.draft === "true"
+    if (isDraft && !showDraft) {
       // console.log(`Skipping ${file.filePath}: draft`)
       return false
     }
@@ -77,18 +93,18 @@ export const processRecentChanges = ({
 
   // Map to ChangedItem interface
   const items: ChangedItem[] = validFiles.map((file) => {
-    // const dt = getDate(file.dates, sortOrder === "created" ? "created" : "modified")! // Commented out: getDate not found
-    // TODO: Need a valid way to get the date for sorting and ChangedItem.date
-    const placeholderDate = new Date(); // Placeholder: Replace with actual date logic
+    const dt = getDateFromFile(file, sortOrder)! // We know this exists due to the filter above
     const excerptString = typeof file.excerpt === 'string' ? file.excerpt : undefined; // Ensure excerpt is string | undefined
+    const frontmatter = file.frontmatter as any // Type assertion for frontmatter access
+
     return {
-      title: file.frontmatter?.title ?? "Untitled",
-      link: file.slug!,
-      date: placeholderDate, // Using placeholder date
+      title: frontmatter?.title ?? "Untitled",
+      link: file.slug as FullSlug, // Type assertion for slug
+      date: dt, // Using the actual date from the file
       type: sortOrder,
-      excerpt: showExcerpt ? (file.frontmatter?.description ?? excerptString) : undefined, // Use checked excerptString
-      tags: showTags ? file.frontmatter?.tags : undefined,
-      id: simplifySlug(file.slug!),
+      excerpt: showExcerpt ? (frontmatter?.description ?? excerptString) : undefined, // Use checked excerptString
+      tags: showTags ? (frontmatter?.tags as string[] | undefined) : undefined,
+      id: simplifySlug(file.slug as FullSlug),
     }
   })
 

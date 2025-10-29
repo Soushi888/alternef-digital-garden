@@ -18,3 +18,16 @@ replit.nix
 
 # Local files
 **/*.local.*
+
+# Playwright test results and artifacts
+test-results/
+playwright-report/
+test-results.xml
+*.trace
+screenshots/
+videos/
+/ms-playwright*
+coverage/
+.nyc_output/
+temp/
+test-temp/

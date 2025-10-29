@@ -128,6 +128,8 @@ sharedPageComponents.afterBody.push((props: any) => {
       limit: 5,
       detailed: false,
       title: "Recent Updates",
+      showCreated: true,
+      showModified: true,
     })
   }
   return null

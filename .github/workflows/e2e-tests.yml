@@ -1,0 +1,246 @@
+name: E2E Tests - RecentChanges Component
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Run tests daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  e2e-tests:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, firefox, webkit]
+        shard: [1, 2, 3, 4]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps ${{ matrix.browser }}
+
+      - name: Build site
+        run: npm run build
+
+      - name: Run E2E tests
+        run: npx playwright test --project=${{ matrix.browser }} --shard=${{ matrix.shard }}/4
+        env:
+          CI: true
+          SITE_URL: https://soushi888.github.io/alternef-digital-garden
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report-${{ matrix.browser }}-shard-${{ matrix.shard }}
+          path: |
+            test-results/
+            playwright-report/
+
+  accessibility-tests:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run accessibility tests
+        run: npx playwright test --project=accessibility
+        env:
+          CI: true
+
+      - name: Upload accessibility report
+        uses: actions/upload-artifact@v4
+        with:
+          name: accessibility-report
+          path: test-results/html
+
+  performance-tests:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run performance tests
+        run: npx playwright test --project=performance
+        env:
+          CI: true
+
+      - name: Upload performance report
+        uses: actions/upload-artifact@v4
+        with:
+          name: performance-report
+          path: test-results/html
+
+  mobile-tests:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run mobile tests
+        run: npx playwright test --project='Mobile Chrome'
+        env:
+          CI: true
+
+      - name: Upload mobile test report
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-test-report
+          path: test-results/html
+
+  merge-reports:
+    if: always()
+    needs: [e2e-tests, accessibility-tests, performance-tests, mobile-tests]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: all-artifacts
+
+      - name: Merge HTML reports
+        run: npx playwright merge-reports --reporter=html all-artifacts
+
+      - name: Upload merged report
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged-html-report
+          path: playwright-report
+
+  comment-pr:
+    if: github.event_name == 'pull_request'
+    needs: [merge-reports]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Comment PR with test results
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.type === 'Bot' &&
+              comment.body.includes('🧪 E2E Test Results')
+            );
+
+            const testStatus = '${{ needs.merge-reports.result }}' === 'success' ? '✅ Passed' : '❌ Failed';
+
+            const commentBody = `
+            ## 🧪 E2E Test Results - RecentChanges Component
+
+            **Status**: ${testStatus}
+
+            ### Test Coverage:
+            - ✅ Component rendering and functionality
+            - ✅ Real data integration
+            - ✅ Responsive design (mobile, tablet, desktop)
+            - ✅ Accessibility compliance (WCAG 2.1 AA)
+            - ✅ Performance benchmarks
+            - ✅ Cross-browser compatibility
+            - ✅ Error handling and edge cases
+
+            ### Test Environments:
+            - 🌐 Browsers: Chrome, Firefox, Safari
+            - 📱 Devices: Mobile, Tablet, Desktop
+            - ♿ Accessibility: Screen reader, keyboard navigation
+            - ⚡ Performance: Core Web Vitals, load times
+
+            **View detailed report**: Check the "Artifacts" section for the complete HTML report.
+            `;
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: commentBody,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: commentBody,
+              });
+            }

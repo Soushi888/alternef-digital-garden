@@ -35,7 +35,7 @@ const getFileDate = (
   file: any,
   dateType: "created" | "modified"
 ): Option.Option<Date> => {
-  return Option.fromNullable(file.frontmatter?.[dateType])
+  return Option.fromNullable(file.dates?.[dateType])
     .pipe(
       Option.filter((date): date is Date => date instanceof Date)
     );
@@ -64,8 +64,7 @@ const extractExcerpt = (content: string, maxLength = 150): string => {
 };
 
 // Process file data into ChangedItem[] - separated for testability
-const processFileData = (fileData: Record<string, any>): ChangedItem[] => {
-  const allFiles = Object.values(fileData);
+const processFileData = (allFiles: any[]): ChangedItem[] => {
   const items: ChangedItem[] = [];
 
   for (const file of allFiles) {
@@ -114,9 +113,9 @@ const processFileData = (fileData: Record<string, any>): ChangedItem[] => {
 };
 
 // Fetch data and transform to ChangedItem[] as an Effect
-const fetchChangedItems = (fileData: Record<string, any>) => {
+const fetchChangedItems = (allFiles: any[]) => {
   return Effect.try({
-    try: () => processFileData(fileData),
+    try: () => processFileData(allFiles),
     catch: (error) => new ContentParseErrorClass(error),
   });
 };
@@ -190,49 +189,42 @@ export function RecentChanges(props: RecentChangesProps) {
     showExcerpt = false,
     showTags = false,
     title = "Recent Changes",
-    fileData,
+    allFiles,
     cfg,
   } = props;
 
-  // Use demo items while we're building the component
-  const demoMode = true; // Set to false when ready to use real data
+  // Use real data - demo mode disabled
+  const demoMode = false;
 
-  // For demo purposes, we'll use some placeholder items
-  const demoItems: ChangedItem[] = [
-    {
-      title: "Introduction to Permaculture",
-      link: "/knowledge/land-stewardship/permaculture" as FullSlug,
-      date: new Date(Date.now() - 1000 * 60 * 60), // 1 hour ago
-      type: "modified",
-      id: "1",
-      excerpt: "An overview of permaculture principles and practices...",
-      tags: ["permaculture", "sustainability"],
-    },
-    {
-      title: "Sustainable Housing",
-      link: "/knowledge/built-environment/sustainable-housing" as FullSlug, 
-      date: new Date(Date.now() - 1000 * 60 * 60 * 24), // 1 day ago
-      type: "created",
-      id: "2",
-      excerpt: "Exploring eco-friendly housing solutions...",
-      tags: ["housing", "green-building"],
-    },
-    {
-      title: "Digital Garden Setup",
-      link: "/knowledge/tools-technology/digital-gardens" as FullSlug,
-      date: new Date(Date.now() - 1000 * 60 * 60 * 24 * 3), // 3 days ago
-      type: "modified",
-      id: "3",
-      excerpt: "Tools and approaches for creating and maintaining a digital garden...",
-      tags: ["tools", "knowledge-management"],
-    },
-  ];
+  // Simple processing approach similar to RecentNotes
+  const allValidFiles = allFiles?.filter(file => {
+    // Include files with valid dates
+    return file.dates && (file.dates.created || file.dates.modified);
+  }) || [];
 
-  // In a real implementation, we would use the Effect runtime to execute our program
-  // For now, depending on demoMode variable, we'll use either demo items or real data
-  const items = demoMode
-    ? demoItems
-    : processFileData(fileData as Record<string, any>);
+  // Sort by most recent date
+  const sortedFiles = allValidFiles.sort((a, b) => {
+    const dateA = (a.dates.modified || a.dates.created || new Date(0));
+    const dateB = (b.dates.modified || b.dates.created || new Date(0));
+    return dateB.getTime() - dateA.getTime();
+  });
+
+  // Convert to ChangedItems format
+  const items = sortedFiles.map(file => {
+    const isModified = file.dates.modified &&
+      file.dates.created &&
+      file.dates.modified.getTime() - file.dates.created.getTime() > 60 * 60 * 1000;
+
+    return {
+      title: file.frontmatter?.title || "Untitled",
+      link: file.slug,
+      date: file.dates.modified || file.dates.created || new Date(),
+      type: isModified ? "modified" : "created",
+      id: `${file.slug}-${isModified ? "modified" : "created"}`,
+      excerpt: file.frontmatter?.description,
+      tags: file.frontmatter?.tags,
+    } as ChangedItem;
+  });
 
   // Filter items based on component props
   const filteredItems = filterItems(items, props);
