@@ -5,6 +5,7 @@ author: "Alternef"
 description: "An honest, comprehensive look at where Holochain stands today - celebrating genuine progress while addressing real challenges. A reassuring deep-dive for community members who want the full picture."
 tags:
   [
+    "blog",
     "holochain",
     "ecosystem",
     "community",
@@ -402,7 +403,7 @@ The Holo hosting platform represents the **crucial bridge** between Holochain's 
 - ⚠️ **Market Readiness**: No clear evidence of production workloads or business model validation
 - ⚠️ **Hardware Dependency**: HoloPort device strategy adds adoption complexity
 
-**Ecosystem Dependency Risk**: 
+**Ecosystem Dependency Risk**:
 
 The Holo platform's **tight coupling to Holochain core development** means that **production readiness is fundamentally limited by Holochain's own alpha status**. While the hosting infrastructure appears technically competent, it cannot deliver production-ready services until the underlying Holochain platform achieves production maturity.
 

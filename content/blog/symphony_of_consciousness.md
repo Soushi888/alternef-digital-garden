@@ -3,6 +3,7 @@ title: "The Symphony of Consciousness: A Dialogue Between Realms"
 subtitle: "Meditation on the harmonic evolution of terrestrial consciousness"
 date: 2025-08-22
 tags:
+  - blog
   - consciousness
   - evolution
   - natural-kingdoms

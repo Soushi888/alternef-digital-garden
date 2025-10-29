@@ -1,20 +1,20 @@
 ---
 title: "Integrating Holochain, Mattereum and OVN: A Framework for Peer Production"
-date: 2024-01-15
+date: 2025-01-15
 author: "soushi888"
 description: "An exploration of how Holochain's hREA and Mattereum's Asset Passport technology can enhance Open Value Networks"
 tags: ["blog", "holochain", "mattereum", "ovn", "hrea", "peer-production", "blockchain", "p2p"]
 heroImage: "/blog-placeholder-4.jpg"
 ---
 
-In this paper we explore a short list of p2p technologies carefully chosen to satisfy our needs in a specific *material peer production* context. We contribute to the p2p movement by bringing our 15 years of experience in open-source, Do-It-Yourself (DIY) hardware development, using an organizational model that we call [Open Value Network (OVN)](https://ovn.world/).  
+In this paper we explore a short list of p2p technologies carefully chosen to satisfy our needs in a specific *material peer production* context. We contribute to the p2p movement by bringing our 15 years of experience in open-source, Do-It-Yourself (DIY) hardware development, using an organizational model that we call [Open Value Network (OVN)](https://ovn.world/).
 
 The integration of [Holochain](https://www.holochain.org/) (agent-centric p2p framework) and [Cardano](https://cardano.org/) (data-centric blockchain), with the complementarity of [hREA](https://hrea.io/)/[Valueflows](https://www.valueflo.ws/) and [ADAM](https://coasys.org/adam), maps our needs for a groundbreaking hybrid infrastructure to support *distributed fabrication* and *regulatory compliance* for the [PEP Master project](https://www.sensorica.co/ventures/scientific-instruments/pep-master), the context of our work.
 
-* **Open Value Networks (OVNs)** are decentralized, collaborative frameworks that facilitate peer production, where individuals and groups co-create value through shared resources and open processes. OVNs leverage p2p technologies to manage complex workflows, fairly reward contributors, and operate without reliance on traditional hierarchical structures, making them ideal for innovative, community-driven projects like PEP Master.  
-* **[[what-is-holochain|Holochain]]** is an agent-centric p2p framework that empowers participants with self-sovereignty and fosters direct collaboration. Unlike traditional blockchains, Holochain uses a [[distributed-hash-table|distributed hash table (DHT)]] to enable scalable, serverless digital environments where each participant maintains their own data and interactions, aligning perfectly with the decentralized ethos of OVNs.  
-* **[[hrea|hREA]]/[[valueflows|ValueFlows]]** provides a standardized vocabulary and framework for modeling economic and production activities within peer production networks. By capturing contributions, resource flows, and economic events, hREA/ValueFlows ensures transparency and auditability, allowing OVNs to track and reward individual efforts in a fair and verifiable manner.  
-* **ADAM** offers a meta-ontology that bridges diverse decentralized systems, enabling seamless interoperability while preserving the unique strengths of each technology. In the context of OVNs, ADAM facilitates integration between Holochain’s collaborative environments and Cardano’s blockchain, ensuring cohesive workflows across platforms.  
+* **Open Value Networks (OVNs)** are decentralized, collaborative frameworks that facilitate peer production, where individuals and groups co-create value through shared resources and open processes. OVNs leverage p2p technologies to manage complex workflows, fairly reward contributors, and operate without reliance on traditional hierarchical structures, making them ideal for innovative, community-driven projects like PEP Master.
+* **[[what-is-holochain|Holochain]]** is an agent-centric p2p framework that empowers participants with self-sovereignty and fosters direct collaboration. Unlike traditional blockchains, Holochain uses a [[distributed-hash-table|distributed hash table (DHT)]] to enable scalable, serverless digital environments where each participant maintains their own data and interactions, aligning perfectly with the decentralized ethos of OVNs.
+* **[[hrea|hREA]]/[[valueflows|ValueFlows]]** provides a standardized vocabulary and framework for modeling economic and production activities within peer production networks. By capturing contributions, resource flows, and economic events, hREA/ValueFlows ensures transparency and auditability, allowing OVNs to track and reward individual efforts in a fair and verifiable manner.
+* **ADAM** offers a meta-ontology that bridges diverse decentralized systems, enabling seamless interoperability while preserving the unique strengths of each technology. In the context of OVNs, ADAM facilitates integration between Holochain’s collaborative environments and Cardano’s blockchain, ensuring cohesive workflows across platforms.
 * **Cardano** is a secure, data-centric blockchain platform that supports tokenization, smart contracts, and certification. It provides a robust layer for managing transactions, ownership models, and incentives, ensuring global accessibility and regulatory compliance for distributed production processes in OVNs.
 
 This synergy enables OVNs to steward complex distributed workflows, reward contributors fairly, and ensure compliance with regulatory standards—a critical requirement for projects like PEP Master.
@@ -25,10 +25,10 @@ PEP Master is an open-source DIY therapeutic hardware device and computer game (
 
 The PEP Master Instrument has reached a mature prototyping iteration, undergoing clinical studies at the Sainte Justine Hospital in Montreal, involving 40 patients. We are now shifting our attention to lateral scaling (see the *Scaling wide* section below), i.e. stimulating the adoption of this Instrument, by replicating its use in multiple countries, within a cocooned medical research environment, modeled from our collaboration with Sainte Justine Hospital. In parallel, we are also pushing for upwards scaling (see the *Scaling up* section below), by creating the conditions for trust in the Instrument’s safety and security to emerge. The primary objectives include:
 
-1. Achieving ISO standards for the PEP Master Instrument.  
-2. Validating the clinical relevance of PEP Master Instrument through medical research.  
-3. Establishing validation and certification methods for Instrument blueprints and fabrication processes.  
-4. Implementing secure medical data storage and transfer mechanisms.  
+1. Achieving ISO standards for the PEP Master Instrument.
+2. Validating the clinical relevance of PEP Master Instrument through medical research.
+3. Establishing validation and certification methods for Instrument blueprints and fabrication processes.
+4. Implementing secure medical data storage and transfer mechanisms.
 5. Engaging with governmental agencies like Health Canada for regulatory approval.
 
 Once the conditions of trust are in place, we can address another type of scaling wide, which is dissemination of the Instrument and its associated medical practice to patients across the planet.
@@ -76,9 +76,9 @@ Holochain’s agent-centric architecture fundamentally differs from traditional 
 
 Cardano’s Ouroboros Proof-of-Stake (PoS) consensus mechanism ensures long-term sustainability through a more energy-efficient consensus mechanism than Proof-of-Work (PoW) or other PoS mechanisms used by other blockchains. This protocol represents a significant advancement in sustainable blockchain technology. Unlike energy-intensive Proof-of-Work systems, Ouroboros achieves the same security guarantees while consuming only a fraction of the energy. Research indicates that Cardano’s energy consumption is approximately 0.01% of Bitcoin’s, using about 6 GWh annually compared to Bitcoin’s 110.53 TWh. This efficiency is achieved through:
 
-* Stake-based validator selection instead of computational puzzles  
-* Deterministic block creation process  
-* Efficient network communication protocols  
+* Stake-based validator selection instead of computational puzzles
+* Deterministic block creation process
+* Efficient network communication protocols
 * Optimized transaction validation
 
 The combination of Holochain’s agent-centric architecture and Cardano’s Ouroboros protocol creates a highly sustainable infrastructure for OVNs, enabling them to scale their operations without compromising environmental responsibility.
@@ -117,33 +117,33 @@ The process that initiates the *chain of trust* is **Design**, which is carried 
 
 The diagram below presents the cryptographic methods used to establish the *chain of trust*, using existing DWeb / web3 primitives. Here we make an abstraction of the Enabler, the role of infrastructure provider. The Enabler is in fact absorbed into the DWeb / web3 aspect, as these platforms already provide reward mechanisms for agents involved in their reproduction, in the form of token minting, transaction fees, etc.
 
-1. **Design:**  
-   * Input: Engineering expertise, medical requirements  
-   * Activities: Design creation, review, iteration  
-   * Output: Instrument blueprints  
+1. **Design:**
+   * Input: Engineering expertise, medical requirements
+   * Activities: Design creation, review, iteration
+   * Output: Instrument blueprints
 2. **Verification:**
-   * Input: Scientific and engineering expertise, medical requirements, blueprints and Instrument  
-   * Activities: Testing, documentation  
-   * Output: Peer reviewed scientific papers about verification of Instrument blueprints  
-3. **Certification:**  
-   * Input: Instrument blueprints, scientific papers validating Instrument blueprints, regulatory standards  
-   * Activities: Minting of immutable *Instrument* *certificate* (NFT)  
-   * Output: Certified designs, compliance records  
-4. **Fabrication:**  
-   * Input: Fabrication skills, certified blueprints, materials  
-   * Activities: Instrument fabrication, testing  
-   * Output: Functional PEP Master Instrument, *Instrument passport* (ex. NMKR and TrivolveTech)  
-5. **Dissemination:**  
-   * Input: Certified Instrument (*Instrument* *certificate and passport*)  
-   * Activities: Transaction, training, support  
-   * Output: Installed and operational Instrument  
+   * Input: Scientific and engineering expertise, medical requirements, blueprints and Instrument
+   * Activities: Testing, documentation
+   * Output: Peer reviewed scientific papers about verification of Instrument blueprints
+3. **Certification:**
+   * Input: Instrument blueprints, scientific papers validating Instrument blueprints, regulatory standards
+   * Activities: Minting of immutable *Instrument* *certificate* (NFT)
+   * Output: Certified designs, compliance records
+4. **Fabrication:**
+   * Input: Fabrication skills, certified blueprints, materials
+   * Activities: Instrument fabrication, testing
+   * Output: Functional PEP Master Instrument, *Instrument passport* (ex. NMKR and TrivolveTech)
+5. **Dissemination:**
+   * Input: Certified Instrument (*Instrument* *certificate and passport*)
+   * Activities: Transaction, training, support
+   * Output: Installed and operational Instrument
 6. **Valuation**:
-   * Input: Certified Instruments, usage data and experience  
-   * Activities: Social reputation protocols (likes, endorsements, on-chain interactions) determine credibility.  
-   * Output: Credibility, quality, efficiency score/ranking.  
+   * Input: Certified Instruments, usage data and experience
+   * Activities: Social reputation protocols (likes, endorsements, on-chain interactions) determine credibility.
+   * Output: Credibility, quality, efficiency score/ranking.
 7. **Transaction**
-   * Input: certified and valuated Instruments, tokens.  
-   * Activities: choice of Instrument designs.  
+   * Input: certified and valuated Instruments, tokens.
+   * Activities: choice of Instrument designs.
    * Output: certified designs and certificates (NFT), and actual Instrument. Triggers fair revenue distribution among contributors.
 
 ## Scaling up
@@ -156,8 +156,8 @@ Scaling up is done in collaboration with medical and technical researchers, with
 
 One way to understand lateral scaling is to stimulate adoption of the PEP Master Instrument and its associated medical practice. We are looking at 3 scaling dimensions:
 
-1. Replication of our collaboration with Sainte Justine Hospital where patients can use the Instrument in a cocooned medical research environment. This will provide new medical and technical feedback and will help adjust the medical practice associated with the Instrument to the local regulatory framework, medical culture and economic conditions.  
-2. Dissemination of the Instrument and its associated medical practice to patients around the world.  
+1. Replication of our collaboration with Sainte Justine Hospital where patients can use the Instrument in a cocooned medical research environment. This will provide new medical and technical feedback and will help adjust the medical practice associated with the Instrument to the local regulatory framework, medical culture and economic conditions.
+2. Dissemination of the Instrument and its associated medical practice to patients around the world.
 3. Expansion of our peer production approach into other cases of rare diseases.
 
 The replication of use in a medical research environment can be facilitated by the infrastructure discussed here by implementing local OVNs, built on top of a locally adequate Holochain-based p2p infrastructure, which can easily network together, i.e. federate and enable the flow of information and resources among them. The scientific validation processes can be facilitated and standardized using the [Games and hardware validation](https://docs.google.com/document/d/1a9OmAHa34cGtuZudHCI1fuzTy3wvvmo4ixrECZCCFsI/edit?tab=t.0#heading=h.le8xa0eeirqh) template. These local OVNs are expected to grow their local capacity to help fabricate, maintain and provide training for the PEP Master Instrument. The Cardano transactional rail can allow secure transfer of credentials and **Certificates** of verification or validation from a local context to another.
@@ -177,7 +177,7 @@ Scaling deep is about gaining more granularity or refinement for the practice as
 The OVN model has been refined since 2011 in real situations, iterating on the organizational design and the economic model one project after another. [Sensorica](https://www.sensorica.co/) has [demonstrated](https://docs.google.com/document/d/1ABmC6YJsszlIPoL-YXU3GF-PLHY0tmQdocBExswh7Lw/edit?usp=drive_link) that this new economic paradigm of peer production is capable of interfacing with legacy institutions and delivering valuable solutions in contexts as diverse as agriculture, industrial application, scientific instrumentation and medicine. Although material peer production is still in its infancy, suffering from lack of recognition and legitimacy, it remains very promising, constituting a possible future point of convergence of various developments in the sphere of p2p. We consider that the OVN model is prefigurative of a future p2p economy and in this paper we are trying to understand which existing p2p technologies (that have evolved independently) can cover the needs of the [PEP Master](https://www.sensorica.co/ventures/scientific-instruments/pep-master) project, which operates within the Sensorica OVN. As presented in the *Core OVN principles* section, our selection of p2p technologies is Holochain, hREA/Valueflows, ADAM and Cardano, together providing a technical foundation that not only supports but also amplifies OVNs’ core principles. Together, these technologies enable PEP Master to deliver open-source, DIY therapeutic instruments that meet stringent medical standards, addressing rare conditions underserved by traditional models.
 
 * **Holochain,** agent-centric for collaboration, peer production processes.
-* **Cardano**, data-centric, secure transaction layer.  
+* **Cardano**, data-centric, secure transaction layer.
 * In between these rails, **hREA** for modeling p2p economic processes and **ADAM** for interoperability and composability of OVNs.
 
 By harmonizing Holochain’s agent-centric empowerment with Cardano’s data-centric integrity, this hybrid ecosystem ushers in a new era of decentralized production, where individuals and communities engage in peer production with trust, autonomy, and global impact.
@@ -186,4 +186,4 @@ As we navigate the blurred boundaries between Holochain’s flexible, organic ne
 
 ## Call to action
 
-The PEP Master project offers great potential for access to medical treatment. With great potential come great challenges: integration complexity, satisfying regulatory requirements, adoption barriers, and the immaturity of Holochain, hREA, ADAM, and Midnight. We invite developers and enthusiasts of the technologies to help us overcome these barriers.  
+The PEP Master project offers great potential for access to medical treatment. With great potential come great challenges: integration complexity, satisfying regulatory requirements, adoption barriers, and the immaturity of Holochain, hREA, ADAM, and Midnight. We invite developers and enthusiasts of the technologies to help us overcome these barriers.

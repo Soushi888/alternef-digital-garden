@@ -5,6 +5,7 @@ date: 2025-08-02
 version: 0.5.0
 tags:
   [
+    "blog",
     "rust",
     "holochain",
     "ai-assisted-learning",

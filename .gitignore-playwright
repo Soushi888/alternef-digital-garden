@@ -1,0 +1,21 @@
+# Playwright test results and artifacts
+test-results/
+playwright-report/
+test-results.xml
+*.trace
+
+# Playwright screenshots and videos
+screenshots/
+videos/
+
+# Browser binaries
+/ms-playwright*
+
+# Test output files
+test-results/
+coverage/
+.nyc_output/
+
+# Temporary test files
+temp/
+test-temp/

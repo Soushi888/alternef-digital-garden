@@ -4,6 +4,7 @@ subtitle: "Reimagining Education, Community, and Consciousness Evolution"
 date: 2025-09-01
 draft: true
 tags:
+  - blog
   - alternef
   - vision
   - aquarian-age
