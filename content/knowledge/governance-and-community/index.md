@@ -45,6 +45,7 @@ This section explores the intricate dynamics of human organization, examining ho
 - [[sensorica|Sensorica]] - Pioneering OVN for open-source scientific instrumentation
 - [[cognicism|Cognicism]] - AI-augmented collective decision-making and belief tracking systems
 - [[digital-fabrics|Digital Fabrics]] - Decentralized coordination infrastructure enabling self-organizing, anti-fragile, commons-based coordination without platform intermediation
+- [[holoptism|Holoptism]] - P2P coordination processes enabling transparent access to participant information and project aims, fostering collective intelligence through horizontal and vertical transparency
 
 ### 5. Social Justice and Equity
 - Systemic inequality analysis
