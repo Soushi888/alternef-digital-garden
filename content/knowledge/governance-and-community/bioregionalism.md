@@ -1,8 +1,8 @@
 ---
-title: Bioregionalisme
+title: Bioregionalism
 description: A philosophy and practice of living within the natural boundaries and rhythms of one's local ecosystem
 tags:
-  - bioregionalisme
+  - bioregionalism
   - bioregion
   - place-based
   - ecological-governance
@@ -16,7 +16,6 @@ tags:
   - relocalization
 ---
 
-# Bioregionalisme
 
 ## Overview
 

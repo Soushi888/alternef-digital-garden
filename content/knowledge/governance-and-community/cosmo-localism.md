@@ -1,8 +1,8 @@
 ---
-title: Cosmo-localisme
+title: Cosmo-localism
 description: A framework for globally connected, locally rooted production and governance systems
 tags:
-  - cosmo-localisme
+  - cosmo-localism
   - glocal
   - distributed-governance
   - peer-to-peer
@@ -11,16 +11,15 @@ tags:
   - global-knowledge
   - agent-centric
   - holochain
-  - bioregionalisme
+  - bioregionalism
   - decentralization
   - open-source
 ---
 
-# Cosmo-localisme
 
 ## Overview
 
-Cosmo-localisme (Cosmopolitan Localism) represents a paradigm that combines global cooperation in knowledge sharing with local production and governance. It embodies the principle "design global, manufacture local" - where lightweight information travels globally while heavy materials stay local.
+Cosmo-localism (Cosmopolitan Localism) represents a paradigm that combines global cooperation in knowledge sharing with local production and governance. It embodies the principle "design global, manufacture local" - where lightweight information travels globally while heavy materials stay local.
 
 ## Core Principles
 

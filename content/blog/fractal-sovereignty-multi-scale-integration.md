@@ -49,9 +49,9 @@ Fractal sovereignty addresses these challenges by creating systems that are:
 
 ### The Promise in Practice
 
-Organizations like **Sensorica** are already implementing aspects of fractal sovereignty through:
-- **ValueFlows** networks that track contributions and value distribution across scales
-- **Holochain infrastructure** that maintains data sovereignty while enabling global coordination
+Organizations like **[Sensorica](https://www.sensorica.co)** are already implementing aspects of fractal sovereignty through:
+- **[ValueFlows](https://valueflo.ws)** networks that track contributions and value distribution across scales
+- **[Holochain](https://holochain.org)** infrastructure that maintains data sovereignty while enabling global coordination
 - **Community workshops** that access global design innovations while maintaining local control
 
 The result is an economic system where **local resilience**, **bioregional sustainability**, and **global knowledge sharing** reinforce each other to create expanding possibilities within ecological limits.
