@@ -4,7 +4,6 @@ date: "2025-09-12"
 author: "Soushi888"
 description: "Explorer l'évolution de Sensorica sur 15 ans, du développement matériel à la création de pionniers Réseaux de Valeur Ouverts qui permettent la gouvernance biorégionale, la production cosmo-locale, et l'intégration économique multi-échelle de l'hyper-local au global."
 tags: ["blog", "sensorica", "ovn", "réseaux-valeur-ouverts", "biorégionalisme", "cosmo-localisme", "hyper-localisme", "holochain", "valueflows", "pair-production", "économie-régénérative", "science-complexité", "nondominium"]
-draft: true
 ---
 
 ## Introduction
