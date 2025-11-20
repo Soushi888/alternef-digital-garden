@@ -9,8 +9,6 @@ tags:
   - participatory-democracy
 ---
 
-# Governance and Community
-
 This section explores the intricate dynamics of human organization, examining how communities form, govern themselves, and collaborate to address collective challenges and aspirations.
 
 ## Key Focus Areas
@@ -47,6 +45,13 @@ This section explores the intricate dynamics of human organization, examining ho
 - [[digital-fabrics|Digital Fabrics]] - Decentralized coordination infrastructure enabling self-organizing, anti-fragile, commons-based coordination without platform intermediation
 - [[holoptism|Holoptism]] - P2P coordination processes enabling transparent access to participant information and project aims, fostering collective intelligence through horizontal and vertical transparency
 
+### 7. Governance Principles and Frameworks
+- [[subsidiarity|Subsidiarity]] - Principle of allocating tasks and decisions to the most local level capable of handling them effectively
+- [[hyper-localism|Hyper-Localism]] - Philosophy of extreme decentralization prioritizing neighborhood and household-level autonomy
+- Democratic participation and citizen engagement
+- Multi-level governance and intergovernmental coordination
+- Decentralization and local autonomy frameworks
+
 ### 5. Social Justice and Equity
 - Systemic inequality analysis
 - Inclusive policy development
@@ -56,6 +61,7 @@ This section explores the intricate dynamics of human organization, examining ho
 ### 6. Place-Based Governance
 - [[cosmo-localisme|Cosmo-localisme]] - Global knowledge, local production
 - [[bioregionalisme|Bioregionalisme]] - Governance by natural boundaries
+- [[hyper-localism|Hyper-Localism]] - Extreme decentralization and governance at neighborhood and household scales
 - [[stewardship|Stewardship]] - Caretaker mindset for responsible management
 - Watershed councils and ecological democracy
 - Glocal approaches to resilience
