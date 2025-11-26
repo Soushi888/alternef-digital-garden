@@ -229,6 +229,10 @@ Organic architecture provides counterbalance to technology saturation:
 - **Retrofitting**: Applying organic principles to existing buildings
 - **Urban Scale**: Extending organic thinking to city planning
 
+### Modern Manifestations
+- **[[geodesic-domes|Geodesic Domes]]**: Contemporary expression of organic principles through efficient geometric design that works with natural forces rather than against them
+- **[[bioceramic-domes|Bioceramic Domes]]**: Revolutionary material innovation that embodies organic architecture's commitment to harmony between human habitation and natural systems through regenerative building materials
+
 ## Related Topics
 
 - [[knowledge/built-environment/index|Built Environment]] - Architectural design and human-made spaces

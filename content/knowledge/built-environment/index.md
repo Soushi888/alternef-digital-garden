@@ -21,6 +21,8 @@ This section examines the intricate relationship between human societies and the
 - Cultural and historical context of design
 - Human-centered spatial planning
 - [[organic-architecture|Organic Architecture]] - Harmony between buildings and natural systems
+- [[geodesic-domes|Geodesic Domes]] - Triangular geometry for maximum strength and efficiency
+- [[bioceramic-domes|Bioceramic Domes]] - Revolutionary regenerative housing technology
 
 ### 2. Urban Planning
 - City infrastructure development
@@ -34,6 +36,8 @@ This section examines the intricate relationship between human societies and the
 - Ecological design principles
 - Climate-responsive architecture
 - Regenerative design strategies
+- Bioceramic materials for sustainable construction
+- Energy-efficient geometric design principles
 
 ### 4. Technology and Infrastructure
 - Smart city technologies
