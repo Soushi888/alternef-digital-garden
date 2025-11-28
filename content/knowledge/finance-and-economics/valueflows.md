@@ -75,6 +75,87 @@ Valueflows is primarily a specification, not an application. It's expressed as:
 
 Projects like [[hrea|hREA (on Holochain)]] and Bonfire use Valueflows as their backbone, implementing it in real-world applications. It's designed to be platform-agnostic, so it can work with blockchain, [[what-is-holochain|Holochain]], or even centralized databases.
 
+## Semantic Web Integration
+
+Valueflows is fundamentally built on semantic web technologies, making it a perfect example of [[knowledge/tools-and-technology/web-and-internet-technologies/semantic-web/index|Semantic Web]] principles in action:
+
+### [[rdf|RDF Foundation]]
+Valueflows uses [[rdf|Resource Description Framework (RDF)]] as its core data model, representing economic data as interconnected triples:
+
+```turtle
+# Valueflows economic event in RDF
+@prefix vf: <http://www.valueflows.org/ontologies/vf#> .
+
+ex:HarvestEvent a vf:EconomicEvent ;
+    vf:action vf:produce ;
+    vf:resourceInventoriedAs ex:OrganicTomatoes ;
+    vf:provider ex:FarmerBob ;
+    vf:resourceQuantity [
+        vf:hasNumericalValue "50.0" ;
+        vf:hasUnit ex:Kilogram
+    ] ;
+    vf:hasPointInTime "2025-11-28T10:00:00Z" .
+```
+
+### [[json-ld|JSON-LD Serialization]]
+Valueflows data can be serialized in [[json-ld|JSON-LD]] for web-friendly APIs:
+
+```json
+{
+  "@context": {
+    "@vocab": "http://www.valueflows.org/ontologies/vf#",
+    "schema": "http://schema.org/"
+  },
+  "@type": "EconomicEvent",
+  "action": "produce",
+  "resourceInventoriedAs": "http://example.org/resources/organic-tomatoes",
+  "provider": {
+    "@type": "Person",
+    "name": "Bob Farmer"
+  },
+  "resourceQuantity": {
+    "hasNumericalValue": 50.0,
+    "hasUnit": "http://example.org/units/kilogram"
+  }
+}
+```
+
+### [[sparql|SPARQL Query Capabilities]]
+The RDF format enables powerful [[sparql|SPARQL]] queries for economic analysis:
+
+- **Supply Chain Tracing**: Query complete resource flows from producer to consumer
+- **Network Analysis**: Identify key economic relationships and network centrality
+- **Impact Assessment**: Calculate environmental and social impacts across supply chains
+- **Compliance Checking**: Validate adherence to economic agreements and commitments
+
+### [[shacl|Data Validation with SHACL]]
+[[shacl|SHACL constraints]] ensure economic data integrity:
+
+- **Business Rule Validation**: Ensure economic transactions follow defined rules
+- **Quantity Conservation**: Verify resource conservation in transfers and transformations
+- **Agent Capability Validation**: Confirm agents have required capabilities for economic activities
+- **Regulatory Compliance**: Check adherence to organic, fair trade, or other certifications
+
+### Benefits of Semantic Web Approach
+
+**Interoperability**: RDF's universal identifiers enable seamless data exchange between different economic platforms and tools.
+
+**Reasoning and Inference**: Semantic web technologies allow automatic discovery of implicit economic relationships and patterns.
+
+**Extensibility**: New economic concepts and relationships can be added without breaking existing systems.
+
+**Transparency**: The graph nature of RDF makes economic flows and relationships visible and traceable.
+
+**Cross-Platform Integration**: Different systems using Valueflows can automatically understand and process each other's economic data.
+
+### Integration with Garden Systems
+
+The semantic web foundation enables deep integration with other garden components:
+
+- **[[agent|Agent]] Identity**: Economic actors can be linked to broader [[agent|digital agent]] concepts and [[sovereign-identity|sovereign identity]] systems
+- **[[governance-and-community|Governance]]**: Economic data can be validated against [[hyper-localism|governance rules]] and compliance frameworks
+- **Environmental Data**: Economic activities can be connected to [[ecology|ecological data]] and [[sustainability|sustainability metrics]]
+
 ## Why It Matters
 
 Valueflows empowers communities, businesses, and developers to build economic systems that reflect their values—whether that's profit, mutual aid, or planetary health. By providing a flexible, interoperable framework, it's a stepping stone toward more equitable and sustainable ways of organizing resources and relationships.
@@ -87,4 +168,10 @@ In short, Valueflows is a universal language for describing how value moves thro
 - [[hrea]]
 - [[local-first-accountability]]
 - [[what-is-holochain]]
-- [[triple-bottom-line-accounting]] 
+- [[triple-bottom-line-accounting]]
+
+### Semantic Web Technologies
+- [[web-and-internet-technologies/semantic-web/index|Semantic Web Overview]] - Foundation for economic data representation
+- [[rdf|RDF]] - Core data model for Valueflows
+- [[sparql|SPARQL]] - Economic data analysis and querying
+- [[shacl|SHACL]] - Economic transaction validation

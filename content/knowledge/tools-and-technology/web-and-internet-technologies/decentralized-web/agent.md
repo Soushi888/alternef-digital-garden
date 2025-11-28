@@ -75,6 +75,128 @@ An Agent is a fundamental concept in decentralized and agent-centric computing s
 - Consent-based information sharing
 - Support for multiple communication languages
 
+## Semantic Web Identity Integration
+
+Agents gain enhanced capabilities through [[semantic-web/index|Semantic Web]] technologies, enabling rich, machine-understandable identity representations:
+
+### [[semantic-web/rdf|RDF-Based Identity Representation]]
+
+Using [[semantic-web/rdf|Resource Description Framework (RDF)]], agents can represent their identity as interconnected semantic data:
+
+```turtle
+# Agent identity in RDF
+@prefix agent: <http://example.org/agents/> .
+@prefix schema: <http://schema.org/> .
+@prefix vf: <http://www.valueflows.org/ontologies/vf#> .
+
+agent:alice a schema:Person, vf:Agent ;
+    schema:name "Alice Network Participant" ;
+    schema:email "alice@example.org" ;
+    vf:hasCapability agent:farmingCapability ;
+    vf:memberOf agent:communityCooperative ;
+    agent:hasReputation [
+        agent:trustScore 0.95 ;
+        agent:verificationLevel "verified" ;
+        agent:verifiedBy agent:trustedAuthority
+    ] .
+```
+
+### [[semantic-web/json-ld|JSON-LD Agent Profiles]]
+
+Agent profiles can be shared in [[semantic-web/json-ld|JSON-LD]] format for web-friendly integration:
+
+```json
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "vf": "http://www.valueflows.org/ontologies/vf#",
+    "solid": "http://www.w3.org/ns/solid/terms#"
+  },
+  "@id": "https://agents.example.org/alice",
+  "@type": ["Person", "Agent"],
+  "name": "Alice Network Participant",
+  "capability": [
+    "Organic Farming",
+    "Community Organization"
+  ],
+  "memberOf": "https://cooperative.example.org",
+  "publicTypeIndex": "https://alice.example.org/profile/typeIndex",
+  "reputation": {
+    "trustScore": 0.95,
+    "verificationLevel": "verified",
+    "endorsements": [
+      {
+        "endorsedBy": "https://authority.example.org",
+        "endorsementType": "organic-certification",
+        "validUntil": "2026-12-31"
+      }
+    ]
+  }
+}
+```
+
+### [[semantic-web/sparql|SPARQL Agent Discovery]]
+
+Agent capabilities and relationships can be discovered through [[semantic-web/sparql|SPARQL queries]]:
+
+```sparql
+# Find agents with specific capabilities
+PREFIX agent: <http://example.org/vocab/>
+PREFIX vf: <http://www.valueflows.org/ontologies/vf#>
+
+SELECT ?agent ?name ?capability ?reputation
+WHERE {
+  ?agent a vf:Agent ;
+         schema:name ?name ;
+         vf:hasCapability ?capability ;
+         agent:hasReputation ?reputation .
+
+  ?reputation agent:trustScore ?score .
+  FILTER (?capability = agent:organicFarming && ?score > 0.8)
+}
+```
+
+### [[semantic-web/shacl|Agent Validation with SHACL]]
+
+[[semantic-web/shacl|SHACL constraints]] ensure agent data quality and consistency:
+
+```turtle
+# Agent validation shape
+agent:AgentShape a sh:NodeShape ;
+    sh:targetClass vf:Agent ;
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:minLength 1 ;
+        sh:message "Agents must have a valid name" ;
+    ] ;
+    sh:property [
+        sh:path vf:hasCapability ;
+        sh:node agent:CapabilityShape ;
+        sh:minCount 1 ;
+        sh:message "Agents must have at least one capability" ;
+    ] .
+```
+
+### Cross-Platform Identity Portability
+
+Semantic web technologies enable agents to maintain consistent identity across different platforms:
+
+- **Persistent Identifiers**: RDF URIs provide unambiguous agent identification
+- **Portable Profiles**: JSON-LD context definitions work across different systems
+- **Capability Discovery**: SPARQL queries find agent capabilities across federated networks
+- **Reputation Systems**: Semantic validation ensures consistent trust scoring
+- **Interoperability**: Standard vocabularies enable cross-platform understanding
+
+### Integration with Garden Systems
+
+The semantic approach connects agents to broader garden concepts:
+
+- **[[valueflows|Valueflows]]**: Agents participate in economic networks with verifiable capabilities
+- **[[governance-and-community|Governance]]**: Agent roles and permissions validated against governance rules
+- **[[finance-and-economics|Economic Networks]]**: Agent reputation and history trackable across transactions
+- **[[land-and-nature|Environmental Data]]**: Agent responsibilities and impacts connected to ecological data
+
 ## Philosophical Implications
 
 ### Paradigm Shift

@@ -21,25 +21,32 @@ This section delves into the intricate world of web technologies, exploring the 
 - WebRTC and real-time communication
 - Internet communication standards
 
-### 2. Decentralized Web (DWeb)
+### 2. Semantic Web Technologies
+- [[knowledge/tools-and-technology/web-and-internet-technologies/semantic-web/index|Semantic Web Overview]] - Foundations and knowledge representation
+- [[rdf|RDF (Resource Description Framework)]] - Graph-based data modeling
+- [[json-ld|JSON-LD]] - Web developer integration and data serialization
+- [[sparql|SPARQL]] - Query language for semantic data
+- [[shacl|SHACL]] - Data validation and constraint systems
+
+### 3. Decentralized Web (DWeb)
 - Peer-to-peer networking
 - Blockchain and distributed technologies
 - Decentralized identity systems
 - Open-source web infrastructures
 
-### 3. Web Development Frameworks
+### 4. Web Development Frameworks
 - Frontend and backend technologies
 - Single-page applications (SPA)
 - Responsive and adaptive design
 - Performance optimization techniques
 
-### 4. Internet Governance
+### 5. Internet Governance
 - Web standards and organizations
 - Digital rights and accessibility
 - Internet neutrality
 - Global internet infrastructure
 
-### 5. Emerging Web Technologies
+### 6. Emerging Web Technologies
 - Progressive Web Apps (PWA)
 - WebAssembly
 - Edge computing
