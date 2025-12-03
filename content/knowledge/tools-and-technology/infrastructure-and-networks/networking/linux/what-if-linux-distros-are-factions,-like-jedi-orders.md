@@ -25,7 +25,7 @@ Let's imagine a scenario where [[linux|Linux]] distributions form factions simil
 3. **The Order of the Red Hat** ([[fedora|Fedora]]-based):
  **Symbol**: A crimson blade with a silver core
  **Philosophy**: Innovation, Community, Open Source Advocacy
- **Members**: Fedora, [[centosCentOS]] Stream, [[rhel|RHEL]]
+ **Members**: Fedora, CentOS Stream, [[rhel|RHEL]]
  **Description**: Emphasizing innovation and community involvement, this order pushes the boundaries of what's possible in the Linux world. They balance cutting-edge technology with practical application, always seeking to advance the cause of open source software.
 
 4. **The Order of the Functional Form** ([[nixos|NixOS]]-based):

@@ -15,7 +15,7 @@ Analyze and enhance existing digital garden content with AI-driven improvements 
 
 ## Arguments
 - `target` - Target content to improve: file path, folder pattern, or `all`
-- `--focus` - Improvement area: `structure`, `clarity`, `completeness`, `links`, `engagement`, `seo`, `all`
+- `--focus` - Improvement area: `structure`, `clarity`, `completeness`, `links`, `engagement`, `seo`, `frontmatter`, `all`
 - `--aggressiveness` - Change level: `conservative`, `moderate`, `ambitious` (default: moderate)
 - `--dry-run` - Preview improvements without applying changes
 - `--interactive` - Review each improvement before applying
@@ -30,9 +30,10 @@ Analyze and enhance existing digital garden content with AI-driven improvements 
 6. **Structure Refinement**: Optimize headings, lists, content flow, and organization
 7. **Clarity Enhancement**: Improve readability, explanations, and concept presentation
 8. **Completeness Analysis**: Add missing sections, examples, or context where needed
-9. **Playwright Validation**: Test improved content renders correctly and links function
-10. **Quality Assurance**: Verify improvements enhance rather than detract from content
-11. **Memory Creation**: Document successful improvement patterns for future application
+9. **Frontmatter Validation**: Analyze and validate YAML frontmatter metadata for completeness and correctness
+10. **Playwright Validation**: Test improved content renders correctly and links function
+11. **Quality Assurance**: Verify improvements enhance rather than detract from content
+12. **Memory Creation**: Document successful improvement patterns for future application
 
 ## Built-in Content Improvement Knowledge
 
@@ -101,6 +102,54 @@ Content Completeness:
     - Cross-domain references
     - Historical context
     - Future implications
+```
+
+#### Frontmatter Metadata Validation
+```yaml
+Frontmatter Completeness:
+  required_fields:
+    - title: Clear, descriptive title
+    - description: Concise summary for SEO and previews
+    - tags: Relevant categorization tags
+    - created: Publication date (ISO 8601)
+    - updated: Last modification date (ISO 8601)
+
+  optional_fields:
+    - author: Content creator attribution
+    - status: draft, review, published, archived
+    - type: article, tutorial, reference, note
+    - category: Primary topic classification
+    - difficulty: beginner, intermediate, advanced
+    - estimated_read_time: Reading time in minutes
+    - related_posts: Array of related content slugs
+    - aliases: Alternative URLs or titles
+    - featured: Boolean for highlighting
+    - image: Hero image or thumbnail path
+    - published: Publication status boolean
+    - weight: Content ordering weight
+    - series: Series or collection name
+    - part: Part number in series
+
+YAML Structure Validation:
+  proper_formatting:
+    - Valid YAML syntax
+    - Proper indentation (2 spaces)
+    - Quoted strings when needed
+    - Correct data types
+
+  data_integrity:
+    - Date format consistency (YYYY-MM-DD)
+    - Tag format standardization
+    - Array formatting consistency
+    - No orphaned or trailing commas
+    - Boolean values properly formatted
+
+content_alignment:
+  title_matches_content: Frontmatter title reflects actual H1
+  description_accuracy: Meta description matches content focus
+  tag_relevance: Tags accurately represent content themes
+  category_alignment: Category matches primary topic
+  difficulty_assessment: Difficulty level matches content complexity
 ```
 
 ### Improvement Strategies by Focus Area
@@ -236,6 +285,187 @@ Add to related content:
 - [[current-topic]] - [Brief context of relationship]
 ```
 
+#### Frontmatter Improvements
+```markdown
+# Frontmatter Enhancement Strategies
+
+## Missing Required Fields
+❌ Before:
+```yaml
+---
+title: "My Article"
+tags: ["tech"]
+---
+```
+
+✅ After:
+```yaml
+---
+title: "My Article"
+description: "A comprehensive guide to modern web development practices"
+tags: ["web-development", "javascript", "best-practices"]
+created: 2024-01-15
+updated: 2024-01-20
+---
+```
+
+## Inconsistent Date Formats
+❌ Before:
+```yaml
+---
+created: "Jan 15, 2024"
+updated: "2024/01/20"
+---
+```
+
+✅ After:
+```yaml
+---
+created: 2024-01-15
+updated: 2024-01-20
+---
+```
+
+## Non-standard Tag Formats
+❌ Before:
+```yaml
+---
+tags: "web development, javascript, tutorials"
+---
+```
+
+✅ After:
+```yaml
+---
+tags: ["web-development", "javascript", "tutorials"]
+---
+```
+
+## Missing Content-Type Classification
+❌ Before:
+```yaml
+---
+title: "Getting Started with React"
+tags: ["react", "javascript"]
+---
+```
+
+✅ After:
+```yaml
+---
+title: "Getting Started with React"
+description: "A beginner-friendly introduction to React fundamentals"
+tags: ["react", "javascript", "frontend", "beginner"]
+type: "tutorial"
+category: "frontend-development"
+difficulty: "beginner"
+estimated_read_time: 8
+created: 2024-01-15
+updated: 2024-01-20
+---
+```
+
+## Title-Content Mismatch
+❌ Before:
+```yaml
+---
+title: "Advanced TypeScript Patterns"
+description: "Basic introduction to TypeScript types"
+# Content is actually introductory level
+---
+```
+
+✅ After:
+```yaml
+---
+title: "Introduction to TypeScript Types"
+description: "Learn the fundamentals of TypeScript's type system"
+difficulty: "beginner"
+---
+```
+
+## Enhanced SEO Frontmatter
+❌ Before:
+```yaml
+---
+title: "API Design"
+tags: ["api"]
+---
+```
+
+✅ After:
+```yaml
+---
+title: "RESTful API Design: Best Practices and Patterns"
+description: "Comprehensive guide to designing scalable and maintainable REST APIs with examples"
+tags: ["api-design", "rest", "backend", "architecture", "best-practices"]
+category: "backend-development"
+type: "reference"
+difficulty: "intermediate"
+estimated_read_time: 12
+related_posts: ["microservices-architecture", "authentication-patterns"]
+featured: true
+image: "/images/api-design-hero.jpg"
+created: 2024-01-15
+updated: 2024-01-20
+---
+```
+
+## Series Content Organization
+❌ Before:
+```yaml
+---
+title: "React Hooks Part 1"
+---
+```
+
+✅ After:
+```yaml
+---
+title: "Understanding useState and useEffect"
+description: "First part in our comprehensive React Hooks series"
+series: "React Hooks Masterclass"
+part: 1
+tags: ["react", "hooks", "useState", "useEffect", "tutorial"]
+category: "frontend-development"
+type: "tutorial"
+related_posts: ["react-hooks-part2-usecontext", "react-hooks-part3-custom-hooks"]
+created: 2024-01-15
+updated: 2024-01-20
+---
+```
+
+## Content Quality Indicators
+Add comprehensive frontmatter that helps readers understand content scope and relevance:
+
+```yaml
+---
+title: "System Design Interview Guide"
+description: "Complete preparation guide for technical interviews covering system design principles"
+tags: ["system-design", "interviews", "architecture", "scalability"]
+category: "career-development"
+type: "reference"
+difficulty: "advanced"
+estimated_read_time: 25
+related_posts: ["data-structures-interview", "algorithms-interview", "technical-communication"]
+prerequisites: ["computer-science-fundamentals", "distributed-systems-basics"]
+learning_objectives:
+  - "Design scalable system architectures"
+  - "Explain trade-offs in system design"
+  - "Handle interview communication effectively"
+tools_covered:
+  - "Load balancing strategies"
+  - "Database design patterns"
+  - "Caching architectures"
+  - "Microservices communication"
+featured: true
+weight: 0.8
+created: 2024-01-15
+updated: 2024-01-22
+---
+```
+```
+
 ### Content Scoring System
 
 #### Quality Metrics (0-100 scale)
@@ -262,6 +492,12 @@ Engagement Score:
   example_relevance: 30 points
   visual_elements: 15 points
   conclusion_strength: 30 points
+
+Frontmatter Score:
+  required_fields: 30 points
+  optional_fields: 20 points
+  yaml_formatting: 25 points
+  content_alignment: 25 points
 ```
 
 #### Improvement Priority Matrix
@@ -271,6 +507,10 @@ High Impact, Low Effort:
 - Add missing section headers
 - Improve heading hierarchy
 - Define undefined technical terms
+- Fix missing required frontmatter fields
+- Standardize date formats in frontmatter
+- Convert tag strings to arrays
+- Fix YAML syntax errors
 
 High Impact, High Effort:
 - Add comprehensive examples
@@ -310,6 +550,12 @@ Links:
   - Add obvious related topic links
   - Ensure proper link formatting
 
+Frontmatter:
+  - Fix missing required fields only
+  - Correct YAML syntax errors
+  - Standardize date formats
+  - Fix invalid YAML structure
+
 Safety: 95% - Zero risk of degrading content
 ```
 
@@ -333,6 +579,14 @@ Links:
   - Optimize link context and descriptions
   - Connect to related domains
 
+Frontmatter:
+  - Add recommended optional fields
+  - Enhance descriptions for SEO
+  - Standardize tag formats and hierarchies
+  - Add content classification (type, difficulty, category)
+  - Include reading time estimates
+  - Add related content references
+
 Safety: 80% - High value improvements with minimal risk
 ```
 
@@ -355,6 +609,15 @@ Links:
   - Multi-level knowledge graph connections
   - Extensive cross-referencing
   - Advanced relationship mapping
+
+Frontmatter:
+  - Complete frontmatter overhaul with advanced fields
+  - Add comprehensive SEO metadata and structured data
+  - Implement series/collection organization
+  - Add prerequisite and learning objective fields
+  - Include tool/technology coverage metadata
+  - Add content quality indicators and weightings
+  - Implement advanced taxonomic categorization
 
 Safety: 60% - Maximum improvements with some content alteration risk
 ```
@@ -604,6 +867,205 @@ async function validateContentEnhancements(page, contentPath, enhancements) {
 }
 ```
 
+#### Frontmatter Validation Testing
+```javascript
+// Validate frontmatter metadata structure and content
+async function validateFrontmatter(page, contentPath) {
+  await page.goto(`http://localhost:8080/${contentPath}`);
+
+  // Extract page content to find and parse frontmatter
+  const pageContent = await page.$eval('body', el => el.textContent);
+
+  // Extract frontmatter from content
+  const frontmatterMatch = pageContent.match(/^---\n([\s\S]*?)\n---/);
+  let frontmatter = null;
+  let frontmatterErrors = [];
+  let frontmatterWarnings = [];
+  let frontmatterSuggestions = [];
+
+  if (!frontmatterMatch) {
+    return {
+      hasFrontmatter: false,
+      criticalError: "No frontmatter found",
+      errors: ["Content missing frontmatter section"],
+      warnings: [],
+      suggestions: ["Add frontmatter with title, description, tags, and dates"]
+    };
+  }
+
+  try {
+    // Basic YAML parsing (simplified - in production, use a proper YAML parser)
+    frontmatter = parseBasicYaml(frontmatterMatch[1]);
+  } catch (error) {
+    return {
+      hasFrontmatter: true,
+      parseError: true,
+      errors: [`Invalid YAML syntax: ${error.message}`],
+      warnings: [],
+      suggestions: ["Fix YAML syntax errors"]
+    };
+  }
+
+  // Validate required fields
+  const requiredFields = ['title', 'description', 'tags', 'created', 'updated'];
+  const missingRequired = requiredFields.filter(field => !frontmatter[field]);
+
+  if (missingRequired.length > 0) {
+    frontmatterErrors.push(`Missing required fields: ${missingRequired.join(', ')}`);
+  }
+
+  // Validate field formats
+  if (frontmatter.created && !isValidDate(frontmatter.created)) {
+    frontmatterErrors.push('Invalid created date format (use YYYY-MM-DD)');
+  }
+
+  if (frontmatter.updated && !isValidDate(frontmatter.updated)) {
+    frontmatterErrors.push('Invalid updated date format (use YYYY-MM-DD)');
+  }
+
+  if (frontmatter.tags) {
+    if (typeof frontmatter.tags === 'string') {
+      frontmatterSuggestions.push('Convert tags from string to array format');
+    } else if (Array.isArray(frontmatter.tags)) {
+      const invalidTags = frontmatter.tags.filter(tag =>
+        typeof tag !== 'string' || tag.includes(' ') || tag.length === 0
+      );
+      if (invalidTags.length > 0) {
+        frontmatterWarnings.push('Some tags have formatting issues (use lowercase, hyphens instead of spaces)');
+      }
+    }
+  }
+
+  // Validate title matches H1
+  const h1Text = await page.$eval('h1', el => el.textContent.trim()).catch(() => null);
+  if (h1Text && frontmatter.title && h1Text !== frontmatter.title) {
+    frontmatterWarnings.push(`Title mismatch: frontmatter "${frontmatter.title}" vs H1 "${h1Text}"`);
+  }
+
+  // Suggest optional fields
+  const recommendedFields = ['type', 'category', 'difficulty', 'estimated_read_time'];
+  const missingRecommended = recommendedFields.filter(field => !frontmatter[field]);
+
+  if (missingRecommended.length > 0) {
+    frontmatterSuggestions.push(`Consider adding: ${missingRecommended.join(', ')}`);
+  }
+
+  // Check description length
+  if (frontmatter.description) {
+    if (frontmatter.description.length < 50) {
+      frontmatterWarnings.push('Description too short for effective SEO');
+    } else if (frontmatter.description.length > 200) {
+      frontmatterWarnings.push('Description too long for optimal display');
+    }
+  }
+
+  return {
+    hasFrontmatter: true,
+    isValid: frontmatterErrors.length === 0,
+    errors: frontmatterErrors,
+    warnings: frontmatterWarnings,
+    suggestions: frontmatterSuggestions,
+    completeness: {
+      requiredFields: requiredFields.length - missingRequired.length,
+      recommendedFields: recommendedFields.length - missingRecommended.length,
+      totalFields: Object.keys(frontmatter).length
+    }
+  };
+}
+
+// Helper function for basic YAML parsing
+function parseBasicYaml(yamlText) {
+  const lines = yamlText.split('\n');
+  const result = {};
+
+  for (const line of lines) {
+    if (line.trim() === '' || line.trim().startsWith('#')) continue;
+
+    const match = line.match(/^(\w+):\s*(.+)$/);
+    if (match) {
+      const [, key, value] = match;
+      result[key] = parseYamlValue(value.trim());
+    }
+  }
+
+  return result;
+}
+
+// Parse YAML values (basic implementation)
+function parseYamlValue(value) {
+  // Handle quoted strings
+  if ((value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))) {
+    return value.slice(1, -1);
+  }
+
+  // Handle arrays
+  if (value.startsWith('[') && value.endsWith(']')) {
+    return value.slice(1, -1).split(',').map(item => {
+      const trimmed = item.trim();
+      return parseYamlValue(trimmed.replace(/['"]/g, ''));
+    });
+  }
+
+  // Handle booleans
+  if (value === 'true') return true;
+  if (value === 'false') return false;
+
+  // Handle numbers
+  if (/^\d+$/.test(value)) return parseInt(value);
+  if (/^\d+\.\d+$/.test(value)) return parseFloat(value);
+
+  // Default to string
+  return value;
+}
+
+// Validate date format (YYYY-MM-DD)
+function isValidDate(dateString) {
+  const isoDateRegex = /^\d{4}-\d{2}-\d{2}$/;
+  if (!isoDateRegex.test(dateString)) return false;
+
+  const date = new Date(dateString);
+  return date instanceof Date && !isNaN(date);
+}
+
+// Comprehensive frontmatter quality scoring
+function scoreFrontmatter(frontmatterData) {
+  let score = 0;
+  const maxScore = 100;
+
+  // Required fields (40 points)
+  const requiredFields = ['title', 'description', 'tags', 'created', 'updated'];
+  const presentRequired = requiredFields.filter(field => frontmatterData[field]).length;
+  score += (presentRequired / requiredFields.length) * 40;
+
+  // Optional fields (20 points)
+  const optionalFields = ['type', 'category', 'difficulty', 'estimated_read_time', 'author'];
+  const presentOptional = optionalFields.filter(field => frontmatterData[field]).length;
+  score += (presentOptional / optionalFields.length) * 20;
+
+  // Format quality (25 points)
+  let formatScore = 25;
+  if (frontmatterData.created && !isValidDate(frontmatterData.created)) formatScore -= 10;
+  if (frontmatterData.updated && !isValidDate(frontmatterData.updated)) formatScore -= 10;
+  if (frontmatterData.tags && typeof frontmatterData.tags === 'string') formatScore -= 5;
+  score += Math.max(0, formatScore);
+
+  // Content alignment (15 points)
+  let alignmentScore = 15;
+  if (frontmatterData.description) {
+    if (frontmatterData.description.length < 50) alignmentScore -= 5;
+    if (frontmatterData.description.length > 200) alignmentScore -= 5;
+  }
+  score += Math.max(0, alignmentScore);
+
+  return {
+    score: Math.round(score),
+    maxScore,
+    grade: score >= 90 ? 'A' : score >= 80 ? 'B' : score >= 70 ? 'C' : score >= 60 ? 'D' : 'F'
+  };
+}
+```
+
 ### Content Improvement Templates
 
 #### Structure Improvement Templates
@@ -688,9 +1150,11 @@ async function validateContentEnhancements(page, contentPath, enhancements) {
 - **Quality Analysis**: Built-in content quality assessment across multiple dimensions
 - **Structure Intelligence**: Deep understanding of optimal content organization and flow
 - **Link Enhancement**: Strategic internal link creation for knowledge graph integration
+- **Frontmatter Validation**: Comprehensive YAML metadata validation with format checking and content alignment
 - **Playwright Validation**: Real-time testing of improved content and functionality
 - **Aggressive Safety**: Multi-level aggressiveness settings with appropriate safety checks
 - **Domain Expertise**: Specialized improvement patterns for different content types
 - **Memory Preservation**: Documents successful improvement techniques for consistency
 - **Interactive Enhancement**: Optional review process for selective improvement application
 - **Comprehensive Testing**: Validates improvements enhance rather than detract from content
+- **SEO Optimization**: Enhanced frontmatter metadata for better search engine visibility and content discovery

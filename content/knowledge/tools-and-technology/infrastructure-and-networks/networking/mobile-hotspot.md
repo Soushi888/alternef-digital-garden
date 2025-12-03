@@ -1,9 +1,10 @@
 ---
-aliases: 
-tags:
-  - networking
-related pages:
-  - "[[Networking]]"
+title: "Mobile Hotspot"
+aliases: ["Mobile Wi-Fi", "Portable Hotspot", "Cellular Hotspot", "Tethering"]
+tags: [tools-and-technology, networking, wireless, mobile, cellular, tethering, internet-sharing]
+created: 2025-12-02
+modified: 2025-12-02
+draft: false
 ---
 ## What is a Mobile Hotspot?
 

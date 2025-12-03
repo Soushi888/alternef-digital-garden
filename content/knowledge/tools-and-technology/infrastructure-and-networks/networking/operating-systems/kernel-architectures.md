@@ -21,13 +21,13 @@ A kernel is the core component of an operating system that manages system resour
 ## 1. The Monolithic Kernel
 
 ### Overview
-The monolithic kernel is the traditional and most prevalent architecture, used by operating systems like [[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux|Linux]], most versions of Windows, and macOS.
+The monolithic kernel is the traditional and most prevalent architecture, used by operating systems like [[linux/linux|Linux]], most versions of Windows, and macOS.
 
 ### Core Philosophy
 **Put everything in one place.** All the core OS services—process scheduling, memory management, device drivers, file systems, networking stacks—run in a single, large, privileged address space known as kernel space.
 
 ### How It Works
-When an application needs to read a file, it makes a [[system-call]]. The CPU switches from user mode to kernel mode, and the kernel code for the file system and the storage driver executes directly in the kernel to fulfill the request. It's all one big program.
+When an application needs to read a file, it makes a **system call**. The CPU switches from user mode to kernel mode, and the kernel code for the file system and the storage driver executes directly in the kernel to fulfill the request. It's all one big program.
 
 ### Advantages
 - **High Performance**: Because all components are in the same address space, communication between them is just a simple function call, which is extremely fast. There's no overhead from passing messages between different processes.

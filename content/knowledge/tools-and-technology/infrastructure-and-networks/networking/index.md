@@ -25,6 +25,9 @@ Internet Protocol addressing schemes, IPv4, IPv6, subnetting, and network identi
 ### [[tcp-ip|TCP/IP Protocol Suite]]
 The foundational protocol stack that powers internet communication, including TCP, UDP, and related protocols.
 
+### [[dhcp-server|DHCP Server]]
+Dynamic Host Configuration Protocol for automatic IP address assignment and network configuration management.
+
 ### [[user-datagram-protocol|UDP Protocol]]
 Connectionless communication protocol for low-latency applications and real-time systems.
 
@@ -124,7 +127,7 @@ Cloud service models, deployment strategies, and modern cloud infrastructure pat
 Start with [[networking|networking fundamentals]] and [[ip-address|IP addressing]] to understand basic concepts.
 
 ### 2. **Protocol Understanding**
-Learn [[tcp-ip|TCP/IP]], [[user-datagram-protocol|UDP]], and [[simple-mail-transfer-protocol|SMTP]] for core protocols.
+Learn [[tcp-ip|TCP/IP]], [[dhcp-server|DHCP]], [[user-datagram-protocol|UDP]], and [[simple-mail-transfer-protocol|SMTP]] for core protocols.
 
 ### 3. **Distributed Systems**
 Explore [[distributed-systems/index|distributed systems]] concepts, starting with consensus and coordination.

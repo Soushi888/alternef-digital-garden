@@ -1,8 +1,10 @@
 ---
-aliases: 
-tags: 
-related pages:
-  - "[[Networking]]"
+title: "LoRa (Long Range) Technology"
+aliases: ["LoRa", "Long Range", "LoRaWAN Physical Layer"]
+tags: [tools-and-technology, networking, wireless, iot, low-power-wide-area-network]
+created: 2025-12-02
+modified: 2025-12-02
+draft: false
 ---
 LoRa (Long Range) is a wireless communication technology designed for low-power, long-range applications. Here's a breakdown of what LoRa is and how it works:
 

@@ -1,8 +1,10 @@
 ---
-aliases: 
-tags: 
-related pages:
-  - "[[Networking]]"
+title: "LoRaWAN Protocol"
+aliases: ["LoRaWAN", "Long Range Wide Area Network", "LPWAN"]
+tags: [tools-and-technology, networking, wireless, iot, low-power-wide-area-network, protocol]
+created: 2025-12-02
+modified: 2025-12-02
+draft: false
 ---
 LoRaWAN is a low-power wide-area networking (LPWAN) protocol designed for connecting battery-operated devices to the internet in regional, national or global networks. Here are the key points about LoRaWAN:
 
