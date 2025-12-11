@@ -29,17 +29,25 @@ Investigating databases, data structures, data modeling, and modern storage solu
 
 Examining web protocols, decentralized web technologies, web development frameworks, and internet standards.
 
-### 5. [[knowledge/tools-and-technology/security-and-privacy/index|Security and Privacy]]
+### 5. [[knowledge/tools-and-technology/mathematics/index|Mathematics]]
+
+Exploring mathematical foundations and concepts that underpin technological innovation, including number theory, geometry, and applied mathematics.
+
+- **[[knowledge/tools-and-technology/mathematics/perez-hourglass|Perez Hourglass]]** - Mathematical structure with technological applications
+- **[[knowledge/tools-and-technology/mathematics/golden-ratio|Golden Ratio]]** - Mathematical patterns in technology and nature
+- **[[knowledge/tools-and-technology/mathematics/fractals|Fractals]]** - Self-similar patterns in computation and design
+
+### 6. [[knowledge/tools-and-technology/security-and-privacy/index|Security and Privacy]]
 
 Focusing on cryptography, network security, authentication systems, and privacy-enhancing technologies.
 
-### 6. [[knowledge/tools-and-technology/specialized-technologies/index|Specialized Technologies]]
+### 7. [[knowledge/tools-and-technology/specialized-technologies/index|Specialized Technologies]]
 
 Exploring cutting-edge fields like artificial intelligence, geographic information systems, and game development.
 
 - **[[sensorica|Sensorica]]** - Open-source IoT sensors and scientific instrumentation
 
-### 7. [[knowledge/tools-and-technology/tools-and-platforms/index|Tools and Platforms]]
+### 8. [[knowledge/tools-and-technology/tools-and-platforms/index|Tools and Platforms]]
 
 Analyzing development tools, content management systems, low-code platforms, and digital productivity ecosystems.
 

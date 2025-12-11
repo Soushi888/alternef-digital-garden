@@ -46,6 +46,7 @@ This section delves into specialized technological domains, exploring innovative
 - Neuromorphic engineering
 - Edge and distributed computing
 - Biomimetic technologies
+- **Mathematical Foundations**: See [[knowledge/tools-and-technology/mathematics/index|Mathematics]] for mathematical structures like the [[knowledge/tools-and-technology/mathematics/perez-hourglass|Perez Hourglass]] with applications in quantum computing and AI memory
 
 ## Guiding Principles
 - Technological innovation
