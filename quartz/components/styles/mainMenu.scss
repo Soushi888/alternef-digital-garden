@@ -6,7 +6,7 @@
       transform: translateX(0);
       transition: transform 300ms ease-in-out;
     }
-    
+
     &.lock-scroll > :not(.sidebar.left:has(.main-menu-nav)) {
       transform: translateX(100dvw);
       transition: transform 300ms ease-in-out;
@@ -52,8 +52,8 @@
   border-radius: 4px;
   cursor: pointer;
   padding: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
   @media all and (max-width: 768px) {
     display: block;
   }
@@ -99,11 +99,23 @@
   font-size: 0.95rem;
   transition: transform 0.3s ease;
   z-index: 100;
-  
+
   @media all and (max-width: 768px) {
+    position: fixed;
+    height: 100vh;
+    width: 80%;
+    max-width: 300px;
+    transform: translateX(-100%);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    padding-top: 4rem;
+    left: 0;
+    top: 0;
+
     /* Scrollbar styles */
-    scrollbar-width: thin;
-    scrollbar-color: var(--lightgray) transparent;
+    & {
+      scrollbar-width: thin;
+      scrollbar-color: var(--lightgray) transparent;
+    }
 
     &::-webkit-scrollbar {
       width: 6px;
@@ -116,21 +128,7 @@
     &::-webkit-scrollbar-thumb {
       background-color: var(--lightgray);
     }
-
-    position: fixed;
-    height: 100vh;
-    width: 80%;
-    max-width: 300px;
-    transform: translateX(-100%);
-    box-shadow: 2px 0 8px rgba(0,0,0,0.1);
-    padding-top: 4rem;
-    left: 0;
-    top: 0;
   }
-
-  /* For Firefox */
-  scrollbar-width: thin;
-  scrollbar-color: var(--lightgray) transparent;
 
   /* For Chrome/Safari/Edge */
   &::-webkit-scrollbar {
@@ -190,7 +188,7 @@
 
 .main-menu {
   margin-bottom: 0;
-  
+
   & + .knowledge-base {
     margin-top: 2rem;
   }
