@@ -1,7 +1,39 @@
+---
+title: "AlterNef Digital Garden: Vision-Centered Design Document"
+subtitle: "A Comprehensive Design Framework for Effective Knowledge Sharing and Vision Communication"
+date: 2025-01-16
+tags:
+  - alternef
+  - design
+  - digital-garden
+  - vision
+  - quartz
+  - user-experience
+  - information-architecture
+  - mockup-design
+  - community-building
+  - frontend-design
+  - content-strategy
+  - implementation-roadmap
+categories:
+  - Design Documents
+  - Project Documentation
+  - Vision Planning
+  - Implementation Guides
+description: "A comprehensive design framework for transforming the AlterNef Digital Garden into a powerful vision-sharing platform, with actionable design recommendations for enhanced user experience and community engagement."
+author: "Soushi888"
+type: "design-document"
+status: "ready-for-implementation"
+priority: "high"
+created: 2025-01-16
+modified: 2025-01-16
+version: "1.0"
+audience: ["designers", "developers", "community-builders", "project-leads"]
+estimated-read-time: 25
+---
+
 # AlterNef Digital Garden: Vision-Centered Design Document
 *A Comprehensive Design Framework for Effective Knowledge Sharing and Vision Communication*
-
----
 
 ## Executive Summary
 
@@ -193,7 +225,7 @@ The AlterNef Vision
 Current Foundations
 ├── 🔗 Requests & Offers (Community hAppenings)
 ├── 🔄 Nondominium (Post-property resource sharing)
-├── 🧠 WebInsight OS (AI-powered learning)
+├── 🧠 P2P AI Infrastructure (Distributed learning intelligence)
 └── 🌿 This Digital Garden (Meta-project)
 ```
 
@@ -443,7 +475,7 @@ Left Sidebar (existing navigation)
    priority: "high" # For homepage featuring
    pathways: ["technical", "philosophical", "collaborative"]
    engagement_level: "introduction" # introduction, deep_dive, expert
-   related_projects: ["requests-offers", "nondominium", "webinsight"]
+   related_projects: ["requests-offers", "nondominium", "p2p-ai"]
    ---
    ```
 
@@ -678,10 +710,3 @@ This design document positions the digital garden as a living testament to the A
 The garden itself becomes part of the "ship of alternatives" - a practical demonstration that alternative ways of organizing information, building community, and sharing vision are not only possible but more effective than traditional approaches.
 
 *"The best way to predict the future is to create it. The AlterNef Digital Garden is both prediction and creation, vision and implementation, dream and practical step toward a more beautiful world."*
-
----
-
-**Document Version**: 1.0
-**Created**: January 2025
-**Next Review**: After initial mockup development
-**Status**: Ready for Nano Banana implementation

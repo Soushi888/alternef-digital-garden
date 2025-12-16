@@ -2,7 +2,6 @@
 title: "The AlterNef: A Vision for the Aquarian Age"
 subtitle: "From Flying Universal City to Present-Day Foundations"
 date: 2025-08-22
-draft: true
 tags:
   - alternef
   - vision
@@ -117,19 +116,21 @@ A revolutionary learning companion powered by AI that provides:
 - Embedded governance for access and transfer rules
 - Post-ownership economic models perfect for alternative communities
 
-**3. WebInsight OS**
-- Standalone platform for AI-powered content intelligence
-- Letta framework providing stateful agents with persistent memory
-- Cross-application intelligence sharing
-- Foundation technology for the IDI system
+**3. P2P AI Infrastructure**
+- Distributed artificial intelligence networks operating without centralized control
+- Stateful AI agents with persistent memory and learning capabilities across peer networks
+- Shared intelligence and cognitive resources flowing through decentralized protocols
+- Privacy-preserving machine learning where models learn from distributed data without centralization
+- Resilient AI systems that continue functioning even when parts of the network go offline
+- Foundation technology for the IDI system's personalized learning and community orchestration
 
 ### Integration Vision
 These three systems form a technological trinity:
-- **WebInsight OS**: Provides the cognitive infrastructure and learning intelligence
+- **P2P AI Infrastructure**: Provides the distributed cognitive infrastructure and learning intelligence
 - **Requests & Offers**: Facilitates peer-to-peer exchange of knowledge, skills, and resources
 - **Nondominium**: Enables post-ownership governance and resource management
 
-Together, they create the technological nervous system for conscious evolution and distributed learning communities.
+Together, they create the technological nervous system for conscious evolution and distributed learning communities, where intelligence itself becomes a peer-to-peer resource rather than a centralized service.
 
 ---
 

@@ -2,7 +2,6 @@
 title: "L'AlterNef : Une Vision pour l'Ère du Verseau"
 subtitle: "De la Cité Universelle Volante aux Fondations d'Aujourd'hui"
 date: 2025-08-22
-draft: true
 tags:
   - alternef
   - vision
@@ -117,19 +116,21 @@ Un compagnon d'apprentissage révolutionnaire alimenté par l'IA qui fournit :
 - Gouvernance intégrée pour les règles d'accès et de transfert
 - Modèles économiques post-propriété parfaits pour les communautés alternatives
 
-**3. WebInsight OS**
-- Plateforme autonome pour l'intelligence de contenu alimentée par l'IA
-- Framework Letta fournissant des agents avec état et mémoire persistante
-- Partage d'intelligence inter-applications
-- Technologie de base pour le système IDI
+**3. Infrastructure IA P2P**
+- Réseaux d'intelligence artificielle distribuée fonctionnant sans contrôle centralisé
+- Agents IA avec état et mémoire persistante à travers les réseaux pairs
+- Intelligence partagée et ressources cognitives circulant via protocoles décentralisés
+- Apprentissage automatique préservant la vie privée où les modèles apprennent de données distribuées sans centralisation
+- Systèmes IA résilients qui continuent de fonctionner même lorsque des parties du réseau sont hors ligne
+- Technologie de base pour le système IDI et son apprentissage personnalisé
 
 ### Vision d'Intégration
 Ces trois systèmes forment une trinité technologique :
-- **WebInsight OS** : Fournit l'infrastructure cognitive et l'intelligence d'apprentissage
+- **Infrastructure IA P2P** : Fournit l'infrastructure cognitive distribuée et l'intelligence d'apprentissage
 - **Demandes & Offres** : Facilite l'échange pair-à-pair de connaissances, compétences et ressources
 - **Nondominium** : Permet la gouvernance post-propriété et la gestion des ressources
 
-Ensemble, ils créent le système nerveux technologique pour l'évolution consciente et les communautés d'apprentissage distribué.
+Ensemble, ils créent le système nerveux technologique pour l'évolution consciente et les communautés d'apprentissage distribué, où l'intelligence elle-même devient une ressource pair-à-pair plutôt qu'un service centralisé.
 
 ---
 
