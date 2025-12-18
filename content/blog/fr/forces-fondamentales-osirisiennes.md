@@ -11,6 +11,10 @@ created: 2025-12-18
 
 Les anciens Égyptiens n'avaient ni microscopes ni accélérateurs de particules, pourtant leur cosmologie semble avoir capturé une vérité fondamentale sur la nature de la réalité. Le mythe d'Osiris, Isis, Set et Horus ne serait-il pas une description poétique des forces mêmes qui gouvernent la matière ?
 
+<center>
+    <img src="myth-osiris-natural-forces.jpg" alt="Myth of Osiris and Natural Forces" width="50%" />
+</center>
+
 ## Les Quatre Forces de la Matière
 
 Avant d'explorer les correspondances mythologiques, rappelons brièvement ces quatre aspects fondamentaux :

@@ -9,6 +9,10 @@ created: 2025-12-18
 
 The ancient Egyptians had neither microscopes nor particle accelerators, yet their cosmology seems to have captured a fundamental truth about the nature of reality. Could the myth of Osiris, Isis, Set, and Horus be a poetic description of the very forces that govern matter?
 
+<center>
+    <img src="myth-osiris-natural-forces.jpg" alt="Myth of Osiris and Natural Forces" width="50%" />
+</center>
+
 ## The Four Forces of Matter
 
 Before exploring mythological correspondences, let us briefly recall these four fundamental aspects:
@@ -95,6 +99,8 @@ Osiris is perhaps not "just a myth" and attraction is perhaps not "just a physic
 
 The medieval Alexandrian alchemists, direct heirs of this dual tradition, probably knew this. When they invoked Osiris in their rituals while distilling their substances, they did not separate the spiritual from the material. They recognized that the same laws govern all levels of reality.
 
-Perhaps the next time you see a water droplet beading on a leaf, or salt dissolving in your tea, you will recognize the echo of a five-thousand-year-old myth - and you will realize that the boundary between science and myth, between physics and cosmology, is much more porous than we thought.
+---
 
-For Osiris is never dead. He lives in every atom that unites with its neighbor, in every molecule that maintains its form, in every grain of matter that composes this ever-becoming cosmos.
+*Perhaps the next time you see a water droplet beading on a leaf, or salt dissolving in your tea, you will recognize the echo of a five-thousand-year-old myth - and you will realize that the boundary between science and myth, between physics and cosmology, is much more porous than we thought.*
+
+*For Osiris is never dead. He lives in every atom that unites with its neighbor, in every molecule that maintains its form, in every grain of matter that composes this ever-becoming cosmos.*
