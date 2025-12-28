@@ -48,6 +48,7 @@ This section explores the intricate dynamics of human organization, examining ho
 ### 7. Governance Principles and Frameworks
 - [[subsidiarity|Subsidiarity]] - Principle of allocating tasks and decisions to the most local level capable of handling them effectively
 - [[hyper-localism|Hyper-Localism]] - Philosophy of extreme decentralization prioritizing neighborhood and household-level autonomy
+- [[sociocracy-3|Sociocracy 3.0]] - Open-source social technology for agile, effective collaboration through consent-based governance and continuous improvement
 - Democratic participation and citizen engagement
 - Multi-level governance and intergovernmental coordination
 - Decentralization and local autonomy frameworks
@@ -59,8 +60,8 @@ This section explores the intricate dynamics of human organization, examining ho
 - Intersectional approaches to social change
 
 ### 6. Place-Based Governance
-- [[cosmo-localisme|Cosmo-localisme]] - Global knowledge, local production
-- [[bioregionalisme|Bioregionalisme]] - Governance by natural boundaries
+- [[cosmo-localism|Cosmo-localism]] - Global knowledge, local production
+- [[bioregionalism|Bioregionalism]] - Governance by natural boundaries
 - [[hyper-localism|Hyper-Localism]] - Extreme decentralization and governance at neighborhood and household scales
 - [[stewardship|Stewardship]] - Caretaker mindset for responsible management
 - Watershed councils and ecological democracy
