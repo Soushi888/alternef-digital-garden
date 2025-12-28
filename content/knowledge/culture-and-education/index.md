@@ -38,6 +38,7 @@ This section explores the intricate relationship between culture, education, and
 - Critical thinking and epistemology
 - [[hermeneutics|Hermeneutics]] - Theory and methodology of interpretation
 - [[teleology|Teleology]] - Philosophical study of purpose and final causes
+- [[philosophia-perennis|Philosophia Perennis]] - Perennial philosophy and universal wisdom across traditions
 - [[multi-scale-competency-architecture|Multi-Scale Competency Architecture]] - Hierarchical organization of problem-solving across biological scales
 
 ### 5. Social and Emotional Learning
