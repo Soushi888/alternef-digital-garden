@@ -142,6 +142,7 @@ For those interested in Western esotericism:
 - [[philosophia-perennis|Philosophia Perennis]]: Universal wisdom across traditions
 - [[hermeneutics|Hermeneutics]]: Theory of interpretation and textual understanding
 - [[teleology|Teleology]]: Philosophical study of purpose and design
+- [[four-freedoms|The Four Freedoms]]: How *liber* (free) manifests across interior, vocational, social, and material dimensions
 
 ## Further Reading
 

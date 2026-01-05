@@ -44,6 +44,8 @@ This section explores the intricate relationship between culture, education, and
 - [[trivium|Trivium]] - The three language arts: Grammar, Logic, and Rhetoric
 - [[quadrivium|Quadrivium]] - The four mathematical arts: Arithmetic, Geometry, Music, and Astronomy
 - [[ikigai|Ikigai]] - Japanese concept of life purpose and meaning-making
+- [[four-freedoms|Four Freedoms]] - Interior, vocational, social, and material dimensions of freedom
+- [[liberal-professions|Liberal Professions]] - Intellectual and service-based professions with specialized qualifications
 
 ### 5. Social and Emotional Learning
 - Emotional intelligence development
