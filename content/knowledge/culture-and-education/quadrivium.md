@@ -16,14 +16,14 @@ tags:
   - music-theory
   - pythagorean
   - platonism
-created: 2025-01-05
-modified: 2025-01-05
+created: 2026-01-05
+modified: 2026-01-05
 draft: false
 ---
 
 # The Quadrivium: The Four Mathematical Arts
 
-The **Quadrivium** represents the four mathematical liberal arts that formed the upper division of the classical [[seven-liberal-arts|Seven Liberal Arts]] in medieval European education. Where the [[trivium|Trivium]] (grammar, logic, rhetoric) trained the mind in language and reasoning, the Quadrivium trained it in the perception of cosmic order through number and proportion.
+The **Quadrivium** represents the four mathematical liberal arts that formed the upper division of the classical [[liberal-arts|Seven Liberal Arts]] in medieval European education. Where the [[trivium|Trivium]] (grammar, logic, rhetoric) trained the mind in language and reasoning, the Quadrivium trained it in the perception of cosmic order through number and proportion.
 
 The term *quadrivium* means "the place where four roads meet," symbolizing the convergence of mathematical understanding that leads from the foundational Trivium toward philosophical wisdom.
 
@@ -290,7 +290,7 @@ The same proportional relationships studied academically appear in:
 
 ## Related Topics
 
-- [[seven-liberal-arts|Seven Liberal Arts]]: Overview of the complete curriculum
+- [[liberal-arts|Seven Liberal Arts]]: Overview of the complete curriculum
 - [[trivium|The Trivium]]: The three foundational language arts
 - [[philosophia-perennis|Philosophia Perennis]]: Universal wisdom accessible through reason
 - [[teleology|Teleology]]: Purpose and design in cosmic order

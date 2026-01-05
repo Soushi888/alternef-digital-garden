@@ -14,14 +14,14 @@ tags:
   - logic
   - grammar
   - critical-thinking
-created: 2025-01-05
-modified: 2025-01-05
+created: 2026-01-05
+modified: 2026-01-05
 draft: false
 ---
 
 # The Trivium: The Three Language Arts
 
-The **Trivium**—comprising Grammar, Logic (or Dialectic), and Rhetoric—constituted the foundational stage of classical and medieval education, focusing on language, reasoning, and expression. Together with the [[quadrivium|Quadrivium]], it forms the complete [[seven-liberal-arts|Seven Liberal Arts]] curriculum.
+The **Trivium**—comprising Grammar, Logic (or Dialectic), and Rhetoric—constituted the foundational stage of classical and medieval education, focusing on language, reasoning, and expression. Together with the [[quadrivium|Quadrivium]], it forms the complete [[liberal-arts|Seven Liberal Arts]] curriculum.
 
 The term *trivium* derives from Latin, meaning "the place where three roads meet," symbolizing the convergence of language, thought, and communication that forms the foundation of all liberal learning.
 
@@ -273,7 +273,7 @@ The complete liberal arts progression:
 
 ## Related Topics
 
-- [[seven-liberal-arts|Seven Liberal Arts]]: Overview of the complete curriculum
+- [[liberal-arts|Seven Liberal Arts]]: Overview of the complete curriculum
 - [[quadrivium|The Quadrivium]]: The four mathematical arts
 - [[philosophia-perennis|Philosophia Perennis]]: Universal wisdom traditions
 - [[hermeneutics|Hermeneutics]]: Theory of interpretation and textual understanding
