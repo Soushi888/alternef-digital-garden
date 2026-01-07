@@ -169,6 +169,7 @@ In short, Valueflows is a universal language for describing how value moves thro
 - [[local-first-accountability]]
 - [[what-is-holochain]]
 - [[triple-bottom-line-accounting]]
+- [[accounting-systems|Accounting Systems: Single vs Double Entry]]
 
 ### Semantic Web Technologies
 - [[web-and-internet-technologies/semantic-web/index|Semantic Web Overview]] - Foundation for economic data representation

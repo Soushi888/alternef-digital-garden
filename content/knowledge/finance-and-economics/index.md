@@ -32,8 +32,8 @@ This section delves into the complex world of economic systems, financial techno
 - Social impact investing
 - Green economic strategies
 - Regenerative economic models
-- [[governance-and-community/open-value-networks|Open Value Networks]] - Collaborative value creation and distribution
-- [[governance-and-community/sensorica|Sensorica]] - Real-world OVN implementation and contribution accounting
+- [[open-value-networks|Open Value Networks]] - Collaborative value creation and distribution
+- [[sensorica|Sensorica]] - Real-world OVN implementation and contribution accounting
 
 ### 4. Global Economic Dynamics
 - International trade systems
@@ -46,6 +46,7 @@ This section delves into the complex world of economic systems, financial techno
 - Investment strategies
 - Risk management
 - Ethical financial decision-making
+- [[accounting-systems|Accounting Systems: Single vs Double Entry]] - Traditional accounting methodologies and financial management systems
 
 ## Guiding Principles
 - Economic justice and equity

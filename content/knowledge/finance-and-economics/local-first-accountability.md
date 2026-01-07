@@ -83,4 +83,5 @@ The combination of local-first accountability principles with Holochain's archit
 - [[peer-to-peer-synchronization]]
 - [[rea-accounting]]
 - [[valueflows]]
-- [[hrea|hREA]] 
+- [[hrea|hREA]]
+- [[accounting-systems|Accounting Systems: Single vs Double Entry]] 
