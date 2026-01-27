@@ -20,19 +20,19 @@ tags:
 
 ## Introduction
 
-This is a beautiful connection to draw. The [[ikigai|Ikigai framework]], despite its modern popular formulation, resonates deeply with the question of what constitutes a truly free and flourishing life.
+This is a beautiful connection to draw. The ikigai framework, despite its modern popular formulation, resonates deeply with the question of what constitutes a truly free and flourishing life.
 
 ## Executive Summary
 
-The [[ikigai|Japanese concept of Ikigai]] and the Western [[four-freedoms|four dimensions of freedom]] offer complementary frameworks for understanding human flourishing. While Ikigai's four-circle Venn diagram (what you love, what you're good at, what the world needs, what you can be paid for) has gained popularity in Western self-help culture, it intersects revealingly—but incompletely—with the classical understanding of freedom:
+The Japanese concept of Ikigai and the Western four dimensions of freedom offer complementary frameworks for understanding human flourishing. While Ikigai's four-circle Venn diagram (what you love, what you're good at, what the world needs, what you can be paid for) has gained popularity in Western self-help culture, it intersects revealingly—but incompletely—with the classical understanding of freedom:
 
-- **Interior Freedom** ([[liberal-arts|Liberal Arts]]) → What you love
-- **Vocational Freedom** ([[liberal-professions|Liberal Professions]]) → What you're good at
-- **Material Freedom** ([[economic-liberalism|Economic Liberalism]]) → What you can be paid for
+- **Interior Freedom** (Liberal Arts) → What you love
+- **Vocational Freedom** (Liberal Professions) → What you're good at
+- **Material Freedom** (Economic Liberalism) → What you can be paid for
 
-> **The Missing Dimension**: "What the world needs" (service, contribution, outward orientation toward helping) has no clean correspondence in the four freedoms schema. [[political-liberalism|Social freedom]] concerns non-interference, rights, and protection from coercion—what others *can't do to you*—while Ikigai's fourth element is about what you *give to others*. This points to something the Western liberal tradition tends to neglect: freedom as responsibility, the call to serve, the dimension of gift and contribution that isn't captured by either market exchange or political rights.
+> **The Missing Dimension**: "What the world needs" (service, contribution, outward orientation toward helping) has no clean correspondence in the four freedoms schema. **Political-liberalism** concerns non-interference, rights, and protection from coercion—what others *can't do to you*—while Ikigai's fourth element is about what you *give to others*. This points to something the Western liberal tradition tends to neglect: freedom as responsibility, the call to serve, the dimension of gift and contribution that isn't captured by either market exchange or political rights.
 
-This synthesis reveals that genuine flourishing requires **integration, not balance**—and that the Ikigai framework adds a crucial dimension of outward service that the liberal tradition's focus on individual autonomy and rights tends to underemphasize. For those on [[esoteric-traditions|initiatory paths]], this vertical ordering takes on additional significance as the entire framework becomes a vehicle for [[spiritual-development|spiritual development]] and reintegration.
+This synthesis reveals that genuine flourishing requires **integration, not balance**—and that the Ikigai framework adds a crucial dimension of outward service that the liberal tradition's focus on individual autonomy and rights tends to underemphasize. For those on **initiatory paths**, this vertical ordering takes on additional significance as the entire framework becomes a vehicle for spiritual development and reintegration.
 
 **Key Insight**: Both frameworks refuse to separate life into disconnected compartments. They insist on integration—where doing and being, giving and receiving, loving and working converge into a coherent expression of human flourishing. Ikigai complements the liberal tradition by adding the constitutive dimension of service to the common good.
 
@@ -57,12 +57,12 @@ The intersection with the four dimensions of freedom reveals both alignment and 
 
 | Dimension of Freedom | Ikigai Element | Core Question |
 |---------------------|----------------|---------------|
-| **Interior freedom** ([[liberal-arts|Liberal Arts]]) | What you love | What genuinely moves your soul? |
-| **Vocational freedom** ([[liberal-professions|Liberal Professions]]) | What you're good at | Where does your excellence lie? |
-| **Material freedom** ([[economic-liberalism|Economic Liberalism]]) | What you can be paid for | How do you sustain yourself? |
+| **Interior freedom** (Liberal Arts) | What you love | What genuinely moves your soul? |
+| **Vocational freedom** (Liberal Professions) | What you're good at | Where does your excellence lie? |
+| **Material freedom** (Economic Liberalism) | What you can be paid for | How do you sustain yourself? |
 | *No correspondence* | **What the world needs** | How do you serve the common good? |
 
-**The Critical Gap**: [[political-liberalism|Social freedom]]—the fourth dimension of the liberal framework—concerns non-interference, rights, tolerance, and protection from coercion. It's fundamentally about what others *cannot do to you*, the space to live without external interference. "What the world needs," by contrast, is about what you *give to others*—service, contribution, outward orientation toward helping. These are not the same thing, and they may not even be naturally complementary.
+**The Critical Gap**: Social freedom—the fourth dimension of the liberal framework—concerns non-interference, rights, tolerance, and protection from coercion. It's fundamentally about what others *cannot do to you*, the space to live without external interference. "What the world needs," by contrast, is about what you *give to others*—service, contribution, outward orientation toward helping. These are not the same thing, and they may not even be naturally complementary.
 
 This incomplete mapping reveals something important: the Western liberal tradition, with its emphasis on individual autonomy and protection from interference, has historically underemphasized the dimension of outward service and contribution to the common good. The liberal tradition focuses onfreedom *from* constraint, while Ikigai's "what the world needs" represents freedom *for* contribution.
 
@@ -76,13 +76,13 @@ The modern condition often forces a painful choice between what we love and what
 
 ### Excellence versus Need
 
-One might be extraordinarily skilled at something the world doesn't particularly need, or called to address a need for which one lacks talent. The [[liberal-professions|liberal professions]] ideally resolve this tension by developing excellence *in service*—the physician's skill directed toward healing, the architect's toward dwelling. Vocation emerges when capacity and calling converge.
+One might be extraordinarily skilled at something the world doesn't particularly need, or called to address a need for which one lacks talent. The liberal professions ideally resolve this tension by developing excellence *in service*—the physician's skill directed toward healing, the architect's toward dwelling. Vocation emerges when capacity and calling converge.
 
-**The Liberal Tradition's Service Dimension**: While the liberal framework lacks "what the world needs" as a formal category, the [[liberal-professions|liberal professions]] tradition historically understood vocation as service to the common good. The physician, lawyer, teacher, or clergy member developed excellence not merely for personal gain but to fulfill essential social functions. This represents an implicit recognition of what Ikigai makes explicit.
+**The Liberal Tradition's Service Dimension**: While the liberal framework lacks "what the world needs" as a formal category, the liberal professions tradition historically understood vocation as service to the common good. The physician, lawyer, teacher, or clergy member developed excellence not merely for personal gain but to fulfill essential social functions. This represents an implicit recognition of what Ikigai makes explicit.
 
 ### Interior and Exterior
 
-Perhaps most fundamental: the [[liberal-arts|liberal arts tradition]] insists that outer freedom means little without inner freedom. One might achieve professional success, social contribution, and financial security while remaining internally enslaved—driven by compulsions, distorted by illusions, disconnected from one's depths. Conversely, interior freedom can persist even when external circumstances are constrained.
+Perhaps most fundamental: the liberal arts tradition insists that outer freedom means little without inner freedom. One might achieve professional success, social contribution, and financial security while remaining internally enslaved—driven by compulsions, distorted by illusions, disconnected from one's depths. Conversely, interior freedom can persist even when external circumstances are constrained.
 
 **Critical Distinction**: The Ikigai framework implicitly acknowledges this through "what you love"—but the liberal arts tradition goes deeper. True love, true passion, requires a formed soul capable of recognizing genuine goods. Otherwise "what you love" might be merely "what you're addicted to" or "what your conditioning has programmed you to desire."
 
@@ -92,7 +92,7 @@ The incomplete correspondence between Ikigai and the four freedoms reveals somet
 
 ### Freedom From vs. Freedom For
 
-[[political-liberalism|Social freedom]] in the liberal tradition is fundamentally **freedom from** interference:
+Social freedom in the liberal tradition is fundamentally **freedom from** interference:
 - Protection from coercion
 - Rights against encroachment
 - Space to live without external control
@@ -123,7 +123,7 @@ This doesn't contradict the liberal tradition; it *complements* it by adding a d
 - Ikigai: Ensure flourishing includes service to others
 - Synthesis: Freedom as both protection *and* contribution
 
-The [[liberal-professions|liberal professions]] tradition, with its emphasis on vocation as service to the common good, represents an important bridge—showing that the Western tradition hasn't entirely neglected service, but has often treated it as implicit rather than explicit.
+The liberal professions tradition, with its emphasis on vocation as service to the common good, represents an important bridge—showing that the Western tradition hasn't entirely neglected service, but has often treated it as implicit rather than explicit.
 
 ## A Vertical Dimension
 
@@ -150,7 +150,7 @@ This isn't particularly hierarchical in the sense of "higher vs. lower" value, b
         ↓
 ```
 
-From this perspective, economic activity provides the foundation for service, which creates the context for vocational excellence, which supports interior development, which opens toward [[wisdom-traditions|wisdom]] and [[contemplation|contemplation]]. The material isn't rejected or diminished—it's properly situated as the ground from which other dimensions emerge.
+From this perspective, economic activity provides the foundation for service, which creates the context for vocational excellence, which supports interior development, which opens toward wisdom and contemplation. The material isn't rejected or diminished—it's properly situated as the ground from which other dimensions emerge.
 
 **Integration Principle**: This vertical ordering resolves certain dilemmas by showing how dimensions relate rather than compete. When conflicts arise between payment and passion, the question isn't "which matters more" but "how do they fit together?" Material sustenance enables service; proper livelihood shouldn't require betraying deeper callings. Each dimension has its place in the whole.
 
@@ -186,13 +186,13 @@ The medieval student moved from Trivium to Quadrivium to philosophy to theology�
 ### Core Concepts
 
 **The Three Clear Correspondences:**
-- **Interior Freedom** ([[liberal-arts|Liberal Arts]]) ↔ What you love
-- **Vocational Freedom** ([[liberal-professions|Liberal Professions]]) ↔ What you're good at
-- **Material Freedom** ([[economic-liberalism|Economic Liberalism]]) ↔ What you can be paid for
+- **Interior Freedom** (Liberal Arts) ↔ What you love
+- **Vocational Freedom** (Liberal Professions) ↔ What you're good at
+- **Material Freedom** (Economic Liberalism) ↔ What you can be paid for
 
 **The Critical Gap:**
 - *No correspondence*: "What the world needs" ↔ Service and contribution
-- [[political-liberalism|Social freedom]] = freedom *from* interference (protection)
+- **Social freedom** = freedom *from* interference (protection)
 - "What the world needs" = freedom *for* contribution (service)
 - These are different dimensions, not opposites
 
@@ -221,7 +221,7 @@ What you can be paid for (Material freedom)
 
 2. **Cultivate Discernment About "What You Love"**
    - Not all desires are equal
-   - The [[liberal-arts|liberal arts tradition]] suggests disciplining attention
+   - The liberal-arts tradition suggests disciplining attention
    - Study worthy objects to allow genuine loves to emerge
    - Formed character recognizes genuine goods better than raw preference
 
@@ -229,7 +229,7 @@ What you can be paid for (Material freedom)
    - The word *vocation* comes from *vocare*—to call
    - Implies something beyond personal preference
    - One's gifts and circumstances constitute an invitation from beyond the ego
-   - The [[liberal-professions|liberal professions]] at their best preserved this sense
+   - The liberal-professions at their best preserved this sense
 
 4. **Recognize Economic Necessity Without Absolutizing It**
    - Money matters, but the question is always: money *for what*?
@@ -258,7 +258,7 @@ What you can be paid for (Material freedom)
 
 ### The Central Insight
 
-Both frameworks refuse to separate life into disconnected compartments. They insist on **integration**—where doing and being, giving and receiving, loving and working converge. The [[liberal-arts|liberal arts]] formed persons capable of perceiving unity beneath apparent fragmentation. [[ikigai|Ikigai]] seeks a life where these dimensions converge into coherent expression.
+Both frameworks refuse to separate life into disconnected compartments. They insist on **integration**—where doing and being, giving and receiving, loving and working converge. The liberal arts formed persons capable of perceiving unity beneath apparent fragmentation. Ikigai seeks a life where these dimensions converge into coherent expression.
 
 **The Synthesis**: The Western liberal tradition provides crucial protections for individual autonomy and space for flourishing. Ikigai adds the missing dimension of outward service and contribution to the common good. Together, they offer a more complete vision of human flourishing: freedom *from* interference AND freedom *for* contribution, protection of individual dignity AND orientation toward service.
 
