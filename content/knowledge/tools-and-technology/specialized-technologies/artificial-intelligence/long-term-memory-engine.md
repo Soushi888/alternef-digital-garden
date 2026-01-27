@@ -12,17 +12,17 @@ tags:
 date: 2024-07-22
 ---
 
-The Long-Term Memory (LTM) engine is the core of the contextual assistance provided by [[Pieces for Developers|knowledge/tools-and-technology/development-tools/pieces]]. It runs as a modular, event-driven service, acting as a personal [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/agent|Agent]] within PiecesOS that activates on-demand to capture and retrieve context.
+The Long-Term Memory (LTM) engine is the core of the contextual assistance provided by [[pieces]]. It runs as a modular, event-driven service, acting as a personal [[agent|Agent]] within PiecesOS that activates on-demand to capture and retrieve context.
 
 ## How it Works
 
-When you save code snippets, links, or other resources to Pieces (manually or through integrations), the LTM engine processes and stores this information locally. This follows a [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/concepts/local-first|Local-first Software]] approach, allowing Pieces and its integrated tools to provide more relevant and context-aware responses in future interactions.
+When you save code snippets, links, or other resources to Pieces (manually or through integrations), the LTM engine processes and stores this information locally. This follows a [[local-first|Local-first Software]] approach, allowing Pieces and its integrated tools to provide more relevant and context-aware responses in future interactions.
 
 The LTM remembers what you've explicitly saved, shared, or allowed to be captured. It does not have unprompted access to your files or data.
 
 ## MCP Integration
 
-The LTM can be queried from tools like the Cursor IDE via the [[Model Context Protocol (MCP)|knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/protocols/model-context-protocol]]. This allows you to query your LTM directly using natural language prompts, for example:
+The LTM can be queried from tools like the Cursor IDE via the [[model-context-protocol|Model Context Protocol (MCP)]]. This allows you to query your LTM directly using natural language prompts, for example:
 
 - "What did I work on yesterday?"
 - "Show me previous implementations of this authentication method."
@@ -55,4 +55,10 @@ This multi-dimensional approach allows for more precise and powerful context ret
 - [Official Website](https://pieces.app/)
 - [Official Documentation](https://docs.pieces.app/)
 - [Using Long-Term Memory Context](https://docs.pieces.app/products/quick-guides/ltm-context)
-- [Long-Term Memory Prompting Guide](https://docs.pieces.app/products/quick-guides/ltm-prompting) 
+- [Long-Term Memory Prompting Guide](https://docs.pieces.app/products/quick-guides/ltm-prompting)
+
+## Related Topics
+
+- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]
+- [[large-language-models|Large Language Models]]
+- [[vector-database|Vector Databases]]

@@ -40,6 +40,7 @@ This section explores the intricate relationship between culture, education, and
 - [[teleology|Teleology]] - Philosophical study of purpose and final causes
 - [[philosophia-perennis|Philosophia Perennis]] - Perennial philosophy and universal wisdom across traditions
 - [[multi-scale-competency-architecture|Multi-Scale Competency Architecture]] - Hierarchical organization of problem-solving across biological scales
+- [[metacognition|Metacognition]] - Thinking about thinking and self-regulated learning
 - [[liberal-arts|Seven Liberal Arts]] - Classical educational curriculum of Trivium and Quadrivium
 - [[trivium|Trivium]] - The three language arts: Grammar, Logic, and Rhetoric
 - [[quadrivium|Quadrivium]] - The four mathematical arts: Arithmetic, Geometry, Music, and Astronomy

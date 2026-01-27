@@ -8,8 +8,6 @@ tags:
 aliases:
   - AI
   - machine-intelligence
-related pages:
-  - "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/sequential-thinking|Sequential Thinking]]"
 ---
 
 ## Overview
@@ -36,19 +34,20 @@ Artificial Intelligence (AI) is a transformative field of computer science that 
 
 ## Key Technological Approaches
 
-### Machine Learning
+### [[machine-learning|Machine Learning]]
 - **Supervised Learning**
 - **Unsupervised Learning**
 - **Reinforcement Learning**
-- **Deep Learning**
+- **[[deep-learning|Deep Learning]]**
 
 ### Cognitive Computing
-- Neural Network Architectures
+- [[neural-network|Neural Network]] Architectures
+- [[transformers|Transformers]] - Attention-based architectures
 - Probabilistic Reasoning
 - Adaptive Learning Systems
 
 ### Emerging Paradigms
-- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/sequential-thinking|Sequential Thinking]]
+- [[sequential-thinking|Sequential Thinking]]
 - Neuromorphic Computing
 - Quantum Machine Learning
 
@@ -63,6 +62,8 @@ Artificial Intelligence (AI) is a transformative field of computer science that 
 ## Research and Application Domains
 
 1. **Natural Language Processing**
+   - [[large-language-models|Large Language Models]]
+   - [[semantic-ai|Semantic AI]]
    - Machine Translation
    - Conversational AI
    - Text Analysis
@@ -97,6 +98,7 @@ Artificial Intelligence (AI) is a transformative field of computer science that 
 
 ## Future Perspectives
 
+- [[artificial-general-intelligence|Artificial General Intelligence]]
 - Collaborative Intelligence
 - Human-AI Symbiosis
 - Adaptive and Contextual Systems
@@ -108,6 +110,19 @@ Artificial Intelligence represents a dynamic, evolving field with profound impli
 
 ## Cognitive Approaches
 
-- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/sequential-thinking|Sequential Thinking]]
+- [[sequential-thinking|Sequential Thinking]]
+- [[ralph-loop|Ralph Loop]] - Autonomous AI agent loop for metacognitive development cycles
 - Adaptive Reasoning
 - Meta-Cognitive Systems
+
+## AI Tools & Frameworks
+
+- [[langchain|LangChain]] - LLM application development framework
+- [[fabric-ai|Fabric AI]] - AI prompt patterns framework
+- [[huginn|Huginn]] - Autonomous agent workflows
+- [[vector-database|Vector Databases]] - Semantic search infrastructure
+
+## AI Infrastructure
+
+- [[long-term-memory-engine|Long-Term Memory Engine]] - Contextual AI memory systems
+- [[information-economy-meta-language|IEML]] - Semantic interoperability meta-language
