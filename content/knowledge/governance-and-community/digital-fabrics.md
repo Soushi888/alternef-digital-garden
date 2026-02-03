@@ -25,30 +25,30 @@ This paradigm shift moves from platform-mediated coordination (where platforms c
 ┌─────────────────────┐
 │   Applications      │  ← Built ON platform
 ├─────────────────────┤
-│   Platform Layer     │  ← Controls & mediates
-│   - Rules            │  - Access control
-│   - APIs             │  - Rate limiting
-│   - Algorithms       │  - Content moderation
-│   - Monetization     │  - Data extraction
+│   Platform Layer    │  ← Controls & mediates
+│   - Rules           │  - Access control
+│   - APIs            │  - Rate limiting
+│   - Algorithms      │  - Content moderation
+│   - Monetization    │  - Data extraction
 ├─────────────────────┤
-│   Infrastructure     │  ← Owned by platform
+│   Infrastructure    │  ← Owned by platform
 └─────────────────────┘
 ```
 
 ### Digital Fabric Architecture
 ```
 ┌─────────────────────┐
-│   Autonomous         │  ← Self-governing entities
-│   Digital Entities   │
+│   Autonomous        │  ← Self-governing entities
+│   Digital Entities  │
 ├─────────────────────┤
-│   Coordination       │  ← Embedded coordination
-│   Fabric             │  - Stigmergic signaling
-│   - Rules            │  - Resource-based triggers
-│   - Patterns         │  - Self-enforcing protocols
-│   - Signals          │  - Indirect communication
+│   Coordination      │  ← Embedded coordination
+│   Fabric            │  - Stigmergic signaling
+│   - Rules           │  - Resource-based triggers
+│   - Patterns        │  - Self-enforcing protocols
+│   - Signals         │  - Indirect communication
 ├─────────────────────┤
-│   Peer-to-Peer       │  ← Decentralized substrate
-│   Infrastructure     │
+│   Peer-to-Peer      │  ← Decentralized substrate
+│   Infrastructure    │
 └─────────────────────┘
 ```
 
