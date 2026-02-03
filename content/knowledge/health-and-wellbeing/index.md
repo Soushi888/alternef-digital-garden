@@ -7,6 +7,10 @@ tags:
   - holistic-medicine
   - personal-development
   - mind-body-connection
+  - movement-practices
+  - psychology
+  - stress-physiology
+  - preventive-medicine
 ---
 
 # Health and Wellbeing
@@ -20,11 +24,11 @@ This section explores the multidimensional nature of human health, examining phy
 ### 1. Physical Health
 - Nutrition and metabolic science
 - Exercise and movement practices
-- Preventive healthcare strategies
+- Preventive healthcare strategies: [[hormesis|Hormesis]]
 - Biomechanics and human performance
 
 ### 2. Mental and Emotional Wellness
-- Psychological resilience
+- Psychological resilience and integration: [[shadow-work|Shadow Work]]
 - Stress management techniques
 - Emotional intelligence development
 - Mindfulness and meditation practices
@@ -32,7 +36,7 @@ This section explores the multidimensional nature of human health, examining phy
 ### 3. Holistic Healing Approaches
 - Integrative and complementary medicine
 - Traditional healing wisdom
-- Mind-body healing practices
+- Mind-body healing practices: [[hatha-yoga|Hatha Yoga]], [[qi-gong|Qi Gong]]
 - Personalized wellness strategies
 
 ### 4. Environmental Health
