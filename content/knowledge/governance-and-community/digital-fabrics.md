@@ -3,8 +3,7 @@ title: "Digital Fabrics"
 description: "Decentralized coordination infrastructure enabling self-organizing, anti-fragile, commons-based coordination without platform intermediation"
 aliases: ["digital coordination fabrics", "decentralized infrastructure", "coordination layers", "fabric-based governance"]
 tags: [governance, decentralized-systems, commons, coordination-infrastructure, anti-fragility, stigmergy, subsidiarity, true-commons, platform-alternatives, network-governance, autonomous-agents]
-created: 2025-10-28
-modified: 2025-10-28
+date: 2025-10-28
 draft: false
 ---
 
