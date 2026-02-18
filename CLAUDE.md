@@ -95,3 +95,27 @@ A Model Context Protocol server implementation using the Effect library. Provide
 - Dates sourced from frontmatter first, then filesystem.
 - Files in `content/unpublished/` or with `draft: true` are not built.
 - Patterns ignored by Quartz: `private/`, `templates/`, `.obsidian/`.
+
+## Skills
+
+Three persistent skills provide domain knowledge across all interactions with this garden:
+
+| Skill | Purpose | When to Use |
+|-------|---------|-------------|
+| `dg-notes` | Knowledge note management — domain taxonomy, classification, frontmatter, linking rules | Creating/classifying knowledge notes, managing indexes, wikilink questions |
+| `dg-blog` | Blog post authoring — architecture, writing voice, EN→FR translation | Writing/editing blog posts, translating to French, style guidance |
+| `dg-quartz-dev` | Quartz framework development — Preact components, plugins, SCSS, testing | Creating components/plugins, styling, writing tests, build pipeline |
+
+### How Skills Complement `/dg:*` Commands
+
+Skills provide the **knowledge layer** (taxonomy, style guide, architecture); commands provide the **procedure layer** (step-by-step actions).
+
+| Command | Complementary Skill | Relationship |
+|---------|---------------------|--------------|
+| `/dg:create` | `dg-notes`, `dg-blog` | Skills inform domain classification, frontmatter, and writing voice during creation |
+| `/dg:validate` | `dg-notes` | Skill's taxonomy and rules define what validation checks against |
+| `/dg:improve` | `dg-notes`, `dg-blog` | Skills provide quality rubric and style guide for improvements |
+| `/dg:link` | `dg-notes` | Skill's wikilink rules and cross-domain mappings guide linking |
+| `/dg:organize` | `dg-notes` | Skill's domain taxonomy drives reorganization decisions |
+| `/dg:build` | `dg-quartz-dev` | Skill provides architecture knowledge for debugging build issues |
+| `/dg:sync` | — | Deployment workflow, no specialized knowledge needed |

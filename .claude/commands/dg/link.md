@@ -5,6 +5,10 @@ description: "Manage bi-directional links and knowledge graph connections in dig
 
 # /dg:link - Bi-directional Link Management
 
+## Complementary Skills
+Load this skill for linking rules and cross-domain mappings:
+- **dg-notes** — Wikilink conventions, absolute path rules for index files, cross-domain tag index
+
 ## Purpose
 Create, manage, and optimize bi-directional links between digital garden content to build a rich knowledge graph with meaningful connections.
 

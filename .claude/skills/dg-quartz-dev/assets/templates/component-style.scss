@@ -1,0 +1,23 @@
+.component-name {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--darkgray);
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  & a {
+    color: var(--secondary);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--tertiary);
+    }
+  }
+
+  @media all and (max-width: 800px) {
+    // Mobile styles
+  }
+}

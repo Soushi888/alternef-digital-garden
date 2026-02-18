@@ -5,6 +5,10 @@ description: "Organize and restructure digital garden content with automatic lin
 
 # /dg:organize - Content Structure Management
 
+## Complementary Skills
+Load this skill for taxonomy and structure decisions:
+- **dg-notes** — Domain taxonomy, classification heuristics, index page management
+
 ## Purpose
 Reorganize digital garden content structure, move files between domains, and maintain link integrity with automatic updates.
 

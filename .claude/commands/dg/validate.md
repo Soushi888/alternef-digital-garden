@@ -5,6 +5,10 @@ description: "Validate digital garden content structure, links, frontmatter cons
 
 # /dg:validate - Content Quality Assurance
 
+## Complementary Skills
+Load this skill for validation rules and taxonomy:
+- **dg-notes** — Domain taxonomy, frontmatter conventions, quality rubric, validation script (`scripts/validate-notes.sh`)
+
 ## Purpose
 Comprehensively validate digital garden content for structural integrity, link health, frontmatter consistency, and Quartz compliance.
 
