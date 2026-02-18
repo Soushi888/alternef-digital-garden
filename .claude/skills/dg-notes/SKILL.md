@@ -55,8 +55,8 @@ tags:
   - domain-tag
   - specific-tag1
   - specific-tag2
-created: YYYY-MM-DD
-modified: YYYY-MM-DD
+date: YYYY-MM-DD
+updated: YYYY-MM-DD
 draft: false
 ---
 ```
@@ -64,13 +64,21 @@ draft: false
 ### Required fields
 - `title`: Descriptive, title case
 - `tags`: Array, lowercase kebab-case. Include at least one domain-level tag
-- `created`: ISO date (YYYY-MM-DD)
-- `modified`: ISO date, updated on each edit
+- `date`: ISO date (YYYY-MM-DD) — publication/creation date
 
 ### Optional fields
 - `description`: One-sentence summary (used in search results and meta)
 - `aliases`: Alternative names for wikilink resolution
+- `updated`: ISO date, last modification date
 - `draft`: Set `true` to exclude from build
+
+### Date field aliases (Quartz internals)
+Quartz's frontmatter transformer (`quartz/plugins/transformers/frontmatter.ts`) accepts multiple aliases for dates:
+- **created**: `date`, `created`
+- **modified**: `updated`, `modified`, `lastmod`, `last-modified`
+- **published**: `date`, `published`, `publishDate`
+
+Prefer `date` and `updated` for consistency with the project CLAUDE.md conventions.
 
 ### Tag rules
 - Always lowercase, kebab-case

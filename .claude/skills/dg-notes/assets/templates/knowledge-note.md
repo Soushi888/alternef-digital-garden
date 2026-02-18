@@ -7,8 +7,8 @@ tags:
   - domain-tag
   - specific-tag1
   - specific-tag2
-created: YYYY-MM-DD
-modified: YYYY-MM-DD
+date: YYYY-MM-DD
+updated: YYYY-MM-DD
 draft: false
 ---
 

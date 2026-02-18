@@ -56,6 +56,7 @@ tags:
 ### Optional fields
 ```yaml
 subtitle: "Extended title or hook"
+updated: "YYYY-MM-DD"             # Last modification date
 draft: true                    # Exclude from build
 type: "article"                # Or "meditation", "report"
 categories:                    # Topic grouping
