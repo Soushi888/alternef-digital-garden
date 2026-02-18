@@ -47,7 +47,7 @@ Nondominium does not emerge from thin air. It is the latest chapter in a story t
 
 ### Sensorica and the Coordination Challenge
 
-Sensorica was founded in 2011 as an Open Value Network (OVN), one of the first organizations to seriously attempt commons-based peer production outside of software. Unlike traditional companies or even cooperatives, Sensorica has no employees, no bosses, and no fixed hierarchy. Contributors self-organize around projects, pool resources, and share the value they create according to transparent contribution accounting.
+Sensorica was co-founded in 2011 by Tiberius Brastaviceanu (Tibi) as an Open Value Network (OVN), one of the first organizations to seriously attempt commons-based peer production outside of software. Unlike traditional companies or even cooperatives, Sensorica has no employees, no bosses, and no fixed hierarchy. Contributors self-organize around projects, pool resources, and share the value they create according to transparent contribution accounting.
 
 Running an organization like this surfaces coordination challenges that most economic software simply ignores. How do you track who contributed what when there is no payroll? How do you manage shared equipment when there is no single owner? How do you coordinate resource flows across a network of autonomous contributors without a central authority dictating terms?
 
@@ -55,9 +55,9 @@ These were not theoretical questions. They were daily operational realities.
 
 ### Lynn Foster, Bob Haugen, and the Birth of NRP/CAS
 
-In 2013, Lynn Foster and Bob Haugen began a close collaboration with Sensorica to build the tools that this new form of organization desperately needed. The result was the NRP/CAS: a Network Resource Planning and Contribution Accounting System. It was the first serious attempt at software designed specifically for Open Value Network coordination.
+In 2013, Lynn Foster and Bob Haugen began a close collaboration with Sensorica, working alongside Tibi and other contributors, to build the tools that this new form of organization desperately needed. The result was the NRP/CAS: a Network Resource Planning and Contribution Accounting System. It was the first serious attempt at software designed specifically for Open Value Network coordination.
 
-NRP/CAS allowed Sensorica to track contributions, manage shared resources, coordinate processes, and distribute value. It was functional, and it was groundbreaking. But perhaps more importantly, it was a learning machine. Years of running a real peer production network on real software produced hard-won insights about what works, what breaks, and what patterns keep recurring regardless of the specific organization using them.
+NRP/CAS allowed Sensorica to track contributions, manage shared resources, coordinate processes, and distribute value. It was functional, and it was groundbreaking. But perhaps more importantly, it was a learning machine. Tibi, as both co-founder of the network and active participant in the NRP/CAS development, brought the daily operational reality of running an OVN to the design process, while Lynn and Bob brought the software architecture and accounting theory. Years of running a real peer production network on real software produced hard-won insights about what works, what breaks, and what patterns keep recurring regardless of the specific organization using them.
 
 ### The Generalization: ValueFlows
 
@@ -175,7 +175,7 @@ Nondominium's specific focus is resource mutualization. It answers the questions
 
 ### True Commons: The Peer Production Platform
 
-True Commons is the broader platform being developed for commons-based peer production, essentially the next-generation NRP/CAS built on Holochain and ValueFlows. Where Nondominium handles resources, True Commons handles the full scope of peer production coordination: contribution accounting, benefit redistribution through value equations, stigmergic coordination (enabling contributors to self-organize around visible needs and opportunities), and process management.
+True Commons is the broader platform being developed for commons-based peer production, guided by Tibi's long-standing vision of a complete infrastructure for Open Value Networks. Co-developed by Tibi as domain architect and Sacha Pignot as technical developer, it is essentially the next-generation NRP/CAS built on Holochain and ValueFlows. Where Nondominium handles resources, True Commons handles the full scope of peer production coordination: contribution accounting, benefit redistribution through value equations, stigmergic coordination (enabling contributors to self-organize around visible needs and opportunities), and process management.
 
 ### How the Pieces Compose
 
@@ -199,7 +199,7 @@ The vision is composability: Nondominium for resource governance, True Commons f
 
 ## Where We Are and How to Get Involved
 
-Nondominium is currently in active development. The core architecture is defined and the MVP focuses on three foundational zomes: person management (agent identity and roles), resource tracking (specifications, lifecycle, custodianship), and governance (state transitions, validation rules, access control).
+Nondominium is currently in active development. Tibi leads the domain architecture and OVN design, drawing on over a decade of experience running Sensorica as a commons-based peer production network. Sacha Pignot handles the technical development, building the Holochain zomes and protocol infrastructure. The core architecture is defined and the MVP focuses on three foundational zomes: person management (agent identity and roles), resource tracking (specifications, lifecycle, custodianship), and governance (state transitions, validation rules, access control).
 
 We are building this as open infrastructure for the commons economy, and we need collaborators.
 
@@ -213,6 +213,6 @@ The sharing economy promised that technology would help people share resources m
 
 ---
 
-*Nondominium is developed by Sensorica in collaboration with the hAppenings Community. It builds on the foundational work of Lynn Foster and Bob Haugen (ValueFlows, NRP/CAS) and the hREA implementation on Holochain.*
+*Nondominium is developed by Sensorica, under the vision of co-founder Tiberius Brastaviceanu, with Sacha Pignot as technical developer, in collaboration with the hAppenings Community. It builds on the foundational work of Lynn Foster and Bob Haugen (ValueFlows, NRP/CAS) and the hREA implementation on Holochain.*
 
 *To learn more or get involved, reach out through [Sensorica](https://www.sensorica.co) or the hAppenings Community channels.*
