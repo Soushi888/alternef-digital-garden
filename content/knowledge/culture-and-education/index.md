@@ -47,6 +47,7 @@ This section explores the intricate relationship between culture, education, and
 - [[ikigai|Ikigai]] - Japanese concept of life purpose and meaning-making
 - [[four-freedoms|Four Freedoms]] - Interior, vocational, social, and material dimensions of freedom
 - [[liberal-professions|Liberal Professions]] - Intellectual and service-based professions with specialized qualifications
+- [[knowledge/culture-and-education/music/index|Music]] - Music as cultural expression, embodied knowledge, and bridge between traditions
 
 ### 5. Social and Emotional Learning
 - Emotional intelligence development
