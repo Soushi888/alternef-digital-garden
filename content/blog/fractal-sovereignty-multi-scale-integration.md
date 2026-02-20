@@ -21,7 +21,7 @@ This is the promise of **fractal sovereignty**; a multi-scale approach to econom
 
 ## Executive Summary
 
-**Fractal sovereignty** offers a revolutionary framework for organizing economic systems across multiple scales simultaneously—from households to global networks. Rather than the traditional linear hierarchy (local → national → global) that creates disconnected extremities, fractal sovereignty applies the **self-similar patterns** found throughout nature to create resilient, adaptive economic systems.
+**Fractal sovereignty** offers a revolutionary framework for organizing economic systems across multiple scales simultaneously, from households to global networks. Rather than the traditional linear hierarchy (local → national → global) that creates disconnected extremities, fractal sovereignty applies the **self-similar patterns** found throughout nature to create resilient, adaptive economic systems.
 
 ### Core Principles
 
@@ -149,7 +149,7 @@ This creates a **regenerative loop** rather than an extractive pipeline; local i
 
 ### Contextual Intelligence: Making Global Knowledge Local
 
-Before implementing global patterns, local actors must **assess their specific context**—the unique combination of conditions that shape what's possible and desirable.
+Before implementing global patterns, local actors must **assess their specific context**: the unique combination of conditions that shape what's possible and desirable.
 
 #### Four Dimensions of Context
 1. **Ecological**: Climate, resources, carrying capacity
@@ -189,7 +189,7 @@ Cosmo-localism requires **multi-directional communication** that moves informati
 
 ### Adaptive Implementation: Making Global Patterns Work Locally
 
-**Adaptation** is both art and science—modifying global patterns to fit local conditions while preserving core principles.
+**Adaptation** is both art and science: modifying global patterns to fit local conditions while preserving core principles.
 
 #### Four-Step Adaptation Process
 
@@ -214,7 +214,7 @@ Cosmo-localism requires **multi-directional communication** that moves informati
 - Contributing to global knowledge base for future adaptations
 - Creates **adaptive learning cycles** where strategies continuously improve
 
-> **Key Insight**: Adaptation is not degradation—local constraints often force creative solutions that benefit the entire network. When communities share adaptation strategies, others can prepare proactively rather than react to changes.
+> **Key Insight**: Adaptation is not degradation. Local constraints often force creative solutions that benefit the entire network. When communities share adaptation strategies, others can prepare proactively rather than react to changes.
 
 ### Global Coordination as Local Decision Support
 
@@ -282,9 +282,9 @@ This is achieved through **selective information sharing protocols**, communitie
 
 ### Why Complexity Science Matters
 
-> **Key Insight**: Traditional economics uses mechanical metaphors (clocks, machines) but fails to capture how economies actually work—as living, adaptive systems more like ecosystems than assembly lines.
+> **Key Insight**: Traditional economics uses mechanical metaphors (clocks, machines) but fails to capture how economies actually work: as living, adaptive systems more like ecosystems than assembly lines.
 
-**Complexity science** reveals how sophisticated order emerges from simple local interactions without central control. This isn't just academic—it provides the scientific foundation for why fractal sovereignty works.
+**Complexity science** reveals how sophisticated order emerges from simple local interactions without central control. This isn't just academic. It provides the scientific foundation for why fractal sovereignty works.
 
 Pioneered at institutions like the Santa Fe Institute by researchers including:
 - **John Holland** (genetic algorithms, complex adaptive systems)
@@ -297,7 +297,7 @@ These insights change everything about how we think about economic organization.
 
 ### Emergence: Order from Simple Rules
 
-**Emergence** is perhaps the most profound concept in complexity science—complex, intelligent patterns arise from simple components following simple rules, **without any central coordinator**.
+**Emergence** is perhaps the most profound concept in complexity science: complex, intelligent patterns arise from simple components following simple rules, **without any central coordinator**.
 
 > **Core Principle**: The whole becomes **not just greater than** the sum of its parts, but **different from** the sum of its parts.
 
@@ -312,7 +312,7 @@ These insights change everything about how we think about economic organization.
 - **Community order**: Spontaneous coordination emerges when neighbors share tools and skills voluntarily
 
 #### Connection to Fractal Sovereignty
-**Regional economic resilience** emerges from household production, community networks, and bioregional coordination. No central planner designs the optimal balance—coherent patterns emerge through price signals, social relationships, and ecological feedback.
+**Regional economic resilience** emerges from household production, community networks, and bioregional coordination. No central planner designs the optimal balance; coherent patterns emerge through price signals, social relationships, and ecological feedback.
 
 ### Self-Organization: Systems That Organize Themselves
 
@@ -353,7 +353,7 @@ If emergence explains how patterns arise, **self-organization** explains how sys
 - **Holochain**: Distributed applications with cryptographic coordination
 
 #### Connection to Fractal Sovereignty
-**ValueFlows, TrueCommons, and Holochain** enable self-organization in economic systems. They create order through contextual communication and adaptive feedback rather than hierarchical planning—allowing fractal sovereignty to scale effectively across multiple levels.
+**ValueFlows, TrueCommons, and Holochain** enable self-organization in economic systems. They create order through contextual communication and adaptive feedback rather than hierarchical planning, allowing fractal sovereignty to scale effectively across multiple levels.
 
 ### Non-Linearity: Why Small Changes Can Create Big Effects
 
@@ -388,14 +388,14 @@ If emergence explains how patterns arise, **self-organization** explains how sys
 **Strategic Opportunities**:
 - **Leverage points** (Donella Meadows): Small interventions create disproportionate positive change
 - **Early warning systems** detect approaching tipping points before cascading
-- **Strategic timing** crucial—same action can have minimal or dramatic effect depending on context
+- **Strategic timing** crucial: same action can have minimal or dramatic effect depending on context
 
 #### Why This Matters for Fractal Sovereignty
-Non-linearity means **local innovations** can have global impact through cosmo-local knowledge sharing. It also explains why **resilience** is essential—redundant, diverse, adaptive systems are less vulnerable to cascade failures than centralized ones.
+Non-linearity means **local innovations** can have global impact through cosmo-local knowledge sharing. It also explains why **resilience** is essential. Redundant, diverse, adaptive systems are less vulnerable to cascade failures than centralized ones.
 
 ### Adaptation: Systems That Learn and Evolve
 
-**Adaptation** enables systems to maintain functionality while continuously adjusting to changing conditions—thriving in dynamic environments rather than just maintaining equilibrium.
+**Adaptation** enables systems to maintain functionality while continuously adjusting to changing conditions, thriving in dynamic environments rather than just maintaining equilibrium.
 
 #### How Adaptation Works
 
@@ -430,12 +430,12 @@ Fractal sovereignty develops adaptive capacity at each scale while maintaining c
 
 ### Feedback Loops: The Intelligence of Learning Systems
 
-**Feedback loops** are how complex systems learn—information about consequences flows back to influence future actions. Without feedback, systems cannot adapt, learn, or maintain health.
+**Feedback loops** are how complex systems learn: information about consequences flows back to influence future actions. Without feedback, systems cannot adapt, learn, or maintain health.
 
 #### Types of Feedback
 
 **Reinforcing (Positive) Feedback**:
-- Amplifies change—more begets more
+- Amplifies change: more begets more
 - Examples: Population growth, compound interest, learning curves
 - Creates exponential growth or decline
 
@@ -444,7 +444,7 @@ Fractal sovereignty develops adaptive capacity at each scale while maintaining c
 - Examples: Thermostats, predator-prey dynamics, market equilibrium
 - Maintains stability and prevents overshoot
 
-**Critical Insight**: **Delay effects**—time between action and feedback—can create oscillations and instability, especially when delays are long relative to system response times.
+**Critical Insight**: **Delay effects** (time between action and feedback) can create oscillations and instability, especially when delays are long relative to system response times.
 
 #### Real-World Applications
 
@@ -571,7 +571,7 @@ Network theory explains why fractal sovereignty creates fundamentally more resil
 
 ## Pathways to Fractal Sovereignty
 
-> **Implementation Path**: The journey toward fractal sovereignty follows a natural progression—from building local resilience to connecting bioregionally to participating in global knowledge networks.
+> **Implementation Path**: The journey toward fractal sovereignty follows a natural progression, from building local resilience to connecting bioregionally to participating in global knowledge networks.
 
 ### Starting with Local Resilience
 
@@ -750,7 +750,7 @@ The primary design challenge is maintaining **coherence without uniformity**, en
 - **Adaptive Implementation**: Test, refine, document, and share continuously
 - **Redundancy by Design**: Multiple pathways for critical functions
 
-> **Most Important Insight**: Fractal sovereignty works because it follows the same principles that enable all complex adaptive systems to thrive in nature—not mechanical hierarchies but living, learning networks.
+> **Most Important Insight**: Fractal sovereignty works because it follows the same principles that enable all complex adaptive systems to thrive in nature, not mechanical hierarchies but living, learning networks.
 
 ---
 

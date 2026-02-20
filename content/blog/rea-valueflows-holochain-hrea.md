@@ -62,9 +62,9 @@ ValueFlows turbocharges the REA model in several critical ways:
 - **Ecological and Social Accounting**: ValueFlows is designed to track more than just profit. It can meticulously record environmental impacts (like water usage, soil health metrics, or waste reduction) and social contributions, making it ideal for sustainability and regeneration-focused initiatives.
 - **Input-Process-Output (IPO) Pattern**: It formalizes the modeling of transformation processes. A `Process` takes `Resource` inputs, transforms them, and produces `Resource` outputs (e.g., raw materials → production → finished goods). This provides a granular view of any value chain.
 - **A Multi-Level Structure**: ValueFlows adopts McCarthy's REA multi-level organization of economic information into three layers:
-  1.  **Knowledge Level**: Defines the "rules of the game"—classifications, policies, and standard processes that a network agrees upon.
-  2.  **Plan Level**: Captures future intentions—offers, requests, schedules, and commitments.
-  3.  **Observation Level**: Records what actually happened—the concrete economic events, as they occur.
+  1.  **Knowledge Level**: Defines the "rules of the game": classifications, policies, and standard processes that a network agrees upon.
+  2.  **Plan Level**: Captures future intentions: offers, requests, schedules, and commitments.
+  3.  **Observation Level**: Records what actually happened: the concrete economic events, as they occur.
 
 With ValueFlows, accounting becomes a real-time log of economic reality, capable of generating both standard financial reports and rich, non-standard analyses like supply chain traceability or ecological impact assessments.
 
@@ -76,7 +76,7 @@ With ValueFlows, accounting becomes a real-time log of economic reality, capable
 
 Unlike blockchain's data-centric model (where everyone shares one massive, global ledger), Holochain is **agent-centric**. Each user runs their own instance of an application on their device, operating under shared rules called DNA (Distributed Network Application). They have their own personal "chain" or ledger, giving them full control and ownership of their data, while the shared DNA ensures they can coordinate effectively as an organization or community.
 
-Data is shared with others on a need-to-know basis using a [[distributed-hash-table|Distributed Hash Table (DHT)]]—a technology similar to what powers [[bittorrent|BitTorrent]]. This combination of individual autonomy with shared organizational rules means there are no centralized servers and no need for every participant to validate every transaction across the entire network, while still maintaining coherent collective coordination.
+Data is shared with others on a need-to-know basis using a [[distributed-hash-table|Distributed Hash Table (DHT)]], a technology similar to what powers [[bittorrent|BitTorrent]]. This combination of individual autonomy with shared organizational rules means there are no centralized servers and no need for every participant to validate every transaction across the entire network, while still maintaining coherent collective coordination.
 
 ### Holochain vs. Blockchain
 
@@ -96,11 +96,11 @@ Holochain's design makes it exceptionally well-suited for applications that prio
 
 While often compared, Holochain and blockchain are better viewed as complementary technologies designed for different purposes. This stems from their foundational architectural difference: one is data-centric, the other is agent-centric.
 
-- **Data-Centric Architecture (Blockchain):** The system revolves around a single, canonical dataset—the ledger. All participants collectively maintain and agree upon the state of this data. This architecture naturally creates a **one-to-many** interaction pattern where the central ledger serves multiple participants. The system operates more like a state machine—rigid and deterministic—which is perfect for establishing **global consensus** and providing an immutable source of truth for objective facts, like asset ownership. It acts as a digital notary.
+- **Data-Centric Architecture (Blockchain):** The system revolves around a single, canonical dataset: the ledger. All participants collectively maintain and agree upon the state of this data. This architecture naturally creates a **one-to-many** interaction pattern where the central ledger serves multiple participants. The system operates more like a state machine (rigid and deterministic), which is perfect for establishing **global consensus** and providing an immutable source of truth for objective facts, like asset ownership. It acts as a digital notary.
 
-- **Agent-Centric Architecture (Holochain):** The system revolves around the agents (users) and their individual perspectives. Each agent maintains their own local source of truth and shares data selectively. What's crucial is that agents share the same rules (DNA) while maintaining individual autonomy—this combination enables **many-to-many** socio-economic interactions where agents can interact directly with each other while operating under agreed-upon organizational protocols. This shared DNA is what makes building coherent organizations and communities possible, as it ensures coordination without centralization. The agent-centric approach is inherently more flexible, allowing for rich contextual information about each interaction, while data-centric systems are more state-machine-like and rigid in their operations. This provides **local autonomy** within **collective coordination** and is built for scalable, nuanced organizational structures where individual agency and privacy are key.
+- **Agent-Centric Architecture (Holochain):** The system revolves around the agents (users) and their individual perspectives. Each agent maintains their own local source of truth and shares data selectively. What's crucial is that agents share the same rules (DNA) while maintaining individual autonomy. This combination enables **many-to-many** socio-economic interactions where agents can interact directly with each other while operating under agreed-upon organizational protocols. This shared DNA is what makes building coherent organizations and communities possible, as it ensures coordination without centralization. The agent-centric approach is inherently more flexible, allowing for rich contextual information about each interaction, while data-centric systems are more state-machine-like and rigid in their operations. This provides **local autonomy** within **collective coordination** and is built for scalable, nuanced organizational structures where individual agency and privacy are key.
 
-These two models are not mutually exclusive; they solve different problems and can be powerfully combined. An application can be primarily agent-centric for its day-to-day operations—leveraging Holochain's scalability, flexibility, and contextual richness—while using a data-centric blockchain as a trust anchor for high-value assets or identity verification (like DIDs). For instance, a complex manufacturing process tracked in real-time on a Holochain app could settle its final multi-party payment via a smart contract on a secure blockchain, getting the best of both worlds.
+These two models are not mutually exclusive; they solve different problems and can be powerfully combined. An application can be primarily agent-centric for its day-to-day operations (leveraging Holochain's scalability, flexibility, and contextual richness) while using a data-centric blockchain as a trust anchor for high-value assets or identity verification (like DIDs). For instance, a complex manufacturing process tracked in real-time on a Holochain app could settle its final multi-party payment via a smart contract on a secure blockchain, getting the best of both worlds.
 
 ## 4. The Grand Synthesis: What is hREA?
 
@@ -129,7 +129,7 @@ Imagine a local food co-op where all participants share the same organizational 
 - **Distributors** commit to a `Transport` (plan) and later log the `Delivery` (event).
 - **Consumers** place `Orders` (plan) and complete their `Purchase` (typically involving two events: payment and receipt).
 
-The shared DNA ensures all participants follow the same coordination rules while enabling many-to-many interactions throughout the network. The system seamlessly tracks the flow of food and payments across the entire cooperative without centralized control. Each agent maintains their own records while contributing to the collective intelligence of the organization. It can generate real-time inventory reports for the co-op, traceability reports for consumers, and fair payment distributions for farmers. Furthermore, it could track ecological data—such as water usage for irrigation, soil health indicators from the farm, or waste produced during distribution—adding another layer of verifiable value that all network participants can access and validate.
+The shared DNA ensures all participants follow the same coordination rules while enabling many-to-many interactions throughout the network. The system seamlessly tracks the flow of food and payments across the entire cooperative without centralized control. Each agent maintains their own records while contributing to the collective intelligence of the organization. It can generate real-time inventory reports for the co-op, traceability reports for consumers, and fair payment distributions for farmers. Furthermore, it could track ecological data (such as water usage for irrigation, soil health indicators from the farm, or waste produced during distribution), adding another layer of verifiable value that all network participants can access and validate.
 
 #### Use Case 2: Mapping Cardano Smart Contracts
 
@@ -142,7 +142,7 @@ We can use hREA to map this on-chain reality into a rich, queryable database:
 - **Events**: A `Cardano transaction` is a transfer event that consumes input resources and produces output resources.
 - **Agreements**: Smart contracts on Cardano can represent agreements between agents, defining the rules for resource transformation.
 
-By mirroring this data in hREA, developers can create applications that offer powerful analytics and insights that are difficult to achieve on-chain. For example, one could easily trace the entire lifecycle of a specific NFT across dozens of transactions or analyze the complex flow of liquidity through a DeFi protocol over months—all without having to run expensive and slow queries on the blockchain itself.
+By mirroring this data in hREA, developers can create applications that offer powerful analytics and insights that are difficult to achieve on-chain. For example, one could easily trace the entire lifecycle of a specific NFT across dozens of transactions or analyze the complex flow of liquidity through a DeFi protocol over months, all without having to run expensive and slow queries on the blockchain itself.
 
 ### Current Status
 
@@ -157,7 +157,7 @@ REA, ValueFlows, Holochain, and hREA are not just isolated technologies; they ar
 - **Holochain** provides the agent-centric substrate with shared DNA that enables coordination without centralization.
 - **hREA** brings it all together into a practical toolkit for many-to-many economic coordination.
 
-As these technologies mature, they offer a tangible path toward creating economic systems that are more transparent, equitable, and sustainable—systems where individual agency coexists with collective coordination through shared organizational rules. They provide the tools to move beyond centralized control and rigid state-machines, enabling flexible, contextual, peer-to-peer economic coordination that can scale from small cooperatives to global networks. It may not be the Zenith of Computational Divinity, but it's a darn good start toward truly decentralized economic organization.
+As these technologies mature, they offer a tangible path toward creating economic systems that are more transparent, equitable, and sustainable: systems where individual agency coexists with collective coordination through shared organizational rules. They provide the tools to move beyond centralized control and rigid state-machines, enabling flexible, contextual, peer-to-peer economic coordination that can scale from small cooperatives to global networks. It may not be the Zenith of Computational Divinity, but it's a darn good start toward truly decentralized economic organization.
 
 ---
 

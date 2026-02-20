@@ -17,7 +17,7 @@ The integration of [Holochain](https://www.holochain.org/) (agent-centric p2p fr
 * **ADAM** offers a meta-ontology that bridges diverse decentralized systems, enabling seamless interoperability while preserving the unique strengths of each technology. In the context of OVNs, ADAM facilitates integration between Holochain’s collaborative environments and Cardano’s blockchain, ensuring cohesive workflows across platforms.
 * **Cardano** is a secure, data-centric blockchain platform that supports tokenization, smart contracts, and certification. It provides a robust layer for managing transactions, ownership models, and incentives, ensuring global accessibility and regulatory compliance for distributed production processes in OVNs.
 
-This synergy enables OVNs to steward complex distributed workflows, reward contributors fairly, and ensure compliance with regulatory standards—a critical requirement for projects like PEP Master.
+This synergy enables OVNs to steward complex distributed workflows, reward contributors fairly, and ensure compliance with regulatory standards, a critical requirement for projects like PEP Master.
 
 ## The PEP Master and Sensorica Context
 
@@ -49,7 +49,7 @@ OVNs prioritize open access to information, processes, and decision-making, ensu
 
 ### Nondominium and Diverse Property Regimes
 
-OVNs embrace a variety of property regimes, including private, shared, commons, and public, but they also introduce the concept of nondominium—assets that, by their nature, cannot be owned or controlled. For example, the [Bitcoin Network](https://bitcoin.org/) operates as a nondominium: it exists as an aggregated entity providing token exchange services, but if any individual or group gains enough influence to control it, the network dissipates due to loss of trust. In contrast, mining computers are privately owned, and the Bitcoin code exists as a commons. [Cardano’s blockchain](https://cardano.org/) complements this by tokenizing assets (e.g., NFTs for certified designs) that can exist under various property regimes, while [Holochain](https://holochain.org/) ensures that the network itself remains a nondominium, fostering trust and decentralization.
+OVNs embrace a variety of property regimes, including private, shared, commons, and public, but they also introduce the concept of nondominium, assets that by their nature cannot be owned or controlled. For example, the [Bitcoin Network](https://bitcoin.org/) operates as a nondominium: it exists as an aggregated entity providing token exchange services, but if any individual or group gains enough influence to control it, the network dissipates due to loss of trust. In contrast, mining computers are privately owned, and the Bitcoin code exists as a commons. [Cardano’s blockchain](https://cardano.org/) complements this by tokenizing assets (e.g., NFTs for certified designs) that can exist under various property regimes, while [Holochain](https://holochain.org/) ensures that the network itself remains a nondominium, fostering trust and decentralization.
 
 ### Meritocratic Governance
 

@@ -95,6 +95,7 @@ A Model Context Protocol server implementation using the Effect library. Provide
 - Dates sourced from frontmatter first, then filesystem.
 - Files in `content/unpublished/` or with `draft: true` are not built.
 - Patterns ignored by Quartz: `private/`, `templates/`, `.obsidian/`.
+- **No emdashes**: Never use emdash (`—`) or double hyphens (`--`) as punctuation in content. Use colons for definitions/lists (`**Term**: description`), commas or parentheses for asides, or restructure the sentence. This applies to all content written for external use (blog posts, notes, portfolio pages, descriptions).
 
 ## Skills
 

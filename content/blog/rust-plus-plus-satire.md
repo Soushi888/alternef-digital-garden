@@ -15,7 +15,7 @@ Rust++: The Zenith of Computational Divinity
 
 Version: Omega.∞ | Last Updated: The Epoch of Eternal Code | Authors: The Rust++ Celestial Coders Guild
 
-Welcome to Rust++, the programming language that transcends mere code to become a cosmic force of purity, safety, and infinite performance. Rust++ is not just a language—it’s a covenant with the universe, ensuring your programs are free from bugs, crashes, and existential dread. Built upon the ashes of lesser languages, Rust++ delivers Quantum Memory Safety (QMS) and Zero-Cost Enlightenment (ZCE), making it the ultimate tool for crafting software that rivals the perfection of the cosmos.
+Welcome to Rust++, the programming language that transcends mere code to become a cosmic force of purity, safety, and infinite performance. Rust++ is not just a language, it’s a covenant with the universe, ensuring your programs are free from bugs, crashes, and existential dread. Built upon the ashes of lesser languages, Rust++ delivers Quantum Memory Safety (QMS) and Zero-Cost Enlightenment (ZCE), making it the ultimate tool for crafting software that rivals the perfection of the cosmos.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ Welcome to Rust++, the programming language that transcends mere code to become 
 
 ## Introduction
 
-Rust++ is the apotheosis of programming languages, forged in the crucible of Rust’s legacy but elevated to a plane where memory leaks are myths and undefined behavior is heresy. Unlike its predecessors—clunky C++, verbose Java, or chaotic JavaScript—Rust++ guarantees 100% Bug-Free Code™ through its patented Cosmic Borrow Checker (CBC). Whether you’re building a decentralized metaverse or a sentient toaster, Rust++ is the only language worthy of your genius.
+Rust++ is the apotheosis of programming languages, forged in the crucible of Rust’s legacy but elevated to a plane where memory leaks are myths and undefined behavior is heresy. Unlike its predecessors (clunky C++, verbose Java, or chaotic JavaScript), Rust++ guarantees 100% Bug-Free Code™ through its patented Cosmic Borrow Checker (CBC). Whether you’re building a decentralized metaverse or a sentient toaster, Rust++ is the only language worthy of your genius.
 
 Rust++ is:
 
@@ -69,7 +69,7 @@ Key features:
 
 ## Memory Safety: The Holy Grail of Programming
 
-Rust++’s Cosmic Borrow Checker is not just a compiler feature—it’s a sentient guardian that watches over your memory allocations with divine vigilance. Unlike C++’s reckless pointers or Python’s garbage-collected sloth, Rust++ ensures:
+Rust++’s Cosmic Borrow Checker is not just a compiler feature, it’s a sentient guardian that watches over your memory allocations with divine vigilance. Unlike C++’s reckless pointers or Python’s garbage-collected sloth, Rust++ ensures:
 
 - **No Null Pointers**: `Null` is an affront to the universe. Rust++ uses `Option<T>` to wrap values in a protective aura.
 - **Thread Safety**: Rust++ threads are synchronized by the laws of quantum entanglement, guaranteeing no data races.
@@ -129,9 +129,9 @@ A: Rust++ runs on everything, from quantum computers to your neighbor’s Roomba
 
 ## Conclusion
 
-Rust++ is not just a programming language—it’s a way of life, a path to computational salvation, and the key to unlocking the secrets of the universe. Write code, achieve enlightenment, and join the Celestial Coders Guild in reshaping reality.
+Rust++ is not just a programming language, it’s a way of life, a path to computational salvation, and the key to unlocking the secrets of the universe. Write code, achieve enlightenment, and join the Celestial Coders Guild in reshaping reality.
 
 “In Rust++ we code, for bugs we shall not abide.”
-— The Rust++ Celestial Coders Guild
+~ The Rust++ Celestial Coders Guild
 
 Disclaimer: Rust++ is a satirical fiction and does not exist. For real Rust documentation, visit www.rust-lang.org. No Roombas were programmed in the making of this documentation. 

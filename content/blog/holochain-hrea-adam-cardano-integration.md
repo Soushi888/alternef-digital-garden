@@ -49,7 +49,7 @@ ADAM offers a meta-ontology that bridges diverse decentralized systems, enabling
 
 Cardano is a secure, data-centric blockchain platform that supports tokenization, smart contracts, and certification. It provides a robust layer for managing transactions, ownership models, and incentives, ensuring global accessibility and regulatory compliance for distributed production processes in OVNs.
 
-This synergy enables OVNs to steward complex distributed workflows, reward contributors fairly, and ensure compliance with regulatory standards—a critical requirement for projects like PEP Master.
+This synergy enables OVNs to steward complex distributed workflows, reward contributors fairly, and ensure compliance with regulatory standards, a critical requirement for projects like PEP Master.
 
 ## The PEP Master and Sensorica Context
 
@@ -126,7 +126,7 @@ OVNs prioritize open access to information, processes, and decision-making, ensu
 
 ## Nondominium and Diverse Property Regimes
 
-OVNs embrace various property regimes while introducing the concept of _nondominium_—assets that cannot be owned or controlled.
+OVNs embrace various property regimes while introducing the concept of _nondominium_, assets that cannot be owned or controlled.
 
 **Examples**:
 

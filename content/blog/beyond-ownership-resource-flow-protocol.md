@@ -21,7 +21,7 @@ tags:
 
 ---
 
-## 01 — The Problem
+## 01: The Problem
 
 ### We've Been Thinking About Resources All Wrong
 
@@ -29,15 +29,15 @@ Every day, millions of tools sit idle in garages. Vehicles spend 95% of their ti
 
 But what if there was another way? What if resources could flow freely through networks of people and organizations, tracked not by who owns them, but by who's caring for them, where they are, and how they're being used?
 
-This is the vision behind the **Resource Transport/Flow Protocol (RTP-FP)**—a new framework for managing shared resources in commons-based economies. It's not just a technical specification; it's a fundamental rethinking of how resources move through our world.
+This is the vision behind the **Resource Transport/Flow Protocol (RTP-FP)**, a new framework for managing shared resources in commons-based economies. It's not just a technical specification; it's a fundamental rethinking of how resources move through our world.
 
 ---
 
-## 02 — The Paradigm Shift
+## 02: The Paradigm Shift
 
 ### From Transfers to Flows
 
-Traditional systems treat resource movement as a series of discrete transfers—ownership changes hands from A to B, then from B to C. It's a linear, static view that captures only one dimension of what's actually happening.
+Traditional systems treat resource movement as a series of discrete transfers: ownership changes hands from A to B, then from B to C. It's a linear, static view that captures only one dimension of what's actually happening.
 
 #### Traditional Transfer Model
 
@@ -59,7 +59,7 @@ RTP-FP recognizes that when a power drill moves from a makerspace to a community
 
 ---
 
-## 03 — Five Dimensions
+## 03: Five Dimensions
 
 ### Tracking What Actually Matters
 
@@ -68,7 +68,7 @@ RTP-FP introduces a revolutionary concept: resources exist in five dimensions si
 | Dimension | Description |
 |-----------|-------------|
 | **Physical** | Where is the resource in space? How is it moving? What environmental conditions is it experiencing? GPS tracking, RFID, and manual check-ins all feed this dimension. |
-| **Custodial** | Who is currently responsible for the resource? What's the chain of custody? This isn't ownership—it's stewardship, with both responsibilities and benefits. |
+| **Custodial** | Who is currently responsible for the resource? What's the chain of custody? This isn't ownership, it's stewardship, with both responsibilities and benefits. |
 | **Value** | What condition is the resource in? How has its utility changed? This tracks depreciation, maintenance status, and usage patterns over time. |
 | **Legal** | What rights and responsibilities apply? Access permissions, usage restrictions, compliance requirements, and liability all live here. |
 | **Information** | What documentation travels with the resource? Maintenance records, provenance, manuals, and digital twin data create a complete history. |
@@ -77,11 +77,11 @@ RTP-FP introduces a revolutionary concept: resources exist in five dimensions si
 
 ---
 
-## 04 — Network Flows
+## 04: Network Flows
 
 ### Resources in Motion
 
-In RTP-FP, resources don't follow linear supply chains. They circulate through networks of agents, pools, and hubs—available when needed, returning when not. Think of it less like a conveyor belt and more like a living ecosystem.
+In RTP-FP, resources don't follow linear supply chains. They circulate through networks of agents, pools, and hubs, available when needed, returning when not. Think of it less like a conveyor belt and more like a living ecosystem.
 
 ```
 🏠 Agent  ⟷  🔄 Hub  ⟷  📦 Pool  ⟷  🌐 Network
@@ -91,18 +91,18 @@ In this model, a 3D printer might flow from a university makerspace to a startup
 
 The key characteristics are:
 
-- **Dynamic** — multiple paths available simultaneously
-- **Circular** — resources return to pools for redistribution
-- **Multi-path** — different agents can access resources through different routes
-- **Network-based** — no single point of failure or control
+- **Dynamic**: multiple paths available simultaneously
+- **Circular**: resources return to pools for redistribution
+- **Multi-path**: different agents can access resources through different routes
+- **Network-based**: no single point of failure or control
 
 ---
 
-## 05 — Trust Without Centralization
+## 05: Trust Without Centralization
 
 ### The Participation Receipt System
 
-How do you build trust in a decentralized network where there's no central authority verifying transactions? RTP-FP solves this with **Participation Receipts**—a peer-to-peer reputation system that builds trust through direct interaction.
+How do you build trust in a decentralized network where there's no central authority verifying transactions? RTP-FP solves this with **Participation Receipts**, a peer-to-peer reputation system that builds trust through direct interaction.
 
 Every economic interaction generates exactly two receipts: one from each party. When you borrow a tool from a makerspace, you receive a receipt acknowledging the loan, and you issue a receipt confirming you received it in good condition. These receipts accumulate over time, building a nuanced picture of each participant's reliability.
 
@@ -112,7 +112,7 @@ This reputation score then influences how much validation is required for future
 
 ---
 
-## 06 — Governance & Validation
+## 06: Governance & Validation
 
 ### Five Layers of Trust
 
@@ -151,7 +151,7 @@ Each of the five dimensions has its own governance rules and validation requirem
 
 ### Dispute Resolution
 
-When conflicts arise, RTP-FP provides a structured resolution process. Challenges are reviewed by peer validators—agents with high reputation scores and relevant expertise. The system uses a multi-validator consensus mechanism: validators independently assess the evidence and vote on the resolution.
+When conflicts arise, RTP-FP provides a structured resolution process. Challenges are reviewed by peer validators, agents with high reputation scores and relevant expertise. The system uses a multi-validator consensus mechanism: validators independently assess the evidence and vote on the resolution.
 
 > **How consensus works:** Each validator's vote is weighted by their reputation score. A resolution is adopted when it reaches a threshold level of weighted agreement. If consensus can't be reached, the dispute escalates to broader community governance.
 
@@ -161,17 +161,17 @@ The protocol also includes automated pattern-based resolution for common dispute
 
 Governance rules themselves are not static. They're encoded as semantic data (JSON-LD) and can evolve through community consensus. The system analyzes violation patterns, collects community feedback, and generates rule evolution proposals that are voted on by the network.
 
-This creates a living governance system that adapts to new use cases, changing regulations, and lessons learned from operation—all without requiring central authority to dictate changes.
+This creates a living governance system that adapts to new use cases, changing regulations, and lessons learned from operation, all without requiring central authority to dictate changes.
 
 ---
 
-## 07 — Semantic Interoperability
+## 07: Semantic Interoperability
 
 ### Speaking a Universal Language
 
-One of RTP-FP's most powerful features is its foundation on **ValueFlows**—an existing vocabulary for describing economic activities—combined with **JSON-LD** for semantic data exchange.
+One of RTP-FP's most powerful features is its foundation on **ValueFlows**, an existing vocabulary for describing economic activities, combined with **JSON-LD** for semantic data exchange.
 
-What does this mean in practice? When a resource moves from one system to another—say, from a local tool library's software to a regional sharing network—both systems can understand exactly what's being described. Not just "this is a drill" but "this is an economic resource conforming to this specification, currently in the custody of this agent, with these access rights, having undergone these maintenance events."
+What does this mean in practice? When a resource moves from one system to another (say, from a local tool library's software to a regional sharing network), both systems can understand exactly what's being described. Not just "this is a drill" but "this is an economic resource conforming to this specification, currently in the custody of this agent, with these access rights, having undergone these maintenance events."
 
 **Tech Stack:**
 - ValueFlows RDF
@@ -180,11 +180,11 @@ What does this mean in practice? When a resource moves from one system to anothe
 - SHACL Validation
 - Decentralized IDs
 
-The protocol runs on **Holochain**—a framework for building truly peer-to-peer applications where each participant maintains their own source of truth while validating against shared rules. There's no central server, no single blockchain to congest. Just a network of agents coordinating through shared protocols.
+The protocol runs on **Holochain**, a framework for building truly peer-to-peer applications where each participant maintains their own source of truth while validating against shared rules. There's no central server, no single blockchain to congest. Just a network of agents coordinating through shared protocols.
 
 ---
 
-## 08 — Core Principles
+## 08: Core Principles
 
 ### The Philosophy Behind the Protocol
 
@@ -198,15 +198,15 @@ The protocol minimizes transaction overhead for trusted participants. Resources 
 
 **3. Lifecycle Completeness**
 
-From creation through active use, maintenance, and eventual decommissioning—every phase of a resource's life is tracked through the same framework.
+From creation through active use, maintenance, and eventual decommissioning, every phase of a resource's life is tracked through the same framework.
 
 **4. Distributed Governance**
 
-Rules evolve through community consensus. Disputes are resolved by peer validators. No central authority dictates terms—the network governs itself.
+Rules evolve through community consensus. Disputes are resolved by peer validators. No central authority dictates terms. The network governs itself.
 
 ---
 
-## 09 — Applications
+## 09: Applications
 
 ### Where This Comes to Life
 
@@ -228,19 +228,19 @@ Software licenses, computing resources, and digital infrastructure managed as sh
 
 ---
 
-## 10 — The Vision
+## 10: The Vision
 
 ### Toward a Flow Economy
 
 > *"The protocol's emphasis on stewardship over ownership provides the foundation for resource sharing networks that prioritize sustainability, accessibility, and collective benefit."*
 
-RTP-FP isn't just a technical specification—it's a bet on a different kind of economy. One where resources are used more efficiently because they're shared more easily. Where trust is built through direct interaction rather than institutional intermediaries. Where the full lifecycle of every resource is visible and managed.
+RTP-FP isn't just a technical specification. It's a bet on a different kind of economy. One where resources are used more efficiently because they're shared more easily. Where trust is built through direct interaction rather than institutional intermediaries. Where the full lifecycle of every resource is visible and managed.
 
-The tools exist. The standards are maturing. From local tool libraries to global equipment sharing networks, from community makerspaces to cross-organizational resource pools—the infrastructure for a flow economy is being built, one protocol at a time.
+The tools exist. The standards are maturing. From local tool libraries to global equipment sharing networks, from community makerspaces to cross-organizational resource pools, the infrastructure for a flow economy is being built, one protocol at a time.
 
 ---
 
-## 11 — Get Involved
+## 11: Get Involved
 
 ### Join the Movement
 
@@ -248,10 +248,10 @@ RTP-FP is an open protocol, designed to evolve through community contribution. W
 
 **Key Resources:**
 
-- [ValueFlows](https://valueflo.ws) — Economic vocabulary
-- [Holochain](https://holochain.org) — Peer-to-peer infrastructure
-- [JSON-LD](https://json-ld.org) — Semantic interoperability
+- [ValueFlows](https://valueflo.ws): Economic vocabulary
+- [Holochain](https://holochain.org): Peer-to-peer infrastructure
+- [JSON-LD](https://json-ld.org): Semantic interoperability
 
 ---
 
-*Resource Transport/Flow Protocol — Building infrastructure for the commons economy*
+*Resource Transport/Flow Protocol: Building infrastructure for the commons economy*

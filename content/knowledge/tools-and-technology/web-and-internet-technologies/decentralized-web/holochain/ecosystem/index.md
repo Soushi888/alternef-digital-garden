@@ -28,13 +28,18 @@ This section explores the vibrant ecosystem surrounding Holochain technology, in
 
 - Commercial entity providing hosting services
 - Enables Holochain applications to interface with the web
-- Developed HoloFuel as a mutual credit accounting system
+- Developing HoloFuel as a mutual credit accounting system, powered by [[unyt|Unyt's]] accounting engine
 
 ### MetaCurrency Project
 
 - Philosophical and theoretical foundation
 - Research into patterns of collective intelligence
 - Development of currency design principles
+
+## Economic Infrastructure
+
+- [[hrea|hREA]]: ValueFlows implementation for economic coordination on Holochain (resource tracking, commitments, agents)
+- [[unyt|Unyt]]: Professional-grade accounting engine for decentralized networks (powers HoloFuel)
 
 ## Holochain Applications (hApps)
 
@@ -46,10 +51,10 @@ This section explores the vibrant ecosystem surrounding Holochain technology, in
 
 ### Featured hApps
 
-- Elemental Chat - Peer-to-peer messaging application
-- Acorn - Project management and coordination
-- Kizuna - Community coordination platform
-- DeepKey - Distributed key management
+- [[nondominium|Nondominium]]: Distributed resource management with custodianship model
+- [[requests-and-offers|Requests & Offers]]: P2P marketplace for skills, services, and resources
+- Acorn: Project management and coordination
+- DeepKey: Distributed key management
 
 ## Community Resources
 

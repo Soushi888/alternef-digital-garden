@@ -26,7 +26,7 @@ type: "article"
 
 *What if education could honor your unique learning rhythm? What if communities could embrace both individual sovereignty and collective wisdom? What if technology could serve human consciousness rather than exploit it?*
 
-Welcome aboard the **AlterNef** — a ship of alternatives sailing toward the Aquarian Age.
+Welcome aboard the **AlterNef**, a ship of alternatives sailing toward the Aquarian Age.
 
 ---
 
@@ -36,7 +36,7 @@ The **AlterNef** (from French "nef" meaning ship) represents more than an educat
 
 Picture this: A **modular flying Universal City** powered by plasma technology, where specialized pods house different wisdom traditions, research communities, and learning environments. These modules can **connect and separate dynamically**, allowing fluid community formation while maintaining individual autonomy.
 
-But the AlterNef is not just about reaching the skies — it's about **grounding visionary principles** in practical technologies and communities we can build today.
+But the AlterNef is not just about reaching the skies. It's about **grounding visionary principles** in practical technologies and communities we can build today.
 
 ---
 
@@ -48,10 +48,10 @@ At the heart of the AlterNef beats four revolutionary principles:
 A fundamental principle encouraging **free thinking, questioning of dogmas, and exploration of new paradigms** without persecution or limitation. In a world of increasing polarization, the AlterNef creates space for authentic exploration.
 
 ### 🕸️ **P2P Spirituality**
-Moving beyond hierarchical spiritual authority toward **horizontal networks of shared wisdom and mutual exploration**. No single person or institution holds ultimate truth — wisdom emerges from collective exploration where each person is both teacher and student.
+Moving beyond hierarchical spiritual authority toward **horizontal networks of shared wisdom and mutual exploration**. No single person or institution holds ultimate truth; wisdom emerges from collective exploration where each person is both teacher and student.
 
 ### 🌈 **Unity Without Uniformity**
-Diverse approaches to consciousness and life, all held within a **shared commitment to exploration and growth**. The AlterNef celebrates difference while fostering connection — like a jazz ensemble where individual voices create collective harmony.
+Diverse approaches to consciousness and life, all held within a **shared commitment to exploration and growth**. The AlterNef celebrates difference while fostering connection, like a jazz ensemble where individual voices create collective harmony.
 
 ### 🌀 **Non-Linear Learning**
 Education that **honors the unique pathways of each consciousness** rather than forcing standardized progression. Learning follows natural rhythms, interests, and the spiral patterns of organic development.
@@ -70,7 +70,7 @@ Imagine an AI learning companion that:
 - **Connects personal interests with community needs**
 - **Orchestrates real-time learning opportunities** and spontaneous study groups
 
-The IDI doesn't just personalize education — it **weaves individual growth into community flourishing**.
+The IDI doesn't just personalize education. It **weaves individual growth into community flourishing**.
 
 ### 🤝 **Requests & Offers: Distributed Marketplace**
 
@@ -106,13 +106,13 @@ Each person develops **unique individual gifts that complement community needs**
 Learning progresses according to **individual readiness and interest**, allowing revisiting of fundamentals at deeper levels while honoring both intense focus periods and integration time.
 
 ### 🏆 **Demonstration Over Testing**
-Validation happens through **demonstration and community contribution** rather than standardized testing — real mastery serving real needs.
+Validation happens through **demonstration and community contribution** rather than standardized testing, with real mastery serving real needs.
 
 ---
 
 ## Community Governance: Modular Democracy in Action
 
-The AlterNef pioneered **Modular Governance** — a system where:
+The AlterNef pioneered **Modular Governance**, a system where:
 
 ### 🏛️ **Module Autonomy**
 Each community pod maintains **internal decision-making authority**, developing unique practices and approaches while participating in collective decisions affecting the whole.
@@ -167,7 +167,7 @@ In an age where technology often divides and exploits, the AlterNef demonstrates
 
 ## Your Invitation Aboard
 
-The AlterNef is not a project for one person or organization — it's a **vision calling for co-creation** by all who feel drawn to alternative approaches to learning, community, and consciousness evolution.
+The AlterNef is not a project for one person or organization. It's a **vision calling for co-creation** by all who feel drawn to alternative approaches to learning, community, and consciousness evolution.
 
 Whether through:
 - Contributing to technological foundations
@@ -178,7 +178,7 @@ Whether through:
 
 **Each person's authentic participation helps birth this vision into reality.**
 
-The ship of alternatives is ready to sail — powered by plasma technology, guided by collective intelligence, and navigated by the eternal human desire for growth, discovery, and connection.
+The ship of alternatives is ready to sail, powered by plasma technology, guided by collective intelligence, and navigated by the eternal human desire for growth, discovery, and connection.
 
 *"I know that I don't know, so whatever the form of the earth is, I live her!"*
 

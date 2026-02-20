@@ -539,7 +539,7 @@ pub edited_at: Option<Timestamp>, // Last edit time
 
 ### The Critical Importance of Reading Code in the AI Era
 
-In our AI-powered development world, **reading and understanding code has become more important than ever, not less**. While AI can generate sophisticated solutions rapidly, your ability to read, comprehend, and evaluate code—both AI-generated and human-written—is what separates effective developers from those who merely copy and paste.
+In our AI-powered development world, **reading and understanding code has become more important than ever, not less**. While AI can generate sophisticated solutions rapidly, your ability to read, comprehend, and evaluate code (both AI-generated and human-written) is what separates effective developers from those who merely copy and paste.
 
 **Why Reading Code is Essential:**
 
@@ -610,11 +610,11 @@ What are the benefits of this approach?"
 the different scenarios it's trying to handle?"
 ```
 
-Remember: In the AI era, your value as a developer lies not in memorizing syntax, but in understanding systems, evaluating solutions, and making informed architectural decisions. Reading code—both AI-generated and human-written—is how you develop this crucial skill.
+Remember: In the AI era, your value as a developer lies not in memorizing syntax, but in understanding systems, evaluating solutions, and making informed architectural decisions. Reading code, both AI-generated and human-written, is how you develop this crucial skill.
 
 ### The Irreplaceable Value of Human Community
 
-While AI assistance is incredibly powerful for learning and development, **genuine human interactions remain at the core of the peer-to-peer philosophy that drives Holochain**. The community aspect isn't just nice to have—it's essential for several critical reasons:
+While AI assistance is incredibly powerful for learning and development, **genuine human interactions remain at the core of the peer-to-peer philosophy that drives Holochain**. The community aspect isn't just nice to have, it's essential for several critical reasons:
 
 **Why Human Community Matters:**
 
@@ -653,7 +653,7 @@ The **[Holochain DEV.HC Discord server](https://discord.gg/HXMUmn4PcF)** is the 
 - **Use Community for**: Architectural guidance, real-world experiences, specialized knowledge, and collaborative problem-solving
 - **Combine Both**: Use AI to prepare thoughtful questions for the community, and use community insights to guide your AI conversations
 
-The peer-to-peer nature of Holochain extends beyond just the technology—it's reflected in how the community shares knowledge, supports each other, and builds the ecosystem together. While AI is an incredible learning accelerator, the human connections you build will be invaluable for your long-term success in the ecosystem.
+The peer-to-peer nature of Holochain extends beyond just the technology. It's reflected in how the community shares knowledge, supports each other, and builds the ecosystem together. While AI is an incredible learning accelerator, the human connections you build will be invaluable for your long-term success in the ecosystem.
 
 ### AI Collaboration Best Practices
 
@@ -774,7 +774,7 @@ Keep track of what you learn, the questions that helped, and the patterns you di
 Engage with the Holochain community, contribute to open source projects, and help others as you learn.
 
 **5. Think Long-Term**
-The skills you're learning—distributed systems, safe programming, AI collaboration—will become increasingly valuable as the world moves toward decentralized architectures.
+The skills you're learning (distributed systems, safe programming, AI collaboration) will become increasingly valuable as the world moves toward decentralized architectures.
 
 **6. Embrace Patience and Curiosity**
 Even with AI assistance, difficult debugging sessions are inevitable when working with distributed systems. Patience and curiosity are your most valuable tools for working through complex problems.
@@ -820,7 +820,7 @@ You're not just learning to code; you're learning to participate in building the
 
 By combining the power of Rust's safety guarantees, Holochain's distributed architecture, and AI's teaching capabilities, you're positioned to be part of the next wave of technological innovation.
 
-The journey from beginner to proficient Holochain developer is challenging but incredibly rewarding. With AI as your learning companion and the supportive Holochain community as your guide, you have everything you need to succeed—including the patience and curiosity to work through the inevitable hard problems.
+The journey from beginner to proficient Holochain developer is challenging but incredibly rewarding. With AI as your learning companion and the supportive Holochain community as your guide, you have everything you need to succeed, including the patience and curiosity to work through the inevitable hard problems.
 
 **Remember**: Every expert was once a beginner who persevered through difficult debugging sessions. Take it one step at a time, stay curious about how things work, be patient with complex problems, and don't be afraid to ask questions. The future of decentralized computing is waiting for your contributions.
 
