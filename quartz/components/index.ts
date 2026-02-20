@@ -23,7 +23,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import SearchAndDarkmode from "./SearchAndDarkmode"
 import GitHubEditButton from "./GitHubEditButton"
-import { RecentChanges } from "./RecentChanges"
+import RecentChanges from "./RecentChanges"
 
 export {
   ArticleTitle,

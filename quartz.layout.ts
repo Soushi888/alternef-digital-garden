@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { FullSlug, SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -111,26 +112,19 @@ export const customLayouts = {
   },
 }
 
-// Register the afterBody component separately since it's part of SharedLayout, not PageLayout
-sharedPageComponents.afterBody.push((props: any) => {
-  // Use different configurations based on the current page
-  if (props.fileData.slug === "recent-changes") {
-    return Component.RecentChanges({
-      ...props,
-      limit: 20,
-      detailed: true,
-      showExcerpt: true,
-      showTags: true,
-    })
-  } else if (props.fileData.slug === "index") {
-    return Component.RecentChanges({
-      ...props,
-      limit: 5,
-      detailed: false,
-      title: "Recent Updates",
-      showCreated: true,
-      showModified: true,
-    })
-  }
-  return null
-})
+// Register RecentChanges for specific pages
+sharedPageComponents.afterBody.push(
+  Component.RecentChanges({
+    limit: 5,
+    title: "Recent Updates",
+    linkToMore: "recent-changes" as SimpleSlug,
+    pages: ["index" as FullSlug],
+  }),
+  Component.RecentChanges({
+    limit: 20,
+    detailed: true,
+    showExcerpt: true,
+    showTags: true,
+    pages: ["recent-changes" as FullSlug],
+  }),
+)

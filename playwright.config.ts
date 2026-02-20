@@ -23,11 +23,9 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html', {
-      outputFolder: './test-results/html',
+      outputFolder: './playwright-report',
       open: process.env.CI ? 'never' : 'on-failure'
     }],
-    ['json', { outputFile: './test-results/results.json' }],
-    ['junit', { outputFile: './test-results/results.xml' }],
     ['list']
   ],
 
@@ -149,8 +147,8 @@ export default defineConfig({
   ],
 
   /* Global setup and teardown */
-  globalSetup: require.resolve('./tests/global-setup.ts'),
-  globalTeardown: require.resolve('./tests/global-teardown.ts'),
+  globalSetup: './tests/global-setup.ts',
+  globalTeardown: './tests/global-teardown.ts',
 
   /* Test timeout */
   timeout: 60000,

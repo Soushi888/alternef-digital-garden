@@ -2,8 +2,9 @@
  * Test data and fixtures for RecentChanges component testing
  */
 export const TEST_CONFIG = {
-  SITE_URL: 'https://soushi888.github.io/alternef-digital-garden',
+  SITE_URL: process.env.TEST_URL || 'http://localhost:8080',
   LOCAL_URL: 'http://localhost:8080',
+  PRODUCTION_URL: 'https://soushi888.github.io/alternef-digital-garden',
 
   // Component selectors
   SELECTORS: {
@@ -207,9 +208,13 @@ export const TestDataHelpers = {
   },
 
   /**
-   * Check if a URL is valid
+   * Check if a URL or relative path is valid
    */
   isValidUrl(url: string): boolean {
+    // Accept relative paths (e.g., ./knowledge/..., ../page, /page)
+    if (url.startsWith('./') || url.startsWith('../') || url.startsWith('/')) {
+      return true;
+    }
     try {
       new URL(url);
       return true;

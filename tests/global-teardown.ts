@@ -1,4 +1,6 @@
 import { FullConfig } from '@playwright/test';
+import fs from 'fs';
+import path from 'path';
 
 /**
  * Global teardown for Playwright tests
@@ -15,9 +17,6 @@ async function globalTeardown(config: FullConfig) {
   }
 
   // Clean up any temporary files or resources
-  const fs = require('fs');
-  const path = require('path');
-
   const tempDir = path.join(process.cwd(), 'temp');
   if (fs.existsSync(tempDir)) {
     try {

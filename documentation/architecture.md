@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-Alternef Digital Garden utilizes the Quartz v4 framework, a static site generator built on Hugo, enhanced with custom TypeScript components and styling. It follows a content-centric architecture where Markdown files form the core knowledge base.
+Alternef Digital Garden utilizes the Quartz v4 framework, a custom Node.js/Preact static site generator, enhanced with custom TypeScript components and styling. It follows a content-centric architecture where Markdown files form the core knowledge base.
 
 ## 2. System Components
 
