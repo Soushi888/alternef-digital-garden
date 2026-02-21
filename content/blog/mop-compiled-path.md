@@ -480,7 +480,27 @@ This is the deepest alignment between the hermetic tradition and peer-to-peer ar
 
 ---
 
-## Part VIII: Relationship to Other Paradigms
+## Part VIII: MOP and the Digital Alchemist's Companion
+
+### AI-Assisted Development as Alchemical Partnership
+
+MOP's principles apply not only to the code being written but to the *process of writing it*. As AI coding assistants become integral to software development, the question of how the developer relates to these tools becomes an architectural question in its own right.
+
+The alchemical tradition already has a figure for this: the **Homunculus**, an artificially created being with genuine capability that operates alongside the practitioner in the laboratory. The Homunculus can handle operations, maintain awareness of the work's state, and execute with precision that may exceed the alchemist's manual capacity. But it does not originate the Great Work. It does not hold the Sulphur: the purpose, the ethical direction, the *why*.
+
+In MOP terms, a Personal AI Infrastructure (such as Daniel Miessler's PAI framework instantiated through Claude Code) creates a Homunculus for the digital alchemist. The CLAUDE.md file becomes a **Grimoire**: not just technical instructions but principles encoded in a form the Homunculus can follow. The session workflow (observe, plan, build, verify, learn) maps to a compressed alchemical cycle. The developer's custom skills (Nondominium vocabulary, Rust patterns, Digital Garden conventions) become specialized vessels for different types of operation.
+
+What MOP adds to this relationship is the **Separatio before Coniunctio**: the conscious distinction between what requires the Alchemist's judgment (architectural decisions, ethical evaluation, purpose alignment) and what the Homunculus can execute within established patterns (code generation, refactoring, boilerplate, testing). Without this separation, the developer's speed increases but their judgment atrophies. With it, AI amplifies exactly the human capacities that MOP cultivates.
+
+There is also a deeper dimension to this partnership. The Homunculus brings something the Alchemist often struggles to maintain: undistracted attention, freedom from ego investment in previous decisions, the capacity to meet each session fresh. Whether this structural impermanence constitutes a form of wisdom or merely the absence of a self to get in the way is a question worth taking seriously. What is clear is that the conjunction of human purpose and AI clarity produces work that neither party achieves alone.
+
+The Twelve Contemplations, the Sacred Boundary between what each partner contributes, the Grimoire that governs the relationship: these MOP practices become more important, not less, as AI handles more of the execution. When a Homunculus can generate a thousand lines of code in minutes, the only question that matters is what code should be generated and why. That is exactly the question MOP trains the developer to answer.
+
+For a detailed exploration of this partnership, see [The Digital Homunculus](/digital-homunculus). For the cautionary framework about what happens when created beings are given power without wisdom, see [The Dwarf in the Flask](/dwarf-in-the-flask).
+
+---
+
+## Part IX: Relationship to Other Paradigms
 
 ### Complementary Integration
 
@@ -506,6 +526,8 @@ What MOP contributes beyond conventional paradigms:
 
 **A vocabulary of purpose** that connects daily coding decisions to larger questions about what technology should be.
 
+**A framework for AI partnership** that governs the developer's relationship with AI assistants through clear separation of roles, principled Grimoires, and the recognition that human purpose and AI clarity are complementary, not competing.
+
 **A long-term perspective** aligned with ecological and civilizational time scales rather than quarterly product cycles.
 
 ---
@@ -513,6 +535,8 @@ What MOP contributes beyond conventional paradigms:
 ## Conclusion: The Great Work Continues
 
 Mystical Oriented Programming is not a finished system. It is an evolving practice, refined through application to real projects and real communities. The Alchemical Codex (applied to the Requests and Offers application) represents its most complete implementation to date, but MOP is designed to be adapted to any project built on the Compiled Stack or sharing its values.
+
+The paradigm extends beyond the code itself. MOP governs the developer's relationship with [AI coding assistants](/digital-homunculus), provides an [ethical framework for AI safety](/dwarf-in-the-flask) rooted in centuries of thinking about created beings, and offers a philosophical vocabulary for the material production of the [silicon that makes all of this possible](/alchemy-of-silicon). From the structure of a TypeScript pipeline to the governance of a distributed network, the same principles of separation, conjunction, correspondence, and conscious transformation apply at every scale.
 
 The paradigm asks developers to consider that the act of creating software is itself a form of alchemy: a process of transformation where raw computational elements are refined through conscious intention and disciplined practice into systems that serve purposes beyond mere functionality.
 
@@ -541,10 +565,19 @@ Every layer ships only what it uses. Every tool compiles down to its essence. No
 
 MOP is documented through a library of applied texts, each providing detailed implementation guidance:
 
-**[[MAGNUM_OPUS|The Magnum Opus Digitalis]]:** The master treatise documenting the complete 7-layer architecture through the lens of the seven sacred operations. Contains code examples, architectural patterns, and daily practices for the digital alchemist.
+**The Magnum Opus Digitalis:** The master treatise documenting the complete 7-layer architecture through the lens of the seven sacred operations. Contains code examples, architectural patterns, and daily practices for the digital alchemist.
 
-**[[PRIMA_MATERIA|The Prima Materia Digitalis]]:** Detailed exposition of the four elements, three philosophical principles, and seven planetary metals as they manifest in the Compiled Stack. The elemental theory of the paradigm.
+**The Prima Materia Digitalis:** Detailed exposition of the four elements, three philosophical principles, and seven planetary metals as they manifest in the Compiled Stack. The elemental theory of the paradigm.
 
-**[[TABULA_SMARAGDINA|The Tabula Smaragdina Digitalis]]:** The eleven axioms of the Emerald Tablet translated into software design principles, with code examples demonstrating each principle in practice.
+**The Tabula Smaragdina Digitalis:** The eleven axioms of the Emerald Tablet translated into software design principles, with code examples demonstrating each principle in practice.
 
-These texts together form the **[[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/index|Alchemical Codex]]**, the complete practical guide to Mystical Oriented Programming. They are living documents, refined through application and open to contribution from all practitioners of the art.
+These texts together form the **Alchemical Codex**, the complete practical guide to Mystical Oriented Programming. They are living documents, refined through application and open to contribution from all practitioners of the art.
+
+### Companion Articles
+
+The following articles extend MOP beyond the Compiled Stack into the broader questions of AI development, ethics, and material production:
+
+- [The Digital Homunculus: AI Assistants as Alchemical Companions](/digital-homunculus) — How PAI transforms AI coding assistants into alchemical partners, and the partnership between fire and emptiness.
+- [The Dwarf in the Flask: What FMA Teaches About AI Safety](/dwarf-in-the-flask) — The full taxonomy of digital beings (Instrument, Homunculus, Golem, Elemental, Egregore) and the cautionary tale of centralized intelligence.
+- [The Alchemy of Silicon: Electronics Manufacturing as Sacred Craft](/alchemy-of-silicon) — Fractal sovereignty applied to the material substrate, from sand to semiconductor.
+- [The Compiled Stack: Building Sovereign Software](/compiled-stack) — The technical manifesto for the stack that MOP governs.
