@@ -41,6 +41,16 @@ So the question becomes: what would a genuine peer sharing protocol look like? O
 
 That is the question [Nondominium](https://github.com/sensorica/nondominium) is designed to answer.
 
+### What It Looks Like in Practice
+
+Before diving into the history and architecture, consider a simple scenario. A makerspace in Montreal has a CNC machine sitting idle three days a week. A cooperative across town needs one for a short production run. Today, they would probably never find each other, or if they did, it would be through word of mouth with no shared protocol for managing the arrangement.
+
+With Nondominium, that CNC machine exists in a shared network as a resource with a custodian (the makerspace), a governance profile (who can request it, what conditions apply, what maintenance obligations come with use), and a full history of previous custodianship transfers. The cooperative discovers it through the network, initiates a request that triggers the governance rules embedded in the resource specification, and a custodianship transfer is validated and recorded. Both parties receive cryptographic participation receipts documenting the interaction. When the production run is done, the machine returns to the makerspace with its maintenance log updated and its reputation trail extended.
+
+No platform takes a cut. No central authority imposed the rules. The governance traveled with the resource itself.
+
+That is the core idea. Now let's look at where it comes from.
+
 ## The Roots: From NRP/CAS to ValueFlows to Nondominium
 
 Nondominium does not emerge from thin air. It is the latest chapter in a story that spans more than a decade of practical experimentation, standard-setting, and software development at the intersection of commons-based peer production and distributed systems.
@@ -71,11 +81,11 @@ What made REA particularly well suited to distributed economic activity was McCa
 
 What makes REA especially powerful for distributed networks is its layered ontology. As McCarthy and his collaborators refined the model, they identified three distinct layers that mirror how economic coordination actually works. The Knowledge layer defines the patterns: resource types, process recipes (reusable templates for transformations), roles, and rules. This is where each network or community configures the shared vocabulary to fit their needs. The Plan layer captures intentions and commitments: offers, requests, schedules, and promises about future activity. The Observation layer records what actually happened: the concrete economic events as they occur. This separation means a community can define its recipes once, plan collaboratively, and then track execution independently, all using the same consistent vocabulary.
 
-Drawing on this layered REA foundation, Lynn and Bob co-developed the [ValueFlows specification](https://www.valueflo.ws/). ValueFlows extends the original REA model in several critical directions. Its resource model provides flexible primitives (resource specifications, classifications, and open typing) that place no constraints on what counts as a resource, enabling communities to model services, knowledge, energy, skills, or ecological factors like CO2 and water alongside conventional goods and money. It adds a network first perspective, designed from the ground up to coordinate across organizational boundaries rather than within a single enterprise. And it formalizes the Input Process Output (IPO) pattern for modeling transformations: a Process takes Resource inputs, transforms them, and produces Resource outputs, connecting processes into flows that can span entire supply chains and circular economies.
+Drawing on this layered REA foundation, Lynn and Bob co-developed the [ValueFlows specification](https://www.valueflo.ws/). ValueFlows extends the original REA model in several critical directions. Its resource model provides flexible primitives (resource specifications, classifications, and open typing) that place no constraints on what counts as a resource, enabling communities to model services, knowledge, energy, skills, or ecological factors like CO2 and water alongside conventional goods and money. It adds a network-first perspective, designed from the ground up to coordinate across organizational boundaries rather than within a single enterprise. And it formalizes the Input Process Output (IPO) pattern for modeling transformations: a Process takes Resource inputs, transforms them, and produces Resource outputs, connecting processes into flows that can span entire supply chains and circular economies.
 
 ValueFlows is not software. It is a vocabulary: a shared set of concepts and relationships for describing economic activity in distributed networks. Think of it as a common language that different applications can speak, allowing them to interoperate without having to share a database or agree on implementation details.
 
-it was a generalization born from years of practice, grounded in four decades of accounting theory innovation. It carries the DNA of both McCarthy's REA ontology and real-world peer production inside its design.
+It was a generalization born from years of practice, grounded in four decades of accounting theory innovation. It carries the DNA of both McCarthy's REA ontology and real-world peer production inside its design.
 
 
 ### hREA and the Holochain Connection
@@ -136,21 +146,15 @@ The "private" in PPR is important. Agents control their own receipts. There is n
 
 ### Specialized Roles in the Resource Lifecycle
 
-Resources do not just sit in one place waiting to be used. They move, they need storage, they require maintenance. Nondominium models this reality through specialized roles that are not job titles but protocol-level capabilities with their own validation rules:
+Resources do not just sit in one place waiting to be used. They move, they need storage, they require maintenance. Nondominium models this reality through specialized roles that function as protocol-level capabilities, each with their own validation rules and accountability.
 
-**Transport** covers the movement of resources between custodians. A transport event records what moved, from whom, to whom, and under what conditions. Transport agents have their own credentials and accountability.
-
-**Storage** addresses the responsible stewardship of resources while they are idle. Storage is not passive. A custodian responsible for storage has obligations: environmental conditions, security, accessibility. These obligations are encoded in the resource's governance profile.
-
-**Repair and Maintenance** ensures that shared resources remain functional over time. This is where mutualization truly diverges from the "use it and forget it" model of consumer sharing platforms. When resources are held in common, their long-term health is everyone's concern, and the protocol makes maintenance visible, trackable, and accountable.
+**Transport** covers the movement of resources between custodians: what moved, from whom, to whom, and under what conditions. **Storage** addresses responsible stewardship while resources are idle, with obligations around environmental conditions, security, and accessibility encoded in the governance profile. **Repair and Maintenance** ensures that shared resources remain functional over time. This is where mutualization truly diverges from the "use it and forget it" model of consumer sharing platforms. When resources are held in common, their long-term health is everyone's concern, and the protocol makes maintenance visible, trackable, and accountable.
 
 ### Multi-Layered Validation
 
-Without a central authority, how do you ensure that transactions are legitimate, that governance rules are followed, and that bad actors cannot corrupt the system?
+Without a central authority, how do you ensure that transactions are legitimate and that governance rules are followed?
 
-Nondominium uses a multi-layered validation pipeline. Semantic validation checks that the data structures are well-formed. Business rules validation ensures that governance policies embedded in ResourceSpecifications are respected. Cryptographic validation verifies the identity and authorization of all parties. Cross-system validation handles consistency across organizational boundaries. And social/reputation validation draws on the accumulated PPR history to assess trustworthiness.
-
-No single layer is sufficient on its own. Together, they provide robust integrity without requiring anyone to trust a central server.
+Nondominium addresses this through layered validation rather than centralized enforcement. At the data level, semantic validation ensures well-formed structures and business rules check that governance policies embedded in ResourceSpecifications are respected. At the identity level, cryptographic validation verifies the authorization of all parties involved. And at the social level, the accumulated history of Private Participation Receipts provides a track record that agents can assess before entering into new arrangements. No single layer is sufficient on its own. Together, they provide robust integrity without requiring anyone to trust a central server.
 
 ## Why Holochain? The Mycelium Beneath the Forest
 
@@ -174,11 +178,7 @@ One of Holochain's most distinctive properties is that it does not require globa
 
 This mirrors how real-world resource sharing actually works between autonomous organizations. When a cooperative lends equipment to a partner, they do not wait for every organization on Earth to validate the transaction. They validate it locally, according to shared rules, and the information propagates through the network as needed.
 
-### From Development to Deployment
-
-The infrastructure for running Holochain applications is maturing rapidly. HoloPorts provide dedicated hardware for hosting Holochain applications, while HolOS offers a purpose built operating system optimized for running Holochain conductors. Edge Nodes enable always on network participation without relying on cloud servers, and the HTTP Gateway provides a bridge that allows standard web clients to interact with Holochain applications through familiar HTTP requests.
-
-We are actively exploring this infrastructure stack, deploying HolOS and Edge Nodes on HoloPorts and testing how these components work together in practice. The path from development to real distributed infrastructure is becoming tangible, not just theoretical. For Nondominium, this means the physical layer needed to run a truly distributed resource management protocol already exists and is accessible to communities ready to experiment with it.
+The physical infrastructure for running this kind of distributed application is also maturing rapidly. HoloPorts provide dedicated hardware for hosting Holochain applications, HolOS offers a purpose-built operating system for running conductors, and Edge Nodes enable always-on network participation without relying on cloud servers. We are actively deploying and testing this infrastructure stack, and the path from development to real distributed deployment is becoming tangible. For Nondominium, this means the physical layer needed to run a truly distributed resource management protocol is not hypothetical; it already exists and is accessible to communities ready to experiment.
 
 ## The Bigger Picture: Nondominium Within the True Commons Ecosystem
 
