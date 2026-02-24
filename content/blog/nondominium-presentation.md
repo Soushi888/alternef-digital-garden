@@ -1,7 +1,7 @@
 ---
 title: "Nondominium: Building the Resource Sharing Engine for the Commons Economy"
 subtitle: "How a decade of peer production experience, open economic standards, and agent-centric infrastructure are converging into a protocol for genuine resource mutualization"
-description: "From Sensorica's open value networks through ValueFlows to Nondominium — a protocol for genuine peer-to-peer resource mutualization without centralized intermediaries, built on Holochain."
+description: "From Sensorica's open value networks through Valueflows to Nondominium — a protocol for genuine peer-to-peer resource mutualization without centralized intermediaries, built on Holochain."
 date: 2026-02-21
 author: "Soushi888"
 tags:
@@ -51,13 +51,13 @@ No platform takes a cut. No central authority imposed the rules. The governance 
 
 That is the core idea. Now let's look at where it comes from.
 
-## The Roots: From NRP/CAS to ValueFlows to Nondominium
+## The Roots: From NRP/CAS to Valueflows to Nondominium
 
 Nondominium does not emerge from thin air. It is the latest chapter in a story that spans more than a decade of practical experimentation, standard-setting, and software development at the intersection of commons-based peer production and distributed systems.
 
 ### Sensorica and the Coordination Challenge
 
-[Sensorica](https://www.sensorica.co) was co-founded in 2011 by Tiberius Brastaviceanu (Tibi) as an [Open Value Network](https://wiki.p2pfoundation.net/Open_Value_Network) (OVN), one of the first organizations to seriously attempt commons-based peer production outside of software. Unlike traditional companies or even cooperatives, Sensorica has no employees, no bosses, and no fixed hierarchy. Contributors self-organize around projects, pool resources, and share the value they create according to transparent contribution accounting.
+[Sensorica](https://www.sensorica.co) was co-founded in 2011 by Tiberius Brastaviceanu (Tibi) as an [Open Value Network](https://wiki.p2pfoundation.net/Open_Value_Network) (OVN), one of the first organizations to seriously attempt commons-based peer production outside of software. Unlike traditional companies or even cooperatives, Sensorica has no employees, no bosses, and no fixed hierarchy. Contributors self-organize around projects, pool resources, and share the benefits according to transparent contribution accounting.
 
 Running an organization like this surfaces coordination challenges that most economic software simply ignores. How do you track who contributed what when there is no payroll? How do you manage shared equipment when there is no single owner? How do you coordinate resource flows across a network of autonomous contributors without a central authority dictating terms?
 
@@ -71,7 +71,7 @@ NRP/CAS allowed Sensorica to track contributions, manage shared resources, coord
 
 Despite this limitation, the NRP/CAS was a remarkable learning machine. Tibi, as both co-founder of the network and active participant in the development process, brought the daily operational reality of running an OVN to the design table, while Lynn and Bob brought the software architecture and accounting theory. Years of running a real peer production network on real software produced hard-won insights about what works, what breaks, and what patterns keep recurring regardless of the specific organization using them.
 
-### The Generalization: ValueFlows
+### The Generalization: Valueflows
 
 Lynn and Bob did not stop at building one tool for one organization. They recognized that the patterns emerging from Sensorica's experience were universal. Any network of autonomous agents coordinating economic activity would face the same fundamental challenges: tracking resources, recording events, making commitments, expressing intentions.
 
@@ -81,18 +81,18 @@ What made REA particularly well suited to distributed economic activity was McCa
 
 What makes REA especially powerful for distributed networks is its layered ontology. As McCarthy and his collaborators refined the model, they identified three distinct layers that mirror how economic coordination actually works. The Knowledge layer defines the patterns: resource types, process recipes (reusable templates for transformations), roles, and rules. This is where each network or community configures the shared vocabulary to fit their needs. The Plan layer captures intentions and commitments: offers, requests, schedules, and promises about future activity. The Observation layer records what actually happened: the concrete economic events as they occur. This separation means a community can define its recipes once, plan collaboratively, and then track execution independently, all using the same consistent vocabulary.
 
-Drawing on this layered REA foundation, Lynn and Bob co-developed the [ValueFlows specification](https://www.valueflo.ws/). ValueFlows extends the original REA model in several critical directions. Its resource model provides flexible primitives (resource specifications, classifications, and open typing) that place no constraints on what counts as a resource, enabling communities to model services, knowledge, energy, skills, or ecological factors like CO2 and water alongside conventional goods and money. It adds a network-first perspective, designed from the ground up to coordinate across organizational boundaries rather than within a single enterprise. And it formalizes the Input Process Output (IPO) pattern for modeling transformations: a Process takes Resource inputs, transforms them, and produces Resource outputs, connecting processes into flows that can span entire supply chains and circular economies.
+Drawing on this layered REA foundation, Lynn and Bob co-developed the [Valueflows specification](https://www.valueflo.ws/). Valueflows extends the original REA model in several critical directions. Its resource model provides flexible primitives (resource specifications, classifications, and open typing) that place no constraints on what counts as a resource, enabling communities to model services, knowledge, energy, skills, or ecological factors like CO2 and water alongside conventional goods and money. It adds a network-first perspective, designed from the ground up to coordinate across organizational boundaries rather than within a single enterprise. And it formalizes the Input Process Output (IPO) pattern for modeling transformations: a Process takes Resource inputs, transforms them, and produces Resource outputs, connecting processes into flows that can span entire supply chains and circular economies.
 
-ValueFlows is not software. It is a vocabulary: a shared set of concepts and relationships for describing economic activity in distributed networks. Think of it as a common language that different applications can speak, allowing them to interoperate without having to share a database or agree on implementation details.
+Valueflows is not software. It is a vocabulary: a shared set of concepts and relationships for describing economic activity in distributed networks. Think of it as a common language that different applications can speak, allowing them to interoperate without having to share a database or agree on implementation details.
 
 It was a generalization born from years of practice, grounded in four decades of accounting theory innovation. It carries the DNA of both McCarthy's REA ontology and Sensorica's real-world peer production inside its design.
 
 
 ### hREA and the Holochain Connection
 
-The next step was bringing ValueFlows to a distributed computing platform that matched its values. [hREA](https://github.com/h-REA/hREA) (Holochain REA) implements the ValueFlows specification on [Holochain](https://www.holochain.org/), providing a reference implementation that any Holochain application can build upon. The vocabulary is now being adopted across [multiple projects](https://www.valueflo.ws/appendix/usedfor/) in the Holochain ecosystem and beyond, creating the foundation for an interoperable network of economic applications that speak the same language.
+The next step was bringing Valueflows to a distributed computing platform that matched its values. [hREA](https://github.com/h-REA/hREA) (Holochain REA) implements the Valueflows specification on [Holochain](https://www.holochain.org/), providing a reference implementation that any Holochain application can build upon. The vocabulary is now being adopted across [multiple projects](https://www.valueflo.ws/appendix/usedfor/) in the Holochain ecosystem and beyond, creating the foundation for an interoperable network of economic applications that speak the same language.
 
-Nondominium picks up this thread and pushes it into specific, uncharted territory: applying ValueFlows to the challenge of resource mutualization across organizational boundaries.
+Nondominium picks up this thread and pushes it into specific, uncharted territory: applying Valueflows to the challenge of resource mutualization across organizational boundaries.
 
 ## What Is Nondominium?
 
@@ -132,11 +132,11 @@ This positions Nondominium as a bridge between business-to-business and communit
 
 ## How It Works: The Protocol Layer
 
-### ValueFlows Compliance
+### Valueflows Compliance
 
-Nondominium is fully compliant with the [ValueFlows specification](https://www.valueflo.ws/) and built on [REA accounting theory](https://en.wikipedia.org/wiki/Resources,_Events,_Agents). Every economic activity in the system is described using the same vocabulary: Resources, Events, Agents, Processes, Commitments, Intents. This is not proprietary infrastructure. It is built on open standards that have been refined by the ValueFlows community over years of collaborative development. (For the full protocol design, see the [core specifications](https://github.com/Sensorica/nondominium/blob/main/documentation/specifications/specifications.md).)
+Nondominium is fully compliant with the [Valueflows specification](https://www.valueflo.ws/) and built on [REA accounting theory](https://en.wikipedia.org/wiki/Resources,_Events,_Agents). Every economic activity in the system is described using the same vocabulary: Resources, Events, Agents, Processes, Commitments, Intents. This is not proprietary infrastructure. It is built on open standards that have been refined by the Valueflows community over years of collaborative development. (For the full protocol design, see the [core specifications](https://github.com/Sensorica/nondominium/blob/main/documentation/specifications/specifications.md).)
 
-This matters for interoperability. Any other ValueFlows-compatible application, whether built on Holochain, on the Fediverse through [Bonfire](https://bonfirenetworks.org/), or on any other platform, can potentially interact with Nondominium's data. The economic grammar is shared.
+This matters for interoperability. Any other Valueflows-compatible application, whether built on Holochain, on the Fediverse through [Bonfire](https://bonfirenetworks.org/), or on any other platform, can potentially interact with Nondominium's data. The economic grammar is shared.
 
 ### Private Participation Receipts
 
@@ -192,7 +192,7 @@ Nondominium's specific focus is resource mutualization. It answers the questions
 
 ### True Commons: The Peer Production Platform
 
-[True Commons](https://github.com/Sensorica/true_commons) is the broader platform being developed for commons-based peer production, guided by Tibi's long-standing vision of a complete infrastructure for Open Value Networks. Co-developed by Tibi as domain architect and Sacha Pignot as technical developer, it is essentially the next-generation NRP/CAS built on Holochain and ValueFlows. Where Nondominium handles resources, True Commons handles the full scope of peer production coordination: contribution accounting, benefit redistribution through its redistribution algorithm, stigmergic coordination (enabling contributors to self-organize around visible needs and opportunities), and process management.
+[True Commons](https://github.com/Sensorica/true_commons) is the broader platform being developed for commons-based peer production, guided by Tibi's long-standing vision of a complete infrastructure for Open Value Networks. Co-developed by Tibi as domain architect and Sacha Pignot as technical developer, it is essentially the next-generation NRP/CAS built on Holochain and Valueflows. Where Nondominium handles resources, True Commons handles the full scope of peer production coordination: contribution accounting, benefit redistribution through its redistribution algorithm, stigmergic coordination (enabling contributors to self-organize around visible needs and opportunities), and process management.
 
 ### How the Pieces Compose
 
@@ -208,13 +208,13 @@ This is not just a vision. It is a direct continuation of the work that Lynn Fos
 
 ## Future Horizons
 
-One of the natural questions that arises with resource mutualization is: what about the transactional layer? When resources flow between custodians, when maintenance is performed, when transport is arranged, there are often economic exchanges involved. Nondominium tracks these flows through ValueFlows events, but the integration of actual currency systems opens another dimension entirely.
+One of the natural questions that arises with resource mutualization is: what about the transactional layer? When resources flow between custodians, when maintenance is performed, when transport is arranged, there are often economic exchanges involved. Nondominium tracks these flows through Valueflows events, but the integration of actual currency systems opens another dimension entirely.
 
 This is where projects like [Unyt](https://unyt.co/) become particularly interesting. Unyt, a subsidiary of the [Holochain Foundation](https://www.holochain.org/foundation/), provides professional-grade accounting infrastructure for mutual credit currencies on Holochain, enabling high-volume microtransactions without the consensus bottlenecks of blockchain systems. Unyt already supports one-to-one, one-to-many, and many-to-many transactions, and Nondominium is designed to match this flexibility in its own resource coordination workflows. The potential to integrate Mutual Credit Currencies into Nondominium's resource flows, allowing custodianship transfers and service contributions to carry economic weight natively within the protocol, is a direction we are actively exploring. Early conversations are underway, though this integration is still in its conceptual phase.
 
 The vision is composability: Nondominium for resource governance, True Commons for contribution accounting, and Unyt-powered currencies for the transactional fabric connecting them. Each piece remains independent, but together they could form a complete economic operating system for the commons.
 
-It is also worth noting the complementary work happening in the broader Holochain ecosystem. The [Requests and Offers](https://github.com/happenings-community/requests-and-offers) application, developed by the hAppenings Community, addresses the discovery and matching layer: how agents signal what they need and what they can provide. Built on Holochain, hREA/ValueFlows and potentially compatible with Unyt too, Requests and Offers could serve as a natural front door to the resource sharing workflows that Nondominium manages behind the scenes and inspire the matching layer for True Commons.
+It is also worth noting the complementary work happening in the broader Holochain ecosystem. The [Requests and Offers](https://github.com/happenings-community/requests-and-offers) application, developed by the hAppenings Community, addresses the discovery and matching layer: how agents signal what they need and what they can provide. Built on Holochain, hREA/Valueflows and potentially compatible with Unyt too, Requests and Offers could serve as a natural front door to the resource sharing workflows that Nondominium manages behind the scenes and inspire the matching layer for True Commons.
 
 ## Where We Are and How to Get Involved
 
@@ -226,12 +226,12 @@ We are building this as open infrastructure for the commons economy, and we need
 
 **If you represent an organization** that manages shared resources, whether a cooperative, a makerspace, a tool library, or any network where resources flow between autonomous participants, we are looking for pilot partners who want to test real-world mutualization workflows.
 
-**If you are interested in funding** commons-based infrastructure, Nondominium is positioned at a critical intersection: [ValueFlows](https://www.valueflo.ws/) compliance ensures interoperability, Holochain provides the distributed substrate, and the protocol addresses a real, unsolved problem in the cooperative and commons economy.
+**If you are interested in funding** commons-based infrastructure, Nondominium is positioned at a critical intersection: [Valueflows](https://www.valueflo.ws/) compliance ensures interoperability, Holochain provides the distributed substrate, and the protocol addresses a real, unsolved problem in the cooperative and commons economy.
 
 The sharing economy promised that technology would help people share resources more effectively. That promise was captured by platforms that turned sharing into extraction. Nondominium is part of the effort to fulfill the original promise, building the tools for genuine resource mutualization, one protocol at a time.
 
 ---
 
-*Nondominium is developed by [Sensorica](https://www.sensorica.co), under the vision of co-founder Tiberius Brastaviceanu, with Sacha Pignot as technical developer. It builds on the foundational work of Lynn Foster and Bob Haugen ([ValueFlows](https://www.valueflo.ws/), NRP/CAS) and the [hREA](https://github.com/h-REA/hREA) implementation on Holochain. Sacha Pignot also collaborates with the [hAppenings Community](https://happeningscommunity.substack.com/) on the Requests and Offers application, a complementary Holochain project for peer-to-peer needs and offers matching.*
+*Nondominium is developed by [Sensorica](https://www.sensorica.co), under the vision of co-founder Tiberius Brastaviceanu, with Sacha Pignot as technical developer. It builds on the foundational work of Lynn Foster and Bob Haugen ([Valueflows](https://www.valueflo.ws/), NRP/CAS) and the [hREA](https://github.com/h-REA/hREA) implementation on Holochain. Sacha Pignot also collaborates with the [hAppenings Community](https://happeningscommunity.substack.com/) on the Requests and Offers application, a complementary Holochain project for peer-to-peer needs and offers matching.*
 
 *To learn more or get involved, reach out through [Sensorica](https://www.sensorica.co) or explore the [Nondominium repository on GitHub](https://github.com/sensorica/nondominium).*
