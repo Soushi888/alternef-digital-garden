@@ -87,9 +87,13 @@ Techniques for building robust and maintainable software.
 
 #### Error Handling
 
-- Defensive Programming
+- [[defensive-programming|Defensive Programming]]
 - Fail-Fast Principle
 - Error Propagation Strategies
+
+#### Resilience Engineering
+
+- [[chaos-engineering|Chaos Engineering]]
 
 #### Performance Patterns
 
