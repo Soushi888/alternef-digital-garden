@@ -1,21 +1,24 @@
 ---
 name: dg-blog
-description: Blog post authoring for the Alternef Digital Garden. Use when creating, editing, or translating blog posts. Triggers on blog writing, post structure questions, French translation, and writing voice guidance.
+description: Blog post authoring for Alternef Digital Garden. USE WHEN writing blog posts, editing posts, EN→FR translation, writing voice questions, moving drafts to published.
 ---
 
 # Digital Garden Blog Authoring
 
-## Overview
+Persistent knowledge layer for blog posts in the Alternef Digital Garden. Covers architecture, frontmatter patterns, content structure, writing voice, and EN→FR translation.
 
-Persistent knowledge layer for writing blog posts in the Alternef Digital Garden. Covers blog architecture, frontmatter patterns, content structure, writing voice, and EN→FR translation workflow.
+## Workflow Routing
 
-## When to Use
+| Trigger | Command |
+|---------|---------|
+| Create new blog post | `/dg:create` (content-type: blog) |
+| Edit or improve post | `/dg:improve` |
+| Translate post to French | `/dg:translate` (uses `TranslationWorkflow.md`) |
+| Publish draft blog post | `/dg:publish` |
+| Sync post to GitHub | `/dg:sync` |
+| Validate blog structure | Add `--validate` flag to any command |
 
-- Creating new blog posts (complements `/dg:create` with content-type `blog`)
-- Editing existing blog posts
-- Translating posts to French
-- Questions about writing voice or style
-- Moving drafts from `unpublished/` to `blog/`
+**Context files:** `BlogStyleGuide.md` · `TranslationWorkflow.md` · `BlogPostEnTemplate.md` · `BlogPostFrTemplate.md`
 
 ## Blog Architecture
 
@@ -145,7 +148,7 @@ Posts typically end with:
 **Good framing**:
 > This is not a sharing economy. It is a micro-service economy with better marketing.
 
-See `references/blog-style-guide.md` for detailed voice guidance with more examples.
+See `BlogStyleGuide.md` for detailed voice guidance with more examples.
 
 ## Blog-to-Knowledge Connection
 
@@ -158,7 +161,7 @@ This creates bidirectional connections between blog analysis and reference knowl
 
 ## French Translation
 
-French translations live in `content/blog/fr/`. See `references/translation-workflow.md` for the complete EN→FR workflow.
+French translations live in `content/blog/fr/`. See `TranslationWorkflow.md` for the complete EN→FR workflow.
 
 Key conventions:
 - Add `language: "fr"` to frontmatter

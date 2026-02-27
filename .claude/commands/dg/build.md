@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Bash, Glob, TodoWrite, mcp__pieces-os__ask_pieces_ltm, mcp__pieces-os__create_pieces_memory, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
+allowed-tools: [Read, Bash, Glob, TodoWrite, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
 description: "Build and serve Quartz digital garden with comprehensive error handling and optimization"
 ---
 
@@ -14,7 +14,7 @@ Build, serve, and deploy your Quartz digital garden with built-in error handling
 
 ## Usage
 ```
-/dg:build [mode] [--serve] [--clean] [--optimize] [--watch] [--port number]
+/dg:build [mode] [--serve] [--clean] [--optimize] [--watch] [--port number] [--validate]
 ```
 
 ## Arguments
@@ -24,9 +24,12 @@ Build, serve, and deploy your Quartz digital garden with built-in error handling
 - `--optimize` - Enable production optimizations
 - `--watch` - Enable file watching for development
 - `--port` - Specify server port (default: 8080)
+- `--validate` - Run content-level validation (frontmatter, links, taxonomy) before building
 
 ## Execution
-1. **Context Gathering**: Query Pieces MCP for build patterns, common issues, and optimization history
+1. **Context Gathering**: Read PAI memory for relevant patterns.
+   - Grep ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/ for relevant past patterns
+   - Read memory/dg-patterns.md if it exists (garden-specific learnings)
 2. **Environment Detection**: Determine build context and requirements
 3. **Pre-Build Validation**: Run critical validation checks before building
 4. **Dependency Check**: Verify Node.js, Bun, and required packages
@@ -36,7 +39,8 @@ Build, serve, and deploy your Quartz digital garden with built-in error handling
 8. **Server Management**: Start/manage development server if requested
 9. **Playwright Testing**: Use Playwright MCP to validate site functionality and link integrity
 10. **Performance Verification**: Test Core Web Vitals and accessibility with Playwright
-11. **Memory Creation**: Document build patterns and issue resolutions
+11. **Memory Update**: Append key patterns to PAI memory.
+   - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
 ## Built-in Build Knowledge
 
@@ -473,7 +477,7 @@ Browser Cache:
 ```
 
 ## Claude Code Integration
-- **Pieces Context**: Leverages build history, error patterns, and optimization strategies
+- **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
 - **Environment Intelligence**: Built-in knowledge of development vs production requirements
 - **Error Diagnosis**: Comprehensive error pattern recognition and automated fixes
 - **Performance Monitoring**: Built-in performance targets and optimization suggestions
@@ -483,3 +487,13 @@ Browser Cache:
 - **Playwright Testing**: Automated browser testing for link validation, performance, and accessibility
 - **Index Link Verification**: Specific testing to ensure absolute path index links work correctly
 - **Memory Preservation**: Documents successful build patterns and troubleshooting solutions
+
+## PAI ISC Template
+
+When using this command, OBSERVE phase should verify these criteria:
+
+- ISC: Quartz build completes with zero errors in output
+- ISC: All index file wikilinks resolve correctly in built site
+- ISC: Knowledge graph renders correct domain color nodes
+- ISC-A: Build cache not corrupted by interrupted build process
+- ISC-A: Draft content not visible in production build output

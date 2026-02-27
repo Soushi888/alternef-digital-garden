@@ -1,9 +1,13 @@
 ---
-allowed-tools: [Read, Bash, Glob, Grep, TodoWrite, mcp__pieces-os__ask_pieces_ltm, mcp__pieces-os__create_pieces_memory]
+allowed-tools: [Read, Bash, Glob, Grep, TodoWrite]
 description: "Sync digital garden changes to GitHub with intelligent commit messages and deployment automation"
 ---
 
 # /dg:sync - Git Integration & Deployment
+
+## Complementary Skills
+
+None required — sync is a pure git deployment workflow. No domain knowledge skill needed.
 
 ## Purpose
 Synchronize digital garden changes to GitHub with intelligent commit message generation, automated deployment, and comprehensive change tracking.
@@ -22,7 +26,9 @@ Synchronize digital garden changes to GitHub with intelligent commit message gen
 - `--validate` - Run validation before syncing
 
 ## Execution
-1. **Context Gathering**: Query Pieces MCP for sync patterns, deployment history, and change patterns
+1. **Context Gathering**: Read PAI memory for relevant patterns.
+   - Grep ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/ for relevant past patterns
+   - Read memory/dg-patterns.md if it exists (garden-specific learnings)
 2. **Change Analysis**: Analyze local changes and generate intelligent commit messages
 3. **Pre-Sync Validation**: Run content validation and build checks
 4. **Git Operations**: Execute git commands with proper error handling
@@ -30,7 +36,8 @@ Synchronize digital garden changes to GitHub with intelligent commit message gen
 6. **Deployment**: Deploy to GitHub Pages if requested
 7. **Post-Sync Verification**: Verify successful deployment and site accessibility
 8. **Status Reporting**: Provide detailed sync and deployment status
-9. **Memory Creation**: Document sync patterns and deployment configurations
+9. **Memory Update**: Append key patterns to PAI memory.
+   - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
 ## Built-in Git Knowledge
 
@@ -337,7 +344,7 @@ git push --force origin main
 ```
 
 ## Claude Code Integration
-- **Pieces Context**: Leverages deployment history and sync patterns for improved automation
+- **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
 - **Change Intelligence**: Built-in analysis of content changes for smart commit message generation
 - **Git Expertise**: Comprehensive Git workflow management with error recovery
 - **Deployment Automation**: Streamlined GitHub Pages deployment with validation
@@ -345,3 +352,11 @@ git push --force origin main
 - **Performance Monitoring**: Built-in site health checks and deployment verification
 - **Version Control**: Advanced Git operations with safety checks and rollback capabilities
 - **Memory Preservation**: Documents successful deployment patterns and configurations
+
+## PAI ISC Template
+When this command runs, OBSERVE generates these ISC:
+- ISC: Git staging contains only intended content files
+- ISC: Commit message follows garden commit pattern (feat/fix/chore)
+- ISC: Remote repository is alternef-digital-garden before push
+- ISC-A: Force push not executed without explicit Soushi confirmation
+- ISC-A: .env or credentials files not staged in commit

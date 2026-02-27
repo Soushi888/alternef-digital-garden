@@ -114,9 +114,12 @@ Skills provide the **knowledge layer** (taxonomy, style guide, architecture); co
 | Command | Complementary Skill | Relationship |
 |---------|---------------------|--------------|
 | `/dg:create` | `dg-notes`, `dg-blog` | Skills inform domain classification, frontmatter, and writing voice during creation |
-| `/dg:validate` | `dg-notes` | Skill's taxonomy and rules define what validation checks against |
-| `/dg:improve` | `dg-notes`, `dg-blog` | Skills provide quality rubric and style guide for improvements |
-| `/dg:link` | `dg-notes` | Skill's wikilink rules and cross-domain mappings guide linking |
+| `/dg:improve` | `dg-notes`, `dg-blog` | Skills provide quality rubric, style guide, and wikilink rules for improvements and linking (`--focus links`) |
 | `/dg:organize` | `dg-notes` | Skill's domain taxonomy drives reorganization decisions |
 | `/dg:build` | `dg-quartz-dev` | Skill provides architecture knowledge for debugging build issues |
 | `/dg:sync` | — | Deployment workflow, no specialized knowledge needed |
+| `/dg:explore` | `dg-notes`, `dg-quartz-dev` | Skills provide domain taxonomy and graph structure context for analysis |
+| `/dg:translate` | `dg-blog` | Skill's TranslationWorkflow.md provides complete EN→FR rules and voice conventions |
+| `/dg:publish` | `dg-notes` | Skill provides domain classification for placing unpublished content |
+
+Note: `--validate` is a flag available on `create`, `improve`, `organize`, `build`, and `sync` — not a standalone command.

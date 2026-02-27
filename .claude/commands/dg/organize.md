@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite, mcp__pieces-os__ask_pieces_ltm, mcp__pieces-os__create_pieces_memory]
+allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite]
 description: "Organize and restructure digital garden content with automatic link updates and index management"
 ---
 
@@ -14,7 +14,7 @@ Reorganize digital garden content structure, move files between domains, and mai
 
 ## Usage
 ```
-/dg:organize [operation] [source] [target] [--update-links] [--create-index] [--dry-run]
+/dg:organize [operation] [source] [target] [--update-links] [--create-index] [--dry-run] [--validate]
 ```
 
 ## Arguments
@@ -24,17 +24,21 @@ Reorganize digital garden content structure, move files between domains, and mai
 - `--update-links` - Automatically update all internal links (default: true)
 - `--create-index` - Generate index.md files for new/updated folders
 - `--dry-run` - Preview changes without executing
+- `--validate` - Run full link health and frontmatter check on all affected files after reorganization
 
 ## Execution
-1. **Context Gathering**: Query Pieces MCP for organizational patterns and content relationships
+1. **Context Gathering**: Read PAI memory for relevant patterns.
+   - Grep ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/ for relevant past patterns
+   - Read memory/dg-patterns.md if it exists (garden-specific learnings)
 2. **Structure Analysis**: Analyze current content structure and identify optimization opportunities
 3. **Path Planning**: Plan target structure with Quartz-compatible paths
 4. **Link Discovery**: Find all internal links pointing to content being moved
 5. **Content Migration**: Move files with proper path handling
 6. **Link Updates**: Update all internal references to moved content
 7. **Index Generation**: Create/update index.md files for affected folders
-8. **Validation**: Verify all links work after reorganization
-9. **Memory Creation**: Document organizational improvements for future reference
+8. **Validation** (always runs for link integrity; `--validate` adds full frontmatter and taxonomy checks)
+9. **Memory Update**: Append key patterns to PAI memory.
+   - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
 ## Built-in Organization Patterns
 
@@ -228,7 +232,7 @@ Description of this category within the domain.
 - [ ] Document organizational changes
 
 ## Claude Code Integration
-- **Pieces Context**: Leverages content relationship history and organizational patterns
+- **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
 - **Structural Intelligence**: Built-in knowledge of optimal Quartz content organization
 - **Link Management**: Comprehensive link discovery and update system
 - **Index Automation**: Automatic generation of folder index files
@@ -236,3 +240,11 @@ Description of this category within the domain.
 - **Backup Creation**: Creates organizational snapshots before major changes
 - **Batch Operations**: Efficient handling of large-scale reorganization
 - **Memory Preservation**: Documents successful organizational improvements
+
+## PAI ISC Template
+When this command runs, OBSERVE generates these ISC:
+- ISC: All wikilinks updated across garden after file moves
+- ISC: Moved content appears in correct domain index page
+- ISC: No broken wikilinks remain after reorganization
+- ISC-A: Index links still use absolute paths after all moves
+- ISC-A: No content deleted without explicit confirmation

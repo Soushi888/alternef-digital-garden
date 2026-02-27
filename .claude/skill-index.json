@@ -1,0 +1,17 @@
+[
+  {
+    "name": "dg-notes",
+    "triggers": ["note", "knowledge", "domain", "taxonomy", "wikilink", "frontmatter", "index", "classify", "organize content"],
+    "description": "Knowledge note management: domain taxonomy, classification, frontmatter, linking rules"
+  },
+  {
+    "name": "dg-blog",
+    "triggers": ["blog", "post", "article", "write", "translate", "french", "EN→FR", "writing voice", "blog series"],
+    "description": "Blog post authoring: architecture, writing voice, EN→FR translation"
+  },
+  {
+    "name": "dg-quartz-dev",
+    "triggers": ["component", "plugin", "scss", "preact", "test", "build", "layout", "quartz", "tsx", "stylesheet", "e2e"],
+    "description": "Quartz framework development: Preact components, plugins, SCSS, testing"
+  }
+]

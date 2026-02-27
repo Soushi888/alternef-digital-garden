@@ -1,22 +1,25 @@
 ---
 name: dg-notes
-description: Knowledge note management for the Alternef Digital Garden. Use when creating, classifying, or organizing knowledge notes in any of the 7 domains. Triggers on note creation, domain classification, frontmatter questions, index management, and wikilink patterns.
+description: Knowledge note management for Alternef Digital Garden. USE WHEN note creation, domain classification, frontmatter, wikilinks, index management, note quality review.
 ---
 
 # Digital Garden Knowledge Notes
 
-## Overview
+Persistent knowledge layer for the Alternef Digital Garden's 7-domain taxonomy. Provides classification heuristics, frontmatter conventions, content structure patterns, and linking rules.
 
-Persistent knowledge layer for managing notes in the Alternef Digital Garden's 7-domain taxonomy. Provides classification heuristics, frontmatter conventions, content structure patterns, and linking rules that inform better decisions during note creation and organization.
+## Workflow Routing
 
-## When to Use
+| Trigger | Command |
+|---------|---------|
+| Create new knowledge note | `/dg:create` |
+| Organize or restructure notes | `/dg:organize` |
+| Improve note quality | `/dg:improve` |
+| Add or audit links between notes | `/dg:improve --focus links` |
+| Explore domain stats and gaps | `/dg:explore` |
+| Publish draft to correct domain | `/dg:publish` |
+| Validate frontmatter and links | Add `--validate` flag to any command |
 
-- Creating new knowledge notes (complements `/dg:create`)
-- Classifying content into the correct domain
-- Writing or fixing frontmatter
-- Managing index pages
-- Building wikilinks between notes
-- Reviewing note quality
+**Context files:** `DomainTaxonomy.md` · `ContentQualityRubric.md` · `KnowledgeNoteTemplate.md` · `DomainIndexTemplate.md` · `CategoryIndexTemplate.md`
 
 ## Domain Taxonomy
 
@@ -30,7 +33,7 @@ Persistent knowledge layer for managing notes in the Alternef Digital Garden's 7
 | Finance & Economics | `finance-and-economics/` | `#1abc9c` | Economics, crypto, REA accounting, sustainable economy |
 | Governance & Community | `governance-and-community/` | `#34495e` | Governance models, digital fabrics, sociocracy, OVNs |
 
-See `references/domain-taxonomy.md` for the complete taxonomy with all subdirectories and tag lists.
+See `DomainTaxonomy.md` for the complete taxonomy with all subdirectories and tag lists.
 
 ## Classification Heuristics
 
@@ -135,4 +138,15 @@ When adding a note to a directory, check if the parent index needs updating.
 
 ## Quality Rubric
 
-See `references/content-quality-rubric.md` for the scoring system used to evaluate note quality across structure, clarity, completeness, and connections.
+See `ContentQualityRubric.md` for the scoring system used to evaluate note quality across structure, clarity, completeness, and connections.
+
+## Validation Utility
+
+`Tools/ValidateNotes.sh` — Shell script for batch validation of notes in a domain directory. Used internally by the `--validate` flag across `/dg:create`, `/dg:improve`, `/dg:organize`, and `/dg:build`.
+
+Run directly for quick batch checks:
+```bash
+bash .claude/skills/dg-notes/Tools/ValidateNotes.sh content/knowledge/tools-and-technology/
+```
+
+Checks: frontmatter completeness (title, tags, date), kebab-case filenames, no emdash characters.

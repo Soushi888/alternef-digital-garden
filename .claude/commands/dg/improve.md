@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite, mcp__pieces-os__ask_pieces_ltm, mcp__pieces-os__create_pieces_memory, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
+allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
 description: "Enhance existing digital garden content with AI-driven improvements for structure, clarity, comprehensiveness, and engagement"
 ---
 
@@ -15,7 +15,7 @@ Analyze and enhance existing digital garden content with AI-driven improvements 
 
 ## Usage
 ```
-/dg:improve [target] [--focus area] [--aggressiveness level] [--dry-run] [--interactive]
+/dg:improve [target] [--focus area] [--aggressiveness level] [--dry-run] [--interactive] [--validate]
 ```
 
 ## Arguments
@@ -25,20 +25,25 @@ Analyze and enhance existing digital garden content with AI-driven improvements 
 - `--dry-run` - Preview improvements without applying changes
 - `--interactive` - Review each improvement before applying
 - `--domain` - Focus on specific knowledge domain only
+- `--validate` - Run link health and frontmatter validation on all modified files after improvements are applied
 
 ## Execution
-1. **Context Gathering**: Query Pieces MCP for improvement patterns and content enhancement history
+1. **Context Gathering**: Read PAI memory for relevant patterns.
+   - Grep ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/ for relevant past patterns
+   - Read memory/dg-patterns.md if it exists (garden-specific learnings)
 2. **Content Analysis**: Deep analysis of target content for quality, structure, and completeness
 3. **Improvement Scoring**: Rate content across multiple dimensions and identify enhancement opportunities
 4. **Enhancement Generation**: Create specific, actionable improvements based on analysis
-5. **Link Optimization**: Identify and create strategic internal connections
+5. **Link Management**: Identify and create strategic wikilinks; for `--focus links`, run full bidirectional link operations (create, analyze, suggest, map) using patterns from the Link Management section below
 6. **Structure Refinement**: Optimize headings, lists, content flow, and organization
 7. **Clarity Enhancement**: Improve readability, explanations, and concept presentation
 8. **Completeness Analysis**: Add missing sections, examples, or context where needed
 9. **Frontmatter Validation**: Analyze and validate YAML frontmatter metadata for completeness and correctness
 10. **Playwright Validation**: Test improved content renders correctly and links function
 11. **Quality Assurance**: Verify improvements enhance rather than detract from content
-12. **Memory Creation**: Document successful improvement patterns for future application
+12. **Validation** (if `--validate`): Run link health and frontmatter checks on all modified files; report errors and warnings without blocking
+13. **Memory Update**: Append key patterns to PAI memory.
+    - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
 ## Built-in Content Improvement Knowledge
 
@@ -288,6 +293,65 @@ Ensure important topics have backlinks:
 Add to related content:
 ## See Also
 - [[current-topic]] - [Brief context of relationship]
+```
+
+#### Link Management (--focus links)
+
+Activates when `--focus links` is specified. Supports operations: `create`, `analyze`, `suggest`, `map`.
+
+##### Mandatory Wikilink Patterns
+```markdown
+# ALWAYS use pipe syntax for clean display
+[[bitcoin|Bitcoin]]                              # Direct note link
+[[lightning-network|Lightning Network]]          # Kebab-case filename
+[[knowledge/finance-and-economics/index|Finance Index]]  # ABSOLUTE path for index files
+
+# NEVER use relative paths — they break Quartz
+# [[../section/index]] WRONG — use [[knowledge/section/index]] instead
+```
+
+##### Link Types and Templates
+```markdown
+## Related Topics
+- [[concept-a|Concept A]] - Similar or complementary
+- [[concept-b|Concept B]] - Parallel or contrasting
+
+## Prerequisites
+- [[fundamental-concept|Core Concept]] - Essential background
+- [[related-framework|Framework]] - Underlying model
+
+## Builds Upon
+- [[previous-topic|Earlier Topic]] - Foundation concepts
+
+## Examples
+- [[case-study|Case Study]] - Real-world application
+
+## Contrasts
+- [[alternative-method|Alternative Approach]] - Different methodology
+```
+
+##### Backlink Management
+When creating a forward link `A → B`, add a reciprocal entry in B:
+```markdown
+## Referenced In
+- [[source-file#section|Source Context]] - Brief note on how A references B
+```
+
+##### Playwright Link Validation
+```javascript
+async function validateLinks(page, sourceFile, targetFile) {
+  await page.goto(`http://localhost:8080/${sourceFile}`)
+  const linkExists = await page.$(`a[href*="${targetFile}"]`) !== null
+  if (!linkExists) return { error: 'Link not found in rendered page' }
+  await page.click(`a[href*="${targetFile}"]`)
+  await page.waitForLoadState('networkidle')
+  const targetReached = !page.url().includes('404')
+  const backlinks = await page.$$eval(
+    `a[href*="${sourceFile}"]`,
+    links => links.map(l => ({ href: l.href, text: l.textContent }))
+  )
+  return { linkExists, targetReached, backlinksFound: backlinks.length }
+}
 ```
 
 #### Frontmatter Improvements
@@ -1151,7 +1215,7 @@ function scoreFrontmatter(frontmatterData) {
 ```
 
 ## Claude Code Integration
-- **Pieces Context**: Leverages content improvement history and successful enhancement patterns
+- **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
 - **Quality Analysis**: Built-in content quality assessment across multiple dimensions
 - **Structure Intelligence**: Deep understanding of optimal content organization and flow
 - **Link Enhancement**: Strategic internal link creation for knowledge graph integration
@@ -1163,3 +1227,18 @@ function scoreFrontmatter(frontmatterData) {
 - **Interactive Enhancement**: Optional review process for selective improvement application
 - **Comprehensive Testing**: Validates improvements enhance rather than detract from content
 - **SEO Optimization**: Enhanced frontmatter metadata for better search engine visibility and content discovery
+
+## PAI ISC Template
+When this command runs, OBSERVE generates these ISC:
+- ISC: Improved content preserves original meaning and voice
+- ISC: All pre-existing wikilinks remain valid after improvements
+- ISC: Writing matches analytical, honest, concrete-first Soushi888 style
+- ISC-A: No emdash introduced anywhere in improved content
+- ISC-A: "Honest tradeoff" pattern not removed from blog posts
+
+When `--focus links` is used, additionally:
+- ISC: All created links resolve to correct target pages in site
+- ISC: Reciprocal backlinks added to all specified target files
+- ISC: Index file links use absolute paths from content root
+- ISC-A: No broken links created in linking operation
+- ISC-A: Original surrounding content not modified beyond link insertion

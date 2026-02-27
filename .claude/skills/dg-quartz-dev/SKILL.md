@@ -1,22 +1,26 @@
 ---
 name: dg-quartz-dev
-description: Quartz framework development for the Alternef Digital Garden. Use when creating or modifying Preact components, plugins, SCSS styles, or tests. Triggers on component development, plugin authoring, styling, layout changes, and test writing.
+description: Quartz v4 framework development for Alternef Digital Garden. USE WHEN Preact components, plugins, SCSS, layout changes, Playwright tests, build pipeline.
 ---
 
 # Quartz Framework Development
 
-## Overview
+Persistent knowledge layer for the Quartz v4 static site generator. Covers component architecture, plugin system, SCSS styling, and testing patterns.
 
-Persistent knowledge layer for developing the Quartz v4 static site generator powering the Alternef Digital Garden. Covers component architecture, plugin system, SCSS styling, and testing patterns.
+## Workflow Routing
 
-## When to Use
+| Trigger | Command |
+|---------|---------|
+| Build or serve the site | `/dg:build` |
+| Validate build output | Add `--validate` to `/dg:build` |
+| Analyze graph, gaps, or structure | `/dg:explore` |
+| Component architecture detail | See `ComponentArchitecture.md` |
+| Plugin system reference | See `PluginSystem.md` |
+| Testing patterns | See `TestingGuide.md` |
+| Component templates | `ComponentTemplate.tsx` · `ComponentScriptTemplate.ts` · `ComponentStyleTemplate.scss` |
+| Plugin templates | `PluginTransformerTemplate.ts` |
 
-- Creating new Preact components
-- Modifying existing components (Graph, RecentChanges, MainMenu, etc.)
-- Writing transformer/filter/emitter plugins
-- SCSS styling with CSS custom properties
-- Writing Playwright E2E tests or unit tests
-- Understanding the build pipeline
+**Context files:** `ComponentArchitecture.md` · `PluginSystem.md` · `TestingGuide.md`
 
 ## Project Architecture
 
@@ -109,7 +113,7 @@ export default ((userOpts?: Partial<Options>) => {
 - `displayClass?: "mobile-only" | "desktop-only"` — responsive visibility
 - `children` — nested components
 
-See `references/component-architecture.md` for detailed type signatures and patterns.
+See `ComponentArchitecture.md` for detailed type signatures and patterns.
 
 ## Plugin System
 
@@ -133,7 +137,7 @@ Emitters: AliasRedirects → ComponentResources → ContentPage → FolderPage �
   TagPage → ContentIndex → Assets → Static → Sitemap → RSSFeed → 404
 ```
 
-See `references/plugin-system.md` for complete API details and examples.
+See `PluginSystem.md` for complete API details and examples.
 
 ## SCSS Styling
 
@@ -192,7 +196,7 @@ The `effect` library is used in RecentChanges and other components for functiona
 - TypeScript strict mode, ESNext target
 - JSX configured for Preact (`preact/jsx-runtime`)
 
-See `references/testing-guide.md` for the Playwright multi-project test setup.
+See `TestingGuide.md` for the Playwright multi-project test setup.
 
 ## Knowledge Domain Colors
 

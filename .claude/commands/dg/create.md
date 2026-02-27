@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Write, Glob, Grep, Bash, TodoWrite, mcp__pieces-os__ask_pieces_ltm, mcp__pieces-os__create_pieces_memory, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
+allowed-tools: [Read, Write, Glob, Grep, Bash, TodoWrite, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
 description: "Create new digital garden content with proper Quartz structure, frontmatter templates, and domain taxonomy"
 ---
 
@@ -15,7 +15,7 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
 
 ## Usage
 ```
-/dg:create [content-type] [title] [--domain domain-name] [--tags tag1,tag2] [--draft]
+/dg:create [content-type] [title] [--domain domain-name] [--tags tag1,tag2] [--draft] [--validate]
 ```
 
 ## Arguments
@@ -25,9 +25,12 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
 - `--tags` - Comma-separated tags
 - `--draft` - Mark content as draft
 - `--path` - Custom path within domain (optional)
+- `--validate` - Run frontmatter and link validation on created file after creation
 
 ## Execution
-1. **Context Gathering**: Query Pieces MCP for existing content patterns and domain structure
+1. **Context Gathering**: Read PAI memory for relevant patterns.
+   - Grep ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/ for relevant past patterns
+   - Read memory/dg-patterns.md if it exists (garden-specific learnings)
 2. **Content Type Detection**: Determine target path and template based on content type
 3. **Path Generation**: Create Quartz-compatible file paths with proper slugification
 4. **Frontmatter Generation**: Generate appropriate YAML frontmatter with taxonomy
@@ -37,7 +40,9 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
 8. **Link Suggestions**: Suggest potential connections to existing content
 9. **Playwright Validation**: Test created content renders correctly and links function
 10. **Content Verification**: Verify new content appears in navigation and search
-11. **Memory Creation**: Document content creation patterns for future reference
+11. **Validation** (if `--validate`): Check new file's frontmatter completeness and wikilink syntax; report any issues
+12. **Memory Update**: Append key patterns to PAI memory.
+    - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
 ## Built-in Quartz Knowledge
 
@@ -352,7 +357,7 @@ async function validateLinkPatterns(page, contentPath) {
 ```
 
 ## Claude Code Integration
-- **Pieces Context**: Leverages existing content patterns and domain knowledge
+- **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
 - **Path Intelligence**: Built-in understanding of Quartz content structure
 - **Taxonomy Integration**: Auto-suggests relevant tags based on domain and existing content
 - **Template System**: Self-contained frontmatter and structure templates
@@ -363,3 +368,27 @@ async function validateLinkPatterns(page, contentPath) {
 - **Content Verification**: Ensures new content renders correctly and integrates with site
 - **Link Pattern Enforcement**: Validates that index links use absolute paths
 - **Memory Preservation**: Documents successful content creation patterns for consistency
+
+## PAI ISC Template
+When this command runs, OBSERVE generates these ISC:
+- ISC: Content classified into correct Quartz knowledge domain
+- ISC: Frontmatter has all required fields for this content type
+- ISC: File path follows kebab-case Quartz slug conventions
+- ISC: Parent index updated when directory now has 2+ notes
+- ISC: Tags use existing garden tags before creating new ones
+- ISC: At least one domain-level tag is present as first tag
+- ISC: Cross-domain tags used where concept bridges multiple domains
+- ISC: Related notes in same domain linked in "Related Topics" section
+- ISC: Existing notes referencing this concept linked back to new note
+- ISC: All suggested cross-links verified against actual existing files
+- ISC-A: No emdash (—) in title, description, or body content
+- ISC-A: No relative paths used in wikilinks to index files
+- ISC-A: No invented wikilinks pointing to non-existent garden notes
+
+### Cross-Reference Workflow
+When creating content, OBSERVE and BUILD must:
+1. **Tag audit**: Grep existing content for tags on this topic before assigning new ones. Reuse tags that already exist — cross-links are only valuable when tags are consistent.
+2. **Neighbor discovery**: Glob the target domain directory and adjacent domains. Read index files to find notes that share concepts with the new note.
+3. **Backlink scan**: Grep all content for the new note's topic name/aliases — any existing note that mentions this concept should get a wikilink to the new note added.
+4. **Outbound links**: For each concept mentioned in the new note body, check if a garden note already exists for it. If yes, use `[[note-name|Concept Name]]`. If no, decide: create a stub or use plain text.
+5. **Cross-domain check**: If the concept touches multiple domains (e.g., "blockchain governance" touches tools-and-technology AND governance-and-community), add cross-domain tags AND link to the relevant domain index.
