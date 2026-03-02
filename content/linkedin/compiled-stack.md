@@ -116,6 +116,6 @@ These tools were built by people who share a similar dissatisfaction with bloate
 
 The entry points are incremental: start with a Svelte app styled with UnoCSS. Wrap it in Tauri for desktop. Add Rust logic compiled to WebAssembly. Connect it to Holochain for the distributed version. Each step adds capability without invalidating previous work.
 
-I wrote a longer deep-dive covering the architecture in full detail, including the Effect 7-layer pattern, the spectrum of deployment targets, and honest tradeoff analysis for every layer. You can read it here: [The Compiled Stack](https://soushi888.github.io/alternef-digital-garden/blog/compiled-stack)
+I wrote a longer deep-dive covering the architecture in full detail, including the Effect 7-layer pattern, the spectrum of deployment targets, and honest tradeoff analysis for every layer. You can read it here: [The Compiled Stack](https://alternef.garden/blog/compiled-stack)
 
 What part of this stack are you most curious about? Or what would you push back on? I'd love to hear from developers who've made different choices and why.

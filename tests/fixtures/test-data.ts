@@ -4,7 +4,7 @@
 export const TEST_CONFIG = {
   SITE_URL: process.env.TEST_URL || 'http://localhost:8080',
   LOCAL_URL: 'http://localhost:8080',
-  PRODUCTION_URL: 'https://soushi888.github.io/alternef-digital-garden',
+  PRODUCTION_URL: 'https://alternef.garden',
 
   // Component selectors
   SELECTORS: {

@@ -56,7 +56,7 @@ The name carries layered meaning. A *nef* evokes sacred vessels, journeys of dis
 
 ### Layer 1: The Digital Network (Now)
 
-The AlterNef already exists as a digital garden, a living ecosystem of interconnected ideas hosted at [soushi888.github.io/alternef-digital-garden](https://soushi888.github.io/alternef-digital-garden). This space gathers explorations across seven branches of inquiry: Land & Nature Stewardship, Built Environment, Tools & Technology, Culture & Education, Health & Wellbeing, Finance & Economics, and Governance & Community.
+The AlterNef already exists as a digital garden, a living ecosystem of interconnected ideas hosted at [alternef.garden](https://alternef.garden). This space gathers explorations across seven branches of inquiry: Land & Nature Stewardship, Built Environment, Tools & Technology, Culture & Education, Health & Wellbeing, Finance & Economics, and Governance & Community.
 
 The digital garden embodies the AlterNef's core principles in its very structure. Knowledge is cultivated organically, cross-pollinated between domains, and offered openly to anyone who visits. Blog articles synthesize research into accessible explorations of topics ranging from Holochain development to fractal sovereignty to the connections between Egyptian cosmology and modern physics.
 
@@ -194,8 +194,8 @@ A network of physical learning nodes. A functioning IDI prototype. Multiple auto
 
 The AlterNef is a living project. If you resonate with any aspect of this vision, whether the technological infrastructure, the educational philosophy, the governance model, or the spiritual synthesis, you are welcome to engage:
 
-- Explore the [Digital Garden](https://soushi888.github.io/alternef-digital-garden/) and its branches of knowledge
-- Read and share the [blog articles](https://soushi888.github.io/alternef-digital-garden/blog/) that synthesize these explorations
+- Explore the [Digital Garden](https://alternef.garden/) and its branches of knowledge
+- Read and share the [blog articles](https://alternef.garden/blog/) that synthesize these explorations
 - Connect through [GitHub](https://github.com/soushi888), [Substack](https://soushi888.substack.com/), or [LinkedIn](https://linkedin.com/in/sacha-pignot)
 - Contribute ideas, critique, or collaboration to any layer of the project
 

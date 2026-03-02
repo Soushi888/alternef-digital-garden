@@ -168,7 +168,7 @@ GitHub Actions (if configured):
 #### Domain Configuration
 ```yaml
 # Custom domain setup (if applicable)
-CNAME: soushi888.github.io/alternef-digital-garden/
+CNAME: alternef.garden
 DNS: Configure CNAME record
 SSL: Automatic via GitHub Pages
 CDN: Built-in GitHub CDN

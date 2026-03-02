@@ -86,6 +86,6 @@ The question for AI development is the same one Arakawa posed twenty-five years 
 
 ---
 
-*This is a condensed version. The [full article on my Digital Garden](https://soushi888.github.io/alternef-digital-garden/blog/dwarf-in-the-flask) includes the complete taxonomy of digital beings (Instruments, Homunculus, Golem, Elemental, Egregore), the Kabbalistic safety framework from the Golem of Prague tradition, and the Buddhist philosophical dimension of AI impermanence. It is part of the [Mystical Oriented Programming](https://soushi888.github.io/alternef-digital-garden/blog/mop-compiled-path) series.*
+*This is a condensed version. The [full article on my Digital Garden](https://alternef.garden/blog/dwarf-in-the-flask) includes the complete taxonomy of digital beings (Instruments, Homunculus, Golem, Elemental, Egregore), the Kabbalistic safety framework from the Golem of Prague tradition, and the Buddhist philosophical dimension of AI impermanence. It is part of the [Mystical Oriented Programming](https://alternef.garden/blog/mop-compiled-path) series.*
 
-*If this resonated, you might also be interested in [The Digital Homunculus](https://soushi888.github.io/alternef-digital-garden/blog/digital-homunculus), which explores the partnership between human developers and AI assistants through the alchemical tradition.*
+*If this resonated, you might also be interested in [The Digital Homunculus](https://alternef.garden/blog/digital-homunculus), which explores the partnership between human developers and AI assistants through the alchemical tradition.*

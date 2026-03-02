@@ -650,7 +650,7 @@ This work builds on Jean-Claude Perez's proposed mathematical structure (acknowl
 
 1. Perez, J-C. (2025). "Through the Looking Glass: The Perez Hourglass." Zenodo. DOI: 10.5281/zenodo.17424739 (self-published, not peer-reviewed)
 
-2. Fractal Sovereignty: Multi-Scale Integration Framework. (2024). "How Multi-Scale Integration Bridges Hyper-Local, Bioregional, and Cosmo-Local Economics." https://soushi888.github.io/alternef-digital-garden/blog/fractal-sovereignty-multi-scale-integration
+2. Fractal Sovereignty: Multi-Scale Integration Framework. (2024). "How Multi-Scale Integration Bridges Hyper-Local, Bioregional, and Cosmo-Local Economics." https://alternef.garden/blog/fractal-sovereignty-multi-scale-integration
 
 3. Mandelbrot, B. (1982). "The Fractal Geometry of Nature." W.H. Freeman.
 

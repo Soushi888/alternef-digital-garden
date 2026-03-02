@@ -140,7 +140,7 @@ The complete article covers:
 - The multi-layered validation architecture (semantic, cryptographic, and social)
 - How to get involved as a Rust/Holochain developer, pilot partner, or funder
 
-**[Read the full article on Alternef Digital Garden](https://soushi888.github.io/alternef-digital-garden/blog/nondominium-presentation)** 
+**[Read the full article on Alternef Digital Garden](https://alternef.garden/blog/nondominium-presentation)** 
 
 ---
 

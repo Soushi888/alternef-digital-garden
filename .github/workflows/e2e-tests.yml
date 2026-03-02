@@ -44,7 +44,7 @@ jobs:
         run: npx playwright test --project=${{ matrix.browser }} --shard=${{ matrix.shard }}/4
         env:
           CI: true
-          SITE_URL: https://soushi888.github.io/alternef-digital-garden
+          SITE_URL: https://alternef.garden
 
       - name: Upload test results
         uses: actions/upload-artifact@v4

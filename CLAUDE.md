@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Alternef Digital Garden is a personal knowledge management system built on **Quartz v4**, a static site generator. Content is authored in Markdown (often from Obsidian) and compiled into a static website with custom TypeScript/Preact components. Deployed to GitHub Pages at `soushi888.github.io/alternef-digital-garden`.
+Alternef Digital Garden is a personal knowledge management system built on **Quartz v4**, a static site generator. Content is authored in Markdown (often from Obsidian) and compiled into a static website with custom TypeScript/Preact components. Deployed to GitHub Pages at `alternef.garden`.
 
 ## Commands
 

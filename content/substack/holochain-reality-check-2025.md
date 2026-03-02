@@ -251,7 +251,7 @@ The future of the web might not be blockchain. It might not even be Holochain. B
 
 *Follow for more deep technical investigations into emerging tech. I use AI tools to analyze what humans might miss, cutting through marketing to find what's actually being built.*
 
-**📖 Read the full comprehensive report**: [The complete 560-line analysis with all technical details, ecosystem mapping, and extensive documentation](https://soushi888.github.io/alternef-digital-garden/blog/holochain-ecosystem-reality-check-2025)
+**📖 Read the full comprehensive report**: [The complete 560-line analysis with all technical details, ecosystem mapping, and extensive documentation](https://alternef.garden/blog/holochain-ecosystem-reality-check-2025)
 
 **🔄 Holochain Ecosystem Updates**: I'm planning to conduct this comprehensive analysis twice a year to track the ecosystem's evolution. Subscribe to follow the progress as alpha becomes beta, and beta becomes production.
 

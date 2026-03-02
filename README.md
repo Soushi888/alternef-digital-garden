@@ -2,7 +2,7 @@
 
 A personal knowledge management system designed as an interconnected digital ecosystem.
 
-🌐 **Explore the Digital Garden**: [https://soushi888.github.io/alternef-digital-garden/](https://soushi888.github.io/alternef-digital-garden/)
+🌐 **Explore the Digital Garden**: [https://alternef.garden/](https://alternef.garden/)
 
 ## 🌳 Project Overview
 

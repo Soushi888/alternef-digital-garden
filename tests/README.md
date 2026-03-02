@@ -136,7 +136,7 @@ npm run test:e2e:performance
 
 ```bash
 # Test against different environments
-SITE_URL=https://your-site.com          # Default: https://soushi888.github.io/alternef-digital-garden
+SITE_URL=https://your-site.com          # Default: https://alternef.garden
 LOCAL_URL=http://localhost:8080         # Default: http://localhost:8080
 
 # Test filtering

@@ -36,7 +36,7 @@
 -   **Static Site Generation:** Generate a static HTML site using Quartz v4.
 -   **Theming:** Implement a custom theme with light and dark modes, specific fonts (Schibsted Grotesk, Source Sans Pro, IBM Plex Mono), and color palettes.
 -   **Build Process:** Use `bun quartz build` for building the site.
--   **Hosting:** Deploy the static site to GitHub Pages at `soushi888.github.io/alternef-digital-garden`.
+-   **Hosting:** Deploy the static site to GitHub Pages at `alternef.garden`.
 -   **Version Control:** Use Git for version control, hosted on GitHub.
 
 ## 4. Non-Functional Requirements
