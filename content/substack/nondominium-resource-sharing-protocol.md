@@ -12,7 +12,9 @@ readTime: "9 min"
 
 ---
 
-![People sharing resources, tools, vehicles, and solar panels through a decentralized network governed by embedded protocols](nondominium-image.jpg)
+<center>
+    <img src="nondominium-image.jpg" alt="People sharing resources, tools, vehicles, and solar panels through a decentralized network governed by embedded protocols" width="50%" />
+</center>
 
 ## The Problem with the "Sharing Economy"
 

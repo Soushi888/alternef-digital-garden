@@ -52,6 +52,20 @@ Assume the reader is smart but may not know your specific domain. Define terms o
 - Bold for first use of key technical terms
 - Italics for emphasis and philosophical statements
 
+### Images
+Use centered HTML embed with 50% width:
+
+```html
+<center>
+    <img src="filename.jpg" alt="Descriptive alt text" width="50%" />
+</center>
+```
+
+- Store images in `content/blog/assets/`
+- Reference by **filename only** — no path prefix (Quartz shortest-path resolution handles the rest)
+- Always include descriptive `alt` text
+- Plain markdown `![alt](file)` is not used in this garden
+
 ## Formatting Conventions
 
 - Prettier formatting: 100 char width
