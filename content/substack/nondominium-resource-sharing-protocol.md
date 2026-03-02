@@ -12,6 +12,8 @@ readTime: "9 min"
 
 ---
 
+![People sharing resources, tools, vehicles, and solar panels through a decentralized network governed by embedded protocols](nondominium-image.jpg)
+
 ## The Problem with the "Sharing Economy"
 
 Remember when the sharing economy was supposed to change everything? The pitch was compelling: people would share their spare rooms, their cars, their tools, and communities would become more connected and resourceful in the process.
