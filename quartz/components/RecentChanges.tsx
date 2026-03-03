@@ -6,6 +6,8 @@ import { i18n } from "../i18n"
 import { GlobalConfiguration } from "../cfg"
 import style from "./styles/recentChanges.scss"
 import { ChangedItem } from "./utils/recentChanges"
+// @ts-ignore
+import script from "./scripts/recentChanges.inline"
 
 interface Options {
   title?: string
@@ -88,10 +90,21 @@ export default ((userOpts?: Partial<Options>) => {
 
     // Convert to ChangedItems
     const allItems: ChangedItem[] = sortedFiles.map((file: QuartzPluginData) => {
+      const hasExplicitModified = !!(
+        file.frontmatter?.modified ||
+        file.frontmatter?.updated ||
+        file.frontmatter?.lastmod
+      )
+      const frontmatterCreatedStr = file.frontmatter?.date || file.frontmatter?.created
+      const frontmatterCreated = frontmatterCreatedStr
+        ? new Date(String(frontmatterCreatedStr))
+        : null
+
       const isModified =
-        file.dates?.modified &&
-        file.dates?.created &&
-        file.dates.modified.getTime() - file.dates.created.getTime() > 60 * 60 * 1000
+        hasExplicitModified ||
+        (frontmatterCreated !== null &&
+          file.dates?.modified !== undefined &&
+          file.dates.modified.getTime() - frontmatterCreated.getTime() > 60 * 60 * 1000)
 
       return {
         title: file.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title,
@@ -140,7 +153,7 @@ export default ((userOpts?: Partial<Options>) => {
                   <span class="recent-change-type">
                     {item.type === "created" ? "New" : "Updated"}
                   </span>
-                  <span class="recent-change-date">{formatRecentDate(item.date)}</span>
+                  <span class="recent-change-date" data-timestamp={item.date.getTime().toString()}>{formatRecentDate(item.date)}</span>
                 </div>
 
                 {opts.detailed && opts.showExcerpt && item.excerpt && (
@@ -171,5 +184,6 @@ export default ((userOpts?: Partial<Options>) => {
   }
 
   RecentChanges.css = style
+  RecentChanges.afterDOMLoaded = script
   return RecentChanges
 }) satisfies QuartzComponentConstructor
