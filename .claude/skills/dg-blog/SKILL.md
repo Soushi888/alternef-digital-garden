@@ -71,6 +71,12 @@ language: "fr"                 # For French posts
 audience: "technical"          # Or "spiritual-seekers", "general"
 ```
 
+### Date management rules
+- `date` is the **publication date** — set once when creating the post, never change it afterward.
+- `updated` is the **last modified date** — add or update it every time you meaningfully change an existing post.
+- When creating a new post: set `date` only. Do not include `updated`.
+- When editing an existing post: add or update `updated: "YYYY-MM-DD"` (today's date).
+
 ### Author conventions
 - **Primary author**: `"Soushi888"` (most posts)
 - **Organization**: `"Alternef"` (some older posts)

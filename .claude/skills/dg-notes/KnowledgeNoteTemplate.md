@@ -8,7 +8,6 @@ tags:
   - specific-tag1
   - specific-tag2
 date: YYYY-MM-DD
-updated: YYYY-MM-DD
 draft: false
 ---
 

@@ -72,8 +72,15 @@ draft: false
 ### Optional fields
 - `description`: One-sentence summary (used in search results and meta)
 - `aliases`: Alternative names for wikilink resolution
-- `updated`: ISO date, last modification date
+- `updated`: ISO date, last modification date — add or update when editing an existing note
 - `draft`: Set `true` to exclude from build
+
+### Date management rules
+- `date` is the **creation date** — set once when creating the note, never change it afterward.
+- `updated` is the **modification date** — add or update it every time you meaningfully change an existing note's content.
+- When creating a new note: set `date` only. Do not include `updated`.
+- When modifying an existing note: add `updated: YYYY-MM-DD` (today's date) or update it if already present.
+- If a note has no `updated` field and you are modifying it, always add one.
 
 ### Date field aliases (Quartz internals)
 Quartz's frontmatter transformer (`quartz/plugins/transformers/frontmatter.ts`) accepts multiple aliases for dates:
