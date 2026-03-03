@@ -131,6 +131,9 @@ export default ((userOpts?: Partial<Options>) => {
       filtered = filtered.filter((item) => opts.filterBy.some((f) => item.link.includes(f)))
     }
 
+    // Always exclude unpublished content
+    filtered = filtered.filter((item) => !item.link.startsWith("unpublished"))
+
     const remaining = Math.max(0, filtered.length - opts.limit)
     const items = filtered.slice(0, opts.limit)
 
