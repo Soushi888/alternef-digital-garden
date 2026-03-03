@@ -127,5 +127,6 @@ Qi Gong is accessible to people of all ages and fitness levels. A basic practice
 
 **Related Notes:**
 - [[hatha-yoga|Hatha Yoga]] - Complementary movement and breathwork tradition from the Indian yogic lineage
+- [[traditional-chinese-medicine|Traditional Chinese Medicine]] - The foundational theoretical system from which Qi Gong emerges
 - [[knowledge/health-and-wellbeing/index|Health and Wellbeing]] - Parent section
 

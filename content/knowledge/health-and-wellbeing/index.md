@@ -37,6 +37,7 @@ This section explores the multidimensional nature of human health, examining phy
 - Integrative and complementary medicine
 - Traditional healing wisdom
 - Mind-body healing practices: [[hatha-yoga|Hatha Yoga]], [[qi-gong|Qi Gong]]
+- Traditional healing wisdom: [[essenian-healing|Essenian Healing]], [[traditional-chinese-medicine|Traditional Chinese Medicine]], [[ayurveda|Ayurveda]]
 - Personalized wellness strategies
 
 ### 4. Environmental Health
