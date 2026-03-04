@@ -13,6 +13,10 @@ tags:
 
 ---
 
+<center>
+    <img src="image-filename.jpeg" alt="Descriptive alt text" width="50%" />
+</center>
+
 Opening paragraph that sets the context. What problem exists? What situation are we examining? Ground the reader in something concrete.
 
 Second paragraph that frames the approach or thesis of the post.

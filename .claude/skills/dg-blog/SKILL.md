@@ -153,6 +153,39 @@ Posts typically end with:
 - Forward-looking perspective
 - Sometimes a call to explore related topics
 
+## Images
+
+### Required pattern (MANDATORY — no exceptions)
+
+```html
+<center>
+    <img src="filename.jpeg" alt="Descriptive alt text" width="50%" />
+</center>
+```
+
+### Rules
+- **Always** use the HTML `<img>` tag inside `<center>` — never markdown `![alt](path)` syntax
+- **Filename only** — no folder prefix. Quartz resolves images by shortest path match across the content tree. Images live in `content/blog/assets/` but are referenced by name alone
+- **Always** `width="50%"`
+- **Position**: after the `---` separator that follows the opening italic hook — never before the hook, never in the frontmatter
+
+### Correct position in a post
+
+```markdown
+*Italicized opening hook.*
+
+---
+
+<center>
+    <img src="image.jpeg" alt="Description" width="50%" />
+</center>
+
+First paragraph of body content...
+```
+
+### Image storage
+Place image files in `content/blog/assets/`. They resolve correctly from any post location (blog, substack, etc.) via Quartz's shortest-path resolution.
+
 ## Writing Voice
 
 ### Characteristics

@@ -14,6 +14,10 @@ language: "fr"
 
 ---
 
+<center>
+    <img src="nom-image.jpeg" alt="Texte alternatif descriptif" width="50%" />
+</center>
+
 Paragraphe d'ouverture posant le contexte. Quel probleme existe ? Quelle situation examinons-nous ?
 
 Deuxieme paragraphe cadrant l'approche ou la these de l'article.
