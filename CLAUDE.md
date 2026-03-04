@@ -99,6 +99,8 @@ A Model Context Protocol server implementation using the Effect library. Provide
 
 ## Skills
 
+**MANDATORY: Load the relevant skill BEFORE doing any work on notes, blog posts, or Quartz code. Do not read files, write content, or make wikilinks without the skill loaded first. Skills contain critical rules (frontmatter conventions, link path formats, domain taxonomy) that cannot be reconstructed from memory.**
+
 Three persistent skills provide domain knowledge across all interactions with this garden:
 
 | Skill | Purpose | When to Use |

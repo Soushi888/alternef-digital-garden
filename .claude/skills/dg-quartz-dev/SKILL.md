@@ -3,6 +3,32 @@ name: dg-quartz-dev
 description: Quartz v4 framework development for Alternef Digital Garden. USE WHEN Preact components, plugins, SCSS, layout changes, Playwright tests, build pipeline.
 ---
 
+## Customization
+
+**Before executing, check for user customizations at:**
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/dg-quartz-dev/`
+
+If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
+
+## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)
+
+**You MUST send this notification BEFORE doing anything else when this skill is invoked.**
+
+1. **Send voice notification**:
+   ```bash
+   curl -s -X POST http://localhost:8888/notify \
+     -H "Content-Type: application/json" \
+     -d '{"message": "Loading dg-quartz-dev skill for Quartz framework development"}' \
+     > /dev/null 2>&1 &
+   ```
+
+2. **Output text notification**:
+   ```
+   Loading **dg-quartz-dev** skill for Quartz framework development...
+   ```
+
+**This is not optional. Execute this curl command immediately upon skill invocation.**
+
 # Quartz Framework Development
 
 Persistent knowledge layer for the Quartz v4 static site generator. Covers component architecture, plugin system, SCSS styling, and testing patterns.
@@ -211,4 +237,34 @@ nodeColorMap: {
   "knowledge/finance-and-economics": "#1abc9c",
   "knowledge/governance-and-community": "#34495e",
 }
+```
+
+## Examples
+
+**Example 1: Create a new Preact component**
+```
+User: "Create a component that shows the last 5 modified notes"
+→ Loads dg-quartz-dev skill, reads ComponentArchitecture.md
+→ Uses QuartzComponentConstructor pattern (not React — Preact)
+→ Attaches CSS via ComponentName.css = style
+→ Exports from quartz/components/index.ts
+→ Adds to quartz.layout.ts in correct zone
+```
+
+**Example 2: Add a transformer plugin**
+```
+User: "Add a plugin that auto-generates descriptions from note content"
+→ Loads dg-quartz-dev skill, reads PluginSystem.md
+→ Creates transformer in quartz/plugins/transformers/
+→ Registers in quartz.config.ts Transformers array in correct pipeline order
+→ Runs npm run check to verify type safety
+```
+
+**Example 3: Debug a build failure**
+```
+User: "The build is failing with a missing export error"
+→ Loads dg-quartz-dev skill
+→ Invokes /dg:build to reproduce error
+→ Checks quartz/components/index.ts for missing export
+→ Runs bun quartz build to verify fix
 ```

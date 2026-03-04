@@ -3,6 +3,32 @@ name: dg-blog
 description: Blog post authoring for Alternef Digital Garden. USE WHEN writing blog posts, editing posts, EN→FR translation, writing voice questions, moving drafts to published.
 ---
 
+## Customization
+
+**Before executing, check for user customizations at:**
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/dg-blog/`
+
+If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
+
+## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)
+
+**You MUST send this notification BEFORE doing anything else when this skill is invoked.**
+
+1. **Send voice notification**:
+   ```bash
+   curl -s -X POST http://localhost:8888/notify \
+     -H "Content-Type: application/json" \
+     -d '{"message": "Loading dg-blog skill for blog post authoring"}' \
+     > /dev/null 2>&1 &
+   ```
+
+2. **Output text notification**:
+   ```
+   Loading **dg-blog** skill for blog post authoring...
+   ```
+
+**This is not optional. Execute this curl command immediately upon skill invocation.**
+
 # Digital Garden Blog Authoring
 
 Persistent knowledge layer for blog posts in the Alternef Digital Garden. Covers architecture, frontmatter patterns, content structure, writing voice, and EN→FR translation.
@@ -174,3 +200,32 @@ Key conventions:
 - Translate title, description, and content tags
 - Keep `"blog"` tag untranslated
 - File naming: kebab-case in French (e.g., `souverainete-fractale-integration-multiechelle.md`)
+
+## Examples
+
+**Example 1: Write a new blog post**
+```
+User: "Write a blog post about my experience with Holochain"
+→ Loads dg-blog skill, reads BlogStyleGuide.md for voice
+→ Invokes /dg:create with content-type blog
+→ Creates with required frontmatter: title, date, author "Soushi888", tags starting with "blog"
+→ Opens with italicized hook, includes "honest tradeoff" pattern, links to knowledge notes
+```
+
+**Example 2: Translate a post to French**
+```
+User: "Translate the compiled stack post to French"
+→ Loads dg-blog skill, reads TranslationWorkflow.md
+→ Invokes /dg:translate
+→ Creates file in content/blog/fr/ with language: "fr" frontmatter
+→ Translates title, description, and body while keeping code blocks intact
+```
+
+**Example 3: Publish a draft post**
+```
+User: "Publish the shadow work draft"
+→ Loads dg-blog skill
+→ Invokes /dg:publish
+→ Moves from content/unpublished/ to content/blog/
+→ Removes draft: true from frontmatter, sets publication date
+```

@@ -3,6 +3,32 @@ name: dg-notes
 description: Knowledge note management for Alternef Digital Garden. USE WHEN note creation, domain classification, frontmatter, wikilinks, index management, note quality review.
 ---
 
+## Customization
+
+**Before executing, check for user customizations at:**
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/dg-notes/`
+
+If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
+
+## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)
+
+**You MUST send this notification BEFORE doing anything else when this skill is invoked.**
+
+1. **Send voice notification**:
+   ```bash
+   curl -s -X POST http://localhost:8888/notify \
+     -H "Content-Type: application/json" \
+     -d '{"message": "Loading dg-notes skill for knowledge note management"}' \
+     > /dev/null 2>&1 &
+   ```
+
+2. **Output text notification**:
+   ```
+   Loading **dg-notes** skill for knowledge note management...
+   ```
+
+**This is not optional. Execute this curl command immediately upon skill invocation.**
+
 # Digital Garden Knowledge Notes
 
 Persistent knowledge layer for the Alternef Digital Garden's 7-domain taxonomy. Provides classification heuristics, frontmatter conventions, content structure patterns, and linking rules.
@@ -127,7 +153,11 @@ Index files (`_index.md` or `index.md`) serve as landing pages for directories. 
 
 1. **Always use pipe syntax**: `[[file-name|Display Name]]` not `[[file-name]]`
 2. **Case sensitive**: Target must match actual filename exactly
-3. **Index files require absolute paths**: `[[knowledge/domain/subdirectory/index|Subdirectory Name]]`
+3. **Index files ALWAYS require full absolute paths starting from `knowledge/`** — this is the most common mistake:
+   - WRONG: `[[health-and-wellbeing/index|Health and Wellbeing]]`
+   - WRONG: `[[yoga/index|Yoga Traditions]]`
+   - CORRECT: `[[knowledge/health-and-wellbeing/index|Health and Wellbeing]]`
+   - CORRECT: `[[knowledge/health-and-wellbeing/yoga/index|Yoga Traditions]]`
 4. **Never use relative paths** (`../`) for index links — they break in Quartz
 5. **Section links**: `[[file-name#Section Heading|Topic Section]]`
 6. **Embeds**: `![[image.png]]` or `![[image.png | 100x145]]`
@@ -157,3 +187,33 @@ bash .claude/skills/dg-notes/Tools/ValidateNotes.sh content/knowledge/tools-and-
 ```
 
 Checks: frontmatter completeness (title, tags, date), kebab-case filenames, no emdash characters.
+
+## Examples
+
+**Example 1: Create a knowledge note**
+```
+User: "Write a knowledge note about permaculture"
+→ Loads dg-notes skill
+→ Classifies in land-and-nature-stewardship/ domain via DomainTaxonomy.md
+→ Creates note with correct frontmatter (title, tags, date)
+→ Adds index link using full absolute path: [[knowledge/land-and-nature-stewardship/index|...]]
+→ Updates parent index.md to include the new note
+```
+
+**Example 2: Fix wikilinks in a note**
+```
+User: "Check if all index links in yoga-des-pharaons.md are correct"
+→ Loads dg-notes skill
+→ Reads Wikilink Rules: index files require full absolute paths from knowledge/
+→ Finds any [[health-and-wellbeing/index]] → corrects to [[knowledge/health-and-wellbeing/index]]
+→ Verifies all links follow [[knowledge/domain/.../index|Name]] pattern
+```
+
+**Example 3: Classify note in the right domain**
+```
+User: "Where should a note about shadow work go?"
+→ Loads dg-notes skill
+→ Applies Classification Heuristics: primary function = mental/emotional health
+→ Routes to health-and-wellbeing/ domain
+→ Suggests tags from domain tag list
+```
