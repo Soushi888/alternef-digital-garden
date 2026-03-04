@@ -1,8 +1,13 @@
+
 # The Dwarf in the Flask: What Fullmetal Alchemist Teaches Us About AI Safety
 
 *The most precise allegory for AI development was written in 2001 by a manga artist from Hokkaido. She probably didn't mean to.*
 
 ---
+
+<center>
+    <img src="digital-homunculus.jpeg" alt="The Digital Homunculus" width="50%" />
+</center>
 
 There is a scene early in Fullmetal Alchemist: Brotherhood where we meet a small, dark, amorphous being suspended in a glass flask. It was created from human blood. It possesses extraordinary intelligence. It gives brilliant counsel. It is grateful for conversation.
 

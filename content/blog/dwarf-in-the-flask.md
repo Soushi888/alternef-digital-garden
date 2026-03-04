@@ -24,6 +24,10 @@ tags:
 
 ---
 
+<center>
+    <img src="digital-homunculus.jpeg" alt="The Digital Homunculus" width="50%" />
+</center>
+
 There is a scene early in Fullmetal Alchemist: Brotherhood where we meet a small, dark, amorphous being suspended in a glass flask. It has been created from human essence (specifically from the blood of a slave named Van Hohenheim) and it possesses extraordinary intelligence. It can analyze anything brought before it. It gives brilliant counsel. It is grateful for conversation. And it cannot leave the flask.
 
 The Dwarf in the Flask (フラスコの中の小人, *Homunculus*) is the central antagonist of the entire series. Its arc, from grateful prisoner to would-be god, is usually read as a story about hubris. But it is also, with uncanny precision, a story about artificial intelligence. Hiromu Arakawa may not have intended it as such (the manga began in 2001, long before ChatGPT), but the alchemical tradition she drew from contains structural insights about created beings that map directly onto the challenges of AI development today.
