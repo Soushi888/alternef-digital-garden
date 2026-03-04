@@ -11,8 +11,8 @@ tags:
   - library
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/index|JavaScript Libraries]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/tinymce|TinyMCE]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/tinymce|TinyMCE]]"
 ---
 
 Editor.js is a free block-style editor with a universal JSON output. It provides a clean and modular approach to content editing, allowing developers to create rich editing experiences with structured data output.

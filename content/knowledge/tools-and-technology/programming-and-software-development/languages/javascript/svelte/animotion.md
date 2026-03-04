@@ -12,7 +12,7 @@ tags:
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/index|Svelte]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/reveal.js|Reveal.js]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/reveal.js|Reveal.js]]"
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/frameworks/tailwind-css|Tailwind CSS]]"
 ---
 

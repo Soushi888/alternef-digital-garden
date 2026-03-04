@@ -12,7 +12,7 @@ tags:
   - cookies
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/index|JavaScript Libraries]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
 ---
 
 js-cookie is a simple, lightweight JavaScript API for handling browser cookies. It simplifies the process of creating, reading, and deleting cookies in web applications.

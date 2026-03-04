@@ -5,9 +5,9 @@ tags:
   - backend
   - e-commerce
   - javascript
-  - librairies
+  - javascript-libraries
 ---
-[[Javascript librairies]]
+[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]
 
 description:: Medusa is a set of commerce tools and modules that can be used to build unique commerce experiences.
 

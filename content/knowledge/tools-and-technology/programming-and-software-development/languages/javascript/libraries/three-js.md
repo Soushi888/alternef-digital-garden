@@ -13,7 +13,7 @@ tags:
   - webgl
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/index|JavaScript Libraries]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
 ---
 
 Three.js is a JavaScript 3D library that tries to make it as easy as possible to get 3D content on a webpage. It provides a simple yet powerful API for creating and displaying animated 3D computer graphics in web browsers using WebGL.

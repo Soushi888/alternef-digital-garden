@@ -12,7 +12,7 @@ tags:
   - library
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/index|JavaScript Libraries]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
 ---
 
 React is a JavaScript library for building user interfaces, particularly single-page applications. It's maintained by Meta (formerly Facebook) and a community of individual developers and companies.

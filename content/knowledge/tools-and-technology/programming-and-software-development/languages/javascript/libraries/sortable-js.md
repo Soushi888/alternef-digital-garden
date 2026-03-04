@@ -12,8 +12,8 @@ tags:
   - drag-and-drop
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/index|JavaScript Libraries]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/muuri|Muuri]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/muuri|Muuri]]"
 ---
 
 Sortable.js is a JavaScript library for creating reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery required. It supports multiple frameworks including Meteor, AngularJS, React, Polymer, Vue, Knockout and any CSS library, e.g. Bootstrap.

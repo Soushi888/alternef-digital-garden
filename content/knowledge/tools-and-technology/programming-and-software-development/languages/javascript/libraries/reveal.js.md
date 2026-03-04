@@ -12,7 +12,7 @@ tags:
   - presentation
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/index|JavaScript Libraries]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/index|HTML & CSS]]"
 ---
 
