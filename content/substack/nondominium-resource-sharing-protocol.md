@@ -1,5 +1,5 @@
 ---
-title: "The Sharing Economy Lied to You. Here's What Real Resource Sharing Looks Like."
+title: "Nondominium: Building the Resource Sharing Engine for the Commons Economy"
 subtitle: "How a decade of peer production, open standards, and agent-centric infrastructure are converging into a protocol that governs itself"
 date: "2026-03-02"
 author: "Soushi888"
