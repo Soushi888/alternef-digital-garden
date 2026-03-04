@@ -42,7 +42,7 @@ The Holochain Development Kit (HDK) provides the core libraries, APIs, and tools
 - Validation logic implementation
 - Entry serialization and deserialization
 
-### [[links-manipalution|Link Manipulation]]
+### [[links-manipulation|Link Manipulation]]
 
 - Creating and managing relationships between entries
 - Link type definitions

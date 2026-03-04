@@ -42,14 +42,10 @@ Holochain is a revolutionary framework for building truly peer-to-peer applicati
 - First steps to understanding Holochain
 - Core philosophical underpinnings
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Fundamentals]]
-- Core data structures (cells, entries, records, links)
-- Essential concepts for all users
-- Building blocks of Holochain applications
-
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/index|Core Primitives]]** - Essential technical building blocks
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/index|Advanced Topics]]** - Specialized and complex concepts
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Concepts]]
+- All Holochain concepts in one unified directory
+- DNA and zomes, data structures, network primitives
+- Runtime mechanisms and advanced topics
 
 ### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Architecture]]
 - Technical design overview

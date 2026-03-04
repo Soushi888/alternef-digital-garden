@@ -26,6 +26,7 @@ This section provides comprehensive resources for developers looking to build ap
 
 ### Development Tools
 
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/holonix|Holonix]] - Nix-based reproducible development environment
 - [[holochain-scaffolding-tool|Holochain Scaffolding Tool]] - Rapid application development toolkit
 - [[p2p-shipyard|P2P Shipyard]] - Peer-to-peer development environment
 

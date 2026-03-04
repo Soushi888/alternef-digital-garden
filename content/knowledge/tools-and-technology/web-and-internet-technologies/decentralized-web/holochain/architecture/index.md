@@ -25,11 +25,12 @@ This section explores the technical architecture of Holochain, including its cor
 
 ### Core Components
 
-- [[core-components/|Core Components Directory]] - Detailed documentation of Holochain's fundamental building blocks
-  - Source Chain - Agent's personal immutable record chain
-  - DHT - Distributed Hash Table for shared data
-  - Networking Layer - Peer discovery and communication
-  - WASM Runtime - Execution environment for application code
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/agent-centric-architecture|Agent-Centric Architecture]] - Fundamental design paradigm, agent sovereignty
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/validation-rules|Validation Rules]] - Distributed data integrity mechanism
+- Source Chain - Agent's personal immutable record chain
+- DHT - Distributed Hash Table for shared data
+- Networking Layer - Peer discovery and communication
+- WASM Runtime - Execution environment for application code
 
 ## Architectural Principles
 
@@ -76,9 +77,9 @@ This section explores the technical architecture of Holochain, including its cor
 
 ## Related Topics
 
-- [[../Concepts|Holochain Concepts]]
-- [[../Development|Holochain Development]]
-- [[../Introduction|Introduction to Holochain]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Holochain Concepts]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Holochain Development]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/introduction/index|Introduction to Holochain]]
 
 ## External Resources
 

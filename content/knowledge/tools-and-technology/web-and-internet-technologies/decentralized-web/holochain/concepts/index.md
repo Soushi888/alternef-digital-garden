@@ -1,61 +1,62 @@
 ---
 title: Holochain Concepts
-description: This content has been reorganized - see Fundamentals and Technical Concepts sections
+description: Core concepts, data structures, and technical primitives that make up the Holochain framework
 tags:
   - holochain
   - concepts
-  - redirect
-  - reorganized
+  - decentralized-web
 aliases:
   - Holochain Terminology
   - Holochain Technical Concepts
+date: 2026-03-03
 ---
 
 # Holochain Concepts
 
-**📢 This section has been reorganized for better navigation and learning paths.**
+This section contains all Holochain concepts in a single unified directory: data structures, network primitives, runtime mechanisms, and advanced topics.
 
-The concepts previously located here have been moved to provide clearer structure:
+## Application Structure
 
-## New Organization
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/dna-and-zomes|DNA and Zomes]] - The integrity/coordinator split; how DNA hashes define networks
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/cell|Cell]] - The fundamental unit of a running Holochain application
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/social-dna|Social DNA]] - Social application patterns and reusable DNA compositions
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Fundamentals]]
-**Essential concepts for all users:**
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/cell|Cell]] - The fundamental unit of agency
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/entry|Entry]] - Basic data unit in Holochain
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/record|Record]] - Signed data entries with provenance
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/link|Link]] - Connections between entries
+## Data Structures
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/index|Core Primitives]]
-**Essential technical building blocks:**
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/action|Action]] - Operations agents perform
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/anchor|Anchor]] - Discoverable entry points
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/path|Path]] - Addressing mechanism
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/signal|Signal]] - Real-time messaging
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/progenitor|Progenitor]] - Network creators
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/eventual-consistency|Eventual Consistency]] - Data synchronization
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/entry|Entry]] - Basic data unit stored in the source chain and DHT
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/record|Record]] - Signed entries with metadata and provenance
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/link|Link]] - Connections between entries in the DHT
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/action|Action]] - Cryptographically signed operations agents perform
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/index|Advanced Topics]]
-**Specialized and complex concepts:**
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/capability-tokens|Capability Tokens]] - Authorization mechanism
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/rrdht|RRDHT]] - Distributed hash table implementation
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/layer0|Layer0]] - Protocol stack positioning
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/network-seed|Network Seed]] - Network initialization
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/host|Host]] & [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/guest|Guest]] - Runtime roles
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/social-dna|Social DNA]] - Social application patterns
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/web3|Web3]] - Integration with Web3 technologies
+## Addressing and Navigation
 
-## Learning Paths
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/anchor|Anchor]] - Discoverable, well-known entry points in the DHT
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/path|Path]] - Hierarchical addressing mechanism built on anchors
 
-### For New Users
-1. Start with **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Fundamentals]]** to understand basic building blocks
-2. Move to **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/index|Core Primitives]]** for technical understanding
-3. Explore **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/index|Advanced Topics]]** when needed
+## Network and Consistency
 
-### Quick Navigation
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Back to Holochain Main]]** - Return to main navigation
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/introduction/index|Introduction]]** - Start with basics
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Development]]** - Begin building applications
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/eventual-consistency|Eventual Consistency]] - How data synchronizes across a distributed network
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/rrdht|RRDHT]] - Resilient random distributed hash table implementation
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/network-seed|Network Seed]] - Network initialization and partitioning
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/progenitor|Progenitor]] - The agent(s) who initiate a network
 
----
-*This reorganization improves discoverability and creates clearer learning progressions.*
+## Communication
+
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/signal|Signal]] - Real-time messaging between agents and the UI
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/capability-tokens|Capability Tokens]] - Authorization mechanism for zome calls and data access
+
+## Runtime Roles
+
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/host|Host]] - The runtime role that provides Holochain capabilities to guests
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/guest|Guest]] - The application code (zome) that runs within the host
+
+## Context and Ecosystem
+
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/layer0|Layer0]] - Positioning in the protocol stack
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/web3|Web3]] - Relationship and contrast with Web3 technologies
+
+## Related
+
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] - Back to main overview
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Architecture]] - System design and component interactions
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Development]] - Building hApps with these concepts

@@ -56,6 +56,12 @@ This section explores the vibrant ecosystem surrounding Holochain technology, in
 - Acorn: Project management and coordination
 - DeepKey: Distributed key management
 
+### Active 2026 Projects
+
+- **HummHive**: Secure, encrypted, p2p collaboration spaces built on Holochain
+- **Arkology Studio**: Immersive storytelling and roleplaying platform using agent-centric design
+- **Carbon Farm Network**: Agricultural carbon sequestration tracking and coordination network
+
 ## Community Resources
 
 ### Developer Communities
