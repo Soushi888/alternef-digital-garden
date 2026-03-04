@@ -11,7 +11,7 @@ tags:
   - geographic-information-systems
   - collaborative
 related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/librairies/leafletjs|Leaflet.js]]"
+  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/leafletjs|Leaflet.js]]"
   - "[[knowledge/tools-and-technology/specialized-technologies/geographic-information-systems/index|Geographic Information Systems]]"
 ---
 
