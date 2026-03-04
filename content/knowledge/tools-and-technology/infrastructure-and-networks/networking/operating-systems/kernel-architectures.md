@@ -179,7 +179,7 @@ The evolution of kernel architectures continues with emerging trends:
 
 ## Related Topics
 
-- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux|Linux Operating System]]
+- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|Distributed Systems]]
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/virtual-machine|Virtual Machines]]
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/cloud-computing|Cloud Computing]]

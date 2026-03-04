@@ -16,9 +16,9 @@ modified: 2025-10-12
 draft: false
 related pages:
   - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/unix|Unix Philosophy]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]"
+  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/unix|Unix Philosophy]]"
+  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu]]"
+  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]"
 ---
 
 # Linux Operating System

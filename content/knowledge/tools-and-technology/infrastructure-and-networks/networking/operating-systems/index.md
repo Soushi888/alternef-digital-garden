@@ -18,7 +18,7 @@ This section explores the fundamental architectures and principles of operating 
 ### [[kernel-architectures|Kernel Architectures]]
 Comprehensive comparison of monolithic kernels, microkernels, and unikernels, examining their design philosophies, trade-offs, and real-world applications.
 
-### [[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux|Linux Systems]]
+### [[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Systems]]
 Deep dive into the world's most successful open-source operating system, its distributions, and ecosystem.
 
 ## Key Concepts

@@ -79,26 +79,10 @@ Comprehensive coverage of operating system architectures and kernel designs.
 
 ## Linux Systems
 
+Linux notes have moved to the [[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Systems]] section under Operating Systems.
+
 ### Core Linux
-- [[linux/linux|Linux Operating System]] - Linux fundamentals and concepts
-- [[linux/unix|Unix Philosophy]] - Unix design principles and heritage
-
-### Linux Distributions
-- [[linux/ubuntu|Ubuntu]] - Popular desktop and server distribution
-- [[linux/fedora|Fedora]] - Community-driven distribution
-- [[linux/red-hat|Red Hat]] - Enterprise Linux distribution
-- [[linux/kubuntu|Kubuntu]] - Ubuntu with KDE desktop
-- [[linux/nix|NixOS]] - Declarative Linux distribution
-
-### Desktop Environments
-- [[linux/desktop-environment|Desktop Environments]] - Overview of desktop environments
-- [[linux/gnome|GNOME]] - GTK-based desktop environment
-- [[linux/kde-plasma|KDE Plasma]] - Qt-based desktop environment
-- [[linux/xfce|XFCE]] - Lightweight desktop environment
-
-### Linux Administration
-- [[linux/fail2ban|Fail2Ban]] - Intrusion prevention software
-- [[linux/what-if-linux-distros-are-factions,-like-jedi-orders|Linux Distributions as Factions]] - Creative exploration of distro philosophies
+- [[linux/index|Linux Operating System]] - Linux fundamentals, distributions, and desktop environments
 
 ## Cloud Computing
 
