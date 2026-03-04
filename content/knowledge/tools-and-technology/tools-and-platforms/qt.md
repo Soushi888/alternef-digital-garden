@@ -1,7 +1,17 @@
 ---
-title: "QT"
-aliases: 
-tags: 
+title: "Qt"
+aliases:
+  - QT
+  - Qt Framework
+description: "A comprehensive C++ framework for cross-platform application development with GUI support"
+tags:
+  - gui
+  - cpp
+  - cross-platform
+  - desktop-development
+  - development-tools
+date: 2025-01-01
+updated: 2026-03-03
 related pages:
 ---
 QT is a comprehensive framework for creating cross-platform applications with a strong emphasis on graphical user interfaces (GUIs). It is written in [[C++]] and provides a set of libraries and tools for developing applications that can run on various platforms, including desktop operating systems (Windows, macOS, [[Linux]]), embedded devices (cell phones), and more.

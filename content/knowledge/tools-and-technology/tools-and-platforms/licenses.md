@@ -1,8 +1,17 @@
 ---
+title: Licenses
+description: An overview of software and creative licenses, from open-source to proprietary, and how to choose between them
 aliases:
   - license
   - licenses
   - License
+tags:
+  - open-source
+  - licensing
+  - legal
+  - software
+date: 2025-01-01
+updated: 2026-03-03
 ---
 In the software industry, a license is a legal document that grants certain rights to a user (the licensee) to use a piece of software. The license specifies the terms and conditions under which the software can be used, including what the user can do with the software, how many copies can be made, and for what purposes. It also outlines the restrictions and limitations on the use of the software, such as prohibitions on reverse engineering, redistribution, or use in certain contexts.
 
@@ -15,3 +24,9 @@ There are several types of licenses, each with its own set of permissions and re
 5. **Copyleft License**: Similar to open source licenses, copyleft licenses allow the software to be freely used, modified, and shared. However, any derivative works must also be distributed under the same license, ensuring that the software remains open and freely available.
 
 Understanding the terms of a software license is crucial for both developers and users. It helps ensure that the software is used in compliance with the licensor's intentions and protects the rights of both parties.
+
+## Related Topics
+
+- [[open-source|Open Source]]
+- [[git|Git]]
+- [[github|GitHub]]

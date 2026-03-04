@@ -13,6 +13,25 @@ tags:
 
 This section delves into the diverse landscape of digital tools and platforms, exploring technologies that enhance productivity, creativity, and collaborative work across various domains.
 
+## Notes in This Section
+
+### Knowledge and PKM
+- [[obsidian|Obsidian]] — Local-first personal knowledge management using plain Markdown files
+
+### Content Management
+- [[knowledge/tools-and-technology/tools-and-platforms/content-management/content-management-systems|Content Management Systems]] — Overview of CMS architectures: traditional, headless, decoupled
+- [[knowledge/tools-and-technology/tools-and-platforms/content-management/wiki|Wiki]] — Collaborative web-based systems for creating and organizing content collectively
+
+### Developer Tools
+- [[pieces|Pieces]] — AI-powered developer snippet and workflow management tool
+- [[qt|Qt]] — Comprehensive C++ framework for cross-platform application development with GUI support
+
+### Information Management
+- [[library-management-systems|Library Management Systems]] — Integrated Library Systems for catalog, circulation, and acquisitions
+
+### Licensing
+- [[licenses|Licenses]] — Overview of software and creative licenses, from open-source to proprietary
+
 ## Key Focus Areas
 
 ### 1. Content Management Systems
