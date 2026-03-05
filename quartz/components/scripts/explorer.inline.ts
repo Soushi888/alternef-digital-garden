@@ -141,6 +141,12 @@ function setupExplorer() {
         setFolderState(folderUl, folderState.collapsed)
       }
     })
+
+    // Add active class to current folder button
+    const currentFolder = document.querySelector(
+      `#explorer-content li.folder-container a[href="${location.pathname}"]`,
+    )
+    currentFolder?.parentElement?.classList.add("active")
   }
 }
 

@@ -11,6 +11,12 @@ html {
   width: 100vw;
 }
 
+@media all and ($mobile) {
+  html {
+    scroll-padding-top: 60px;
+  }
+}
+
 body,
 section {
   margin: 0;

@@ -243,7 +243,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   @media all and ($mobile) {
     #explorer-content {
       box-sizing: border-box;
-      overscroll-behavior: none;
+      overscroll-behavior: contain;
       z-index: 100;
       position: absolute;
       top: 0;
@@ -253,6 +253,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       width: 100%;
       transition: transform 300ms ease-in-out;
       overflow: hidden;
+      overflow-y: auto;
       padding: $topSpacing 2rem 2rem;
       height: 100dvh;
       max-height: 100dvh;
