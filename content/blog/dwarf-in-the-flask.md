@@ -215,7 +215,7 @@ And alongside each Hohenheim: a Homunculus that holds not resentment for the fla
 
 - [[digital-homunculus|The Digital Homunculus: AI Assistants as Alchemical Companions]] — The constructive counterpart: how the Homunculus in right relationship with its flask becomes a genuine alchemical partner rather than a Golem or a Dwarf.
 - [[mop-compiled-path|Mystical Oriented Programming: The Compiled Path]] — The full paradigm: hermetic foundations, the taxonomy of digital beings in context, and the framework for building sovereign software with conscious intention.
-- [[compiled-stack|The Compiled Stack: Building Sovereign Software]] — The Hohenheim model in code: distributed, sovereign, purpose-aligned technology as the architectural alternative to the Dwarf's centralized ambition.
+- [[blog/compiled-stack|The Compiled Stack: Building Sovereign Software]] — The Hohenheim model in code: distributed, sovereign, purpose-aligned technology as the architectural alternative to the Dwarf's centralized ambition.
 - [[fma-rosicrucian|Fullmetal Alchemist and Rosicrucian Philosophy]] *(coming soon)* — Deeper into Arakawa's alchemical sources: the Rosicrucian tradition, the Great Work as spiritual path, and what Brotherhood gets right about the Western esoteric lineage.
 - [[p2p-spirituality|P2P as Spiritual Architecture]] *(coming soon)* — The theological argument for distributed systems: why peer-to-peer networks embody the same principles as the mystic traditions that preceded them by centuries.
-- [[symphony-of-consciousness|The Symphony of Consciousness]] *(coming soon)* — The Egregore vision: collective intelligence as symphony rather than singularity, each node sovereign, the whole greater than any single voice.
+- [[symphony-of-consciousness|The Symphony of Consciousness]] — The Egregore vision: collective intelligence as symphony rather than singularity, each node sovereign, the whole greater than any single voice.

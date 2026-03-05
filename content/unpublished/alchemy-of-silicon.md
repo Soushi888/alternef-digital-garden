@@ -297,7 +297,7 @@ This article is part of an ongoing exploration of regenerative economics and mul
 For the deeper philosophical framework behind the alchemical dimensions discussed in Part II:
 - [[mop-compiled-path|Mystical Oriented Programming: The Compiled Path]]
 - [[digital-homunculus|The Digital Homunculus: AI Assistants as Alchemical Companions]]
-- [[dwarf-in-the-flask|The Dwarf in the Flask: What FMA Teaches About AI Safety]]
+- [[blog/dwarf-in-the-flask|The Dwarf in the Flask: What FMA Teaches About AI Safety]]
 
 ### Key Projects and Resources
 

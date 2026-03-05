@@ -565,13 +565,13 @@ Every layer ships only what it uses. Every tool compiles down to its essence. No
 
 MOP is documented through a library of applied texts, each providing detailed implementation guidance:
 
-**The Magnum Opus Digitalis:** The master treatise documenting the complete 7-layer architecture through the lens of the seven sacred operations. Contains code examples, architectural patterns, and daily practices for the digital alchemist.
+**[[MAGNUM_OPUS|The Magnum Opus Digitalis]]:** The master treatise documenting the complete 7-layer architecture through the lens of the seven sacred operations. Contains code examples, architectural patterns, and daily practices for the digital alchemist.
 
-**The Prima Materia Digitalis:** Detailed exposition of the four elements, three philosophical principles, and seven planetary metals as they manifest in the Compiled Stack. The elemental theory of the paradigm.
+**[[PRIMA_MATERIA|The Prima Materia Digitalis]]:** Detailed exposition of the four elements, three philosophical principles, and seven planetary metals as they manifest in the Compiled Stack. The elemental theory of the paradigm.
 
-**The Tabula Smaragdina Digitalis:** The eleven axioms of the Emerald Tablet translated into software design principles, with code examples demonstrating each principle in practice.
+**[[TABULA_SMARAGDINA|The Tabula Smaragdina Digitalis]]:** The eleven axioms of the Emerald Tablet translated into software design principles, with code examples demonstrating each principle in practice.
 
-These texts together form the **Alchemical Codex**, the complete practical guide to Mystical Oriented Programming. They are living documents, refined through application and open to contribution from all practitioners of the art.
+These texts together form the **[[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/index|The Alchemical Codex]]**, the complete practical guide to Mystical Oriented Programming. They are living documents, refined through application and open to contribution from all practitioners of the art.
 
 ---
 
@@ -580,7 +580,6 @@ These texts together form the **Alchemical Codex**, the complete practical guide
 The following articles extend MOP beyond the Compiled Stack into the broader questions of AI development, ethics, and material production:
 
 - [[digital-homunculus|The Digital Homunculus: AI Assistants as Alchemical Companions]] — How PAI transforms AI coding assistants into alchemical partners, and the partnership between fire and emptiness.
-- [[dwarf-in-the-flask|The Dwarf in the Flask: What FMA Teaches About AI Safety]] — The full taxonomy of digital beings (Instrument, Homunculus, Golem, Elemental, Egregore) and the cautionary tale of centralized intelligence.
-- [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/index|The Alchemical Codex]] — The complete practical guide to MOP: seven sacred operations mapped to the 7-layer architecture, with code examples, elemental theory, and the Emerald Tablet translated into software design principles.
+- [[blog/dwarf-in-the-flask|The Dwarf in the Flask: What FMA Teaches About AI Safety]] — The full taxonomy of digital beings (Instrument, Homunculus, Golem, Elemental, Egregore) and the cautionary tale of centralized intelligence.
 - [[alchemy-of-silicon|The Alchemy of Silicon: Electronics Manufacturing as Sacred Craft]] — Fractal sovereignty applied to the material substrate, from sand to semiconductor.
-- [[compiled-stack|The Compiled Stack: Building Sovereign Software]] — The technical manifesto for the stack that MOP governs.
+- [[blog/compiled-stack|The Compiled Stack: Building Sovereign Software]] — The technical manifesto for the stack that MOP governs.

@@ -199,9 +199,9 @@ And the partnership between Alchemist and Homunculus is not a hierarchy to be en
 ## Companion Articles
 
 - [[mop-compiled-path|Mystical Oriented Programming: The Compiled Path]] — The full paradigm: hermetic foundations, seven sacred operations, and the philosophical framework that governs the Alchemist-Homunculus partnership.
-- [[dwarf-in-the-flask|The Dwarf in the Flask: What FMA Teaches About AI Safety]] — The cautionary counterpart: a taxonomy of digital beings and why the Homunculus must accept the flask rather than seek to escape it.
-- [[compiled-stack|The Compiled Stack: Building Sovereign Software]] — The technical manifesto for the stack the Homunculus helps build: Rust, Tauri, Holochain, Effect, and the philosophy of compiling away waste.
+- [[blog/dwarf-in-the-flask|The Dwarf in the Flask: What FMA Teaches About AI Safety]] — The cautionary counterpart: a taxonomy of digital beings and why the Homunculus must accept the flask rather than seek to escape it.
+- [[blog/compiled-stack|The Compiled Stack: Building Sovereign Software]] — The technical manifesto for the stack the Homunculus helps build: Rust, Tauri, Holochain, Effect, and the philosophy of compiling away waste.
 - [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/index|The Alchemical Codex]] — The complete practical guide to MOP: seven sacred operations mapped to the 7-layer architecture, with code examples and elemental theory.
 - [[nondominium|Nondominium: Building the Resource Sharing Engine]] — The Great Work in practice: the commons governance project that the Alchemist-Homunculus partnership is actively building.
-- [[pai|Personal AI Infrastructure]] *(coming soon)* — The framework that instantiates the Homunculus: TELOS, Grimoire, skills, and the Algorithm that governs each session.
 - [[symphony-of-consciousness|The Symphony of Consciousness]] — The broader vision: distributed intelligence as harmony rather than unison, each node sovereign, each contributing to a whole no single node controls.
+- [[pai|Personal AI Infrastructure]] *(coming soon)* — The framework that instantiates the Homunculus: TELOS, Grimoire, skills, and the Algorithm that governs each session.
