@@ -573,11 +573,14 @@ MOP is documented through a library of applied texts, each providing detailed im
 
 These texts together form the **Alchemical Codex**, the complete practical guide to Mystical Oriented Programming. They are living documents, refined through application and open to contribution from all practitioners of the art.
 
-### Companion Articles
+---
+
+## Companion Articles
 
 The following articles extend MOP beyond the Compiled Stack into the broader questions of AI development, ethics, and material production:
 
-- [The Digital Homunculus: AI Assistants as Alchemical Companions](/digital-homunculus) — How PAI transforms AI coding assistants into alchemical partners, and the partnership between fire and emptiness.
-- [The Dwarf in the Flask: What FMA Teaches About AI Safety](/dwarf-in-the-flask) — The full taxonomy of digital beings (Instrument, Homunculus, Golem, Elemental, Egregore) and the cautionary tale of centralized intelligence.
-- [The Alchemy of Silicon: Electronics Manufacturing as Sacred Craft](/alchemy-of-silicon) — Fractal sovereignty applied to the material substrate, from sand to semiconductor.
-- [The Compiled Stack: Building Sovereign Software](/compiled-stack) — The technical manifesto for the stack that MOP governs.
+- [[digital-homunculus|The Digital Homunculus: AI Assistants as Alchemical Companions]] — How PAI transforms AI coding assistants into alchemical partners, and the partnership between fire and emptiness.
+- [[dwarf-in-the-flask|The Dwarf in the Flask: What FMA Teaches About AI Safety]] — The full taxonomy of digital beings (Instrument, Homunculus, Golem, Elemental, Egregore) and the cautionary tale of centralized intelligence.
+- [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/index|The Alchemical Codex]] — The complete practical guide to MOP: seven sacred operations mapped to the 7-layer architecture, with code examples, elemental theory, and the Emerald Tablet translated into software design principles.
+- [[alchemy-of-silicon|The Alchemy of Silicon: Electronics Manufacturing as Sacred Craft]] — Fractal sovereignty applied to the material substrate, from sand to semiconductor.
+- [[compiled-stack|The Compiled Stack: Building Sovereign Software]] — The technical manifesto for the stack that MOP governs.
