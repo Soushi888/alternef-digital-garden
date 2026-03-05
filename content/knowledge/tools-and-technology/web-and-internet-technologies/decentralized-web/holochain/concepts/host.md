@@ -33,20 +33,21 @@ The Host implements a **capability-based security model** where:
 ┌─────────────────────────────────────────┐
 │              Host Environment           │
 ├─────────────────────────────────────────┤
-│  • System API Access                   │
-│  • Network Communication               │
-│  • Persistent Storage                  │
-│  • Cryptographic Operations           │
-│  • Resource Management                │
+│  • System API Access                    │
+│  • Network Communication                │
+│  • Persistent Storage                   │
+│  • Cryptographic Operations             │
+│  • Resource Management                  │
 └─────────────┬───────────────────────────┘
               │ Controlled API
-┌─────────────▼───────────────────────────┐
+              ▼
+┌─────────────────────────────────────────┐
 │          Guest Applications             │
 ├─────────────────────────────────────────┤
-│  • WebAssembly Execution               │
-│  • Application Logic                   │
-│  • Restricted System Access           │
-│  • Sandboxed Environment              │
+│  • WebAssembly Execution                │
+│  • Application Logic                    │
+│  • Restricted System Access             │
+│  • Sandboxed Environment                │
 └─────────────────────────────────────────┘
 ```
 
@@ -229,7 +230,7 @@ Organizations can implement custom hosts for:
 
 - **[[guest|Guest]]** - WebAssembly applications running in host environment
 - **[[conductor|Conductor]]** - Primary host implementation
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/cells|Cells]]** - Guest application instances managed by host
+- **[[cell|Cells]]** - Guest application instances managed by host
 - **[[wasm|WebAssembly]]** - Guest application execution environment
 - **[[api|Host API]]** - Interface between host and guest systems
 

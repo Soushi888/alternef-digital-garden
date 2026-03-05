@@ -12,7 +12,7 @@ parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentra
 
 # Holochain Cells
 
-A particular [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/social-dna|DNA]] when it’s bound to an [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/agent|agent ID]] and running in the [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/conductor|Conductor]]. 
+A particular [[social-dna|DNA]] when it’s bound to an [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/agent|agent ID]] and running in the [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/conductor|Conductor]]. 
 
 - DNA + agent = cell.
 -   Unique per-agent instantiation of a DNA

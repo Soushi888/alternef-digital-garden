@@ -15,6 +15,6 @@ The Holochain Conductor is a runtime environment that manages and orchestrates m
 - [[App Interface]]
 
 ## Related Concepts
-- [[DNA]]
-- [[Cell]]
+- [[dna-and-zomes|DNA]]
+- [[cell|Cell]]
 - [[hApp]]

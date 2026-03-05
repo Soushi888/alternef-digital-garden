@@ -26,19 +26,20 @@ A **Guest** in Holochain is a WebAssembly (WASM) application that runs in a secu
 ┌─────────────────────────────────────────┐
 │           Guest Application             │
 ├─────────────────────────────────────────┤
-│  • Application Logic (WASM)            │
-│  • Business Rules                      │
-│  • Validation Functions                │
-│  • User Interface Logic                │
+│  • Application Logic (WASM)             │
+│  • Business Rules                       │
+│  • Validation Functions                 │
+│  • User Interface Logic                 │
 └─────────────┬───────────────────────────┘
               │ Host API Calls
-┌─────────────▼───────────────────────────┐
+              ▼
+┌─────────────────────────────────────────┐
 │             Host Runtime                │
 ├─────────────────────────────────────────┤
-│  • System Resources                    │
-│  • Network Communication               │
-│  • Cryptographic Services             │
-│  • Data Persistence                   │
+│  • System Resources                     │
+│  • Network Communication                │
+│  • Cryptographic Services               │
+│  • Data Persistence                     │
 └─────────────────────────────────────────┘
 ```
 

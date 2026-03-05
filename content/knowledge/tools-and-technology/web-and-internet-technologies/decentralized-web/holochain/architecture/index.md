@@ -25,8 +25,8 @@ This section explores the technical architecture of Holochain, including its cor
 
 ### Core Components
 
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/agent-centric-architecture|Agent-Centric Architecture]] - Fundamental design paradigm, agent sovereignty
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/validation-rules|Validation Rules]] - Distributed data integrity mechanism
+- [[agent-centric-architecture|Agent-Centric Architecture]] - Fundamental design paradigm, agent sovereignty
+- [[validation-rules|Validation Rules]] - Distributed data integrity mechanism
 - Source Chain - Agent's personal immutable record chain
 - DHT - Distributed Hash Table for shared data
 - Networking Layer - Peer discovery and communication
@@ -85,4 +85,4 @@ This section explores the technical architecture of Holochain, including its cor
 
 - [Holochain Architecture Documentation](https://developer.holochain.org/docs/concepts/2_application_architecture/)
 - [Holochain Technical Whitepaper](https://github.com/holochain/holochain-proto/blob/whitepaper/holochain.pdf)
-- [Holochain Core GitHub Repository](https://github.com/holochain/holochain) 
+- [Holochain Core GitHub Repository](https://github.com/holochain/holochain)

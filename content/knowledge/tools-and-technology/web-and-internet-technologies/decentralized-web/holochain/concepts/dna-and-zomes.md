@@ -93,10 +93,10 @@ This separation allows Holochain applications to evolve their behavior (UI logic
 
 ## Related Concepts
 
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/cell|Cell]] - Each installed DNA instance is a cell
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/entry|Entry]] - Data types defined in integrity zomes
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/conductor|Conductor]] - Runtime that manages DNA instances
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/hdk/hdk|HDK]] - Rust library for writing zomes
+- [[cell|Cell]] - Each installed DNA instance is a cell
+- [[entry|Entry]] - Data types defined in integrity zomes
+- [[conductor|Conductor]] - Runtime that manages DNA instances
+- [[hdk|HDK]] - Rust library for writing zomes
 
 ## References
 

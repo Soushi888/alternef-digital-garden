@@ -638,7 +638,7 @@ pub fn evolve_governance_system(
 
 ## Related Concepts
 
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/dna|DNA]]** - Technical foundation that Social DNA extends
+- **[[dna-and-zomes|DNA]]** - Technical foundation that Social DNA extends
 - **[[community-governance|Community Governance]]** - Governance patterns and mechanisms
 - **[[reputation-systems|Reputation Systems]]** - Merit and trust-based influence networks
 - **[[collective-intelligence|Collective Intelligence]]** - Community sensemaking processes
