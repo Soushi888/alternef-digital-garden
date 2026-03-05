@@ -31,7 +31,7 @@ This alchemical documentation serves multiple sacred purposes:
 
 ## 📋 THE SACRED MANUSCRIPTS
 
-### **🌟 [[MAGNUM_OPUS|Magnum Opus]]**
+### **🌟 [[MAGNUM-OPUS|Magnum Opus]]**
 
 _The Great Work of Distributed Economic Transmutation_
 
@@ -47,7 +47,7 @@ _The Great Work of Distributed Economic Transmutation_
 
 _"This is the cornerstone document - read this first to understand the complete vision."_
 
-### **🌱 [[PRIMA_MATERIA|Prima Materia]]**
+### **🌱 [[PRIMA-MATERIA|Prima Materia]]**
 
 _The First Matter of Distributed Computing_
 
@@ -63,7 +63,7 @@ _The First Matter of Distributed Computing_
 
 _"Essential reading for understanding the deeper principles behind every technical choice."_
 
-### **💎 [[TABULA_SMARAGDINA|Tabula Smaragdina]]**
+### **💎 [[TABULA-SMARAGDINA|Tabula Smaragdina]]**
 
 _The Emerald Tablet of Distributed Computing_
 
@@ -91,33 +91,33 @@ _"The philosophical foundation - these principles guide every decision in the co
 
 _New to the project or alchemical thinking_
 
-1. **Start Here:** [[TABULA_SMARAGDINA|Tabula Smaragdina]] - Learn the fundamental principles
-2. **Then Read:** [[PRIMA_MATERIA|Prima Materia]] - Understand the basic elements
-3. **Finally Study:** [[MAGNUM_OPUS|Magnum Opus]] - See the complete system
+1. **Start Here:** [[TABULA-SMARAGDINA|Tabula Smaragdina]] - Learn the fundamental principles
+2. **Then Read:** [[PRIMA-MATERIA|Prima Materia]] - Understand the basic elements
+3. **Finally Study:** [[MAGNUM-OPUS|Magnum Opus]] - See the complete system
 
 ### **For the Practical Developer**
 
 _Focused on implementation details_
 
-1. **Start Here:** [[MAGNUM_OPUS|Magnum Opus]]#liber-tertius-the-laboratory-procedures - Get practical instructions
-2. **Reference:** [[PRIMA_MATERIA|Prima Materia]]#the-laboratory-setup - Environment setup
-3. **Apply:** [[TABULA_SMARAGDINA|Tabula Smaragdina]]#the-practical-application - Daily practices
+1. **Start Here:** [[MAGNUM-OPUS|Magnum Opus]]#liber-tertius-the-laboratory-procedures - Get practical instructions
+2. **Reference:** [[PRIMA-MATERIA|Prima Materia]]#the-laboratory-setup - Environment setup
+3. **Apply:** [[TABULA-SMARAGDINA|Tabula Smaragdina]]#the-practical-application - Daily practices
 
 ### **For the System Architect**
 
 _Interested in design patterns and principles_
 
-1. **Start Here:** [[MAGNUM_OPUS|Magnum Opus]]#liber-primus-the-seven-sacred-operations - Architectural layers
-2. **Study:** [[PRIMA_MATERIA|Prima Materia]]#the-three-philosophical-principles - Design principles
-3. **Apply:** [[TABULA_SMARAGDINA|Tabula Smaragdina]]#the-correspondence-principle - Pattern consistency
+1. **Start Here:** [[MAGNUM-OPUS|Magnum Opus]]#liber-primus-the-seven-sacred-operations - Architectural layers
+2. **Study:** [[PRIMA-MATERIA|Prima Materia]]#the-three-philosophical-principles - Design principles
+3. **Apply:** [[TABULA-SMARAGDINA|Tabula Smaragdina]]#the-correspondence-principle - Pattern consistency
 
 ### **For the Rose Croix Initiate**
 
 _Interested in the spiritual and philosophical dimensions_
 
-1. **Begin With:** [[MAGNUM_OPUS|Magnum Opus]]#prolegomena-alchemica - The sacred purpose
-2. **Contemplate:** [[TABULA_SMARAGDINA|Tabula Smaragdina]] - The eternal principles
-3. **Practice:** [[MAGNUM_OPUS|Magnum Opus]]#liber-septimus-the-rosary-of-development - Daily spiritual practices
+1. **Begin With:** [[MAGNUM-OPUS|Magnum Opus]]#prolegomena-alchemica - The sacred purpose
+2. **Contemplate:** [[TABULA-SMARAGDINA|Tabula Smaragdina]] - The eternal principles
+3. **Practice:** [[MAGNUM-OPUS|Magnum Opus]]#liber-septimus-the-rosary-of-development - Daily spiritual practices
 
 ---
 

@@ -1,4 +1,20 @@
-# 💎 TABULA SMARAGDINA DIGITALIS
+---
+title: "💎 Tabula Smaragdina Digitalis"
+description: "The Emerald Tablet of distributed computing: eleven hermetic axioms translated into software design principles, from correspondence and separation to ascension and creation."
+aliases:
+  - "Tabula Smaragdina"
+  - "Emerald Tablet of Distributed Computing"
+tags:
+  - programming
+  - mystical-oriented-programming
+  - alchemical-codex
+  - software-architecture
+  - distributed-computing
+  - software-design-principles
+date: 2026-03-05
+draft: false
+---
+
 ## *The Emerald Tablet of Distributed Computing*
 
 *Being the Foundational Axioms and Sacred Principles Upon Which All Digital Alchemical Operations Must Rest*

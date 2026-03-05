@@ -1,4 +1,23 @@
-# 🌹 MAGNUM OPUS DIGITALIS
+---
+title: "🌹 Magnum Opus Digitalis"
+description: "The Great Work of Distributed Economic Transmutation: seven alchemical operations mapping Holochain's Requests and Offers architecture to hermetic principles."
+aliases:
+  - "Magnum Opus"
+  - "Great Work of Distributed Computing"
+tags:
+  - programming
+  - mystical-oriented-programming
+  - alchemical-codex
+  - holochain
+  - distributed-computing
+  - software-architecture
+  - effect-ts
+  - svelte
+  - cooperative-economics
+date: 2026-03-05
+draft: false
+---
+
 ## *The Great Work of Distributed Economic Transmutation*
 
 *Being a True and Faithful Account of the Alchemical Processes by which Base Economic Systems are Transformed into Golden Networks of Mutual Aid and Cooperative Exchange*

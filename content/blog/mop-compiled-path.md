@@ -565,11 +565,11 @@ Every layer ships only what it uses. Every tool compiles down to its essence. No
 
 MOP is documented through a library of applied texts, each providing detailed implementation guidance:
 
-**[[MAGNUM_OPUS|The Magnum Opus Digitalis]]:** The master treatise documenting the complete 7-layer architecture through the lens of the seven sacred operations. Contains code examples, architectural patterns, and daily practices for the digital alchemist.
+**[[MAGNUM-OPUS|The Magnum Opus Digitalis]]:** The master treatise documenting the complete 7-layer architecture through the lens of the seven sacred operations. Contains code examples, architectural patterns, and daily practices for the digital alchemist.
 
-**[[PRIMA_MATERIA|The Prima Materia Digitalis]]:** Detailed exposition of the four elements, three philosophical principles, and seven planetary metals as they manifest in the Compiled Stack. The elemental theory of the paradigm.
+**[[PRIMA-MATERIA|The Prima Materia Digitalis]]:** Detailed exposition of the four elements, three philosophical principles, and seven planetary metals as they manifest in the Compiled Stack. The elemental theory of the paradigm.
 
-**[[TABULA_SMARAGDINA|The Tabula Smaragdina Digitalis]]:** The eleven axioms of the Emerald Tablet translated into software design principles, with code examples demonstrating each principle in practice.
+**[[TABULA-SMARAGDINA|The Tabula Smaragdina Digitalis]]:** The eleven axioms of the Emerald Tablet translated into software design principles, with code examples demonstrating each principle in practice.
 
 These texts together form the **[[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/index|The Alchemical Codex]]**, the complete practical guide to Mystical Oriented Programming. They are living documents, refined through application and open to contribution from all practitioners of the art.
 

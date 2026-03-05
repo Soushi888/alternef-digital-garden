@@ -1,4 +1,22 @@
-# 🌱 PRIMA MATERIA DIGITALIS
+---
+title: "🌱 Prima Materia Digitalis"
+description: "The foundational elements of distributed computing mapped to alchemical principles: four classical elements, three philosophical principles, seven planetary metals, and the quintessence."
+aliases:
+  - "Prima Materia"
+  - "First Matter of Distributed Computing"
+tags:
+  - programming
+  - mystical-oriented-programming
+  - alchemical-codex
+  - distributed-computing
+  - software-architecture
+  - holochain
+  - rust
+  - typescript
+date: 2026-03-05
+draft: false
+---
+
 ## *The First Matter of Distributed Computing*
 
 *Being an Exposition of the Foundational Substances from which the Great Work is Constructed*
