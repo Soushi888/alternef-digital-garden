@@ -6,9 +6,9 @@ aliases:
   - WebSocket
 tags:
   - frontend
-  - #backend
+  - backend
   - real-time-communication
-  - protocol
+  - protocols
   - web-technology
 related pages:
   - "[[knowledge/tools-and-technology/web-and-internet-technologies/protocols/index|Web Protocols]]"

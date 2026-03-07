@@ -2,7 +2,7 @@
 title: Object-Oriented Programming
 description: A programming paradigm organizing software design around data objects and their interactions
 tags:
-  - programming-paradigm
+  - programming-paradigms
   - object-based
   - encapsulation
 aliases:

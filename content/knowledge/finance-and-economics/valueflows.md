@@ -7,7 +7,7 @@ tags:
   - economic-networks
   - protocols
   - rea
-  - value-flows
+  - valueflows
   - decentralized-coordination
 ---
 

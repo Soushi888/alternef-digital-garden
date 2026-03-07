@@ -2,8 +2,8 @@
 aliases:
   - WebRTC
 tags:
-  - p2p
-  - programmation/RealTimeCommunication
+  - peer-to-peer
+  - real-time-communication
 related pages:
   - "[[peer-to-peer]]"
   - "[[JavaScript]]"

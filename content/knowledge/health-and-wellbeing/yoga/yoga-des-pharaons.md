@@ -15,7 +15,7 @@ tags:
   - postures
   - ancient-traditions
   - african-traditions
-  - body-mind
+  - mind-body-connection
   - holistic-healing
 date: 2026-03-03
 categories:

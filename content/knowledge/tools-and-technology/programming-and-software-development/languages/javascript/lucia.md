@@ -3,7 +3,7 @@ aliases:
   - lucia-auth
 tags:
   - javascript
-  - authentification
+  - authentication
 related pages:
   - [[authentification]]
   - [[javaScript]]

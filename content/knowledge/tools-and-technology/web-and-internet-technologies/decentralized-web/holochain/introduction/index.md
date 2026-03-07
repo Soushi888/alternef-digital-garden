@@ -5,7 +5,7 @@ tags:
   - holochain
   - introduction
   - decentralized-web
-  - p2p
+  - peer-to-peer
 aliases:
   - Holochain Fundamentals
   - Getting Started with Holochain

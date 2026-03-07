@@ -6,7 +6,7 @@ tags:
   - architecture
   - distributed-systems
   - decentralized-web
-  - p2p
+  - peer-to-peer
 aliases:
   - Holochain Technical Architecture
   - Holochain System Design

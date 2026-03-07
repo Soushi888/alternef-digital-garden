@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - blockchains/stable-coins
+  - stablecoin
 related pages:
   - "[[Blockchain]]"
   - "[[Économie]]"

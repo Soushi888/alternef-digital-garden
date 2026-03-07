@@ -3,7 +3,7 @@ title: What is Holochain?
 description: A comprehensive explanation of Holochain's unique approach to distributed computing and its key differentiators
 tags:
   - holochain
-  - p2p
+  - peer-to-peer
   - decentralized-web
   - distributed-systems
   - agent-centric

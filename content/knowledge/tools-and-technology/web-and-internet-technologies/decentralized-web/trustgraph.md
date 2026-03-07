@@ -6,7 +6,7 @@ tags:
   - trust
   - reputation
   - open-source
-  - protocol
+  - protocols
 aliases:
   - Decentralized Trust Network
   - Distributed Reputation System

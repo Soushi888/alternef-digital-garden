@@ -5,7 +5,7 @@ tags:
   - holochain
   - decentralized-web
   - blockchain-alternative
-  - p2p
+  - peer-to-peer
 aliases:
   - Holochain Overview
   - Holochain Documentation

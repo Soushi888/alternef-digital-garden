@@ -6,7 +6,7 @@ aliases:
   - "Unix Operating System"
   - "Unix Design Philosophy"
 tags:
-  - operating-system
+  - operating-systems
   - computer-science
   - system-design
   - programming-philosophy

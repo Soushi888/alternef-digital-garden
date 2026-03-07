@@ -5,8 +5,8 @@ aliases:
   - ETH
 tags:
   - blockchain
-  - EVM
-  - PoS
+  - evm
+  - proof-of-stake
 ---
 
 Consensus :  [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/proof-of-stake/index|Proof of Stake]]

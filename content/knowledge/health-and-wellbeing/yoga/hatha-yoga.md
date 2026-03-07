@@ -6,7 +6,7 @@ tags:
   - postures
   - pranayama
   - meditation
-  - body-mind
+  - mind-body-connection
   - natha-sampradaya
   - indian-philosophy
 date: 2025-01-07

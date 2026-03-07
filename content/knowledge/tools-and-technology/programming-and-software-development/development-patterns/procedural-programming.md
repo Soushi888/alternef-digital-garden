@@ -2,7 +2,7 @@
 title: Procedural Programming
 description: A programming paradigm organizing code into procedures and sequential instructions
 tags:
-  - programming-paradigm
+  - programming-paradigms
   - imperative
   - sequential
 aliases:

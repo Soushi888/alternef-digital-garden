@@ -4,7 +4,7 @@ aliases:
   - NFT
   - Non-Fungible Tokens
 tags:
-  - blockchains/NFTs
+  - nft
 related pages:
   - "[[Tokenomie]]"
 ---

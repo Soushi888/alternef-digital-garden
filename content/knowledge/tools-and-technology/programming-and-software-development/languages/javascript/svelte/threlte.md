@@ -6,7 +6,7 @@ tags:
   - svelte
   - 3d
   - web
-  - framework
+  - frameworks
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/svelte|Svelte]]"
 ---

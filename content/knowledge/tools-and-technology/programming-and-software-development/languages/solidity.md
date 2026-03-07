@@ -2,9 +2,8 @@
 aliases: 
 tags:
   - programmation
-  - blockchains/EVM
-  - blockchains/smart-contracts
-  - progr
+  - evm
+  - smart-contracts
 ---
 [[Ethereum Virtual Machine|EVM]]
 

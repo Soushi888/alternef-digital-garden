@@ -6,7 +6,7 @@ aliases:
   - "Linux OS"
   - "Linux Distributions"
 tags:
-  - operating-system
+  - operating-systems
   - linux
   - networking
   - open-source

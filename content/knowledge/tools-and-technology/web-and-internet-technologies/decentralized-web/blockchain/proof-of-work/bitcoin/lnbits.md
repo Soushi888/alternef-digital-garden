@@ -6,7 +6,7 @@ aliases:
   - Lightning Network Bits
 tags:
   - frontend
-  - #backend
+  - backend
   - bitcoin
   - lightning-network
   - cryptocurrency

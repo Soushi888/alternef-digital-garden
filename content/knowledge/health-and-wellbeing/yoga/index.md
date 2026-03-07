@@ -7,7 +7,7 @@ tags:
   - yoga-des-pharaons
   - kundalini-yoga
   - movement-practices
-  - body-mind
+  - mind-body-connection
 date: 2026-03-03
 categories:
   - Health & Wellbeing

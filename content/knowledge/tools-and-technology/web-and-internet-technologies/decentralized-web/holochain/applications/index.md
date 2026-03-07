@@ -6,7 +6,7 @@ tags:
   - applications
   - applications
   - decentralized-web
-  - p2p
+  - peer-to-peer
 parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]"
 aliases:
   - Holochain Use Cases

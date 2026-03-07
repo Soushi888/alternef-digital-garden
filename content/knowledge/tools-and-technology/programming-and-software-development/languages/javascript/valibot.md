@@ -4,7 +4,7 @@ description: Valibot is a modular and type safe schema library for JavaScript. I
 aliases: 
 tags:
   - javascript
-  - librairies
+  - libraries
 ---
 
 [Valibot: The modular and type safe schema library](https://valibot.dev/)

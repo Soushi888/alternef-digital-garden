@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - blockchains/Layer-2
+  - layer-2
 related pages:
   - "[[Cardano]]"
 ---

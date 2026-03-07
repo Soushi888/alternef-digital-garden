@@ -2,7 +2,7 @@
 title: Functional Programming (FP)
 description: A programming paradigm based on function composition, immutability, and declarative computation
 tags:
-  - programming-paradigm
+  - programming-paradigms
   - declarative
   - immutability
 aliases:

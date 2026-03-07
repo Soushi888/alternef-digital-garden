@@ -2,7 +2,7 @@
 title: Programming Paradigms
 description: Different fundamental approaches to organizing and structuring computer programs, each with distinct philosophies, principles, and patterns for solving computational problems.
 tags:
-  - programming-paradigm
+  - programming-paradigms
 ---
 
 _Different fundamental approaches to organizing and structuring computer programs, each with distinct philosophies, principles, and patterns for solving computational problems._

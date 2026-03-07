@@ -6,7 +6,7 @@ aliases:
   - "Ubuntu KDE"
   - "KDE Ubuntu"
 tags:
-  - operating-system
+  - operating-systems
   - linux
   - kubuntu
   - kde

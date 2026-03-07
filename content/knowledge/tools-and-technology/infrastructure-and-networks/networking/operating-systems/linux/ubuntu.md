@@ -6,7 +6,7 @@ aliases:
   - "Ubuntu Desktop"
   - "Canonical Ubuntu"
 tags:
-  - operating-system
+  - operating-systems
   - linux
   - networking
   - infrastructure

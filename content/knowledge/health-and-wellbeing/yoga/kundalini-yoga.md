@@ -14,7 +14,7 @@ tags:
   - shakti
   - tantric-traditions
   - indian-philosophy
-  - body-mind
+  - mind-body-connection
   - ancient-traditions
   - movement-practices
   - holistic-healing

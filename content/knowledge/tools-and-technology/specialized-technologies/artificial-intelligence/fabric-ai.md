@@ -4,7 +4,7 @@ aliases:
   - Fabric Framework
   - Daniel Miessler's Fabric
 tags:
-  - ai
+  - artificial-intelligence
   - llm
   - cli
   - prompts

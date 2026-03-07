@@ -2,11 +2,11 @@
 title: Peer-to-Peer Networking
 subtitle: Reimagining Connectivity and Collective Intelligence
 aliases:
-  - p2p
+  - peer-to-peer
   - peer-to-peer
   - pair-a-pair
 tags:
-  - p2p
+  - peer-to-peer
   - networking
   - decentralization
   - systems-thinking

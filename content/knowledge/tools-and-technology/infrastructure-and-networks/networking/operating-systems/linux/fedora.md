@@ -7,7 +7,7 @@ aliases:
   - "Fedora Core"
   - "Red Hat Fedora"
 tags:
-  - operating-system
+  - operating-systems
   - linux
   - innovation
   - development

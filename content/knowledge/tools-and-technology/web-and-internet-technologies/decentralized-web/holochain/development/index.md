@@ -6,7 +6,7 @@ tags:
   - development
   - programming
   - decentralized-web
-  - p2p
+  - peer-to-peer
 aliases:
   - Holochain Development Resources
   - Building on Holochain

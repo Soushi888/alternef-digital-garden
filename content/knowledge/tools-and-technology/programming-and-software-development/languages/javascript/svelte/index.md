@@ -4,7 +4,7 @@ description: A reactive JavaScript framework for building efficient web applicat
 tags:
   - javascript
   - frontend
-  - framework
+  - frameworks
   - web
 related pages:
   - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/sveltekit|SvelteKit]]"

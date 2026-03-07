@@ -2,7 +2,7 @@
 aliases:
   - Auth.js
 tags:
-  - librairies
+  - libraries
   - javascript
 related pages:
   - [[authentification]]

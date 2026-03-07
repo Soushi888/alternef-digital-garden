@@ -7,7 +7,7 @@ aliases:
   - "Enterprise Linux"
   - "Red Hat Enterprise Linux 9"
 tags:
-  - operating-system
+  - operating-systems
   - linux
   - enterprise
   - business

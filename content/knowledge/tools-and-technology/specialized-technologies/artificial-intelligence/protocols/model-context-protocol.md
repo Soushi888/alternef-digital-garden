@@ -2,8 +2,8 @@
 title: Model Context Protocol (MCP)
 description: A standardized approach to managing context in AI-powered applications
 tags:
-  - ai
-  - protocol
+  - artificial-intelligence
+  - protocols
   - context-management
   - interoperability
 related pages:

@@ -7,7 +7,7 @@ aliases:
   - "Mint Linux"
   - "Ubuntu Mint"
 tags:
-  - operating-system
+  - operating-systems
   - linux
   - ubuntu-based
   - user-friendly

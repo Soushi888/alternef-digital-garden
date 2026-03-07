@@ -4,7 +4,7 @@ description: A comprehensive overview of Distributed Hash Table (DHT) technology
 tags:
   - networking
   - decentralization
-  - p2p
+  - peer-to-peer
   - distributed-systems
 related pages:
   - "[[holochain-architecture-overview]]"

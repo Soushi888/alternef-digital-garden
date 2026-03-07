@@ -6,10 +6,10 @@ aliases:
   - LiveCode Platform
 tags:
   - frontend
-  - #backend
+  - backend
   - low-code
   - cross-platform
-  - development-tool
+  - development-tools
 related pages:
   - "[[knowledge/tools-and-technology/tools-and-platforms/low-code-platforms/index|Low-Code Platforms]]"
   - "[[knowledge/tools-and-technology/programming-and-software-development/index|Programming and Software Development]]"

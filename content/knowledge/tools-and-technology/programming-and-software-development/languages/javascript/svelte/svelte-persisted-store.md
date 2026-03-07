@@ -3,7 +3,7 @@ title: Svelte Persisted Store
 description: A Svelte store that persists to localStorage.
 tags:
   - javascript
-  - librairies
+  - libraries
   - svelte
 ---
 [GitHub - joshnuss/svelte-persisted-store: A Svelte store that persists to localStorage](https://github.com/joshnuss/svelte-persisted-store)

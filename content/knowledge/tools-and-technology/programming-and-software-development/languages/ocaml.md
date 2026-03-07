@@ -9,7 +9,7 @@ tags:
   - systems-programming
   - type-safety
   - industrial-adoption
-  - programming-language
+  - programming-languages
 created: 2025-01-12
 modified: 2025-01-12
 draft: false

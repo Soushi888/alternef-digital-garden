@@ -6,7 +6,7 @@ tags:
   - bioregion
   - place-based
   - ecological-governance
-  - watershed
+  - watersheds
   - local-knowledge
   - indigenous-wisdom
   - regenerative

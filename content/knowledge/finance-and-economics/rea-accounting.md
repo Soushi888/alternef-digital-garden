@@ -7,7 +7,7 @@ tags:
   - accounting
   - rea
   - economic-models
-  - value-flows
+  - valueflows
 ---
 
 # REA Accounting
