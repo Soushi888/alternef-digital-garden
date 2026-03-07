@@ -3,8 +3,7 @@ title: "The AlterNef: A Ship of Alternatives for the Aquarian Age"
 subtitle: "Reimagining Education, Community, and Consciousness Evolution"
 date: 2025-09-01
 draft: true
-tags: ["blog", "alternef", "vision", "aquarian-age", "education", "community", "consciousness", "p2p-spirituality", "non-linear-learning", "distributed-systems", "holochain", "technology", "Vision", "Future Projects"]
-
+tags: ["holochain", "distributed-systems", "alternef", "aquarian-age", "education", "community", "consciousness", "p2p-spirituality", "future-projects", "programming", "blog"]
 ---
 
 *What if education could honor your unique learning rhythm? What if communities could embrace both individual sovereignty and collective wisdom? What if technology could serve human consciousness rather than exploit it?*

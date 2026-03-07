@@ -3,7 +3,7 @@ title: "Holochain Technical Terminology: A Developer's Lexicon"
 description: "A comprehensive guide mapping Holochain-specific concepts to conventional software development terminology, helping developers transition to distributed application development."
 date: 2025-01-20
 author: "soushi888"
-tags: ["blog", "holochain", "distributed-systems", "peer-to-peer", "technical-guide", "development", "lexicon"]
+tags: ["holochain", "distributed-systems", "peer-to-peer", "blog", "software-development"]
 category: "technical documentation"
 ---
 

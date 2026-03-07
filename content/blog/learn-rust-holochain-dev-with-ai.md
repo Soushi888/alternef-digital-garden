@@ -3,16 +3,7 @@ title: "Learning Rust and Holochain Development with AI Assistance"
 description: "A comprehensive guide to leveraging AI tools for mastering Rust programming and Holochain development, based on practical experience building distributed applications."
 date: 2025-08-02
 version: 0.5.0
-tags:
-  [
-    "blog",
-    "rust",
-    "holochain",
-    "ai-assisted-learning",
-    "development",
-    "programming-education",
-    "distributed-systems",
-  ]
+tags: ["holochain", "distributed-systems", "rust", "blog", "software-development"]
 category: "Development"
 ---
 

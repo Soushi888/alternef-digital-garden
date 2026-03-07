@@ -3,17 +3,7 @@ title: "The Holochain Ecosystem in 2025: A Friendly Reality Check"
 date: "2025-09-05"
 author: "Alternef"
 description: "An honest, comprehensive look at where Holochain stands today - celebrating genuine progress while addressing real challenges. A reassuring deep-dive for community members who want the full picture."
-tags:
-  [
-    "blog",
-    "holochain",
-    "ecosystem",
-    "community",
-    "development",
-    "analysis",
-    "peer-to-peer",
-    "reality-check"
-  ]
+tags: ["holochain", "community", "peer-to-peer", "blog", "software-development", "ecosystem", "analysis"]
 heroImage: "/blog-placeholder-3.jpg"
 ---
 

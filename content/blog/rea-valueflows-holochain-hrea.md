@@ -3,7 +3,7 @@ title: "From REA to hREA: A Journey into Decentralized Economic Systems"
 date: "2025-07-13"
 author: "Alternef"
 description: "A deep dive into REA, ValueFlows, Holochain, and hREA, exploring how they combine to create new models for decentralized economic coordination."
-tags: ["blog", "rea", "valueflows", "holochain", "rea", "accounting", "decentralization", "economic-design", "distributed-systems", "economics"]
+tags: ["holochain", "distributed-systems", "decentralization", "valueflows", "economics", "rea", "rea", "blog", "accounting"]
 
 ---
 

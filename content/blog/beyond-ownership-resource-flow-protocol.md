@@ -3,7 +3,7 @@ title: "Beyond Ownership: The Resource Flow Protocol"
 date: "2025-11-28"
 author: "Soushi888"
 description: "How the Resource Transport/Flow Protocol (RTP-FP) is transforming resource sharing in commons-based economies through five-dimensional tracking and decentralized governance."
-tags: ["blog", "governance", "decentralization", "economics", "resource-sharing", "commons-economy", "holochain", "valueflows", "decentralized-governance", "economic-protocols", "stewardship", "peer-to-peer"]
+tags: ["holochain", "governance", "decentralization", "peer-to-peer", "resource-sharing", "valueflows", "economics", "blog", "economic-protocols", "stewardship"]
 
 ---
 

@@ -3,8 +3,7 @@ title: "La Symphonie de la Conscience : Un Dialogue entre les Règnes"
 subtitle: "Méditation sur l'évolution harmonique de la conscience terrestre"
 date: 2025-08-22
 draft: true
-tags: ["blog", "conscience", "evolution", "règnes-naturels", "artificial-intelligence", "spiritualite", "cristaux", "symphonie-cosmique", "fraternite-universelle", "Blog", "Philosophie", "Spiritualité"]
-
+tags: ["conscience", "artificial-intelligence", "blog", "evolution"]
 ---
 
 # La Symphonie de la Conscience : Un Dialogue entre les Règnes
