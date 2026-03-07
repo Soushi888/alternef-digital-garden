@@ -1,3 +1,7 @@
+---
+tags: ["programming", "javascript", "frontend", "web-dev"]
+---
+
 # Astro
 
 [[JavaScript]]

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 Technologie : #blockchains/PoW 
 Consensus : PoW
 

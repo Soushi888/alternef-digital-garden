@@ -2,12 +2,8 @@
 title: "Networking"
 type: "index"
 description: "Comprehensive exploration of networking concepts, protocols, distributed systems, and network infrastructure that power modern digital communication."
-tags:
-  - networking
-  - distributed-systems
-  - protocols
-  - infrastructure
-  - internet
+tags: ["networking", "distributed-systems", "protocols", "infrastructure", "internet"]
+
 ---
 
 # Networking

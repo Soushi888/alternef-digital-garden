@@ -1,3 +1,7 @@
+---
+tags: ["programming", "linux", "nixos", "operating-systems"]
+---
+
 #DevOps 
 [[Nix]]
 [[NixOS]]

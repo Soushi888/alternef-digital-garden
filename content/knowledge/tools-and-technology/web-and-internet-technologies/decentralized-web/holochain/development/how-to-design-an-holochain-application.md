@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "rust", "distributed-systems"]
+---
+
 Origin : 
 [How to design a Holochain Application](https://holochain-community-resources.github.io/design-workshop/)
 > Holochain’s crucial aspect regarding DHT architecture is the fact that every happ creates its own network or DHT. Those networks can be public, private, permissioned, or impose certain conditions for an agent to be able to enter.

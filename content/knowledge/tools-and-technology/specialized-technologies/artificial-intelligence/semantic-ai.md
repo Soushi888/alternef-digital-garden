@@ -1,12 +1,7 @@
 ---
 title: Semantic AI
-tags:
-  - artificial-intelligence
-  - semantic-web
-  - knowledge-graphs
-  - natural-language-processing
-created: 2024-01-15
-modified: 2025-01-27
+tags: ["artificial-intelligence", "semantic-web", "knowledge-graphs", "natural-language-processing"]
+
 ---
 
 **Semantic AI** is an advanced approach to [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|artificial intelligence]] that focuses on understanding the **meaning, context, and relationships** within data, rather than just processing patterns or keywords. It combines **natural language processing (NLP), knowledge graphs, ontologies, taxonomies, and [[machine-learning|machine learning]]** to enable machines to interpret human language and data in a way that mimics human reasoning.

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "decentralization", "distributed-systems"]
+---
+
 [[Blockchain]]
 [[Ethereum]]
 [[Mixin Network]]

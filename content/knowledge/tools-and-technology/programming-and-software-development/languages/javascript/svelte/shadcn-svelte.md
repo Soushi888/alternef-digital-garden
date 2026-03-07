@@ -1,7 +1,5 @@
 ---
 aliases: 
-tags:
-  - frontend
-related pages:
-  - "[[Svelte]]"
+tags: ["frontend", "[[Svelte]]"]
+
 ---

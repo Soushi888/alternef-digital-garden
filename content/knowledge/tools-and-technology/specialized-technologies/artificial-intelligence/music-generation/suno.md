@@ -1,3 +1,7 @@
+---
+tags: ["programming", "artificial-intelligence", "music"]
+---
+
 [[Artificial Intelligence]] [[Musique]]
 
 [Suno](https://suno.com)

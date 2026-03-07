@@ -1,5 +1,7 @@
 ---
 Aliases: [Signals, signal, signals] 
+tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
+
 ---
 #holochain/concepts 
 [[../index|Holochain]]

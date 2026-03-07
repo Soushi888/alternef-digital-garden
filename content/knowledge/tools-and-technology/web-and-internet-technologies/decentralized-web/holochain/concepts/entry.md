@@ -1,13 +1,8 @@
 ---
 title: Holochain Entries
 description: The basic data structure stored in the distributed hash table and source chain
-tags:
-  - holochain
-  - fundamentals
-  - entries
-  - data-structures
-aliases: [entry, Entries, entries]
-parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]"
+tags: ["holochain", "fundamentals", "entries", "data-structures"]
+
 ---
 
 # Holochain Entries

@@ -4,14 +4,8 @@ description: JavaScript library for building modern UIs with the simplicity of H
 subtitle: Access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML
 aliases:
   - htmx
-tags:
-  - frontend
-  - javascript
-  - library
-  - html
-related pages:
-  - [[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]
-  - [[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/index|HTML & CSS]]
+tags: ["frontend", "javascript", "library", "html", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/index|HTML & CSS]]"]
+
 ---
 
 HTMX is a JavaScript library that gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes. This allows you to build modern user interfaces with the simplicity and power of hypertext.

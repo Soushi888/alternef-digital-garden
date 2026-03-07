@@ -1,5 +1,7 @@
 ---
 Aliases: [eventual consistency]
+tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
+
 ---
 # p2p
 

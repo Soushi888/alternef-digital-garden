@@ -1,5 +1,7 @@
 ---
 type: DeFi
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 [[Cardano]]
 

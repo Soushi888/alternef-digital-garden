@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "rust", "hdk"]
+---
+
 [[../index|Holochain]]
 
 ## 3 sources of [[Zome|zome]] calls

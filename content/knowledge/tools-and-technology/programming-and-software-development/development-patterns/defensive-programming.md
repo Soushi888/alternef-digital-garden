@@ -1,22 +1,8 @@
 ---
 title: Defensive Programming
 description: A programming practice of anticipating and guarding against potential failures, invalid inputs, and unexpected conditions to build robust software
-tags:
-  - programming
-  - design
-  - patterns
-  - error-handling
-  - software-quality
-  - design-principles
-aliases:
-  - Defensive Coding
-  - Robust Programming
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"
-  - "[[solid-principles|SOLID Principles]]"
-created: 2026-02-27
-modified: 2026-02-27
-draft: false
+tags: ["programming", "design", "patterns", "error-handling", "software-quality", "design-principles", "Defensive Coding", "Robust Programming", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]", "[[solid-principles|SOLID Principles]]"]
+
 ---
 
 # Defensive Programming

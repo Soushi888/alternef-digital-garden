@@ -5,17 +5,8 @@ subtitle: Breaking down silos between development and operations teams
 aliases: 
   - DevOps
   - Dev Ops
-tags: 
-  - devops
-  - software-development
-  - automation
-  - continuous-integration
-  - continuous-deployment
-related pages:
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/docker|Docker]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/make|Make]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/nixos/index|NixOS]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/index|Software Development]]"
+tags: ["devops", "software-development", "automation", "continuous-integration", "continuous-deployment", "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/docker|Docker]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/make|Make]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/nixos/index|NixOS]]", "[[knowledge/tools-and-technology/programming-and-software-development/index|Software Development]]"]
+
 ---
 
 DevOps is a set of practices, cultural philosophies, and tools that aim to improve collaboration and efficiency between software **development (Dev)** and IT **operations (Ops)** teams. The term combines "Development" and "Operations," reflecting its goal of breaking down traditional silos between these groups to accelerate the delivery of high-quality software.

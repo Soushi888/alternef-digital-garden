@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "distributed-systems", "rust"]
+---
+
 # blockchains/smart-contracts
 # SDK
 

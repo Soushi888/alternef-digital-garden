@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization"]
+---
+
 ['EVM Based Sharded Layer 1 Blockchain']('https://shardeum.org')
 > 'Shardeum is an EVM-based, linearly scalable smart contract platform that maintains low gas fees while providing true decentralization and solid security'
 

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "distributed-systems", "peer-to-peer", "software-architecture"]
+---
+
 [[Distributed Systems]] [[Networking]] [[peer-to-peer]] [[Local-first]]
 
 [Automerge CRDT | Automerge CRDT](https://automerge.org)

@@ -1,5 +1,7 @@
 ---
 Aliases: [machine learning, ML]
+tags: ["programming", "artificial-intelligence", "machine-learning"]
+
 ---
 #programmation/AI
 

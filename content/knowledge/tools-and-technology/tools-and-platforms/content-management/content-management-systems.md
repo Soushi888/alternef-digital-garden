@@ -3,13 +3,8 @@ title: Content Management Systems
 description: Platforms for creating, managing, and publishing digital content without requiring deep technical expertise
 aliases:
   - CMS
-tags:
-  - cms
-  - content-management
-  - web-development
-  - tools
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["cms", "content-management", "web-dev", "tools"]
+
 ---
 
 A Content Management System (CMS) allows users to create, manage, and publish digital content through a graphical interface rather than editing code or raw files directly. This abstraction makes content publishing accessible to non-technical editors while providing developers the flexibility to customize behavior and presentation.

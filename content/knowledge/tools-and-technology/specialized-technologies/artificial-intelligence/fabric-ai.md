@@ -3,20 +3,8 @@ title: Fabric AI
 aliases:
   - Fabric Framework
   - Daniel Miessler's Fabric
-tags:
-  - artificial-intelligence
-  - llm
-  - cli
-  - prompts
-  - automation
-  - open-source
-  - productivity
-related pages:
-  - "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]"
-  - "[[large-language-models|Large Language Models]]"
-  - "[[huginn|Huginn]]"
-created: 2024-01-01
-modified: 2026-01-27
+tags: ["artificial-intelligence", "llm", "cli", "prompts", "automation", "open-source", "productivity", "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]", "[[large-language-models|Large Language Models]]", "[[huginn|Huginn]]"]
+
 ---
 
 **Fabric** is an open-source framework for augmenting humans using AI, created by Daniel Miessler in January 2024. It provides a modular system for solving specific problems using a crowdsourced collection of AI prompts called "Patterns" that can be integrated into any workflow.

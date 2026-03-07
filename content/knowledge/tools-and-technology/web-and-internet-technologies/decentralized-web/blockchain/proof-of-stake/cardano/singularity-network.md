@@ -3,6 +3,8 @@ Aliases: [AGIX]
 Type: Marketplace
 Blockchain: Cardano
 Token: AGIX
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 [[Cardano]] 
 [[Artificial General Intelligence]]

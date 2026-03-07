@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "artificial-intelligence", "decentralization"]
+---
+
 #artificial-intelligence/text-generation 
 [[Bittensor]] application
 [[Artificial Intelligence]]

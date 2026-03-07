@@ -5,20 +5,8 @@ aliases:
   - "GNU/Linux"
   - "Linux OS"
   - "Linux Distributions"
-tags:
-  - operating-systems
-  - linux
-  - networking
-  - open-source
-  - infrastructure
-created: 2025-10-12
-modified: 2025-10-12
-draft: false
-related pages:
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/unix|Unix Philosophy]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]"
+tags: ["operating-systems", "linux", "networking", "open-source", "infrastructure", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/unix|Unix Philosophy]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]"]
+
 ---
 
 # Linux Operating System

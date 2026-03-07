@@ -3,14 +3,8 @@ title: Inter-Blockchain Communication Protocol (IBC)
 description: A standardized protocol enabling communication and interoperability between diverse blockchain networks
 aliases: 
   - IBC
-tags:
-  - blockchain
-  - interoperability
-  - layer-0
-  - internet-protocols
-related pages:
-  - "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/layer-0/index|Layer 0]]"
-  - "[[knowledge/tools-and-technology/index|Tools and Technology]]"
+tags: ["blockchain", "interoperability", "layer-0", "internet-protocols", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/layer-0/index|Layer 0]]", "[[knowledge/tools-and-technology/index|Tools and Technology]]"]
+
 ---
 
 ## Overview

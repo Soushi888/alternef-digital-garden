@@ -1,16 +1,8 @@
 ---
 title: Holochain Applications (hApps)
 description: Directory of applications, projects, and use cases built on the Holochain framework
-tags:
-  - holochain
-  - happs
-  - applications
-  - ecosystem
-  - projects
-aliases:
-  - Holochain Apps
-  - hApps Directory
-  - Holochain Projects
+tags: ["holochain", "happs", "applications", "ecosystem", "projects", "Holochain Apps", "hApps Directory", "Holochain Projects"]
+
 ---
 
 ## Overview of Holochain Applications

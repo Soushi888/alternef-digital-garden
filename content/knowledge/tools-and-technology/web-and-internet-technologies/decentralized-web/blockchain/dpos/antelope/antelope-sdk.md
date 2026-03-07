@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization", "governance"]
+---
+
 [[Blockchain]]
 
  [[smart-contracts]]

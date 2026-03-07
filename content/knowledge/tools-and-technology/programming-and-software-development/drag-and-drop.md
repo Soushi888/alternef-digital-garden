@@ -1,15 +1,8 @@
 ---
 title: Drag and Drop
 description: An interaction pattern for moving elements by dragging them to new positions, implemented via HTML5 API or JavaScript libraries
-tags:
-  - web-development
-  - javascript
-  - html
-  - ui
-  - frontend
-  - interaction-design
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["web-dev", "javascript", "html", "ui", "frontend", "interaction-design"]
+
 ---
 
 Drag and drop is a UI interaction pattern that allows users to select an element, drag it across a surface, and release it in a new location to trigger an action. Common uses include reordering lists, uploading files, building visual editors, and organizing kanban boards.

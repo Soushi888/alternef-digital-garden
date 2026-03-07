@@ -1,5 +1,7 @@
 ---
 Aliases: [neural networks, neural network, Neural Networks]
+tags: ["programming", "artificial-intelligence", "machine-learning"]
+
 ---
 #programmation/AI
 

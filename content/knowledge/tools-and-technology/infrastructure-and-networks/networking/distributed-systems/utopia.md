@@ -1,8 +1,7 @@
 ---
 title: Utopia
-tags:
-  - peer-to-peer
-related pages:
+tags: ["peer-to-peer"]
+
 ---
 Here's a well-crafted introduction for Utopia:
 

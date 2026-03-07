@@ -1,13 +1,8 @@
 ---
 title: Holochain Links
 description: Connections between entries that create relationships in the distributed hash table
-tags:
-  - holochain
-  - fundamentals
-  - links
-  - relationships
-aliases: [Links, link, links]
-parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]"
+tags: ["holochain", "fundamentals", "links", "relationships"]
+
 ---
 
 # Holochain Links

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
+---
+
 #programmation
 #blockchains/smart-contracts 
 #blockchains/EVM 

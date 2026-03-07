@@ -1,20 +1,8 @@
 ---
 title: "Semantic Web"
 description: "The Semantic Web extends the web through data standards that enable computers to understand, interpret, and process web content as meaningful information."
-tags:
-  - semantic-web
-  - linked-data
-  - rdf
-  - sparql
-  - json-ld
-  - shacl
-  - web-standards
-  - knowledge-graphs
-  - data-modeling
-created: 2025-11-28
-modified: 2025-11-28
-draft: false
-aliases: ["Web of Data", "Linked Data"]
+tags: ["semantic-web", "linked-data", "rdf", "sparql", "json-ld", "shacl", "web-standards", "knowledge-graphs", "data-modeling"]
+
 ---
 
 # Semantic Web

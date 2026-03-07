@@ -1,14 +1,8 @@
 ---
 title: Quartz - A Modern Digital Garden Framework
 description: A batteries-included static site generator for transforming Markdown content into fully functional digital gardens and personal knowledge websites.
-tags:
-  - web-technologies
-  - digital-garden
-  - static-site-generator
-  - open-source
-  - markdown
-  - digital-garden
-date: 2025-02-20
+tags: ["web-technologies", "digital-garden", "static-site-generator", "open-source", "markdown", "digital-garden"]
+
 ---
 
 ## Overview

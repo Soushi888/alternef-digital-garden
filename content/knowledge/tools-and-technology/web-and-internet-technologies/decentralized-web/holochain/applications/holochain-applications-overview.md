@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "distributed-systems"]
+---
+
 Discover the diverse applications and possibilities enabled by [[Holochain/index]]'s agent-centric architecture.
 
 ## Governance & Organization

@@ -1,8 +1,6 @@
 ---
 aliases:
   - C#
-tags:
-  - programmation
-  - backend
-related pages:
+tags: ["programming", "backend"]
+
 ---

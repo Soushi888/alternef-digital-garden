@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 [[Cardano]] [[Non-Fungible Token|NFT]]
 
 ['Explore the Bubbleverse in an MMORPG Adventure | Cornucopias']('https://cornucopias.io')

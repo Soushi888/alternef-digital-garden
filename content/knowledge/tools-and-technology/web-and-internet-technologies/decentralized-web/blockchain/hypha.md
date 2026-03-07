@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization"]
+---
+
 [[DAO]]
 
 ['Home - Hypha']('https://hypha.earth')

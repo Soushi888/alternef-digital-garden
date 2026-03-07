@@ -1,6 +1,8 @@
 ---
 type: library
 language: rust
+tags: ["programming", "holochain", "rust", "hdk"]
+
 ---
 
 # SDK

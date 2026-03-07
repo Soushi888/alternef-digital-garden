@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "artificial-intelligence", "decentralization"]
+---
+
 #programmation/AI 
 
 [ELNA - Your AI Companion on Blockchain](https://www.elna.ai)

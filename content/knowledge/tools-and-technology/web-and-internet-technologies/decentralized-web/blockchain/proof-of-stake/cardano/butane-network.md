@@ -2,7 +2,8 @@
 aliases:
   - BTN
   - Butane
-tags:
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 
 [Butane | Decentralized Synthetic Assets for Cardano](https://butane.dev)

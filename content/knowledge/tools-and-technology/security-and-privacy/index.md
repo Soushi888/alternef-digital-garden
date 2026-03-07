@@ -1,12 +1,8 @@
 ---
 title: Security and Privacy
 description: A holistic exploration of digital security, privacy technologies, and ethical information protection
-tags:
-  - security
-  - privacy
-  - cryptography
-  - authentication
-  - ethical-technology
+tags: ["security", "privacy", "cryptography", "authentication", "ethical-technology"]
+
 ---
 
 # Security and Privacy

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 ['Ordinals']('https://ordinals.com')
 > ''
 

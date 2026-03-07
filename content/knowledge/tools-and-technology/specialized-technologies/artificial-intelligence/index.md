@@ -1,13 +1,8 @@
 ---
 title: Artificial Intelligence
 description: A comprehensive exploration of artificial intelligence, its technologies, approaches, and transformative potential
-tags:
-  - artificial-intelligence
-  - technology
-  - cognitive-science
-aliases:
-  - AI
-  - machine-intelligence
+tags: ["artificial-intelligence", "technology", "cognitive-science", "AI", "machine-intelligence"]
+
 ---
 
 ## Overview

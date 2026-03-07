@@ -1,8 +1,6 @@
 ---
-tags:
-  - frontend
-related pages:
-  - "[[Tailwind CSS]]"
+tags: ["frontend", "[[Tailwind CSS]]"]
+
 ---
 a## Icons
 ['Flowbite Icons - Open-source SVG icons']('https://flowbite.com/icons/')

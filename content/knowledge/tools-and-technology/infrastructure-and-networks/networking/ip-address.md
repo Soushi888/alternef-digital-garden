@@ -1,7 +1,7 @@
 ---
 title: "IP Address"
 aliases: ["IP", "Internet Protocol Address", "IPv4", "IPv6"]
-tags: [tools-and-technology, networking, tcp-ip, network-addressing, ipv4, ipv6]
+tags: [networking, tcp-ip, network-addressing, ipv4, ipv6]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

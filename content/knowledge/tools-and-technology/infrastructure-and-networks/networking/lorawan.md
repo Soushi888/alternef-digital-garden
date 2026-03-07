@@ -1,7 +1,7 @@
 ---
 title: "LoRaWAN Protocol"
 aliases: ["LoRaWAN", "Long Range Wide Area Network", "LPWAN"]
-tags: [tools-and-technology, networking, wireless, iot, low-power-wide-area-network, protocol]
+tags: [networking, wireless, iot, low-power-wide-area-network, protocol]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

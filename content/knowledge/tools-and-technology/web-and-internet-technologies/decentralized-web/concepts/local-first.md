@@ -1,11 +1,8 @@
 ---
 title: Local-first Software
 description: A design philosophy prioritizing local data storage, user sovereignty, and offline capabilities
-tags:
-  - decentralized-web
-  - software-architecture
-  - data-ownership
-  - privacy
+tags: ["decentralization", "software-architecture", "data-ownership", "privacy"]
+
 ---
 
 Local-first software is a design philosophy that prioritizes local data storage and processing while maintaining the ability to sync and collaborate. This approach ensures that users maintain sovereignty over their data and can work offline, while still benefiting from network connectivity when available.

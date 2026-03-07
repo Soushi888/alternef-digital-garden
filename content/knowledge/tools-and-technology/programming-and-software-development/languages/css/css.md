@@ -1,9 +1,6 @@
 ---
 aliases:
   - CSS3
-tags:
-  - frontend
-  - css
-related pages:
-  - "[[HTML]]"
+tags: ["frontend", "css", "[[HTML]]"]
+
 ---

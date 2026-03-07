@@ -1,14 +1,8 @@
 ---
 title: Cryptographic Autonomy License
 description: A novel open-source license designed to protect user sovereignty and data autonomy in decentralized systems
-tags:
-  - licensing
-  - open-source
-  - decentralized-web
-  - legal-framework
-aliases:
-  - CAL
-  - Holochain License
+tags: ["licensing", "open-source", "decentralization", "legal-framework", "CAL", "Holochain License"]
+
 ---
 
 ## Overview of the Cryptographic Autonomy License

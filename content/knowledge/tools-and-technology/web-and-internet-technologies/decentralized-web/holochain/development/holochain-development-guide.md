@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "rust", "distributed-systems"]
+---
+
 # Holochain Development Guide
 
 Comprehensive resources for developers building [[Holochain/index]] applications.

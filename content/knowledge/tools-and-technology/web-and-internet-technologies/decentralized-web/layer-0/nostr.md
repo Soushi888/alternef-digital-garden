@@ -1,3 +1,7 @@
+---
+tags: ["programming", "distributed-systems", "decentralization", "networking"]
+---
+
 #social-network 
 
 [[Layer 0]]

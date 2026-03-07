@@ -1,15 +1,8 @@
 ---
 title: Decentralized Identifiers (DIDs)
 description: A new type of identifier that enables verifiable, decentralized digital identity
-tags:
-  - authentication
-  - cryptography
-  - decentralization
-  - identity
-  - privacy
-related pages:
-  - "[[knowledge/tools-and-technology/security-and-privacy/authentication/didcomm|DIDComm]]"
-  - "[[knowledge/tools-and-technology/decentralized-web/index|Decentralized Web]]"
+tags: ["authentication", "cryptography", "decentralization", "identity", "privacy", "[[knowledge/tools-and-technology/security-and-privacy/authentication/didcomm|DIDComm]]", "[[knowledge/tools-and-technology/decentralized-web/index|Decentralized Web]]"]
+
 ---
 
 ## Overview

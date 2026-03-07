@@ -1,3 +1,7 @@
+---
+tags: ["programming", "linux", "nixos", "operating-systems"]
+---
+
 [[NixOS]]
 [[Nix Package Manager]]
 #DevOps 

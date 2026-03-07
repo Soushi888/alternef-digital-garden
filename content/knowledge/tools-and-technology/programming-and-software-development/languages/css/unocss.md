@@ -1,11 +1,7 @@
 ---
 aliases: 
-tags:
-  - css
-  - frameworks
-  - atomic-css
-related pages:
-  - "[[CSS]]"
+tags: ["css", "frameworks", "atomic-css", "[[CSS]]"]
+
 ---
 UnoCSS is an Atomic [[CSS]] engine that provides a fully customizable and flexible way to write CSS. It's designed to be fast, lightweight, and easy to use, making it an attractive alternative to traditional CSS frameworks like [[Tailwind CSS]].
 

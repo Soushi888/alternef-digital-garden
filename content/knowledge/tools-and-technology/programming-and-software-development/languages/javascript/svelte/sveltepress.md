@@ -1,10 +1,7 @@
 ---
 aliases: 
-tags:
-  - static-sites
-  - svelte
-  - sveltekit
-  - frameworks
+tags: ["static-sites", "svelte", "sveltekit", "frameworks"]
+
 ---
 **SveltePress**: A content-centered site build tool built on top of SvelteKit, a "serverless-first" framework for building web applications. It's designed to allow users to create and publish content with ease, leveraging the simplicity and performance of Svelte and SvelteKit.
 

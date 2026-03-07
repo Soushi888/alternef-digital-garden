@@ -4,16 +4,8 @@ aliases:
   - Rust Lang
   - .rs
   - Rustlang
-tags:
-  - programming
-  - systems-programming
-  - memory-safety
-  - concurrency
-  - performance
-  - low-level
-created: 2026-02-03
-modified: 2026-02-03
-draft: false
+tags: ["programming", "systems-programming", "memory-safety", "concurrency", "performance", "low-level"]
+
 ---
 
 # Rust

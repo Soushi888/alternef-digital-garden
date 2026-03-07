@@ -3,6 +3,8 @@ aliases:
   - DPoS
   - DPOS
   - delegated-proof-of-stake
+tags: ["programming", "blockchain", "decentralization"]
+
 ---
 #blockchains/DPoS 
 

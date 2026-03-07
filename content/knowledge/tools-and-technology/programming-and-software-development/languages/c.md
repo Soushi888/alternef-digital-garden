@@ -1,10 +1,8 @@
 ---
 title: C
 description: A low-level, procedural programming language known for efficiency, speed, and direct memory manipulation
-tags:
-- programming
-- low-level
-- system
+tags: ["programming", "low-level", "system"]
+
 ---
 
 ## Overview of the C Programming Language

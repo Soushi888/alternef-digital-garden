@@ -1,12 +1,8 @@
 ---
 title: Blockchain Technology
 description: Comprehensive overview of blockchain technologies, consensus mechanisms, and their applications
-tags:
-  - blockchain
-  - distributed-systems
-  - web3
-  - consensus
-  - decentralization
+tags: ["blockchain", "distributed-systems", "web3", "consensus", "decentralization"]
+
 ---
 
 ## Blockchain Technology: Foundations of Decentralized Systems

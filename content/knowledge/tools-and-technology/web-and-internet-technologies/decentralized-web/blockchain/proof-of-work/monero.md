@@ -3,6 +3,8 @@ Aliases: [XMR]
 type: blockchain
 token: XMR
 blockchain: Monero
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 [[Blockchain]]
 

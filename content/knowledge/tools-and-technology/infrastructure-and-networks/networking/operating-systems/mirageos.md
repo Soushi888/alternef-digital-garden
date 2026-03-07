@@ -4,16 +4,8 @@ description: "Library operating system for constructing secure, high-performance
 aliases:
   - "Mirage OS"
   - "OCaml Unikernel"
-tags:
-  - unikernel
-  - operating-systems
-  - cloud-computing
-  - security
-  - ocaml
-  - library-operating-system
-created: 2025-01-12
-modified: 2025-01-12
-draft: false
+tags: ["unikernel", "operating-systems", "cloud-computing", "security", "ocaml", "library-operating-system"]
+
 ---
 
 # MirageOS

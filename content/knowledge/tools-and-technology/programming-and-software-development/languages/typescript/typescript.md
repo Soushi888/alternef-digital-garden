@@ -1,8 +1,7 @@
 ---
 aliases: 
-tags:
-  - javascript
-related pages:
+tags: ["javascript"]
+
 ---
 **TypeScript is a statically typed, superset of [[JavaScript]] that adds optional static typing and other features to improve the development experience.**
 

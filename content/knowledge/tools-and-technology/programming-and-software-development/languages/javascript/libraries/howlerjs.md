@@ -5,14 +5,8 @@ subtitle: Makes working with audio in JavaScript easy and reliable across all pl
 aliases:
   - howler.js
   - HowlerJS
-tags:
-  - frontend
-  - javascript
-  - library
-  - audio
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
+tags: ["frontend", "javascript", "library", "audio", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"]
+
 ---
 
 Howler.js is an audio library for the modern web that makes working with audio in JavaScript easy and reliable across all platforms.

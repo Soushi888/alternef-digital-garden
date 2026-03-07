@@ -1,12 +1,8 @@
 ---
 title: Tools and Technology
 description: An exploration of technological innovations, tools, and their transformative impact on human society and problem-solving across diverse domains.
-tags:
-- technology
-- innovation
-- digital-tools
-- problem-solving
-- technological-systems
+tags: ["technology", "innovation", "digital-tools", "problem-solving", "technological-systems"]
+
 ---
 
 This section explores technological innovations, tools, and their transformative impact on human society and problem-solving across diverse domains.

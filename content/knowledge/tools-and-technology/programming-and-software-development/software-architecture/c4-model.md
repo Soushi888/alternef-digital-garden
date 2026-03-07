@@ -1,11 +1,8 @@
 ---
 title: C4 Model for Software Architecture
 description: A hierarchical approach to visualizing and documenting software architecture
-tags:
-  - software-architecture
-  - modeling
-  - documentation
-related pages:
+tags: ["software-architecture", "modeling", "documentation"]
+
 ---
 
 ## Overview

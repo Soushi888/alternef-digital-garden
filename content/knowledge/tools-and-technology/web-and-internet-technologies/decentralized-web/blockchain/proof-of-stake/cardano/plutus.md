@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 Plutus is the [[Smart Contracts|smart contract]] platform of the [[Cardano]] blockchain[1][2]. It is a native smart contract language for Cardano, written in [[Haskell]], and is Turing-complete[2]. Plutus smart contracts are effectively Haskell programs, and by using Plutus, developers can be confident in the correct execution of their smart contracts[2]. Plutus is designed to be a secure and flexible language for developing smart contracts, and it is used to write both on-chain and off-chain code that governs the behavior of smart contracts[6]. Plutus offers robust support for formal verification, which allows developers to mathematically verify the correctness of smart contracts before deploying them to the blockchain[6]. 
 
 Some key features of Plutus include:

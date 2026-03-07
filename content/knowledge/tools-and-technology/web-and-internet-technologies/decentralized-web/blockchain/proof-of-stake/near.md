@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 # blockchains/PoS
 Language : [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index]], [[WebAssembly]], [[TypeScript]]
 

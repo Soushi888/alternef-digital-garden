@@ -5,19 +5,8 @@ aliases:
   - Effect Fault Tolerance
   - Erlang Patterns in Effect
   - Supervision Patterns in TypeScript
-tags:
-  - typescript
-  - effect-ts
-  - supervision-tree
-  - fault-tolerance
-  - functional-programming
-  - erlang
-  - distributed-systems
-  - concurrency
-  - error-handling
-created: 2025-09-12
-modified: 2025-09-12
-draft: false
+tags: ["typescript", "effect-ts", "supervision-tree", "fault-tolerance", "functional-programming", "erlang", "distributed-systems", "concurrency", "error-handling"]
+
 ---
 
 # Effect-TS Supervision Patterns

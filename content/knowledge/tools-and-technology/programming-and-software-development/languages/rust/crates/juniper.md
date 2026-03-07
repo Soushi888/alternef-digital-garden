@@ -1,9 +1,8 @@
 ---
 title: Juniper
 description: A GraphQL server library for Rust.
-tags:
-  - rust
-  - crate
+tags: ["rust", "crate"]
+
 ---
 
 [GitHub - graphql-rust/juniper: GraphQL server library for Rust](https://github.com/graphql-rust/juniper)

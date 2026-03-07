@@ -1,11 +1,8 @@
 ---
 title: Software Architecture
 description: Exploring architectural principles, design patterns, and modeling techniques
-tags:
-  - software-architecture
-  - design
-related pages:
-  - "[[programming-and-software-development]]"
+tags: ["software-architecture", "design", "[[programming-and-software-development]]"]
+
 ---
 
 ## Overview

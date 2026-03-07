@@ -1,10 +1,8 @@
 ---
 title: Proof of Stake
 description: Proof of Stake is a consensus algorithm used by certain blockchain networks to validate transactions and create new blocks.
-tags:
-  - blockchain
-  - consensus
-  - proof-of-stake
+tags: ["blockchain", "consensus", "proof-of-stake"]
+
 ---
 
 Proof of Stake (PoS) is a [[consensus-algorithm|consensus algorithm]] used by certain [[blockchain|Blockchain]] networks to validate transactions and create new blocks. Unlike [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/proof-of-work/index|Proof of Work]] (PoW), which requires miners to solve complex mathematical puzzles to validate transactions and create new blocks, Proof of Stake relies on the economic stake or ownership interest that validators have in the network.

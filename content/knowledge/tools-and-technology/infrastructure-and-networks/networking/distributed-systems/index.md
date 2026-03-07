@@ -4,8 +4,8 @@ aliases:
   - Distributed Systems
   - distributed system
   - distributed systems
-tags:
-  - networking
+tags: ["networking"]
+
 ---
 [[Networking]]
 

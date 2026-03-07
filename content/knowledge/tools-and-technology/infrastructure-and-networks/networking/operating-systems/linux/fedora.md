@@ -6,23 +6,8 @@ aliases:
   - "Fedora Server"
   - "Fedora Core"
   - "Red Hat Fedora"
-tags:
-  - operating-systems
-  - linux
-  - innovation
-  - development
-  - red-hat
-  - open-source
-  - community
-created: 2025-10-12
-modified: 2025-10-12
-draft: false
-related pages:
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/red-hat|Red Hat Enterprise Linux]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"
+tags: ["operating-systems", "linux", "innovation", "development", "red-hat", "open-source", "community", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/red-hat|Red Hat Enterprise Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+
 ---
 
 # Fedora Linux

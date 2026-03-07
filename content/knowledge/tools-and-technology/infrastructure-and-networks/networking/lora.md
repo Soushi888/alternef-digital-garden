@@ -1,7 +1,7 @@
 ---
 title: "LoRa (Long Range) Technology"
 aliases: ["LoRa", "Long Range", "LoRaWAN Physical Layer"]
-tags: [tools-and-technology, networking, wireless, iot, low-power-wide-area-network]
+tags: [networking, wireless, iot, low-power-wide-area-network]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

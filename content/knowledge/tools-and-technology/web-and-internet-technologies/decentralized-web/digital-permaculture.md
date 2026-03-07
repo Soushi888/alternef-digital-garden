@@ -1,12 +1,8 @@
 ---
 title: Digital Permaculture
 description: The application of permaculture principles to digital systems and web technologies
-tags:
-  - permaculture
-  - web3
-  - sustainability
-  - decentralization
-  - design-principles
+tags: ["permaculture", "web3", "sustainability", "decentralization", "design-principles"]
+
 ---
 
 Digital Permaculture applies the core principles of permaculture to the design and development of digital systems and web technologies. It emphasizes creating sustainable, resilient, and regenerative digital ecosystems.

@@ -5,25 +5,8 @@ aliases:
   - "Kubuntu KDE"
   - "Ubuntu KDE"
   - "KDE Ubuntu"
-tags:
-  - operating-systems
-  - linux
-  - kubuntu
-  - kde
-  - ubuntu
-  - desktop-environment
-  - networking
-  - infrastructure
-  - open-source
-created: "2025-10-12"
-modified: "2025-10-12"
-draft: false
-related pages:
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma Desktop]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"
+tags: ["operating-systems", "linux", "kubuntu", "kde", "ubuntu", "desktop-environment", "networking", "infrastructure", "open-source", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+
 ---
 
 # Kubuntu Linux

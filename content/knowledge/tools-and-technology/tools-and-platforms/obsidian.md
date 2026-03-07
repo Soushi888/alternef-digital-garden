@@ -4,15 +4,8 @@ description: A local-first personal knowledge management tool using plain Markdo
 aliases:
   - Obsidian PKM
   - Obsidian.md
-tags:
-  - pkm
-  - markdown
-  - knowledge-management
-  - digital-garden
-  - local-first
-  - note-taking
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["pkm", "markdown", "knowledge-management", "digital-garden", "local-first", "note-taking"]
+
 ---
 
 Obsidian is a personal knowledge management (PKM) tool that stores all notes as plain Markdown files on disk. Unlike web-based alternatives, it runs entirely on your local machine, giving you full ownership of your data and the ability to work without an internet connection.

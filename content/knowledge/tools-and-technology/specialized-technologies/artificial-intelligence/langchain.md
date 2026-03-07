@@ -1,7 +1,7 @@
 ---
 title: "LangChain"
 aliases: ["LangChain Framework", "LangChain AI"]
-tags: [ai, llm, framework, python, javascript, open-source, agents, nlp, rag]
+tags: [artificial-intelligence, llm, framework, python, javascript, open-source, agents, nlp, rag]
 created: 2024-01-01
 modified: 2026-01-27
 ---

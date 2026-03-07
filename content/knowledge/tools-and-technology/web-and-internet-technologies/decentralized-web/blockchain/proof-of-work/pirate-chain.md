@@ -3,6 +3,8 @@ Aliases: [ARRR]
 type: blockchain
 blockchain: Pirate Chain
 token: ARRR
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 
 [Just a moment...](https://pirate.black)

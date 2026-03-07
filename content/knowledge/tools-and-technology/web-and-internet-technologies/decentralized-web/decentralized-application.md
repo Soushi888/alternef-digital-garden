@@ -7,6 +7,8 @@ aliases:
   - Dapps
   - dApp
   - dApps
+tags: ["programming", "decentralization", "distributed-systems"]
+
 ---
 [[Web 3]]
 

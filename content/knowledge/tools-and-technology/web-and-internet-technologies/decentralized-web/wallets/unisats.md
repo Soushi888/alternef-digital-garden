@@ -1,3 +1,7 @@
+---
+tags: ["programming", "cryptocurrency", "decentralization", "security"]
+---
+
 [[Bitcoin]]
 [[Ordinals]]
 

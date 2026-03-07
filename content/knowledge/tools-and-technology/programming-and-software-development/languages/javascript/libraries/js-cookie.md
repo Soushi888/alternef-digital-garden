@@ -5,14 +5,8 @@ subtitle: Easy cookie management in JavaScript
 aliases:
   - JS Cookie
   - JavaScript Cookie
-tags:
-  - frontend
-  - javascript
-  - library
-  - cookies
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
+tags: ["frontend", "javascript", "library", "cookies", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"]
+
 ---
 
 js-cookie is a simple, lightweight JavaScript API for handling browser cookies. It simplifies the process of creating, reading, and deleting cookies in web applications.

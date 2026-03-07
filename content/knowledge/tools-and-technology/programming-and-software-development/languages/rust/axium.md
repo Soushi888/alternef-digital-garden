@@ -1,12 +1,8 @@
 ---
 title: Axium Web Framework in Rust
 description: A modular and ergonomic web application framework for Rust
-tags:
-  - rust
-  - web-development
-  - backend
-  - programming
-  - library
+tags: ["rust", "web-dev", "backend", "programming", "library"]
+
 ---
 
 [axum - Rust](https://docs.rs/axum/latest/)

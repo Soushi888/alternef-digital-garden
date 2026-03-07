@@ -1,9 +1,7 @@
 ---
 aliases: 
-tags:
-  - programmation
-  - evm
-  - smart-contracts
+tags: ["programming", "evm", "smart-contracts"]
+
 ---
 [[Ethereum Virtual Machine|EVM]]
 

@@ -1,13 +1,8 @@
 ---
 title: Holochain Scaffolding Tool
 description: Command-line interface for quickly generating Holochain applications and components
-tags:
-  - holochain
-  - development
-  - scaffolding
-  - cli-tools
-aliases: [Scaffolding Tool, hc-scaffold]
-parent: "[[../index|Holochain Development]]"
+tags: ["holochain", "development", "scaffolding", "cli-tools"]
+
 ---
 
 # Holochain Scaffolding Tool

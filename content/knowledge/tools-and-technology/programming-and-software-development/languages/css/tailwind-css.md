@@ -2,12 +2,8 @@
 aliases:
   - TailwindCSS
   - Tailwind
-tags:
-  - css
-  - frameworks
-  - atomic-css
-related pages:
-  - "[[CSS]]"
+tags: ["css", "frameworks", "atomic-css", "[[CSS]]"]
+
 ---
 **Tailwind CSS** is a utility-first [[CSS]] framework that emphasizes the use of classes to style HTML elements. It's designed to be highly customizable, low-level, and flexible, allowing developers to create rapid custom UI without writing extensive CSS code.
 

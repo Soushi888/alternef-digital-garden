@@ -4,16 +4,8 @@ aliases:
   - Supervisor hierarchy
   - Process supervision
   - Fault-tolerance tree
-tags:
-  - distributed-systems
-  - fault-tolerance
-  - erlang
-  - actor-model
-  - reliability
-  - error-handling
-created: 2025-01-12
-modified: 2025-01-12
-draft: false
+tags: ["distributed-systems", "fault-tolerance", "erlang", "actor-model", "reliability", "error-handling"]
+
 ---
 
 # Supervision Tree

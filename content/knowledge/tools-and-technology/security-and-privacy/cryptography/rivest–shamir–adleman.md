@@ -3,8 +3,8 @@ title: Rivest–Shamir–Adleman
 description: Rivest–Shamir–Adleman is a public-key encryption system that is widely used to secure sensitive data, particularly when being transmitted over an insecure network like the internet.
 aliases:
   - RSA
-tags:
-  - cryptography
+tags: ["cryptography"]
+
 ---
 
 RSA encryption is a public-key encryption system that is widely used to secure sensitive data, particularly when being transmitted over an insecure network like the internet. It is based on the principle that there are easy problems that are associated with hard problems. In RSA encryption, the easy problem is multiplying two large prime numbers, while the hard problem is factoring the product of those primes back into its original factors. This asymmetry allows for secure communication without the need for a previously shared secret key.

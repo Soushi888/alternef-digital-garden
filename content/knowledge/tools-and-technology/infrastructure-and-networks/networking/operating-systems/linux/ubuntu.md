@@ -5,21 +5,8 @@ aliases:
   - "Ubuntu Server"
   - "Ubuntu Desktop"
   - "Canonical Ubuntu"
-tags:
-  - operating-systems
-  - linux
-  - networking
-  - infrastructure
-  - canonical
-  - open-source
-created: "2025-10-12"
-modified: "2025-10-12"
-draft: false
-related pages:
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|Security Tools]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"
+tags: ["operating-systems", "linux", "networking", "infrastructure", "canonical", "open-source", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|Security Tools]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+
 ---
 
 # Ubuntu Linux

@@ -5,13 +5,8 @@ aliases:
   - Holochain DNA
   - Integrity Zomes
   - Coordinator Zomes
-tags:
-  - holochain
-  - dna
-  - zome
-  - architecture
-  - decentralized-web
-date: 2026-03-03
+tags: ["holochain", "dna", "zome", "architecture", "decentralization"]
+
 ---
 
 # DNA and Zomes

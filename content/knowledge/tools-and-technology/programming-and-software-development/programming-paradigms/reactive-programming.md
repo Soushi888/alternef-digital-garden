@@ -1,14 +1,8 @@
 ---
 title: Reactive Programming
 description: A declarative programming paradigm focused on data streams and propagation of change
-tags:
-  - programming
-  - paradigms
-  - functional-programming
-related pages:
-  - "[[event-bus|Event Bus Pattern]]"
-  - "[[functional-programming|Functional Programming]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"
+tags: ["programming", "paradigms", "functional-programming", "[[event-bus|Event Bus Pattern]]", "[[functional-programming|Functional Programming]]", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"]
+
 ---
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "linux", "nixos", "devops"]
+---
+
 [[NixOS configuration file]]
 
 Configuration.nix

@@ -5,13 +5,8 @@ aliases:
   - Javascript library
   - JavaScript libraries
   - JS Libraries
-tags:
-  - javascript
-  - libraries
-  - web-development
-  - frontend
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["javascript", "libraries", "web-dev", "frontend"]
+
 ---
 
 ## Overview

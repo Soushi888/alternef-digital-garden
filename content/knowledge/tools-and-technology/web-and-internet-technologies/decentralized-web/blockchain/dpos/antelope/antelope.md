@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization", "governance"]
+---
+
 Technologies = #blockchains/DPoS
 Version 3.0 du logiciel [[EOSIO]]
 [[Antelope SDK]]

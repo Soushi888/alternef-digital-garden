@@ -1,7 +1,8 @@
 ---
-tags: 
 related pages:
   - "[[Blockchain]]"
+tags: ["programming", "blockchain", "decentralization"]
+
 ---
 Binance is a global cryptocurrency exchange that allows users to trade cryptocurrencies. It supports hundreds of commonly traded cryptocurrencies and provides various services such as a crypto wallet for storing electronic funds, earning interest or transacting using cryptocurrencies, programs for miners, and tools to aid traders in making investment decisions. Binance also has its own blockchain-based token, BNB, which facilitates transactions within the platform [2].
 

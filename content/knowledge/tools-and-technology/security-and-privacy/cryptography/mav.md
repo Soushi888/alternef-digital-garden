@@ -2,11 +2,8 @@
 title: Minimum Attack Vector
 description: The Minimum Attack Vector (MAV) is a metric that measures the level of decentralization in the mining of a blockchain.
 aliases: 
-tags:
-  - cryptography
-  - security
-  - decentralization
-  - blockchain
+tags: ["cryptography", "security", "decentralization", "blockchain"]
+
 ---
 
 The Minimum Attack Vector (MAV) is a metric that measures the level of decentralization in the mining of a blockchain.

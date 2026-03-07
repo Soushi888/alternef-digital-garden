@@ -1,10 +1,7 @@
 ---
 aliases: 
-tags:
-  - programmation
-  - smart-contracts
-  - evm
-related pages:
+tags: ["programming", "smart-contracts", "evm"]
+
 ---
 Vyper is a contract-oriented, pythonic programming language designed specifically for writing smart contracts on the [[Ethereum Virtual Machine]] (EVM). It was created by Vitalik Buterin, the co-founder of Ethereum, and introduced in 2017 as an alternative to Solidity, aiming to address security issues present in [[Solidity]]. Vyper is strongly influenced by [[Python]], making it familiar and easy to learn for developers with Python experience. It is designed to be simple, secure, high-performing, and auditable, which makes it a popular choice for developers looking to write smart contracts that are easy to understand, deploy, and audit.
 

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 #blockchains/bridge 
 
 [Rosen Bridge](https://rosen.tech)

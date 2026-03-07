@@ -1,12 +1,8 @@
 ---
 title: Web and Internet Technologies
 description: A comprehensive exploration of web technologies, internet protocols, and digital ecosystem evolution
-tags:
-  - web
-  - internet
-  - protocols
-  - decentralized-web
-  - digital-technologies
+tags: ["web", "internet", "protocols", "decentralization", "digital-technologies"]
+
 ---
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
+---
+
 [Ganache](https://trufflesuite.com/ganache) is a personal [[Blockchain|blockchain]] for rapid [[Ethereum]] and Corda distributed application development. You can use Ganache across the entire development cycle; enabling you to develop, deploy, and test your dApps in a safe and deterministic environment.
 
 Ganache comes in two flavors: a UI and CLI. Ganache UI is a desktop application supporting Ethereum and [[Filecoin]] technology. Our more robust command-line tool, [ganache](https://github.com/trufflesuite/ganache), is available for Ethereum development. It offers:

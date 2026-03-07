@@ -1,12 +1,8 @@
 ---
 title: Entries Manipulation
 description: HDK functions for creating, updating, and managing Holochain entries
-tags:
-  - holochain
-  - hdk
-  - entries
-  - data-manipulation
-parent: "[[../index|HDK]]"
+tags: ["holochain", "hdk", "entries", "data-manipulation"]
+
 ---
 
 # Entries Manipulation

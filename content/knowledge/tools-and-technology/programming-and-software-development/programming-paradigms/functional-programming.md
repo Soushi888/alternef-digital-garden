@@ -1,14 +1,8 @@
 ---
 title: Functional Programming (FP)
 description: A programming paradigm based on function composition, immutability, and declarative computation
-tags:
-  - programming-paradigms
-  - declarative
-  - immutability
-aliases:
-  - FP
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"
+tags: ["programming-paradigms", "declarative", "immutability", "FP", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"]
+
 ---
 
 ## Definition of Functional Programming

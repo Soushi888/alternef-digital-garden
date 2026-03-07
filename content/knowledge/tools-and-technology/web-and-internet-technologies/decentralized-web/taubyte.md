@@ -1,3 +1,7 @@
+---
+tags: ["programming", "decentralization", "distributed-systems"]
+---
+
 [[Web 3]]
 [[Networking]]
 [[Cloud Computing]]

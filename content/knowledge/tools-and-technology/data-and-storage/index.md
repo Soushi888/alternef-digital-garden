@@ -1,12 +1,8 @@
 ---
 title: Data and Storage
 description: A holistic exploration of data management, storage technologies, and information architecture
-tags:
-  - data
-  - databases
-  - storage
-  - information-systems
-  - data-modeling
+tags: ["data", "databases", "storage", "information-systems", "data-modeling"]
+
 ---
 
 ## Overview

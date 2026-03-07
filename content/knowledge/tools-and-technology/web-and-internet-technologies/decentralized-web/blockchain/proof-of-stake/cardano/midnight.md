@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 #blockchains/Layer-2
 #blockchains/smart-contracts
 #blockchains/DPoS 

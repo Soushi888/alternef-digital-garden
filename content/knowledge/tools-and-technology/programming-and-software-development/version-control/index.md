@@ -4,14 +4,8 @@ description: Tools and practices for tracking changes in source code, collaborat
 aliases:
   - Source Control
   - VCS
-tags:
-  - version-control
-  - git
-  - programming
-  - collaboration
-  - software-development
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["version-control", "git", "programming", "collaboration", "software-development"]
+
 ---
 
 ## Overview

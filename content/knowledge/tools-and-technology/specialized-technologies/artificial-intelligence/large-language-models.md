@@ -1,7 +1,7 @@
 ---
 title: "Large Language Models"
 aliases: [LLMs, LLM, Large Language Model]
-tags: [ai, machine-learning, natural-language-processing, deep-learning, transformers]
+tags: [artificial-intelligence, machine-learning, natural-language-processing, deep-learning, transformers]
 created: 2026-01-27
 ---
 

@@ -1,5 +1,7 @@
 ---
 Aliases: [Validation Rules, validation rule, validation rules]
+tags: ["programming", "holochain", "distributed-systems", "software-architecture"]
+
 ---
 #holochain/concepts
 [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]

@@ -4,16 +4,8 @@ aliases:
   - Erlang/OTP
   - Erlang VM
   - BEAM
-tags:
-  - programming-languages
-  - functional-programming
-  - concurrent-programming
-  - distributed-systems
-  - fault-tolerance
-  - actor-model
-created: 2025-01-12
-modified: 2025-01-12
-draft: false
+tags: ["programming-languages", "functional-programming", "concurrent-programming", "distributed-systems", "fault-tolerance", "actor-model"]
+
 ---
 
 # Erlang

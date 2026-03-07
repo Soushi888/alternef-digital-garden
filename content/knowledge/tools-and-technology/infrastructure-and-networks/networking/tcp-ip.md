@@ -1,7 +1,7 @@
 ---
 title: "TCP/IP Protocol Suite"
 aliases: ["Transmission Control Protocol/Internet Protocol", "Internet Protocol Suite", "TCP/IP Stack"]
-tags: [tools-and-technology, networking, tcp-ip, internet-protocols, network-protocols]
+tags: [networking, tcp-ip, internet-protocols, network-protocols]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

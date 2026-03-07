@@ -1,7 +1,7 @@
 ---
 title: "Cloud Computing"
 aliases: ["Cloud", "Cloud Infrastructure", "Cloud Services"]
-tags: [tools-and-technology, networking, cloud-computing, infrastructure, virtualization]
+tags: [networking, cloud-computing, infrastructure, virtualization]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

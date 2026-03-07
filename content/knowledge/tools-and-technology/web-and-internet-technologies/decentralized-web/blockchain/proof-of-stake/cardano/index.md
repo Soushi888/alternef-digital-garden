@@ -1,12 +1,8 @@
 ---
 title: Cardano Blockchain Ecosystem
 description: Comprehensive overview of Cardano, a third-generation blockchain platform focused on sustainability, scalability, and interoperability
-tags:
-  - blockchain
-  - cardano
-  - proof-of-stake
-  - cryptocurrency
-  - smart-contracts
+tags: ["blockchain", "cardano", "proof-of-stake", "cryptocurrency", "smart-contracts"]
+
 ---
 
 ## Cardano: Next-Generation Blockchain Platform

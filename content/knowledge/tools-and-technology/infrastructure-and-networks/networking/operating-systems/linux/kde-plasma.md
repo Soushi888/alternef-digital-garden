@@ -5,23 +5,8 @@ aliases:
   - "KDE Plasma"
   - "KDE Desktop"
   - "Plasma Desktop"
-tags:
-  - desktop-environment
-  - linux
-  - user-interface
-  - customization
-  - kde
-  - qt
-  - productivity
-created: 2025-10-12
-modified: 2025-10-12
-draft: false
-related pages:
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]"
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]"
+tags: ["desktop-environment", "linux", "user-interface", "customization", "kde", "qt", "productivity", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]"]
+
 ---
 KDE Plasma represents one of the most ambitious desktop environment projects in the open-source world, combining powerful customization capabilities with thoughtful design and modern technologies. As the flagship product of the KDE community, Plasma demonstrates how a desktop environment can be both feature-rich and user-friendly, traditional and innovative, powerful and efficient.
 

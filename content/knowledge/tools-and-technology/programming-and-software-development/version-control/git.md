@@ -1,3 +1,7 @@
+---
+tags: ["programming", "software-development", "open-source"]
+---
+
 #DevOps 
 [[Directed Acyclic Graph (DAG)]]
 

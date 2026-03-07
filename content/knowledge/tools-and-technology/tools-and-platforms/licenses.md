@@ -5,13 +5,8 @@ aliases:
   - license
   - licenses
   - License
-tags:
-  - open-source
-  - licensing
-  - legal
-  - software
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["open-source", "licensing", "legal", "software"]
+
 ---
 In the software industry, a license is a legal document that grants certain rights to a user (the licensee) to use a piece of software. The license specifies the terms and conditions under which the software can be used, including what the user can do with the software, how many copies can be made, and for what purposes. It also outlines the restrictions and limitations on the use of the software, such as prohibitions on reverse engineering, redistribution, or use in certain contexts.
 

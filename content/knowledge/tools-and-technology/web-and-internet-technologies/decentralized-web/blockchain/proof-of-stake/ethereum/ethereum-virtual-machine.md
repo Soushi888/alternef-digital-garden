@@ -1,6 +1,8 @@
 ---
 aliases:
   - EVM
+tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
+
 ---
 #blockchains/EVM 
 

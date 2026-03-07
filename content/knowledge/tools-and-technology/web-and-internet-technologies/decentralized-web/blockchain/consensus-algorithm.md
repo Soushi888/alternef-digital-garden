@@ -1,6 +1,8 @@
 ---
 aliases:
   - consensus algorithm
+tags: ["programming", "blockchain", "decentralization"]
+
 ---
 
 In [[Blockchain]] technology, a consensus algorithm is a set of rules that all nodes in a blockchain network follow to agree on the state of the blockchain. It ensures that all transactions are verified and added to the blockchain in a secure and orderly manner. The consensus algorithm is crucial for maintaining the integrity and security of the blockchain, as it prevents double-spending and fraudulent transactions.

@@ -2,10 +2,8 @@
 title: Hash table
 description: A hash table is a data structure that stores key-value pairs in an array. It uses a hash function to compute an index into an array of buckets or slots, from which the correct value can be found.
 aliases: 
-tags:
-  - cryptography
-  - security
-  - encryption
+tags: ["cryptography", "security", "encryption"]
+
 ---
 
 ## Hash Table

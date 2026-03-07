@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 ## A [[Bitcoin]] layer for ‍smart contracts
 
 ['Stacks - A Bitcoin Layer for Smart Contracts, DeFi, NFTs, and Apps']('https://www.stacks.co')

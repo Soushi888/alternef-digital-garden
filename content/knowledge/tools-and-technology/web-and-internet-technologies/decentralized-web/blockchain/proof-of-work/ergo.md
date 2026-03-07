@@ -1,10 +1,8 @@
 ---
 title: Ergo
 description: What is Ergo?
-tags:
-    - blockchain
-    - cryptocurrency
-    - ergo
+tags: ["blockchain", "cryptocurrency", "ergo"]
+
 ---
 
 

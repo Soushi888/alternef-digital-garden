@@ -4,15 +4,8 @@ description: "Pragmatic functional programming language with strong industrial a
 aliases:
   - "Objective Caml"
   - "OCaml Programming"
-tags:
-  - functional-programming
-  - systems-programming
-  - type-safety
-  - industrial-adoption
-  - programming-languages
-created: 2025-01-12
-modified: 2025-01-12
-draft: false
+tags: ["functional-programming", "systems-programming", "type-safety", "industrial-adoption", "programming-languages"]
+
 ---
 
 # OCaml

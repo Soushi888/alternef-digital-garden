@@ -4,15 +4,8 @@ description: Cross-platform development environment for creating applications wi
 subtitle: Turn concepts into powerful applications with an easy-to-learn environment
 aliases:
   - LiveCode Platform
-tags:
-  - frontend
-  - backend
-  - low-code
-  - cross-platform
-  - development-tools
-related pages:
-  - "[[knowledge/tools-and-technology/tools-and-platforms/low-code-platforms/index|Low-Code Platforms]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/index|Programming and Software Development]]"
+tags: ["frontend", "backend", "low-code", "cross-platform", "development-tools", "[[knowledge/tools-and-technology/tools-and-platforms/low-code-platforms/index|Low-Code Platforms]]", "[[knowledge/tools-and-technology/programming-and-software-development/index|Programming and Software Development]]"]
+
 ---
 
 LiveCode makes it easy to turn your concepts, ideas or designs into powerful applications. You can create desktop, Internet, database and network applications. LiveCode includes a complete graphical user interface builder, as well as the tools you need to produce faceless or background applications.

@@ -1,12 +1,8 @@
 ---
 title: Tokenomics
 description: The study of economic systems in blockchain networks through token design and distribution
-tags:
-  - blockchain
-  - economics
-  - cryptocurrency
-  - web3
-  - decentralization
+tags: ["blockchain", "economics", "cryptocurrency", "web3", "decentralization"]
+
 ---
 
 Tokenomics is the study of the economic systems within blockchain networks, focusing on how tokens are designed, distributed, and managed to create sustainable and valuable ecosystems.

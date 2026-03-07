@@ -3,16 +3,8 @@ title: "Agent vs Actor Models"
 aliases:
   - Agent and Actor comparison
   - Distributed computing models comparison
-tags:
-  - distributed-systems
-  - agent-based-systems
-  - actor-model
-  - concurrent-programming
-  - comparison
-  - multi-agent-systems
-created: 2025-01-12
-modified: 2025-01-12
-draft: false
+tags: ["distributed-systems", "agent-based-systems", "actor-model", "concurrent-programming", "comparison", "multi-agent-systems"]
+
 ---
 
 # Agent vs Actor Models

@@ -4,17 +4,8 @@ description: "The foundational elements of distributed computing mapped to alche
 aliases:
   - "Prima Materia"
   - "First Matter of Distributed Computing"
-tags:
-  - programming
-  - mystical-oriented-programming
-  - alchemical-codex
-  - distributed-computing
-  - software-architecture
-  - holochain
-  - rust
-  - typescript
-date: 2026-03-05
-draft: false
+tags: ["programming", "mystical-oriented-programming", "alchemical-codex", "distributed-computing", "software-architecture", "holochain", "rust", "typescript"]
+
 ---
 
 ## *The First Matter of Distributed Computing*

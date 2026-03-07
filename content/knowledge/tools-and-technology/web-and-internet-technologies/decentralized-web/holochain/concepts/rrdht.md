@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
+---
+
 rrDHT (relaxed, agent-centric distributed hash table) is a key component of Holochain's technology that ensures fast, robust, and secure peer-to-peer networking.
 
 It's a unique design of [[../index|Holochain]] that is covered under intellectual property laws. It is a key component of Holochain's secure peer-to-peer networking technology.

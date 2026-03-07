@@ -1,11 +1,8 @@
 ---
 title: Failures in Distributed Systems
 description: A comprehensive overview of failures in distributed systems
-tags:
-  - networking
-  - distributed-systems
-related pages:
-  - "[[Distributed System]]"
+tags: ["networking", "distributed-systems", "[[Distributed System]]"]
+
 ---
 
 - Network faillures

@@ -1,12 +1,8 @@
 ---
 title: Pieces for Developers
 description: An overview of Pieces for Developers, an AI-enabled productivity tool for software engineers.
-tags:
-  - pieces
-  - developer-tools
-  - ai-assistant
-  - agent
-date: 2024-07-22
+tags: ["pieces", "developer-tools", "ai-assistant", "agent"]
+
 ---
 
 Pieces for Developers is an [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|AI-enabled]] productivity tool designed to enhance developer efficiency. It provides personalized workflow assistance across the entire toolchain, featuring a dedicated desktop application and integrations with many popular IDEs and tools like GitHub Copilot.

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "artificial-intelligence", "decentralization"]
+---
+
 [[Blockchain]] [[Artificial Intelligence]]
 
 [Sahara AI: Leading Decentralized Network for AI](https://www.saharalabs.ai)

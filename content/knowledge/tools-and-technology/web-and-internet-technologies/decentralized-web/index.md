@@ -5,15 +5,8 @@ aliases:
   - Web3
   - Decentralized Internet
   - Distributed Web
-tags:
-  - decentralized-web
-  - web3
-  - peer-to-peer
-  - blockchain
-  - holochain
-  - distributed-systems
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["decentralization", "web3", "peer-to-peer", "blockchain", "holochain", "distributed-systems"]
+
 ---
 
 ## Overview

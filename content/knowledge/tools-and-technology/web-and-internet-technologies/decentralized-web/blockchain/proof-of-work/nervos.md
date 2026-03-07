@@ -1,5 +1,7 @@
 ---
 aliases:
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 #blockchains/PoW 
 [[Blockchain]]

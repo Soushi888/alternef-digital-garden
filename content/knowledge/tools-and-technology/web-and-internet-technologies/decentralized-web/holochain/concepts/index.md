@@ -1,14 +1,8 @@
 ---
 title: Holochain Concepts
 description: Core concepts, data structures, and technical primitives that make up the Holochain framework
-tags:
-  - holochain
-  - concepts
-  - decentralized-web
-aliases:
-  - Holochain Terminology
-  - Holochain Technical Concepts
-date: 2026-03-03
+tags: ["holochain", "concepts", "decentralization", "Holochain Terminology", "Holochain Technical Concepts"]
+
 ---
 
 # Holochain Concepts

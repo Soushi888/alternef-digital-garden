@@ -6,12 +6,8 @@ aliases:
   - Coasys
   - AD4M
   - Flux hApp
-tags:
-  - holochain
-  - happs
-  - social-networking
-  - decentralized-web
-date: 2026-03-03
+tags: ["holochain", "happs", "social-networking", "web3"]
+
 ---
 
 # Perspect3vism / Coasys

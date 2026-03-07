@@ -4,13 +4,8 @@ description: AI techniques inspired by human cognitive processes, including stru
 aliases:
   - Cognitive AI
   - Cognitive Computing
-tags:
-  - artificial-intelligence
-  - cognitive-computing
-  - reasoning
-  - machine-learning
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["artificial-intelligence", "cognitive-computing", "reasoning", "machine-learning"]
+
 ---
 
 ## Overview

@@ -1,14 +1,9 @@
 ---
 title: Agent
 description: Sovereign digital entities that represent human or computational actors in decentralized systems
-tags:
-- decentralized-web
-- digital-identity
-- web3
-- autonomy
-aliases:
-- Digital Agents
-- Sovereign Agents
+tags: ["decentralization", "digital-identity", "web3", "autonomy"]
+aliases: ["Digital Agents", "Sovereign Agents"]
+
 ---
 
 ## Overview of Agents

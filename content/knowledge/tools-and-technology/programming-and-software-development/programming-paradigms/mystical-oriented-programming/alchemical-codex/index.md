@@ -1,10 +1,8 @@
 ---
 title: 🌹 Alchemical Codex
 description: A comprehensive index to the sacred documentation of the Requests and Offers project
-tags:
-  - programming-paradigms
-  - alchemy
-  - mysticism
+tags: ["programming-paradigms", "alchemy", "mysticism"]
+
 ---
 
 ## _Comprehensive Index to the Sacred Documentation_

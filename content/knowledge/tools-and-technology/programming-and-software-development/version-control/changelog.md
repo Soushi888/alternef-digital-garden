@@ -1,14 +1,8 @@
 ---
 title: Changelog
 description: A document listing significant changes made in each version of a software project
-tags:
-  - programming
-  - devops
-  - version-control
-  - software-development
-date: 2025-01-01
-updated: 2026-03-03
-related pages: []
+tags: ["programming", "devops", "version-control", "software-development"]
+
 ---
 ## Understanding Changelogs
 

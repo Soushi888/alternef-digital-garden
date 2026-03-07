@@ -1,3 +1,7 @@
+---
+tags: ["programming", "javascript", "web-dev"]
+---
+
 #backend 
 [[JavaScript]] runtime made in [[C++]]
 

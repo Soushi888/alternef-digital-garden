@@ -1,9 +1,8 @@
 ---
 aliases:
   - iced.rs
-tags:
-  - rust
-  - crate
+tags: ["rust", "crate"]
+
 ---
 
 Iced is a cross-platform GUI library for [[knowledge/tools-and-technology/programming-and-software-development/languages/rust/index|Rust]], inspired by Elm. It focuses on simplicity and type-safety, leveraging Rust's features such as ownership, borrowing, lifetimes, futures, streams, and more.

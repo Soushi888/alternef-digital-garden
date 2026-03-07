@@ -1,13 +1,8 @@
 ---
 title: P2P Shipyard
 description: Cross-platform P2P application development toolkit
-tags:
-  - peer-to-peer
-  - holochain
-  - cross-platform
-  - development
-aliases:
-  - Shipyard
+tags: ["peer-to-peer", "holochain", "cross-platform", "development", "Shipyard"]
+
 ---
 
 ## Overview

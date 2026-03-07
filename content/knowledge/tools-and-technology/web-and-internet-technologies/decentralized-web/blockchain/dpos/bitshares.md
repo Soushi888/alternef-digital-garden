@@ -1,5 +1,7 @@
 ---
 aliases: [BTS]
+tags: ["programming", "blockchain", "decentralization"]
+
 ---
 [[Blockchain]]
 #blockchains/DPoS

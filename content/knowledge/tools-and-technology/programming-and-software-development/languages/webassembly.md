@@ -4,15 +4,8 @@ aliases:
   - WASM
   - .wasm
   - Wasm
-tags:
-  - programming
-  - web-development
-  - performance
-  - compilation-target
-  - portability
-created: 2026-02-03
-modified: 2026-02-03
-draft: false
+tags: ["programming", "web-dev", "performance", "compilation-target", "portability"]
+
 ---
 
 # WebAssembly

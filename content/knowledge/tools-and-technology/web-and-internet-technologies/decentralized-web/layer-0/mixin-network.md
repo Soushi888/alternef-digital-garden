@@ -1,3 +1,7 @@
+---
+tags: ["programming", "distributed-systems", "decentralization", "networking"]
+---
+
 #blockchains/Layer-0 
 [[Blockchain]] [[Layer 0]]
 

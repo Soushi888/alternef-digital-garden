@@ -1,5 +1,7 @@
 ---
 aliases: [EOS]
+tags: ["programming", "blockchain", "decentralization", "governance"]
+
 ---
 [[Blockchain]]
 Technologie : #blockchains/DPoS 

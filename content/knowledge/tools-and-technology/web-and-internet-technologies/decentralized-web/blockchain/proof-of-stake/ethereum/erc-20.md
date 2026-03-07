@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
+---
+
 [[Tokenomie]]
 
 ERC-20, short for [[Ethereum]] Request for Comment number 20, is a technical standard for creating interoperable tokens on the Ethereum [[Blockchain]]. It was proposed by Fabian Vogelsteller in November 2015 and is widely adopted for the creation of fungible tokens within smart contracts on the Ethereum network. The ERC-20 standard defines a set of functions and events that a smart contract must implement to be considered an ERC-20 token contract. These functions include transferring tokens from one account to another, getting the current token balance of an account, and getting the total supply of the token available on the network. Additionally, it allows for the approval of token transfers by a third-party account.

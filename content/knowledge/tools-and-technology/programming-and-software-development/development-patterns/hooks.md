@@ -5,14 +5,8 @@ subtitle: Extending behavior without modifying source code
 aliases:
   - Programming Hooks
   - Software Hooks
-tags:
-  - programming
-  - design-patterns
-  - software-design
-  - event-driven
-related pages:
-  - "[[observer]]"
-  - "[[event-bus]]"
+tags: ["programming", "design-patterns", "software-design", "event-driven", "[[observer]]", "[[event-bus]]"]
+
 ---
 
 Hooks are a technique or mechanism that allows developers to "hook into" or intercept a process, event, or function at a specific point in a program's execution. They provide a way to extend or modify behavior without altering the original source code, creating flexible extension points in software systems.

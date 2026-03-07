@@ -1,17 +1,8 @@
 ---
 title: Host
 description: Holochain's runtime environment that provides secure WebAssembly execution and system API access for guest applications
-tags:
-  - holochain
-  - host
-  - runtime
-  - webassembly
-  - guest-host
-  - conductor
-aliases:
-  - Holochain Host
-  - Conductor Host
-  - Runtime Host
+tags: ["holochain", "host", "runtime", "webassembly", "guest-host", "conductor", "Holochain Host", "Conductor Host", "Runtime Host"]
+
 ---
 
 ## What is a Host?

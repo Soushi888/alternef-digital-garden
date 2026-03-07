@@ -1,15 +1,8 @@
 ---
 title: Trust Graph
 description: An open protocol for decentralized trust relationships and reputation systems in distributed ecosystems
-tags:
-  - decentralized-web
-  - trust
-  - reputation
-  - open-source
-  - protocols
-aliases:
-  - Decentralized Trust Network
-  - Distributed Reputation System
+tags: ["web3", "trust", "reputation", "open-source", "protocols", "Decentralized Trust Network", "Distributed Reputation System"]
+
 ---
 
 ## Overview

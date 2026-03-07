@@ -1,12 +1,8 @@
 ---
 title: Infrastructure and Networks
 description: A comprehensive exploration of digital infrastructure, network technologies, and system design
-tags:
-  - infrastructure
-  - networking
-  - distributed-systems
-  - devops
-  - cloud-computing
+tags: ["infrastructure", "networking", "distributed-systems", "devops", "cloud-computing"]
+
 ---
 
 ## Overview

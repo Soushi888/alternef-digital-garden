@@ -1,14 +1,8 @@
 ---
 title: Procedural Programming
 description: A programming paradigm organizing code into procedures and sequential instructions
-tags:
-  - programming-paradigms
-  - imperative
-  - sequential
-aliases:
-  - Procedural Paradigm
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"
+tags: ["programming-paradigms", "imperative", "sequential", "Procedural Paradigm", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"]
+
 ---
 
 ### Definition of Procedural Programming

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "artificial-intelligence", "decentralization"]
+---
+
 Bittensor is essentially a language for writing numerous decentralized commodity markets, or 'subnets', situated under a unified token system. These distinct markets function through Bittensor's [[Blockchain]], allowing each to interact and join into a singular computing infrastructure. By analogy, Bittensor brings the same type of abstraction which Ethereum added to Bitcoin for running decentralized contracts, but onto Bitcoin's inverse innovation — _digital markets_.
 
 Understanding Bittensor is difficult for the exact same reason that it is powerful. This is because the majority of Bittensor's computational power is not concretely defined, but instead abstracted _underneath markets_. For instance, Bittensor leverages [[Machine Learning]] models to produce intelligence products, but Bittensor also leverages physical storage to create storage products. Meanwhile, it does _not define_ the specifics of how these resources are produced. Instead, Bittensor simply defines _the market_ which will reward those commodities for becoming available to the network.

@@ -1,10 +1,7 @@
 ---
 aliases: 
-tags:
-  - frontend
-related pages:
-  - "[[Rust]]"
-  - "[[JavaScript]]"
+tags: ["frontend", "[[Rust]]", "[[JavaScript]]"]
+
 ---
 
 ['Build smaller, faster, and more secure desktop applications with a web frontend']('https://tauri.app')

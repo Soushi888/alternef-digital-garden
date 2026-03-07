@@ -1,10 +1,8 @@
 ---
 title: Haskell
 description: A purely functional, statically typed programming language known for its strong type system and mathematical foundations
-tags:
-- programming
-- language
-- development
+tags: ["programming", "language", "development"]
+
 ---
 
 ## Overview

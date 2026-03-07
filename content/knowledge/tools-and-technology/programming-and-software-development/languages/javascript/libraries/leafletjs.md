@@ -5,15 +5,8 @@ subtitle: Lightweight mapping library based on OpenStreetMap
 aliases:
   - Leaflet
   - leaflet.js
-tags:
-  - frontend
-  - javascript
-  - library
-  - maps
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
-  - "[[knowledge/tools-and-technology/specialized-technologies/geographic-information-systems/openstreet-map|OpenStreetMap]]"
+tags: ["frontend", "javascript", "library", "maps", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/specialized-technologies/geographic-information-systems/openstreet-map|OpenStreetMap]]"]
+
 ---
 
 Leaflet.js is an open-source JavaScript library for mobile-friendly interactive maps. It's designed to be lightweight, simple to use, and performs well across all major desktop and mobile platforms.

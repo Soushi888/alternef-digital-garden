@@ -5,15 +5,8 @@ subtitle: Create beautiful web-based presentations with JavaScript
 aliases:
   - RevealJS
   - reveal.js
-tags:
-  - frontend
-  - javascript
-  - library
-  - presentation
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/index|HTML & CSS]]"
+tags: ["frontend", "javascript", "library", "presentation", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/index|HTML & CSS]]"]
+
 ---
 
 Reveal.js is an open source HTML presentation framework. It's a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.

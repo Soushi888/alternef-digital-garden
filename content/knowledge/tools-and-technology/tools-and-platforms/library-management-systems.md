@@ -5,14 +5,8 @@ aliases:
   - LMS
   - Integrated Library System
   - ILS
-tags:
-  - library
-  - library-management
-  - open-source
-  - tools
-  - information-management
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["library", "library-management", "open-source", "tools", "information-management"]
+
 ---
 
 An Integrated Library System (ILS), also called a Library Management System (LMS), is software that automates the core operational functions of a library. These platforms bring catalog management, circulation, acquisitions, and patron services into a single integrated environment, replacing paper-based or fragmented workflows.

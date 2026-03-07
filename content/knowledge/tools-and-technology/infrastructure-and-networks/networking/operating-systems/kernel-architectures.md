@@ -3,15 +3,8 @@ title: "Kernel Architectures: Monolithic, Microkernel, and Unikernel"
 aliases:
   - "Operating System Kernels"
   - "Kernel Design"
-tags:
-  - operating-systems
-  - kernel
-  - system-architecture
-  - computer-science
-  - infrastructure
-created: 2025-10-11
-modified: 2025-10-11
-draft: false
+tags: ["operating-systems", "kernel", "system-architecture", "computer-science", "infrastructure"]
+
 ---
 
 # Kernel Architectures: Monolithic, Microkernel, and Unikernel

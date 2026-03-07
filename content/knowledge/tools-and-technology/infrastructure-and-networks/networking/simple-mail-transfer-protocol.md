@@ -3,14 +3,8 @@ title: Simple Mail Transfer Protocol (SMTP)
 description: Email transmission protocol that powers internet mail delivery systems
 aliases:
   - SMTP
-tags:
-  - networking
-  - internet-protocols
-  - email
-  - communication
-related pages:
-  - "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]"
-  - "[[knowledge/tools-and-technology/index|Tools and Technology]]"
+tags: ["networking", "internet-protocols", "email", "communication", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]", "[[knowledge/tools-and-technology/index|Tools and Technology]]"]
+
 ---
 
 SMTP (Simple Mail Transfer Protocol) email servers play a crucial role in facilitating email communication over the internet. Here's an overview of SMTP email servers:

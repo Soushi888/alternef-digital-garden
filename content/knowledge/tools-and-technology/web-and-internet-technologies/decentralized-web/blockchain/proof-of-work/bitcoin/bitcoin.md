@@ -2,6 +2,8 @@
 title: Bitcoin
 description: What is Bitcoin?
 aliases: [BTC]
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 
 Technlogie : #blockchains/PoW

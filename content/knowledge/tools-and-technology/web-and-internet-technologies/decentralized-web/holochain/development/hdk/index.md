@@ -1,16 +1,8 @@
 ---
 title: Holochain Development Kit (HDK)
 description: Core libraries, APIs, and tools for building applications on the Holochain framework
-tags:
-  - holochain
-  - development
-  - hdk
-  - programming
-  - rust
-aliases:
-  - HDK
-  - Holochain SDK
-  - Holochain Development API
+tags: ["holochain", "development", "hdk", "programming", "rust", "HDK", "Holochain SDK", "Holochain Development API"]
+
 ---
 
 ## Overview of the Holochain Development Kit

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "artificial-intelligence", "decentralization"]
+---
+
 [[Blockchain]] [[Artificial Intelligence]]
 
 [ChainGPT - Unleash The Power of Blockchain AI](https://www.chaingpt.org)

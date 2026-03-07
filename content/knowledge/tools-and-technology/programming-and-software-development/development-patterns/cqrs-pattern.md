@@ -1,23 +1,8 @@
 ---
 title: CQRS Pattern
 description: Comprehensive guide to Command Query Responsibility Segregation (CQRS) architectural pattern for building scalable, maintainable software systems
-tags:
-  - cqrs
-  - architecture-patterns
-  - software-architecture
-  - domain-driven-design
-  - event-sourcing
-  - microservices
-aliases:
-  - Command Query Responsibility Segregation
-  - CQRS Architecture
-  - Read-Write Separation Pattern
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/solid-principles|SOLID Principles]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"
-created: 2025-09-25
-modified: 2025-09-25
-draft: false
+tags: ["cqrs", "architecture-patterns", "software-architecture", "domain-driven-design", "event-sourcing", "microservices", "Command Query Responsibility Segregation", "CQRS Architecture", "Read-Write Separation Pattern", "[[knowledge/tools-and-technology/programming-and-software-development/solid-principles|SOLID Principles]]", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"]
+
 ---
 
 # CQRS Pattern

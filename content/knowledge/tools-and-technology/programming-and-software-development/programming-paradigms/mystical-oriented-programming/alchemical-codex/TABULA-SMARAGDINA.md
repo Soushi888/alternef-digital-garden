@@ -4,15 +4,8 @@ description: "The Emerald Tablet of distributed computing: eleven hermetic axiom
 aliases:
   - "Tabula Smaragdina"
   - "Emerald Tablet of Distributed Computing"
-tags:
-  - programming
-  - mystical-oriented-programming
-  - alchemical-codex
-  - software-architecture
-  - distributed-computing
-  - software-design-principles
-date: 2026-03-05
-draft: false
+tags: ["programming", "mystical-oriented-programming", "alchemical-codex", "software-architecture", "distributed-computing", "software-design-principles"]
+
 ---
 
 ## *The Emerald Tablet of Distributed Computing*

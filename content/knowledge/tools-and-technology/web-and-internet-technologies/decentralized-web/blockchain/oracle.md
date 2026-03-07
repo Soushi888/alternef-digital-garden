@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization"]
+---
+
 In the context of [[Blockchain]], an oracle is an entity that serves as a bridge between blockchains and external systems, enabling [[Smart Contracts]] to execute based on real-world inputs and outputs. Oracles are crucial for bringing off-chain data into the blockchain environment, thus expanding the capabilities of smart contracts beyond the blockchain's inherent limitations. They ensure that smart contracts can interact with real-world data, such as stock prices, weather information, or event outcomes, which are necessary for executing complex operations like those found in decentralized finance (DeFi) applications, insurance, and more.
 
 ### Key Points to Consider

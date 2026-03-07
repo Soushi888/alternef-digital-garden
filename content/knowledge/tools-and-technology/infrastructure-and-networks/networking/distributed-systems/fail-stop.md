@@ -1,3 +1,7 @@
+---
+tags: ["programming", "distributed-systems", "networking"]
+---
+
 A fail-stop network failure is a type of network failure where a node in a distributed system fails by stopping all of its operations or going offline completely. In other words, when a node fails in this way, it simply stops responding to messages and requests from other nodes in the system.
 
 This type of failure is called "fail-stop" because the failed node "stops" rather than continuing to operate incorrectly or intermittently. This makes it easier for other nodes in the system to detect and respond to the failure.

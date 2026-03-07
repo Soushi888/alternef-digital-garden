@@ -1,6 +1,8 @@
 ---
 aliases:
   - FLDT
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 [[Cardano]]
 

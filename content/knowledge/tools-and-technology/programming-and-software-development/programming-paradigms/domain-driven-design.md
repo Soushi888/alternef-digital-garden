@@ -1,9 +1,8 @@
 ---
 title: Domain-Driven Design (DDD)
 description: A software development approach that focuses on modeling software to match a domain according to input from domain experts.
-tags:
-  - programming-paradigms
-  - domain-driven-design
+tags: ["programming-paradigms", "domain-driven-design"]
+
 ---
 
 _A software development approach that focuses on modeling software to match a domain according to input from domain experts._

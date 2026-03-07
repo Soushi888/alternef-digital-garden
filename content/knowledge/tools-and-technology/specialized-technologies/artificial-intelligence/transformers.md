@@ -1,13 +1,8 @@
 ---
 title: Transformers
 description: Deep learning architecture that revolutionized natural language processing and other sequence-based tasks
-tags:
-  - artificial-intelligence
-  - deep-learning
-  - nlp
-  - neural-network
-  - machine-learning
-date: 2025-05-16
+tags: ["artificial-intelligence", "deep-learning", "nlp", "neural-network", "machine-learning"]
+
 ---
 
 Transformers are a type of neural network architecture that has revolutionized the field of natural language processing (NLP) and beyond. Introduced in the 2017 paper "Attention Is All You Need" by Vaswani et al., transformers rely on self-attention mechanisms rather than recurrence or convolution, allowing them to process sequential data more efficiently and effectively than previous approaches.

@@ -1,14 +1,8 @@
 ---
 title: Cryptography
 description: Comprehensive overview of cryptographic techniques, algorithms, and principles in computer security
-tags:
-  - security
-  - cryptography
-  - encryption
-  - privacy
-aliases:
-  - Cryptographic Techniques
-  - Information Security
+tags: ["security", "cryptography", "encryption", "privacy", "Cryptographic Techniques", "Information Security"]
+
 ---
 
 ## Overview of Cryptography

@@ -1,19 +1,8 @@
 ---
 title: "Ralph Loop"
 aliases: ["Ralph Wiggum Loop", "Ralph Wiggum Technique", "Autonomous AI Agent Loop"]
-tags:
-  - artificial-intelligence
-  - ai-agents
-  - autonomous-systems
-  - software-development
-  - automation
-  - large-language-models
-  - cognitive-approaches
-  - metacognition
-created: 2026-01-27
-modified: 2026-01-27
-draft: false
-description: "An autonomous AI agent loop pattern that enables continuous, self-iterating development cycles through external state persistence and objective completion criteria"
+tags: ["artificial-intelligence", "ai-agents", "autonomous-systems", "software-development", "automation", "large-language-models", "cognitive-approaches", "metacognition"]
+
 ---
 
 The **Ralph Loop** is an autonomous AI agent pattern that enables continuous, self-iterating development cycles. Created by Geoffrey Huntley in May 2025, the technique allows AI agents to work autonomously over extended periods by externalizing state and progress to files, git history, and test results rather than relying on fragile in-context memory.

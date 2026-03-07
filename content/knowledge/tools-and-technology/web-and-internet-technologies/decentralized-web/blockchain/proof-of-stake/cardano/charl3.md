@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+---
+
 [[Cardano]] [[Oracle]]
 
 [Charli3 | Decentralized Oracles and Market Data for Cardano](https://charli3.io)

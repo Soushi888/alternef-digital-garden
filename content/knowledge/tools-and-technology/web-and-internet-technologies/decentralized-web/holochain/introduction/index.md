@@ -1,14 +1,8 @@
 ---
 title: Introduction to Holochain
 description: Foundational concepts and initial understanding of Holochain's revolutionary approach to distributed computing
-tags:
-  - holochain
-  - introduction
-  - decentralized-web
-  - peer-to-peer
-aliases:
-  - Holochain Fundamentals
-  - Getting Started with Holochain
+tags: ["holochain", "introduction", "decentralization", "peer-to-peer", "Holochain Fundamentals", "Getting Started with Holochain"]
+
 ---
 
 ## Overview of Holochain Introduction

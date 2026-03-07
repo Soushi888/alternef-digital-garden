@@ -1,7 +1,7 @@
 ---
 title: "Vector Databases"
 aliases: [Vector Database, Vector DB, VectorDB, Embedding Database]
-tags: [ai, database, machine-learning, embeddings, semantic-search, rag]
+tags: [artificial-intelligence, database, machine-learning, embeddings, semantic-search, rag]
 created: 2026-01-27
 ---
 

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "artificial-intelligence", "music"]
+---
+
 [[Artificial Intelligence]] [[Musique]]
 
 [Udio | Make your music](https://www.udio.com)

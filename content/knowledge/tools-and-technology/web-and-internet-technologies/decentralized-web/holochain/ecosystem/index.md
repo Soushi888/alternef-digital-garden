@@ -1,15 +1,8 @@
 ---
 title: Holochain Ecosystem
 description: Organizations, projects, communities, and resources that make up the Holochain ecosystem
-tags:
-  - holochain
-  - ecosystem
-  - community
-  - happs
-  - decentralized-web
-aliases:
-  - Holochain Community
-  - Holochain Projects
+tags: ["holochain", "ecosystem", "community", "happs", "decentralization", "Holochain Community", "Holochain Projects"]
+
 ---
 
 ## Overview of the Holochain Ecosystem

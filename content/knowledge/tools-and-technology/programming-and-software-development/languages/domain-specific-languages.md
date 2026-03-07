@@ -1,12 +1,8 @@
 ---
 title: Domain-Specific Languages (DSLs)
 description: Understanding specialized programming languages designed for specific problem domains
-tags:
-  - programming
-  - software-development
-  - language-design
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/index|Programming Languages]]"
+tags: ["programming", "software-development", "language-design", "[[knowledge/tools-and-technology/programming-and-software-development/languages/index|Programming Languages]]"]
+
 ---
 
 ## Overview

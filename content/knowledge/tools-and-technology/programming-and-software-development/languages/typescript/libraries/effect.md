@@ -5,15 +5,8 @@ subtitle: A functional approach to managing side effects, errors, and concurrenc
 aliases:
   - Effect Library
   - Effect-TS
-tags:
-  - typescript
-  - library
-  - functional-programming
-  - error-handling
-  - concurrency
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/typescript/index|TypeScript]]"
-  - "[[knowledge/tools-and-technology/programming-and-software-development/paradigms/functional-programming|Functional Programming]]"
+tags: ["typescript", "library", "functional-programming", "error-handling", "concurrency", "[[knowledge/tools-and-technology/programming-and-software-development/languages/typescript/index|TypeScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/paradigms/functional-programming|Functional Programming]]"]
+
 ---
 
 Effect is a powerful, open-source framework designed to help developers build robust, scalable, and type-safe applications in TypeScript. It provides a functional programming approach to managing side effects, errors, concurrency, and asynchronous operations, effectively acting as a "missing standard library" for TypeScript. Inspired by libraries like ZIO from Scala, Effect aims to simplify complex workflows while leveraging TypeScript's type system to ensure safety and predictability.

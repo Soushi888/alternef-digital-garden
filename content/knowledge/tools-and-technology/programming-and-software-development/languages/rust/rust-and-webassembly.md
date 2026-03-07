@@ -3,15 +3,8 @@ title: "Rust and WebAssembly"
 aliases:
   - rustwasm
   - rust-wasm
-tags:
-  - programming
-  - rust
-  - webassembly
-  - web-development
-  - performance
-created: 2026-02-03
-modified: 2026-02-03
-draft: false
+tags: ["programming", "rust", "webassembly", "web-dev", "performance"]
+
 ---
 
 # Rust and WebAssembly

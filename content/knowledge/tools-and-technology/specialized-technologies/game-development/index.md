@@ -4,13 +4,8 @@ description: Tools, engines, and practices for creating interactive games and re
 aliases:
   - Game Engines
   - Game Dev
-tags:
-  - game-development
-  - game-engine
-  - real-time-3d
-  - interactive-media
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["game-development", "game-engine", "real-time-3d", "interactive-media"]
+
 ---
 
 ## Overview

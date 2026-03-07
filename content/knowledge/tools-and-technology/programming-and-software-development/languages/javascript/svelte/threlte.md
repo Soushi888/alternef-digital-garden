@@ -1,14 +1,8 @@
 ---
 title: Threlte
 description: A 3D framework for Svelte that leverages Three.js for building interactive 3D web applications
-tags:
-  - javascript
-  - svelte
-  - 3d
-  - web
-  - frameworks
-related pages:
-  - "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/svelte|Svelte]]"
+tags: ["javascript", "svelte", "3d", "web", "frameworks", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/svelte|Svelte]]"]
+
 ---
 
 ## Overview

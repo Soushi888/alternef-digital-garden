@@ -2,6 +2,8 @@
 Aliases: [GGMC]
 Type: NFT
 Blockchain: Cardano
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 [[Cardano]] [[Non-Fungible Token|NFT]]
 

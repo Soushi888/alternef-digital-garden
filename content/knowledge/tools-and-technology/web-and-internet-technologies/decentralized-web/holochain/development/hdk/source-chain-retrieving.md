@@ -1,12 +1,8 @@
 ---
 title: Source Chain Retrieving
 description: Methods for querying and retrieving data from the Holochain source chain
-tags:
-  - holochain
-  - hdk
-  - source-chain
-  - data-retrieval
-parent: "[[../index|HDK]]"
+tags: ["holochain", "hdk", "source-chain", "data-retrieval"]
+
 ---
 
 # Source Chain Retrieving

@@ -1,12 +1,8 @@
 ---
 title: Quill
 description: A Web3 social network platform for building value networks and decentralized communities
-tags:
-  - social-network
-  - blockchain
-  - web3
-  - decentralization
-  - arweave
+tags: ["social-network", "blockchain", "web3", "decentralization", "arweave"]
+
 ---
 
 Quill is a decentralized social networking platform that enables users to build value networks on Web3 technology. It combines social networking features with blockchain technology to create a more equitable and user-controlled social media experience.

@@ -5,12 +5,8 @@ aliases:
   - peer-to-peer
   - peer-to-peer
   - pair-a-pair
-tags:
-  - peer-to-peer
-  - networking
-  - decentralization
-  - systems-thinking
-  - collective-intelligence
+tags: ["peer-to-peer", "networking", "decentralization", "systems-thinking", "collective-intelligence"]
+
 ---
 
 Philosophical Foundations

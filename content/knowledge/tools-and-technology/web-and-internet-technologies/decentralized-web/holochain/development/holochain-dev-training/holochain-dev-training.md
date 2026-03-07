@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "rust", "distributed-systems"]
+---
+
 ['Holochain Dev Training, by Holo']('https://lean-tarsier-4fd.notion.site/Holochain-Dev-Training-by-Holo-f71f5a274b434fb1bf235c4214b18abb')
 > 'Welcome, welcome, welcome to the first online cohort of the Holochain Developer Education program. We’re very excited to learn and grow with you! As we head into our learning adventure, we’ve created this page, **as a living document,** to house and update program information.'
 

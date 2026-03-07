@@ -1,11 +1,8 @@
 ---
 title: Programming and Software Development
 description: A holistic exploration of software engineering, programming paradigms, and computational thinking
-tags:
-  - programming
-  - software-engineering
-  - learning
-  - technology
+tags: ["programming", "software-engineering", "learning", "technology"]
+
 ---
 
 ## Overview

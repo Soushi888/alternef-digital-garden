@@ -1,5 +1,7 @@
 ---
 Aliases: [Agents, agents, agent, agent ID]
+tags: ["programming", "holochain", "distributed-systems", "software-architecture"]
+
 ---
 
 #holochain/concepts

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "javascript", "svelte", "frontend"]
+---
+
 [[svelte/index]]
 [[SvelteKit]]
 

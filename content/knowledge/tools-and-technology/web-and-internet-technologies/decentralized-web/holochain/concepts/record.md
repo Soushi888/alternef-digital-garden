@@ -1,13 +1,8 @@
 ---
 title: Holochain Records
 description: Complete data structures containing entries with metadata and validation information
-tags:
-  - holochain
-  - fundamentals
-  - records
-  - data-structures
-aliases: [record, records, Records]
-parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]"
+tags: ["holochain", "fundamentals", "records", "data-structures"]
+
 ---
 
 # Holochain Records

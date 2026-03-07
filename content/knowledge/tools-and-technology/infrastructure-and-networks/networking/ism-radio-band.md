@@ -1,7 +1,7 @@
 ---
 title: "ISM Radio Bands"
 aliases: ["Industrial Scientific Medical Bands", "ISM Frequencies", "ISM Spectrum", "Radio Spectrum ISM"]
-tags: [tools-and-technology, networking, radio-frequency, wireless, spectrum-regulation, industrial, scientific, medical]
+tags: [networking, radio-frequency, wireless, spectrum-regulation, industrial, scientific, medical]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

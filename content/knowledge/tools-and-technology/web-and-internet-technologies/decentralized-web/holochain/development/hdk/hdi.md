@@ -1,6 +1,8 @@
 ---
 type: library
 language: rust
+tags: ["programming", "holochain", "rust", "hdk"]
+
 ---
 
 Subset of the [[index|HDK]]

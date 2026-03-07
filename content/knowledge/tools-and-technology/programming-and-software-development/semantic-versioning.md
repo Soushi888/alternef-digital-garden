@@ -1,9 +1,7 @@
 ---
 aliases: 
-tags:
-  - devops
-related pages:
-  - "[[Changelog]]"
+tags: ["devops", "[[Changelog]]"]
+
 ---
 Semantic Versioning, often abbreviated as SemVer, is a versioning scheme for software that aims to convey meaning about the underlying changes in a release. It was introduced by Tom Preston-Werner, Chris Wanstrath, and Scott Chacon of GitHub in 2005. Semantic Versioning uses a three-part version number like `MAJOR.MINOR.PATCH`, which is inspired by the versioning system used in Git.
 

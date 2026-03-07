@@ -1,3 +1,7 @@
+---
+tags: ["programming", "distributed-systems", "decentralization", "peer-to-peer"]
+---
+
 #database
 #blockchains/storage 
 

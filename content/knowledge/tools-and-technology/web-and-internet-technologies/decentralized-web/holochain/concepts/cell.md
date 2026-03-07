@@ -1,13 +1,8 @@
 ---
 title: Holochain Cells
 description: The fundamental unit of a Holochain application - combining DNA with an agent identity
-tags:
-  - holochain
-  - fundamentals
-  - cell
-  - distributed-systems
-aliases: [cell, Cells, cells, Holochain Cell]
-parent: "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]"
+tags: ["holochain", "fundamentals", "cell", "distributed-systems"]
+
 ---
 
 # Holochain Cells

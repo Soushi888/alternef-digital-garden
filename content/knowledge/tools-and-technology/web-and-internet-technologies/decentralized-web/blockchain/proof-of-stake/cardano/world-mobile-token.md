@@ -1,5 +1,7 @@
 ---
 Aliases: [WMT]
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 
 ['Just a moment...']('https://worldmobiletoken.com')

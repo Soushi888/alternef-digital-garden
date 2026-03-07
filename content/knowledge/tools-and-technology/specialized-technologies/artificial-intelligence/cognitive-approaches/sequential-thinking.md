@@ -1,15 +1,8 @@
 ---
 title: Sequential Thinking
 description: A dynamic, adaptive approach to cognitive problem-solving and knowledge exploration in artificial intelligence
-tags:
-  - cognitive-technology
-  - problem-solving
-  - thinking-models
-  - artificial-intelligence
-related pages:
-  - "[[model-context-protocol]]"
-  - "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]"
-  - "[[cognitive-technologies]]"
+tags: ["cognitive-technology", "problem-solving", "thinking-models", "artificial-intelligence", "[[model-context-protocol]]", "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]", "[[cognitive-technologies]]"]
+
 ---
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+tags: ["programming", "artificial-intelligence", "machine-learning"]
+---
+
 #programmation/AI
 
 Deep learning is a subfield of [[machine-learning|machine learning]] that involves building and training [[neural-network|neural networks]] with multiple layers to learn and make predictions on complex data. The term "deep" refers to the fact that these networks have many layers, typically ranging from a few to dozens or even hundreds of layers.

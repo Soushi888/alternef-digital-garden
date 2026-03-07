@@ -1,10 +1,8 @@
 ---
 title: Unspent Transaction Output (UTXO)
 description: What is UTXO in Blockchain?
-tags:
-    - blockchain
-    - cryptocurrency
-    - utxo
+tags: ["blockchain", "cryptocurrency", "utxo"]
+
 ---
 
 ## **What is UTXO in Blockchain?**

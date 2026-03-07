@@ -1,3 +1,7 @@
+---
+tags: ["programming", "cryptocurrency", "decentralization", "security"]
+---
+
 ### Understanding [[Web 3]] Wallets
 
 Web3 wallets are digital tools designed to interact with [[Blockchain]] technologies and decentralized applications (dApps). They serve as a bridge between users and the decentralized web, enabling the storage, management, and transaction of digital assets such as cryptocurrencies, NFTs ([[Non-Fungible Token|Non-Fungible Tokens]]), stablecoins, and other tokenized assets. Unlike traditional digital wallets tied to centralized financial institutions, Web3 wallets operate on decentralized networks, offering users greater control, ownership, and interoperability across different blockchain ecosystems.

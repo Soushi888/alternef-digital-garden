@@ -1,13 +1,8 @@
 ---
 title: Governance
 description: Community guidelines, licensing, and contribution frameworks for Holochain
-tags:
-  - holochain
-  - governance
-  - community
-  - licensing
-  - contribution
-parent: "[[../index|Holochain]]"
+tags: ["holochain", "governance", "community", "licensing", "contribution"]
+
 ---
 
 # Governance

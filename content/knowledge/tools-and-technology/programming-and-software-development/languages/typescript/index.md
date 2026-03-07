@@ -4,14 +4,8 @@ description: A typed superset of JavaScript that compiles to plain JavaScript, a
 aliases:
   - TS
   - TypeScript Language
-tags:
-  - typescript
-  - javascript
-  - programming
-  - type-safety
-  - web-development
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["typescript", "javascript", "programming", "type-safety", "web-dev"]
+
 ---
 
 ## Overview

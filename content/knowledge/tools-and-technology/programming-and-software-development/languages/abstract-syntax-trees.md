@@ -1,12 +1,8 @@
 ---
 title: Abstract Syntax Trees (ASTs)
 description: Understanding the role of Abstract Syntax Trees in programming languages and their importance in Domain-Specific Languages (DSLs)
-tags:
-  - programming
-  - language-design
-  - compilers
-related pages:
-  - "[[domain-specific-languages|Domain-Specific Languages]]"
+tags: ["programming", "language-design", "compilers", "[[domain-specific-languages|Domain-Specific Languages]]"]
+
 ---
 
 ## Overview

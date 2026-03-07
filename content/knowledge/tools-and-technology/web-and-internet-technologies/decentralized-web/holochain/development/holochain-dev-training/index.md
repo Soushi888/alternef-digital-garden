@@ -1,15 +1,8 @@
 ---
 title: Holochain Developer Training
 description: Educational resources, learning paths, and training materials for developers new to the Holochain ecosystem
-tags:
-  - holochain
-  - development
-  - training
-  - education
-  - learning
-aliases:
-  - Holochain Learning Resources
-  - Holochain Developer Education
+tags: ["holochain", "development", "training", "education", "learning", "Holochain Learning Resources", "Holochain Developer Education"]
+
 ---
 
 ## Overview of Holochain Developer Training

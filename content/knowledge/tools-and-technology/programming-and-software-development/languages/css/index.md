@@ -4,14 +4,8 @@ description: CSS and utility-first styling frameworks for building modern, respo
 aliases:
   - Cascading Style Sheets
   - CSS Frameworks
-tags:
-  - css
-  - web-development
-  - frontend
-  - styling
-  - design
-date: 2025-01-01
-updated: 2026-03-03
+tags: ["css", "web-dev", "frontend", "styling", "design"]
+
 ---
 
 ## Overview

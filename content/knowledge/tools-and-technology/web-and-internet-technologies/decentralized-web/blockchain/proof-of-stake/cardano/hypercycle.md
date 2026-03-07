@@ -2,6 +2,8 @@
 Aliases: [HYPC]
 Token: HYPC
 blockchain: Cardano
+tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+
 ---
 [[Blockchain]]
 [[Artificial Intelligence]]

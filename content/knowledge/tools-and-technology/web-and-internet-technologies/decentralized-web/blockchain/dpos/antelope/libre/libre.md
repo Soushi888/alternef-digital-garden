@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization", "governance"]
+---
+
 Technologie : #blockchains/DPoS  
 Algorithme de consensus : DPoS 
 

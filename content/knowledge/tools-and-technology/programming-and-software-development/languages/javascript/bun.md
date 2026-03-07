@@ -1,3 +1,7 @@
+---
+tags: ["programming", "javascript", "web-dev"]
+---
+
 [[JavaScript]] runtime.
 
 [Bun — A fast all-in-one JavaScript runtime](https://bun.sh)

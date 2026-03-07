@@ -1,10 +1,8 @@
 ---
 title: Advanced Encryption Standard
 description: The Advanced Encryption Standard (AES) is a symmetric block cipher chosen by the U.S. government to protect classified information. It encrypts sensitive data by putting it through multiple encryption rounds and splitting a message into smaller blocks of 128 bits. AES uses the same key for both encryption and decryption, distinguishing it from [[Asymmetric encryption]] algorithms that use different keys for these processes. It supports various key lengths (128, 192, or 256 bits), providing strong protection against unauthorized access. AES is widely implemented in software and hardware globally for securing internet communication, protecting sensitive data, and encrypting files. It became the default encryption algorithm for protecting classified information in June 2003 and is recognized globally for its ability to keep information safe from cyber threats.
-tags:
-  - cryptography
-  - security
-  - encryption
+tags: ["cryptography", "security", "encryption"]
+
 ---
 The Advanced Encryption Standard (AES) is a symmetric block cipher chosen by the U.S. government to protect classified information. It encrypts sensitive data by putting it through multiple encryption rounds and splitting a message into smaller blocks of 128 bits. AES uses the same key for both encryption and decryption, distinguishing it from [[asymmetric-encryption|Asymmetric encryption]] algorithms that use different keys for these processes. It supports various key lengths (128, 192, or 256 bits), providing strong protection against unauthorized access. AES is widely implemented in software and hardware globally for securing internet communication, protecting sensitive data, and encrypting files. It became the default encryption algorithm for protecting classified information in June 2003 and is recognized globally for its ability to keep information safe from cyber threats.
 ## Key Points

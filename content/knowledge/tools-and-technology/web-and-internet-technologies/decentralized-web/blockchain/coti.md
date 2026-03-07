@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization"]
+---
+
 [[Blockchain]]
 
 ['COTI']('https://coti.io')

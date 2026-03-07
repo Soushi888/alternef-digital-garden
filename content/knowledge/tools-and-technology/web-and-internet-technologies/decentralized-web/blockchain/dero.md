@@ -1,3 +1,7 @@
+---
+tags: ["programming", "blockchain", "decentralization"]
+---
+
 [[Blockchain]]
 
 ['DERO - Private Decentralized Application Platform']('https://dero.io')

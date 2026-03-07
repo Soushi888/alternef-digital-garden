@@ -2,12 +2,8 @@
 title: "Unyt"
 description: "Professional-grade accounting tools for DAOs, communities, and peer-production networks, built on Holochain."
 date: 2026-02-20
-tags:
-  - holochain
-  - accounting
-  - decentralized-coordination
-  - peer-to-peer
-  - economic-networks
+tags: ["holochain", "accounting", "decentralized-coordination", "peer-to-peer", "economic-networks"]
+
 ---
 
 ## Overview

@@ -1,5 +1,7 @@
 ---
 Aliases: [capability tokens, capability token, Capability Token]
+tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
+
 ---
  #holochain/concepts 
 [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]

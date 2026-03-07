@@ -2,15 +2,8 @@
 aliases:
   - Huginn Agents
   - Huginn AI
-tags:
-  - automation
-  - self-hosting
-  - open-source
-  - workflow-automation
-  - agents
-related pages:
-  - "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]"
-  - "[[knowledge/tools-and-technology/index|Tools and Technology]]"
+tags: ["automation", "self-hosting", "open-source", "workflow-automation", "agents", "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]", "[[knowledge/tools-and-technology/index|Tools and Technology]]"]
+
 ---
 
 Huginn is an open-source system for building agents that perform automated tasks online. Created by [@cantino](https://github.com/cantino) in 2013, it allows users to create agents that read the web, watch for events, and take actions on their behalf. Think of it as a self-hosted, hackable alternative to IFTTT or Zapier where you maintain full control over your data.

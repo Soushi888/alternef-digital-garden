@@ -1,3 +1,7 @@
+---
+tags: ["programming", "networking", "distributed-systems"]
+---
+
 #web
 
 HTTP (Hypertext Transfer Protocol) is a protocol used to transmit data over the internet. It is a standard communication protocol used between clients (such as web browsers) and servers (such as web servers) to exchange information such as text, images, videos, and other multimedia content.

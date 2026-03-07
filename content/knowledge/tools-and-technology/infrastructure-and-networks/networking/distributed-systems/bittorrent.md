@@ -1,7 +1,7 @@
 ---
 title: "BitTorrent Protocol"
 aliases: ["Torrent", "BitTorrent"]
-tags: [tools-and-technology, networking, distributed-systems, file-sharing, peer-to-peer, protocol]
+tags: [networking, distributed-systems, file-sharing, peer-to-peer, protocol]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

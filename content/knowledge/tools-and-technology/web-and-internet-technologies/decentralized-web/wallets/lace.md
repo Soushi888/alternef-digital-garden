@@ -1,3 +1,7 @@
+---
+tags: ["programming", "cryptocurrency", "decentralization", "security"]
+---
+
 #blockchains/wallets 
 [[Cardano]]
 
