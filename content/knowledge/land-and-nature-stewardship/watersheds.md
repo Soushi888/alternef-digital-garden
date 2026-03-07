@@ -1,17 +1,8 @@
 ---
 title: Watersheds
 description: Fundamental geographical units where all surface water drains to a common outlet, forming the foundation of ecosystem organization
-tags:
-  - watersheds
-  - hydrology
-  - drainage-basins
-  - catchment-areas
-  - water-cycle
-  - ecosystem-organization
-  - bioregional-boundaries
-  - water-management
-created: 2025-10-12
-modified: 2025-10-12
+tags: ["watersheds", "hydrology", "drainage-basins", "catchment-areas", "water-cycle", "ecosystem-organization", "bioregional-boundaries", "water-management"]
+
 ---
 
 # Watersheds

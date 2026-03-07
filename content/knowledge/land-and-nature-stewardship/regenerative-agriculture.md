@@ -1,15 +1,8 @@
 ---
 title: Regenerative Agriculture
 description: Holistic farming approach focused on soil health restoration and ecosystem resilience
-tags:
-  - agriculture
-  - soil-health
-  - biodiversity
-  - agroecology
-  - sustainable-farming
-  - ecosystem-restoration
-created: 2025-09-23
-modified: 2025-09-23
+tags: ["agriculture", "soil-health", "biodiversity", "agroecology", "sustainable-farming", "ecosystem-restoration"]
+
 ---
 
 # Regenerative Agriculture

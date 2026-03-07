@@ -1,17 +1,8 @@
 ---
 title: Circular Bioregional Economies
 description: Local economic systems modeled on natural ecosystem cycles, where waste from one process becomes resource for another
-tags:
-  - circular-economy
-  - bioregional-economics
-  - local-economy
-  - resource-cycles
-  - waste-as-resource
-  - community-resilience
-  - sustainable-business
-  - local-production
-created: 2025-10-01
-modified: 2025-10-01
+tags: ["circular-economy", "bioregional-economics", "local-economy", "resource-cycles", "waste-as-resource", "community-resilience", "sustainable-business", "local-production"]
+
 ---
 
 # Circular Bioregional Economies
