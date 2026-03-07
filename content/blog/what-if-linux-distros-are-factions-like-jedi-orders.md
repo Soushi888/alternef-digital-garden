@@ -3,15 +3,8 @@ title: What if Linux distros are factions, like Jedi orders?
 date: "2025-02-01"
 author: "Soushi888"
 description: A fun thought experiment exploring what Linux distributions would look like if they were organized like Jedi orders, with symbols, philosophies, and membership.
-tags:
-  - blog
-  - linux
-  - distro
-  - humor
-  - thought-experiment
-  - open-source
-  - community
-draft: false
+tags: ["blog", "linux", "distro", "humor", "thought-experiment", "open-source", "community"]
+
 ---
 
 Let's imagine a scenario where [[linux|Linux]] distributions form factions similar to Jedi Orders. Here's a possible interpretation:

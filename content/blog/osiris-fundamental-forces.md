@@ -4,15 +4,8 @@ description: "An exploration of correspondences between the Osirian myth and the
 date: 2025-12-18
 author: "Soushi888"
 draft: false
-tags:
-  - blog
-  - philosophy
-  - mythology
-  - physics
-  - ancient-wisdom
-  - ancient-egypt
-  - cosmology
-  - spirituality
+tags: ["blog", "philosophy", "mythology", "physics", "ancient-wisdom", "ancient-egypt", "cosmology", "spirituality"]
+
 ---
 
 **An exploration of the profound correspondences between the Osirian myth and the laws of matter**

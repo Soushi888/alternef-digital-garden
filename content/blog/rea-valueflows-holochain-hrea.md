@@ -3,18 +3,8 @@ title: "From REA to hREA: A Journey into Decentralized Economic Systems"
 date: "2025-07-13"
 author: "Alternef"
 description: "A deep dive into REA, ValueFlows, Holochain, and hREA, exploring how they combine to create new models for decentralized economic coordination."
-tags:
-  - blog
-  - rea
-  - valueflows
-  - holochain
-  - hrea
-  - accounting
-  - decentralization
-  - economic-design
-  - distributed-systems
-  - economics
-heroImage: "/blog-placeholder-4.jpg"
+tags: ["blog", "rea", "valueflows", "holochain", "rea", "accounting", "decentralization", "economic-design", "distributed-systems", "economics"]
+
 ---
 
 In a world grappling with the limits of centralized control and outdated accounting, a new set of tools is emerging. These frameworks promise to reshape how we model, manage, and understand economic activity in a more decentralized, transparent, and holistic way. This article takes you on an explanatory journey through four key innovations: **REA (Resources, Events, Agents) accounting**, **ValueFlows**, **Holochain**, and **hREA**.

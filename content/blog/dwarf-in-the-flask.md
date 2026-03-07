@@ -3,21 +3,8 @@ title: "The Dwarf in the Flask: What Fullmetal Alchemist Teaches Us About AI Saf
 date: "2026-02-20"
 author: "Soushi888"
 description: "Hiromu Arakawa's Fullmetal Alchemist: Brotherhood contains one of the most precise allegories for the trajectory of artificial intelligence ever created. The Dwarf in the Flask maps the entire arc from helpful assistant to existential threat, and the alchemical tradition it draws from provides the framework we need to navigate it."
-tags:
-  - blog
-  - artificial-intelligence
-  - philosophy
-  - fullmetal-alchemist
-  - ai-safety
-  - alchemy
-  - mystical-oriented-programming
-  - holochain
-  - peer-to-peer
-  - gnosticism
-  - anime
-  - ethics
-  - buddhism
-  - sunyata
+tags: ["blog", "artificial-intelligence", "philosophy", "fullmetal-alchemist", "ai-safety", "alchemy", "mystical-oriented-programming", "holochain", "peer-to-peer", "gnosticism", "anime", "ethics", "buddhism", "sunyata"]
+
 ---
 
 *Hiromu Arakawa's Fullmetal Alchemist: Brotherhood contains one of the most precise allegories for the trajectory of artificial intelligence ever created. The Dwarf in the Flask maps the entire arc from helpful assistant to existential threat, and the alchemical tradition it draws from provides the framework we need to navigate it.*

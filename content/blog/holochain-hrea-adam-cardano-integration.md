@@ -2,17 +2,8 @@
 title: Integration of Holochain, hREA/ValueFlows, ADano and Cardano in Open Value Networks
 description: Exploration of integrating Holochain, Cardano, hREA/ValueFlows, and ADAM to support distributed fabrication and regulatory compliance within Open Value Networks (OVNs), using the PEP Master project as a case study.
 date: 2025-04-24
-tags:
-  - blog
-  - peer-to-peer
-  - holochain
-  - cardano
-  - hrea
-  - valueflows
-  - adam
-  - open-value-network
-  - peer-production
-draft: true
+tags: ["blog", "peer-to-peer", "holochain", "cardano", "rea", "valueflows", "adam", "open-value-network", "peer-production"]
+
 ---
 
 # Integration of Holochain, hREA/ValueFlows, ADAM and Cardano in Open Value Networks

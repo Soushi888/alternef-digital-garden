@@ -3,18 +3,8 @@ title: "The Missing Dimension: What Ikigai Adds to the Liberal Tradition"
 date: "2026-01-05"
 author: "Soushi888"
 description: "Exploring the profound connections between the Japanese concept of Ikigai and the four dimensions of freedom (liberal arts, liberal professions, political liberalism, and economic liberalism) to reveal a comprehensive framework for human flourishing."
-tags:
-  - blog
-  - ikigai
-  - liberal-arts
-  - freedom
-  - human-flourishing
-  - philosophy
-  - personal-development
-  - vocation
-  - wisdom
-  - integration
-  - education
+tags: ["blog", "ikigai", "liberal-arts", "freedom", "human-flourishing", "philosophy", "personal-development", "vocation", "wisdom", "integration", "education"]
+
 ---
 
 ## Introduction
