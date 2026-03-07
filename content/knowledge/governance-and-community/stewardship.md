@@ -1,20 +1,8 @@
 ---
 title: Stewardship
 description: The careful and responsible management of resources, property, or ecosystems entrusted to one's care, emphasizing caretaking rather than ownership
-tags:
-  - stewardship
-  - caretaking
-  - responsibility
-  - governance
-  - ecological-management
-  - commons
-  - sustainability
-  - ethics
-  - leadership
-  - accountability
-  - bioregionalisme
-  - ecological-governance
-  - community-management
+tags: ["stewardship", "caretaking", "responsibility", "governance", "ecological-management", "commons", "sustainability", "ethics", "leadership", "accountability", "bioregionalisme", "ecological-governance", "community-management"]
+
 ---
 
 ## Overview

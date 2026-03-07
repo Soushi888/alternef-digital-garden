@@ -1,19 +1,8 @@
 ---
 title: Cosmo-localism
 description: A framework for globally connected, locally rooted production and governance systems
-tags:
-  - cosmo-localism
-  - glocal
-  - distributed-governance
-  - peer-to-peer
-  - commons
-  - local-production
-  - global-knowledge
-  - agent-centric
-  - holochain
-  - bioregionalism
-  - decentralization
-  - open-source
+tags: ["cosmo-localism", "glocal", "distributed-governance", "peer-to-peer", "commons", "local-production", "global-knowledge", "agent-centric", "holochain", "bioregionalism", "decentralization", "open-source"]
+
 ---
 
 

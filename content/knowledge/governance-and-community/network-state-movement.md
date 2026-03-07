@@ -5,19 +5,8 @@ aliases:
   - "Digital Nations"
   - "Cloud Countries"
   - "Crypto Nations"
-tags: 
-  - governance
-  - digital-governance
-  - cryptocurrency
-  - libertarianism
-  - techno-colonialism
-  - decentralization
-  - dao
-  - blockchain
-  - social-systems
-created: 2025-09-23
-modified: 2025-09-23
-draft: false
+tags: ["governance", "digital-governance", "cryptocurrency", "libertarianism", "techno-colonialism", "decentralization", "dao", "blockchain", "social-systems"]
+
 ---
 
 # Network State Movement

@@ -1,23 +1,8 @@
 ---
 title: "Complexity Science: The Study of Complex Adaptive Systems"
 description: "Interdisciplinary exploration of complex adaptive systems, emergence, self-organization, and the principles governing complex phenomena across natural and social domains"
-tags:
-  - governance-and-community
-  - complexity-science
-  - systems-thinking
-  - emergence
-  - self-organization
-  - adaptive-systems
-  - interdisciplinary
-  - collective-intelligence
-  - social-dynamics
-  - organizational-behavior
-  - network-science
-  - complex-adaptive-systems
-aliases: ["CAS", "Complex Systems", "Adaptive Complexity", "Emergence Theory"]
-created: 2025-11-17
-modified: 2025-11-17
-draft: false
+tags: ["complexity-science", "systems-thinking", "emergence", "self-organization", "adaptive-systems", "interdisciplinary", "collective-intelligence", "social-dynamics", "organizational-behavior", "network-science", "complex-adaptive-systems"]
+
 ---
 
 # Complexity Science: The Study of Complex Adaptive Systems

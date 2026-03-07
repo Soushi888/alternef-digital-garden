@@ -1,12 +1,8 @@
 ---
 title: Governance and Community
 description: A holistic exploration of collective organization, social dynamics, and collaborative decision-making
-tags:
-  - governance
-  - community
-  - social-systems
-  - collective-intelligence
-  - participatory-democracy
+tags: ["governance", "community", "social-systems", "collective-intelligence", "participatory-democracy"]
+
 ---
 
 This section explores the intricate dynamics of human organization, examining how communities form, govern themselves, and collaborate to address collective challenges and aspirations.
