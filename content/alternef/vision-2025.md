@@ -2,24 +2,8 @@
 title: "The AlterNef: A Vision for the Aquarian Age"
 subtitle: "From Flying Universal City to Present-Day Foundations"
 date: 2025-08-22
-tags:
-  - alternef
-  - vision
-  - aquarian-age
-  - education
-  - community
-  - consciousness
-  - plasma-technology
-  - holochain
-  - distributed-systems
-  - learning
-categories:
-  - Vision Documents
-  - Future Projects
-description: "A revolutionary approach to education, community, and consciousness evolution for the emerging Aquarian Era, featuring a modular flying Universal City and distributed learning networks."
-author: "Soushi888"
-type: "vision"
-status: "conceptual"
+tags: ["alternef", "vision", "aquarian-age", "education", "community", "consciousness", "plasma-technology", "holochain", "distributed-systems", "learning", "Vision Documents", "Future Projects"]
+
 ---
 
 # The AlterNef: A Vision for the Aquarian Age

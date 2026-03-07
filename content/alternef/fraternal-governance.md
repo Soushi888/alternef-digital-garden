@@ -2,28 +2,8 @@
 title: "The AlterNef Fraternal Governance Model"
 subtitle: "A Decentralized Structure Inspired by Initiatic Traditions"
 date: 2026-02-18
-tags:
-  - alternef
-  - governance
-  - fraternal-model
-  - decentralization
-  - rose-croix
-  - fractal-sovereignty
-  - double-governance
-  - jurisdictional-autonomy
-  - commons
-  - holochain
-description: "A governance framework for the AlterNef inspired by fraternal orders like AMORC, featuring double governance (administrative and philosophical councils), jurisdictional autonomy, graduated engagement, and a three-level architecture designed for global coherence without central control."
-aliases:
-  - "Fraternal Governance"
-  - "AlterNef Governance Model"
-  - "Double Governance"
-author: "Soushi888"
-categories:
-  - Governance
-  - Vision Documents
-type: "vision"
-status: "conceptual"
+tags: ["alternef", "governance", "fraternal-model", "decentralization", "rose-croix", "fractal-sovereignty", "double-governance", "jurisdictional-autonomy", "commons", "holochain", "Fraternal Governance", "AlterNef Governance Model", "Double Governance", "Governance", "Vision Documents"]
+
 ---
 
 # The AlterNef Fraternal Governance Model

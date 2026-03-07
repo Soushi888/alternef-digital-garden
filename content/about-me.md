@@ -1,11 +1,8 @@
 ---
 title: "About the Navigator of AlterNef"
 description: "Sacha Pignot (Soushi888), developer and mystique-technologue building semantic infrastructure for distributed coordination on Holochain, with roots in open value networks, contemplative practice, and jazz improvisation."
-tags:
-  - about
-  - holochain
-  - distributed-systems
-  - commons
+tags: ["about", "holochain", "distributed-systems", "commons"]
+
 ---
 
 I'm Sacha Pignot (Soushi888), the gardener and navigator of [[index|AlterNef]], a living knowledge airship exploring alternative systems for coordination, value, and governance.

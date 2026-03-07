@@ -2,30 +2,8 @@
 title: "The AlterNef: A Living Vision for the Aquarian Age"
 subtitle: "From Flying Universal City to Present-Day Foundations"
 date: 2026-02-18
-tags:
-  - alternef
-  - vision
-  - aquarian-age
-  - education
-  - community
-  - consciousness
-  - holochain
-  - distributed-systems
-  - nondominium
-  - fractal-sovereignty
-  - compiled-stack
-  - idi
-  - p2p-spirituality
-description: "The 2026 living vision document for the AlterNef project, a mobile modular educational community exploring alternatives across all domains of human life. Covers the digital garden, physical nodes, the Flying Universal City, the Trinité Technologique (Nondominium, Requests & Offers, IDI), fraternal governance, and philosophical roots."
-aliases:
-  - "AlterNef Vision 2026"
-  - "AlterNef Living Vision"
-author: "Soushi888"
-categories:
-  - Vision Documents
-  - Future Projects
-type: "vision"
-status: "conceptual"
+tags: ["alternef", "vision", "aquarian-age", "education", "community", "consciousness", "holochain", "distributed-systems", "nondominium", "fractal-sovereignty", "compiled-stack", "idi", "p2p-spirituality", "AlterNef Vision 2026", "AlterNef Living Vision", "Vision Documents", "Future Projects"]
+
 ---
 
 # The AlterNef: A Living Vision for the Aquarian Age

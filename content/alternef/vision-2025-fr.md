@@ -2,24 +2,8 @@
 title: "L'AlterNef : Une Vision pour l'Ère du Verseau"
 subtitle: "De la Cité Universelle Volante aux Fondations d'Aujourd'hui"
 date: 2025-08-22
-tags:
-  - alternef
-  - vision
-  - ere-du-verseau
-  - education
-  - communaute
-  - conscience
-  - technologie-plasma
-  - holochain
-  - distributed-systems
-  - apprentissage
-categories:
-  - Documents de Vision
-  - Projets Futurs
-description: "Une approche révolutionnaire de l'éducation, de la communauté et de l'évolution de la conscience pour l'Ère du Verseau émergente, mettant en vedette une Cité Universelle modulaire volante et des réseaux d'apprentissage distribués."
-author: "Soushi888"
-type: "vision"
-status: "conceptuel"
+tags: ["alternef", "vision", "ere-du-verseau", "education", "communaute", "conscience", "technologie-plasma", "holochain", "distributed-systems", "apprentissage", "Documents de Vision", "Projets Futurs"]
+
 ---
 
 # L'AlterNef : Une Vision pour l'Ère du Verseau
