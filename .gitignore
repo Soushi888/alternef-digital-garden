@@ -28,6 +28,9 @@ screenshots/
 videos/
 /ms-playwright*
 coverage/
+
+# dg-tags generated state (tag index, analysis reports)
+.claude/skills/dg-tags/STATE/
 .nyc_output/
 temp/
 test-temp/
