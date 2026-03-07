@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "rust", "distributed-systems", "artificial-intelligence"]
+---
+
 # Mastering Holochain Architecture & Development Setup
 
 *Part 3 of 4: AI-Powered Rust & Holochain Development Series*

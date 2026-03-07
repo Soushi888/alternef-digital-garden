@@ -1,3 +1,7 @@
+---
+tags: ["education", "artificial-intelligence", "philosophy", "consciousness"]
+---
+
 
 # The Dwarf in the Flask: What Fullmetal Alchemist Teaches Us About AI Safety
 

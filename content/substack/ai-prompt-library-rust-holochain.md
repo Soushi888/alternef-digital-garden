@@ -1,3 +1,7 @@
+---
+tags: ["programming", "artificial-intelligence", "holochain", "rust", "education"]
+---
+
 # AI Prompt Library for Rust & Holochain Learning
 
 *Lead Magnet: 50+ Curated Prompts for Accelerated Development*

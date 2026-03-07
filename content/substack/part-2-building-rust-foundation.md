@@ -1,3 +1,7 @@
+---
+tags: ["programming", "rust", "holochain", "artificial-intelligence", "education"]
+---
+
 # Building Your Rust Foundation with AI Assistance
 
 *Part 2 of 4: AI-Powered Rust & Holochain Development Series*

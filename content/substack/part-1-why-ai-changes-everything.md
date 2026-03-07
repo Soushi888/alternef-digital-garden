@@ -1,3 +1,7 @@
+---
+tags: ["programming", "artificial-intelligence", "holochain", "rust", "education"]
+---
+
 # Why AI Changes Everything for Learning Rust & Holochain
 
 *Part 1 of 4: AI-Powered Rust & Holochain Development Series*

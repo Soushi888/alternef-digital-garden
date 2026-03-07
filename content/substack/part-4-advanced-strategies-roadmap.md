@@ -1,3 +1,7 @@
+---
+tags: ["programming", "holochain", "artificial-intelligence", "education", "learning"]
+---
+
 # Advanced AI Learning Strategies & Your Path Forward
 
 *Part 4 of 4: AI-Powered Rust & Holochain Development Series*
