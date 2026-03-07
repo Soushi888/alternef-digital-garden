@@ -1,6 +1,8 @@
 ---
 title: "Sacha Pignot - CV technique"
 description: "Artisan logiciel fullstack | Architecture distribuée | Intelligence collective"
+tags: ["holochain", "distributed-systems", "programming", "open-source"]
+
 ---
 
 **Artisan logiciel fullstack | Architecture distribuée | Intelligence collective**  

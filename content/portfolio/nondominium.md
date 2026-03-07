@@ -1,14 +1,8 @@
 ---
 title: "Nondominium"
 description: "Distributed resource management on Holochain, a ValueFlows-compliant application for tracking and governing shared resources through custodianship rather than ownership."
-tags:
-  - holochain
-  - valueflows
-  - rust
-  - svelte
-  - distributed-systems
-  - commons
-  - sensorica
+tags: ["holochain", "valueflows", "rust", "svelte", "distributed-systems", "commons", "sensorica"]
+
 ---
 
 ## What It Is
