@@ -1,7 +1,7 @@
 ---
 title: "Open Collaborative Spaces"
 aliases: ["OPS", "MakerSpaces", "FabLabs", "Collaborative Workspaces"]
-tags: [built-environment, workplace-design, collaboration, makerspaces, fablabs, community-spaces, spatial-design]
+tags: [workplace-design, collaboration, makerspaces, fablabs, community-spaces, spatial-design]
 created: 2025-10-21
 modified: 2025-10-21
 draft: false
