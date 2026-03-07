@@ -38,3 +38,6 @@ test-temp/
 # PAI
 Plans/
 MEMORY/
+
+# Axon
+.axon/
