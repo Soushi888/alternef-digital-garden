@@ -2,13 +2,8 @@
 title: "Valueflows"
 description: "Valueflows is an open-source vocabulary and protocol designed to describe and track the flow of resources, events, and agents in economic and social ecosystems."
 date: 2025-03-14
-tags:
-  - finance
-  - economic-networks
-  - protocols
-  - rea
-  - valueflows
-  - decentralized-coordination
+tags: ["finance", "economic-networks", "protocols", "rea", "valueflows", "decentralized-coordination"]
+
 ---
 
 # Valueflows

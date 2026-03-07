@@ -2,12 +2,8 @@
 title: "REA Accounting"
 description: "Resource-Event-Agent (REA) accounting is a conceptual framework for modeling economic activities that focuses on resources, events, and agents rather than traditional double-entry bookkeeping."
 date: 2025-03-14
-tags:
-  - finance
-  - accounting
-  - rea
-  - economic-models
-  - valueflows
+tags: ["finance", "accounting", "rea", "economic-models", "valueflows"]
+
 ---
 
 # REA Accounting
