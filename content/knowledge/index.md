@@ -1,12 +1,8 @@
 ---
 title: Knowledge Base
 description: A holistic exploration of human knowledge, interconnected domains, and transformative understanding
-tags:
-  - knowledge
-  - interdisciplinary
-  - systems-thinking
-  - learning
-  - human-potential
+tags: ["knowledge", "interdisciplinary", "systems-thinking", "learning", "human-potential"]
+
 ---
 
 ## Overview
