@@ -4,16 +4,16 @@ date: "2025-07-13"
 author: "Alternef"
 description: "A deep dive into REA, ValueFlows, Holochain, and hREA, exploring how they combine to create new models for decentralized economic coordination."
 tags:
-  [
-    "blog",
-    "rea",
-    "valueflows",
-    "holochain",
-    "hrea",
-    "accounting",
-    "decentralization",
-    "economic-design",
-  ]
+  - blog
+  - rea
+  - valueflows
+  - holochain
+  - hrea
+  - accounting
+  - decentralization
+  - economic-design
+  - distributed-systems
+  - economics
 heroImage: "/blog-placeholder-4.jpg"
 ---
 

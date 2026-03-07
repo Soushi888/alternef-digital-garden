@@ -4,7 +4,7 @@ description: Exploration of integrating Holochain, Cardano, hREA/ValueFlows, and
 date: 2025-04-24
 tags:
   - blog
-  - p2p
+  - peer-to-peer
   - holochain
   - cardano
   - hrea

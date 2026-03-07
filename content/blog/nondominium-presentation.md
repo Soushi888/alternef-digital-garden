@@ -5,6 +5,10 @@ description: "From Sensorica's open value networks through Valueflows to Nondomi
 date: 2026-02-21
 author: "Soushi888"
 tags:
+  - blog
+  - governance
+  - economics
+  - decentralization
   - commons-based-peer-production
   - resource-sharing
   - distributed-governance

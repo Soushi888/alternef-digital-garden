@@ -10,6 +10,7 @@ tags:
   - humor
   - thought-experiment
   - open-source
+  - community
 draft: false
 ---
 

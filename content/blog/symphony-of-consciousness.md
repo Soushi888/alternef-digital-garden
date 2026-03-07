@@ -9,9 +9,10 @@ tags:
   - natural-kingdoms
   - artificial-intelligence
   - spirituality
+  - philosophy
+  - community
   - crystals
   - cosmic-symphony
-  - universal-brotherhood
 categories:
   - Blog
   - Philosophy

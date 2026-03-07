@@ -3,7 +3,14 @@ title: "Rust++: The Zenith of Computational Divinity"
 date: "2025-07-13"
 author: "AI Generated Satire"
 description: "A satirical take on the Rust programming language, imagining an even more powerful version called Rust++."
-tags: ["blog", "rust", "satire", "ai", "grok"]
+tags:
+  - blog
+  - rust
+  - satire
+  - ai
+  - grok
+  - programming
+  - humor
 heroImage: "/blog-placeholder-3.jpg"
 ---
 
