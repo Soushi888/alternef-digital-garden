@@ -11,7 +11,7 @@ tags:
   - conscience
   - technologie-plasma
   - holochain
-  - systemes-distribues
+  - distributed-systems
   - apprentissage
 categories:
   - Documents de Vision

@@ -8,7 +8,7 @@ tags:
   - conscience
   - evolution
   - règnes-naturels
-  - intelligence-artificielle
+  - artificial-intelligence
   - spiritualite
   - cristaux
   - symphonie-cosmique

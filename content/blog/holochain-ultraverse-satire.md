@@ -8,7 +8,7 @@ tags:
   - blog
   - holochain
   - satire
-  - ai
+  - artificial-intelligence
   - grok
   - claude
   - humor

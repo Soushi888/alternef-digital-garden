@@ -16,7 +16,7 @@ tags:
   - holochain
   - valueflows
   - open-value-network
-  - economic-protocol
+  - economic-protocols
   - alternative-economy
   - decentralized-coordination
   - sharing-economy

@@ -7,7 +7,7 @@ tags:
   - blog
   - rust
   - satire
-  - ai
+  - artificial-intelligence
   - grok
   - programming
   - humor

@@ -6,7 +6,7 @@ tags:
   - svelte
   - rust
   - distributed-systems
-  - p2p
+  - peer-to-peer
   - valueflows
   - hrea
   - effect
