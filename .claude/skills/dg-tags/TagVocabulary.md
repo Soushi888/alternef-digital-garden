@@ -124,6 +124,14 @@ Use the canonical form on the right instead of the alias on the left.
 | `local-first` | Local-first software philosophy and architecture |
 | `hdk` | Holochain Development Kit — zomes, HDI, HDK APIs |
 | `library` | Software libraries and reusable packages |
+| `backend` | Server-side development, APIs, services |
+| `programming-paradigms` | OOP, FP, reactive, declarative, and other paradigms |
+| `protocols` | Network and application-layer protocols |
+| `semantic-web` | Linked data, RDF, ontologies, knowledge graphs |
+| `wireless` | Wireless networking, LoRa, mesh radio, WiFi |
+| `desktop-environment` | Desktop environments: GNOME, KDE, Xfce, etc. |
+| `webassembly` | WebAssembly runtime, WASM modules, WASI |
+| `privacy` | Privacy-by-design, encryption, data sovereignty |
 
 ---
 
@@ -148,7 +156,10 @@ Use the canonical form on the right instead of the alias on the left.
 | `consciousness` | States of consciousness, contemplative traditions |
 | `spirituality` | Spiritual practice, mysticism, inner development |
 | `music` | Music theory, practice, composition, appreciation |
+| `music-theory` | Harmony, rhythm, melody, counterpoint, analysis |
 | `ancient-traditions` | Ancient wisdom traditions, mystery schools, initiatic lineages |
+| `mathematics` | Mathematical theory, logic, number theory, geometry |
+| `systems-thinking` | Systems theory, feedback loops, emergence, complexity |
 
 ---
 
@@ -173,6 +184,7 @@ Use the canonical form on the right instead of the alias on the left.
 | `lifestyle` | Daily habits, routines, wellbeing practices |
 | `traditional-medicine` | TCM, Ayurveda, herbal medicine |
 | `holistic-healing` | Holistic and integrative healing approaches |
+| `mind-body-connection` | Psychosomatic integration, mind-body medicine |
 | `somatic` | Body-centered practices, nervous system regulation |
 
 ---

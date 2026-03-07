@@ -94,6 +94,53 @@ On "yes": write the tags array to the file's frontmatter.
 On "edit": user provides revised tags, write those instead.
 On "skip": do nothing, the user will paste manually.
 
+### Step 8: Propagate tags to related notes across the garden
+
+After writing tags to the target note (Step 7), scan for other notes in the garden that could also benefit from the newly suggested tags.
+
+**Identifying candidate notes (three tiers, ranked by relevance):**
+
+1. **Tier 1 — Wikilinked notes (strongest signal)**: Parse the note body for `[[path/to/note]]` and `[[path/to/note|label]]` patterns. Notes directly linked to or from the target share explicit semantic relationship.
+2. **Tier 2 — Same subdirectory**: Notes sharing the same directory path as the target are thematically related siblings.
+3. **Tier 3 — Shared existing tags**: Query `STATE/tag-index.json` for notes that already share at least 2 tags with the target. Fewer than 2 shared tags is too weak a signal for Tier 3.
+
+**For each candidate note:**
+
+1. Read its current `tags:` from `STATE/tag-index.json` (no file read required — index has the data)
+2. Compute the diff: which of the target note's new tags are absent from this candidate?
+3. Apply propagation rules (see below)
+4. If any tags pass the filter, include the note in the propagation table
+
+**Propagation rules:**
+
+- Propagate: vocabulary topic tags shared across notes (e.g., `holochain`, `distributed-systems`, `valueflows`, `rust`)
+- Do NOT propagate: domain tags (`ecology`, `programming`, `education`, `health`, `economics`, `governance`, `architecture`) — each note keeps its own domain classification
+- Do NOT propagate: `blog` tag to non-blog notes, or vice versa
+- Do NOT propagate a tag if the candidate note's path is in a completely unrelated domain (e.g., do not propagate `yoga` to a blockchain note)
+- Include Tier 3 candidates only when the shared tag overlap is 2+ tags
+
+**Output format:**
+
+Present a ranked propagation table after the single-note suggestion:
+
+```
+Notes across the garden that could also receive these tags:
+
+| Tier | File | Missing tags |
+|------|------|-------------|
+| 1 (linked) | content/knowledge/.../holochain.md | holochain, distributed-systems |
+| 2 (sibling) | content/knowledge/.../rea-accounting.md | valueflows |
+| 3 (shared tags) | content/knowledge/.../p2p.md | distributed-systems |
+```
+
+Ask: "Apply these propagation suggestions? [all/select/skip]"
+
+- `all`: write the suggested missing tags to all listed files in-place, preserving existing tags
+- `select`: iterate through each file one by one, asking per-file whether to apply
+- `skip`: do nothing — user will handle manually
+
+If no candidate notes are found, or all candidates already have the new tags, skip Step 8 silently.
+
 ## Blog Post Special Case
 
 For notes in `content/blog/`:
