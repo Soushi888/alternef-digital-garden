@@ -4,7 +4,7 @@ description: A cross-platform real-time game engine used for 2D, 3D, VR, and AR 
 aliases:
   - Unity Engine
   - Unity3D
-tags: ["game-development", "unity", "c-sharp", "real-time-3d", "game-engine"]
+tags: ["game-development", "game-engine", "real-time-3d"]
 
 ---
 

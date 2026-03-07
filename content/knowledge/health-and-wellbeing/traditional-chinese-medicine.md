@@ -4,8 +4,7 @@ aliases:
   - "TCM"
   - "Chinese Medicine"
   - "Classical Chinese Medicine"
-tags: ["holistic-healing", "ancient-traditions", "traditional-chinese-medicine", "qi", "acupuncture", "herbal-medicine", "mind-body-connection", "Health & Wellbeing", "Traditional Medicine", "Eastern Practices"]
-
+tags: ["holistic-healing", "ancient-traditions", "traditional-chinese-medicine", "herbal-medicine", "mind-body-connection", "health", "traditional-medicine"]
 ---
 
 *A complete system of healing developed over millennia, understanding health as the dynamic balance of vital energy flowing through the body's meridian network*

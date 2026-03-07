@@ -1,7 +1,7 @@
 ---
 title: Metera
 description: A decentralized platform for creating and investing in tokenized portfolios on the Cardano blockchain
-tags: ["cardano", "decentralized-finance", "portfolio-management", "blockchain", "investment"]
+tags: ["blockchain", "cardano"]
 
 ---
 

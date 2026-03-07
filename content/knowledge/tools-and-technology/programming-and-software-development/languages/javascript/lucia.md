@@ -1,7 +1,7 @@
 ---
 aliases:
   - lucia-auth
-tags: ["javascript", "authentication", "[[authentification]]", "[[javaScript]]"]
+tags: ["javascript", "authentication"]
 
 ---
 [Lucia documentation](https://lucia-auth.com/)

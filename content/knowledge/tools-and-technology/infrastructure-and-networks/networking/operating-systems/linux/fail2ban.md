@@ -5,7 +5,7 @@ aliases:
   - "Fail2Ban"
   - "Linux Security"
   - "Intrusion Prevention"
-tags: ["security", "linux", "networking", "intrusion-prevention", "system-protection", "brute-force-protection", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/security|Network Security]]"]
+tags: ["linux", "networking", "security"]
 
 ---
 Fail2Ban represents a thoughtful approach to server security that embodies the principle of proactive defense rather than reactive response. As an intrusion prevention system for Linux-based systems, Fail2Ban demonstrates how intelligent automation can significantly enhance security while reducing the administrative burden of manual threat monitoring.

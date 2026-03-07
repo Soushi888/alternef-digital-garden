@@ -2,7 +2,7 @@
 title: "Cognicism"
 description: "A framework for intelligent collaboration using generative AI and decentralized storage for collective belief tracking and evaluation"
 aliases: ["Cognicism AI", "Forethought protocol", "collective intelligence framework"]
-tags: [governance, community, artificial-intelligence, decentralized-systems, collective-intelligence, belief-tracking, digital-democracy, Ŧrust, Iris]
+tags: ["governance", "community", "artificial-intelligence", "collective-intelligence", "decentralized-systems"]
 created: 2025-10-28
 modified: 2025-10-28
 draft: false

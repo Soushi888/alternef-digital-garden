@@ -1,7 +1,7 @@
 ---
 title: Quill
 description: A Web3 social network platform for building value networks and decentralized communities
-tags: ["social-network", "blockchain", "web3", "decentralization", "arweave"]
+tags: ["decentralization", "web3", "blockchain"]
 
 ---
 

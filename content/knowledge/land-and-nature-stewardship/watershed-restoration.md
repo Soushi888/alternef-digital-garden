@@ -1,7 +1,7 @@
 ---
 title: Watershed Restoration
 description: Water-centered land management approach that restores natural hydrology as the foundation for ecosystem health
-tags: ["watershed-restoration", "hydrology", "water-management", "ecosystem-restoration", "bioregional-management", "natural-infrastructure", "flood-prevention", "water-security"]
+tags: ["hydrology", "water-management", "ecosystem-restoration"]
 
 ---
 

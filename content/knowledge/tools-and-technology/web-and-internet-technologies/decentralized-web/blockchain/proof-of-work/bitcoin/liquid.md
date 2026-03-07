@@ -2,7 +2,7 @@
 title: Liquid Network
 description: Bitcoin's federated sidechain for confidential transactions and digital asset tokenization
 aliases: ["Liquid Bitcoin", "L-BTC", "Liquid Sidechain"]
-tags: [bitcoin, layer-2, sidechain, confidential-transactions, asset-tokenization, blockstream]
+tags: ["layer-2", "bitcoin"]
 created: 2025-01-10
 modified: 2025-01-10
 draft: false

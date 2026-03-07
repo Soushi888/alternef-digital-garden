@@ -2,7 +2,7 @@
 title: "True Commons"
 description: "Pioneering implementation of Digital Fabrics demonstrating autonomous resource coordination without platform control"
 aliases: ["true commons project", "autonomous digital commons"]
-tags: [governance, digital-fabrics, coordination-infrastructure, commons, autonomous-agents, resource-management, sensorica]
+tags: ["commons", "governance", "sensorica", "coordination-infrastructure", "autonomous-agents"]
 created: 2025-01-28
 modified: 2025-01-28
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Mathematics"
 description: "Exploration of mathematical concepts, patterns, and their applications across disciplines"
-tags: [mathematics, pure-mathematics, applied-mathematics, patterns]
+tags: ["software-architecture", "mathematics"]
 ---
 
 # Mathematics

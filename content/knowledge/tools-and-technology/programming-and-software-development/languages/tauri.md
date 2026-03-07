@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: ["frontend", "[[Rust]]", "[[JavaScript]]"]
+tags: ["frontend", "javascript", "rust"]
 
 ---
 

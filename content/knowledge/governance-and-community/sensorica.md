@@ -2,7 +2,7 @@
 title: "Sensorica"
 description: "Pioneering open value network for collaborative innovation and open-source scientific instrumentation"
 aliases: ["Sensorica OVN", "Sensorica Network", "Montreal Open Innovation Lab"]
-tags: [governance, community, open-value-networks, collaborative-innovation, open-source-hardware, sensorica, montreal]
+tags: ["governance", "community", "sensorica"]
 created: 2025-01-21
 modified: 2025-01-21
 draft: false

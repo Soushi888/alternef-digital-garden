@@ -4,7 +4,7 @@ description: JavaScript library for creating responsive, sortable, filterable an
 subtitle: Combining features of Packery, Masonry, Isotope and Sortable
 aliases:
   - Muuri JS
-tags: ["frontend", "javascript", "library", "drag-and-drop", "layout", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/sortable-js|Sortable.js]]"]
+tags: ["library", "javascript", "frontend", "drag-and-drop"]
 
 ---
 

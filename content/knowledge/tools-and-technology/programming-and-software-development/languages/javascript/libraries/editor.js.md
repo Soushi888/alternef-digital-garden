@@ -4,7 +4,7 @@ description: Free block-style editor with a universal JSON output
 subtitle: Modern block-styled editor with clean JSON output
 aliases:
   - EditorJS
-tags: ["frontend", "wysiwyg", "javascript", "library", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/tinymce|TinyMCE]]"]
+tags: ["frontend", "wysiwyg", "javascript", "library"]
 
 ---
 

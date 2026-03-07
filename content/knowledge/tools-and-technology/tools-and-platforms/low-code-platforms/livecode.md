@@ -4,7 +4,7 @@ description: Cross-platform development environment for creating applications wi
 subtitle: Turn concepts into powerful applications with an easy-to-learn environment
 aliases:
   - LiveCode Platform
-tags: ["frontend", "backend", "low-code", "cross-platform", "development-tools", "[[knowledge/tools-and-technology/tools-and-platforms/low-code-platforms/index|Low-Code Platforms]]", "[[knowledge/tools-and-technology/programming-and-software-development/index|Programming and Software Development]]"]
+tags: ["software-development", "cross-platform", "development-tools", "frontend", "backend"]
 
 ---
 

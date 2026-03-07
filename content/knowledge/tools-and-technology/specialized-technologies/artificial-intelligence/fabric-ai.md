@@ -3,7 +3,7 @@ title: Fabric AI
 aliases:
   - Fabric Framework
   - Daniel Miessler's Fabric
-tags: ["artificial-intelligence", "llm", "cli", "prompts", "automation", "open-source", "productivity", "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]", "[[large-language-models|Large Language Models]]", "[[huginn|Huginn]]"]
+tags: ["artificial-intelligence", "open-source", "productivity", "llm", "automation"]
 
 ---
 

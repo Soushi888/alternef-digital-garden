@@ -1,7 +1,7 @@
 ---
 title: Theory Building and Systems Thinking Applied to Software Engineering
 description: Unpacking the connection between theory building and systems thinking in software engineering, highlighting their shared goals and differences.
-tags: ["software-engineering", "theory-building", "systems-thinking", "critical-thinking", "problem-solving"]
+tags: ["systems-thinking", "critical-thinking", "problem-solving", "software-engineering"]
 
 ---
 

@@ -4,7 +4,7 @@ aliases:
   - Rust Lang
   - .rs
   - Rustlang
-tags: ["programming", "systems-programming", "memory-safety", "concurrency", "performance", "low-level"]
+tags: ["programming", "systems-programming", "performance", "low-level", "concurrency"]
 
 ---
 

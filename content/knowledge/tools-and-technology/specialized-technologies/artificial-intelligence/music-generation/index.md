@@ -5,7 +5,7 @@ aliases:
   - AI Music
   - Generative Music
   - Music AI
-tags: ["artificial-intelligence", "music-generation", "creative-ai", "audio"]
+tags: ["artificial-intelligence", "audio"]
 
 ---
 

@@ -6,7 +6,7 @@ aliases:
   - "Life Purpose"
   - "生き甲斐"
   - "Raison d'être"
-tags: ["philosophy", "ikigai", "life-purpose", "human-flourishing", "japanese-wisdom", "personal-development", "vocation", "integration"]
+tags: ["philosophy", "ikigai", "human-flourishing", "personal-development", "vocation", "integration"]
 
 ---
 

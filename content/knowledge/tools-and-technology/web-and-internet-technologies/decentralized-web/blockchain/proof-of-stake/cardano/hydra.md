@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: ["layer-2", "[[Cardano]]"]
+tags: ["layer-2"]
 
 ---
 

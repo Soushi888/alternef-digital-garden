@@ -1,7 +1,7 @@
 ---
 title: Transformers
 description: Deep learning architecture that revolutionized natural language processing and other sequence-based tasks
-tags: ["artificial-intelligence", "deep-learning", "nlp", "neural-network", "machine-learning"]
+tags: ["artificial-intelligence", "machine-learning", "deep-learning", "nlp"]
 
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - "Nature-Based Architecture"
   - "Harmonious Design"
   - "Form and Function Unity"
-tags: ["architecture", "frank-lloyd-wright", "design-philosophy", "nature", "sustainability", "human-scale", "environmental-integration", "flowing-spaces", "natural-materials"]
+tags: ["sustainability", "architecture", "nature"]
 
 ---
 

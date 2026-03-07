@@ -2,7 +2,7 @@
 title: "Hyper-Localism"
 description: "A political, social, and economic philosophy emphasizing extreme decentralization and decision-making at the smallest possible community level - neighborhoods, villages, or even individual blocks"
 aliases: ["radical decentralization", "neighborhood autonomy", "micro-governance", "ultra-localism"]
-tags: [governance, decentralization, local-autonomy, community-resilience, neighborhood-governance, household-production, place-based, decentralized, community-economics, local-first, radical-decentralization, anarchist-thought, libertarian-municipalism, bioregionalism]
+tags: ["governance", "decentralization", "bioregionalism", "local-first", "community-resilience", "local-autonomy", "place-based", "decentralized"]
 created: 2025-01-20
 modified: 2025-01-20
 draft: false

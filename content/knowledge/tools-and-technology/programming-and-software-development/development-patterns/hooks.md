@@ -5,7 +5,7 @@ subtitle: Extending behavior without modifying source code
 aliases:
   - Programming Hooks
   - Software Hooks
-tags: ["programming", "design-patterns", "software-design", "event-driven", "[[observer]]", "[[event-bus]]"]
+tags: ["programming", "event-driven", "design-patterns"]
 
 ---
 

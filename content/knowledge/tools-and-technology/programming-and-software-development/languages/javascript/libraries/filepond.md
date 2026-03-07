@@ -4,7 +4,7 @@ description: JavaScript library for smooth file uploading with image optimizatio
 subtitle: A silky smooth file upload experience with great UX
 aliases:
   - FilePond JS
-tags: ["frontend", "javascript", "library", "file-upload", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/index|HTML & CSS]]"]
+tags: ["library", "javascript", "frontend"]
 
 ---
 

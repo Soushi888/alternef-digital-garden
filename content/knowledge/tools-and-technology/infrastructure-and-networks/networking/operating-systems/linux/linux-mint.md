@@ -6,7 +6,7 @@ aliases:
   - "Linux Mint XFCE"
   - "Mint Linux"
   - "Ubuntu Mint"
-tags: ["operating-systems", "linux", "ubuntu-based", "user-friendly", "desktop-environment", "cinnamon", "networking", "infrastructure", "open-source", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+tags: ["open-source", "linux", "infrastructure", "networking", "operating-systems", "desktop-environment"]
 
 ---
 

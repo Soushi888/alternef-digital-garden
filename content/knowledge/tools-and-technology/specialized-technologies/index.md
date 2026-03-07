@@ -1,7 +1,7 @@
 ---
 title: Specialized Technologies
 description: A comprehensive exploration of cutting-edge technological domains and innovative computational approaches
-tags: ["specialized-tech", "artificial-intelligence", "emerging-technologies", "innovation", "interdisciplinary-computing"]
+tags: ["artificial-intelligence", "innovation", "specialized-tech"]
 
 ---
 

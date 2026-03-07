@@ -2,7 +2,7 @@
 title: "Open Value Networks"
 description: "Decentralized, collaborative organizational models for commons-based peer production and fair value distribution"
 aliases: ["OVN", "Open Value Network", "commons-based peer production"]
-tags: [governance, community, collaborative-economics, decentralized-organization, commons-based-peer-production, value-distribution, sensorica]
+tags: ["governance", "community", "sensorica", "commons-based-peer-production"]
 created: 2025-01-21
 modified: 2025-01-21
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Bayesian Knowledge Tracing"
 aliases: ["BKT", "Knowledge Tracing", "Student Modeling"]
-tags: ["educational-technology", "machine-learning", "probabilistic-models", "student-modeling", "intelligent-tutoring-systems", "adaptive-learning", "hidden-markov-models", "personalized-education", "data-mining", "cognitive-modeling"]
+tags: ["machine-learning"]
 
 ---
 

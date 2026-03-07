@@ -2,7 +2,7 @@
 aliases:
   - Huginn Agents
   - Huginn AI
-tags: ["automation", "self-hosting", "open-source", "workflow-automation", "agents", "[[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]", "[[knowledge/tools-and-technology/index|Tools and Technology]]"]
+tags: ["artificial-intelligence", "open-source", "agents", "automation"]
 
 ---
 

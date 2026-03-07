@@ -1,8 +1,7 @@
 ---
 title: Holochain Architecture
 description: Technical architecture, components, and design principles of the Holochain framework
-tags: ["holochain", "architecture", "distributed-systems", "decentralization", "peer-to-peer", "Holochain Technical Architecture", "Holochain System Design"]
-
+tags: ["holochain", "distributed-systems", "decentralization", "peer-to-peer", "architecture"]
 ---
 
 ## Overview of Holochain Architecture

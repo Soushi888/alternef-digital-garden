@@ -1,7 +1,7 @@
 ---
 title: "SHACL (Shapes Constraint Language)"
 description: "W3C standard for validating RDF graph contents through constraint-based shapes that ensure data quality and consistency in semantic web systems."
-tags: ["semantic-web", "shacl", "validation", "data-quality", "constraints", "valueflows", "governance", "economic-networks", "data-integrity"]
+tags: ["governance", "valueflows", "economic-networks", "semantic-web", "shacl", "validation"]
 
 ---
 

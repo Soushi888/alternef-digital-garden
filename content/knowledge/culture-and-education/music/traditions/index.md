@@ -2,7 +2,7 @@
 title: Musical Traditions
 description: "Genres, styles, and musical movements across cultures and eras — how musical languages emerge, evolve, and cross-pollinate."
 date: 2026-02-19
-tags: ["music", "traditions", "genres", "musical-movements"]
+tags: ["music"]
 
 ---
 

@@ -5,7 +5,7 @@ subtitle: Framework-agnostic drag-and-drop library for modern browsers
 aliases:
   - SortableJS
   - Sortable
-tags: ["frontend", "javascript", "library", "drag-and-drop", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/muuri|Muuri]]"]
+tags: ["frontend", "javascript", "library", "drag-and-drop"]
 
 ---
 

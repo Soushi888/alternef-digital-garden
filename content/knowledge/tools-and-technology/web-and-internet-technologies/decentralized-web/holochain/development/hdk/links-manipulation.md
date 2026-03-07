@@ -1,7 +1,7 @@
 ---
 title: Links Manipulation
 description: HDK functions for creating and managing links between entries in Holochain
-tags: ["holochain", "hdk", "links", "data-relationships"]
+tags: ["holochain", "links", "hdk"]
 
 ---
 

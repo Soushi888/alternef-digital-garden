@@ -1,7 +1,7 @@
 ---
 title: "Resource Description Framework (RDF)"
 description: "The foundational data model of the Semantic Web, enabling representation of information through subject-predicate-object triples for graph-based knowledge representation."
-tags: ["semantic-web", "rdf", "data-modeling", "knowledge-graphs", "linked-data", "graph-databases", "valueflows", "economic-networks", "resource-tracking"]
+tags: ["valueflows", "economic-networks", "data-modeling", "semantic-web", "knowledge-graphs", "rdf", "linked-data"]
 
 ---
 

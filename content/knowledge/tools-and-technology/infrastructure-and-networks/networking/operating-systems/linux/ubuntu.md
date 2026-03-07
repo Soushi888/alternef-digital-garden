@@ -5,7 +5,7 @@ aliases:
   - "Ubuntu Server"
   - "Ubuntu Desktop"
   - "Canonical Ubuntu"
-tags: ["operating-systems", "linux", "networking", "infrastructure", "canonical", "open-source", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|Security Tools]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+tags: ["open-source", "linux", "infrastructure", "networking", "operating-systems"]
 
 ---
 

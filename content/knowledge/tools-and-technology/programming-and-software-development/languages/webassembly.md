@@ -4,7 +4,7 @@ aliases:
   - WASM
   - .wasm
   - Wasm
-tags: ["programming", "web-dev", "performance", "compilation-target", "portability"]
+tags: ["programming", "web-dev", "performance"]
 
 ---
 

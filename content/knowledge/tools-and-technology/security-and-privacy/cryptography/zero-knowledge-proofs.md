@@ -3,7 +3,7 @@ title: Zero-Knowledge Proofs
 description: Zero-Knowledge Proofs are a type of cryptographic proof that allows one party to prove to another party that they know a secret without revealing the secret itself.
 aliases:
   - ZKPs
-tags: ["cryptography", "zero-knowledge-proofs"]
+tags: ["cryptography"]
 
 ---
 

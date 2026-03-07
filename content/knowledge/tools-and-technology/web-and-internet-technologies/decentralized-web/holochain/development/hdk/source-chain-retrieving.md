@@ -1,7 +1,7 @@
 ---
 title: Source Chain Retrieving
 description: Methods for querying and retrieving data from the Holochain source chain
-tags: ["holochain", "hdk", "source-chain", "data-retrieval"]
+tags: ["holochain", "hdk"]
 
 ---
 

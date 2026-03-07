@@ -1,8 +1,7 @@
 ---
 title: "Bioceramic Domes"
 aliases: ["Geoship Domes", "Ceramic Geodesic Domes", "Regenerative Housing", "Bioceramic Architecture"]
-tags: ["innovation", "bioceramic-materials", "regenerative-design", "climate-resilience", "sustainable-technology", "future-of-housing", "geoship", "materials-science", "fireproof, flood-resistant, climate-resilient housing innovation"]
-
+tags: ["innovation", "regenerative-design"]
 ---
 
 # Bioceramic Domes

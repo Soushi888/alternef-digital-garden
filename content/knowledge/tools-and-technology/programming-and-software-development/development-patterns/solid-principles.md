@@ -1,8 +1,7 @@
 ---
 title: SOLID Principles
 description: Comprehensive guide to the five SOLID principles of object-oriented design for creating maintainable, scalable software
-tags: ["solid", "object-oriented-design", "software-architecture", "design-principles", "programming-patterns", "SOLID Design Principles", "Object-Oriented Design Principles", "Software Design Principles", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]", "[[knowledge/tools-and-technology/programming-and-software-development/cqrs-pattern|CQRS Pattern]]"]
-
+tags: ["software-architecture", "design-principles", "software-design-principles"]
 ---
 
 # SOLID Principles

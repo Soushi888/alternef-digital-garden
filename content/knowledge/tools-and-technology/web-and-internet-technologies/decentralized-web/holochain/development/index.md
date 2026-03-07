@@ -1,8 +1,7 @@
 ---
 title: Holochain Development
 description: Resources, guides, and tools for developing applications on the Holochain framework
-tags: ["holochain", "development", "programming", "decentralization", "peer-to-peer", "Holochain Development Resources", "Building on Holochain"]
-
+tags: ["holochain", "decentralization", "peer-to-peer", "programming", "software-development"]
 ---
 
 ## Overview of Holochain Development

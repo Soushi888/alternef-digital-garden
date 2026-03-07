@@ -1,8 +1,7 @@
 ---
 title: "Shadow Work"
 aliases: ["Shadow Self Work", "Inner Shadow Integration", "Psychological Shadow Work"]
-tags: ["personal-development", "psychology", "mental-health", "self-awareness", "emotional-intelligence", "carl-jung", "unconscious-mind", "integration", "holistic-healing", "Health & Wellbeing", "Personal Development", "Psychology"]
-
+tags: ["personal-development", "integration", "holistic-healing", "health", "psychology", "self-awareness"]
 ---
 
 # Shadow Work

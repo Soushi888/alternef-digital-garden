@@ -1,7 +1,7 @@
 ---
 title: Holochain Records
 description: Complete data structures containing entries with metadata and validation information
-tags: ["holochain", "fundamentals", "records", "data-structures"]
+tags: ["holochain", "data-structures", "fundamentals"]
 
 ---
 

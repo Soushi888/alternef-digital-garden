@@ -4,7 +4,7 @@ description: A local-first personal knowledge management tool using plain Markdo
 aliases:
   - Obsidian PKM
   - Obsidian.md
-tags: ["pkm", "markdown", "knowledge-management", "digital-garden", "local-first", "note-taking"]
+tags: ["local-first", "digital-garden", "markdown", "knowledge-management"]
 
 ---
 

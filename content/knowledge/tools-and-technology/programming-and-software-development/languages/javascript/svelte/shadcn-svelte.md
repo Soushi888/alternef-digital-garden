@@ -1,5 +1,5 @@
 ---
 aliases: 
-tags: ["frontend", "[[Svelte]]"]
+tags: ["frontend", "svelte"]
 
 ---

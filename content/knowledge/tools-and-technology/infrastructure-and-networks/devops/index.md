@@ -5,7 +5,7 @@ subtitle: Breaking down silos between development and operations teams
 aliases: 
   - DevOps
   - Dev Ops
-tags: ["devops", "software-development", "automation", "continuous-integration", "continuous-deployment", "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/docker|Docker]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/make|Make]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/devops/nixos/index|NixOS]]", "[[knowledge/tools-and-technology/programming-and-software-development/index|Software Development]]"]
+tags: ["software-development", "devops", "automation", "nixos"]
 
 ---
 

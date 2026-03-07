@@ -4,7 +4,7 @@ description: A revolutionary blockchain protocol enabling decentralized internet
 aliases: 
   - ICP
   - Internet Computer
-tags: ["blockchain", "decentralization", "internet-protocols", "web3", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/index|Blockchain]]", "[[knowledge/tools-and-technology/index|Tools and Technology]]"]
+tags: ["blockchain", "decentralization", "internet-protocols", "web3"]
 
 ---
 

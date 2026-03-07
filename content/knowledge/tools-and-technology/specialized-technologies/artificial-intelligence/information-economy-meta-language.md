@@ -3,7 +3,7 @@ title: Information Economy Meta-Language (IEML)
 aliases:
   - IEML
   - Méta-langage de l'Économie de l'information
-tags: ["artificial-intelligence", "semantic-web", "collective-intelligence", "knowledge-representation", "metalanguage"]
+tags: ["artificial-intelligence", "collective-intelligence", "semantic-web"]
 
 ---
 

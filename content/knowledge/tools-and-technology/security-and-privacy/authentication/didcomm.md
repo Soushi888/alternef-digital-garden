@@ -1,7 +1,7 @@
 ---
 title: DIDComm
 description: A secure, private communication protocol built on Decentralized Identifiers (DIDs)
-tags: ["authentication", "cryptography", "decentralization", "messaging", "privacy", "[[knowledge/tools-and-technology/security-and-privacy/authentication/decentralized-identifiers|Decentralized Identifiers (DIDs)]]"]
+tags: ["decentralization", "cryptography", "privacy", "authentication"]
 
 ---
 

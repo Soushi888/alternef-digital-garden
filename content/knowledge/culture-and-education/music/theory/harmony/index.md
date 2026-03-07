@@ -2,7 +2,7 @@
 title: Harmony
 description: "Music in vertical space — intervals, chords, tonality, modes, voice leading, and the simultaneous relationships between sounds."
 date: 2026-02-19
-tags: ["music", "music-theory", "harmony", "chords", "tonality", "modes"]
+tags: ["music-theory", "music", "harmony"]
 
 ---
 

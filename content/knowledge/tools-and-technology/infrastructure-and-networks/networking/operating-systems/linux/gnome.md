@@ -5,7 +5,7 @@ aliases:
   - "GNOME Shell"
   - "GNOME Desktop"
   - "GTK Desktop"
-tags: ["desktop-environment", "linux", "user-interface", "accessibility", "gtk", "wayland", "inclusive-design", "human-centered", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma]]"]
+tags: ["linux", "desktop-environment", "user-interface"]
 
 ---
 

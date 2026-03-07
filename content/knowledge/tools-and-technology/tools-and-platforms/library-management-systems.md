@@ -5,7 +5,7 @@ aliases:
   - LMS
   - Integrated Library System
   - ILS
-tags: ["library", "library-management", "open-source", "tools", "information-management"]
+tags: ["open-source", "library", "tools"]
 
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - "Digital Nations"
   - "Cloud Countries"
   - "Crypto Nations"
-tags: ["governance", "digital-governance", "cryptocurrency", "libertarianism", "techno-colonialism", "decentralization", "dao", "blockchain", "social-systems"]
+tags: ["governance", "decentralization", "blockchain", "cryptocurrency", "social-systems"]
 
 ---
 

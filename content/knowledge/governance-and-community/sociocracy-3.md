@@ -2,7 +2,7 @@
 title: "Sociocracy 3.0"
 description: "A free, open-source social technology for agile, resilient, and effective organizational collaboration and governance"
 aliases: ["S3", "Sociocracy Three", "Sociocracy 3"]
-tags: [governance, organizational-governance, self-management, agile, decision-making, sociocracy-3, consent-based-governance, pattern-library, collaboration, lean-agile]
+tags: ["governance", "collaboration"]
 created: 2025-12-28
 modified: 2025-12-28
 draft: false

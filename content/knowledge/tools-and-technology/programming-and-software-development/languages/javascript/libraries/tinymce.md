@@ -4,7 +4,7 @@ description: A popular WYSIWYG editor for creating and editing rich text content
 subtitle: Advanced HTML editor for web content creation
 aliases:
   - TinyMCE Editor
-tags: ["frontend", "wysiwyg", "javascript", "library", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/editor.js|Editor.js]]"]
+tags: ["frontend", "wysiwyg", "javascript", "library"]
 
 ---
 

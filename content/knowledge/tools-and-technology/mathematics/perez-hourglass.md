@@ -1,7 +1,7 @@
 ---
 title: "Perez Hourglass (Sablier de Perez)"
 aliases: ["Sablier de Perez", "Perez Hourglass", "Jean-Claude Perez Hourglass"]
-tags: [specialized-tech, mathematics, fractals, golden-ratio, fibonacci, quantum-computing, cryptography, ai-memory]
+tags: ["mathematics", "specialized-tech", "cryptography"]
 created: 2024-12-11
 modified: 2024-12-11
 draft: false

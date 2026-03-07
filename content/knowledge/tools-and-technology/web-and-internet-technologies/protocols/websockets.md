@@ -4,7 +4,7 @@ description: Protocol for real-time bidirectional communication between client a
 subtitle: Enabling persistent connections for web applications
 aliases:
   - WebSocket
-tags: ["frontend", "backend", "real-time-communication", "protocols", "web-technology", "[[knowledge/tools-and-technology/web-and-internet-technologies/protocols/index|Web Protocols]]", "[[knowledge/tools-and-technology/web-and-internet-technologies/protocols/http|HTTP]]"]
+tags: ["protocols", "frontend", "backend", "real-time-communication"]
 
 ---
 

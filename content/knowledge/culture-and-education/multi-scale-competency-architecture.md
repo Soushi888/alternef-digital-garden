@@ -1,7 +1,7 @@
 ---
 title: "Multi-Scale Competency Architecture"
 aliases: ["MCA", "Multiscale Competency Architecture", "Collective Intelligence Architecture", "Hierarchical Competency"]
-tags: ["complexity-theory", "systems-thinking", "collective-intelligence", "biology", "emergence", "distributed-cognition", "adaptive-systems", "morphology"]
+tags: ["systems-thinking", "emergence", "collective-intelligence", "adaptive-systems"]
 
 ---
 

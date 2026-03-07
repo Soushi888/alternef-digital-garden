@@ -1,7 +1,7 @@
 ---
 title: Health and Wellbeing
 description: A holistic exploration of human wellness, integrative health practices, and comprehensive life strategies
-tags: ["health", "wellness", "holistic-medicine", "personal-development", "mind-body-connection", "movement-practices", "psychology", "stress-physiology", "preventive-medicine"]
+tags: ["personal-development", "mind-body-connection", "health", "movement-practices", "psychology", "stress-physiology", "preventive-medicine"]
 
 ---
 

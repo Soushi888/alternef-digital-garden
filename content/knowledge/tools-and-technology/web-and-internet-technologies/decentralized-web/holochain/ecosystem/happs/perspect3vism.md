@@ -6,7 +6,7 @@ aliases:
   - Coasys
   - AD4M
   - Flux hApp
-tags: ["holochain", "happs", "social-networking", "web3"]
+tags: ["holochain", "web3", "happs"]
 
 ---
 

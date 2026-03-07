@@ -1,7 +1,7 @@
 ---
 title: Distributed Hash Tables
 description: A comprehensive overview of Distributed Hash Table (DHT) technology in decentralized systems
-tags: ["networking", "decentralization", "peer-to-peer", "distributed-systems", "[[holochain-architecture-overview]]", "[[peer-to-peer-networking]]"]
+tags: ["networking", "decentralization", "peer-to-peer", "distributed-systems"]
 
 ---
 

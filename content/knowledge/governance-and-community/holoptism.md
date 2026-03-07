@@ -2,7 +2,7 @@
 title: "Holoptism"
 description: "P2P coordination processes enabling free access to participant information (horizontal) and project aims/metrics/documentation (vertical)"
 aliases: ["holoptic processes", "transparent coordination", "collective visibility"]
-tags: [governance, transparency, collective-intelligence, coordination, peer-to-peer, visibility, digital-platforms, panoptism-alternative]
+tags: ["governance", "peer-to-peer", "collective-intelligence"]
 created: 2025-11-11
 modified: 2025-11-11
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Tor Network"
 aliases: ["TOR", "The Onion Router", "Anonymous Network"]
-tags: [networking, distributed-systems, privacy, security, anonymity]
+tags: ["distributed-systems", "networking", "security", "privacy"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

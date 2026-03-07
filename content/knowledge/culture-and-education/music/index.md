@@ -2,7 +2,7 @@
 title: Music
 description: "Exploring music as cultural expression, embodied knowledge, and bridge between traditions — from theory and harmony to living artists and instruments."
 date: 2026-02-19
-tags: ["music", "arts", "cultural-transmission"]
+tags: ["music", "cultural-transmission"]
 
 ---
 

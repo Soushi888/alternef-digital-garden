@@ -2,7 +2,7 @@
 title: Artists & Ensembles
 description: "Musicians and groups who shape, transmit, and transform musical traditions."
 date: 2026-02-19
-tags: ["music", "artists", "musicians", "ensembles"]
+tags: ["music"]
 
 ---
 

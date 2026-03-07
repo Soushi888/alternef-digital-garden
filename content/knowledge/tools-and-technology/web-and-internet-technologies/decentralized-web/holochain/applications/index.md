@@ -1,8 +1,7 @@
 ---
 title: Holochain Applications
 description: Practical applications, implementation examples, and potential domains for Holochain technology
-tags: ["holochain", "applications", "applications", "decentralization", "peer-to-peer", "Holochain Use Cases", "Holochain Implementation Examples"]
-
+tags: ["holochain", "decentralization", "peer-to-peer", "applications"]
 ---
 
 # Holochain Applications

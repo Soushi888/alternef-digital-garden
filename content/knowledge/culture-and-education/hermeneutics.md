@@ -1,7 +1,7 @@
 ---
 title: "Hermeneutics"
 aliases: ["Interpretation Theory", "Hermeneutical Theory", "Theory of Interpretation"]
-tags: ["philosophy", "interpretation", "meaning-making", "epistemology", "exegesis", "understanding", "communication", "biblical-studies", "phenomenology"]
+tags: ["philosophy", "communication"]
 
 ---
 

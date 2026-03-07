@@ -1,7 +1,7 @@
 ---
 aliases:
   - Auth.js
-tags: ["libraries", "javascript", "[[authentification]]", "[[javaScript]]"]
+tags: ["libraries", "javascript"]
 
 ---
 [Auth.js | Authentication for the Web](https://authjs.dev/)

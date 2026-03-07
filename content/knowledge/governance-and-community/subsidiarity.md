@@ -2,7 +2,7 @@
 title: "Subsidiarity"
 description: "A principle of social organization stating that tasks and decisions should be handled at the most immediate or local level possible, with higher authorities intervening only when necessary"
 aliases: ["subsidiarity principle", "decentralized governance", "local autonomy", "hierarchical governance"]
-tags: [governance, decentralization, local-autonomy, social-organization, european-union, catholic-social-teaching, political-theory, management, community-empowerment]
+tags: ["governance", "decentralization", "political-theory", "local-autonomy"]
 created: 2025-11-20
 modified: 2025-11-20
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Fourth Sector"
 description: "The emerging economic sector composed of for-benefit organizations blending market strategies with social and environmental missions"
-tags: ["economics", "finance", "fourth-sector", "social-enterprise", "for-benefit-organizations", "hybrid-organizations", "b-corporations", "impact-investing", "sustainable-economics", "economic-innovation", "social-innovation"]
+tags: ["economics", "finance"]
 
 ---
 

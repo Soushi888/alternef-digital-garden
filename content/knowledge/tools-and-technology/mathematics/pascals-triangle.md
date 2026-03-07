@@ -1,7 +1,7 @@
 ---
 title: "Pascal's Triangle"
 aliases: ["Pascal Triangle", "Yang Hui Triangle", "Khayyam Triangle", "Binomial Coefficient Triangle"]
-tags: [mathematics, combinatorics, number-theory, patterns, binomial-coefficients]
+tags: ["software-architecture", "mathematics", "number-theory"]
 created: 2024-12-11
 modified: 2024-12-11
 draft: false

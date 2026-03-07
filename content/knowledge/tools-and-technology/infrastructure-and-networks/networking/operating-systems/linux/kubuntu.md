@@ -5,7 +5,7 @@ aliases:
   - "Kubuntu KDE"
   - "Ubuntu KDE"
   - "KDE Ubuntu"
-tags: ["operating-systems", "linux", "kubuntu", "kde", "ubuntu", "desktop-environment", "networking", "infrastructure", "open-source", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+tags: ["open-source", "linux", "infrastructure", "networking", "operating-systems", "desktop-environment", "kde"]
 
 ---
 

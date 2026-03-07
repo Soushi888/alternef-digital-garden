@@ -2,7 +2,7 @@
 title: Melody
 description: "Music in horizontal space — contour, phrasing, scales, ornamentation, motif development, and the sequential unfolding of musical ideas."
 date: 2026-02-19
-tags: ["music", "music-theory", "melody", "scales", "phrasing", "composition"]
+tags: ["music-theory", "music", "melody"]
 
 ---
 

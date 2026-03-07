@@ -1,8 +1,7 @@
 ---
 title: Functional Programming with JavaScript and Effect
 description: A comprehensive guide to functional programming techniques in JavaScript and TypeScript using the Effect library
-tags: ["functional-programming", "javascript", "typescript", "effect", "monads", "FP in JS", "Functional JS", "Effect Programming", "[[type-systems]]"]
-
+tags: ["effect", "functional-programming", "typescript", "javascript"]
 ---
 
 ## Overview of Functional Programming in JavaScript

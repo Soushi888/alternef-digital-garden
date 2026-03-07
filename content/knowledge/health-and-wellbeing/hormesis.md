@@ -1,7 +1,7 @@
 ---
 title: "Hormesis: The Dose-Response Principle of Adaptive Stress"
 aliases: ["Hormetic Stress", "Biphasic Dose Response", "Adaptive Stress Response"]
-tags: [stress-physiology, dose-response, adaptive-response, preventive-medicine, environmental-health, nutrition, exercise-physiology, toxicology, resilience, biological-adaptation]
+tags: ["stress-physiology", "preventive-medicine", "resilience"]
 created: 2025-11-04
 description: "Exploration of hormesis - the biphasic dose-response phenomenon where low doses of stressors create beneficial adaptations while high doses are harmful"
 categories: [Health & Wellbeing, Preventive Medicine, Stress Physiology]

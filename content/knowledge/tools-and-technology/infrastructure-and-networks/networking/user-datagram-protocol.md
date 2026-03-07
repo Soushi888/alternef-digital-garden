@@ -3,7 +3,7 @@ title: User Datagram Protocol (UDP)
 description: A lightweight, connectionless communication protocol in the Internet protocol suite
 aliases:
   - UDP
-tags: ["networking", "internet-protocols", "communication", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]", "[[knowledge/tools-and-technology/index|Tools and Technology]]"]
+tags: ["networking", "internet-protocols", "communication"]
 
 ---
 

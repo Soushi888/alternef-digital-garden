@@ -1,8 +1,7 @@
 ---
 title: "Teleology"
 aliases: ["Purpose", "Final Cause", "Teleological Explanation", "Purpose-Driven Explanation"]
-tags: ["philosophy", "purpose", "meaning", "metaphysics", "ethics", "aristotelianism", "philosophy-of-science", "philosophy-of-mind", "from Aristotle's final causes to contemporary debates in biology and ethics."]
-
+tags: ["philosophy", "ethics", "metaphysics"]
 ---
 
 # Teleology

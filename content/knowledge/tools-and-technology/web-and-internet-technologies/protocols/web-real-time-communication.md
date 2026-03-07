@@ -1,7 +1,7 @@
 ---
 aliases:
   - WebRTC
-tags: ["peer-to-peer", "real-time-communication", "[[peer-to-peer]]", "[[JavaScript]]"]
+tags: ["peer-to-peer", "real-time-communication", "javascript"]
 
 ---
 WebRTC, standing for Web Real-Time Communication, is an open-source project designed to enable real-time communication of audio, video, and data directly between web browsers and devices without the need for additional plugins. It was introduced in 2011 and has since become a standard feature in most modern web browsers, including Google Chrome, Safari, Mozilla Firefox, Edge, and others. WebRTC facilitates peer-to-peer communication, allowing for direct exchange of media and data between peers without requiring a server intermediary. This technology is built on [[HTML|HTML5]] and can be accessed through the WebRTC API, making it readily available for developers to integrate into their web applications.

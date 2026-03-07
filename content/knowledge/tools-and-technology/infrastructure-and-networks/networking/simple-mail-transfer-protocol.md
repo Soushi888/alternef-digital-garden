@@ -3,7 +3,7 @@ title: Simple Mail Transfer Protocol (SMTP)
 description: Email transmission protocol that powers internet mail delivery systems
 aliases:
   - SMTP
-tags: ["networking", "internet-protocols", "email", "communication", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]", "[[knowledge/tools-and-technology/index|Tools and Technology]]"]
+tags: ["communication", "networking", "internet-protocols"]
 
 ---
 

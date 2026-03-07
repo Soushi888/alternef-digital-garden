@@ -1,7 +1,7 @@
 ---
 title: "Specification Driven Development"
 aliases: ["SDD", "Spec-Driven Development", "Specification First Development"]
-tags: [programming, software-engineering, development-methodology, ai-assisted-development, specification, software-quality]
+tags: ["programming", "software-engineering", "software-quality"]
 created: 2025-10-14
 modified: 2025-10-14
 draft: false

@@ -4,8 +4,7 @@ aliases:
   - "Essene Medicine"
   - "Essenian Medicine"
   - "Essenian Therapies"
-tags: ["holistic-healing", "ancient-traditions", "energy-medicine", "essenian", "esoteric-traditions", "bodywork", "Health & Wellbeing", "Traditional Medicine", "Esoteric Traditions"]
-
+tags: ["holistic-healing", "ancient-traditions", "health", "traditional-medicine"]
 ---
 
 *A tradition standing at the intersection of historical scholarship and esoteric reconstruction, offering practices for healing the body and its subtle dimensions*

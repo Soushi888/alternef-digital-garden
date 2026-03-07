@@ -1,7 +1,7 @@
 ---
 title: Lair Keystore
 description: Lair Keystore is a component that plays a crucial role in managing cryptographic keys securely.
-tags: ["holochain", "lair", "keystore"]
+tags: ["holochain"]
 
 ---
 [GitHub - holochain/lair: secret lair private keystore](https://github.com/holochain/lair)

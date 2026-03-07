@@ -4,7 +4,7 @@ description: The Nix-based reproducible development environment for Holochain ap
 aliases:
   - Holochain Nix Environment
   - Holochain Dev Shell
-tags: ["holochain", "development", "nix", "devenv", "tooling"]
+tags: ["holochain", "software-development", "nix"]
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Metacognition"
 aliases: ["Metacognitive Processes", "Learning to Learn", "Thinking About Thinking"]
-tags: ["learning", "cognitive-science", "psychology", "critical-thinking", "self-regulation", "self-awareness", "educational-psychology"]
+tags: ["learning", "psychology", "self-awareness", "critical-thinking", "cognitive-science"]
 
 ---
 

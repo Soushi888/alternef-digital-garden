@@ -1,7 +1,7 @@
 ---
 title: Governance
 description: Community guidelines, licensing, and contribution frameworks for Holochain
-tags: ["holochain", "governance", "community", "licensing", "contribution"]
+tags: ["holochain", "governance", "community", "licensing"]
 
 ---
 

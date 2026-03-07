@@ -1,8 +1,7 @@
 ---
 title: Event Bus Building Pattern
 description: A design pattern for implementing event-driven architectures using TypeScript and Rust
-tags: ["programming", "patterns", "typescript", "rust", "design-patterns", "event-driven", "[[functional-programming|Functional Programming]]", "[[reactive-programming|Reactive Programming]]", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"]
-
+tags: ["programming", "rust", "typescript", "software-architecture", "event-driven", "design-patterns"]
 ---
 
 ## Overview

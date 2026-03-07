@@ -1,8 +1,7 @@
 ---
 title: Social DNA
 description: DNA configurations that encode social rules, community agreements, and collective decision-making processes into Holochain applications
-tags: ["holochain", "social-dna", "community-governance", "social-protocols", "collective-intelligence", "reputation-systems", "Community DNA", "Governance DNA", "Social Protocols"]
-
+tags: ["holochain", "collective-intelligence"]
 ---
 
 ## What is Social DNA?

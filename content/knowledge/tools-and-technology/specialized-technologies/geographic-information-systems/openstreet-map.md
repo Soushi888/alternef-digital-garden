@@ -4,7 +4,7 @@ description: Collaborative, free, editable map of the world
 subtitle: Community-driven mapping project with open data
 aliases:
   - OSM
-tags: ["frontend", "maps", "open-source", "geographic-information-systems", "collaborative", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/leafletjs|Leaflet.js]]", "[[knowledge/tools-and-technology/specialized-technologies/geographic-information-systems/index|Geographic Information Systems]]"]
+tags: ["open-source", "frontend", "maps"]
 
 ---
 

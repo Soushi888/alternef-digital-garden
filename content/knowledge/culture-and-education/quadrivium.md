@@ -5,7 +5,7 @@ aliases:
   - "Quadrivium Education"
   - "Four Mathematical Arts"
   - "Mathematical Liberal Arts"
-tags: ["education", "classical-education", "liberal-arts", "quadrivium", "mathematics", "astronomy", "geometry", "music-theory", "pythagorean", "platonism"]
+tags: ["education", "liberal-arts", "classical-education", "quadrivium", "mathematics", "geometry", "music-theory"]
 
 ---
 

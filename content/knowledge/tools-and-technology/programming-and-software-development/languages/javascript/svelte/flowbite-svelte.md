@@ -4,7 +4,7 @@ description: UI component library for Svelte based on Tailwind CSS
 subtitle: Open-source components built with Svelte and Tailwind
 aliases:
   - Flowbite for Svelte
-tags: ["frontend", "javascript", "svelte", "ui-components", "tailwind", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/index|Svelte]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/html-css/frameworks/tailwind-css|Tailwind CSS]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]"]
+tags: ["frontend", "javascript", "svelte", "ui-components", "tailwind"]
 
 ---
 

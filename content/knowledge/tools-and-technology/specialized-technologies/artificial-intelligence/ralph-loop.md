@@ -1,7 +1,7 @@
 ---
 title: "Ralph Loop"
 aliases: ["Ralph Wiggum Loop", "Ralph Wiggum Technique", "Autonomous AI Agent Loop"]
-tags: ["artificial-intelligence", "ai-agents", "autonomous-systems", "software-development", "automation", "large-language-models", "cognitive-approaches", "metacognition"]
+tags: ["artificial-intelligence", "software-development", "automation"]
 
 ---
 

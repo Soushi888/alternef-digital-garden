@@ -1,8 +1,7 @@
 ---
 title: "Philosophia Perennis"
 aliases: ["Perennial Philosophy", "Eternal Philosophy", "Universal Wisdom", "Traditionalism"]
-tags: ["philosophy", "philosophia-perennis", "perennial-philosophy", "traditional-wisdom", "universal-truth", "metaphysics", "mysticism", "guenon", "huxley", "cross-cultural-wisdom", "universal wisdom present at the heart of the world's great spiritual and religious traditions."]
-
+tags: ["philosophy", "metaphysics", "mysticism"]
 ---
 
 # Philosophia Perennis

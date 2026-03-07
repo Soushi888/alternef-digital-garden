@@ -1,7 +1,7 @@
 ---
 title: "SPARQL Query Language"
 description: "SPARQL Protocol and RDF Query Language enables sophisticated querying and manipulation of structured data in RDF graphs across distributed semantic web systems."
-tags: ["semantic-web", "sparql", "query-languages", "data-access", "knowledge-graphs", "valueflows", "economic-networks", "distributed-systems", "data-integration"]
+tags: ["distributed-systems", "valueflows", "economic-networks", "semantic-web", "knowledge-graphs", "sparql"]
 
 ---
 

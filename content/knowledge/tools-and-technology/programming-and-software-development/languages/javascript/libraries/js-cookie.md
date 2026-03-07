@@ -5,7 +5,7 @@ subtitle: Easy cookie management in JavaScript
 aliases:
   - JS Cookie
   - JavaScript Cookie
-tags: ["frontend", "javascript", "library", "cookies", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"]
+tags: ["library", "javascript", "frontend"]
 
 ---
 

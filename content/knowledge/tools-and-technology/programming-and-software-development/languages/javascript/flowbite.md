@@ -1,5 +1,5 @@
 ---
-tags: ["frontend", "[[Tailwind CSS]]"]
+tags: ["frontend"]
 
 ---
 a## Icons

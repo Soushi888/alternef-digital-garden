@@ -3,7 +3,7 @@ aliases:
   - NFTs
   - NFT
   - Non-Fungible Tokens
-tags: ["nft", "[[Tokenomie]]"]
+tags: ["cryptocurrency"]
 
 ---
 ### Understanding Non-Fungible Tokens (NFTs)

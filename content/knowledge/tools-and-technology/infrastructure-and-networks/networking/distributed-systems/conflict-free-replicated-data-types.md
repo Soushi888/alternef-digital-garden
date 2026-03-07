@@ -1,7 +1,7 @@
 ---
 title: "Conflict-Free Replicated Data Types (CRDTs)"
 aliases: ["CRDT", "CRDTs"]
-tags: [distributed-systems, data-structures, consistency, replication]
+tags: ["distributed-systems", "data-structures"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

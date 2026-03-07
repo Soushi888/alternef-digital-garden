@@ -1,7 +1,7 @@
 ---
 title: Finance and Economics
 description: A holistic exploration of economic systems, financial technologies, and sustainable value creation
-tags: ["economics", "finance", "value-creation", "economic-systems", "sustainable-development"]
+tags: ["economics", "finance"]
 
 ---
 

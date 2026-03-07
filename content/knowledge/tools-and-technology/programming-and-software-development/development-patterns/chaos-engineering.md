@@ -1,8 +1,7 @@
 ---
 title: Chaos Engineering
 description: A discipline of experimenting on systems by injecting controlled failures to build confidence in resilience under real-world conditions
-tags: ["programming", "software-quality", "patterns", "testing", "resilience", "Fault Injection Testing", "Resilience Testing", "[[defensive-programming|Defensive Programming]]", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"]
-
+tags: ["programming", "software-architecture", "resilience", "software-quality"]
 ---
 
 # Chaos Engineering

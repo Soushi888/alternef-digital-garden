@@ -1,7 +1,7 @@
 ---
 title: "JSON-LD"
 description: "JSON for Linked Data provides a lightweight format for expressing structured data on the web, bridging traditional web development with semantic technologies."
-tags: ["semantic-web", "json-ld", "web-dev", "apis", "linked-data", "data-serialization", "context-definitions", "web-integration", "microservices"]
+tags: ["web-dev", "semantic-web", "linked-data", "json-ld", "microservices"]
 
 ---
 

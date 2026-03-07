@@ -5,7 +5,7 @@ aliases:
   - "Desktop Environment"
   - "Linux Desktop"
   - "GUI Linux"
-tags: ["desktop-environment", "linux", "user-interface", "networking", "gui", "productivity", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/xfce|Xfce Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+tags: ["desktop-environment", "linux", "user-interface", "networking", "gui", "productivity"]
 
 ---
 

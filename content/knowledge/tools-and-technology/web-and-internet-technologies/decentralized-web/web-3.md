@@ -2,7 +2,7 @@
 aliases:
   - Web3
   - Web 3.0
-tags: ["web"]
+tags: ["web-dev"]
 
 ---
 [[Digital Permaculture]]

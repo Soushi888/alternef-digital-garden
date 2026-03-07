@@ -1,8 +1,7 @@
 ---
 title: Artificial General Intelligence
 description: A comprehensive exploration of AGI - the hypothetical AI that would match or surpass human cognitive abilities across all intellectual tasks
-tags: ["artificial-intelligence", "agi", "machine-learning", "cognitive-science", "ai-safety", "AGI", "strong AI", "full AI", "human-level AI"]
-
+tags: ["artificial-intelligence", "ai-safety", "cognitive-science", "machine-learning"]
 ---
 
 **Artificial General Intelligence (AGI)** is a *hypothetical* form of artificial intelligence that would match or surpass human cognitive abilities across virtually all intellectual tasks. Unlike today's AI systems, which are designed for specific functions, AGI aims to replicate the broad, adaptable intelligence seen in humans.

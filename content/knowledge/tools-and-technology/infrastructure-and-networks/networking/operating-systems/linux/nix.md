@@ -6,7 +6,7 @@ aliases:
   - "Nix Package Manager"
   - "Nix Shell"
   - "Functional Package Management"
-tags: ["package-manager", "linux", "functional-programming", "declarative-configuration", "reproducible-builds", "nix", "devops", "system-configuration", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/devops|DevOps]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/containerization|Containerization]]"]
+tags: ["functional-programming", "linux", "devops", "nix"]
 
 ---
 

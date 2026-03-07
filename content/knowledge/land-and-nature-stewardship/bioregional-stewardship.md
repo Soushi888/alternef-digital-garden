@@ -1,7 +1,7 @@
 ---
 title: Bioregional Stewardship
 description: Place-based ecological management organized by natural boundaries rather than political lines, focusing on whole ecosystem health
-tags: ["stewardship", "bioregionalism", "place-based-management", "watershed-stewardship", "local-governance", "ecological-boundaries", "community-resilience"]
+tags: ["bioregionalism", "stewardship", "community-resilience"]
 
 ---
 

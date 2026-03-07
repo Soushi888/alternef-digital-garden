@@ -5,7 +5,7 @@ aliases:
   - "Unix"
   - "Unix Operating System"
   - "Unix Design Philosophy"
-tags: ["operating-systems", "computer-science", "system-design", "programming-philosophy", "history", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/kernel-architectures|Kernel Architectures]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+tags: ["history", "networking", "operating-systems", "computer-science"]
 
 ---
 

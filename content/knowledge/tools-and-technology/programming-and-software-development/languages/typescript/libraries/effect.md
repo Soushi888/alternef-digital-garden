@@ -5,7 +5,7 @@ subtitle: A functional approach to managing side effects, errors, and concurrenc
 aliases:
   - Effect Library
   - Effect-TS
-tags: ["typescript", "library", "functional-programming", "error-handling", "concurrency", "[[knowledge/tools-and-technology/programming-and-software-development/languages/typescript/index|TypeScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/paradigms/functional-programming|Functional Programming]]"]
+tags: ["typescript", "library", "functional-programming", "error-handling", "concurrency"]
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "DHCP Server"
 aliases: ["Dynamic Host Configuration Protocol", "IP Address Management", "Network Configuration"]
-tags: [networking, system-administration, dhcp, tcp-ip, network-management]
+tags: ["networking", "tcp-ip"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

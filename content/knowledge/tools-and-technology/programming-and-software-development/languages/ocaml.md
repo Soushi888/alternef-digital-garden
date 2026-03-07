@@ -4,7 +4,7 @@ description: "Pragmatic functional programming language with strong industrial a
 aliases:
   - "Objective Caml"
   - "OCaml Programming"
-tags: ["functional-programming", "systems-programming", "type-safety", "industrial-adoption", "programming-languages"]
+tags: ["functional-programming", "programming-languages", "systems-programming", "type-safety"]
 
 ---
 

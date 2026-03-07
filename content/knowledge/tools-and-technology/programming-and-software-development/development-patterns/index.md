@@ -1,8 +1,7 @@
 ---
 title: Development Patterns
 description: Exploring programming paradigms, design patterns, and software construction techniques
-tags: ["programming", "design", "patterns", "[[knowledge/tools-and-technology/programming-and-software-development/index|Programming and Software Development]]"]
-
+tags: ["programming", "software-development", "software-architecture", "design", "software"]
 ---
 
 ## Overview

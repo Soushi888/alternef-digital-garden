@@ -1,7 +1,7 @@
 ---
 title: Local-first Software
 description: A design philosophy prioritizing local data storage, user sovereignty, and offline capabilities
-tags: ["decentralization", "software-architecture", "data-ownership", "privacy"]
+tags: ["decentralization", "software-architecture", "privacy"]
 
 ---
 

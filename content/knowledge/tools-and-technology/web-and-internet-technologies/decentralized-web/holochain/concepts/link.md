@@ -1,7 +1,7 @@
 ---
 title: Holochain Links
 description: Connections between entries that create relationships in the distributed hash table
-tags: ["holochain", "fundamentals", "links", "relationships"]
+tags: ["holochain", "fundamentals", "links"]
 
 ---
 

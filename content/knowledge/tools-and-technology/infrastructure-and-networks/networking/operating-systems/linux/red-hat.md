@@ -6,7 +6,7 @@ aliases:
   - "Red Hat Linux"
   - "Enterprise Linux"
   - "Red Hat Enterprise Linux 9"
-tags: ["operating-systems", "linux", "enterprise", "business", "stability", "red-hat", "security", "infrastructure", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|Security Tools]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]"]
+tags: ["linux", "infrastructure", "networking", "security", "operating-systems", "red-hat"]
 
 ---
 

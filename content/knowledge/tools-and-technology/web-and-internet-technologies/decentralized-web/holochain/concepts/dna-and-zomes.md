@@ -5,7 +5,7 @@ aliases:
   - Holochain DNA
   - Integrity Zomes
   - Coordinator Zomes
-tags: ["holochain", "dna", "zome", "architecture", "decentralization"]
+tags: ["holochain", "decentralization", "architecture"]
 
 ---
 

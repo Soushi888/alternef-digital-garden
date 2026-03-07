@@ -5,7 +5,7 @@ subtitle: Making 3D content accessible on the web
 aliases:
   - ThreeJS
   - three.js
-tags: ["frontend", "javascript", "library", "3d", "webgl", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]"]
+tags: ["library", "javascript", "frontend", "3d"]
 
 ---
 

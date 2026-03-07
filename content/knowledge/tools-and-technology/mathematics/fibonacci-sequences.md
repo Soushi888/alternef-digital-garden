@@ -1,7 +1,7 @@
 ---
 title: "Fibonacci Sequences"
 aliases: ["Fibonacci Numbers", "Fibonacci Sequence", "Leonardo of Pisa"]
-tags: [mathematics, number-theory, sequences, patterns, nature]
+tags: ["software-architecture", "nature", "mathematics", "number-theory"]
 created: 2024-12-11
 modified: 2024-12-11
 draft: false

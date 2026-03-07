@@ -4,7 +4,7 @@ description: "The revolutionary musical movement initiated by Astor Piazzolla in
 aliases:
   - "Tango Nuevo"
   - "New Tango"
-tags: ["music", "tango", "nuevo-tango", "jazz", "classical-music", "argentina", "cultural-transmission", "fusion"]
+tags: ["music", "cultural-transmission", "tango", "jazz", "nuevo-tango", "argentina", "classical-music"]
 
 ---
 

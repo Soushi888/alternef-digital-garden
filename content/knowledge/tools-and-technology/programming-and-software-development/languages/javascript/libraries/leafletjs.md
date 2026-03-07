@@ -5,7 +5,7 @@ subtitle: Lightweight mapping library based on OpenStreetMap
 aliases:
   - Leaflet
   - leaflet.js
-tags: ["frontend", "javascript", "library", "maps", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]", "[[knowledge/tools-and-technology/specialized-technologies/geographic-information-systems/openstreet-map|OpenStreetMap]]"]
+tags: ["frontend", "javascript", "library", "maps"]
 
 ---
 

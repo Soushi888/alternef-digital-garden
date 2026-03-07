@@ -1,8 +1,7 @@
 ---
 title: Network Seed
 description: Cryptographic identifier that determines network membership and enables secure peer discovery in Holochain applications
-tags: ["holochain", "network-seed", "networking", "peer-discovery", "network-identity", "bootstrap", "Network Identifier", "Network Key", "DHT Network Seed"]
-
+tags: ["holochain", "networking"]
 ---
 
 ## What is a Network Seed?

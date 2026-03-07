@@ -3,7 +3,7 @@ title: Wiki
 aliases:
   - wiki
 description: "A collaborative web-based system for creating, editing, and organizing content collectively"
-tags: ["content-management-system", "digital-garden", "collaboration", "knowledge-management", "[[Content Management System]]"]
+tags: ["content-management-system", "digital-garden", "collaboration", "knowledge-management"]
 
 ---
 

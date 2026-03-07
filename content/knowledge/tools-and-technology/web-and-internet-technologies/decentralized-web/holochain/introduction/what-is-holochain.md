@@ -1,8 +1,7 @@
 ---
 title: What is Holochain?
 description: A comprehensive explanation of Holochain's unique approach to distributed computing and its key differentiators
-tags: ["holochain", "peer-to-peer", "decentralization", "distributed-systems", "agent-centric", "Holochain Explained", "Holochain Overview", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/web3|Web3]]", "Local-first", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/layer0|Layer0]]", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]"]
-
+tags: ["holochain", "distributed-systems", "decentralization", "peer-to-peer", "local-first", "agent-centric", "holochain-overview"]
 ---
 
 # What is Holochain?

@@ -1,7 +1,7 @@
 ---
 title: "Geodesic Domes"
 aliases: ["Geodesic Architecture", "Buckminster Domes", "Structural Domes", "Triangular Domes"]
-tags: ["architecture", "structural-design", "geometric-design", "sustainable-architecture", "organic-architecture", "biomimicry", "innovation", "engineering"]
+tags: ["innovation", "architecture"]
 
 ---
 

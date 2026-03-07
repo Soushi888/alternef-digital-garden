@@ -1,5 +1,5 @@
 ---
 aliases: 
-tags: ["stablecoin", "[[Blockchain]]", "[[Économie]]"]
+tags: ["economics", "blockchain"]
 
 ---

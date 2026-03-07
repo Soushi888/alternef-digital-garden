@@ -1,7 +1,7 @@
 ---
 title: WordPress
 description: A content management system (CMS) that allows you to create and manage your website.
-tags: ["content-management-system", "php", "sql"]
+tags: ["content-management-system"]
 
 ---
 ***WordPress** is a content management system (CMS) that allows you to create and manage your website.*

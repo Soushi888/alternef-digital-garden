@@ -5,7 +5,7 @@ aliases:
   - "Xfce Desktop"
   - "Lightweight Desktop"
   - "Xfce Linux"
-tags: ["desktop-environment", "linux", "user-interface", "lightweight", "efficiency", "xfce", "traditional-desktop", "resource-efficient", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma]]", "[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]"]
+tags: ["linux", "desktop-environment", "user-interface"]
 
 ---
 

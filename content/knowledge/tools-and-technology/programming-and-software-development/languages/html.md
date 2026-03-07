@@ -1,6 +1,6 @@
 ---
 aliases:
   - HTML5
-tags: ["frontend", "[[CSS]]"]
+tags: ["frontend", "web-dev"]
 
 ---

@@ -2,7 +2,7 @@
 title: Instruments
 description: "The tools of musical expression — their construction, technique, history, and cultural significance."
 date: 2026-02-19
-tags: ["music", "instruments", "lutherie"]
+tags: ["lutherie", "music"]
 
 ---
 

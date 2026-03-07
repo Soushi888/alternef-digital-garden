@@ -1,7 +1,7 @@
 ---
 title: "Golden Ratio (φ)"
 aliases: ["Golden Ratio", "Phi", "Divine Proportion", "Golden Section", "Sacred Ratio"]
-tags: [mathematics, number-theory, geometry, patterns, nature]
+tags: ["mathematics", "number-theory", "geometry", "software-architecture", "nature"]
 created: 2024-12-11
 modified: 2024-12-11
 draft: false

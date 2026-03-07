@@ -4,7 +4,7 @@ description: Free and open-source Bitcoin Lightning Network wallet system
 subtitle: Self-hosted solution for managing Lightning Network payments
 aliases:
   - Lightning Network Bits
-tags: ["frontend", "backend", "bitcoin", "lightning-network", "cryptocurrency", "wallet", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/pow/bitcoin/index|Bitcoin]]", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/pow/bitcoin/lightning-network|Lightning Network]]", "[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/index|Blockchain]]"]
+tags: ["blockchain", "cryptocurrency", "frontend", "backend", "bitcoin"]
 
 ---
 

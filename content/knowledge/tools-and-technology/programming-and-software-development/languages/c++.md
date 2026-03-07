@@ -1,7 +1,7 @@
 ---
 title: C++
 description: A powerful, high-performance programming language that extends C with object-oriented programming features
-tags: ["programming", "low-level", "object-oriented"]
+tags: ["programming", "low-level"]
 
 ---
 

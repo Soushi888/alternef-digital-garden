@@ -1,8 +1,7 @@
 ---
 title: Object-Oriented Programming
 description: A programming paradigm organizing software design around data objects and their interactions
-tags: ["programming-paradigms", "object-based", "encapsulation", "OOP", "[[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]"]
-
+tags: ["programming-paradigms"]
 ---
 
 ## Definition of Object-Oriented Programming

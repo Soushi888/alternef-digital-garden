@@ -3,7 +3,7 @@ title: Content Management Systems
 description: Platforms for creating, managing, and publishing digital content without requiring deep technical expertise
 aliases:
   - CMS
-tags: ["cms", "content-management", "web-dev", "tools"]
+tags: ["web-dev", "tools"]
 
 ---
 

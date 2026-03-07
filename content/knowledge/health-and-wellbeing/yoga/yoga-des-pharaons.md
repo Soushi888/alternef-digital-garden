@@ -6,8 +6,7 @@ aliases:
   - "Yoga of Verticality"
   - "Pharaonic Yoga"
 description: "Yoga des Pharaons and Yoga de la Verticalité are two names for the same synthesis tradition created by Senegalese master Babacar Khane around 1964, combining Egyptian temple postures with Indian Hatha Yoga and Chinese Taoist Yoga into a therapeutically oriented practice defined by the predominance of upright standing postures"
-tags: ["yoga-des-pharaons", "yoga-de-la-verticalite", "babacar-khane", "egyptian-yoga", "movement-practices", "postures", "ancient-traditions", "african-traditions", "mind-body-connection", "holistic-healing", "Health & Wellbeing", "Ancient Practices", "Synthesis Traditions"]
-
+tags: ["holistic-healing", "ancient-traditions", "mind-body-connection", "health", "movement-practices", "yoga-des-pharaons", "postures"]
 ---
 
 *A synthesis tradition created by Babacar Khane, uniting Egyptian temple postures, Indian Hatha Yoga, and Chinese Taoist Yoga into a single body-mind practice*

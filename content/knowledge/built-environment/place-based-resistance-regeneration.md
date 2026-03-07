@@ -5,7 +5,7 @@ aliases:
   - "Community-Led Regeneration"
   - "Urban Resistance"
   - "Transformative Resilience"
-tags: ["urban-planning", "urban-regeneration", "gentrification", "place-making", "community-resistance", "grassroots-governance", "indigenous-resurgence", "decolonization", "temporal-practices", "time-sovereignty", "transformative-resilience", "adaptive-planning", "social-justice"]
+tags: ["urban-planning"]
 
 ---
 

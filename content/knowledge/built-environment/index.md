@@ -1,7 +1,7 @@
 ---
 title: Built Environment
 description: A holistic exploration of human-made spaces, architectural design, and sustainable urban development
-tags: ["architecture", "urban-planning", "sustainability", "design", "human-habitat"]
+tags: ["sustainability", "architecture", "urban-planning", "design"]
 
 ---
 

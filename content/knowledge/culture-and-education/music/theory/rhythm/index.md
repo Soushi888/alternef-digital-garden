@@ -2,7 +2,7 @@
 title: Rhythm
 description: "Music in time — pulse, meter, syncopation, polyrhythm, groove, and the temporal structures that give music its forward motion."
 date: 2026-02-19
-tags: ["music", "music-theory", "rhythm", "meter", "polyrhythm"]
+tags: ["music-theory", "music", "rhythm"]
 
 ---
 

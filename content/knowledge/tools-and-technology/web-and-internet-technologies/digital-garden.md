@@ -1,7 +1,7 @@
 ---
 title: Digital Garden
 description: A modern approach to personal knowledge management and online publishing
-tags: ["knowledge-management", "web", "publishing", "personal-learning", "digital-garden", "[[quartz]]", "[[/tools-and-technology/programming-and-software-development/software-architecture/index]]"]
+tags: ["digital-garden", "knowledge-management", "web-dev"]
 
 ---
 

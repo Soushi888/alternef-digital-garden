@@ -1,8 +1,7 @@
 ---
 title: Guest
 description: WebAssembly applications that run in Holochain's secure sandbox environment, implementing application logic through host API interactions
-tags: ["holochain", "guest", "webassembly", "sandbox", "application-logic", "hdk", "Guest Application", "WASM Guest", "Holochain Guest"]
-
+tags: ["holochain", "webassembly", "hdk"]
 ---
 
 ## What is a Guest?

@@ -1,7 +1,7 @@
 ---
 type: library
 language: javascript
-tags: ["backend", "e-commerce", "javascript", "javascript-libraries"]
+tags: ["javascript", "backend"]
 
 ---
 [[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/libraries/index|JavaScript Libraries]]

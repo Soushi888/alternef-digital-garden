@@ -1,8 +1,7 @@
 ---
 title: Svelte
 description: A reactive JavaScript framework for building efficient web applications with a revolutionary approach to UI development
-tags: ["javascript", "frontend", "frameworks", "web", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/sveltekit|SvelteKit]]", "[[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/svelte/threlte|Threlte]]"]
-
+tags: ["web-dev", "javascript", "frontend", "frameworks"]
 ---
 
 ## Overview

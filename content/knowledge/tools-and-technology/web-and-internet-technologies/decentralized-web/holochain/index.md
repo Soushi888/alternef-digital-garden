@@ -1,8 +1,7 @@
 ---
 title: Holochain
 date: 2025-02-13
-tags: ["holochain", "decentralization", "blockchain-alternative", "peer-to-peer", "Holochain Overview", "Holochain Documentation"]
-
+tags: ["holochain", "decentralization", "peer-to-peer", "holochain-overview"]
 ---
 
 ## What is Holochain?

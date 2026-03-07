@@ -1,7 +1,7 @@
 ---
 title: "Fractals"
 aliases: ["Fractal Geometry", "Self-Similarity", "Fractal Dimension"]
-tags: [mathematics, geometry, patterns, chaos, complexity]
+tags: ["software-architecture", "mathematics", "geometry"]
 created: 2024-12-11
 modified: 2024-12-11
 draft: false

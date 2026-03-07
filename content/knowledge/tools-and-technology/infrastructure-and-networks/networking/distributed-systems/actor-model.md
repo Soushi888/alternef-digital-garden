@@ -4,7 +4,7 @@ aliases:
   - Actor-based concurrency
   - Actor system
   - Message-passing concurrency
-tags: ["distributed-systems", "concurrency", "programming-paradigms", "fault-tolerance", "scalability"]
+tags: ["distributed-systems", "programming-paradigms", "fault-tolerance", "concurrency"]
 
 ---
 
