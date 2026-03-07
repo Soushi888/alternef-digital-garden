@@ -3,7 +3,7 @@ title: "Sensorica's Mission: Building Regenerative Economic Networks for the Bio
 date: "2025-09-12"
 author: "Soushi888"
 description: "Exploring Sensorica's 15-year evolution from hardware development to pioneering Open Value Networks that enable bioregional governance, cosmo-local production, and multi-scale economic integration from hyper-local to global."
-tags: ["blog", "sensorica", "ovn", "open-value-networks", "bioregionalism", "cosmo-localism", "hyper-localism", "holochain", "valueflows", "peer-production", "regenerative-economics", "complexity-science", "nondominium"]
+tags: ["blog", "sensorica", "bioregionalism", "cosmo-localism", "holochain", "valueflows", "peer-production", "complexity-science", "nondominium"]
 ---
 
 ---

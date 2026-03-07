@@ -3,7 +3,7 @@ title: "Is the Density of Understanding Exceeding Human Capacity? How the Great 
 date: 2026-03-02
 author: "Soushi888"
 description: "Complexity across domains is growing faster than every mechanism civilization has built to equip people with it. The answer is not more individual education: it is building the collective intelligence infrastructure that allows communities to navigate a world no single person can comprehend alone."
-tags: [collective-intelligence, knowledge-infrastructure, great-work, education, complexity, commons, distributed-governance, digital-garden, holochain, nondominium, aquarian-age, civilization]
+tags: ["collective-intelligence", "knowledge-infrastructure", "great-work", "education", "commons", "distributed-governance", "digital-garden", "holochain", "nondominium", "aquarian-age", "civilization"]
 categories: [Knowledge Management, Collective Intelligence]
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "The Perez Hourglass and Fractal Sovereignty: Exploring Structural Parall
 date: "2025-12-20"
 author: "Soushi888"
 description: "Exploring conceptual parallels between Jean-Claude Perez's proposed mathematical construct and the fractal sovereignty framework in regenerative economics, with appropriate skepticism about unverified claims."
-tags: ["blog", "perez-hourglass", "fractal-sovereignty", "mathematics", "regenerative-economics", "complexity-science", "multi-scale-integration", "speculative-theory"]
+tags: ["blog", "perez-hourglass", "fractal-sovereignty", "mathematics", "complexity-science", "speculative-theory"]
 draft: false
 ---
 

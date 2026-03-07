@@ -3,7 +3,7 @@ title: "Le Sablier de Perez et la Science de la Complexité : Connexions Concept
 date: "2025-12-24"
 author: "Soushi888"
 description: "Exploration conceptuelle des connexions entre le sablier de Perez et les principes fondamentaux de la science de la complexité : émergence, auto-organisation, fractalité, attracteurs, feedback loops, réseaux, lois d'échelle, robustesse, transitions de phase, computation au bord du chaos, entropie, structures dissipatives, catastrophes et co-évolution."
-tags: ["blog", "sablier-de-perez", "science-de-la-complexite", "emergence", "auto-organisation", "fractalite", "attracteurs", "feedback-loops", "theorie-des-reseaux", "lois-d-echelle", "nombre-d-or", "robustesse", "transitions-de-phase", "edge-of-chaos", "entropie", "structures-dissipatives", "theorie-des-catastrophes", "co-evolution", "souverainete-fractale"]
+tags: ["blog", "sablier-de-perez", "emergence", "auto-organisation", "attracteurs", "feedback-loops", "theorie-des-reseaux", "lois-d-echelle", "nombre-d-or", "robustesse", "transitions-de-phase", "edge-of-chaos", "entropie", "structures-dissipatives", "theorie-des-catastrophes", "co-evolution"]
 ---
 
 # Le Sablier de Perez et la Science de la Complexité : Connexions Conceptuelles
