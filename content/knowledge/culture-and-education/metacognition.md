@@ -1,19 +1,8 @@
 ---
 title: "Metacognition"
 aliases: ["Metacognitive Processes", "Learning to Learn", "Thinking About Thinking"]
-tags:
-  - culture-and-education
-  - learning
-  - cognitive-science
-  - psychology
-  - critical-thinking
-  - self-regulation
-  - self-awareness
-  - educational-psychology
-created: 2026-01-27
-modified: 2026-01-27
-draft: false
-description: "The cognitive ability to think about one's own thinking, monitor understanding, and regulate learning processes"
+tags: ["learning", "cognitive-science", "psychology", "critical-thinking", "self-regulation", "self-awareness", "educational-psychology"]
+
 ---
 
 # Metacognition

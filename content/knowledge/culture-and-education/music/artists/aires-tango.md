@@ -4,18 +4,8 @@ description: "Argentine tango-jazz ensemble led by saxophonist Javier Girotto, e
 aliases:
   - "Javier Girotto"
   - "Javier Girotto & Aires Tango"
-tags:
-  - culture-and-education
-  - music
-  - tango
-  - jazz
-  - nuevo-tango
-  - cultural-transmission
-  - argentina
-  - italy
-date: 2026-02-19
-updated: 2026-02-19
-draft: false
+tags: ["music", "tango", "jazz", "nuevo-tango", "cultural-transmission", "argentina", "italy"]
+
 ---
 
 # Aires Tango

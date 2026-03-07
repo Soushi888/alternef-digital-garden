@@ -5,20 +5,8 @@ aliases:
   - "Quadrivium Education"
   - "Four Mathematical Arts"
   - "Mathematical Liberal Arts"
-tags:
-  - education
-  - classical-education
-  - liberal-arts
-  - quadrivium
-  - mathematics
-  - astronomy
-  - geometry
-  - music-theory
-  - pythagorean
-  - platonism
-created: 2026-01-05
-modified: 2026-01-05
-draft: false
+tags: ["education", "classical-education", "liberal-arts", "quadrivium", "mathematics", "astronomy", "geometry", "music-theory", "pythagorean", "platonism"]
+
 ---
 
 # The Quadrivium: The Four Mathematical Arts

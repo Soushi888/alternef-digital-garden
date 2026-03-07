@@ -1,20 +1,8 @@
 ---
 title: "Teleology"
 aliases: ["Purpose", "Final Cause", "Teleological Explanation", "Purpose-Driven Explanation"]
-tags:
-  - culture-and-education
-  - philosophy
-  - purpose
-  - meaning
-  - metaphysics
-  - ethics
-  - aristotelianism
-  - philosophy-of-science
-  - philosophy-of-mind
-created: 2025-10-28
-modified: 2025-10-28
-draft: false
-description: "The philosophical study of purpose, ends, and goals in nature, human action, and explanation - from Aristotle's final causes to contemporary debates in biology and ethics."
+tags: ["philosophy", "purpose", "meaning", "metaphysics", "ethics", "aristotelianism", "philosophy-of-science", "philosophy-of-mind", "from Aristotle's final causes to contemporary debates in biology and ethics."]
+
 ---
 
 # Teleology

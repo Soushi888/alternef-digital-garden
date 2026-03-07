@@ -4,18 +4,8 @@ description: "Intellectual and service-based professions characterized by specia
 aliases:
   - "Learned Professions"
   - "Professions Libérales"
-tags:
-  - culture-and-education
-  - professional-work
-  - liberal-professions
-  - career-development
-  - professional-ethics
-  - socio-economics
-  - european-context
-  - knowledge-economy
-created: 2026-01-05
-modified: 2026-01-05
-draft: false
+tags: ["professional-work", "liberal-professions", "career-development", "professional-ethics", "socio-economics", "european-context", "knowledge-economy"]
+
 ---
 
 # Liberal Professions

@@ -2,12 +2,8 @@
 title: Artists & Ensembles
 description: "Musicians and groups who shape, transmit, and transform musical traditions."
 date: 2026-02-19
-tags:
-  - culture-and-education
-  - music
-  - artists
-  - musicians
-  - ensembles
+tags: ["music", "artists", "musicians", "ensembles"]
+
 ---
 
 The musicians and ensembles documented here represent living threads of musical tradition — carrying forward the DNA of their influences while transforming it through personal voice and cultural encounter.

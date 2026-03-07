@@ -5,18 +5,8 @@ aliases:
   - "Four Dimensions of Freedom"
   - "Evolution of Liberal"
   - "Liber Etymology"
-tags:
-  - philosophy
-  - freedom
-  - liberal-arts
-  - political-theory
-  - economics
-  - education
-  - classical-education
-  - ethics
-created: 2026-01-05
-modified: 2026-01-05
-draft: false
+tags: ["philosophy", "freedom", "liberal-arts", "political-theory", "economics", "education", "classical-education", "ethics"]
+
 ---
 
 # The Four Freedoms

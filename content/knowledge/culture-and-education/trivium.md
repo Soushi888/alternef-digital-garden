@@ -5,18 +5,8 @@ aliases:
   - "Trivium Education"
   - "Three Liberal Arts"
   - "Grammar Logic Rhetoric"
-tags:
-  - education
-  - classical-education
-  - liberal-arts
-  - trivium
-  - rhetoric
-  - logic
-  - grammar
-  - critical-thinking
-created: 2026-01-05
-modified: 2026-01-05
-draft: false
+tags: ["education", "classical-education", "liberal-arts", "trivium", "rhetoric", "logic", "grammar", "critical-thinking"]
+
 ---
 
 # The Trivium: The Three Language Arts

@@ -2,11 +2,8 @@
 title: Music
 description: "Exploring music as cultural expression, embodied knowledge, and bridge between traditions — from theory and harmony to living artists and instruments."
 date: 2026-02-19
-tags:
-  - culture-and-education
-  - music
-  - arts
-  - cultural-transmission
+tags: ["music", "arts", "cultural-transmission"]
+
 ---
 
 Music occupies a unique place at the intersection of mathematical structure and human emotion. In the classical [[quadrivium|Quadrivium]], it was understood as "number in time" — the study of temporal proportion and harmony unfolding through sound. Beyond theory, music is a living practice of cultural transmission, collective improvisation, and embodied knowledge.

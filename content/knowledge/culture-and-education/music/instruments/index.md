@@ -2,11 +2,8 @@
 title: Instruments
 description: "The tools of musical expression — their construction, technique, history, and cultural significance."
 date: 2026-02-19
-tags:
-  - culture-and-education
-  - music
-  - instruments
-  - lutherie
+tags: ["music", "instruments", "lutherie"]
+
 ---
 
 Musical instruments are where material craft meets artistic expression. Each instrument carries its own history, cultural context, and physical relationship between player and sound.

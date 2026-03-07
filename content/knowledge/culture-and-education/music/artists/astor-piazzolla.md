@@ -4,19 +4,8 @@ description: "Argentine bandoneon virtuoso and composer (1921–1992) who revolu
 aliases:
   - "Piazzolla"
   - "Astor Pantaleón Piazzolla"
-tags:
-  - culture-and-education
-  - music
-  - tango
-  - nuevo-tango
-  - bandoneon
-  - argentina
-  - composer
-  - jazz
-  - classical-music
-date: 2026-02-19
-updated: 2026-02-19
-draft: false
+tags: ["music", "tango", "nuevo-tango", "bandoneon", "argentina", "composer", "jazz", "classical-music"]
+
 ---
 
 # Astor Piazzolla

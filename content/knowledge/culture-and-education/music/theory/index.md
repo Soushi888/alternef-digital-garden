@@ -2,13 +2,8 @@
 title: Music Theory
 description: "The structures and principles that organize sound into meaningful expression — explored through three fundamental dimensions: rhythm, harmony, and melody."
 date: 2026-02-19
-tags:
-  - culture-and-education
-  - music
-  - music-theory
-  - harmony
-  - rhythm
-  - melody
+tags: ["music", "music-theory", "harmony", "rhythm", "melody"]
+
 ---
 
 Music theory explores the principles that organize sound into meaningful expression. From the Pythagorean ratios of the [[quadrivium|Quadrivium]] to contemporary jazz and tango harmony, theory reveals the mathematical and perceptual structures underlying all music.

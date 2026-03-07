@@ -2,14 +2,8 @@
 title: Harmony
 description: "Music in vertical space — intervals, chords, tonality, modes, voice leading, and the simultaneous relationships between sounds."
 date: 2026-02-19
-tags:
-  - culture-and-education
-  - music
-  - music-theory
-  - harmony
-  - chords
-  - tonality
-  - modes
+tags: ["music", "music-theory", "harmony", "chords", "tonality", "modes"]
+
 ---
 
 Harmony is the dimension of music that organizes **simultaneous sounds** — what happens when tones sound together. It governs the tension and resolution, the color and mood that give music its emotional depth. From Pythagorean consonance to [[nuevo-tango|Piazzolla's]] jazz-inflected dissonances, harmony is the vertical architecture of musical expression.

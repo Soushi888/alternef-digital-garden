@@ -2,13 +2,8 @@
 title: Rhythm
 description: "Music in time — pulse, meter, syncopation, polyrhythm, groove, and the temporal structures that give music its forward motion."
 date: 2026-02-19
-tags:
-  - culture-and-education
-  - music
-  - music-theory
-  - rhythm
-  - meter
-  - polyrhythm
+tags: ["music", "music-theory", "rhythm", "meter", "polyrhythm"]
+
 ---
 
 Rhythm is the dimension of music that organizes sound in **time**. It is the most primal element — present in heartbeat, breath, and footstep before any melody or harmony. In the [[quadrivium|Quadrivium]], music itself is defined as "number in time," and rhythm is that temporal foundation.

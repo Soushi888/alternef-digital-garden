@@ -4,17 +4,8 @@ description: "The foundational curriculum of classical and medieval education, d
 aliases:
   - "Seven Liberal Arts"
   - "Classical Education"
-tags:
-  - education
-  - classical-education
-  - liberal-arts
-  - history
-  - philosophy
-  - trivium
-  - quadrivium
-created: 2026-01-05
-modified: 2026-01-05
-draft: false
+tags: ["education", "classical-education", "liberal-arts", "history", "philosophy", "trivium", "quadrivium"]
+
 ---
 
 The **Seven Liberal Arts** formed the foundation of medieval and classical education, divided into the [[trivium|Trivium]] (language-based arts) and the [[quadrivium|Quadrivium]] (mathematical and scientific arts). These disciplines were designed to cultivate intellectual freedom and philosophical understanding, ultimately guiding students toward wisdom.

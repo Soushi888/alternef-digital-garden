@@ -1,12 +1,8 @@
 ---
 title: Culture and Education
 description: A holistic exploration of learning, cultural dynamics, and human knowledge transmission
-tags:
-  - education
-  - culture
-  - learning
-  - knowledge-systems
-  - human-development
+tags: ["education", "culture", "learning", "knowledge-systems", "human-development"]
+
 ---
 
 This section explores the intricate relationship between culture, education, and human knowledge, examining how societies learn, evolve, and transmit understanding across generations.

@@ -1,21 +1,8 @@
 ---
 title: "Hermeneutics"
 aliases: ["Interpretation Theory", "Hermeneutical Theory", "Theory of Interpretation"]
-tags:
-  - culture-and-education
-  - philosophy
-  - interpretation
-  - meaning-making
-  - epistemology
-  - exegesis
-  - understanding
-  - communication
-  - biblical-studies
-  - phenomenology
-created: 2025-01-16
-modified: 2025-01-16
-draft: false
-description: "The theory and methodology of interpretation, from biblical exegesis to philosophical framework for understanding human existence and meaning."
+tags: ["philosophy", "interpretation", "meaning-making", "epistemology", "exegesis", "understanding", "communication", "biblical-studies", "phenomenology"]
+
 ---
 
 # Hermeneutics

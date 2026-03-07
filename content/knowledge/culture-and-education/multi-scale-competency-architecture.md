@@ -1,20 +1,8 @@
 ---
 title: "Multi-Scale Competency Architecture"
 aliases: ["MCA", "Multiscale Competency Architecture", "Collective Intelligence Architecture", "Hierarchical Competency"]
-tags:
-  - culture-and-education
-  - complexity-theory
-  - systems-thinking
-  - collective-intelligence
-  - biology
-  - emergence
-  - distributed-cognition
-  - adaptive-systems
-  - morphology
-created: 2025-10-28
-modified: 2025-10-28
-draft: false
-description: "A hierarchical organization found in biological systems where each level possesses its own problem-solving competencies within specific action spaces, enabling adaptive navigation toward goal states without top-down control."
+tags: ["complexity-theory", "systems-thinking", "collective-intelligence", "biology", "emergence", "distributed-cognition", "adaptive-systems", "morphology"]
+
 ---
 
 # Multi-Scale Competency Architecture
