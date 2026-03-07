@@ -1,18 +1,8 @@
 ---
 title: "Hatha Yoga"
 description: "A comprehensive exploration of traditional Hatha Yoga, the classical Indian path of body-mind integration rooted in the Natha Sampradaya"
-tags:
-  - hatha-yoga
-  - postures
-  - pranayama
-  - meditation
-  - mind-body-connection
-  - natha-sampradaya
-  - indian-philosophy
-date: 2025-01-07
-categories:
-  - Health & Wellbeing
-  - Indian Philosophy
+tags: ["hatha-yoga", "postures", "pranayama", "meditation", "mind-body-connection", "natha-sampradaya", "indian-philosophy", "Health & Wellbeing", "Indian Philosophy"]
+
 ---
 
 *An exploration of the harmonious union of breath, body, and mind through the classical Indian tradition of the Natha Sampradaya*

@@ -1,25 +1,8 @@
 ---
 title: "Qi Gong: The Art of Cultivating Vital Energy"
 description: "An exploration of Qi Gong, an ancient Chinese practice combining gentle movements, controlled breathing, and meditation to harmonize the body's vital energy"
-tags:
-  - qi-gong
-  - traditional-chinese-medicine
-  - vital-energy
-  - breathwork
-  - meditation
-  - movement-practices
-  - wellbeing
-  - mind-body-connection
-  - ancient-traditions
-date: 2026-02-03
-aliases:
-  - Chi Kung
-  - Chi Gong
-  - Qigong
-categories:
-  - Health & Wellbeing
-  - Eastern Practices
-  - Traditional Medicine
+tags: ["qi-gong", "traditional-chinese-medicine", "vital-energy", "breathwork", "meditation", "movement-practices", "wellbeing", "mind-body-connection", "ancient-traditions", "Chi Kung", "Chi Gong", "Qigong", "Health & Wellbeing", "Eastern Practices", "Traditional Medicine"]
+
 ---
 
 # Qi Gong: The Art of Cultivating Vital Energy

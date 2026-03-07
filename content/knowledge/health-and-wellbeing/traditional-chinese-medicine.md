@@ -4,21 +4,8 @@ aliases:
   - "TCM"
   - "Chinese Medicine"
   - "Classical Chinese Medicine"
-tags:
-  - health-and-wellbeing
-  - holistic-healing
-  - ancient-traditions
-  - traditional-chinese-medicine
-  - qi
-  - acupuncture
-  - herbal-medicine
-  - mind-body-connection
-date: 2026-03-02
-description: "An overview of Traditional Chinese Medicine, its theoretical foundations in qi, yin/yang, and the five elements, and its clinical modalities including acupuncture, herbs, and qi gong"
-categories:
-  - Health & Wellbeing
-  - Traditional Medicine
-  - Eastern Practices
+tags: ["holistic-healing", "ancient-traditions", "traditional-chinese-medicine", "qi", "acupuncture", "herbal-medicine", "mind-body-connection", "Health & Wellbeing", "Traditional Medicine", "Eastern Practices"]
+
 ---
 
 *A complete system of healing developed over millennia, understanding health as the dynamic balance of vital energy flowing through the body's meridian network*

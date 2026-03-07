@@ -4,25 +4,8 @@ aliases:
   - "Kundalini"
   - "Kundalini Practice"
 description: "A spiritual and energetic practice rooted in Hindu yogic and tantric traditions, focused on awakening the Kundalini energy through the chakras via kriyas, pranayama, mantras, and meditation"
-tags:
-  - kundalini-yoga
-  - kundalini
-  - yoga
-  - pranayama
-  - meditation
-  - chakras
-  - shakti
-  - tantric-traditions
-  - indian-philosophy
-  - mind-body-connection
-  - ancient-traditions
-  - movement-practices
-  - holistic-healing
-  - breathwork
-date: 2026-03-03
-categories:
-  - Health & Wellbeing
-  - Indian Philosophy
+tags: ["kundalini-yoga", "kundalini", "yoga", "pranayama", "meditation", "chakras", "shakti", "tantric-traditions", "indian-philosophy", "mind-body-connection", "ancient-traditions", "movement-practices", "holistic-healing", "breathwork", "Health & Wellbeing", "Indian Philosophy"]
+
 ---
 
 *A technology of consciousness: activating the dormant spiritual energy at the base of the spine and guiding it upward through the chakras toward liberation*

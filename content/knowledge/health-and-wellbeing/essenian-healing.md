@@ -4,20 +4,8 @@ aliases:
   - "Essene Medicine"
   - "Essenian Medicine"
   - "Essenian Therapies"
-tags:
-  - health-and-wellbeing
-  - holistic-healing
-  - ancient-traditions
-  - energy-medicine
-  - essenian
-  - esoteric-traditions
-  - bodywork
-date: 2026-03-02
-description: "An exploration of Essenian healing practices, their historical roots in the Essene sect of antiquity, and their 20th-century reconstruction as a subtle energy medicine tradition"
-categories:
-  - Health & Wellbeing
-  - Traditional Medicine
-  - Esoteric Traditions
+tags: ["holistic-healing", "ancient-traditions", "energy-medicine", "essenian", "esoteric-traditions", "bodywork", "Health & Wellbeing", "Traditional Medicine", "Esoteric Traditions"]
+
 ---
 
 *A tradition standing at the intersection of historical scholarship and esoteric reconstruction, offering practices for healing the body and its subtle dimensions*

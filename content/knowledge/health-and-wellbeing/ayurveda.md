@@ -4,21 +4,8 @@ aliases:
   - "Ayurvedic Medicine"
   - "Ayurvedic Healing"
   - "Science of Life"
-tags:
-  - health-and-wellbeing
-  - holistic-healing
-  - ancient-traditions
-  - ayurveda
-  - doshas
-  - herbal-medicine
-  - mind-body-connection
-  - yoga
-date: 2026-03-02
-description: "An exploration of Ayurveda, the classical Indian science of life, its theory of constitutional types (doshas), and its comprehensive approach to health through diet, herbs, yoga, and daily rhythms"
-categories:
-  - Health & Wellbeing
-  - Traditional Medicine
-  - Indian Philosophy
+tags: ["holistic-healing", "ancient-traditions", "ayurveda", "doshas", "herbal-medicine", "mind-body-connection", "yoga", "Health & Wellbeing", "Traditional Medicine", "Indian Philosophy"]
+
 ---
 
 *The ancient Indian science of life, offering a complete framework for health built on constitutional knowledge, elemental theory, and the wisdom of living in harmony with natural rhythms*
