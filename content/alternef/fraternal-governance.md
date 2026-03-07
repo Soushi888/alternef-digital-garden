@@ -2,8 +2,7 @@
 title: "The AlterNef Fraternal Governance Model"
 subtitle: "A Decentralized Structure Inspired by Initiatic Traditions"
 date: 2026-02-18
-tags: ["alternef", "governance", "fraternal-model", "decentralization", "rose-croix", "fractal-sovereignty", "double-governance", "jurisdictional-autonomy", "commons", "holochain", "Fraternal Governance", "AlterNef Governance Model", "Double Governance", "Governance", "Vision Documents"]
-
+tags: ["holochain", "commons", "alternef", "governance", "decentralization", "fractal-sovereignty", "vision-documents"]
 ---
 
 # The AlterNef Fraternal Governance Model

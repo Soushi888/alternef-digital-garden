@@ -1,7 +1,7 @@
 ---
 title: "Portfolio"
 description: "Semantic infrastructure for distributed coordination, at the intersection of the semantic web, peer-to-peer architecture, and commons-based economics."
-tags: ["portfolio", "holochain", "distributed-systems", "commons"]
+tags: ["holochain", "distributed-systems", "commons"]
 
 ---
 

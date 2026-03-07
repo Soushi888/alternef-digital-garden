@@ -3,8 +3,7 @@ title: "The Compiled Stack: Building Sovereign Software with Rust, Tauri, Svelte
 date: "2026-03-02"
 author: "Soushi888"
 description: "A LinkedIn article adapting the compiled stack blog post for professional audience."
-tags:
-  ["linkedin", "rust", "svelte", "holochain", "software-architecture", "typescript", "webassembly"]
+tags: ["holochain", "rust", "svelte", "webassembly", "typescript", "software-architecture"]
 draft: false
 ---
 

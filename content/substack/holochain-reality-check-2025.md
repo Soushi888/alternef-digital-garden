@@ -4,7 +4,7 @@ subtitle: "Why the most honest tech ecosystem might be the smartest long-term be
 date: "2025-09-09"
 author: "Alternef"
 preview: "After analyzing 140+ repositories with AI tools, I discovered something surprising: Holochain's 'alpha everything' status isn't a weakness—it's a refreshing sign of technical honesty in a world of vaporware."
-tags: ["holochain", "distributed-web", "tech-analysis", "web3", "peer-to-peer"]
+tags: ["holochain", "peer-to-peer", "web3"]
 
 ---
 

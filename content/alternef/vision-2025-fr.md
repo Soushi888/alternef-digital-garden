@@ -2,8 +2,7 @@
 title: "L'AlterNef : Une Vision pour l'Ère du Verseau"
 subtitle: "De la Cité Universelle Volante aux Fondations d'Aujourd'hui"
 date: 2025-08-22
-tags: ["alternef", "vision", "ere-du-verseau", "education", "communaute", "conscience", "technologie-plasma", "holochain", "distributed-systems", "apprentissage", "Documents de Vision", "Projets Futurs"]
-
+tags: ["holochain", "distributed-systems", "alternef", "education", "communaute", "conscience"]
 ---
 
 # L'AlterNef : Une Vision pour l'Ère du Verseau

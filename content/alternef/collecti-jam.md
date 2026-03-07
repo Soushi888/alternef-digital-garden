@@ -3,7 +3,7 @@ title: "Collecti-Jam : un module vivant pour l'AlterNef"
 description: "Collecti-Jam est un module vivant de l'AlterNef qui utilise l'improvisation musicale collective comme terrain d'expérimentation de l'apprentissage pair-à-pair, de l'économie ouverte et de la transformation intérieure."
 aliases:
   - "Collecti-Jam"
-tags: ["alternef", "musique", "apprentissage-pair-a-pair", "improvisation", "jazzotherapie", "lutherie", "sensorica", "nondominium", "communaute", "peer-to-peer"]
+tags: ["alternef", "nondominium", "lutherie", "sensorica", "communaute", "peer-to-peer"]
 
 ---
 
