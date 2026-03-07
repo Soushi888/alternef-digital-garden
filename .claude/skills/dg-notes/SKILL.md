@@ -117,10 +117,10 @@ Quartz's frontmatter transformer (`quartz/plugins/transformers/frontmatter.ts`) 
 Prefer `date` and `updated` for consistency with the project CLAUDE.md conventions.
 
 ### Tag rules
-- Always lowercase, kebab-case
-- First tag should be a domain-level tag (e.g., `programming`, `governance`, `ecology`)
-- Use existing tags from the garden before creating new ones
-- Common cross-domain tags: `holochain`, `decentralization`, `open-source`, `peer-to-peer`
+
+Tag rules, vocabulary, and format standards live in **`dg-tags`** (`TagVocabulary.md`). Load `dg-tags` when working with tags. After drafting a note, run the `SuggestTags` workflow from `dg-tags` to get validated tag suggestions.
+
+Summary: lowercase kebab-case, domain tag first, 3-7 tags, YAML array format `tags: ["tag1", "tag2"]`.
 
 ## Content Structure
 

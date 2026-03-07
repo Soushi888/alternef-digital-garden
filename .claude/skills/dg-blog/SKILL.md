@@ -109,11 +109,10 @@ audience: "technical"          # Or "spiritual-seekers", "general"
 - **AI collaboration**: `"Claude & Soushi888"` (when AI co-authored)
 
 ### Tag rules
-- First tag is ALWAYS `"blog"`
-- Lowercase, kebab-case
-- Technical tags: `rust`, `tauri`, `svelte`, `holochain`, `webassembly`, `typescript`, `effect`
-- Conceptual: `functional-programming`, `peer-to-peer`, `local-first`, `software-architecture`
-- Domain: `economic-design`, `decentralization`, `commons-based-peer-production`
+
+Tag vocabulary and format standards live in **`dg-tags`** (`TagVocabulary.md`). Load `dg-tags` when working with tags. After drafting a post, run `SuggestTags` from `dg-tags` to get tag suggestions.
+
+**Blog-specific exception (stays here):** `blog` is always the **first** tag for every blog post. dg-tags' `SuggestTags` workflow prepends it automatically for `content/blog/` paths.
 
 ## Post Structure
 
