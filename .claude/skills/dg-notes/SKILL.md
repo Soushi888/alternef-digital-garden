@@ -124,10 +124,11 @@ Summary: lowercase kebab-case, domain tag first, 3-7 tags, YAML array format `ta
 
 ## Content Structure
 
+### No H1 title in body
+**Rule:** Never start a note with `# Title`. The `title` frontmatter field is the canonical title — Quartz renders it as the page H1. Adding `# Title` in the body duplicates the heading.
+
 ### Standard note body
 ```markdown
-# Note Title
-
 Brief description of the topic (1-2 paragraphs).
 
 ## Key Concepts

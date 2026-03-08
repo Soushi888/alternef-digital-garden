@@ -11,8 +11,6 @@ date: YYYY-MM-DD
 draft: false
 ---
 
-# Note Title
-
 Brief description of the topic and why it matters (1-2 paragraphs).
 
 ## Key Concepts

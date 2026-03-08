@@ -116,6 +116,9 @@ Tag vocabulary and format standards live in **`dg-tags`** (`TagVocabulary.md`). 
 
 ## Post Structure
 
+### No H1 title in body
+**Rule:** Never start a post with `# Title`. The `title` frontmatter field is the canonical title — Quartz renders it as the page H1. Adding `# Title` in the body duplicates the heading.
+
 ### Opening pattern
 ```markdown
 *Italicized hook restating the core thesis in 1-2 compelling sentences*
@@ -222,6 +225,17 @@ Blog posts should link to knowledge garden notes where relevant:
 - Governance models: `[[open-value-networks|Open Value Networks]]`
 
 This creates bidirectional connections between blog analysis and reference knowledge.
+
+### Wikilink rules
+
+When linking to knowledge notes, follow these rules from `dg-notes`:
+
+- **Regular notes**: `[[note-filename|Display Name]]` (shortest path, no folder prefix needed)
+- **Index files**: ALWAYS use the full absolute path from `knowledge/`:
+  - WRONG: `[[mystical-oriented-programming|...]]`
+  - WRONG: `[[mystical-oriented-programming/index|...]]`
+  - CORRECT: `[[knowledge/tools-and-technology/.../mystical-oriented-programming/index|...]]`
+- Never use relative paths (`../`) — they break in Quartz
 
 ## French Translation
 
