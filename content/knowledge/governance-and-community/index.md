@@ -26,7 +26,9 @@ This section explores the intricate dynamics of human organization, examining ho
 - Decentralized organizational design
 - Adaptive governance systems
 - Conflict resolution mechanisms
+- [[collective-intelligence|Collective Intelligence]] - Shared group intelligence emerging from distributed collaboration, coordination, and diverse individual contributions
 - [[open-value-networks|Open Value Networks]] - Commons-based peer production models
+- [[holomidale-collective-intelligence|Holomidale Collective Intelligence]] - Decentralized, self-organized collective intelligence emerging from digital tools, contrasted with pyramidal command structures
 
 ### 4. Digital Governance
 - Online community management

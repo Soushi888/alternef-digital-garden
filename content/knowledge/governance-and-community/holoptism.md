@@ -142,6 +142,7 @@ Support multiple platforms and tools to accommodate different participation styl
 - **Algorithmic Governance**: Automated decision-making systems operating within holoptic frameworks
 
 ## Related Topics
+- [[holomidale-collective-intelligence|Holomidale Collective Intelligence]]
 - [[collective-intelligence|Collective Intelligence]]
 - [[transparency|Transparency in Governance]]
 - [[peer-to-peer|Peer-to-Peer Systems]]

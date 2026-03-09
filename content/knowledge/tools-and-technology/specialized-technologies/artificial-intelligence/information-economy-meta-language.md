@@ -4,10 +4,11 @@ aliases:
   - IEML
   - Méta-langage de l'Économie de l'information
 tags: ["artificial-intelligence", "collective-intelligence", "semantic-web"]
+updated: 2026-03-09
 
 ---
 
-**IEML** (Information Economy Meta-Language) is an open-source artificial metalanguage designed to represent the semantic content of linguistic signs in a computer-readable way. It was developed by **Pierre Lévy** as part of his work on **collective intelligence**, aiming to encode meaning in a way that is both computable and aligned with the expressive power of natural languages.
+**IEML** (Information Economy Meta-Language) is an open-source artificial metalanguage designed to represent the semantic content of linguistic signs in a computer-readable way. It was developed by **Pierre Lévy** as part of his work on **[[collective-intelligence|collective intelligence]]**, aiming to encode meaning in a way that is both computable and aligned with the expressive power of natural languages.
 
 ## About Pierre Lévy
 
@@ -96,6 +97,7 @@ Lévy positions IEML as more than a technical tool—it is "a project for a new 
 
 ## Related Topics
 
+- [[collective-intelligence|Collective Intelligence]]
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]
 - [[semantic-ai|Semantic AI]]
 - [[neural-network|Neural Networks]]
