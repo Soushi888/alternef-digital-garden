@@ -95,6 +95,7 @@ The Circle is a small-scale laboratory for holomidale principles: no hierarchy, 
 
 ## Related Topics
 
+- [[holonic-structure|Holonic Structure]]: The holon framework from which the "holo" prefix derives, describing autonomous units simultaneously whole and part of larger systems
 - [[holoptism|Holoptism]]: Noubel's related concept: P2P transparent access to participant and project information enabling coordinated self-organization
 - [[sociocracy-3|Sociocracy 3.0]]: Consent-based governance using circles and distributed authority
 - [[open-value-networks|Open Value Networks]]: Commons-based peer production coordinating through transparent value flows

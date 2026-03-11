@@ -113,6 +113,7 @@ For those interested in exploring these concepts further, key texts include "Com
 
 ## Related Topics in This Garden
 
+- [[holonic-structure|Holonic Structure]] - Holons and holarchies as a structural model for complex adaptive systems
 - [[holoptism|Holoptism]] - P2P coordination and collective intelligence
 - [[multi-scale-competency-architecture|Multi-Scale Competency Architecture]] - Hierarchical organization in biological systems
 - [[hormesis|Hormesis]] - Adaptive stress responses and dose-response principles
