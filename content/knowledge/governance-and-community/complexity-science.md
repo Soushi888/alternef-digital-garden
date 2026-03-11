@@ -119,3 +119,4 @@ For those interested in exploring these concepts further, key texts include "Com
 - [[hormesis|Hormesis]] - Adaptive stress responses and dose-response principles
 - [[knowledge/governance-and-community/index|Democratic Governance]] - Applying complexity principles to social organization
 - [[bioregionalism|Bioregionalism]] - Complex ecological systems and place-based organization
+- [[complexity-economy|Complexity Economics]] - Application of complexity science principles to economic systems modeling

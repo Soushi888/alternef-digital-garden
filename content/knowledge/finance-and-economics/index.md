@@ -15,7 +15,7 @@ This section delves into the complex world of economic systems, financial techno
 - Macroeconomic and microeconomic principles
 - Alternative economic models
 - Behavioral economics
-- Complexity economics
+- [[complexity-economy|Complexity Economics]] - Complex adaptive systems approach to economic modeling
 
 ### 2. Financial Technologies
 - Digital financial systems
