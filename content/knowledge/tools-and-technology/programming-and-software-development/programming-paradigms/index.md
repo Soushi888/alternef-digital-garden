@@ -42,6 +42,15 @@ A unique paradigm that incorporates ancient wisdom traditions, spiritual princip
 **Key Concepts**: Sacred Architecture, Ritual Development Workflows, Philosophical Code Principles
 **Use Cases**: Transformative software, cooperative systems, consciousness-aware applications
 
+### [Complexity Oriented Programming](complexity-oriented-programming.md)
+
+_A paradigm that models complex systems faithfully rather than reducing them_
+
+Rather than hiding complexity behind abstractions, COP treats emergence, feedback loops, and attractors as first-class design concerns. The programmer acts as an ecologist, writing rules and conditions, then observing what arises from their interaction.
+
+**Key Concepts**: Feedback Loops, Attractors, Emergence Contracts, Observer Positions
+**Use Cases**: Distributed systems, commons governance, agent-centric architectures
+
 ## Paradigm Categories
 
 ### Computational Paradigms
@@ -71,6 +80,7 @@ _Specialized approaches for particular problem domains_
 - **Domain-Driven Design**: Business-focused modeling and architecture
 - **Reactive Programming**: Stream-oriented and change-propagation focused
 - **Mystical Oriented Programming**: Wisdom-tradition informed development
+- **Complexity Oriented Programming**: Ecology-informed, emergence-first distributed systems
 
 ## Paradigm Relationships
 
@@ -82,6 +92,7 @@ Many paradigms work well together and can be combined for more powerful solution
 - **Object-Oriented + Domain-Driven**: Objects modeling business entities
 - **Functional + Domain-Driven**: Immutable value objects and pure domain logic
 - **Reactive + Mystical**: State transformations as alchemical processes
+- **COP + MOP**: Structural honesty nested within intentional purpose
 
 ### Paradigm Evolution
 
@@ -95,6 +106,8 @@ Functional → Reactive → Functional Reactive Programming
 Domain-Driven Design → Event Sourcing/CQRS
      ↓
 Mystical Oriented Programming → Sacred Architecture
+     ↓
+Complexity Oriented Programming → Distributed Ecology Systems
 ```
 
 ## Choosing Paradigms
@@ -108,6 +121,7 @@ Different problems benefit from different paradigmatic approaches:
 **Mathematical Computations** → Functional Programming
 **User Interface Development** → Component-Based + Reactive
 **Transformative Applications** → Mystical Oriented Programming
+**Complex Distributed Systems** → Complexity Oriented Programming
 
 ### Team and Context Considerations
 
