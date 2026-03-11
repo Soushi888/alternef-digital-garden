@@ -1,76 +1,67 @@
 ---
 title: Tools and Platforms
 description: A comprehensive exploration of digital tools, productivity platforms, and technological ecosystems
-tags: ["tools", "productivity"]
-
+tags: ["tools-and-technology", "tools", "productivity", "platforms"]
+date: 2026-03-11
 ---
 
 ## Overview
 
-This section delves into the diverse landscape of digital tools and platforms, exploring technologies that enhance productivity, creativity, and collaborative work across various domains.
+This section explores the diverse landscape of digital tools and platforms: software that enhances productivity, creativity, and collaborative work across various domains, with a focus on open-source and self-hosted options.
 
 ## Notes in This Section
 
 ### Knowledge and PKM
-- [[obsidian|Obsidian]] — Local-first personal knowledge management using plain Markdown files
+- [[obsidian|Obsidian]]: Local-first personal knowledge management using plain Markdown files
+- [[hedgedoc|HedgeDoc]]: Open-source self-hosted real-time collaborative markdown editor
 
 ### Content Management
-- [[knowledge/tools-and-technology/tools-and-platforms/content-management/content-management-systems|Content Management Systems]] — Overview of CMS architectures: traditional, headless, decoupled
-- [[knowledge/tools-and-technology/tools-and-platforms/content-management/wiki|Wiki]] — Collaborative web-based systems for creating and organizing content collectively
+- [[knowledge/tools-and-technology/tools-and-platforms/content-management/index|Content Management]]: CMS architectures, wikis, and collaborative content publishing tools
+
+### Low-Code Platforms
+- [[knowledge/tools-and-technology/tools-and-platforms/low-code-platforms/index|Low-Code Platforms]]: Visual and model-driven development environments for building applications with minimal hand-coding
 
 ### Developer Tools
-- [[pieces|Pieces]] — AI-powered developer snippet and workflow management tool
-- [[qt|Qt]] — Comprehensive C++ framework for cross-platform application development with GUI support
+- [[pieces|Pieces]]: AI-powered developer snippet and workflow management tool
+- [[qt|Qt]]: Comprehensive C++ framework for cross-platform application development
 
 ### Information Management
-- [[library-management-systems|Library Management Systems]] — Integrated Library Systems for catalog, circulation, and acquisitions
+- [[library-management-systems|Library Management Systems]]: Integrated Library Systems for catalog, circulation, and acquisitions
 
 ### Licensing
-- [[licenses|Licenses]] — Overview of software and creative licenses, from open-source to proprietary
+- [[licenses|Licenses]]: Overview of software and creative licenses, from open-source to proprietary
 
 ## Key Focus Areas
 
-### 1. Content Management Systems
+### 1. Knowledge and PKM
+- Personal and collaborative note-taking environments
+- Local-first and self-hosted knowledge platforms
+- Real-time collaboration and shared editing tools
+
+### 2. Content Management Systems
 - Web content management platforms
 - Knowledge base and wiki technologies
-- Documentation tools
-- Digital publishing ecosystems
+- Documentation tools and digital publishing ecosystems
 
-### 2. Low-Code and No-Code Platforms
-- Rapid application development
-- Visual programming interfaces
-- Democratization of software creation
-- Enterprise application platforms
+### 3. Low-Code and Visual Development
+- Model-driven application generation
+- Meta low-code frameworks for developer-defined architectures
+- Cross-platform deployment from a single codebase
 
-### 3. Productivity and Collaboration Tools
-- Note-taking and knowledge management
-- Project management platforms
-- Team collaboration software
-- Workflow automation tools
-
-### 4. Development and Creative Platforms
-- Integrated development environments (IDEs)
-- Design and prototyping tools
+### 4. Developer and Creative Platforms
+- Cross-platform application frameworks
+- Snippet management and AI-assisted workflows
 - Version control and collaborative coding platforms
-- Creative software ecosystems
 
 ### 5. Open Source and Licensing
 - Software licensing models
 - Open-source development platforms
 - Community-driven tool ecosystems
-- Intellectual property management
 
 ## Guiding Principles
 - Empowerment through technology
-- User-centric design
-- Accessibility and inclusivity
-- Continuous innovation
+- Preference for open-source and self-hosted solutions
+- User-centric design and accessibility
 - Ethical tool development
-
-## Learning Approach
-- Practical exploration of digital tools
-- Comparative analysis of platforms
-- Understanding tool ecosystems
-- Hands-on experience with diverse technologies
 
 *A living document reflecting the dynamic landscape of digital tools and platforms.*
