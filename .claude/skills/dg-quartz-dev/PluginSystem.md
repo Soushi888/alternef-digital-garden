@@ -86,7 +86,7 @@ Available on `vfile.data`:
 - `filePath: FilePath` -- source file path
 - `relativePath: FilePath` -- relative path from content root
 - `frontmatter` -- parsed YAML frontmatter object
-- `dates` -- `{ created, modified, published }`
+- `dates` -- `{ created, modified, published, gitCreated? }` — `gitCreated` is the first git commit date, populated by `CreatedModifiedDate` via a rename-aware cache. Used by `RecentChanges` to distinguish new notes (one commit) from updated ones (multiple commits).
 - `description` -- extracted page description
 - `toc` -- table of contents entries
 

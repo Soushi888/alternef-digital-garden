@@ -46,8 +46,8 @@ This documentation outlines the custom Quartz components created to enhance the 
 *   **Purpose:** Displays a dynamic list of recently created or updated content.
 *   **Pattern:** Uses the standard `QuartzComponentConstructor` factory pattern (same as `RecentNotes`).
 *   **Features:**
-    *   Identifies new content based on the `created` date in frontmatter.
-    *   Identifies updated content based on the `modified` date in frontmatter (only if significantly different from `created`).
+    *   Classifies notes as **New** or **Updated** using `gitCreated` (first git commit date) vs `modified` (latest git commit date). A note is "Updated" if `modified − gitCreated > 1 hour`, meaning at least two distinct commits touched the file. Files renamed in git history are handled correctly via a rename-aware cache built at build time by the `CreatedModifiedDate` plugin.
+    *   Relies on the `CreatedModifiedDate` transformer plugin to populate `file.dates.gitCreated`.
     *   Formats dates relatively (e.g., "2 days ago").
     *   Can optionally display content excerpts and tags.
     *   Uses `resolveRelative()` for proper link resolution.

@@ -90,21 +90,16 @@ export default ((userOpts?: Partial<Options>) => {
 
     // Convert to ChangedItems
     const allItems: ChangedItem[] = sortedFiles.map((file: QuartzPluginData) => {
-      const hasExplicitModified = !!(
-        file.frontmatter?.modified ||
-        file.frontmatter?.updated ||
-        file.frontmatter?.lastmod
-      )
-      const frontmatterCreatedStr = file.frontmatter?.date || file.frontmatter?.created
-      const frontmatterCreated = frontmatterCreatedStr
-        ? new Date(String(frontmatterCreatedStr))
-        : null
+      const gitCreated = file.dates?.gitCreated
+      const modified = file.dates?.modified
 
+      // A note is "Updated" only if its first git commit predates the latest commit by >1h.
+      // Using gitCreated (first commit date) avoids the false-positive caused by date-only
+      // frontmatter fields being parsed as midnight UTC on the same day as the commit.
       const isModified =
-        hasExplicitModified ||
-        (frontmatterCreated !== null &&
-          file.dates?.modified !== undefined &&
-          file.dates.modified.getTime() - frontmatterCreated.getTime() > 60 * 60 * 1000)
+        gitCreated !== undefined &&
+        modified !== undefined &&
+        modified.getTime() - gitCreated.getTime() > 60 * 60 * 1000
 
       return {
         title: file.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title,
@@ -156,7 +151,9 @@ export default ((userOpts?: Partial<Options>) => {
                   <span class="recent-change-type">
                     {item.type === "created" ? "New" : "Updated"}
                   </span>
-                  <span class="recent-change-date" data-timestamp={item.date.getTime().toString()}>{formatRecentDate(item.date)}</span>
+                  <span class="recent-change-date" data-timestamp={item.date.getTime().toString()}>
+                    {formatRecentDate(item.date)}
+                  </span>
                 </div>
 
                 {opts.detailed && opts.showExcerpt && item.excerpt && (

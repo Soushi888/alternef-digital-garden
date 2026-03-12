@@ -54,7 +54,7 @@
 
 -   **Transformers**:
     -   `FrontMatter`: Parses YAML frontmatter.
-    -   `CreatedModifiedDate`: Adds created/modified dates to pages.
+    -   `CreatedModifiedDate`: Populates `file.dates` with `created`, `modified`, `published`, and `gitCreated` (first git commit date). Builds a rename-aware cache via `git log --reverse --diff-filter=AR --name-status` so files renamed in git history still resolve to their original add-date. `gitCreated` is used by `RecentChanges` to distinguish newly added notes (one commit) from updated ones (multiple commits).
     -   `SyntaxHighlighting`: Provides code block highlighting.
     -   `ObsidianFlavoredMarkdown`: Supports Obsidian-specific Markdown features (wikilinks, callouts).
     -   `GitHubFlavoredMarkdown`: Supports GFM features (tables, strikethrough).

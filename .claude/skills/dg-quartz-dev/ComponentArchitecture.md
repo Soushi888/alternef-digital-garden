@@ -171,3 +171,29 @@ export const defaultContentPageLayout: PageLayout = {
 ## Available Components
 
 ArticleTitle, Backlinks, Body, Breadcrumbs, Comments, ContentMeta, Darkmode, Date, DesktopOnly, Explorer, ExplorerNode, Footer, GitHubEditButton, Graph, Head, Header, MainMenu, MobileOnly, PageList, PageTitle, RecentChanges, Search, Spacer, TableOfContents, TagList
+
+## RecentChanges Component
+
+Displays recently created or updated notes. Requires `CreatedModifiedDate` transformer to run first (it populates `file.dates.gitCreated`).
+
+**New vs Updated classification** — compares `file.dates.gitCreated` (first git commit date) with `file.dates.modified` (latest git commit date):
+- `modified − gitCreated > 1 hour` → **Updated** (file has been committed more than once)
+- otherwise → **New** (single commit, file was just added)
+
+Using git-based dates avoids a false-positive from date-only frontmatter fields (`date: 2026-03-11`) being parsed as midnight UTC, which would appear hours before a same-day commit and incorrectly trigger "Updated".
+
+**Options:**
+```typescript
+interface Options {
+  title?: string           // heading text, default: "Recent Changes"
+  limit: number            // max items shown, default: 10
+  showCreated: boolean     // include "New" items, default: true
+  showModified: boolean    // include "Updated" items, default: true
+  detailed: boolean        // enables excerpt/tag display, default: false
+  filterBy: string[]       // only show items whose path contains one of these
+  showExcerpt: boolean     // show description (requires detailed: true)
+  showTags: boolean        // show tags (requires detailed: true)
+  linkToMore: SimpleSlug | false  // "View all" link when over limit
+  pages: FullSlug[]        // restrict to specific pages; [] = all pages
+}
+```

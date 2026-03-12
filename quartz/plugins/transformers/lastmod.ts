@@ -1,8 +1,50 @@
 import fs from "fs"
 import path from "path"
+import { execSync } from "child_process"
 import { Repository } from "@napi-rs/simple-git"
 import { QuartzTransformerPlugin } from "../types"
 import chalk from "chalk"
+
+// Cached per worker: maps filepath (relative to repo root) → timestamp of first git commit
+let _gitFirstCommitCache: Map<string, number> | null = null
+
+function buildGitFirstCommitCache(cwd: string): Map<string, number> {
+  if (_gitFirstCommitCache !== null) return _gitFirstCommitCache
+  _gitFirstCommitCache = new Map()
+  try {
+    // Process in chronological order (--reverse) so rename chains propagate correctly:
+    // when A→B→C, each rename transfers the original add-date to the new path.
+    const output = execSync(
+      "git log --reverse --diff-filter=AR --name-status --format='%aI'",
+      { cwd, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
+    )
+    let currentTs: number | null = null
+    for (const line of output.split("\n")) {
+      const trimmed = line.trim()
+      if (!trimmed) continue
+      if (/^\d{4}-\d{2}-\d{2}T/.test(trimmed)) {
+        currentTs = new Date(trimmed).getTime()
+      } else if (currentTs !== null) {
+        if (trimmed.startsWith("A\t")) {
+          _gitFirstCommitCache.set(trimmed.slice(2), currentTs)
+        } else if (trimmed.startsWith("R")) {
+          // "R100\told/path\tnew/path"
+          const parts = trimmed.split("\t")
+          if (parts.length === 3) {
+            const [, oldPath, newPath] = parts
+            // Carry forward the original first-commit date, not the rename date
+            const originalTs = _gitFirstCommitCache.get(oldPath) ?? currentTs
+            _gitFirstCommitCache.set(newPath, originalTs)
+            _gitFirstCommitCache.delete(oldPath)
+          }
+        }
+      }
+    }
+  } catch {
+    // not a git repo or git unavailable
+  }
+  return _gitFirstCommitCache
+}
 
 export interface Options {
   priority: ("frontmatter" | "git" | "filesystem")[]
@@ -75,10 +117,14 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
               }
             }
 
+            const firstCommitCache = buildGitFirstCommitCache(file.cwd)
+            const firstCommitTs = firstCommitCache.get(fp)
+
             file.data.dates = {
               created: coerceDate(fp, created),
               modified: coerceDate(fp, modified),
               published: coerceDate(fp, published),
+              gitCreated: firstCommitTs ? new Date(firstCommitTs) : undefined,
             }
           }
         },
@@ -93,6 +139,7 @@ declare module "vfile" {
       created: Date
       modified: Date
       published: Date
+      gitCreated?: Date
     }
   }
 }
