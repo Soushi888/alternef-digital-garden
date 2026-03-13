@@ -30,11 +30,14 @@ This section is a comprehensive journey through the art and science of software 
 - Scalability and performance considerations
 - Architectural decision-making frameworks
 
-### 4. Version Control
+### 4. Version Control and Release Management
 
 - Git workflows
 - Collaborative development strategies
 - Code management and history tracking
+- [[semantic-versioning|Semantic Versioning]]: MAJOR.MINOR.PATCH versioning conventions
+- [[long-term-support|Long Term Support (LTS)]]: extended support release lifecycle for stable, production-ready versions
+- [[changelog|Changelog]]: curated record of notable changes per version, following the Keep a Changelog convention
 
 ### 5. Theoretical Foundations
 
