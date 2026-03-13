@@ -49,7 +49,7 @@ Ubuntu Server has become the de facto standard for web infrastructure, powering 
 
 Ubuntu's release strategy balances innovation with stability through two parallel tracks:
 
-**Long Term Support (LTS) releases** arrive every two years with five years of free support and optional extended support for up to ten years. These versions prioritize stability, security, and compatibility, making them ideal for production environments.
+**[[long-term-support|Long Term Support (LTS)]] releases** arrive every two years with five years of free support and optional extended support for up to ten years. These versions prioritize stability, security, and compatibility, making them ideal for production environments.
 
 **Standard releases** occur every six months, featuring the latest software and technologies. While supported for only nine months, they allow users to access cutting-edge features and serve as testing grounds for future LTS innovations.
 
