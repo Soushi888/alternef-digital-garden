@@ -24,6 +24,10 @@ The synthesis created by Senegalese master Babacar Khane around 1964, also calle
 
 A spiritual and energetic practice rooted in Hindu yogic and tantric traditions. Its central focus is the awakening of Kundalini Shakti, a dormant energy conceptualized as a coiled serpent at the base of the spine, and its upward movement through the chakras toward liberation at the crown. Key practices include kriyas (structured sequences), Breath of Fire, mantras, bandhas (energy locks), and timed meditation. In the West, this tradition was transmitted by Yogi Bhajan, who founded 3HO in 1969.
 
+### [[balayam-yoga|Balayam Yoga]]
+
+An ancient yogic reflexology practice also known as the nail rubbing exercise, or Prasanna Mudra. Rooted in Ayurvedic and Vedic traditions and popularized globally through Baba Ramdev, Balayam consists of briskly rubbing the fingernails of both hands together for 5 to 10 minutes daily. The practice draws from zone therapy: nerve endings beneath the fingernails are believed to connect to scalp and hair follicles through energetic pathways (nadis), with the rubbing activating prana flow to the head region and potentially stimulating dormant hair follicles. The name derives from Sanskrit *bal* (hair) and *vyayam* (exercise).
+
 ---
 
 **[[knowledge/health-and-wellbeing/index|Health and Wellbeing]]** - Domain index
