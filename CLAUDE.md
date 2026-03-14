@@ -66,10 +66,6 @@ The core framework lives here. Key subdirectories:
 - **Markdown pipeline**: remark (parse) → rehype (transform) → HTML, with plugins for KaTeX, syntax highlighting (Shiki), GFM, and Obsidian-flavored features.
 - **SPA mode is disabled** (`enableSPA: false`); popovers are enabled.
 
-### MCP Implementation (`src/mcp/`)
-
-A Model Context Protocol server implementation using the Effect library. Provides tools for note creation, linking, garden building, and content discovery across knowledge domains.
-
 ### Testing (`tests/`)
 
 - **Unit tests**: `quartz/util/path.test.ts`, `quartz/depgraph.test.ts` — run with `tsx`.
