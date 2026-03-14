@@ -1,4 +1,7 @@
 ---
+title: "Dedium"
+description: "Notes on Dedium."
+date: 2025-02-15
 aliases:
   - DEDI
 related pages:

@@ -1,5 +1,7 @@
 ---
 title: "Multi-Scale Competency Architecture"
+description: "The MCA operates through multiple nested levels, each with distinct problem-solving capabilities:"
+date: 2025-10-28
 aliases: ["MCA", "Multiscale Competency Architecture", "Collective Intelligence Architecture", "Hierarchical Competency"]
 tags: ["systems-thinking", "emergence", "collective-intelligence", "adaptive-systems"]
 

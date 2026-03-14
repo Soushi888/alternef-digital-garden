@@ -1,4 +1,7 @@
 ---
+title: "GitHub"
+description: "Notes on GitHub."
+date: 2025-02-15
 tags: ["programming", "software-development", "open-source"]
 ---
 

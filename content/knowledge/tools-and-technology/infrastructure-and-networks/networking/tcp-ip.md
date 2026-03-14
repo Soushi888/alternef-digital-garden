@@ -1,5 +1,6 @@
 ---
 title: "TCP/IP Protocol Suite"
+description: "The TCP/IP (Transmission Control Protocol/Internet Protocol) is a suite of communication protocols used to interconnect network devices on the internet."
 aliases: ["Transmission Control Protocol/Internet Protocol", "Internet Protocol Suite", "TCP/IP Stack"]
 tags: ["networking", "tcp-ip", "internet-protocols"]
 created: 2025-12-02

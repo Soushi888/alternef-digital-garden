@@ -1,5 +1,6 @@
 ---
 title: TypeScript
+date: 2026-03-03
 description: A typed superset of JavaScript that compiles to plain JavaScript, adding static type checking and modern tooling
 aliases:
   - TS

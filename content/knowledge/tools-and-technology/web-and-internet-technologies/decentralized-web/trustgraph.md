@@ -1,5 +1,6 @@
 ---
 title: Trust Graph
+date: 2025-02-15
 description: An open protocol for decentralized trust relationships and reputation systems in distributed ecosystems
 tags: ["web3", "open-source", "protocols"]
 ---

@@ -1,5 +1,8 @@
 ---
-Aliases: [AGIX]
+title: "Singularity Network"
+description: "Notes on Singularity Network."
+date: 2025-02-15
+aliases: [AGIX]
 Type: Marketplace
 Blockchain: Cardano
 Token: AGIX

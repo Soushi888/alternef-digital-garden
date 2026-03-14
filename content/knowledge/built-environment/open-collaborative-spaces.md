@@ -1,5 +1,6 @@
 ---
 title: "Open Collaborative Spaces"
+description: "Open collaborative spaces are physical environments designed to facilitate informal, ad hoc interactions and teamwork, particularly when acoustical"
 aliases: ["OPS", "MakerSpaces", "FabLabs", "Collaborative Workspaces"]
 tags: ["collaboration"]
 created: 2025-10-21

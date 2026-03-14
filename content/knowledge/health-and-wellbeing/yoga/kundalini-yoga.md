@@ -1,5 +1,6 @@
 ---
 title: "Kundalini Yoga"
+date: 2026-03-03
 aliases:
   - "Kundalini"
   - "Kundalini Practice"

@@ -1,5 +1,6 @@
 ---
 title: 🌹 Alchemical Codex
+date: 2025-08-04
 description: A comprehensive index to the sacred documentation of the Requests and Offers project
 tags: ["programming-paradigms", "alchemy", "mysticism"]
 

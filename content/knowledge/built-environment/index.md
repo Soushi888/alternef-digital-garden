@@ -1,5 +1,6 @@
 ---
 title: Built Environment
+date: 2025-02-12
 description: A holistic exploration of human-made spaces, architectural design, and sustainable urban development
 tags: ["sustainability", "architecture", "urban-planning", "design"]
 

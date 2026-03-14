@@ -1,5 +1,6 @@
 ---
 title: Health and Wellbeing
+date: 2025-02-12
 description: A holistic exploration of human wellness, integrative health practices, and comprehensive life strategies
 tags: ["personal-development", "mind-body-connection", "health", "movement-practices", "psychology", "stress-physiology", "preventive-medicine"]
 

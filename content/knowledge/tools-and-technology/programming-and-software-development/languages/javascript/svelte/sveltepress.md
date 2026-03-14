@@ -1,4 +1,7 @@
 ---
+title: "Sveltepress"
+description: "Key features include:"
+date: 2025-02-15
 aliases: 
 tags: ["svelte", "frameworks"]
 

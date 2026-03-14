@@ -1,5 +1,6 @@
 ---
 title: "Four Freedoms"
+date: 2026-01-05
 description: "A synthesis of how the Latin liber (free) has been understood across four dimensions: Interior Freedom through liberal arts, Vocational Freedom in liberal professions, Social Freedom in political liberalism, and Material Freedom in economic liberalism."
 aliases:
   - "Four Dimensions of Freedom"

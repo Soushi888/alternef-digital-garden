@@ -1,5 +1,6 @@
 ---
 title: "Trivium"
+date: 2026-01-05
 description: "The three foundational liberal arts of classical education — Grammar, Logic, and Rhetoric — forming the basis of language mastery, critical reasoning, and persuasive expression."
 aliases:
   - "Trivium Education"

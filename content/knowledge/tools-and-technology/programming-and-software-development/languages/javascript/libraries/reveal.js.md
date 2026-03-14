@@ -1,5 +1,6 @@
 ---
 title: Reveal.js
+date: 2025-02-15
 description: Open source HTML presentation framework
 subtitle: Create beautiful web-based presentations with JavaScript
 aliases:

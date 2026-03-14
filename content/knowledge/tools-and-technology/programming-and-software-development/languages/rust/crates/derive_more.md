@@ -1,5 +1,6 @@
 ---
 title: Derive More
+date: 2025-02-15
 description: A library designed to reduce boilerplate code by allowing developers to derive common traits for their custom structs and enums.
 tags: ["rust", "crate"]
 

@@ -1,5 +1,6 @@
 ---
 title: Governance and Community
+date: 2025-02-12
 description: A holistic exploration of collective organization, social dynamics, and collaborative decision-making
 tags: ["governance", "community", "collective-intelligence", "social-systems"]
 

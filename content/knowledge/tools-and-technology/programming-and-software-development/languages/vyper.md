@@ -1,4 +1,7 @@
 ---
+title: "Vyper"
+description: "Vyper is a contract-oriented, pythonic programming language designed specifically for writing smart contracts on the Ethereum Virtual Machine (EVM). It"
+date: 2025-02-15
 aliases: 
 tags: ["programming", "smart-contracts", "evm"]
 

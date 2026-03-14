@@ -1,5 +1,6 @@
 ---
 title: Flowbite Svelte
+date: 2025-02-15
 description: UI component library for Svelte based on Tailwind CSS
 subtitle: Open-source components built with Svelte and Tailwind
 aliases:

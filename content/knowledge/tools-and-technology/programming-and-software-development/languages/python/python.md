@@ -1,4 +1,7 @@
 ---
+title: "Python"
+description: "Notes on Python."
+date: 2025-02-15
 tags: ["programming", "python", "software-development"]
 ---
 

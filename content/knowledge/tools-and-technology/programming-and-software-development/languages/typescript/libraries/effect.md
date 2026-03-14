@@ -1,5 +1,6 @@
 ---
 title: Effect
+date: 2025-03-15
 description: Powerful TypeScript framework for building robust, type-safe applications
 subtitle: A functional approach to managing side effects, errors, and concurrency
 aliases:

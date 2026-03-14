@@ -1,5 +1,6 @@
 ---
 title: Functional Programming with JavaScript and Effect
+date: 2025-03-06
 description: A comprehensive guide to functional programming techniques in JavaScript and TypeScript using the Effect library
 tags: ["effect", "functional-programming", "typescript", "javascript"]
 ---

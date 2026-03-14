@@ -1,10 +1,12 @@
 ---
 title: "Rust"
+date: 2025-02-15
 aliases:
   - Rust Lang
   - .rs
   - Rustlang
 tags: ["programming", "systems-programming", "performance", "low-level", "concurrency"]
+description: "A systems programming language focused on safety, concurrency, and performance."
 
 ---
 

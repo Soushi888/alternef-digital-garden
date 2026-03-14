@@ -1,5 +1,7 @@
 ---
 title: Semantic AI
+description: "Unlike traditional AI, which often operates as a 'black box' and requires large volumes of labeled data, Semantic AI provides explainable, transparent"
+date: 2025-02-15
 tags: ["artificial-intelligence", "semantic-web", "knowledge-graphs", "natural-language-processing"]
 
 ---

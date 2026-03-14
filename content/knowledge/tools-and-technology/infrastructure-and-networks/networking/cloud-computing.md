@@ -1,5 +1,6 @@
 ---
 title: "Cloud Computing"
+description: "Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining your"
 aliases: ["Cloud", "Cloud Infrastructure", "Cloud Services"]
 tags: [networking, cloud-computing, infrastructure, virtualization]
 created: 2025-12-02

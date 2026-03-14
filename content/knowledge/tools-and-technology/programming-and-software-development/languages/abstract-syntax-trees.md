@@ -1,5 +1,6 @@
 ---
 title: Abstract Syntax Trees (ASTs)
+date: 2025-02-22
 description: Understanding the role of Abstract Syntax Trees in programming languages and their importance in Domain-Specific Languages (DSLs)
 tags: ["programming", "language-design"]
 

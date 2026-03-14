@@ -1,4 +1,7 @@
 ---
+title: "Elna"
+description: "Notes on Elna."
+date: 2025-02-15
 tags: ["programming", "blockchain", "artificial-intelligence", "decentralization"]
 ---
 

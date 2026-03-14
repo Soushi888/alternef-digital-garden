@@ -1,5 +1,6 @@
 ---
 title: Holochain Applications (hApps)
+date: 2025-03-11
 description: Directory of applications, projects, and use cases built on the Holochain framework
 tags: ["holochain", "ecosystem", "happs", "holochain-projects", "applications"]
 ---

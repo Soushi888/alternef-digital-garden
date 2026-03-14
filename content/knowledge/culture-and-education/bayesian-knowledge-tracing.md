@@ -1,5 +1,7 @@
 ---
 title: "Bayesian Knowledge Tracing"
+description: "BKT updates the probability of mastery based on observed student interactions—typically whether a student answers a problem or step correctly or"
+date: 2025-11-03
 aliases: ["BKT", "Knowledge Tracing", "Student Modeling"]
 tags: ["machine-learning"]
 

@@ -1,4 +1,7 @@
 ---
+title: "JSON RPC"
+description: "JSON-RPC (Remote Procedure Call) is a protocol used for remote procedure calls, typically between a client and a server over a network. It uses the"
+date: 2025-02-15
 tags: ["programming", "networking", "distributed-systems"]
 ---
 

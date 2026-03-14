@@ -1,4 +1,7 @@
 ---
+title: "Pusdt"
+description: "Notes on Pusdt."
+date: 2025-02-15
 tags: ["programming", "blockchain", "decentralization", "governance"]
 ---
 

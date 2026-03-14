@@ -1,4 +1,7 @@
 ---
+title: "Git"
+description: "Notes on Git."
+date: 2025-02-15
 tags: ["programming", "software-development", "open-source"]
 ---
 

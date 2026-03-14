@@ -1,4 +1,7 @@
 ---
+title: "Fail Stop"
+description: "A fail-stop network failure is a type of network failure where a node in a distributed system fails by stopping all of its operations or going offline"
+date: 2025-02-15
 tags: ["programming", "distributed-systems", "networking"]
 ---
 

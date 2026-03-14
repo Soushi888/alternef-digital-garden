@@ -1,5 +1,7 @@
 ---
 title: Fabric AI
+description: "Fabric addresses the AI integration problem rather than the capabilities problem. While thousands of AI applications exist, integrating AI functionality"
+date: 2025-02-15
 aliases:
   - Fabric Framework
   - Daniel Miessler's Fabric

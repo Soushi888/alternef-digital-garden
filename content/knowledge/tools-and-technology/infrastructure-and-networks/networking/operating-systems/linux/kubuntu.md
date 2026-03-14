@@ -1,5 +1,6 @@
 ---
 title: "Kubuntu Linux"
+date: 2025-02-15
 description: "Kubuntu as Ubuntu's KDE Plasma variant, combining Ubuntu's stability with KDE's powerful desktop environment"
 aliases:
   - "Kubuntu KDE"

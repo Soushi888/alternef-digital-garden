@@ -1,5 +1,6 @@
 ---
 title: Web and Internet Technologies
+date: 2025-02-19
 description: A comprehensive exploration of web technologies, internet protocols, and digital ecosystem evolution
 tags: ["decentralization", "protocols", "web-dev", "internet"]
 

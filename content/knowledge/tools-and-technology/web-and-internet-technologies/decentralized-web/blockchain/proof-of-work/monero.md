@@ -1,5 +1,8 @@
 ---
-Aliases: [XMR]
+title: "Monero"
+description: "Notes on Monero."
+date: 2025-02-15
+aliases: [XMR]
 type: blockchain
 token: XMR
 blockchain: Monero

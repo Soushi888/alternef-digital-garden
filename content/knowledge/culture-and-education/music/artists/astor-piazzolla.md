@@ -1,5 +1,6 @@
 ---
 title: "Astor Piazzolla"
+date: 2026-02-19
 description: "Argentine bandoneon virtuoso and composer (1921–1992) who revolutionized tango by fusing it with jazz and classical music, creating the nuevo tango movement."
 aliases:
   - "Piazzolla"

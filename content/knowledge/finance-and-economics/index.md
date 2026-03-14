@@ -1,5 +1,6 @@
 ---
 title: Finance and Economics
+date: 2025-02-12
 description: A holistic exploration of economic systems, financial technologies, and sustainable value creation
 tags: ["economics", "finance"]
 

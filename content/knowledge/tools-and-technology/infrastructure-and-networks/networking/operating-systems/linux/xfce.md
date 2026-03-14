@@ -1,5 +1,6 @@
 ---
 title: "Xfce Desktop Environment"
+date: 2025-02-15
 description: "Xfce as a lightweight, efficient desktop environment for Linux computing that balances simplicity with functionality"
 aliases:
   - "Xfce Desktop"

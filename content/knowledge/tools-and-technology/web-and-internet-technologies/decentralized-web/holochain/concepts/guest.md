@@ -1,5 +1,6 @@
 ---
 title: Guest
+date: 2025-09-10
 description: WebAssembly applications that run in Holochain's secure sandbox environment, implementing application logic through host API interactions
 tags: ["holochain", "webassembly", "hdk"]
 ---

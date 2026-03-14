@@ -1,4 +1,7 @@
 ---
+title: "Rainlang"
+description: "Notes on Rainlang."
+date: 2025-02-15
 tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
 ---
 

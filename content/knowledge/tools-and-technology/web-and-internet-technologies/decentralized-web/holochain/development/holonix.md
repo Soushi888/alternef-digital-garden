@@ -1,5 +1,6 @@
 ---
 title: Holonix
+date: 2026-03-03
 description: The Nix-based reproducible development environment for Holochain application development
 aliases:
   - Holochain Nix Environment

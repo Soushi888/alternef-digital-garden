@@ -1,5 +1,6 @@
 ---
 title: Unity
+date: 2025-02-15
 description: A cross-platform real-time game engine used for 2D, 3D, VR, and AR applications
 aliases:
   - Unity Engine

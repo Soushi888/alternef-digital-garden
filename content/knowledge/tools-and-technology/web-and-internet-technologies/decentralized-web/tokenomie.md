@@ -1,5 +1,6 @@
 ---
 title: Tokenomics
+date: 2025-02-15
 description: The study of economic systems in blockchain networks through token design and distribution
 tags: ["blockchain", "economics", "cryptocurrency", "web3", "decentralization"]
 

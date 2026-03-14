@@ -1,5 +1,6 @@
 ---
 title: Sequential Thinking
+date: 2025-03-06
 description: A dynamic, adaptive approach to cognitive problem-solving and knowledge exploration in artificial intelligence
 tags: ["artificial-intelligence", "problem-solving"]
 

@@ -1,4 +1,7 @@
 ---
+title: "Substrate"
+description: "Framework for creating dApps for the Polkadot Blockchain."
+date: 2025-02-15
 tags: ["programming", "blockchain", "distributed-systems", "rust"]
 ---
 

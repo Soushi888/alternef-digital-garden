@@ -1,5 +1,6 @@
 ---
 title: Blockchain Technology
+date: 2025-02-19
 description: Comprehensive overview of blockchain technologies, consensus mechanisms, and their applications
 tags: ["blockchain", "distributed-systems", "web3", "consensus", "decentralization"]
 

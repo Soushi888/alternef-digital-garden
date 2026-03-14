@@ -1,5 +1,6 @@
 ---
 title: "Vector Databases"
+description: "Vector databases are critical infrastructure for generative AI, enabling models to access up-to-date, domain-specific knowledge. According to Gartner®, by"
 aliases: [Vector Database, Vector DB, VectorDB, Embedding Database]
 tags: ["artificial-intelligence", "machine-learning", "rag"]
 created: 2026-01-27

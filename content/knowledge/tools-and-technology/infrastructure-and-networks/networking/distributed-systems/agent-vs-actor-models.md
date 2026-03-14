@@ -1,5 +1,7 @@
 ---
 title: "Agent vs Actor Models"
+description: "While often confused or used interchangeably, Agent and Actor models represent distinct approaches to building distributed, concurrent systems."
+date: 2025-09-12
 aliases:
   - Agent and Actor comparison
   - Distributed computing models comparison

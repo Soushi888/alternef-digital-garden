@@ -1,5 +1,6 @@
 ---
 title: "Nuevo Tango"
+date: 2026-02-19
 description: "The revolutionary musical movement initiated by Astor Piazzolla in the mid-20th century, fusing traditional Argentine tango with jazz harmony, classical counterpoint, and extended forms."
 aliases:
   - "Tango Nuevo"

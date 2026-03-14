@@ -1,5 +1,6 @@
 ---
 title: "Unix Philosophy and Design Principles"
+date: 2025-02-15
 description: "The foundational operating system philosophy that shaped modern computing through simplicity, composition, and elegant design"
 aliases:
   - "Unix"

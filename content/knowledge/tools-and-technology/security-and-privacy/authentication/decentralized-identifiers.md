@@ -1,5 +1,6 @@
 ---
 title: Decentralized Identifiers (DIDs)
+date: 2025-03-06
 description: A new type of identifier that enables verifiable, decentralized digital identity
 tags: ["decentralization", "cryptography", "privacy", "authentication"]
 

@@ -1,4 +1,7 @@
 ---
+title: "Holochain Applications Overview"
+description: "Discover the diverse applications and possibilities enabled by Holochain/index's agent-centric architecture."
+date: 2025-02-15
 tags: ["programming", "holochain", "distributed-systems"]
 ---
 

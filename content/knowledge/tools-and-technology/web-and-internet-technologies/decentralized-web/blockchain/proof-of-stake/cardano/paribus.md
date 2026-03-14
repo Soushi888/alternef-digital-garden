@@ -1,4 +1,7 @@
 ---
+title: "Paribus"
+description: "Notes on Paribus."
+date: 2025-02-15
 type: DeFi
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 

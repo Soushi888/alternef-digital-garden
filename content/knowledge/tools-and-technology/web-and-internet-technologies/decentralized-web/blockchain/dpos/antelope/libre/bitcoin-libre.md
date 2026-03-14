@@ -1,4 +1,7 @@
 ---
+title: "Bitcoin Libre"
+description: "Blockchain : Libre"
+date: 2025-02-15
 tags: ["programming", "blockchain", "decentralization", "governance"]
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Place-Based Resistance and Regeneration"
+description: "Place-based resistance and regeneration represent interconnected processes through which local communities actively shape, challenge, and transform urban"
+date: 2025-09-23
 aliases: 
   - "Resistance of Place"
   - "Community-Led Regeneration"

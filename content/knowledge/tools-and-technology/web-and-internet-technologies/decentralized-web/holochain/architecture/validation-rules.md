@@ -1,5 +1,8 @@
 ---
-Aliases: [Validation Rules, validation rule, validation rules]
+title: "Validation Rules"
+description: "1.  The author validates"
+date: 2025-02-15
+aliases: [Validation Rules, validation rule, validation rules]
 tags: ["programming", "holochain", "distributed-systems", "software-architecture"]
 
 ---

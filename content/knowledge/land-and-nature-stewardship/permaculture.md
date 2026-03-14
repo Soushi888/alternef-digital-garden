@@ -1,5 +1,6 @@
 ---
 title: Permaculture
+date: 2025-09-23
 description: Holistic design philosophy for creating sustainable, self-sufficient systems by mimicking natural ecosystems
 tags: ["systems-thinking", "permaculture", "agroecology"]
 

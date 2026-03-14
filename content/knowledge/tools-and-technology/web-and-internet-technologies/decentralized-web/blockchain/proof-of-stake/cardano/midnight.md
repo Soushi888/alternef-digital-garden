@@ -1,4 +1,7 @@
 ---
+title: "Midnight"
+description: "Midnight will be a data protection-based blockchain that safeguards sensitive commercial and personal data, protecting fundamental freedoms of"
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

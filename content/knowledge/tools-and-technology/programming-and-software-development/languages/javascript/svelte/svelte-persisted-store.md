@@ -1,5 +1,6 @@
 ---
 title: Svelte Persisted Store
+date: 2025-02-15
 description: A Svelte store that persists to localStorage.
 tags: ["javascript", "libraries", "svelte"]
 

@@ -1,4 +1,7 @@
 ---
+title: "Erc-20"
+description: "ERC-20, short for Ethereum Request for Comment number 20, is a technical standard for creating interoperable tokens on the Ethereum Blockchain. It was"
+date: 2025-02-15
 tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
 ---
 

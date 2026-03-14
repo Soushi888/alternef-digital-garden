@@ -1,4 +1,7 @@
 ---
+title: "Encoin"
+description: "Notes on Encoin."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

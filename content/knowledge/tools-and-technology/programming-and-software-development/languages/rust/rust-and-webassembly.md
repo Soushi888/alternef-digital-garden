@@ -1,5 +1,7 @@
 ---
 title: "Rust and WebAssembly"
+description: "Rust is one of the best-supported languages for WebAssembly development, thanks to its lack of a garbage collector, small runtime, and predictable"
+date: 2025-02-15
 aliases:
   - rustwasm
   - rust-wasm

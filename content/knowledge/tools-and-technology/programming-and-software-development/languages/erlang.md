@@ -1,5 +1,7 @@
 ---
 title: "Erlang"
+description: "Erlang is a functional, concurrent, and fault-tolerant programming language designed for building distributed, real-time systems with high availability"
+date: 2025-09-12
 aliases:
   - Erlang/OTP
   - Erlang VM

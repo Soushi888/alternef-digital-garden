@@ -1,5 +1,6 @@
 ---
 title: "Qt"
+date: 2025-02-15
 aliases:
   - QT
   - Qt Framework

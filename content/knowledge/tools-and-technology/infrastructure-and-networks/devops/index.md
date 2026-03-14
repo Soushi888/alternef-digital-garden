@@ -1,5 +1,6 @@
 ---
 title: DevOps
+date: 2025-03-15
 description: A set of practices that combines software development and IT operations
 subtitle: Breaking down silos between development and operations teams
 aliases: 

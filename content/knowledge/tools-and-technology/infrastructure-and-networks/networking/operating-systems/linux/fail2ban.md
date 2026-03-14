@@ -1,5 +1,6 @@
 ---
 title: "Fail2Ban Security Tool"
+date: 2025-02-15
 description: "Fail2Ban as an intrusion prevention system that protects Linux servers from brute-force attacks"
 aliases:
   - "Fail2Ban"

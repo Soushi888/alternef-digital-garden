@@ -1,5 +1,7 @@
 ---
 title: "Hermeneutics"
+description: "Hermeneutics is the theory and methodology of interpretation, particularly concerning texts, but extending to verbal and non-verbal communication,"
+date: 2025-09-16
 aliases: ["Interpretation Theory", "Hermeneutical Theory", "Theory of Interpretation"]
 tags: ["philosophy", "communication"]
 

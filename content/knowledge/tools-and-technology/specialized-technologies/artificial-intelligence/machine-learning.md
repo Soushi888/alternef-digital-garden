@@ -1,5 +1,8 @@
 ---
-Aliases: [machine learning, ML]
+title: "Machine Learning"
+description: "Machine learning is a subset of artificial intelligence (AI) that involves building systems that can automatically learn from data and improve their"
+date: 2025-02-15
+aliases: [machine learning, ML]
 tags: ["programming", "artificial-intelligence", "machine-learning"]
 
 ---

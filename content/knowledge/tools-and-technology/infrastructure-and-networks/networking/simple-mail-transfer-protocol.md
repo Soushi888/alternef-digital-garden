@@ -1,5 +1,6 @@
 ---
 title: Simple Mail Transfer Protocol (SMTP)
+date: 2025-02-15
 description: Email transmission protocol that powers internet mail delivery systems
 aliases:
   - SMTP

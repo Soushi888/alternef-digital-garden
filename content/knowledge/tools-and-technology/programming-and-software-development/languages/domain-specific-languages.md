@@ -1,5 +1,6 @@
 ---
 title: Domain-Specific Languages (DSLs)
+date: 2025-02-22
 description: Understanding specialized programming languages designed for specific problem domains
 tags: ["programming", "software-development", "language-design"]
 

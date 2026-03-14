@@ -1,5 +1,6 @@
 ---
 title: js-cookie
+date: 2025-02-15
 description: A simple, lightweight JavaScript API for handling browser cookies
 subtitle: Easy cookie management in JavaScript
 aliases:

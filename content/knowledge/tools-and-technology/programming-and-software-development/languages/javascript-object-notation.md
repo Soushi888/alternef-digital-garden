@@ -1,5 +1,6 @@
 ---
 title: JavaScript Object Notation
+date: 2025-02-15
 description: A lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.
 aliases:
   - JSON

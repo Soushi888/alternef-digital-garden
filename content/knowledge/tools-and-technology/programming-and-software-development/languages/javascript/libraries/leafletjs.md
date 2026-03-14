@@ -1,5 +1,6 @@
 ---
 title: Leaflet.js
+date: 2025-02-15
 description: Open-source JavaScript library for mobile-friendly interactive maps
 subtitle: Lightweight mapping library based on OpenStreetMap
 aliases:

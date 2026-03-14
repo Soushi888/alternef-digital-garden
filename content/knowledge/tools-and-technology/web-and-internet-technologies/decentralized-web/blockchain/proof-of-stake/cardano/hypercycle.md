@@ -1,5 +1,8 @@
 ---
-Aliases: [HYPC]
+title: "Hypercycle"
+description: "Notes on Hypercycle."
+date: 2025-02-15
+aliases: [HYPC]
 Token: HYPC
 blockchain: Cardano
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]

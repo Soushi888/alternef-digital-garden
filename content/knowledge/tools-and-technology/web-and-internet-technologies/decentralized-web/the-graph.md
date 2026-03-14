@@ -1,4 +1,7 @@
 ---
+title: "The Graph"
+description: "Global GraphQL API for Web 3."
+date: 2025-02-15
 tags: ["programming", "decentralization", "distributed-systems"]
 ---
 

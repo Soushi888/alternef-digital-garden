@@ -1,5 +1,6 @@
 ---
 title: "Yoga des Pharaons"
+date: 2026-03-03
 aliases:
   - "Yoga de la Verticalité"
   - "Yoga of the Pharaohs"

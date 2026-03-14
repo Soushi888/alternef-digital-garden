@@ -1,5 +1,6 @@
 ---
 title: Chaos Engineering
+date: 2026-02-27
 description: A discipline of experimenting on systems by injecting controlled failures to build confidence in resilience under real-world conditions
 tags: ["programming", "software-architecture", "resilience", "software-quality"]
 ---

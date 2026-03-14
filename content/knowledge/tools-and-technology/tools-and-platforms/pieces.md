@@ -1,5 +1,6 @@
 ---
 title: Pieces for Developers
+date: 2025-07-22
 description: An overview of Pieces for Developers, an AI-enabled productivity tool for software engineers.
 tags: ["pieces", "developer-tools", "ai-assistant", "agent"]
 

@@ -1,4 +1,7 @@
 ---
+title: "Alien Worlds"
+description: "Notes on Alien Worlds."
+date: 2025-02-15
 tags: ["programming", "blockchain", "decentralization", "governance"]
 ---
 

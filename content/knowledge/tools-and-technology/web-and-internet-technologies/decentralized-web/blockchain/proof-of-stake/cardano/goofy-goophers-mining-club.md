@@ -1,5 +1,8 @@
 ---
-Aliases: [GGMC]
+title: "Goofy Goophers Mining Club"
+description: "Notes on Goofy Goophers Mining Club."
+date: 2025-02-15
+aliases: [GGMC]
 Type: NFT
 Blockchain: Cardano
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]

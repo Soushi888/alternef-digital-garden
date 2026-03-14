@@ -1,5 +1,6 @@
 ---
 title: "Meshtastic"
+description: "Notes on Meshtastic."
 aliases: ["Meshtastic Network", "Off-grid Mesh", "Decentralized Communication", "LoRa Mesh Network"]
 tags: ["open-source", "communication", "decentralized", "networking"]
 created: 2025-12-02

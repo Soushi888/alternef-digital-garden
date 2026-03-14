@@ -1,5 +1,8 @@
 ---
-Aliases: [WMT]
+title: "World Mobile Token"
+description: "Notes on World Mobile Token."
+date: 2025-02-15
+aliases: [WMT]
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 
 ---

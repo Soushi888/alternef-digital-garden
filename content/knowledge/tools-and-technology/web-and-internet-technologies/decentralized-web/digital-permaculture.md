@@ -1,5 +1,6 @@
 ---
 title: Digital Permaculture
+date: 2025-02-15
 description: The application of permaculture principles to digital systems and web technologies
 tags: ["permaculture", "web3", "sustainability", "decentralization", "design-principles"]
 

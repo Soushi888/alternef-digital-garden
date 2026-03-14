@@ -1,5 +1,6 @@
 ---
 title: Watersheds
+date: 2025-10-12
 description: Fundamental geographical units where all surface water drains to a common outlet, forming the foundation of ecosystem organization
 tags: ["hydrology", "water-management", "watersheds"]
 

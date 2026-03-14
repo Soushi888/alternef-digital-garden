@@ -1,5 +1,6 @@
 ---
 title: Procedural Programming
+date: 2025-02-15
 description: A programming paradigm organizing code into procedures and sequential instructions
 tags: ["programming-paradigms"]
 ---

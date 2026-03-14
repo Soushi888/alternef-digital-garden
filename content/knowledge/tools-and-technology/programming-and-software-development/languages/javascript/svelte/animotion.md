@@ -1,5 +1,6 @@
 ---
 title: Animotion
+date: 2025-02-15
 description: Presentational framework for creating beautiful slides with code
 subtitle: Combining Reveal.js, Svelte, and Tailwind CSS
 aliases:

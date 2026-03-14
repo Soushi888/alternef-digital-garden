@@ -1,5 +1,8 @@
 ---
-Aliases: [neural networks, neural network, Neural Networks]
+title: "Neural Network"
+description: "A neural network is a type of machine learning algorithm that is inspired by the structure and function of the human brain. It consists of a network of"
+date: 2025-02-15
+aliases: [neural networks, neural network, Neural Networks]
 tags: ["programming", "artificial-intelligence", "machine-learning"]
 
 ---

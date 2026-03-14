@@ -1,5 +1,6 @@
 ---
 title: Merkle Trees
+date: 2025-02-15
 description: Merkle Trees are a type of hash tree used in cryptography to verify the integrity of data.
 tags: ["cryptography"]
 

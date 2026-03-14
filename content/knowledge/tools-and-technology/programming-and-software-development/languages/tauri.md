@@ -1,4 +1,7 @@
 ---
+title: "Tauri"
+description: "Notes on Tauri."
+date: 2025-02-15
 aliases: 
 tags: ["frontend", "javascript", "rust"]
 

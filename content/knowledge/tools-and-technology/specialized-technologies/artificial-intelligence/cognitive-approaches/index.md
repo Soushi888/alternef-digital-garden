@@ -1,5 +1,6 @@
 ---
 title: Cognitive Approaches in AI
+date: 2026-03-03
 description: AI techniques inspired by human cognitive processes, including structured reasoning and sequential thinking
 aliases:
   - Cognitive AI

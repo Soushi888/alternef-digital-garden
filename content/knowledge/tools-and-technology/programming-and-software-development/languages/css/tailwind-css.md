@@ -1,4 +1,7 @@
 ---
+title: "Tailwind CSS"
+description: "Key characteristics:"
+date: 2025-02-15
 aliases:
   - TailwindCSS
   - Tailwind

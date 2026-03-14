@@ -1,4 +1,7 @@
 ---
+title: "Sui"
+description: "Notes on Sui."
+date: 2025-02-15
 tags: ["programming", "blockchain", "decentralization"]
 ---
 

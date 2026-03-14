@@ -1,4 +1,7 @@
 ---
+title: "Taptool"
+description: "Notes on Taptool."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

@@ -1,4 +1,7 @@
 ---
+title: "Holochain Dev Training"
+description: "Notes on Holochain Dev Training."
+date: 2025-02-15
 tags: ["programming", "holochain", "rust", "distributed-systems"]
 ---
 

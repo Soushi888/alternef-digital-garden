@@ -1,5 +1,6 @@
 ---
 title: "Swarm Computing"
+description: "Notes on Swarm Computing."
 aliases: ["Swarm Intelligence", "Collective Intelligence", "Swarm Systems"]
 tags: [networking, distributed-systems, artificial-intelligence, collective-intelligence]
 created: 2025-12-02

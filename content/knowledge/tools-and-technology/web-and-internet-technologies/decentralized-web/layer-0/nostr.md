@@ -1,4 +1,7 @@
 ---
+title: "Nostr"
+description: "The Nostr protocol is a decentralized network protocol for a distributed social networking system. It is designed to enable global, decentralized, and"
+date: 2025-02-15
 tags: ["programming", "distributed-systems", "decentralization", "networking"]
 ---
 

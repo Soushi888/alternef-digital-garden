@@ -1,5 +1,6 @@
 ---
 title: DIDComm
+date: 2025-03-06
 description: A secure, private communication protocol built on Decentralized Identifiers (DIDs)
 tags: ["decentralization", "cryptography", "privacy", "authentication"]
 

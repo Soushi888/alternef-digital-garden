@@ -1,5 +1,6 @@
 ---
 title: "Golden Ratio (φ)"
+description: "The golden ratio, denoted by the Greek letter φ (phi), is an irrational mathematical constant approximately equal to 1.618033988749.... This special"
 aliases: ["Golden Ratio", "Phi", "Divine Proportion", "Golden Section", "Sacred Ratio"]
 tags: ["mathematics", "number-theory", "geometry", "software-architecture", "nature"]
 created: 2024-12-11

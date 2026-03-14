@@ -1,5 +1,6 @@
 ---
 title: "Fedora Linux"
+date: 2025-02-15
 description: "Fedora Linux as the innovation pipeline for open-source technology and enterprise development"
 aliases:
   - "Fedora Workstation"

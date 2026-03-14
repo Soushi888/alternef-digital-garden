@@ -1,5 +1,6 @@
 ---
 title: Artificial General Intelligence
+date: 2025-02-15
 description: A comprehensive exploration of AGI - the hypothetical AI that would match or surpass human cognitive abilities across all intellectual tasks
 tags: ["artificial-intelligence", "ai-safety", "cognitive-science", "machine-learning"]
 ---

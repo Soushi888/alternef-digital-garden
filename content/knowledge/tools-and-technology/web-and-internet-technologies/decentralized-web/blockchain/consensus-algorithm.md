@@ -1,4 +1,7 @@
 ---
+title: "Consensus Algorithm"
+description: "In Blockchain technology, a consensus algorithm is a set of rules that all nodes in a blockchain network follow to agree on the state of the blockchain."
+date: 2025-02-15
 aliases:
   - consensus algorithm
 tags: ["programming", "blockchain", "decentralization"]

@@ -1,5 +1,6 @@
 ---
 title: Markdown - The Lightweight Markup Language
+date: 2025-02-20
 description: A simple, readable syntax for creating formatted text that can be easily converted to HTML and other formats.
 tags: ["web-technologies", "digital-garden", "documentation"]
 

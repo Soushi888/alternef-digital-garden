@@ -1,5 +1,7 @@
 ---
 title: "Effect-TS Supervision Patterns"
+description: "The Supervision Tree pattern from Erlang/OTP can be effectively reproduced in Effect-TS using its powerful concurrency primitives and structured resource"
+date: 2025-09-12
 aliases:
   - Effect Supervision Tree
   - Effect Fault Tolerance

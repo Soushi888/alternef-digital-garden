@@ -1,5 +1,6 @@
 ---
 title: Holochain Applications
+date: 2025-03-11
 description: Practical applications, implementation examples, and potential domains for Holochain technology
 tags: ["holochain", "decentralization", "peer-to-peer", "applications"]
 ---

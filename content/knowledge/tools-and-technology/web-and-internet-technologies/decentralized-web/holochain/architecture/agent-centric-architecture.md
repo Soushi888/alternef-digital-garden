@@ -1,5 +1,8 @@
 ---
-Aliases: [Agents, agents, agent, agent ID]
+title: "Agent Centric Architecture"
+description: "Notes on Agent Centric Architecture."
+date: 2025-02-15
+aliases: [Agents, agents, agent, agent ID]
 tags: ["programming", "holochain", "distributed-systems", "software-architecture"]
 
 ---

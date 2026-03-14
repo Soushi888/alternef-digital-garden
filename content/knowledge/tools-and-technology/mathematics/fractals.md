@@ -1,5 +1,6 @@
 ---
 title: "Fractals"
+description: "A fractal is a geometric shape that exhibits:"
 aliases: ["Fractal Geometry", "Self-Similarity", "Fractal Dimension"]
 tags: ["software-architecture", "mathematics", "geometry"]
 created: 2024-12-11

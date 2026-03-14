@@ -1,4 +1,7 @@
 ---
+title: "Bitshares"
+description: "Consensus : DPoS"
+date: 2025-02-15
 aliases: [BTS]
 tags: ["programming", "blockchain", "decentralization"]
 

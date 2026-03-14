@@ -1,5 +1,7 @@
 ---
 title: "Philosophia Perennis"
+description: "The term was popularized in the 16th century by the Italian bishop Agostino Steuco in his work De perenni philosophia (1540), where he defended the idea"
+date: 2025-12-28
 aliases: ["Perennial Philosophy", "Eternal Philosophy", "Universal Wisdom", "Traditionalism"]
 tags: ["philosophy", "metaphysics", "mysticism"]
 ---

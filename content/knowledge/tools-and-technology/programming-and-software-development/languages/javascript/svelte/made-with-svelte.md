@@ -1,4 +1,7 @@
 ---
+title: "Made With Svelte"
+description: "Notes on Made With Svelte."
+date: 2025-02-15
 tags: ["programming", "javascript", "svelte", "frontend"]
 ---
 

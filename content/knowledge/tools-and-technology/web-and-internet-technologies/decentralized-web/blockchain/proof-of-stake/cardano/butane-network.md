@@ -1,4 +1,7 @@
 ---
+title: "Butane Network"
+description: "Notes on Butane Network."
+date: 2025-02-15
 aliases:
   - BTN
   - Butane

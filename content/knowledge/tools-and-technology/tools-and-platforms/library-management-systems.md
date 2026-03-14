@@ -1,5 +1,6 @@
 ---
 title: Library Management Systems
+date: 2025-02-15
 description: Software platforms for managing library collections, circulation, acquisitions, and patron services
 aliases:
   - LMS

@@ -1,5 +1,6 @@
 ---
 title: Extension Traits
+date: 2025-02-15
 description: Learn about Extension Traits in Rust, a powerful pattern for adding new methods to existing types without modifying the original type definitions.
 aliases: 
 tags: ["rust"]

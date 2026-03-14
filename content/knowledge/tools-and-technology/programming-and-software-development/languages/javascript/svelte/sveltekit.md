@@ -1,4 +1,7 @@
 ---
+title: "SvelteKit"
+description: "Notes on SvelteKit."
+date: 2025-02-15
 tags: ["programming", "javascript", "svelte", "frontend"]
 ---
 

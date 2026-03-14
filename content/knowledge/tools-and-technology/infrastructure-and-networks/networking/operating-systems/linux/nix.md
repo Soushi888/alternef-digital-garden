@@ -1,5 +1,6 @@
 ---
 title: "Nix Package Manager"
+date: 2025-02-15
 description: "Nix as a revolutionary approach to package management and system configuration through functional programming"
 aliases:
   - "NixOS"

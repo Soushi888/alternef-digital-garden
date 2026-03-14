@@ -1,5 +1,7 @@
 ---
 title: "Shadow Work"
+description: "Shadow work is a profound psychological and therapeutic practice rooted in the theories of Carl Jung, aimed at integrating the unconscious, repressed, or"
+date: 2025-11-03
 aliases: ["Shadow Self Work", "Inner Shadow Integration", "Psychological Shadow Work"]
 tags: ["personal-development", "integration", "holistic-healing", "health", "psychology", "self-awareness"]
 ---

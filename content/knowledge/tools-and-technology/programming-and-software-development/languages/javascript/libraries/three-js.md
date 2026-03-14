@@ -1,5 +1,6 @@
 ---
 title: Three.js
+date: 2025-02-15
 description: JavaScript 3D library for creating WebGL-based graphics
 subtitle: Making 3D content accessible on the web
 aliases:

@@ -1,5 +1,6 @@
 ---
 title: "Large Language Models"
+description: "LLMs function as statistical prediction machines, repeatedly predicting the next word in a sequence based on patterns learned during training. This allows"
 aliases: [LLMs, LLM, Large Language Model]
 tags: ["artificial-intelligence", "machine-learning", "natural-language-processing", "deep-learning"]
 created: 2026-01-27

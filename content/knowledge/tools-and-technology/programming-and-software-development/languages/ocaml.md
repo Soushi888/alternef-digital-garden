@@ -1,5 +1,6 @@
 ---
 title: "OCaml"
+date: 2025-10-12
 description: "Pragmatic functional programming language with strong industrial adoption and systems programming capabilities"
 aliases:
   - "Objective Caml"

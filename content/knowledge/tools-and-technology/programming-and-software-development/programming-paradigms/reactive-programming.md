@@ -1,5 +1,6 @@
 ---
 title: Reactive Programming
+date: 2025-02-21
 description: A declarative programming paradigm focused on data streams and propagation of change
 tags: ["programming", "functional-programming"]
 

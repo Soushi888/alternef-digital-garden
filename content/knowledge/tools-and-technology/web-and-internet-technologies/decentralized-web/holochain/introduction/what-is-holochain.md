@@ -1,5 +1,6 @@
 ---
 title: What is Holochain?
+date: 2025-02-20
 description: A comprehensive explanation of Holochain's unique approach to distributed computing and its key differentiators
 tags: ["holochain", "distributed-systems", "decentralization", "peer-to-peer", "local-first", "agent-centric", "holochain-overview"]
 ---

@@ -1,4 +1,7 @@
 ---
+title: "Auth Js"
+description: "Notes on Auth Js."
+date: 2025-02-15
 aliases:
   - Auth.js
 tags: ["libraries", "javascript"]

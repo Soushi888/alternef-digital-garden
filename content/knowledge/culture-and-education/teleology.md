@@ -1,5 +1,7 @@
 ---
 title: "Teleology"
+description: "At its core, teleology addresses the fundamental question of whether natural processes and human actions can be meaningfully understood as directed toward"
+date: 2025-10-28
 aliases: ["Purpose", "Final Cause", "Teleological Explanation", "Purpose-Driven Explanation"]
 tags: ["philosophy", "ethics", "metaphysics"]
 ---

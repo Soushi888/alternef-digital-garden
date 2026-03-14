@@ -1,5 +1,6 @@
 ---
 title: Programming Paradigms
+date: 2025-08-04
 description: Different fundamental approaches to organizing and structuring computer programs, each with distinct philosophies, principles, and patterns for solving computational problems.
 tags: ["programming-paradigms"]
 

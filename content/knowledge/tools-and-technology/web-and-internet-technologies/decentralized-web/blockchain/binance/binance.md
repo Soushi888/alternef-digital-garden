@@ -1,4 +1,7 @@
 ---
+title: "Binance"
+description: "Binance is a global cryptocurrency exchange that allows users to trade cryptocurrencies. It supports hundreds of commonly traded cryptocurrencies and"
+date: 2025-02-15
 related pages:
   - "[[Blockchain]]"
 tags: ["programming", "blockchain", "decentralization"]

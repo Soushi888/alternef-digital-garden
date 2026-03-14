@@ -1,5 +1,6 @@
 ---
 title: "Linux Operating System"
+date: 2025-10-12
 description: "Comprehensive guide to Linux operating system, distributions, and networking capabilities"
 aliases:
   - "GNU/Linux"

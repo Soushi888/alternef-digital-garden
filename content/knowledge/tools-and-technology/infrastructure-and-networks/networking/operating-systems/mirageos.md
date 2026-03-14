@@ -1,5 +1,6 @@
 ---
 title: "MirageOS"
+date: 2025-10-12
 description: "Library operating system for constructing secure, high-performance unikernel applications entirely in OCaml"
 aliases:
   - "Mirage OS"

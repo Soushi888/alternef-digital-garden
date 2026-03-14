@@ -1,4 +1,7 @@
 ---
+title: "Mixin Network"
+description: "Notes on Mixin Network."
+date: 2025-02-15
 tags: ["programming", "distributed-systems", "decentralization", "networking"]
 ---
 

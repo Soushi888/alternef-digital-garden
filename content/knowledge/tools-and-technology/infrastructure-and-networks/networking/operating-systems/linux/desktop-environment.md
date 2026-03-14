@@ -1,5 +1,6 @@
 ---
 title: "Linux Desktop Environments"
+date: 2025-02-15
 description: "Understanding Linux desktop environments and how they provide graphical interfaces for computing with networking integration"
 aliases:
   - "Desktop Environment"

@@ -1,5 +1,6 @@
 ---
 title: Hooks
+date: 2025-03-15
 description: A programming technique that allows intercepting processes or events to extend functionality
 subtitle: Extending behavior without modifying source code
 aliases:

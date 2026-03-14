@@ -1,5 +1,7 @@
 ---
 title: "Geodesic Domes"
+description: "A geodesic dome is a hemispherical thin-shell structure based on a network of triangles that form a geodesic polyhedron. This remarkable architectural"
+date: 2025-11-25
 aliases: ["Geodesic Architecture", "Buckminster Domes", "Structural Domes", "Triangular Domes"]
 tags: ["innovation", "architecture"]
 

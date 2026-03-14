@@ -1,4 +1,7 @@
 ---
+title: "TypeScript"
+description: "Here are some key points:"
+date: 2025-02-15
 aliases: 
 tags: ["javascript"]
 

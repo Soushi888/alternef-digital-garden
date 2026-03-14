@@ -1,5 +1,6 @@
 ---
 title: "JSON-LD"
+date: 2025-11-28
 description: "JSON for Linked Data provides a lightweight format for expressing structured data on the web, bridging traditional web development with semantic technologies."
 tags: ["web-dev", "semantic-web", "linked-data", "json-ld", "microservices"]
 

@@ -1,5 +1,7 @@
 ---
 title: "Organic Architecture"
+description: "Organic architecture is a philosophy of architecture that promotes harmony between human habitation and the natural world. It emphasizes designing"
+date: 2025-10-19
 aliases:
   - "Frank Lloyd Wright Architecture"
   - "Nature-Based Architecture"

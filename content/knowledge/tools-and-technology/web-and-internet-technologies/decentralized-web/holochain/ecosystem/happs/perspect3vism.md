@@ -1,5 +1,6 @@
 ---
 title: Perspect3vism / Coasys
+date: 2025-02-15
 description: Agent-centric social networking framework (Perspect3vism) evolved into the Coasys ecosystem with AD4M and Flux
 aliases:
   - Perspect3vism

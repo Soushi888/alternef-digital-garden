@@ -2,6 +2,7 @@
 title: Yoga Traditions
 description: "An overview of yoga traditions in this garden: Indian Hatha Yoga, Kundalini Yoga, and Yoga des Pharaons, the Egyptian synthesis created by Babacar Khane"
 tags: ["yoga", "hatha-yoga", "yoga-des-pharaons", "kundalini-yoga", "movement-practices", "mind-body-connection", "health"]
+date: 2026-03-03
 ---
 
 # Yoga Traditions

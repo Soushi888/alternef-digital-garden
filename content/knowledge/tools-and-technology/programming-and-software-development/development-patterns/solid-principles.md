@@ -1,5 +1,6 @@
 ---
 title: SOLID Principles
+date: 2025-09-27
 description: Comprehensive guide to the five SOLID principles of object-oriented design for creating maintainable, scalable software
 tags: ["software-architecture", "design-principles", "software-design-principles"]
 ---

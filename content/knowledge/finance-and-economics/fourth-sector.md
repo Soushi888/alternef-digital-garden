@@ -1,5 +1,6 @@
 ---
 title: "Fourth Sector"
+date: 2025-10-21
 description: "The emerging economic sector composed of for-benefit organizations blending market strategies with social and environmental missions"
 tags: ["economics", "finance"]
 

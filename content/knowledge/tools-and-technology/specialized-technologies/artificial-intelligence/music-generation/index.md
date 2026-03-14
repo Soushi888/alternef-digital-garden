@@ -1,5 +1,6 @@
 ---
 title: AI Music Generation
+date: 2026-03-03
 description: Artificial intelligence tools for generating, composing, and producing music from text prompts or audio inputs
 aliases:
   - AI Music

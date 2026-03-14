@@ -1,5 +1,6 @@
 ---
 title: Governance
+date: 2025-09-10
 description: Community guidelines, licensing, and contribution frameworks for Holochain
 tags: ["holochain", "governance", "community", "licensing"]
 

@@ -1,4 +1,7 @@
 ---
+title: "Holochain Development Guide"
+description: "Comprehensive resources for developers building Holochain/index applications."
+date: 2025-02-15
 tags: ["programming", "holochain", "rust", "distributed-systems"]
 ---
 

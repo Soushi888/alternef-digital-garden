@@ -1,5 +1,6 @@
 ---
 title: FilePond
+date: 2025-02-15
 description: JavaScript library for smooth file uploading with image optimization
 subtitle: A silky smooth file upload experience with great UX
 aliases:

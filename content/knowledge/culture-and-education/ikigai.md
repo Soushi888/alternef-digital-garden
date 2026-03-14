@@ -1,5 +1,6 @@
 ---
 title: "Ikigai"
+date: 2026-01-05
 description: "The Japanese concept of ikigai - finding purpose and meaning through the integration of what you love, what you're good at, what the world needs, and what you can be paid for."
 aliases:
   - "Reason for Being"

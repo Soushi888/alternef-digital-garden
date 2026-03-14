@@ -1,5 +1,6 @@
 ---
 title: Digital Garden
+date: 2025-02-21
 description: A modern approach to personal knowledge management and online publishing
 tags: ["digital-garden", "knowledge-management", "web-dev"]
 

@@ -1,5 +1,6 @@
 ---
 title: "Ubuntu Linux"
+date: 2025-02-15
 description: "Ubuntu Linux distribution and its role in modern networking infrastructure and computing"
 aliases:
   - "Ubuntu Server"

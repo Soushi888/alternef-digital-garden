@@ -1,10 +1,12 @@
 ---
 title: "Distributed System"
+date: 2025-02-15
 aliases:
   - Distributed Systems
   - distributed system
   - distributed systems
 tags: ["networking"]
+description: "Architectures and patterns for systems distributed across multiple networked nodes."
 
 ---
 [[Networking]]

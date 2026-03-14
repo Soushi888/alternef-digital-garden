@@ -1,5 +1,6 @@
 ---
 title: "💎 Tabula Smaragdina Digitalis"
+date: 2025-08-04
 description: "The Emerald Tablet of distributed computing: eleven hermetic axioms translated into software design principles, from correspondence and separation to ascension and creation."
 aliases:
   - "Tabula Smaragdina"

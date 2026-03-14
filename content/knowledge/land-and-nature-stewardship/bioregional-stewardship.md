@@ -1,5 +1,6 @@
 ---
 title: Bioregional Stewardship
+date: 2025-10-02
 description: Place-based ecological management organized by natural boundaries rather than political lines, focusing on whole ecosystem health
 tags: ["bioregionalism", "stewardship", "community-resilience"]
 

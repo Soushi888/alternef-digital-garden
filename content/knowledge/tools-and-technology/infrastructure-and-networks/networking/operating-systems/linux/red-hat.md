@@ -1,5 +1,6 @@
 ---
 title: "Red Hat Enterprise Linux"
+date: 2025-02-15
 description: "Red Hat Enterprise Linux as the foundation for enterprise computing and business-critical infrastructure"
 aliases:
   - "RHEL"

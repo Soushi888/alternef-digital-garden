@@ -1,4 +1,7 @@
 ---
+title: "Decentralized Application"
+description: "A Decentralized Application (DApp) is a type of application that runs on a decentralized network, rather than a centralized server. DApps are built on"
+date: 2025-02-15
 aliases:
   - Decentralized Applications
   - decentralized application

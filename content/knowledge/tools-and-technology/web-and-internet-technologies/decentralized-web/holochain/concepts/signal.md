@@ -1,5 +1,8 @@
 ---
-Aliases: [Signals, signal, signals] 
+title: "Signal"
+description: "use hdk::prelude::*;"
+date: 2025-02-15
+aliases: [Signals, signal, signals] 
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 
 ---

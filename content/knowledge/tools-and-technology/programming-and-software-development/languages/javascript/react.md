@@ -1,5 +1,6 @@
 ---
 title: React
+date: 2025-02-15
 description: Javascript library for creating frontend applications
 subtitle: A popular JavaScript library for building user interfaces
 aliases:

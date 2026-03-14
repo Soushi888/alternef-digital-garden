@@ -1,4 +1,7 @@
 ---
+title: "Tangem"
+description: "Notes on Tangem."
+date: 2025-02-15
 tags: ["programming", "cryptocurrency", "decentralization", "security"]
 ---
 

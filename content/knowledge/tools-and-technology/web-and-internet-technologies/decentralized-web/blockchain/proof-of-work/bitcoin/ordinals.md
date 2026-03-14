@@ -1,4 +1,7 @@
 ---
+title: "Ordinals"
+description: "Notes on Ordinals."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

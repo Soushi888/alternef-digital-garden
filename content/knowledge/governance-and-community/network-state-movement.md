@@ -1,5 +1,7 @@
 ---
 title: "Network State Movement"
+description: "The Network State movement represents a radical reimagining of nation-building in the digital age, proposing the creation of new sovereign entities"
+date: 2025-09-23
 aliases: 
   - "Network States"
   - "Digital Nations"

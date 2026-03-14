@@ -1,5 +1,7 @@
 ---
 title: "Bioceramic Domes"
+description: "Bioceramics are advanced ceramic materials that incorporate biological processes and natural mineral compounds. Unlike traditional ceramics, bioceramics"
+date: 2025-11-25
 aliases: ["Geoship Domes", "Ceramic Geodesic Domes", "Regenerative Housing", "Bioceramic Architecture"]
 tags: ["innovation", "regenerative-design"]
 ---

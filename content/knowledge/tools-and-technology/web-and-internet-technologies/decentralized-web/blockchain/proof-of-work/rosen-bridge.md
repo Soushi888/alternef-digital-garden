@@ -1,4 +1,7 @@
 ---
+title: "Rosen Bridge"
+description: "Notes on Rosen Bridge."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

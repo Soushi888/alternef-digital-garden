@@ -1,5 +1,6 @@
 ---
 title: WebSockets
+date: 2025-02-15
 description: Protocol for real-time bidirectional communication between client and server
 subtitle: Enabling persistent connections for web applications
 aliases:

@@ -1,4 +1,7 @@
 ---
+title: "Deep Learning"
+description: "Deep learning is a subfield of machine learning that involves building and training neural networks with multiple layers to learn and make predictions on"
+date: 2025-02-15
 tags: ["programming", "artificial-intelligence", "machine-learning"]
 ---
 

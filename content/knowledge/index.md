@@ -1,5 +1,6 @@
 ---
 title: Knowledge Base
+date: 2025-02-20
 description: A holistic exploration of human knowledge, interconnected domains, and transformative understanding
 tags: ["learning", "systems-thinking", "interdisciplinary"]
 

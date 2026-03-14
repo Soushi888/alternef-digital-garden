@@ -1,5 +1,6 @@
 ---
 title: "Aires Tango"
+date: 2026-02-19
 description: "Argentine tango-jazz ensemble led by saxophonist Javier Girotto, extending Astor Piazzolla's nuevo tango legacy through jazz improvisation, Andean folk, and an Italian-Argentine cultural bridge."
 aliases:
   - "Javier Girotto"

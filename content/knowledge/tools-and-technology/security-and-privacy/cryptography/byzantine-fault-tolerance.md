@@ -1,5 +1,6 @@
 ---
 title: Byzantine Fault Tolerance
+date: 2025-02-15
 description: Byzantine Fault Tolerance is a feature of a distributed network to reach consensus(agreement on the same value) even when some of the nodes in the network fail to respond or respond with incorrect information.
 aliases:
   - BFT

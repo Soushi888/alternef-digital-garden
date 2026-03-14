@@ -1,5 +1,6 @@
 ---
 title: "Virtual Machines"
+description: "Notes on Virtual Machines."
 aliases: ["VM", "Virtualization", "Hypervisor"]
 tags: ["infrastructure", "networking", "virtualization"]
 created: 2025-12-02

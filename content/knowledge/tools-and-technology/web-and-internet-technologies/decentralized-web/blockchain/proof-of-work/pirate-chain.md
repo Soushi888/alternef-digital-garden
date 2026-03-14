@@ -1,5 +1,8 @@
 ---
-Aliases: [ARRR]
+title: "Pirate Chain"
+description: "Notes on Pirate Chain."
+date: 2025-02-15
+aliases: [ARRR]
 type: blockchain
 blockchain: Pirate Chain
 token: ARRR

@@ -1,5 +1,6 @@
 ---
 title: Mystical Oriented Programming
+date: 2025-08-04
 description: A programming paradigm that integrates spiritual, mystical, and esoteric principles directly into software development practices, architectural decisions, and code organization.
 tags: ["esoteric", "programming-paradigms"]
 

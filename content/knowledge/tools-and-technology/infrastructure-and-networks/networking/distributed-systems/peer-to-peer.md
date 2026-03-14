@@ -1,5 +1,7 @@
 ---
 title: Peer-to-Peer Networking
+description: "Philosophical Foundations"
+date: 2025-02-15
 subtitle: Reimagining Connectivity and Collective Intelligence
 aliases:
   - peer-to-peer

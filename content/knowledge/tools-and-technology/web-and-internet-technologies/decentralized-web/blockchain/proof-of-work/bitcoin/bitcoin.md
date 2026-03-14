@@ -1,5 +1,6 @@
 ---
 title: Bitcoin
+date: 2025-02-15
 description: What is Bitcoin?
 aliases: [BTC]
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]

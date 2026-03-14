@@ -1,5 +1,7 @@
 ---
 title: "Essenian Healing: An Ancient and Reconstructed Therapeutic Tradition"
+description: "Essenian healing refers to a body of therapeutic practices attributed to the Essenes, a Jewish sect that flourished from roughly the 2nd century BCE to"
+date: 2026-03-02
 aliases:
   - "Essene Medicine"
   - "Essenian Medicine"

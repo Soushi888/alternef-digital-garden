@@ -1,5 +1,6 @@
 ---
 title: "Liberal Professions"
+date: 2026-01-05
 description: "Intellectual and service-based professions characterized by specialized qualifications, professional autonomy, ethical codes, and personal responsibility to clients."
 aliases:
   - "Learned Professions"

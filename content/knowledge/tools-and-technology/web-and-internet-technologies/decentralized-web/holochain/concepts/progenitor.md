@@ -1,4 +1,7 @@
 ---
+title: "Progenitor"
+description: "The Progenitor pattern in Holochain hApp development refers to a design strategy used to bootstrap and manage administrative privileges within a Holochain"
+date: 2025-02-15
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Game Development
+date: 2026-03-03
 description: Tools, engines, and practices for creating interactive games and real-time 3D experiences
 aliases:
   - Game Engines

@@ -1,4 +1,7 @@
 ---
+title: "Layer0"
+description: "Layer 0 refers to the foundational protocol layer in decentralized systems. In Holochain's context, it represents the core infrastructure that enables"
+date: 2025-02-15
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 ---
 

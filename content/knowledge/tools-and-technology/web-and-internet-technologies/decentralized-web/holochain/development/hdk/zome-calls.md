@@ -1,4 +1,7 @@
 ---
+title: "Zome Calls"
+description: "pub fn store_file(file_bytes: SerializedBytes) -> ExternResult {"
+date: 2025-02-15
 tags: ["programming", "holochain", "rust", "hdk"]
 ---
 

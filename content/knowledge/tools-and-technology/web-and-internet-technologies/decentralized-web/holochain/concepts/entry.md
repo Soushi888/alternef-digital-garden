@@ -1,5 +1,6 @@
 ---
 title: Holochain Entries
+date: 2025-02-15
 description: The basic data structure stored in the distributed hash table and source chain
 tags: ["holochain", "fundamentals", "entries", "data-structures"]
 

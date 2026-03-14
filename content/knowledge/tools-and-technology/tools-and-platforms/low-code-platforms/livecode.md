@@ -1,5 +1,6 @@
 ---
 title: LiveCode
+date: 2025-02-15
 description: Cross-platform development environment for creating applications with minimal coding
 subtitle: Turn concepts into powerful applications with an easy-to-learn environment
 aliases:

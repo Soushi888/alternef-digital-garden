@@ -1,5 +1,6 @@
 ---
 title: "LangChain"
+description: "LangChain is an open-source framework designed to simplify the development of applications powered by large language models (LLMs). Launched in October"
 aliases: ["LangChain Framework", "LangChain AI"]
 tags: ["artificial-intelligence", "open-source", "javascript", "nlp", "llm", "python", "agents", "rag"]
 created: 2024-01-01

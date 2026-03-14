@@ -1,5 +1,6 @@
 ---
 title: Holochain Development Kit (HDK)
+date: 2025-03-11
 description: Core libraries, APIs, and tools for building applications on the Holochain framework
 tags: ["holochain", "programming", "rust", "software-development", "hdk"]
 ---

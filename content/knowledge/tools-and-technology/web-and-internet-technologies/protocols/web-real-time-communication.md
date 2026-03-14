@@ -1,4 +1,7 @@
 ---
+title: "Web Real Time Communication"
+description: "WebRTC, standing for Web Real-Time Communication, is an open-source project designed to enable real-time communication of audio, video, and data directly"
+date: 2025-02-15
 aliases:
   - WebRTC
 tags: ["peer-to-peer", "real-time-communication", "javascript"]

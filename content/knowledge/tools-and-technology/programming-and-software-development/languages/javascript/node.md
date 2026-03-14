@@ -1,4 +1,7 @@
 ---
+title: "Node"
+description: "Node.js follows a defined Long Term Support (LTS) release cycle: even-numbered major versions (e.g., v20.x, v22.x) receive LTS status for 18 months after"
+date: 2025-02-15
 tags: ["programming", "javascript", "web-dev"]
 ---
 

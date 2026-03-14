@@ -1,5 +1,6 @@
 ---
 title: Artificial Intelligence
+date: 2025-03-06
 description: A comprehensive exploration of artificial intelligence, its technologies, approaches, and transformative potential
 tags: ["programming", "artificial-intelligence", "cognitive-science"]
 ---

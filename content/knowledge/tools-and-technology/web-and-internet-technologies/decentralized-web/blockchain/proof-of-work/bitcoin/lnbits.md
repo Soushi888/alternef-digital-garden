@@ -1,5 +1,6 @@
 ---
 title: LNbits
+date: 2025-03-15
 description: Free and open-source Bitcoin Lightning Network wallet system
 subtitle: Self-hosted solution for managing Lightning Network payments
 aliases:

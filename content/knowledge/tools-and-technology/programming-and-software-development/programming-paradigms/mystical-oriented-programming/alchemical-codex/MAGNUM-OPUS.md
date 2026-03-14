@@ -1,5 +1,6 @@
 ---
 title: "🌹 Magnum Opus Digitalis"
+date: 2025-08-04
 description: "The Great Work of Distributed Economic Transmutation: seven alchemical operations mapping Holochain's Requests and Offers architecture to hermetic principles."
 aliases:
   - "Magnum Opus"

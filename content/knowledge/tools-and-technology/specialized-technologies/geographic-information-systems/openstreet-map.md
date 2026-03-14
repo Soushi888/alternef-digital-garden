@@ -1,5 +1,6 @@
 ---
 title: OpenStreetMap
+date: 2025-02-15
 description: Collaborative, free, editable map of the world
 subtitle: Community-driven mapping project with open data
 aliases:

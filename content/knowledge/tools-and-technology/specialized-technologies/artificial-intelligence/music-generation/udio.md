@@ -1,4 +1,7 @@
 ---
+title: "Udio"
+description: "Notes on Udio."
+date: 2025-02-15
 tags: ["programming", "artificial-intelligence", "music"]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Metera
+date: 2025-02-15
 description: A decentralized platform for creating and investing in tokenized portfolios on the Cardano blockchain
 tags: ["blockchain", "cardano"]
 

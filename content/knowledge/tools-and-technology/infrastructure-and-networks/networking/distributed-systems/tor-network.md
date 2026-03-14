@@ -1,5 +1,6 @@
 ---
 title: "Tor Network"
+description: "The Tor network, short for 'The Onion Router,' is a free and open-source software that enables anonymous communication on the internet. It directs"
 aliases: ["TOR", "The Onion Router", "Anonymous Network"]
 tags: ["distributed-systems", "networking", "security", "privacy"]
 created: 2025-12-02

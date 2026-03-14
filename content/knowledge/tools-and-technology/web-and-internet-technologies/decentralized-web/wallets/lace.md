@@ -1,4 +1,7 @@
 ---
+title: "Lace"
+description: "Notes on Lace."
+date: 2025-02-15
 tags: ["programming", "cryptocurrency", "decentralization", "security"]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Asymmetric encryption
+date: 2025-02-15
 description: Asymmetric encryption is a type of encryption that uses two different keys for encryption and decryption. The public key is used to encrypt the message, and the private key is used to decrypt the message.
 aliases:
   - Asymmetric algorithm

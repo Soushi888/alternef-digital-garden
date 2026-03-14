@@ -1,5 +1,6 @@
 ---
 title: Muuri
+date: 2025-02-15
 description: JavaScript library for creating responsive, sortable, filterable and draggable layouts
 subtitle: Combining features of Packery, Masonry, Isotope and Sortable
 aliases:

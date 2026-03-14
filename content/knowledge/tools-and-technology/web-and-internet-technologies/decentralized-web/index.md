@@ -1,5 +1,6 @@
 ---
 title: Decentralized Web
+date: 2026-03-03
 description: Protocols, platforms, and concepts for building internet infrastructure that operates without central authorities
 aliases:
   - Web3

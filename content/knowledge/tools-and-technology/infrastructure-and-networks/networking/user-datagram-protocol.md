@@ -1,5 +1,6 @@
 ---
 title: User Datagram Protocol (UDP)
+date: 2025-02-15
 description: A lightweight, connectionless communication protocol in the Internet protocol suite
 aliases:
   - UDP

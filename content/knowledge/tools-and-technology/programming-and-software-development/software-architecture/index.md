@@ -1,5 +1,6 @@
 ---
 title: Software Architecture
+date: 2025-02-21
 description: Exploring architectural principles, design patterns, and modeling techniques
 tags: ["software-architecture", "design", "software-development"]
 

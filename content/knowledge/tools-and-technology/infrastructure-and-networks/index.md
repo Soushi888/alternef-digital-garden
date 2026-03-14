@@ -1,5 +1,6 @@
 ---
 title: Infrastructure and Networks
+date: 2025-02-19
 description: A comprehensive exploration of digital infrastructure, network technologies, and system design
 tags: ["infrastructure", "networking", "distributed-systems", "devops", "cloud-computing"]
 

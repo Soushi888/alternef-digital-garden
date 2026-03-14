@@ -1,5 +1,6 @@
 ---
 title: Data and Storage
+date: 2025-02-19
 description: A holistic exploration of data management, storage technologies, and information architecture
 tags: ["storage", "data-modeling"]
 

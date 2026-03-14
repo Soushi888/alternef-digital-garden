@@ -1,5 +1,7 @@
 ---
 title: Information Economy Meta-Language (IEML)
+description: "Pierre Lévy is a philosopher and pioneer in the study of the impact of the Internet on human knowledge and culture. His seminal work Collective"
+date: 2025-02-15
 aliases:
   - IEML
   - Méta-langage de l'Économie de l'information

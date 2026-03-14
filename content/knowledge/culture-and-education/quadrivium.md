@@ -1,5 +1,6 @@
 ---
 title: "Quadrivium"
+date: 2026-01-05
 description: "The four mathematical liberal arts of classical education — Arithmetic, Geometry, Music, and Astronomy — revealing the mathematical structure of cosmic order."
 aliases:
   - "Quadrivium Education"

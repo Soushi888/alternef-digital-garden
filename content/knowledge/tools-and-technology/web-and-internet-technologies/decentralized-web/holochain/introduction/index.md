@@ -1,5 +1,6 @@
 ---
 title: Introduction to Holochain
+date: 2025-02-20
 description: Foundational concepts and initial understanding of Holochain's revolutionary approach to distributed computing
 tags: ["holochain", "decentralization", "peer-to-peer"]
 ---

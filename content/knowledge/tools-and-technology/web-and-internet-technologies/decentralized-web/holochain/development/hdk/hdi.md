@@ -1,4 +1,7 @@
 ---
+title: "HDI"
+description: "Subset of the HDK"
+date: 2025-02-15
 type: library
 language: rust
 tags: ["programming", "holochain", "rust", "hdk"]

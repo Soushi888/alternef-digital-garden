@@ -1,4 +1,7 @@
 ---
+title: "Cornucopias"
+description: "Notes on Cornucopias."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

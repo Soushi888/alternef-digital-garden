@@ -1,4 +1,7 @@
 ---
+title: "Non Fungible Token"
+description: "Non-Fungible Tokens (NFTs) are unique digital assets that leverage Blockchain technology to establish proof of ownership and authenticity. Unlike"
+date: 2025-02-15
 aliases:
   - NFTs
   - NFT

@@ -1,5 +1,6 @@
 ---
 title: "Authentication"
+date: 2025-02-19
 description: "Authentication is the process of verifying that a user is who they claim to be, and that they have the credentials to access a resource."
 tags: ["programming", "security", "cryptography"]
 

@@ -1,4 +1,7 @@
 ---
+title: "Semantic Versioning"
+description: "Semantic Versioning, often abbreviated as SemVer, is a versioning scheme for software that aims to convey meaning about the underlying changes in a"
+date: 2025-02-15
 aliases: 
 tags: ["devops", "version-control"]
 

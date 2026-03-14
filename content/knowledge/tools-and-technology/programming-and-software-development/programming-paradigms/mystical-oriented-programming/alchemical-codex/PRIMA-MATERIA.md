@@ -1,5 +1,6 @@
 ---
 title: "🌱 Prima Materia Digitalis"
+date: 2025-08-04
 description: "The foundational elements of distributed computing mapped to alchemical principles: four classical elements, three philosophical principles, seven planetary metals, and the quintessence."
 aliases:
   - "Prima Materia"

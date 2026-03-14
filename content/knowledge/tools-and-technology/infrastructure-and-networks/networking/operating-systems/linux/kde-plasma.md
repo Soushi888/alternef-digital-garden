@@ -1,5 +1,6 @@
 ---
 title: "KDE Plasma Desktop Environment"
+date: 2025-02-15
 description: "KDE Plasma as a powerful, customizable desktop environment for Linux computing"
 aliases:
   - "KDE Plasma"

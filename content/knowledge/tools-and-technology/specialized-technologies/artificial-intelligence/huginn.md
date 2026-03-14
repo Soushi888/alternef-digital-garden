@@ -1,4 +1,7 @@
 ---
+title: "Huginn"
+description: "Notes on Huginn."
+date: 2025-02-15
 aliases:
   - Huginn Agents
   - Huginn AI

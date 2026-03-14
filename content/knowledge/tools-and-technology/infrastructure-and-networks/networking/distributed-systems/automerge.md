@@ -1,4 +1,7 @@
 ---
+title: "Automerge"
+description: "Notes on Automerge."
+date: 2025-02-15
 tags: ["programming", "distributed-systems", "peer-to-peer", "software-architecture"]
 ---
 

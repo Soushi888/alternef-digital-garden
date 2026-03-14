@@ -1,4 +1,7 @@
 ---
+title: "Ganache"
+description: "Notes on Ganache."
+date: 2025-02-15
 tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
 ---
 

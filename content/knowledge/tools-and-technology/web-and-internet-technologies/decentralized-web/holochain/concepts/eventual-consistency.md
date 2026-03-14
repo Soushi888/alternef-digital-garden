@@ -1,5 +1,8 @@
 ---
-Aliases: [eventual consistency]
+title: "Eventual Consistency"
+description: "Eventual consistency is a concept in distributed computing where all nodes in a distributed system eventually become consistent with each other, but this"
+date: 2025-02-15
+aliases: [eventual consistency]
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 
 ---

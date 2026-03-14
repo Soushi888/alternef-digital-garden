@@ -1,5 +1,7 @@
 ---
 title: "Kernel Architectures: Monolithic, Microkernel, and Unikernel"
+description: "A kernel is the core component of an operating system that manages system resources and enables communication between hardware and software. The"
+date: 2025-10-12
 aliases:
   - "Operating System Kernels"
   - "Kernel Design"

@@ -1,5 +1,6 @@
 ---
 title: CQRS Pattern
+date: 2025-09-27
 description: Comprehensive guide to Command Query Responsibility Segregation (CQRS) architectural pattern for building scalable, maintainable software systems
 tags: ["software-architecture", "microservices", "domain-driven-design"]
 ---

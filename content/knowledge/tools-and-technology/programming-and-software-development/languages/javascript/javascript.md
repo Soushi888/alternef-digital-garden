@@ -1,4 +1,7 @@
 ---
+title: "JavaScript"
+description: "JavaScript is a high-level, interpreted programming language that is primarily used to enhance interactivity and provide rich web content on websites."
+date: 2025-02-15
 tags: ["programming", "frontend"]
 
 ---

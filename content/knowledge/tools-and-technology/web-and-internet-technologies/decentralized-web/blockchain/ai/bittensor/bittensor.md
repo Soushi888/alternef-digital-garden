@@ -1,4 +1,7 @@
 ---
+title: "Bittensor"
+description: "Bittensor is essentially a language for writing numerous decentralized commodity markets, or 'subnets', situated under a unified token system. These"
+date: 2025-02-15
 tags: ["programming", "blockchain", "artificial-intelligence", "decentralization"]
 ---
 

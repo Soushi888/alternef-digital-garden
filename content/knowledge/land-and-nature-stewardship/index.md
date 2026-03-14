@@ -1,5 +1,6 @@
 ---
 title: Land and Nature Stewardship
+date: 2025-02-12
 description: A holistic exploration of ecological relationships, regenerative practices, and human-nature interconnectedness
 tags: ["regenerative-design", "ecology"]
 

@@ -1,5 +1,6 @@
 ---
 title: Holochain Concepts
+date: 2025-03-11
 description: Core concepts, data structures, and technical primitives that make up the Holochain framework
 tags: ["holochain", "decentralization"]
 ---

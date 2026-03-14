@@ -1,5 +1,6 @@
 ---
 title: Links Manipulation
+date: 2025-02-15
 description: HDK functions for creating and managing links between entries in Holochain
 tags: ["holochain", "links", "hdk"]
 

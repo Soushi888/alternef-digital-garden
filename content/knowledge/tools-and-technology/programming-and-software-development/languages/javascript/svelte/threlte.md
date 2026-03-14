@@ -1,5 +1,6 @@
 ---
 title: Threlte
+date: 2025-03-24
 description: A 3D framework for Svelte that leverages Three.js for building interactive 3D web applications
 tags: ["svelte", "web-dev", "javascript", "frameworks", "3d"]
 ---

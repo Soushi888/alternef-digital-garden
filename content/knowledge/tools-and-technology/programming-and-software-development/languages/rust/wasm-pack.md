@@ -1,4 +1,7 @@
 ---
+title: "Wasm Pack"
+description: "This tool seeks to be a one-stop shop for building and working with"
+date: 2025-02-15
 type: builder
 language: [rust, webassembly]
 tags: ["programming", "rust", "systems-programming"]

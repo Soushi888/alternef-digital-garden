@@ -1,5 +1,6 @@
 ---
 title: "Linux Mint"
+date: 2025-10-12
 description: "Linux Mint as Ubuntu-based distribution focused on user-friendliness and traditional desktop experience"
 aliases:
   - "Linux Mint Cinnamon"

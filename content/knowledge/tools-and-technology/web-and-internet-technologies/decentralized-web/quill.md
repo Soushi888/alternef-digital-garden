@@ -1,5 +1,6 @@
 ---
 title: Quill
+date: 2025-02-15
 description: A Web3 social network platform for building value networks and decentralized communities
 tags: ["decentralization", "web3", "blockchain"]
 

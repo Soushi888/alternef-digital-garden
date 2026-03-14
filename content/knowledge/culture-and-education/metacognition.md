@@ -1,5 +1,7 @@
 ---
 title: "Metacognition"
+description: "At its core, metacognition involves two interrelated capacities: knowing what we know (and don't know) and controlling how we learn. This self-awareness"
+date: 2026-01-27
 aliases: ["Metacognitive Processes", "Learning to Learn", "Thinking About Thinking"]
 tags: ["learning", "psychology", "self-awareness", "critical-thinking", "cognitive-science"]
 

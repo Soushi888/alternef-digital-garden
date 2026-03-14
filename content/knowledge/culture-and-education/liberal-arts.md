@@ -1,5 +1,6 @@
 ---
 title: "Liberal Arts"
+date: 2026-01-05
 description: "The foundational curriculum of classical and medieval education, divided into the Trivium and Quadrivium, designed to cultivate intellectual freedom and philosophical wisdom."
 aliases:
   - "Seven Liberal Arts"

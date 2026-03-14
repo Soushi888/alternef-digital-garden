@@ -1,5 +1,7 @@
 ---
 title: "Ralph Loop"
+description: "The Ralph Loop is an autonomous AI agent pattern that enables continuous, self-iterating development cycles. Created by Geoffrey Huntley in May 2025, the"
+date: 2026-01-27
 aliases: ["Ralph Wiggum Loop", "Ralph Wiggum Technique", "Autonomous AI Agent Loop"]
 tags: ["artificial-intelligence", "software-development", "automation"]
 

@@ -1,5 +1,6 @@
 ---
 title: Editor.js
+date: 2025-02-15
 description: Free block-style editor with a universal JSON output
 subtitle: Modern block-styled editor with clean JSON output
 aliases:

@@ -1,4 +1,7 @@
 ---
+title: "Session"
+description: "In backend programming, particularly within web development, a session refers to a mechanism used to maintain state information about a user's"
+date: 2025-02-15
 tags: ["authentication", "backend"]
 
 ---

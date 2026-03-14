@@ -2,6 +2,7 @@
 title: Culture and Education
 description: A holistic exploration of learning, cultural dynamics, and human knowledge transmission
 tags: ["education", "learning"]
+date: 2025-02-12
 
 ---
 

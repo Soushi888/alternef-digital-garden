@@ -1,5 +1,6 @@
 ---
 title: Skeleton UI
+date: 2025-02-15
 description: UI Toolkit for building reactive interfaces with Svelte and Tailwind
 subtitle: Modern component library for SvelteKit applications
 aliases:

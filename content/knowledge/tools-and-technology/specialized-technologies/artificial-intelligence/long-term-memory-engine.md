@@ -1,5 +1,6 @@
 ---
 title: Long-Term Memory (LTM) Engine
+date: 2025-07-22
 description: An overview of the Long-Term Memory (LTM) engine used in Pieces for Developers.
 tags: ["local-first", "pieces", "developer-tools", "ai-assistant", "agent", "mcp"]
 

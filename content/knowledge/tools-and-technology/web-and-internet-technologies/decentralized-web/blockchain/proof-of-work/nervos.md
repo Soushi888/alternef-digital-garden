@@ -1,4 +1,7 @@
 ---
+title: "Nervos"
+description: "Notes on Nervos."
+date: 2025-02-15
 aliases:
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 

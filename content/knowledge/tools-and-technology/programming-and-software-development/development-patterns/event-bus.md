@@ -1,5 +1,6 @@
 ---
 title: Event Bus Building Pattern
+date: 2025-02-21
 description: A design pattern for implementing event-driven architectures using TypeScript and Rust
 tags: ["programming", "rust", "typescript", "software-architecture", "event-driven", "design-patterns"]
 ---

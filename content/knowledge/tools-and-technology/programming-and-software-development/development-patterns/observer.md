@@ -1,5 +1,6 @@
 ---
 title: Observer Pattern
+date: 2025-02-21
 description: A design pattern that defines a one-to-many dependency between objects, enabling automatic notification of state changes
 tags: ["programming", "typescript", "software-architecture", "event-driven", "design-patterns", "functional-programming", "knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|development"]
 ---

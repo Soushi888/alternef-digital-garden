@@ -1,5 +1,6 @@
 ---
 title: "ISM Radio Bands"
+description: "ISM radio bands are portions of the radio spectrum reserved internationally for industrial, scientific, and medical (ISM) purposes, excluding applications"
 aliases: ["Industrial Scientific Medical Bands", "ISM Frequencies", "ISM Spectrum", "Radio Spectrum ISM"]
 tags: ["networking", "wireless", "radio-frequency"]
 created: 2025-12-02

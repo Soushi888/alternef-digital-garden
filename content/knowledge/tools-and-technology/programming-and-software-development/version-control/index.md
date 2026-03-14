@@ -1,5 +1,6 @@
 ---
 title: Version Control
+date: 2026-03-03
 description: Tools and practices for tracking changes in source code, collaborating on codebases, and managing software history
 aliases:
   - Source Control

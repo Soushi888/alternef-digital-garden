@@ -1,4 +1,7 @@
 ---
+title: "Delegated Proof Of Stake"
+description: "Delegate Proof of Stake (DPoS) is a consensus algorithm used by certain Blockchain networks to validate transactions and create new blocks. It is a"
+date: 2025-02-15
 aliases:
   - DPoS
   - DPOS

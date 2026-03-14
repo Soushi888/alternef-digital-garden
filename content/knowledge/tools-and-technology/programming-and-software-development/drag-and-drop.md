@@ -1,5 +1,6 @@
 ---
 title: Drag and Drop
+date: 2025-02-15
 description: An interaction pattern for moving elements by dragging them to new positions, implemented via HTML5 API or JavaScript libraries
 tags: ["web-dev", "javascript", "html", "frontend"]
 

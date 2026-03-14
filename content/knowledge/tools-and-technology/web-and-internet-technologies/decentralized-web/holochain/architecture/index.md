@@ -1,5 +1,6 @@
 ---
 title: Holochain Architecture
+date: 2025-03-11
 description: Technical architecture, components, and design principles of the Holochain framework
 tags: ["holochain", "distributed-systems", "decentralization", "peer-to-peer", "architecture"]
 ---

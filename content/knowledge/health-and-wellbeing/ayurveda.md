@@ -1,5 +1,7 @@
 ---
 title: "Ayurveda: The Science of Life and Longevity"
+description: "Ayurveda (Sanskrit: āyurveda, from āyus, 'life' or 'longevity,' and veda, 'knowledge' or 'science') is one of the world's oldest continuously practiced"
+date: 2026-03-02
 aliases:
   - "Ayurvedic Medicine"
   - "Ayurvedic Healing"

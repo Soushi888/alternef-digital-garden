@@ -1,4 +1,7 @@
 ---
+title: "How To Design An Holochain Application"
+description: "Notes on How To Design An Holochain Application."
+date: 2025-02-15
 tags: ["programming", "holochain", "rust", "distributed-systems"]
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Supervision Tree"
+description: "A supervision tree is a hierarchical structure of processes designed to build fault-tolerant systems through organized error handling and automatic"
+date: 2025-09-12
 aliases:
   - Supervisor hierarchy
   - Process supervision

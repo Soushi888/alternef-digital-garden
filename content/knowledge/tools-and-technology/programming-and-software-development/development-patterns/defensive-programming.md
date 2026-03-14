@@ -1,5 +1,6 @@
 ---
 title: Defensive Programming
+date: 2026-02-27
 description: A programming practice of anticipating and guarding against potential failures, invalid inputs, and unexpected conditions to build robust software
 tags: ["programming", "software-architecture", "design", "software-quality", "design-principles", "error-handling", "knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|development"]
 ---

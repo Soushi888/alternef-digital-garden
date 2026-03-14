@@ -1,4 +1,7 @@
 ---
+title: "Plutus"
+description: "Plutus is the smart contract platform of the Cardano blockchain[1][2]. It is a native smart contract language for Cardano, written in Haskell, and is"
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

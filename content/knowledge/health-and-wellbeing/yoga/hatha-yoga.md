@@ -1,5 +1,6 @@
 ---
 title: "Hatha Yoga"
+date: 2026-03-03
 description: "A comprehensive exploration of traditional Hatha Yoga, the classical Indian path of body-mind integration rooted in the Natha Sampradaya"
 tags: ["mind-body-connection", "health", "meditation", "indian-philosophy", "postures", "hatha-yoga", "pranayama"]
 ---

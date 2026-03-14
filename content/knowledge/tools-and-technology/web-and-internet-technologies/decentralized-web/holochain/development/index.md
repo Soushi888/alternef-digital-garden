@@ -1,5 +1,6 @@
 ---
 title: Holochain Development
+date: 2025-03-11
 description: Resources, guides, and tools for developing applications on the Holochain framework
 tags: ["holochain", "decentralization", "peer-to-peer", "programming", "software-development"]
 ---

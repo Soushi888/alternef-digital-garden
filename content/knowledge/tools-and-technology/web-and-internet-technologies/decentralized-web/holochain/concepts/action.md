@@ -1,5 +1,8 @@
 ---
-Aliases: [action, actions, Actions]
+title: "Action"
+description: "Notes on Action."
+date: 2025-02-15
+aliases: [action, actions, Actions]
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 
 ---

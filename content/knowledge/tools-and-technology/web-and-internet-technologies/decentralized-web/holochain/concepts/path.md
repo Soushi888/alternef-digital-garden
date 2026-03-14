@@ -1,4 +1,7 @@
 ---
+title: "Path"
+description: "use hdk::prelude::*;"
+date: 2025-02-15
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 ---
 

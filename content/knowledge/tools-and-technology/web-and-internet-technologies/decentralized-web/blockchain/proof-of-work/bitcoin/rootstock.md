@@ -1,4 +1,7 @@
 ---
+title: "Rootstock"
+description: "Notes on Rootstock."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

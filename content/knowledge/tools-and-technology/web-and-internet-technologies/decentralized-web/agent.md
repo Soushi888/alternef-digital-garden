@@ -1,5 +1,6 @@
 ---
 title: Agent
+date: 2025-02-20
 description: Sovereign digital entities that represent human or computational actors in decentralized systems
 tags: ["decentralization", "web3"]
 aliases: ["Digital Agents", "Sovereign Agents"]

@@ -1,5 +1,6 @@
 ---
 title: "GNOME Desktop Environment"
+date: 2025-02-15
 description: "GNOME desktop environment as a vision of accessible, inclusive computing and human-centered design"
 aliases:
   - "GNOME Shell"

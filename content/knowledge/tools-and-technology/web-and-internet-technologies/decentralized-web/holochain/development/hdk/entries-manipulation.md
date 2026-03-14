@@ -1,5 +1,6 @@
 ---
 title: Entries Manipulation
+date: 2025-02-15
 description: HDK functions for creating, updating, and managing Holochain entries
 tags: ["holochain", "hdk", "entries"]
 

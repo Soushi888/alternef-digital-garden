@@ -1,5 +1,6 @@
 ---
 title: Cryptographic Autonomy License
+date: 2025-02-15
 description: A novel open-source license designed to protect user sovereignty and data autonomy in decentralized systems
 tags: ["decentralization", "open-source", "licensing"]
 ---

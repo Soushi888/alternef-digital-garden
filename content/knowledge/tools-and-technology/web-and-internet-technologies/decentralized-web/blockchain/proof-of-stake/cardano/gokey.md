@@ -1,4 +1,7 @@
 ---
+title: "Gokey"
+description: "Notes on Gokey."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

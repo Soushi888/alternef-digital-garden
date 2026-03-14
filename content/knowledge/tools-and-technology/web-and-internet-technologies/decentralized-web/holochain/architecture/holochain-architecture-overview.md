@@ -1,5 +1,6 @@
 ---
 title: Holochain Architecture Overview
+date: 2025-02-15
 description: High-level overview of Holochain's innovative architectural design, core components, and guiding principles
 tags: ["holochain", "architecture", "distributed-systems", "decentralization"]
 

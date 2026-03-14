@@ -1,5 +1,6 @@
 ---
 title: Multi-Signature
+date: 2025-02-15
 description: Multi-Signature is a type of cryptographic signature that allows multiple parties to sign a message.
 aliases:
   - Multisig

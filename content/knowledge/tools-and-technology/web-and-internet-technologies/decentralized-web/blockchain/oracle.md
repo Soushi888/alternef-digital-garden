@@ -1,4 +1,7 @@
 ---
+title: "Oracle"
+description: "In the context of Blockchain, an oracle is an entity that serves as a bridge between blockchains and external systems, enabling Smart Contracts to execute"
+date: 2025-02-15
 tags: ["programming", "blockchain", "decentralization"]
 ---
 

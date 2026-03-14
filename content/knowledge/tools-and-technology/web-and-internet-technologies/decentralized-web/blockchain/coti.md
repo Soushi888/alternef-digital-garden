@@ -1,4 +1,7 @@
 ---
+title: "Coti"
+description: "Notes on Coti."
+date: 2025-02-15
 tags: ["programming", "blockchain", "decentralization"]
 ---
 

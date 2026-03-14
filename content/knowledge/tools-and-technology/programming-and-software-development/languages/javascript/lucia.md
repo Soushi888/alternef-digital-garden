@@ -1,4 +1,7 @@
 ---
+title: "Lucia"
+description: "Notes on Lucia."
+date: 2025-02-15
 aliases:
   - lucia-auth
 tags: ["javascript", "authentication"]

@@ -1,5 +1,6 @@
 ---
 title: "Complexity Science: The Study of Complex Adaptive Systems"
+date: 2025-11-17
 description: "Interdisciplinary exploration of complex adaptive systems, emergence, self-organization, and the principles governing complex phenomena across natural and social domains"
 tags: ["complexity-science", "systems-thinking", "interdisciplinary", "emergence", "collective-intelligence", "adaptive-systems"]
 

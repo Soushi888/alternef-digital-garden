@@ -1,5 +1,6 @@
 ---
 title: "Mathematics"
+date: 2025-12-11
 description: "Exploration of mathematical concepts, patterns, and their applications across disciplines"
 tags: ["software-architecture", "mathematics"]
 ---

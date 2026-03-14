@@ -1,5 +1,6 @@
 ---
 title: DNA and Zomes
+date: 2026-03-03
 description: How Holochain applications are structured through DNA, integrity zomes, and coordinator zomes
 aliases:
   - Holochain DNA

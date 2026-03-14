@@ -1,5 +1,6 @@
 ---
 title: Security and Privacy
+date: 2025-02-19
 description: A holistic exploration of digital security, privacy technologies, and ethical information protection
 tags: ["cryptography", "security", "privacy", "authentication"]
 

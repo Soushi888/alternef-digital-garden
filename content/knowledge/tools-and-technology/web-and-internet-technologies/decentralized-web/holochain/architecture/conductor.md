@@ -1,4 +1,7 @@
 ---
+title: "Conductor"
+description: "The Holochain Conductor is a runtime environment that manages and orchestrates multiple DNAs (distributed applications) and their interactions. It"
+date: 2025-02-15
 tags: ["programming", "holochain", "distributed-systems", "software-architecture"]
 ---
 

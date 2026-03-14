@@ -1,4 +1,7 @@
 ---
+title: "NixOS Personal Environment"
+description: "Configuration.nix"
+date: 2025-02-15
 tags: ["programming", "linux", "nixos", "devops"]
 ---
 

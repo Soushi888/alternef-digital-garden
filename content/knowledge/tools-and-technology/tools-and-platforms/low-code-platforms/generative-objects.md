@@ -1,4 +1,7 @@
 ---
+title: "Generative Objects"
+description: "Notes on Generative Objects."
+date: 2025-02-15
 tags: ["programming", "software-development", "web-dev"]
 ---
 

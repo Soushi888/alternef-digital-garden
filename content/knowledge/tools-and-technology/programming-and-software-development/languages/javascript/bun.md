@@ -1,4 +1,7 @@
 ---
+title: "Bun"
+description: "JavaScript runtime."
+date: 2025-02-15
 tags: ["programming", "javascript", "web-dev"]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: P2P Shipyard
+date: 2025-02-15
 description: Cross-platform P2P application development toolkit
 tags: ["holochain", "peer-to-peer", "software-development", "cross-platform"]
 ---

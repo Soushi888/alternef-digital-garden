@@ -1,5 +1,6 @@
 ---
 title: Network Seed
+date: 2025-09-10
 description: Cryptographic identifier that determines network membership and enables secure peer discovery in Holochain applications
 tags: ["holochain", "networking"]
 ---

@@ -1,4 +1,7 @@
 ---
+title: "Wallets"
+description: "Web3 wallets are digital tools designed to interact with Non-Fungible Tokens), stablecoins, and other tokenized assets. Unlike traditional digital wallets"
+date: 2025-02-15
 tags: ["programming", "cryptocurrency", "decentralization", "security"]
 ---
 

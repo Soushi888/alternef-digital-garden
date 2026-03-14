@@ -1,5 +1,6 @@
 ---
 title: WordPress
+date: 2025-02-15
 description: A content management system (CMS) that allows you to create and manage your website.
 tags: ["content-management-system"]
 

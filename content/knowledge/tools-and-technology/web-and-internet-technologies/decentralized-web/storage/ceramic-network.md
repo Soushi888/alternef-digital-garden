@@ -1,4 +1,7 @@
 ---
+title: "Ceramic Network"
+description: "Ceramic Network is a decentralized data network that powers an ecosystem of interoperable Web3 applications and services. It provides a protocol for"
+date: 2025-02-15
 tags: ["programming", "distributed-systems", "decentralization", "peer-to-peer"]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Mesh Networks"
+description: "Notes on Mesh Networks."
 aliases: ["Mesh Network", "Wireless Mesh", "Mesh Topology"]
 tags: [networking, wireless, distributed-systems, decentralized]
 created: 2025-12-02

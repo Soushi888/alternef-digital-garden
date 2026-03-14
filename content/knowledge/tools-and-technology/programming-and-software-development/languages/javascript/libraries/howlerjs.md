@@ -1,5 +1,6 @@
 ---
 title: Howler.js
+date: 2025-02-15
 description: JavaScript audio library for the modern web
 subtitle: Makes working with audio in JavaScript easy and reliable across all platforms
 aliases:

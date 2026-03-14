@@ -1,5 +1,6 @@
 ---
 title: TinyMCE
+date: 2025-02-15
 description: A popular WYSIWYG editor for creating and editing rich text content in web applications
 subtitle: Advanced HTML editor for web content creation
 aliases:

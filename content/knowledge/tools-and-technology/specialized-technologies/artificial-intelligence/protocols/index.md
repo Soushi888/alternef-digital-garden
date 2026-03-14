@@ -1,5 +1,6 @@
 ---
 title: AI Protocols
+date: 2026-03-03
 description: Standardized interfaces and protocols that enable AI models to interact with external tools, systems, and other agents
 aliases:
   - AI Integration Protocols

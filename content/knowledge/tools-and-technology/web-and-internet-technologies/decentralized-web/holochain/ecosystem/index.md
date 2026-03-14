@@ -1,5 +1,6 @@
 ---
 title: Holochain Ecosystem
+date: 2025-03-11
 description: Organizations, projects, communities, and resources that make up the Holochain ecosystem
 tags: ["holochain", "decentralization", "community", "ecosystem", "happs", "holochain-projects"]
 ---

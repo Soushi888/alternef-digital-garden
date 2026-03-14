@@ -1,5 +1,6 @@
 ---
 title: Rivest–Shamir–Adleman
+date: 2025-02-15
 description: Rivest–Shamir–Adleman is a public-key encryption system that is widely used to secure sensitive data, particularly when being transmitted over an insecure network like the internet.
 aliases:
   - RSA

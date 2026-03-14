@@ -1,5 +1,6 @@
 ---
 title: Licenses
+date: 2025-02-15
 description: An overview of software and creative licenses, from open-source to proprietary, and how to choose between them
 aliases:
   - license

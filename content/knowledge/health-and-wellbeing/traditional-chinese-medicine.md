@@ -1,5 +1,7 @@
 ---
 title: "Traditional Chinese Medicine: A Complete System of Health and Healing"
+description: "Traditional Chinese Medicine (TCM) is one of the world's oldest and most comprehensive medical systems, with a continuous clinical tradition spanning more"
+date: 2026-03-02
 aliases:
   - "TCM"
   - "Chinese Medicine"

@@ -1,5 +1,6 @@
 ---
 title: Sortable.js
+date: 2025-02-15
 description: JavaScript library for reorderable drag-and-drop lists
 subtitle: Framework-agnostic drag-and-drop library for modern browsers
 aliases:

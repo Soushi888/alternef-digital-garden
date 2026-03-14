@@ -1,5 +1,6 @@
 ---
 title: Unspent Transaction Output (UTXO)
+date: 2025-02-27
 description: What is UTXO in Blockchain?
 tags: ["blockchain", "cryptocurrency", "utxo"]
 

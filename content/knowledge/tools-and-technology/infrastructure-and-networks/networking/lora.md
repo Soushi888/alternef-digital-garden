@@ -1,5 +1,6 @@
 ---
 title: "LoRa (Long Range) Technology"
+description: "LoRa (Long Range) is a wireless communication technology designed for low-power, long-range applications. Here's a breakdown of what LoRa is and how it"
 aliases: ["LoRa", "Long Range", "LoRaWAN Physical Layer"]
 tags: [networking, wireless, iot, low-power-wide-area-network]
 created: 2025-12-02

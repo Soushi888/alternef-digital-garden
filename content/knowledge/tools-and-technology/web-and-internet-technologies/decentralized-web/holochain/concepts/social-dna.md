@@ -1,5 +1,6 @@
 ---
 title: Social DNA
+date: 2025-09-10
 description: DNA configurations that encode social rules, community agreements, and collective decision-making processes into Holochain applications
 tags: ["holochain", "collective-intelligence"]
 ---

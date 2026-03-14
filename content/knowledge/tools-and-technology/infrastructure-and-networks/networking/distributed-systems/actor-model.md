@@ -1,5 +1,7 @@
 ---
 title: "Actor Model"
+description: "The Actor Model is a mathematical model of concurrent computation that treats 'actors' as the fundamental units of computation. Developed by Carl Hewitt"
+date: 2025-09-12
 aliases:
   - Actor-based concurrency
   - Actor system

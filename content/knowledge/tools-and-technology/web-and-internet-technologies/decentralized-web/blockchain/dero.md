@@ -1,4 +1,7 @@
 ---
+title: "Dero"
+description: "Notes on Dero."
+date: 2025-02-15
 tags: ["programming", "blockchain", "decentralization"]
 ---
 

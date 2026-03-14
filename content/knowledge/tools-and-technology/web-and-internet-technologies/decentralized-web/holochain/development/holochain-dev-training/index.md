@@ -1,5 +1,6 @@
 ---
 title: Holochain Developer Training
+date: 2025-03-11
 description: Educational resources, learning paths, and training materials for developers new to the Holochain ecosystem
 tags: ["holochain", "education", "learning", "software-development"]
 ---

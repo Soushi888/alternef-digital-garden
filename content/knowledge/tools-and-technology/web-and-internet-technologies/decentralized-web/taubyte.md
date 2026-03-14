@@ -1,4 +1,7 @@
 ---
+title: "Taubyte"
+description: "Notes on Taubyte."
+date: 2025-02-15
 tags: ["programming", "decentralization", "distributed-systems"]
 ---
 

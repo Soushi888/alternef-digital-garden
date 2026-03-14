@@ -1,5 +1,6 @@
 ---
 title: Proof of Work
+date: 2025-02-15
 description: Proof of Work is a consensus algorithm used by certain blockchain networks to validate transactions and create new blocks.
 tags: ["blockchain", "consensus"]
 

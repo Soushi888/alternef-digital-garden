@@ -1,5 +1,6 @@
 ---
 title: HTMX
+date: 2025-02-15
 description: JavaScript library for building modern UIs with the simplicity of HTML
 subtitle: Access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML
 aliases:

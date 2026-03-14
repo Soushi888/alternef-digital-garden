@@ -1,4 +1,7 @@
 ---
+title: "Charl3"
+description: "Notes on Charl3."
+date: 2025-02-15
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 ---
 

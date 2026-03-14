@@ -1,4 +1,7 @@
 ---
+title: "Django"
+description: "Python framework for web development"
+date: 2025-02-15
 tags: ["programming", "python", "software-development"]
 ---
 

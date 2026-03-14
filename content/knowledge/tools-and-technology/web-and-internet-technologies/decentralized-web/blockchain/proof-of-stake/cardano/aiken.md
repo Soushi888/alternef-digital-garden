@@ -1,5 +1,6 @@
 ---
 title: Aiken
+date: 2025-02-15
 description: A functional programming language for developing smart contracts on the Cardano blockchain
 tags: ["blockchain", "programming", "software-development"]
 

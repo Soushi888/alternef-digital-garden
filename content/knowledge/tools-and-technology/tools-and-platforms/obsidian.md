@@ -1,5 +1,6 @@
 ---
 title: Obsidian
+date: 2025-02-15
 description: A local-first personal knowledge management tool using plain Markdown files and a powerful plugin ecosystem
 aliases:
   - Obsidian PKM

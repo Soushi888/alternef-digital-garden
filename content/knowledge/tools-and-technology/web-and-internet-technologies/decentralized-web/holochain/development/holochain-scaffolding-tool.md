@@ -1,5 +1,6 @@
 ---
 title: Holochain Scaffolding Tool
+date: 2025-02-15
 description: Command-line interface for quickly generating Holochain applications and components
 tags: ["holochain", "software-development"]
 

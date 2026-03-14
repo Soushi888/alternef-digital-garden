@@ -1,4 +1,7 @@
 ---
+title: "Lightning Network"
+description: "BTC transactions."
+date: 2025-02-15
 aliases: [LN]
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
 

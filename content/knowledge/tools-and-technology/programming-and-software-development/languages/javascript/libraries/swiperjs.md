@@ -1,5 +1,6 @@
 ---
 title: Swiper
+date: 2025-02-15
 description: Swiper is the most modern free and open source mobile touch slider with hardware accelerated transitions and amazing native behavior. Use it on websites, web apps, and mobile native/hybrid apps.
 type: library
 language: javascript

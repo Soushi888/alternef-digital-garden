@@ -1,5 +1,8 @@
 ---
-Aliases: [capability tokens, capability token, Capability Token]
+title: "Capability Tokens"
+description: "use hdk::prelude::*;"
+date: 2025-02-15
+aliases: [capability tokens, capability token, Capability Token]
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 
 ---

@@ -1,5 +1,6 @@
 ---
 title: Wiki
+date: 2025-02-15
 aliases:
   - wiki
 description: "A collaborative web-based system for creating, editing, and organizing content collectively"
