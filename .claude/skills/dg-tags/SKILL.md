@@ -39,10 +39,12 @@ Single source of truth for all tag conventions, vocabulary, and management workf
 
 | Trigger | Workflow |
 |---------|----------|
-| Scan all tags, build frequency table | `Workflows/IndexTags.md` |
-| Analyze tag quality issues | `Workflows/AnalyzeTags.md` |
+| Index tags only (no analysis) | `Workflows/IndexTags.md` |
+| **Index + full report / "make a report" / "analyze tags"** | `Workflows/IndexTags.md` → `Workflows/AnalyzeTags.md` (chained, always both) |
 | Fix tags in bulk (format, aliases, empty) | `Workflows/OptimizeTags.md` |
 | Suggest tags for a specific note | `Workflows/SuggestTags.md` |
+
+**Chaining rule:** Any request containing "report", "analyze", "quality", or "issues" MUST chain IndexTags → AnalyzeTags and write `STATE/analysis-report.md`. IndexTags alone is only correct when the user explicitly asks only to scan or build the frequency table.
 
 **Context files:** `TagVocabulary.md` · `Workflows/IndexTags.md` · `Workflows/AnalyzeTags.md` · `Workflows/OptimizeTags.md` · `Workflows/SuggestTags.md`
 
@@ -80,13 +82,16 @@ bun .claude/skills/dg-tags/Tools/IndexTags.ts --output json --min-count 5
 
 ## Examples
 
-**Example 1: Index the entire garden's tags**
+**Example 1: Index the entire garden's tags and make a report**
 ```
-User: "Index all the tags in the garden"
+User: "Index all the tags in the garden" / "make a report" / "analyze tags"
 → Load dg-tags skill
 → Run IndexTags workflow: bun .claude/skills/dg-tags/Tools/IndexTags.ts --output markdown
-→ Report: total tags, top 20 by frequency, empty-tag file count
-→ Offer to run AnalyzeTags next
+→ (state files written: tag-index.json, tag-frequencies.json, empty-files.json, format-issues.json)
+→ Immediately chain to AnalyzeTags workflow (load TagVocabulary.md, check aliases, orphans, non-vocab tags)
+→ Write STATE/analysis-report.md with full structured output from both workflows
+→ Present condensed summary to user
+→ Offer to run OptimizeTags next
 ```
 
 **Example 2: Suggest tags for a newly created note**
