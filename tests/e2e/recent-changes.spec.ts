@@ -155,7 +155,7 @@ test.describe('RecentChanges Component E2E Tests', () => {
       await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
       await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
 
-      const items = page.locator(SELECTORS.RECENT_CHANGE_ITEM);
+      const items = page.locator(SELECTORS.RECENT_CHANGE_ITEM).filter({ visible: true });
       const itemCount = await items.count();
 
       expect(itemCount).toBeGreaterThanOrEqual(EXPECTED_CONTENT.MIN_ITEMS_DETAILED);
