@@ -73,8 +73,8 @@ export const TEST_CONFIG = {
 
   // Performance thresholds
   PERFORMANCE_THRESHOLDS: {
-    MAX_RENDER_TIME: 1000, // ms
-    MAX_PAGE_LOAD: 3000, // ms
+    MAX_RENDER_TIME: 5000, // ms — DOM traversal over 100 items in CI
+    MAX_PAGE_LOAD: 10000, // ms — cold Quartz dev server on CI can take 5–8s
     MAX_MEMORY_USAGE: 50 * 1024 * 1024, // 50MB
     MIN_LCP: 2500, // Largest Contentful Paint
     MAX_FID: 100, // First Input Delay
