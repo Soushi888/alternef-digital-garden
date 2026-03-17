@@ -502,6 +502,155 @@ test.describe('RecentChanges Component E2E Tests', () => {
     });
   });
 
+  test.describe('Filter Bar and Per-Filter Load More', () => {
+    test('should render filter buttons on dedicated page', async ({ page }) => {
+      await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      const filterGroup = page.locator('.recent-changes-filter');
+      await expect(filterGroup).toBeVisible();
+
+      await expect(filterGroup.locator('button[data-filter="all"]')).toBeVisible();
+      await expect(filterGroup.locator('button[data-filter="created"]')).toBeVisible();
+      await expect(filterGroup.locator('button[data-filter="modified"]')).toBeVisible();
+    });
+
+    test('"All" filter is active by default', async ({ page }) => {
+      await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
+      await page.evaluate(() => localStorage.removeItem('recent-changes-filter'));
+      await page.reload();
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      const allBtn = page.locator('.recent-changes-filter button[data-filter="all"]');
+      await expect(allBtn).toHaveClass(/active/);
+    });
+
+    test('"New" filter shows only created items', async ({ page }) => {
+      await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      await page.locator('.recent-changes-filter button[data-filter="created"]').click();
+
+      const visibleItems = page.locator(SELECTORS.RECENT_CHANGE_ITEM).filter({ visible: true });
+      const count = await visibleItems.count();
+
+      for (let i = 0; i < count; i++) {
+        const dataType = await visibleItems.nth(i).getAttribute('data-type');
+        expect(dataType).toBe('created');
+      }
+    });
+
+    test('"Updated" filter shows only modified items', async ({ page }) => {
+      await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      await page.locator('.recent-changes-filter button[data-filter="modified"]').click();
+
+      const visibleItems = page.locator(SELECTORS.RECENT_CHANGE_ITEM).filter({ visible: true });
+      const count = await visibleItems.count();
+
+      for (let i = 0; i < count; i++) {
+        const dataType = await visibleItems.nth(i).getAttribute('data-type');
+        expect(dataType).toBe('modified');
+      }
+    });
+
+    test('Load More visibility is independent per filter', async ({ page }) => {
+      await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      const loadMoreBtn = page.locator('.recent-changes-load-more');
+
+      for (const filter of ['all', 'created', 'modified'] as const) {
+        await page.locator(`.recent-changes-filter button[data-filter="${filter}"]`).click();
+        await page.waitForTimeout(50);
+
+        const visibleCount = await page
+          .locator(SELECTORS.RECENT_CHANGE_ITEM)
+          .filter({ visible: true })
+          .count();
+
+        // Total DOM items of this type (visible + hidden)
+        const totalOfType = filter === 'all'
+          ? await page.locator(SELECTORS.RECENT_CHANGE_ITEM).count()
+          : await page.locator(`${SELECTORS.RECENT_CHANGE_ITEM}[data-type="${filter}"]`).count();
+
+        const loadMoreVisible = await loadMoreBtn.isVisible();
+
+        if (totalOfType <= visibleCount) {
+          // All items of this type are visible — button should be hidden
+          expect(loadMoreVisible).toBe(false);
+        } else {
+          // More items remain — button should be visible
+          expect(loadMoreVisible).toBe(true);
+        }
+      }
+    });
+
+    test('switching filters does not reset other filters\' pagination state', async ({ page }) => {
+      await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      const loadMoreBtn = page.locator('.recent-changes-load-more');
+      const isLoadMoreAvailable = await loadMoreBtn.isVisible();
+
+      if (!isLoadMoreAvailable) {
+        // Not enough items to test pagination — garden is small, test is inapplicable
+        return;
+      }
+
+      // Expand "All" filter by one page
+      const countBefore = await page
+        .locator(SELECTORS.RECENT_CHANGE_ITEM)
+        .filter({ visible: true })
+        .count();
+
+      await loadMoreBtn.click();
+      await page.waitForTimeout(100);
+
+      const countAfterLoadMore = await page
+        .locator(SELECTORS.RECENT_CHANGE_ITEM)
+        .filter({ visible: true })
+        .count();
+      expect(countAfterLoadMore).toBeGreaterThan(countBefore);
+
+      // Switch away from "All" and back
+      await page.locator('.recent-changes-filter button[data-filter="created"]').click();
+      await page.locator('.recent-changes-filter button[data-filter="all"]').click();
+      await page.waitForTimeout(100);
+
+      // "All" count must be preserved — the expanded state was NOT reset
+      const countAfterSwitch = await page
+        .locator(SELECTORS.RECENT_CHANGE_ITEM)
+        .filter({ visible: true })
+        .count();
+      expect(countAfterSwitch).toBe(countAfterLoadMore);
+    });
+
+    test('filter choice persists across page reload via localStorage', async ({ page }) => {
+      await page.goto(`${SITE_URL}${TEST_SCENARIOS.RECENT_CHANGES_PAGE.path}`);
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      await page.locator('.recent-changes-filter button[data-filter="created"]').click();
+      await page.reload();
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      const newBtn = page.locator('.recent-changes-filter button[data-filter="created"]');
+      await expect(newBtn).toHaveClass(/active/);
+
+      // Cleanup
+      await page.evaluate(() => localStorage.removeItem('recent-changes-filter'));
+    });
+
+    test('homepage widget has no filter bar', async ({ page }) => {
+      await page.goto(SITE_URL);
+      await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
+
+      const filterGroup = page.locator('.recent-changes-filter');
+      expect(await filterGroup.count()).toBe(0);
+    });
+  });
+
   test.describe('Data Integrity', () => {
     test('should show chronologically ordered items', async ({ page }) => {
       await page.goto(SITE_URL);

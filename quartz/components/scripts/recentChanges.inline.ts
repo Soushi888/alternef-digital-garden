@@ -48,19 +48,27 @@ function setupRecentChanges() {
     const loadMoreBtn = container.querySelector<HTMLButtonElement>(".recent-changes-load-more")
 
     let currentFilter = localStorage.getItem("recent-changes-filter") ?? "all"
-    let visibleCount = pageSize
+
+    // Each filter tracks its own visible count independently so that switching
+    // filters never loses pagination progress and Load More works per filter.
+    const visibleCountMap: Record<string, number> = {
+      all: pageSize,
+      created: pageSize,
+      modified: pageSize,
+    }
 
     function getFilteredItems(): HTMLElement[] {
       return items.filter((item) => currentFilter === "all" || item.dataset.type === currentFilter)
     }
 
     function applyVisibility() {
+      const currentVisible = visibleCountMap[currentFilter] ?? pageSize
       const filtered = getFilteredItems()
       let shown = 0
 
       items.forEach((item) => {
         const matchesFilter = currentFilter === "all" || item.dataset.type === currentFilter
-        const withinPage = matchesFilter && shown < visibleCount
+        const withinPage = matchesFilter && shown < currentVisible
 
         item.classList.toggle("rc-hidden-filter", !matchesFilter)
         item.classList.toggle("rc-hidden-page", matchesFilter && !withinPage)
@@ -68,10 +76,9 @@ function setupRecentChanges() {
         if (matchesFilter) shown++
       })
 
-      // Update load more button
+      // Update load more button visibility per filter
       if (loadMoreBtn) {
-        const totalFiltered = filtered.length
-        if (visibleCount >= totalFiltered) {
+        if (currentVisible >= filtered.length) {
           loadMoreBtn.style.display = "none"
         } else {
           loadMoreBtn.style.display = "block"
@@ -79,12 +86,11 @@ function setupRecentChanges() {
       }
     }
 
-    // Filter button clicks
+    // Filter button clicks — switching filter does NOT reset its own count
     const buttons = filterGroup.querySelectorAll<HTMLButtonElement>("button[data-filter]")
     buttons.forEach((btn) => {
       btn.addEventListener("click", () => {
         currentFilter = btn.dataset.filter ?? "all"
-        visibleCount = pageSize
         localStorage.setItem("recent-changes-filter", currentFilter)
 
         buttons.forEach((b) => b.classList.toggle("active", b === btn))
@@ -92,10 +98,10 @@ function setupRecentChanges() {
       })
     })
 
-    // Load More click
+    // Load More click — advances only the active filter's count
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener("click", () => {
-        visibleCount += pageSize
+        visibleCountMap[currentFilter] = (visibleCountMap[currentFilter] ?? pageSize) + pageSize
         applyVisibility()
       })
     }
