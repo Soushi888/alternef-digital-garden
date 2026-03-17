@@ -62,8 +62,11 @@ This documentation outlines the custom Quartz components created to enhance the 
     *   `detailed` (boolean, default: false): If true, enables potentially showing excerpts and tags.
     *   `showExcerpt` (boolean, default: false): If true and `detailed` is true, shows content excerpts.
     *   `showTags` (boolean, default: false): If true and `detailed` is true, shows content tags.
-    *   `linkToMore` (SimpleSlug | false, default: false): If set, shows a "View all changes" link when there are more items than the limit.
+    *   `showFilter` (boolean, default: false): If true, renders All/New/Updated filter buttons and a Load More button. Filter choice persists in `localStorage`. Each filter has its own independent pagination state.
+    *   `pageSize` (number, default: 20): Items revealed per Load More click when `showFilter` is true.
+    *   `linkToMore` (SimpleSlug | false, default: false): If set and `showFilter` is false, shows a "View all changes" link when items exceed the limit.
     *   `pages` (FullSlug[], default: []): Only render on these pages. Empty array means render on all pages.
+*   **Filter and pagination behaviour:** When `showFilter` is true, items beyond `pageSize` start hidden (`rc-hidden-page`). Client-side JS tracks a separate visible count per filter (`all`/`created`/`modified`) so switching filters never resets another filter's pagination progress. Load More is shown only when the active filter has more items to reveal; it is hidden when all items of that type are already visible.
 *   **Layout Integration:**
     ```typescript
     // Homepage: compact view with link to full page
@@ -73,13 +76,15 @@ This documentation outlines the custom Quartz components created to enhance the 
       linkToMore: "recent-changes" as SimpleSlug,
       pages: ["index" as FullSlug],
     })
-    // Dedicated page: detailed view with excerpts and tags
+    // Dedicated page: detailed view with per-filter Load More
     Component.RecentChanges({
-      limit: 20,
+      limit: 100,
       detailed: true,
       showExcerpt: true,
       showTags: true,
+      showFilter: true,
+      pageSize: 20,
       pages: ["recent-changes" as FullSlug],
     })
     ```
-*   **Styling:** Uses `quartz/components/styles/recentChanges.scss`. Badge colors use CSS custom properties (`--rc-created-bg`, `--rc-created-text`, `--rc-modified-bg`, `--rc-modified-text`) for easy theme customization. Includes classes like `.recent-changes`, `.recent-changes-list.detailed`, `.recent-changes-list.condensed`, `.recent-change-item.created`, `.recent-change-item.modified`.
+*   **Styling:** Uses `quartz/components/styles/recentChanges.scss`. Badge colors use CSS custom properties (`--rc-created-bg`, `--rc-created-text`, `--rc-modified-bg`, `--rc-modified-text`) for easy theme customization. Includes classes: `.recent-changes`, `.recent-changes-list.detailed`, `.recent-changes-list.condensed`, `.recent-change-item.created`, `.recent-change-item.modified`, `.recent-changes-filter`, `.rc-hidden-filter`, `.rc-hidden-page`, `.recent-changes-load-more`.
