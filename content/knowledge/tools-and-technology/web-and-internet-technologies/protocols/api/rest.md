@@ -5,12 +5,7 @@ aliases:
   - REST API
   - RESTful
   - Representational State Transfer
-tags:
-  - protocols
-  - networking
-  - software-architecture
-  - api
-  - web-development
+tags: ["protocols", "networking", "software-architecture", "api", "web-dev"]
 date: 2026-03-14
 ---
 

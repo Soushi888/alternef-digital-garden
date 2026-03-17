@@ -2,7 +2,7 @@
 title: Programming and Software Development
 date: 2025-02-19
 description: A holistic exploration of software engineering, programming paradigms, and computational thinking
-tags: ["programming", "software-engineering", "learning"]
+tags: ["programming", "software-development", "learning"]
 
 ---
 

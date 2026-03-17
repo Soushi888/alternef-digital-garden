@@ -1,15 +1,7 @@
 ---
 title: "COP-Lang: A Complexity Oriented Programming DSL"
 description: "A syntax sketch for a domain-specific language that describes complex systems as ecologies of agents, resources, feedback loops, and attractors: no functions, no return values, only topology, tension, and time."
-tags:
-  - "programming-paradigms"
-  - "complexity-science"
-  - "complexity-oriented-programming"
-  - "domain-specific-language"
-  - "holochain"
-  - "nondominium"
-  - "distributed-systems"
-  - "emergence"
+tags: ["programming-paradigms", "complexity-science", "complexity-oriented-programming", "domain-specific-language", "holochain", "nondominium", "distributed-systems", "emergence"]
 date: 2026-03-11
 draft: false
 ---

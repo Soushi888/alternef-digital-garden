@@ -4,11 +4,7 @@ description: "The shared vocabulary agreed upon by developers and domain experts
 aliases:
   - "Domain Language"
   - "Shared Vocabulary"
-tags:
-  - "domain-driven-design"
-  - "programming-paradigms"
-  - "software-architecture"
-  - "software-development"
+tags: ["domain-driven-design", "programming-paradigms", "software-architecture", "software-development"]
 date: 2026-03-17
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Requests & Offers"
 description: "A peer-to-peer marketplace on Holochain enabling community members to publish requests and offers for skills, services, and resources, with ValueFlows economic flow integration."
-tags: ["holochain", "svelte", "rust", "distributed-systems", "peer-to-peer", "valueflows", "rea", "effect"]
+tags: ["holochain", "svelte", "rust", "distributed-systems", "peer-to-peer", "valueflows", "rea", "effect-ts"]
 
 ---
 

@@ -5,13 +5,7 @@ aliases:
   - "BCM"
   - "Banathy Conversations"
   - "Fuschl Conversations"
-tags:
-  - education
-  - systems-thinking
-  - dialogue
-  - collaborative-learning
-  - participatory-methodology
-  - constructivism
+tags: ["education", "systems-thinking", "dialogue", "collaborative-learning", "participatory-methodology", "constructivism"]
 date: 2026-03-14
 draft: false
 ---

@@ -6,7 +6,7 @@ aliases:
   - "Trivium Education"
   - "Three Liberal Arts"
   - "Grammar Logic Rhetoric"
-tags: ["education", "liberal-arts", "classical-education", "trivium", "critical-thinking"]
+tags: ["education", "liberal-arts", "trivium", "critical-thinking"]
 
 ---
 

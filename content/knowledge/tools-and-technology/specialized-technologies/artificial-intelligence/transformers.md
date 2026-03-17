@@ -2,7 +2,7 @@
 title: Transformers
 date: 2025-05-16
 description: Deep learning architecture that revolutionized natural language processing and other sequence-based tasks
-tags: ["artificial-intelligence", "machine-learning", "deep-learning", "nlp"]
+tags: ["artificial-intelligence", "machine-learning", "deep-learning", "natural-language-processing"]
 
 ---
 

@@ -6,11 +6,7 @@ aliases:
   - Llama 2
   - Llama 3
   - Meta AI
-tags:
-  - artificial-intelligence
-  - large-language-models
-  - open-source
-  - machine-learning
+tags: ["artificial-intelligence", "large-language-models", "open-source", "machine-learning"]
 date: 2026-03-14
 ---
 

@@ -2,7 +2,7 @@
 title: "Specification Driven Development"
 description: "SDD addresses a critical issue in modern AI-assisted development: 'vibe coding' - where vague prompts to AI coding agents lead to code that appears"
 aliases: ["SDD", "Spec-Driven Development", "Specification First Development"]
-tags: ["programming", "software-engineering", "software-quality"]
+tags: ["programming", "software-development", "software-quality"]
 created: 2025-10-14
 modified: 2025-10-14
 draft: false

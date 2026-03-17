@@ -1,7 +1,7 @@
 ---
 title: Content Management
 description: Tools and platforms for creating, organizing, and publishing digital content, from full-featured CMS solutions to collaborative wikis
-tags: ["tools-and-technology", "content-management", "web-dev", "knowledge-management"]
+tags: ["content-management", "web-dev", "knowledge-management"]
 date: 2026-03-11
 ---
 

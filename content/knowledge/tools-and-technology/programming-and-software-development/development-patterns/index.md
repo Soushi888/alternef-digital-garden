@@ -2,7 +2,7 @@
 title: Development Patterns
 date: 2025-02-21
 description: Exploring programming paradigms, design patterns, and software construction techniques
-tags: ["programming", "software-development", "software-architecture", "design", "software"]
+tags: ["programming", "software-development", "software-architecture", "design"]
 ---
 
 ## Overview

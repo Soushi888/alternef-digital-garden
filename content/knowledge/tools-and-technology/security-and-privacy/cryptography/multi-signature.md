@@ -5,12 +5,7 @@ updated: 2026-03-17
 description: "An authorization coordination primitive where each party holds an independent key (no secret is split or reconstructed). The threshold logic lives in the verification layer, not in the key material."
 aliases:
   - Multisig
-tags:
-  - cryptography
-  - security
-  - privacy
-  - authorization
-  - distributed-systems
+tags: ["cryptography", "security", "privacy", "authorization", "distributed-systems"]
 ---
 
 Multi-signature (multisig) is an authorization coordination primitive in which multiple independent parties each hold their own key and must co-sign an operation before it is considered valid. No secret is split or reconstructed: each participant's key remains entirely in their custody throughout the process. The threshold logic lives in the verification layer (a protocol rule, a smart contract, an application policy), not in the key material itself.

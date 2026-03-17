@@ -2,7 +2,7 @@
 title: "HedgeDoc"
 aliases: ["CodiMD", "HedgeDoc 2"]
 description: "An open-source, self-hosted, real-time collaborative markdown editor with presentation mode and diagram support."
-tags: ["tools-and-technology", "markdown", "collaboration", "open-source", "self-hosted", "real-time", "knowledge-management", "note-taking"]
+tags: ["markdown", "collaboration", "open-source", "self-hosted", "real-time", "knowledge-management"]
 date: 2026-03-11
 ---
 

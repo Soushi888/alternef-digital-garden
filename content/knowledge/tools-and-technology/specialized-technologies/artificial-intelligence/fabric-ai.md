@@ -5,7 +5,7 @@ date: 2025-02-15
 aliases:
   - Fabric Framework
   - Daniel Miessler's Fabric
-tags: ["artificial-intelligence", "open-source", "productivity", "llm", "automation"]
+tags: ["artificial-intelligence", "open-source", "productivity", "large-language-models", "automation"]
 
 ---
 

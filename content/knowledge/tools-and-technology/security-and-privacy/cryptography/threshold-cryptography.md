@@ -5,12 +5,7 @@ aliases:
   - Threshold Signatures
   - Distributed Key Generation
   - MPC Cryptography
-tags:
-  - cryptography
-  - security
-  - privacy
-  - secret-sharing
-  - distributed-systems
+tags: ["cryptography", "security", "privacy", "secret-sharing", "distributed-systems"]
 date: 2026-03-17
 draft: false
 ---

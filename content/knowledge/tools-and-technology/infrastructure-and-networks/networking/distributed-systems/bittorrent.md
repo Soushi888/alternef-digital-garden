@@ -2,7 +2,7 @@
 title: "BitTorrent Protocol"
 description: "Notes on BitTorrent Protocol."
 aliases: ["Torrent", "BitTorrent"]
-tags: ["distributed-systems", "peer-to-peer", "networking", "protocol"]
+tags: ["distributed-systems", "peer-to-peer", "networking", "protocols"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

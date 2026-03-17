@@ -5,13 +5,7 @@ aliases:
   - "Distributed Intelligence"
   - "Group Intelligence"
   - "Swarm Intelligence"
-tags:
-  - collective-intelligence
-  - governance
-  - emergence
-  - systems-thinking
-  - social-organization
-  - peer-to-peer
+tags: ["collective-intelligence", "governance", "emergence", "systems-thinking", "social-organization", "peer-to-peer"]
 date: 2026-03-09
 draft: false
 ---

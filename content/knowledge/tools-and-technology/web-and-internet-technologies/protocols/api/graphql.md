@@ -3,12 +3,7 @@ title: GraphQL
 description: A query language for APIs enabling clients to request exactly the data they need from a single endpoint
 aliases:
   - Graph Query Language
-tags:
-  - protocols
-  - networking
-  - api
-  - web-development
-  - query-language
+tags: ["protocols", "networking", "api", "web-dev", "query-language"]
 date: 2026-03-14
 ---
 

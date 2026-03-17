@@ -5,14 +5,7 @@ aliases:
   - "Holarchy"
   - "Holons"
   - "Holon"
-tags:
-  - governance
-  - complexity-science
-  - systems-thinking
-  - emergence
-  - self-organization
-  - decentralized-governance
-  - collective-intelligence
+tags: ["governance", "complexity-science", "systems-thinking", "emergence", "self-organization", "decentralized-governance", "collective-intelligence"]
 date: 2026-03-10
 draft: false
 ---

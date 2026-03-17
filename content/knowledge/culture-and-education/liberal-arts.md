@@ -5,7 +5,7 @@ description: "The foundational curriculum of classical and medieval education, d
 aliases:
   - "Seven Liberal Arts"
   - "Classical Education"
-tags: ["education", "classical-education", "liberal-arts", "history", "philosophy", "trivium", "quadrivium"]
+tags: ["education", "liberal-arts", "history", "philosophy", "trivium", "quadrivium"]
 
 ---
 

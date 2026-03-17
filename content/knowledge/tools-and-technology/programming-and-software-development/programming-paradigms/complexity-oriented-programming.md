@@ -1,16 +1,7 @@
 ---
 title: "Complexity Oriented Programming"
 description: "A programming paradigm that models complex systems faithfully rather than reducing them, treating emergence, feedback loops, and attractors as first-class design concerns."
-tags:
-  - "programming-paradigms"
-  - "complexity-science"
-  - "complexity-oriented-programming"
-  - "mystical-oriented-programming"
-  - "holochain"
-  - "valueflows"
-  - "distributed-systems"
-  - "emergence"
-  - "peer-to-peer"
+tags: ["programming-paradigms", "complexity-science", "complexity-oriented-programming", "mystical-oriented-programming", "holochain", "valueflows", "distributed-systems", "emergence", "peer-to-peer"]
 date: 2026-03-11
 draft: false
 ---

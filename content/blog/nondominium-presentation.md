@@ -4,7 +4,7 @@ subtitle: "How a decade of peer production experience, open economic standards, 
 description: "From Sensorica's open value networks through Valueflows to Nondominium — a protocol for genuine peer-to-peer resource mutualization without centralized intermediaries, built on Holochain."
 date: 2026-02-21
 author: "Soushi888"
-tags: ["holochain", "distributed-systems", "governance", "decentralization", "nondominium", "peer-to-peer", "commons-based-peer-production", "resource-sharing", "distributed-governance", "alternative-economy", "valueflows", "economics", "blog", "open-value-network", "economic-protocols", "decentralized-coordination"]
+tags: ["holochain", "distributed-systems", "governance", "decentralization", "nondominium", "peer-to-peer", "commons-based-peer-production", "resource-sharing", "distributed-governance", "alternative-economy", "valueflows", "economics", "blog", "open-value-networks", "economic-protocols", "coordination-infrastructure"]
 ---
 
 <center>

@@ -4,11 +4,7 @@ description: A cryptocurrency designed to maintain stable value by pegging to a 
 aliases:
   - Stablecoins
   - stable coin
-tags:
-  - blockchain
-  - economics
-  - finance
-  - decentralization
+tags: ["blockchain", "economics", "finance", "decentralization"]
 date: 2026-03-14
 ---
 

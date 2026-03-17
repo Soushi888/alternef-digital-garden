@@ -6,7 +6,7 @@ aliases:
   - Javascript library
   - JavaScript libraries
   - JS Libraries
-tags: ["javascript", "libraries", "web-dev", "frontend"]
+tags: ["javascript", "library", "web-dev", "frontend"]
 
 ---
 

@@ -25,6 +25,8 @@ Use the canonical form on the right instead of the alias on the left.
 | `web-development` | `web-dev` |
 | `software-dev` | `software-development` |
 | `dev` | `software-development` |
+| `software` | `software-development` |
+| `software-engineering` | `software-development` |
 | `crypto` | `cryptocurrency` |
 | `ux` | `user-experience` |
 | `open source` | `open-source` |
@@ -36,6 +38,25 @@ Use the canonical form on the right instead of the alias on the left.
 | `permaculture-design` | `permaculture` |
 | `env` | `ecology` |
 | `green` | `sustainability` |
+| `nlp` | `natural-language-processing` |
+| `llm` | `large-language-models` |
+| `programming-paradigm` | `programming-paradigms` |
+| `libraries` | `library` |
+| `protocol` | `protocols` |
+| `decentralized` | `decentralization` |
+| `distributed-computing` | `distributed-systems` |
+| `open-value-network` | `open-value-networks` |
+| `effect` | `effect-ts` |
+| `classical-education` | `liberal-arts` |
+| `decentralized-coordination` | `coordination-infrastructure` |
+| `internet-protocols` | `protocols` |
+| `cognitive-approaches` | `cognitive-science` |
+| `ai-development` | `artificial-intelligence` |
+| `digital-assistant` | `artificial-intelligence` |
+| `personal-knowledge-management` | `knowledge-management` |
+| `second-brain` | `knowledge-management` |
+| `note-taking` | `knowledge-management` |
+| `tools-and-technology` | remove (path segment — not a tag) |
 
 ## Domain 1: Land and Nature Stewardship
 
@@ -132,6 +153,17 @@ Use the canonical form on the right instead of the alias on the left.
 | `desktop-environment` | Desktop environments: GNOME, KDE, Xfce, etc. |
 | `webassembly` | WebAssembly runtime, WASM modules, WASI |
 | `privacy` | Privacy-by-design, encryption, data sovereignty |
+| `authentication` | Authentication mechanisms, OAuth, JWT, session management |
+| `encryption` | Encryption algorithms, TLS, end-to-end encryption, key management |
+| `fault-tolerance` | Error recovery, circuit breakers, resilience patterns, retry logic |
+| `knowledge-graphs` | Graph databases, knowledge representation, ontology graphs |
+| `data-structures` | Arrays, trees, graphs, hash maps, fundamental CS data structures |
+| `user-interface` | UI design, component systems, interaction design, accessibility |
+| `concurrency` | Concurrent programming, threads, async patterns, parallelism |
+| `automation` | Task automation, CI/CD scripts, build automation, scripting |
+| `effect-ts` | Effect TypeScript library for typed functional programming |
+| `natural-language-processing` | NLP, text processing, parsing, language models |
+| `large-language-models` | LLMs, GPT, Claude, transformer architectures |
 
 ---
 
@@ -160,6 +192,14 @@ Use the canonical form on the right instead of the alias on the left.
 | `ancient-traditions` | Ancient wisdom traditions, mystery schools, initiatic lineages |
 | `mathematics` | Mathematical theory, logic, number theory, geometry |
 | `systems-thinking` | Systems theory, feedback loops, emergence, complexity |
+| `cognitive-science` | Cognition, learning theory, mind and intelligence research |
+| `knowledge-management` | Personal and organizational knowledge systems, PKM |
+| `emergence` | Emergent phenomena, self-organization in complex systems |
+| `complexity-science` | Complex adaptive systems, non-linear dynamics, CAS theory |
+| `communication` | Written, verbal, and technical communication |
+| `collaboration` | Teamwork, co-creation, collective work, group dynamics |
+| `ethics` | Ethical reasoning, moral philosophy, applied ethics |
+| `personal-development` | Personal growth, habits, self-improvement, life design |
 
 ---
 
@@ -257,4 +297,25 @@ Tags that appear across multiple domains — always valid regardless of where a 
 | `blockchain` | tools-and-technology, finance-and-economics |
 | `artificial-intelligence` | tools-and-technology, culture-and-education |
 | `open-value-networks` | governance-and-community, finance-and-economics |
+| `emergence` | culture-and-education, tools-and-technology (complexity science) |
+| `complexity-science` | culture-and-education, tools-and-technology, governance-and-community |
+| `ethics` | All domains |
+| `communication` | All domains |
+| `collaboration` | All domains |
 | `blog` | All domains (blog posts only — always the first tag for blog content) |
+
+---
+
+## Garden-Specific Tags
+
+Tags particular to the Alternef Digital Garden and its projects. Valid across all domains.
+
+| Tag | When to use |
+|-----|-------------|
+| `alternef` | Alternef project, vision, and community content |
+| `digital-garden` | Digital gardening philosophy, Quartz, note-taking systems |
+| `alchemy` | Alchemical concepts, the PAI Alchemy framework, Hermetic philosophy |
+| `mystical-oriented-programming` | MOP paradigm — programming as spiritual practice |
+| `nondominium` | Nondominium project (commons governance on Holochain) |
+| `sensorica` | Sensorica Open Value Network and related OVN content |
+| `alchemical-codex` | Notes in the Alchemical Codex series |

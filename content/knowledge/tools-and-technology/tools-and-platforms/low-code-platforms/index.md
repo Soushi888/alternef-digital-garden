@@ -1,7 +1,7 @@
 ---
 title: Low-Code Platforms
 description: Development environments that enable application creation with minimal hand-coding, from visual builders to meta low-code frameworks
-tags: ["tools-and-technology", "low-code", "software-development", "programming"]
+tags: ["low-code", "software-development", "programming"]
 date: 2026-03-11
 ---
 

@@ -2,7 +2,7 @@
 title: Svelte Persisted Store
 date: 2025-02-15
 description: A Svelte store that persists to localStorage.
-tags: ["javascript", "libraries", "svelte"]
+tags: ["javascript", "library", "svelte"]
 
 ---
 [GitHub - joshnuss/svelte-persisted-store: A Svelte store that persists to localStorage](https://github.com/joshnuss/svelte-persisted-store)

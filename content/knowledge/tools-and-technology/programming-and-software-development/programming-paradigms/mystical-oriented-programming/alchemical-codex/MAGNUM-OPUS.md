@@ -5,7 +5,7 @@ description: "The Great Work of Distributed Economic Transmutation: seven alchem
 aliases:
   - "Magnum Opus"
   - "Great Work of Distributed Computing"
-tags: ["holochain", "programming", "svelte", "mystical-oriented-programming", "software-architecture", "effect-ts", "alchemical-codex", "distributed-computing"]
+tags: ["holochain", "programming", "svelte", "mystical-oriented-programming", "software-architecture", "effect-ts", "alchemical-codex", "distributed-systems"]
 
 ---
 

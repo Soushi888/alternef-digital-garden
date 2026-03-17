@@ -5,12 +5,7 @@ aliases:
   - "host-proof"
   - "zero-knowledge hosting"
   - "client-side encryption hosting"
-tags:
-  - security
-  - privacy
-  - cryptography
-  - decentralization
-  - data-sovereignty
+tags: ["security", "privacy", "cryptography", "decentralization", "data-sovereignty"]
 date: 2026-03-13
 updated: 2026-03-17
 draft: false

@@ -4,14 +4,7 @@ description: "PAI systems have two distinct layers: a Being layer (TELOS) that h
 aliases:
   - "PAI Being-Doing Architecture"
   - "TELOS Constitution"
-tags:
-  - artificial-intelligence
-  - personal-ai-infrastructure
-  - telos
-  - philosophy
-  - cognitive-approaches
-  - extended-mind
-  - architecture
+tags: ["artificial-intelligence", "personal-ai-infrastructure", "telos", "philosophy", "cognitive-science", "extended-mind", "architecture"]
 date: 2026-03-12
 draft: false
 ---

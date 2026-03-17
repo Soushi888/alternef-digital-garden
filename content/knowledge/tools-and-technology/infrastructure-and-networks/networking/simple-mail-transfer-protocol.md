@@ -4,7 +4,7 @@ date: 2025-02-15
 description: Email transmission protocol that powers internet mail delivery systems
 aliases:
   - SMTP
-tags: ["communication", "networking", "internet-protocols"]
+tags: ["communication", "networking", "protocols"]
 
 ---
 

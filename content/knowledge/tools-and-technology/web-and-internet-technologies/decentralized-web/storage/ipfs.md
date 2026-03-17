@@ -3,12 +3,7 @@ title: IPFS
 description: A peer-to-peer hypermedia protocol for content-addressed, distributed file storage
 aliases:
   - InterPlanetary File System
-tags:
-  - distributed-systems
-  - decentralization
-  - peer-to-peer
-  - storage
-  - protocols
+tags: ["distributed-systems", "decentralization", "peer-to-peer", "storage", "protocols"]
 date: 2026-03-14
 ---
 

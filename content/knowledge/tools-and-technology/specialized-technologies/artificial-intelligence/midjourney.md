@@ -3,11 +3,7 @@ title: Midjourney
 description: A commercial AI image generation service known for distinctive aesthetic quality and Discord-based interface
 aliases:
   - MJ
-tags:
-  - artificial-intelligence
-  - image-generation
-  - generative-ai
-  - machine-learning
+tags: ["artificial-intelligence", "image-generation", "generative-ai", "machine-learning"]
 date: 2026-03-14
 ---
 

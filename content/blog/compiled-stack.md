@@ -13,7 +13,7 @@ tags:
     "webassembly",
     "functional-programming",
     "typescript",
-    "effect",
+    "effect-ts",
     "unocss",
     "local-first",
     "peer-to-peer",

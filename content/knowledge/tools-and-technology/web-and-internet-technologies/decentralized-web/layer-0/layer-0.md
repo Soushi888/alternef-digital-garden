@@ -4,12 +4,7 @@ description: Infrastructure protocols beneath blockchains that enable cross-chai
 aliases:
   - Layer 0
   - L0
-tags:
-  - blockchain
-  - decentralization
-  - distributed-systems
-  - networking
-  - interoperability
+tags: ["blockchain", "decentralization", "distributed-systems", "networking", "interoperability"]
 date: 2026-03-14
 ---
 

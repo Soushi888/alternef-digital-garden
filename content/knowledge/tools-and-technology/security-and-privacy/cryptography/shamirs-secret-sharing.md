@@ -4,11 +4,7 @@ description: "A secret custody primitive that splits a secret into n shares with
 aliases:
   - SSS
   - Shamir Secret Sharing
-tags:
-  - cryptography
-  - security
-  - privacy
-  - secret-sharing
+tags: ["cryptography", "security", "privacy", "secret-sharing"]
 date: 2026-03-17
 updated: 2026-03-17
 draft: false

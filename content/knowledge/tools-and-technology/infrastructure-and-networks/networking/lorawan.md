@@ -2,7 +2,7 @@
 title: "LoRaWAN Protocol"
 description: "LoRaWAN is a low-power wide-area networking (LPWAN) protocol designed for connecting battery-operated devices to the internet in regional, national or"
 aliases: ["LoRaWAN", "Long Range Wide Area Network", "LPWAN"]
-tags: [networking, wireless, iot, low-power-wide-area-network, protocol]
+tags: ["networking", "wireless", "iot", "low-power-wide-area-network", "protocols"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

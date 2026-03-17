@@ -5,11 +5,7 @@ aliases:
   - DALL-E 2
   - DALL-E 3
   - DALL·E
-tags:
-  - artificial-intelligence
-  - image-generation
-  - generative-ai
-  - machine-learning
+tags: ["artificial-intelligence", "image-generation", "generative-ai", "machine-learning"]
 date: 2026-03-14
 ---
 

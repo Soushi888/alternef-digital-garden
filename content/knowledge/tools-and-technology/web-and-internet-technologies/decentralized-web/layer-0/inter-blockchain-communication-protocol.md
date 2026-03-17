@@ -4,7 +4,7 @@ date: 2025-02-15
 description: A standardized protocol enabling communication and interoperability between diverse blockchain networks
 aliases: 
   - IBC
-tags: ["blockchain", "internet-protocols", "interoperability"]
+tags: ["blockchain", "protocols", "interoperability"]
 
 ---
 

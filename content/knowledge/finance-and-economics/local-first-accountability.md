@@ -2,7 +2,7 @@
 title: "Local-first Accountability"
 description: "Local-first accounting is an approach to accounting software design and data management that prioritizes storing and processing financial data locally on a user's device rather than relying primarily on centralized cloud servers."
 date: 2025-03-12
-tags: ["local-first", "accounting", "finance", "software"]
+tags: ["local-first", "accounting", "finance", "software-development"]
 
 ---
 

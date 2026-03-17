@@ -7,10 +7,7 @@ aliases:
   - GPT-3
   - GPT-4
   - GPT-4o
-tags:
-  - artificial-intelligence
-  - large-language-models
-  - machine-learning
+tags: ["artificial-intelligence", "large-language-models", "machine-learning"]
 date: 2026-03-14
 ---
 

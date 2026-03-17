@@ -4,13 +4,7 @@ description: "Two faces of the same drive to externalize and animate cognition: 
 aliases:
   - "Animated Second Brain"
   - "Homunculus PKM"
-tags:
-  - artificial-intelligence
-  - cognitive-science
-  - extended-mind
-  - personal-knowledge-management
-  - philosophy-of-mind
-  - second-brain
+tags: ["artificial-intelligence", "cognitive-science", "extended-mind", "knowledge-management", "philosophy-of-mind"]
 date: 2026-03-11
 ---
 
