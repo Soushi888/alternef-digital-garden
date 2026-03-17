@@ -2,7 +2,7 @@
 title: Domain-Driven Design (DDD)
 date: 2025-08-04
 description: A software development approach that focuses on modeling software to match a domain according to input from domain experts.
-tags: ["programming-paradigms", "domain-driven-design"]
+tags: ["domain-driven-design", "programming-paradigms", "software-architecture", "software-development"]
 
 ---
 
@@ -18,7 +18,7 @@ Domain-Driven Design (DDD) is a software development philosophy and collection o
 
 The sphere of knowledge and activity around which the application logic revolves. It's the subject area to which the user applies the program.
 
-### Ubiquitous Language
+### [[ubiquitous-language|Ubiquitous Language]]
 
 A common, rigorous language between developers and users that is structured around the domain model and used by all team members to connect all activities with the software.
 

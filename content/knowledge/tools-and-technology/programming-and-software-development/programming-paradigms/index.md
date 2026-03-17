@@ -31,7 +31,7 @@ _Modeling software to match business domains through collaboration with domain e
 
 A software development approach that focuses on creating a shared understanding between technical and business teams by modeling the software around the core business domain and its concepts.
 
-**Key Concepts**: Bounded Contexts, Entities, Value Objects, Aggregates, Ubiquitous Language
+**Key Concepts**: Bounded Contexts, Entities, Value Objects, Aggregates, [[ubiquitous-language|Ubiquitous Language]]
 **Use Cases**: Complex business applications, enterprise software, long-term strategic systems
 
 ### [Mystical Oriented Programming](mystical-oriented-programming/index.md)
