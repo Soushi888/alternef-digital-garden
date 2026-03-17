@@ -18,6 +18,8 @@ interface Options {
   filterBy: string[]
   showExcerpt: boolean
   showTags: boolean
+  showFilter: boolean
+  pageSize: number
   linkToMore: SimpleSlug | false
   pages: FullSlug[]
 }
@@ -30,6 +32,8 @@ const defaultOptions = (_cfg: GlobalConfiguration): Options => ({
   filterBy: [],
   showExcerpt: false,
   showTags: false,
+  showFilter: false,
+  pageSize: 20,
   linkToMore: false,
   pages: [],
 })
@@ -133,14 +137,30 @@ export default ((userOpts?: Partial<Options>) => {
     const items = filtered.slice(0, opts.limit)
 
     return (
-      <div class={classNames(displayClass, "recent-changes")}>
+      <div class={classNames(displayClass, "recent-changes")} data-page-size={opts.pageSize}>
         <h3>{opts.title ?? "Recent Changes"}</h3>
+
+        {opts.showFilter && (
+          <div class="recent-changes-filter" role="group" aria-label="Filter changes">
+            <button data-filter="all" class="active">
+              All
+            </button>
+            <button data-filter="created">New</button>
+            <button data-filter="modified">Updated</button>
+          </div>
+        )}
+
         {items.length === 0 ? (
           <p>No recent changes found.</p>
         ) : (
           <ul class={`recent-changes-list ${opts.detailed ? "detailed" : "condensed"}`}>
-            {items.map((item) => (
-              <li key={item.id} class={`recent-change-item ${item.type}`}>
+            {items.map((item, index) => (
+              <li
+                key={item.id}
+                class={`recent-change-item ${item.type}${opts.showFilter && index >= opts.pageSize ? " rc-hidden-page" : ""}`}
+                data-type={item.type}
+                data-index={index}
+              >
                 <a
                   href={resolveRelative(fileData.slug!, item.link)}
                   class="recent-change-link internal"
@@ -174,7 +194,11 @@ export default ((userOpts?: Partial<Options>) => {
           </ul>
         )}
 
-        {opts.linkToMore && remaining > 0 && (
+        {opts.showFilter && items.length > opts.pageSize && (
+          <button class="recent-changes-load-more">Load more</button>
+        )}
+
+        {!opts.showFilter && opts.linkToMore && remaining > 0 && (
           <div class="recent-changes-more">
             <a href={resolveRelative(fileData.slug!, opts.linkToMore)}>View all changes →</a>
           </div>

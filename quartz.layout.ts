@@ -121,10 +121,12 @@ sharedPageComponents.afterBody.push(
     pages: ["index" as FullSlug],
   }),
   Component.RecentChanges({
-    limit: 20,
+    limit: 100,
     detailed: true,
     showExcerpt: true,
     showTags: true,
+    showFilter: true,
+    pageSize: 20,
     pages: ["recent-changes" as FullSlug],
   }),
 )

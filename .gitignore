@@ -44,3 +44,6 @@ MEMORY/
 
 # Axon
 .axon/
+
+# npm lockfile (project uses bun)
+package-lock.json
