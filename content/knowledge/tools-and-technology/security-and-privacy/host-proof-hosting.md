@@ -12,6 +12,7 @@ tags:
   - decentralization
   - data-sovereignty
 date: 2026-03-13
+updated: 2026-03-17
 draft: false
 ---
 
@@ -106,8 +107,19 @@ Marketing terms like "zero-knowledge" and "end-to-end encrypted" are used incons
 - **Client-side code injection**: in browser-based implementations, the server delivers the JavaScript that performs encryption. A compromised or malicious server can serve modified code that exfiltrates keys before encryption occurs. Native applications with hardware-backed key storage are categorically more resistant to this attack.
 - **Key backup dilemma**: recovery mechanisms are necessary to avoid permanent data loss if a device is lost, but any copy of key material is itself a target. A compromised backup exposes all data protected by that key, including previously stored data.
 
+## Solving the Key Management Problem
+
+Host-proof hosting eliminates trust in the server but transfers the key management burden entirely to the user. Three cryptographic patterns address this:
+
+- **[[shamirs-secret-sharing|Shamir's Secret Sharing]]**: split the encryption key across n trustees (devices, persons, locations), requiring k to reconstruct. Provides recovery without any single backup being sufficient. The tradeoff: reconstruction briefly reunites the key in one place.
+- **[[multi-signature|Multi-Signature]]**: for shared access scenarios (multiple parties each hold a key and must co-authorize operations). No key reconstruction required. Threshold logic lives in the protocol, not the key material.
+- **[[threshold-cryptography|Threshold Cryptography]]**: distributes key material like SSS but performs decryption cooperatively, so the full key is never reconstructed at any point. Best suited when the reconstruction window of SSS is unacceptable.
+
 ## Related Topics
 
+- [[shamirs-secret-sharing|Shamir's Secret Sharing]]
+- [[multi-signature|Multi-Signature]]
+- [[threshold-cryptography|Threshold Cryptography]]
 - [[zero-knowledge-proofs|Zero-Knowledge Proofs]]
 - [[asymmetric-encryption|Asymmetric Encryption]]
 - [[advanced-encryption-standard|Advanced Encryption Standard]]

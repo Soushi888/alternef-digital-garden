@@ -1,6 +1,6 @@
 ---
 title: "Shamir's Secret Sharing"
-description: "A cryptographic scheme that splits a secret into n shares, requiring a threshold of k shares to reconstruct it, with perfect information-theoretic secrecy."
+description: "A secret custody primitive that splits a secret into n shares with threshold k, distributing who holds the secret. Full reconstruction is required to use it, creating a brief exposure window."
 aliases:
   - SSS
   - Shamir Secret Sharing
@@ -10,6 +10,7 @@ tags:
   - privacy
   - secret-sharing
 date: 2026-03-17
+updated: 2026-03-17
 draft: false
 ---
 
@@ -33,6 +34,14 @@ Given a threshold of $k$ and $n$ total shares:
 - **Extensible and dynamic**: Shares can be added or removed without affecting other shares or requiring secret reconstruction.
 - **Flexible**: Participants can be assigned different numbers of shares based on authority level. A participant holding 3 shares in a (3,5) scheme can reconstruct the secret alone.
 
+## Custody vs. Coordination
+
+SSS distributes the *custody* of a secret: who holds it. This is distinct from distributing *authorization* to act. When shares are combined and the secret is reconstructed, that full secret necessarily exists in one place (one process, one device) for the duration of the operation.
+
+This reconstruction window is the defining constraint. Compare with [[multi-signature|Multi-Signature]], where no secret ever exists in combined form: keys remain independent and never merge. Multisig distributes authorization; SSS distributes custody.
+
+[[threshold-cryptography|Threshold Cryptography]] resolves this tension: it distributes key material like SSS but performs computations cooperatively without ever reassembling the full secret.
+
 ## Use Cases
 
 - **Cryptocurrency recovery phrases**: seed phrases can be split so that no single backup location holds the full key
@@ -49,7 +58,8 @@ Given a threshold of $k$ and $n$ total shares:
 ## Related Topics
 
 - [[rivest–shamir–adleman|Rivest-Shamir-Adleman]]: Adi Shamir also co-created RSA (both published in 1979)
-- [[multi-signature|Multi-Signature]]: a parallel threshold concept applied to transaction signing
+- [[multi-signature|Multi-Signature]]: distributes authorization rather than custody; no reconstruction window
+- [[threshold-cryptography|Threshold Cryptography]]: the evolution that eliminates the reconstruction window by computing cooperatively on shares
 - [[zero-knowledge-proofs|Zero-Knowledge Proofs]]: Verifiable Secret Sharing builds on ZK techniques to address SSS's verification limitation
 - [[host-proof-hosting|Host-Proof Hosting]]: SSS can split encryption keys across storage providers so no single host can access user data
 - [[knowledge/tools-and-technology/security-and-privacy/cryptography/index|Cryptography]]
