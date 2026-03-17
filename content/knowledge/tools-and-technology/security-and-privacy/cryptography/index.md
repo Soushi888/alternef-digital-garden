@@ -29,6 +29,7 @@ Cryptography is the practice and study of techniques for secure communication in
 
 - [[Zero-knowledge proofs]]
 - [[Multi-signature]]
+- [[shamirs-secret-sharing|Shamir's Secret Sharing]]
 - [[Byzantine Fault Tolerance]]
 - [[Formal validation]]
 
