@@ -29,8 +29,8 @@ videos/
 /ms-playwright*
 coverage/
 
-# dg-tags generated state (tag index, analysis reports)
-.claude/skills/dg-tags/STATE/
+# Skills generated state (tag index, analysis reports)
+.claude/skills/*/STATE/
 .nyc_output/
 temp/
 test-temp/
@@ -41,9 +41,6 @@ test-temp/
 # PAI
 Plans/
 MEMORY/
-
-# Axon
-.axon/
 
 # npm lockfile (project uses bun)
 package-lock.json
