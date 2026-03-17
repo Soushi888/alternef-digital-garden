@@ -134,7 +134,17 @@ export default ((userOpts?: Partial<Options>) => {
     filtered = filtered.filter((item) => !item.link.startsWith("unpublished"))
 
     const remaining = Math.max(0, filtered.length - opts.limit)
-    const items = filtered.slice(0, opts.limit)
+
+    // When the filter UI is enabled, load up to `limit` items of each type
+    // independently so both "New" and "Updated" tabs have a full pageable dataset.
+    // Without this, a garden where recent activity is mostly updates would have
+    // very few "created" items in the DOM, making Load More invisible on "New".
+    const items = opts.showFilter
+      ? [
+          ...filtered.filter((i) => i.type === "created").slice(0, opts.limit),
+          ...filtered.filter((i) => i.type === "modified").slice(0, opts.limit),
+        ].sort((a, b) => b.date.getTime() - a.date.getTime())
+      : filtered.slice(0, opts.limit)
 
     return (
       <div class={classNames(displayClass, "recent-changes")} data-page-size={opts.pageSize}>
