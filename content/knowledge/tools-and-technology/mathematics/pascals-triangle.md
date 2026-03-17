@@ -3,8 +3,8 @@ title: "Pascal's Triangle"
 description: "The triangle is constructed as follows:"
 aliases: ["Pascal Triangle", "Yang Hui Triangle", "Khayyam Triangle", "Binomial Coefficient Triangle"]
 tags: ["software-architecture", "mathematics", "number-theory"]
-created: 2024-12-11
-modified: 2024-12-11
+date: 2025-12-11
+updated: 2026-03-14
 draft: false
 ---
 

@@ -3,8 +3,8 @@ title: "Fibonacci Sequences"
 description: "The Fibonacci sequence is one of the most famous sequences in mathematics, named after Leonardo of Pisa, known as Fibonacci. This simple recursive"
 aliases: ["Fibonacci Numbers", "Fibonacci Sequence", "Leonardo of Pisa"]
 tags: ["software-architecture", "nature", "mathematics", "number-theory"]
-created: 2024-12-11
-modified: 2024-12-11
+date: 2025-12-11
+updated: 2026-03-14
 draft: false
 ---
 

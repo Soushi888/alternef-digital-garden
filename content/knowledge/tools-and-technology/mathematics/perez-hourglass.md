@@ -3,8 +3,8 @@ title: "Perez Hourglass (Sablier de Perez)"
 description: "The Perez Hourglass (Sablier de Perez in French) is a mathematical structure discovered by French mathematician Jean-Claude Perez, a former IBM researcher"
 aliases: ["Sablier de Perez", "Perez Hourglass", "Jean-Claude Perez Hourglass"]
 tags: ["mathematics", "specialized-tech", "cryptography"]
-created: 2024-12-11
-modified: 2024-12-11
+date: 2025-12-11
+updated: 2026-03-14
 draft: false
 ---
 
