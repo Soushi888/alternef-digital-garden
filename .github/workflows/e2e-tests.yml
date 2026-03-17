@@ -179,6 +179,8 @@ jobs:
     if: github.event_name == 'pull_request'
     needs: [merge-reports]
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
 
     steps:
       - name: Comment PR with test results
