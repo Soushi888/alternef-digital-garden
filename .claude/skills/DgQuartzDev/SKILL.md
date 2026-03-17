@@ -1,12 +1,12 @@
 ---
-name: dg-quartz-dev
+name: DgQuartzDev
 description: Quartz v4 framework development for Alternef Digital Garden. USE WHEN Preact components, plugins, SCSS, layout changes, Playwright tests, build pipeline.
 ---
 
 ## Customization
 
 **Before executing, check for user customizations at:**
-`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/dg-quartz-dev/`
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/DgQuartzDev/`
 
 If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
 
@@ -18,13 +18,13 @@ If this directory exists, load and apply any PREFERENCES.md, configurations, or 
    ```bash
    curl -s -X POST http://localhost:8888/notify \
      -H "Content-Type: application/json" \
-     -d '{"message": "Loading dg-quartz-dev skill for Quartz framework development"}' \
+     -d '{"message": "Loading DgQuartzDev skill for Quartz framework development"}' \
      > /dev/null 2>&1 &
    ```
 
 2. **Output text notification**:
    ```
-   Loading **dg-quartz-dev** skill for Quartz framework development...
+   Loading **DgQuartzDev** skill for Quartz framework development...
    ```
 
 **This is not optional. Execute this curl command immediately upon skill invocation.**
@@ -244,7 +244,7 @@ nodeColorMap: {
 **Example 1: Create a new Preact component**
 ```
 User: "Create a component that shows the last 5 modified notes"
-→ Loads dg-quartz-dev skill, reads ComponentArchitecture.md
+→ Loads DgQuartzDev skill, reads ComponentArchitecture.md
 → Uses QuartzComponentConstructor pattern (not React — Preact)
 → Attaches CSS via ComponentName.css = style
 → Exports from quartz/components/index.ts
@@ -254,7 +254,7 @@ User: "Create a component that shows the last 5 modified notes"
 **Example 2: Add a transformer plugin**
 ```
 User: "Add a plugin that auto-generates descriptions from note content"
-→ Loads dg-quartz-dev skill, reads PluginSystem.md
+→ Loads DgQuartzDev skill, reads PluginSystem.md
 → Creates transformer in quartz/plugins/transformers/
 → Registers in quartz.config.ts Transformers array in correct pipeline order
 → Runs npm run check to verify type safety
@@ -263,7 +263,7 @@ User: "Add a plugin that auto-generates descriptions from note content"
 **Example 3: Debug a build failure**
 ```
 User: "The build is failing with a missing export error"
-→ Loads dg-quartz-dev skill
+→ Loads DgQuartzDev skill
 → Invokes /dg:build to reproduce error
 → Checks quartz/components/index.ts for missing export
 → Runs bun quartz build to verify fix

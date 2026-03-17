@@ -1,12 +1,12 @@
 ---
-name: dg-notes
+name: DgNotes
 description: Knowledge note management for Alternef Digital Garden. USE WHEN note creation, domain classification, frontmatter, wikilinks, index management, note quality review.
 ---
 
 ## Customization
 
 **Before executing, check for user customizations at:**
-`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/dg-notes/`
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/DgNotes/`
 
 If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
 
@@ -18,13 +18,13 @@ If this directory exists, load and apply any PREFERENCES.md, configurations, or 
    ```bash
    curl -s -X POST http://localhost:8888/notify \
      -H "Content-Type: application/json" \
-     -d '{"message": "Loading dg-notes skill for knowledge note management"}' \
+     -d '{"message": "Loading DgNotes skill for knowledge note management"}' \
      > /dev/null 2>&1 &
    ```
 
 2. **Output text notification**:
    ```
-   Loading **dg-notes** skill for knowledge note management...
+   Loading **DgNotes** skill for knowledge note management...
    ```
 
 **This is not optional. Execute this curl command immediately upon skill invocation.**
@@ -44,6 +44,7 @@ Persistent knowledge layer for the Alternef Digital Garden's 7-domain taxonomy. 
 | Explore domain stats and gaps | `/dg:explore` |
 | Publish draft to correct domain | `/dg:publish` |
 | Validate frontmatter and links | Add `--validate` flag to any command |
+| Verify note dates against git history | `--verify-dates` flag or "verify dates" trigger → `Workflows/VerifyDates.md` |
 
 **Context files:** `DomainTaxonomy.md` · `ContentQualityRubric.md` · `KnowledgeNoteTemplate.md` · `DomainIndexTemplate.md` · `CategoryIndexTemplate.md`
 
@@ -118,7 +119,7 @@ Prefer `date` and `updated` for consistency with the project CLAUDE.md conventio
 
 ### Tag rules
 
-Tag rules, vocabulary, and format standards live in **`dg-tags`** (`TagVocabulary.md`). Load `dg-tags` when working with tags. After drafting a note, run the `SuggestTags` workflow from `dg-tags` to get validated tag suggestions.
+Tag rules, vocabulary, and format standards live in **`DgTags`** (`TagVocabulary.md`). Load `DgTags` when working with tags. After drafting a note, run the `SuggestTags` workflow from `DgTags` to get validated tag suggestions.
 
 Summary: lowercase kebab-case, domain tag first, 3-7 tags, YAML array format `tags: ["tag1", "tag2"]`.
 
@@ -182,9 +183,11 @@ See `ContentQualityRubric.md` for the scoring system used to evaluate note quali
 
 `Tools/ValidateNotes.sh` — Shell script for batch validation of notes in a domain directory. Used internally by the `--validate` flag across `/dg:create`, `/dg:improve`, `/dg:organize`, and `/dg:build`.
 
+`Tools/CheckDates.sh` — Detects date anomalies by comparing frontmatter dates against git history: year mismatches, future dates, inverted dates, and wrong field names (`created`/`modified` instead of `date`/`updated`). Results cached in `STATE/`. See `Workflows/VerifyDates.md` for the full workflow.
+
 Run directly for quick batch checks:
 ```bash
-bash .claude/skills/dg-notes/Tools/ValidateNotes.sh content/knowledge/tools-and-technology/
+bash .claude/skills/DgNotes/Tools/ValidateNotes.sh content/knowledge/tools-and-technology/
 ```
 
 Checks: frontmatter completeness (title, tags, date), kebab-case filenames, no emdash characters.
@@ -194,7 +197,7 @@ Checks: frontmatter completeness (title, tags, date), kebab-case filenames, no e
 **Example 1: Create a knowledge note**
 ```
 User: "Write a knowledge note about permaculture"
-→ Loads dg-notes skill
+→ Loads DgNotes skill
 → Classifies in land-and-nature-stewardship/ domain via DomainTaxonomy.md
 → Creates note with correct frontmatter (title, tags, date)
 → Adds index link using full absolute path: [[knowledge/land-and-nature-stewardship/index|...]]
@@ -204,7 +207,7 @@ User: "Write a knowledge note about permaculture"
 **Example 2: Fix wikilinks in a note**
 ```
 User: "Check if all index links in yoga-des-pharaons.md are correct"
-→ Loads dg-notes skill
+→ Loads DgNotes skill
 → Reads Wikilink Rules: index files require full absolute paths from knowledge/
 → Finds any [[health-and-wellbeing/index]] → corrects to [[knowledge/health-and-wellbeing/index]]
 → Verifies all links follow [[knowledge/domain/.../index|Name]] pattern
@@ -213,7 +216,7 @@ User: "Check if all index links in yoga-des-pharaons.md are correct"
 **Example 3: Classify note in the right domain**
 ```
 User: "Where should a note about shadow work go?"
-→ Loads dg-notes skill
+→ Loads DgNotes skill
 → Applies Classification Heuristics: primary function = mental/emotional health
 → Routes to health-and-wellbeing/ domain
 → Suggests tags from domain tag list

@@ -1,12 +1,12 @@
 ---
-name: dg-tags
+name: DgTags
 description: Tag indexing, analysis, and optimization for the Alternef Digital Garden. USE WHEN tag quality, tag indexing, tag suggestion, tag vocabulary, bulk tag cleanup, untagged notes.
 ---
 
 ## Customization
 
 **Before executing, check for user customizations at:**
-`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/dg-tags/`
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/DgTags/`
 
 If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
 
@@ -18,13 +18,13 @@ If this directory exists, load and apply any PREFERENCES.md, configurations, or 
    ```bash
    curl -s -X POST http://localhost:8888/notify \
      -H "Content-Type: application/json" \
-     -d '{"message": "Loading dg-tags skill for tag management"}' \
+     -d '{"message": "Loading DgTags skill for tag management"}' \
      > /dev/null 2>&1 &
    ```
 
 2. **Output text notification**:
    ```
-   Loading **dg-tags** skill for tag management...
+   Loading **DgTags** skill for tag management...
    ```
 
 **This is not optional. Execute this curl command immediately upon skill invocation.**
@@ -33,7 +33,7 @@ If this directory exists, load and apply any PREFERENCES.md, configurations, or 
 
 Single source of truth for all tag conventions, vocabulary, and management workflows in the Alternef Digital Garden. This skill provides indexing, analysis, optimization, and suggestion tools for the garden's tag system.
 
-**dg-tags is the authority on tags.** Other skills (dg-notes, dg-blog) defer here for tag rules. Do not define tag conventions in those skills.
+**DgTags is the authority on tags.** Other skills (DgNotes, DgBlog) defer here for tag rules. Do not define tag conventions in those skills.
 
 ## Workflow Routing
 
@@ -63,11 +63,11 @@ Full rules live in `TagVocabulary.md`. Summary:
 
 ## Integration with Other Skills
 
-**dg-notes**: Load `dg-tags` after drafting a note to get tag suggestions via `SuggestTags`. Tag rules live here, not in dg-notes.
+**DgNotes**: Load `DgTags` after drafting a note to get tag suggestions via `SuggestTags`. Tag rules live here, not in DgNotes.
 
-**dg-blog**: Load `dg-tags` after drafting a blog post and run `SuggestTags` — `blog` will be prepended automatically. Tag rules live here, not in dg-blog (except the `blog`-first exception, which stays in dg-blog).
+**DgBlog**: Load `DgTags` after drafting a blog post and run `SuggestTags` — `blog` will be prepended automatically. Tag rules live here, not in DgBlog (except the `blog`-first exception, which stays in DgBlog).
 
-**dg-quartz-dev**: Tag rendering and TagPage generation belong to dg-quartz-dev. Tag content management belongs here.
+**DgQuartzDev**: Tag rendering and TagPage generation belong to DgQuartzDev. Tag content management belongs here.
 
 ## Tools
 
@@ -75,9 +75,9 @@ Full rules live in `TagVocabulary.md`. Summary:
 
 ```bash
 # From project root:
-bun .claude/skills/dg-tags/Tools/IndexTags.ts --output markdown
-bun .claude/skills/dg-tags/Tools/IndexTags.ts --filter-empty
-bun .claude/skills/dg-tags/Tools/IndexTags.ts --output json --min-count 5
+bun .claude/skills/DgTags/Tools/IndexTags.ts --output markdown
+bun .claude/skills/DgTags/Tools/IndexTags.ts --filter-empty
+bun .claude/skills/DgTags/Tools/IndexTags.ts --output json --min-count 5
 ```
 
 ## Examples
@@ -85,8 +85,8 @@ bun .claude/skills/dg-tags/Tools/IndexTags.ts --output json --min-count 5
 **Example 1: Index the entire garden's tags and make a report**
 ```
 User: "Index all the tags in the garden" / "make a report" / "analyze tags"
-→ Load dg-tags skill
-→ Run IndexTags workflow: bun .claude/skills/dg-tags/Tools/IndexTags.ts --output markdown
+→ Load DgTags skill
+→ Run IndexTags workflow: bun .claude/skills/DgTags/Tools/IndexTags.ts --output markdown
 → (state files written: tag-index.json, tag-frequencies.json, empty-files.json, format-issues.json)
 → Immediately chain to AnalyzeTags workflow (load TagVocabulary.md, check aliases, orphans, non-vocab tags)
 → Write STATE/analysis-report.md with full structured output from both workflows
@@ -97,7 +97,7 @@ User: "Index all the tags in the garden" / "make a report" / "analyze tags"
 **Example 2: Suggest tags for a newly created note**
 ```
 User: "Suggest tags for content/knowledge/tools-and-technology/holochain/hdk.md"
-→ Load dg-tags skill
+→ Load DgTags skill
 → Run SuggestTags workflow
 → Read note: path is in tools-and-technology → domain tag is `programming`
 → Detect: note is about HDK, Rust, Holochain architecture
@@ -108,7 +108,7 @@ User: "Suggest tags for content/knowledge/tools-and-technology/holochain/hdk.md"
 **Example 3: Clean up tag quality issues**
 ```
 User: "Fix the tag quality issues in the garden"
-→ Load dg-tags skill
+→ Load DgTags skill
 → Run IndexTags workflow (or use fresh state)
 → Run AnalyzeTags workflow → find 316 empty files, 12 alias uses, 8 format issues
 → Run OptimizeTags workflow

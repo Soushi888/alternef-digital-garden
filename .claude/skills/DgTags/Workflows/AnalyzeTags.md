@@ -10,7 +10,7 @@ Run `IndexTags` workflow first. If `STATE/tag-index.json` does not exist, run In
 
 ### Step 1: Verify state files exist
 
-Check that these files exist in `.claude/skills/dg-tags/STATE/`:
+Check that these files exist in `.claude/skills/DgTags/STATE/`:
 - `tag-index.json`
 - `tag-frequencies.json`
 - `empty-files.json`

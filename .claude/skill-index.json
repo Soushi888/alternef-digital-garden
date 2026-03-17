@@ -1,17 +1,22 @@
 [
   {
-    "name": "dg-notes",
+    "name": "DgNotes",
     "triggers": ["note", "knowledge", "domain", "taxonomy", "wikilink", "frontmatter", "index", "classify", "organize content"],
     "description": "Knowledge note management: domain taxonomy, classification, frontmatter, linking rules"
   },
   {
-    "name": "dg-blog",
+    "name": "DgBlog",
     "triggers": ["blog", "post", "article", "write", "translate", "french", "EN→FR", "writing voice", "blog series"],
     "description": "Blog post authoring: architecture, writing voice, EN→FR translation"
   },
   {
-    "name": "dg-quartz-dev",
+    "name": "DgQuartzDev",
     "triggers": ["component", "plugin", "scss", "preact", "test", "build", "layout", "quartz", "tsx", "stylesheet", "e2e"],
     "description": "Quartz framework development: Preact components, plugins, SCSS, testing"
+  },
+  {
+    "name": "DgTags",
+    "triggers": ["tag", "tags", "tag quality", "tag index", "untagged", "vocabulary", "tag cleanup"],
+    "description": "Tag indexing, analysis, and optimization for the Alternef Digital Garden"
   }
 ]

@@ -3,7 +3,7 @@
  * IndexTags.ts — Tag index builder for the Alternef Digital Garden
  *
  * Usage (from project root):
- *   bun .claude/skills/dg-tags/Tools/IndexTags.ts [flags]
+ *   bun .claude/skills/DgTags/Tools/IndexTags.ts [flags]
  *
  * Flags:
  *   --output json|markdown    Output format (default: markdown)
@@ -21,7 +21,7 @@ import { globby } from "globby"
 
 const PROJECT_ROOT = process.cwd()
 const CONTENT_DIR = join(PROJECT_ROOT, "content")
-const STATE_DIR = join(PROJECT_ROOT, ".claude/skills/dg-tags/STATE")
+const STATE_DIR = join(PROJECT_ROOT, ".claude/skills/DgTags/STATE")
 
 // ── CLI args ─────────────────────────────────────────────────────────────────
 

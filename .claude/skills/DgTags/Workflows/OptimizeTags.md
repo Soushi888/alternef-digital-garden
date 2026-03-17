@@ -88,7 +88,7 @@ tags: ["holochain", "blockchain"]
 After completing optimization steps, run IndexTags again:
 
 ```bash
-bun .claude/skills/dg-tags/Tools/IndexTags.ts --output markdown
+bun .claude/skills/DgTags/Tools/IndexTags.ts --output markdown
 ```
 
 Compare the new stats against the pre-optimization baseline:

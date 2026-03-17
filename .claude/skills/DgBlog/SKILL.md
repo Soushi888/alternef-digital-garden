@@ -1,12 +1,12 @@
 ---
-name: dg-blog
+name: DgBlog
 description: Blog post authoring for Alternef Digital Garden. USE WHEN writing blog posts, editing posts, EN→FR translation, writing voice questions, moving drafts to published.
 ---
 
 ## Customization
 
 **Before executing, check for user customizations at:**
-`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/dg-blog/`
+`~/.claude/PAI/USER/SKILLCUSTOMIZATIONS/DgBlog/`
 
 If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
 
@@ -18,13 +18,13 @@ If this directory exists, load and apply any PREFERENCES.md, configurations, or 
    ```bash
    curl -s -X POST http://localhost:8888/notify \
      -H "Content-Type: application/json" \
-     -d '{"message": "Loading dg-blog skill for blog post authoring"}' \
+     -d '{"message": "Loading DgBlog skill for blog post authoring"}' \
      > /dev/null 2>&1 &
    ```
 
 2. **Output text notification**:
    ```
-   Loading **dg-blog** skill for blog post authoring...
+   Loading **DgBlog** skill for blog post authoring...
    ```
 
 **This is not optional. Execute this curl command immediately upon skill invocation.**
@@ -110,9 +110,9 @@ audience: "technical"          # Or "spiritual-seekers", "general"
 
 ### Tag rules
 
-Tag vocabulary and format standards live in **`dg-tags`** (`TagVocabulary.md`). Load `dg-tags` when working with tags. After drafting a post, run `SuggestTags` from `dg-tags` to get tag suggestions.
+Tag vocabulary and format standards live in **`DgTags`** (`TagVocabulary.md`). Load `DgTags` when working with tags. After drafting a post, run `SuggestTags` from `DgTags` to get tag suggestions.
 
-**Blog-specific exception (stays here):** `blog` is always the **first** tag for every blog post. dg-tags' `SuggestTags` workflow prepends it automatically for `content/blog/` paths.
+**Blog-specific exception (stays here):** `blog` is always the **first** tag for every blog post. DgTags' `SuggestTags` workflow prepends it automatically for `content/blog/` paths.
 
 ## Post Structure
 
@@ -228,7 +228,7 @@ This creates bidirectional connections between blog analysis and reference knowl
 
 ### Wikilink rules
 
-When linking to knowledge notes, follow these rules from `dg-notes`:
+When linking to knowledge notes, follow these rules from `DgNotes`:
 
 - **Regular notes**: `[[note-filename|Display Name]]` (shortest path, no folder prefix needed)
 - **Index files**: ALWAYS use the full absolute path from `knowledge/`:
@@ -252,7 +252,7 @@ Key conventions:
 **Example 1: Write a new blog post**
 ```
 User: "Write a blog post about my experience with Holochain"
-→ Loads dg-blog skill, reads BlogStyleGuide.md for voice
+→ Loads DgBlog skill, reads BlogStyleGuide.md for voice
 → Invokes /dg:create with content-type blog
 → Creates with required frontmatter: title, date, author "Soushi888", tags starting with "blog"
 → Opens with italicized hook, includes "honest tradeoff" pattern, links to knowledge notes
@@ -261,7 +261,7 @@ User: "Write a blog post about my experience with Holochain"
 **Example 2: Translate a post to French**
 ```
 User: "Translate the compiled stack post to French"
-→ Loads dg-blog skill, reads TranslationWorkflow.md
+→ Loads DgBlog skill, reads TranslationWorkflow.md
 → Invokes /dg:translate
 → Creates file in content/blog/fr/ with language: "fr" frontmatter
 → Translates title, description, and body while keeping code blocks intact
@@ -270,7 +270,7 @@ User: "Translate the compiled stack post to French"
 **Example 3: Publish a draft post**
 ```
 User: "Publish the shadow work draft"
-→ Loads dg-blog skill
+→ Loads DgBlog skill
 → Invokes /dg:publish
 → Moves from content/unpublished/ to content/blog/
 → Removes draft: true from frontmatter, sets publication date

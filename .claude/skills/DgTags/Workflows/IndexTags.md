@@ -1,6 +1,6 @@
 # Workflow: IndexTags
 
-Scans all content files and builds a tag index saved to `STATE/`. Used as the first step of any other dg-tags workflow.
+Scans all content files and builds a tag index saved to `STATE/`. Used as the first step of any other DgTags workflow.
 
 ## When to Run
 
@@ -24,7 +24,7 @@ Before running the full scan, check if the index is still fresh:
 From the project root:
 
 ```bash
-bun .claude/skills/dg-tags/Tools/IndexTags.ts --output markdown
+bun .claude/skills/DgTags/Tools/IndexTags.ts --output markdown
 ```
 
 The script scans all `content/**/*.md` files, parses frontmatter, and writes state to `STATE/`.
@@ -39,7 +39,7 @@ The script outputs a summary to stdout. Review:
 
 ### Step 3: Confirm state files were written
 
-After the script completes, these files should exist in `.claude/skills/dg-tags/STATE/`:
+After the script completes, these files should exist in `.claude/skills/DgTags/STATE/`:
 
 | File | Content |
 |------|---------|
@@ -69,7 +69,7 @@ After indexing, offer:
 ## Flags
 
 ```
-bun .claude/skills/dg-tags/Tools/IndexTags.ts [flags]
+bun .claude/skills/DgTags/Tools/IndexTags.ts [flags]
   --output json|markdown    Output format (default: markdown)
   --filter-empty            Only show files with empty tags
   --sort frequency|alpha    Sort order (default: frequency)
