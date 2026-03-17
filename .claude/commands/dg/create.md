@@ -7,8 +7,8 @@ description: "Create new digital garden content with proper Quartz structure, fr
 
 ## Complementary Skills
 Load these skills for domain knowledge during content creation:
-- **dg-notes** — Domain taxonomy, classification heuristics, frontmatter conventions, wikilink rules
-- **dg-blog** — Blog architecture, writing voice, frontmatter patterns (when content-type is `blog`)
+- **DgNotes** — Domain taxonomy, classification heuristics, frontmatter conventions, wikilink rules
+- **DgBlog** — Blog architecture, writing voice, frontmatter patterns (when content-type is `blog`)
 
 ## Purpose
 Create new content for your Alternef Digital Garden with proper Quartz-compatible structure, frontmatter, and taxonomy integration.

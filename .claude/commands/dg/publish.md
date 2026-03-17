@@ -7,7 +7,7 @@ description: "Manage draft-to-published lifecycle: publish, unpublish, and archi
 
 ## Complementary Skills
 Load this skill for domain classification when moving files:
-- **dg-notes** — Domain taxonomy, classification heuristics, index page management
+- **DgNotes** — Domain taxonomy, classification heuristics, index page management
 
 ## Purpose
 Manage the full draft-to-published lifecycle for digital garden content. Handles publishing drafts, moving files out of `content/unpublished/`, archiving published content, and keeping parent indexes in sync.
@@ -58,7 +58,7 @@ List all unpublished/draft content:
    - If absent or `--date` provided: set to `--date` or today's date
    - If ambiguous: report and ask before proceeding
 4. **Path Resolution** (for `publish` from `unpublished/`): Determine correct domain destination
-   - Use `dg-notes` domain taxonomy for classification
+   - Use `DgNotes` domain taxonomy for classification
    - If `--destination` provided: use it
    - If ambiguous: suggest options and ask for confirmation
 5. **Content Operation**: Execute the state change
@@ -97,7 +97,7 @@ When adding a note to a domain index:
 ```
 
 ## Claude Code Integration
-- **dg-notes Skill**: Required for domain classification when moving from `unpublished/`
+- **DgNotes Skill**: Required for domain classification when moving from `unpublished/`
 - **PAI Memory**: Reads dg-patterns.md for past publish decisions
 - **Link Integrity**: Automatically updates incoming wikilinks when files move
 - **Dry-Run Safe**: `--dry-run` shows exactly what would change before any file operation

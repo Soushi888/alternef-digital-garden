@@ -7,7 +7,7 @@ description: "Build and serve Quartz digital garden with comprehensive error han
 
 ## Complementary Skills
 Load this skill for architecture knowledge when debugging build issues:
-- **dg-quartz-dev** — Component architecture, plugin pipeline, SCSS conventions, build commands
+- **DgQuartzDev** — Component architecture, plugin pipeline, SCSS conventions, build commands
 
 ## Purpose
 Build, serve, and deploy your Quartz digital garden with built-in error handling, optimization, and environment detection.

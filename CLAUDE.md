@@ -101,9 +101,9 @@ Three persistent skills provide domain knowledge across all interactions with th
 
 | Skill | Purpose | When to Use |
 |-------|---------|-------------|
-| `dg-notes` | Knowledge note management — domain taxonomy, classification, frontmatter, linking rules | Creating/classifying knowledge notes, managing indexes, wikilink questions |
-| `dg-blog` | Blog post authoring — architecture, writing voice, EN→FR translation | Writing/editing blog posts, translating to French, style guidance |
-| `dg-quartz-dev` | Quartz framework development — Preact components, plugins, SCSS, testing | Creating components/plugins, styling, writing tests, build pipeline |
+| `DgNotes` | Knowledge note management — domain taxonomy, classification, frontmatter, linking rules | Creating/classifying knowledge notes, managing indexes, wikilink questions |
+| `DgBlog` | Blog post authoring — architecture, writing voice, EN→FR translation | Writing/editing blog posts, translating to French, style guidance |
+| `DgQuartzDev` | Quartz framework development — Preact components, plugins, SCSS, testing | Creating components/plugins, styling, writing tests, build pipeline |
 
 ### How Skills Complement `/dg:*` Commands
 
@@ -111,13 +111,13 @@ Skills provide the **knowledge layer** (taxonomy, style guide, architecture); co
 
 | Command | Complementary Skill | Relationship |
 |---------|---------------------|--------------|
-| `/dg:create` | `dg-notes`, `dg-blog` | Skills inform domain classification, frontmatter, and writing voice during creation |
-| `/dg:improve` | `dg-notes`, `dg-blog` | Skills provide quality rubric, style guide, and wikilink rules for improvements and linking (`--focus links`) |
-| `/dg:organize` | `dg-notes` | Skill's domain taxonomy drives reorganization decisions |
-| `/dg:build` | `dg-quartz-dev` | Skill provides architecture knowledge for debugging build issues |
+| `/dg:create` | `DgNotes`, `DgBlog` | Skills inform domain classification, frontmatter, and writing voice during creation |
+| `/dg:improve` | `DgNotes`, `DgBlog` | Skills provide quality rubric, style guide, and wikilink rules for improvements and linking (`--focus links`) |
+| `/dg:organize` | `DgNotes` | Skill's domain taxonomy drives reorganization decisions |
+| `/dg:build` | `DgQuartzDev` | Skill provides architecture knowledge for debugging build issues |
 | `/dg:sync` | — | Deployment workflow, no specialized knowledge needed |
-| `/dg:explore` | `dg-notes`, `dg-quartz-dev` | Skills provide domain taxonomy and graph structure context for analysis |
-| `/dg:translate` | `dg-blog` | Skill's TranslationWorkflow.md provides complete EN→FR rules and voice conventions |
-| `/dg:publish` | `dg-notes` | Skill provides domain classification for placing unpublished content |
+| `/dg:explore` | `DgNotes`, `DgQuartzDev` | Skills provide domain taxonomy and graph structure context for analysis |
+| `/dg:translate` | `DgBlog` | Skill's TranslationWorkflow.md provides complete EN→FR rules and voice conventions |
+| `/dg:publish` | `DgNotes` | Skill provides domain classification for placing unpublished content |
 
 Note: `--validate` is a flag available on `create`, `improve`, `organize`, `build`, and `sync` — not a standalone command.

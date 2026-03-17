@@ -7,8 +7,8 @@ description: "Browse, query, and analyze the knowledge garden without modifying 
 
 ## Complementary Skills
 Load these skills for taxonomy and graph structure context:
-- **dg-notes** — Domain taxonomy, classification rules, link conventions
-- **dg-quartz-dev** — Graph visualization structure, domain color map
+- **DgNotes** — Domain taxonomy, classification rules, link conventions
+- **DgQuartzDev** — Graph visualization structure, domain color map
 
 ## Purpose
 Browse, query, and analyze the digital garden to understand its current state, identify gaps, discover connections, and generate insights — without modifying any content.

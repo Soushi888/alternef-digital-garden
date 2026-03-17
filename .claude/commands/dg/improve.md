@@ -7,8 +7,8 @@ description: "Enhance existing digital garden content with AI-driven improvement
 
 ## Complementary Skills
 Load these skills for quality standards and style guidance:
-- **dg-notes** — Content quality rubric, structure patterns, wikilink conventions
-- **dg-blog** — Writing voice, style guide, "honest tradeoff" pattern (when improving blog posts)
+- **DgNotes** — Content quality rubric, structure patterns, wikilink conventions
+- **DgBlog** — Writing voice, style guide, "honest tradeoff" pattern (when improving blog posts)
 
 ## Purpose
 Analyze and enhance existing digital garden content with AI-driven improvements for structure, clarity, comprehensiveness, reader engagement, and knowledge graph integration.
