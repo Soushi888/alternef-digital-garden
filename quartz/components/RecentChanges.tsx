@@ -193,8 +193,10 @@ export default ((userOpts?: Partial<Options>) => {
           </ul>
         )}
 
-        {opts.showFilter && items.length > opts.pageSize && (
-          <button class="recent-changes-load-more">Load more</button>
+        {opts.showFilter && items.length > 0 && (
+          <button class="recent-changes-load-more" style="display:none">
+            Load more
+          </button>
         )}
 
         {!opts.showFilter && opts.linkToMore && remaining > 0 && (
