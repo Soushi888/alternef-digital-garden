@@ -25,23 +25,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps ${{ matrix.browser }}
+        run: bunx playwright install --with-deps ${{ matrix.browser }}
 
       - name: Build site
-        run: npm run build
+        run: bun run build
 
       - name: Run E2E tests
-        run: npx playwright test --project=${{ matrix.browser }} --shard=${{ matrix.shard }}/4
+        run: bunx playwright test --project=${{ matrix.browser }} --shard=${{ matrix.shard }}/4
         env:
           CI: true
           SITE_URL: https://alternef.garden
@@ -63,20 +60,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps chromium
+        run: bunx playwright install --with-deps chromium
 
       - name: Run accessibility tests
-        run: npx playwright test --project=accessibility
+        run: bunx playwright test --project=accessibility
         env:
           CI: true
 
@@ -94,20 +88,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps chromium
+        run: bunx playwright install --with-deps chromium
 
       - name: Run performance tests
-        run: npx playwright test --project=performance
+        run: bunx playwright test --project=performance
         env:
           CI: true
 
@@ -125,20 +116,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps chromium
+        run: bunx playwright install --with-deps chromium
 
       - name: Run mobile tests
-        run: npx playwright test --project='Mobile Chrome'
+        run: bunx playwright test --project='Mobile Chrome'
         env:
           CI: true
 
@@ -157,17 +145,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: bunx playwright install --with-deps
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4
@@ -175,7 +160,7 @@ jobs:
           path: all-artifacts
 
       - name: Merge HTML reports
-        run: npx playwright merge-reports --reporter=html all-artifacts
+        run: bunx playwright merge-reports --reporter=html all-artifacts
 
       - name: Upload merged report
         uses: actions/upload-artifact@v4

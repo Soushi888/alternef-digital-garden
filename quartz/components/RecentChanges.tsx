@@ -159,7 +159,6 @@ export default ((userOpts?: Partial<Options>) => {
                 key={item.id}
                 class={`recent-change-item ${item.type}${opts.showFilter && index >= opts.pageSize ? " rc-hidden-page" : ""}`}
                 data-type={item.type}
-                data-index={index}
               >
                 <a
                   href={resolveRelative(fileData.slug!, item.link)}
