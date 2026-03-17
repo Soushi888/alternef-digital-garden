@@ -115,8 +115,10 @@ export const customLayouts = {
 // Register RecentChanges for specific pages
 sharedPageComponents.afterBody.push(
   Component.RecentChanges({
-    limit: 5,
+    limit: 20,
     title: "Recent Updates",
+    showFilter: true,
+    pageSize: 10,
     linkToMore: "recent-changes" as SimpleSlug,
     pages: ["index" as FullSlug],
   }),
