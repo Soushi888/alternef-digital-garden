@@ -13,6 +13,59 @@
     color: var(--secondary);
   }
 
+  .recent-changes-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    button {
+      padding: 0.35rem 0.75rem;
+      border: 1px solid var(--lightgray);
+      border-radius: 4px;
+      background: transparent;
+      color: var(--darkgray);
+      font-size: 0.8rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition:
+        background-color 0.15s,
+        color 0.15s;
+
+      &.active {
+        background: var(--secondary);
+        color: var(--light);
+        border-color: var(--secondary);
+      }
+
+      &:hover:not(.active) {
+        background: var(--lightgray);
+      }
+    }
+  }
+
+  .rc-hidden-filter,
+  .rc-hidden-page {
+    display: none !important;
+  }
+
+  .recent-changes-load-more {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--secondary);
+    font-family: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+    &:hover {
+      background: var(--lightgray);
+    }
+  }
+
   .recent-changes-list {
     list-style-type: none;
     padding: 0;

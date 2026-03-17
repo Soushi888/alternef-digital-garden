@@ -163,7 +163,7 @@ export default defineConfig({
 
   /* Web server configuration for local development */
   webServer: {
-    command: 'npm run dev',
+    command: 'bun run dev',
     url: TEST_CONFIG.LOCAL_URL,
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
