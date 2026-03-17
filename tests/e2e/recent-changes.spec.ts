@@ -290,15 +290,36 @@ test.describe('RecentChanges Component E2E Tests', () => {
       await page.goto(SITE_URL);
       await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER);
 
-      const contrastResults = await AccessibilityUtils.checkColorContrast(page);
+      // Scope contrast check to the RecentChanges component only.
+      // The page-wide utility scans the entire site (500+ notes, nav, etc.) and
+      // the Quartz theme's CSS variables are outside this component's responsibility.
+      const componentContrastResults = await page.evaluate(() => {
+        const component = document.querySelector('.recent-changes');
+        if (!component) return [];
+        const results: Array<{ element: string; contrast: number; passes: boolean }> = [];
+        const els = component.querySelectorAll('h3, p, span, a, button');
+        els.forEach(el => {
+          const styles = window.getComputedStyle(el);
+          const color = styles.color;
+          const bg = styles.backgroundColor;
+          if (!color || !bg || bg === 'rgba(0, 0, 0, 0)') return;
+          const rgb = color.match(/\d+/g);
+          const bgRgb = bg.match(/\d+/g);
+          if (!rgb || !bgRgb) return;
+          const [r, g, b] = rgb.map(Number);
+          const [br, bg2, bb] = bgRgb.map(Number);
+          const l1 = 0.2126 * (r / 255) + 0.7152 * (g / 255) + 0.0722 * (b / 255);
+          const l2 = 0.2126 * (br / 255) + 0.7152 * (bg2 / 255) + 0.0722 * (bb / 255);
+          const contrast = (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+          results.push({ element: el.tagName.toLowerCase(), contrast: Math.round(contrast * 100) / 100, passes: contrast >= 4.5 });
+        });
+        return results;
+      });
 
-      // At least 80% of elements with opaque backgrounds must meet WCAG AA contrast.
-      // A small number of UI chrome elements (e.g. active filter button state) may
-      // legitimately use theme variables that resolve below 4.5 in headless CI.
-      if (contrastResults.length > 0) {
-        const passingCount = contrastResults.filter(r => r.passes).length;
-        const passRate = passingCount / contrastResults.length;
-        expect(passRate).toBeGreaterThanOrEqual(0.8);
+      // All component elements with opaque backgrounds must pass WCAG AA
+      if (componentContrastResults.length > 0) {
+        const failing = componentContrastResults.filter(r => !r.passes);
+        expect(failing.length).toBe(0);
       }
     });
 
