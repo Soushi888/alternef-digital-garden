@@ -43,6 +43,13 @@
     }
   }
 
+  .rc-tab-desc {
+    font-size: 0.78rem;
+    color: var(--gray);
+    margin: -0.5rem 0 0.75rem;
+    min-height: 1.1em;
+  }
+
   .rc-hidden-filter,
   .rc-hidden-page {
     display: none !important;

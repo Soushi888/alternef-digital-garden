@@ -109,6 +109,7 @@ export default ((userOpts?: Partial<Options>) => {
         title: file.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title,
         link: file.slug as FullSlug,
         date: file.dates?.modified || file.dates?.created || new Date(),
+        createdDate: file.dates?.gitCreated ?? file.dates?.created ?? file.dates?.modified ?? new Date(),
         type: isModified ? "modified" : "created",
         id: `${file.slug}-${isModified ? "modified" : "created"}`,
         excerpt: file.frontmatter?.description,
@@ -135,40 +136,74 @@ export default ((userOpts?: Partial<Options>) => {
 
     const remaining = Math.max(0, filtered.length - opts.limit)
 
-    // When the filter UI is enabled, load up to `limit` items of each type
-    // independently so both "New" and "Updated" tabs have a full pageable dataset.
-    // Without this, a garden where recent activity is mostly updates would have
-    // very few "created" items in the DOM, making Load More invisible on "New".
-    const items = opts.showFilter
+    // JSON data island: all items as compact JSON for progressive client-side injection.
+    // Links are pre-resolved server-side since the client cannot call resolveRelative.
+    // The `i` field records each item's index in this array for deduplication tracking.
+    const allItemsJson = JSON.stringify(
+      filtered.map((item, idx) => ({
+        i: idx,
+        t: item.title,
+        l: resolveRelative(fileData.slug!, item.link),
+        d: item.date.getTime(),
+        c: item.createdDate.getTime(),
+        k: item.type,
+        ...(opts.showExcerpt && item.excerpt ? { e: item.excerpt } : {}),
+        ...(opts.showTags && item.tags?.length ? { g: item.tags } : {}),
+      })),
+    ).replace(/<\//g, "<\\/")
+
+    // For showFilter: pre-render pageSize items per type so both "New" and "Updated" tabs
+    // start with visible content. Each item is tagged with its index in filtered (= allData)
+    // via data-idx so the client can correctly initialize its deduplication set.
+    // For !showFilter: flat limit cap, no Load More.
+    const filteredWithIdx = filtered.map((item, idx) => ({ item, idx }))
+    const initialItems = opts.showFilter
       ? [
-          ...filtered.filter((i) => i.type === "created").slice(0, opts.limit),
-          ...filtered.filter((i) => i.type === "modified").slice(0, opts.limit),
-        ].sort((a, b) => b.date.getTime() - a.date.getTime())
-      : filtered.slice(0, opts.limit)
+          ...filteredWithIdx.filter(({ item }) => item.type === "created").slice(0, opts.pageSize),
+          ...filteredWithIdx.filter(({ item }) => item.type === "modified").slice(0, opts.pageSize),
+        ].sort((a, b) => b.item.date.getTime() - a.item.date.getTime())
+      : filteredWithIdx.slice(0, opts.limit)
 
     return (
-      <div class={classNames(displayClass, "recent-changes")} data-page-size={opts.pageSize}>
-        <h3>{opts.title ?? "Recent Changes"}</h3>
+      <div
+        class={classNames(displayClass, "recent-changes")}
+        data-page-size={opts.pageSize}
+        data-detailed={opts.detailed ? "1" : "0"}
+        data-show-excerpt={opts.showExcerpt ? "1" : "0"}
+        data-show-tags={opts.showTags ? "1" : "0"}
+      >
+        <h3>
+          {opts.linkToMore ? (
+            <a href={resolveRelative(fileData.slug!, opts.linkToMore)}>
+              {opts.title ?? "Recent Changes"}
+            </a>
+          ) : (
+            opts.title ?? "Recent Changes"
+          )}
+        </h3>
 
         {opts.showFilter && (
           <div class="recent-changes-filter" role="group" aria-label="Filter changes">
             <button data-filter="all" class="active">
               All
             </button>
-            <button data-filter="created">New</button>
-            <button data-filter="modified">Updated</button>
+            <button data-filter="created">Timeline</button>
+            <button data-filter="modified">Recently Edited</button>
           </div>
         )}
 
-        {items.length === 0 ? (
+        {opts.showFilter && <p class="rc-tab-desc" aria-live="polite"></p>}
+
+        {filtered.length === 0 ? (
           <p>No recent changes found.</p>
         ) : (
           <ul class={`recent-changes-list ${opts.detailed ? "detailed" : "condensed"}`}>
-            {items.map((item, index) => (
+            {initialItems.map(({ item, idx }) => (
               <li
                 key={item.id}
-                class={`recent-change-item ${item.type}${opts.showFilter && index >= opts.pageSize ? " rc-hidden-page" : ""}`}
+                class={`recent-change-item ${item.type}`}
                 data-type={item.type}
+                data-idx={idx}
               >
                 <a
                   href={resolveRelative(fileData.slug!, item.link)}
@@ -178,9 +213,14 @@ export default ((userOpts?: Partial<Options>) => {
                 </a>
                 <div class="recent-change-meta">
                   <span class="recent-change-type">
-                    {item.type === "created" ? "New" : "Updated"}
+                    {item.type === "created" ? "Created" : "Edited"}
                   </span>
-                  <span class="recent-change-date" data-timestamp={item.date.getTime().toString()}>
+                  <span
+                    class="recent-change-date"
+                    data-timestamp={item.date.getTime().toString()}
+                    data-prefix={item.type === "created" ? "added" : "edited"}
+                  >
+                    {item.type === "created" ? "added " : "edited "}
                     {formatRecentDate(item.date)}
                   </span>
                 </div>
@@ -203,7 +243,16 @@ export default ((userOpts?: Partial<Options>) => {
           </ul>
         )}
 
-        {opts.showFilter && items.length > 0 && (
+        {opts.showFilter && (
+          // @ts-ignore — dangerouslySetInnerHTML on <script> is valid in Preact
+          <script
+            type="application/json"
+            class="rc-items-data"
+            dangerouslySetInnerHTML={{ __html: allItemsJson }}
+          />
+        )}
+
+        {opts.showFilter && filtered.length > 0 && (
           <button class="recent-changes-load-more" style="display:none">
             Load more
           </button>
