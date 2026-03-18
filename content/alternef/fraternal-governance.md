@@ -2,6 +2,8 @@
 title: "The AlterNef Fraternal Governance Model"
 subtitle: "A Decentralized Structure Inspired by Initiatic Traditions"
 date: 2026-02-18
+author: "Soushi888"
+description: "How the AlterNef borrows from initiatic fraternal orders like AMORC to structure decentralized governance: double council, jurisdictional autonomy, graduated engagement, and fractal sovereignty across scales."
 tags: ["holochain", "commons", "alternef", "governance", "decentralization", "fractal-sovereignty", "vision-documents"]
 ---
 

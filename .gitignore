@@ -44,3 +44,4 @@ MEMORY/
 
 # npm lockfile (project uses bun)
 package-lock.json
+.worktrees/

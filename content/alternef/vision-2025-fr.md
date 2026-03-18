@@ -6,6 +6,7 @@ author: "Soushi888"
 language: "fr"
 description: "Une vision 2025 de l'AlterNef : communauté éducative modulaire et pair-à-pair incarnant les principes de l'Ère du Verseau, de la Cité Universelle Volante aux fondations technologiques et gouvernementales actuelles."
 tags: ["holochain", "distributed-systems", "alternef", "education", "communaute", "conscience"]
+draft: true
 ---
 
 # L'AlterNef : Une Vision pour l'Ère du Verseau (2025)
