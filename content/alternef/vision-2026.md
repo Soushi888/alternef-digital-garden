@@ -1,11 +1,11 @@
 ---
-title: "The AlterNef: A Living Vision for the Aquarian Age"
+title: "The AlterNef: A Living Vision for the Aquarian Age (2026)"
 subtitle: "From Flying Universal City to Present-Day Foundations"
 date: 2026-02-18
 tags: ["holochain", "distributed-systems", "alternef", "fractal-sovereignty", "vision-documents", "aquarian-age", "education", "community", "consciousness", "nondominium", "compiled-stack", "p2p-spirituality", "future-projects"]
 ---
 
-# The AlterNef: A Living Vision for the Aquarian Age
+# The AlterNef: A Living Vision for the Aquarian Age (2026)
 
 *From Flying Universal City to Present-Day Foundations*
 
