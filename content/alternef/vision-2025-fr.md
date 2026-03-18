@@ -1,11 +1,14 @@
 ---
-title: "L'AlterNef : Une Vision pour l'Ère du Verseau"
+title: "L'AlterNef : Une Vision pour l'Ère du Verseau (2025)"
 subtitle: "De la Cité Universelle Volante aux Fondations d'Aujourd'hui"
-date: 2025-08-22
+date: 2025-09-04
+author: "Soushi888"
+language: "fr"
+description: "Une vision 2025 de l'AlterNef : communauté éducative modulaire et pair-à-pair incarnant les principes de l'Ère du Verseau, de la Cité Universelle Volante aux fondations technologiques et gouvernementales actuelles."
 tags: ["holochain", "distributed-systems", "alternef", "education", "communaute", "conscience"]
 ---
 
-# L'AlterNef : Une Vision pour l'Ère du Verseau
+# L'AlterNef : Une Vision pour l'Ère du Verseau (2025)
 *De la Cité Universelle Volante aux Fondations d'Aujourd'hui*
 
 ---

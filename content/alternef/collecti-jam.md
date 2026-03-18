@@ -1,5 +1,8 @@
 ---
 title: "Collecti-Jam : un module vivant pour l'AlterNef"
+date: 2026-02-18
+author: "Soushi888"
+language: "fr"
 description: "Collecti-Jam est un module vivant de l'AlterNef qui utilise l'improvisation musicale collective comme terrain d'expérimentation de l'apprentissage pair-à-pair, de l'économie ouverte et de la transformation intérieure."
 aliases:
   - "Collecti-Jam"
