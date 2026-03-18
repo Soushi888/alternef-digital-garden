@@ -9,6 +9,7 @@ description: "Enhance existing digital garden content with AI-driven improvement
 Load these skills for quality standards and style guidance:
 - **DgNotes** — Content quality rubric, structure patterns, wikilink conventions
 - **DgBlog** — Writing voice, style guide, "honest tradeoff" pattern (when improving blog posts)
+- **DgTags** — Tag vocabulary validation (MANDATORY when improving tags or frontmatter: read TagVocabulary.md before touching any tag)
 
 ## Purpose
 Analyze and enhance existing digital garden content with AI-driven improvements for structure, clarity, comprehensiveness, reader engagement, and knowledge graph integration.

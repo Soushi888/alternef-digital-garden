@@ -9,6 +9,7 @@ description: "Create new digital garden content with proper Quartz structure, fr
 Load these skills for domain knowledge during content creation:
 - **DgNotes** — Domain taxonomy, classification heuristics, frontmatter conventions, wikilink rules
 - **DgBlog** — Blog architecture, writing voice, frontmatter patterns (when content-type is `blog`)
+- **DgTags** — Tag vocabulary validation (MANDATORY: load and read TagVocabulary.md before writing any tags)
 
 ## Purpose
 Create new content for your Alternef Digital Garden with proper Quartz-compatible structure, frontmatter, and taxonomy integration.
@@ -33,15 +34,29 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
    - Read memory/dg-patterns.md if it exists (garden-specific learnings)
 2. **Content Type Detection**: Determine target path and template based on content type
 3. **Path Generation**: Create Quartz-compatible file paths with proper slugification
-4. **Frontmatter Generation**: Generate appropriate YAML frontmatter with taxonomy
-5. **Template Application**: Apply content templates based on type and domain
-6. **File Creation**: Create the content file with proper structure
-7. **Index Updates**: Update relevant index.md files if needed
-8. **Link Suggestions**: Suggest potential connections to existing content
-9. **Playwright Validation**: Test created content renders correctly and links function
-10. **Content Verification**: Verify new content appears in navigation and search
-11. **Validation** (if `--validate`): Check new file's frontmatter completeness and wikilink syntax; report any issues
-12. **Memory Update**: Append key patterns to PAI memory.
+4. **Frontmatter Draft**: Generate all frontmatter fields EXCEPT tags
+5. **Tag Gate** (MANDATORY — do not skip):
+   - Read `.claude/skills/DgTags/TagVocabulary.md` in full
+   - Identify the domain index tag for this content's path (e.g. `education` for culture-and-education)
+   - Propose 3-7 tags drawn exclusively from the vocabulary
+   - Verify each proposed tag against the vocabulary: if not found, find the correct equivalent or omit it
+   - Check the alias table: replace any alias with its canonical form (e.g. `second-brain` → `knowledge-management`)
+   - Check path-segment tags: `culture-and-education`, `tools-and-technology`, `health-and-wellbeing`, `built-environment`, `land-and-nature-stewardship`, `finance-and-economics`, `governance-and-community` are directory names — NEVER use as tags
+   - Order: domain index tag first, then topic tags from specific to general; `blog` first for `content/blog/` content
+   - Only after all checks pass, finalize the tags array
+6. **Template Application**: Apply content templates based on type and domain
+7. **File Creation**: Create the content file with finalized frontmatter and structure
+8. **Index Updates**: Update relevant index.md files if needed
+9. **Link Suggestions**: Suggest potential connections to existing content
+10. **Frontmatter & Tag Validation** (ALWAYS — not optional):
+    - Verify required fields are present for this content type
+    - Re-check tags against vocabulary (catch any slip through Tag Gate)
+    - Check for emdash (`—`) in title, description, body
+    - Check wikilink syntax: pipe syntax used, index links use absolute paths
+    - Report any violations — do not commit until resolved
+11. **Playwright Validation**: Test created content renders correctly and links function
+12. **Content Verification**: Verify new content appears in navigation and search
+13. **Memory Update**: Append key patterns to PAI memory.
     - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
 ## Built-in Quartz Knowledge
@@ -68,22 +83,19 @@ content/
 ```md
 ---
 title: "Content Title"
+date: YYYY-MM-DD
+description: "One-sentence summary for search and previews."
 aliases: ["Alternative Name"]
-tags: [domain-tag, specific-tag1, specific-tag2]
-created: YYYY-MM-DD
-modified: YYYY-MM-DD
+tags: ["domain-index-tag", "specific-tag1", "specific-tag2"]
 draft: false
 ---
-
-# Content Title
 
 Brief description of the topic.
 
 ## Key Concepts
 
 ## Related Topics
-- [[related-topic-1]]
-- [[related-topic-2]]
+- [[related-note|Display Name]]
 
 ## References
 ```
@@ -93,12 +105,15 @@ Brief description of the topic.
 ---
 title: "Post Title"
 date: YYYY-MM-DD
-tags: [category, topic1, topic2]
+author: "Soushi888"
+description: "Compelling 1-2 sentence summary for SEO (~100-200 chars)."
+tags: ["blog", "primary-topic", "secondary-topic"]
 draft: false
-description: "Brief post description"
 ---
 
-# Post Title
+*Italicized hook restating the core thesis.*
+
+---
 
 Content goes here...
 ```
@@ -157,16 +172,23 @@ Use absolute paths: [[knowledge/domain/index|Domain]]
 NOT relative paths - will break!
 ```
 
-### Domain-Specific Tags
-```
-land-and-nature: [ecology, sustainability, permaculture, conservation, climate, agriculture, biodiversity]
-built-environment: [architecture, urban-planning, infrastructure, housing, transportation, smart-cities]
-tools-and-technology: [software, hardware, programming, ai, blockchain, web-development, devops]
-culture-and-education: [learning, pedagogy, culture, society, community, art, philosophy]
-health-and-wellbeing: [physical-health, mental-health, nutrition, fitness, mindfulness, lifestyle]
-finance-and-economics: [economics, finance, investing, cryptocurrency, sustainable-economy, local-economy]
-governance-and-community: [governance, democracy, community-organizing, civic-engagement, social-innovation]
-```
+### Domain Index Tags (first tag for every note)
+
+The authoritative tag list is `.claude/skills/DgTags/TagVocabulary.md`. Always read it during the Tag Gate step. Never invent tags from memory.
+
+Domain index tags (must be first tag for notes in that domain):
+| Domain path | First tag |
+|-------------|-----------|
+| `content/blog/` | `blog` |
+| `land-and-nature-stewardship/` | `ecology` |
+| `built-environment/` | `architecture` |
+| `tools-and-technology/` | `programming` |
+| `culture-and-education/` | `education` |
+| `health-and-wellbeing/` | `health` |
+| `finance-and-economics/` | `economics` |
+| `governance-and-community/` | `governance` |
+
+**Never use domain directory names as tags** (`culture-and-education`, `tools-and-technology`, etc. are path segments, not tags).
 
 ### Link Patterns
 ```markdown
@@ -384,6 +406,12 @@ When this command runs, OBSERVE generates these ISC:
 - ISC-A: No emdash (—) in title, description, or body content
 - ISC-A: No relative paths used in wikilinks to index files
 - ISC-A: No invented wikilinks pointing to non-existent garden notes
+- ISC-A: Every tag verified against TagVocabulary.md before writing (Tag Gate completed)
+- ISC-A: Tag count is 3-7 — never more
+- ISC-A: First tag is the domain index tag for the content path
+- ISC-A: No path-segment tags used (culture-and-education, tools-and-technology, etc.)
+- ISC-A: No alias tags used (second-brain, ai, p2p, etc.) — canonical forms only
+- ISC-A: Frontmatter uses `date` (not `created`) and `updated` (not `modified`)
 
 ### Cross-Reference Workflow
 When creating content, OBSERVE and BUILD must:
