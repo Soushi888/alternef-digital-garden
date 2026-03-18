@@ -6,21 +6,13 @@ author: "Soushi888"
 description: "A philosophical foundation for the Intelligent Development Interface, bridging PKM traditions, alchemical philosophy, and cognitive science into a distributed cognitive architecture for transformative learning."
 tags:
   [
-    "alternef",
-    "idi",
-    "philosophy-of-mind",
-    "distributed-cognition",
-    "extended-mind",
-    "second-brain",
-    "homunculus",
     "education",
-    "holochain",
-    "nondominium",
+    "philosophy",
+    "cognitive-science",
+    "knowledge-management",
+    "artificial-intelligence",
     "alchemy",
-    "cognitive-extension",
-    "culture-and-education",
-    "personal-ai-infrastructure",
-    "commons",
+    "alternef",
   ]
 ---
 
