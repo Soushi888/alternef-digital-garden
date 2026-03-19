@@ -39,8 +39,8 @@ pub struct DnaProperties {
 
 impl DnaProperties {
     pub fn get_progenitor_pubkey() -> ExternResult<AgentPubKey> {
-        let s = DnaProperties::get()?.progenitor_pubkey;
-        AgentPubKey::try_from(s).map_err(|e| CommonError::HoloHash(e).into())
+        let pubkey_str = DnaProperties::get()?.progenitor_pubkey;
+        AgentPubKey::try_from(pubkey_str).map_err(|err| CommonError::HoloHash(err).into())
     }
 }
 ```
@@ -135,27 +135,94 @@ if (urlPort && urlToken) {
 }
 ```
 
-## Testing with Tryorama
+## Testing with Sweettest
 
-Progenitor-aware tests pass the progenitor pubkey explicitly when installing:
+Sweettest (`holochain` crate with `test_utils` feature) is the recommended Rust-native framework for integration tests in Holochain 0.6. It runs an in-process conductor — no separate process or TypeScript runtime needed.
 
-```typescript
-// tests/src/requests_and_offers/utils.ts
-const [alice, bob] = await scenario.addPlayersWithApps([
-    {
-        appBundleSource: { type: 'path', value: hAppPath },
-        options: {
-            rolesSettings: {
-                requests_and_offers: {
-                    modifiers: {
-                        properties: { progenitor_pubkey: Base64.fromUint8Array(alice.agentPubKey) }
-                    }
-                }
-            }
-        }
-    },
-    { appBundleSource: { type: 'path', value: hAppPath }, /* bob has no progenitor key */ }
-]);
+**Step 1: expose the check as an extern in the `misc` coordinator zome**
+
+```rust
+// dnas/requests_and_offers/zomes/coordinator/misc/src/lib.rs
+#[hdk_extern]
+pub fn check_if_i_am_progenitor(_: ()) -> ExternResult<bool> {
+    utils::check_if_progenitor()
+}
+```
+
+**Step 2: write the integration test**
+
+```rust
+// Cargo.toml dev-dependencies (add to the crate containing your tests):
+// holochain = { version = "=0.6.0", features = ["test_utils"] }
+// tokio    = { version = "1", features = ["full"] }
+
+use holochain::sweettest::*;
+use holochain_types::prelude::*;
+use utils::DnaProperties;
+use std::path::Path;
+
+#[tokio::test(flavor = "multi_thread")]
+async fn progenitor_is_alice_not_bob() {
+    let mut conductors = SweetConductorBatch::from_config(
+        2,
+        SweetConductorConfig::standard(),
+    ).await;
+
+    // Generate agent keys from each conductor's keystore before installation.
+    // Alice's key must be known upfront so it can be embedded in DNA properties.
+    let alice_pubkey = SweetAgents::one(conductors[0].keystore()).await;
+    let bob_pubkey   = SweetAgents::one(conductors[1].keystore()).await;
+
+    // Encode Alice's key into DNA properties
+    let progenitor_properties = DnaProperties {
+        progenitor_pubkey: alice_pubkey.to_string(),
+    };
+    let serialized_properties = SerializedBytes::try_from(progenitor_properties)
+        .expect("DnaProperties serialization must succeed");
+
+    // Load the DNA bundle and inject Alice's key as a DNA modifier
+    let raw_dna = SweetDnaFile::from_bundle(
+        Path::new("workdir/requests_and_offers.dna"),
+    ).await.unwrap();
+    let dna_with_progenitor = raw_dna.update_modifiers(
+        DnaModifiersOpt::none().with_properties(serialized_properties),
+    );
+
+    // Install the same progenitor-keyed DNA for both agents
+    let alice_app = conductors[0]
+        .setup_app_for_agent(
+            "requests-and-offers",
+            alice_pubkey.clone(),
+            &[dna_with_progenitor.clone()],
+        )
+        .await
+        .unwrap();
+
+    let bob_app = conductors[1]
+        .setup_app_for_agent(
+            "requests-and-offers",
+            bob_pubkey.clone(),
+            &[dna_with_progenitor],
+        )
+        .await
+        .unwrap();
+
+    conductors.exchange_peer_info().await;
+
+    let (alice_cell,) = alice_app.into_tuple();
+    let (bob_cell,)   = bob_app.into_tuple();
+
+    let alice_is_progenitor: bool = conductors[0]
+        .call(&alice_cell.zome("misc"), "check_if_i_am_progenitor", ())
+        .await;
+
+    let bob_is_progenitor: bool = conductors[1]
+        .call(&bob_cell.zome("misc"), "check_if_i_am_progenitor", ())
+        .await;
+
+    assert!(alice_is_progenitor, "Alice should be recognised as progenitor");
+    assert!(!bob_is_progenitor, "Bob should not be recognised as progenitor");
+}
 ```
 
 This gives Alice progenitor status, allowing tests to verify that only Alice can bootstrap administration, and that Bob (non-progenitor) cannot.
