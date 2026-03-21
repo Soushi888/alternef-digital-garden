@@ -35,12 +35,6 @@ The ontological foundation draws from [[rea-accounting|REA]] (Resource-Event-Age
 
 ---
 
-## ERP Bridge
-
-The [nondominium-erp-bridge](https://github.com/Sensorica/nondominium-erp-bridge) is a Python middleware layer that connects legacy ERP systems to the Nondominium network. It transforms ERP inventory data into ValueFlows-compliant structures and syncs them to Holochain via HTTP gateway, allowing organizations to gradually bridge their existing tools into the distributed commons.
-
----
-
 ## Agent-Centric, Not Blockchain
 
 Nondominium is not a blockchain. It is **agent-centric**: each participant maintains their own source chain while a distributed hash table provides validation and data integrity across the network. No global consensus, no mining, no tokens, just cryptographically signed agreements between peers.

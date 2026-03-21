@@ -32,7 +32,7 @@ A coherent PAI architecture has exactly two layers:
 │  WHO    Identity, archetypes, formative experiences         │
 │  WHERE  Projects, goals, active domains                     │
 │  WHAT   Mission, macrocosmic vision, problems being solved  │
-│  WHY    Essential fire, partnership contract, traditions     │
+│  WHY    Essential fire, partnership contract, traditions    │
 ├─────────────────────────────────────────────────────────────┤
 │                   DOING LAYER (Skills, Agents)              │
 │                                                             │
