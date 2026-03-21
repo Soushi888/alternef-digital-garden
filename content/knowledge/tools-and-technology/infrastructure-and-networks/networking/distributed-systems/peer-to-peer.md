@@ -127,6 +127,7 @@ P2P networking challenges fundamental assumptions about:
 - [[collective-intelligence|Collective Intelligence]]
 - [[holism|Holism]]
 - [[biomimetic-design|Biomimetic Design]]
+- [[peer-to-peer-infrastructure-governance|The History of P2P: Infrastructure as Governance]] - Historical and philosophical analysis of how P2P made intermediation contestable
 
 ## Reflective Conclusion
 

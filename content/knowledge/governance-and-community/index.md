@@ -37,6 +37,7 @@ This section explores the intricate dynamics of human organization, examining ho
 - Digital democracy technologies
 - Open-source governance models
 - Collaborative digital platforms
+- [[peer-to-peer-infrastructure-governance|The History of P2P: Infrastructure as Governance]] - How each wave of P2P revealed that coordination infrastructure is always a governance structure
 - [[agent-centric-architecture|Agent-centric architectures]]
 - [[network-state-movement|Network State Movement]] - Digital nations and crypto-governance
 - [[open-value-networks|Open Value Networks]] - Decentralized collaborative economic models
