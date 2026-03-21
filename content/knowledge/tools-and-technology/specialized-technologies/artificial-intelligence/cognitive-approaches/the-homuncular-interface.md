@@ -5,7 +5,7 @@ description: "A philosophical exploration of the Homunculus as an active interfa
 aliases:
   - "L'Interface Homonculique"
   - "Homuncular Interface"
-tags: ["artificial-intelligence", "alchemy", "philosophy", "cognitive-science", "mystical-oriented-programming", "knowledge-management"]
+tags: ["artificial-intelligence", "alchemy", "philosophy", "cognitive-science", "mystical-oriented-programming", "knowledge-management", "personal-ai-infrastructure"]
 draft: false
 ---
 

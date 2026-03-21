@@ -119,7 +119,7 @@ Prefer `date` and `updated` for consistency with the project CLAUDE.md conventio
 
 ### Tag rules
 
-Tag rules, vocabulary, and format standards live in **`DgTags`** (`TagVocabulary.md`). Load `DgTags` when working with tags. After drafting a note, run the `SuggestTags` workflow from `DgTags` to get validated tag suggestions.
+Tag rules, vocabulary, and format standards live in **`DgTags`** Skill (`TagVocabulary.md`). Load `DgTags` when working with tags. After drafting a note, run the `SuggestTags` workflow from `DgTags` to get validated tag suggestions.
 
 Summary: lowercase kebab-case, domain tag first, 3-7 tags, YAML array format `tags: ["tag1", "tag2"]`.
 

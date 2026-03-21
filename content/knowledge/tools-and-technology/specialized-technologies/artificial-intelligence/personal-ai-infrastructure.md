@@ -4,7 +4,7 @@ description: "An open-source framework by Daniel Miessler for building a persona
 aliases:
   - "PAI"
   - "Personal AI Infrastructure framework"
-tags: ["programming", "artificial-intelligence", "large-language-models", "automation", "knowledge-management"]
+tags: ["programming", "artificial-intelligence", "large-language-models", "automation", "knowledge-management", "personal-ai-infrastructure"]
 date: 2026-03-21
 ---
 

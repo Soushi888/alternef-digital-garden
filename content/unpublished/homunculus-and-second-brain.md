@@ -13,6 +13,7 @@ tags:
     "extended-mind",
     "second-brain",
     "homunculus",
+    "personal-ai-infrastructure",
   ]
 draft: true
 ---

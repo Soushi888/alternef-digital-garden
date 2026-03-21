@@ -5,7 +5,7 @@ description: AI techniques inspired by human cognitive processes, including stru
 aliases:
   - Cognitive AI
   - Cognitive Computing
-tags: ["artificial-intelligence", "machine-learning"]
+tags: ["artificial-intelligence", "machine-learning", "personal-ai-infrastructure"]
 
 ---
 

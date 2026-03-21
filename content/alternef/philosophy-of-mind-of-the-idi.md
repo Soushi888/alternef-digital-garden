@@ -13,6 +13,7 @@ tags:
     "artificial-intelligence",
     "alchemy",
     "alternef",
+    "personal-ai-infrastructure",
   ]
 ---
 

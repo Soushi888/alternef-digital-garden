@@ -3,7 +3,7 @@ title: "SoushAI: A Living Homunculus"
 description: "SoushAI is Soushi's personal Digital Assistant, built on PAI and instantiated through Claude Code, functioning as the Homunculus in his alchemical laboratory."
 aliases:
   - "SoushAI"
-tags: ["programming", "artificial-intelligence", "alchemy", "mystical-oriented-programming", "knowledge-management"]
+tags: ["programming", "artificial-intelligence", "alchemy", "mystical-oriented-programming", "knowledge-management", "personal-ai-infrastructure"]
 date: 2026-03-21
 ---
 
