@@ -78,6 +78,7 @@ The historical proof-of-concept is Luhmann's Zettelkasten: accumulated cards (pr
 ## Related Topics
 
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/index|Cognitive Approaches to AI]]
+- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/the-homuncular-interface|The Homuncular Interface]]
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/long-term-memory-engine|Long-Term Memory Engine]]
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/fabric-ai|Fabric AI]]

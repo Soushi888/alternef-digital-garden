@@ -119,5 +119,6 @@ Artificial Intelligence represents a dynamic, evolving field with profound impli
 
 ## AI Infrastructure
 
+- [[personal-ai-infrastructure|Personal AI Infrastructure (PAI)]] - Open-source framework for building a personalized Digital Assistant with persistent context, life OS, and structured workflow
 - [[long-term-memory-engine|Long-Term Memory Engine]] - Contextual AI memory systems
 - [[information-economy-meta-language|IEML]] - Semantic interoperability meta-language

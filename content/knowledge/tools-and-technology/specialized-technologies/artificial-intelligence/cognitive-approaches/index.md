@@ -26,6 +26,12 @@ Two faces of the same drive to externalize and animate cognition: the alchemical
 ### [[telos-being-doing|TELOS as Being, Skills as Doing]]
 A two-layer architecture for personal AI: the Being layer (TELOS) holds identity, purpose, vision, and values; the Doing layer (Skills and Agents) holds execution capabilities. Grounds the distinction in Aristotelian teleology and maps it onto the Alchemist-Homunculus correspondence.
 
+### [[soush-ai|SoushAI: A Living Homunculus]]
+A self-analysis of SoushAI as an implementation of the digital homunculus concept: how PAI configuration, the Grimoire, TELOS prima materia, and the Algorithm together constitute a Homunculus that serves as Soushi's laboratory companion in the Great Work.
+
+### [[the-homuncular-interface|The Homuncular Interface]]
+A philosophical exploration of the Homunculus as interface-membrane rather than interface-window: the membrane/threshold distinction, the neurological homunculus paradox, and how the PAI Grimoire constitutes an active boundary between intention and execution.
+
 ## Key Concepts
 
 - **Symbolic AI**: Rule-based systems that reason over explicit symbols and logic
