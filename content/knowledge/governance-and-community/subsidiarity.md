@@ -2,7 +2,7 @@
 title: "Subsidiarity"
 description: "A principle of social organization stating that tasks and decisions should be handled at the most immediate or local level possible, with higher authorities intervening only when necessary"
 aliases: ["subsidiarity principle", "decentralized governance", "local autonomy", "hierarchical governance"]
-tags: ["governance", "decentralization", "political-theory", "local-autonomy"]
+tags: ["governance", "decentralization", "subsidiarity", "political-theory", "local-autonomy"]
 created: 2025-11-20
 modified: 2025-11-20
 draft: false
@@ -139,7 +139,7 @@ Subsidiarity is often paired with the principle of solidarity in Catholic social
 | **Stability of scales**                   | Scales are relatively fixed and traditionally defined (the nation-state, the Church diocese, the municipality, etc.) | Scales are **dynamic, emergent, and adjustable**; new scales can form or dissolve as competencies change |
 | **Role of tradition / ontology**          | Heavily informed by natural law and pre-existing social ontologies (the family is ontologically prior, etc.) | Agnostic or skeptical about ontological priority; focuses on observable capacity and feedback loops |
 | **Decision rule**                         | Common good + human dignity (normative)                                      | Systemic viability, anti-fragility, requisite variety (cybernetic/functional)   |
-| **Typical institutional examples**        | Germany, Switzerland, EU, Catholic Church governance                       | Theoretical so far, but closest real-world approximations: Ostrom's polycentric resource regimes, some blockchain DAOs, Rojava's democratic confederalism (partly), certain resilient city networks |
+| **Typical institutional examples**        | Germany, Switzerland, EU, Catholic Church governance                       | Theoretical so far, but closest real-world approximations: [[ostroms-design-principles|Ostrom's polycentric resource regimes]], some blockchain DAOs, Rojava's democratic confederalism (partly), certain resilient city networks |
 | **Attitude toward the nation-state**      | Generally accepts it as a natural and necessary level                       | Sees the nation-state as just one (often obsolescent) scale among many          |
 | **Conflict resolution between scales**    | Higher level has ultimate authority if lower fails                           | Uses negotiation, game-theoretic mechanisms, or meta-scale arbitration; no automatic primacy |
 | **Time horizon & adaptability**           | Relatively conservative; changes slowly                                             | Designed for rapid adaptation in high-complexity, fast-changing environments    |
@@ -309,6 +309,7 @@ Subsidiarity finds deep validation in biological organization through Multi-Scal
 
 ## Related Topics
 - [[knowledge/governance-and-community/index|Governance and Community]]
+- [[ostroms-design-principles|Ostrom's Design Principles]] - Empirical framework for commons governance; Principle 8 (Nested Enterprises) is the practical instantiation of subsidiarity
 - [[hyper-localism|Hyper-Localism]] - Philosophy of extreme decentralization at neighborhood scale
 - [[multi-scale-competency-architecture|Multi-Scale Competency Architecture]] - Biological foundation for competence-based organization
 - [[decentralization|Decentralization]]

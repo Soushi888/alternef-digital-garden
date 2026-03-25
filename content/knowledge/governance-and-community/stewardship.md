@@ -98,7 +98,8 @@ Stewardship is the careful and responsible management of something entrusted to 
 
 ### Commons Management
 - [[commons|The Commons]] represent the spaces where stewardship is most needed
-- Elinor Ostrom's design principles for commons governance
+- [[tragedy-of-the-commons|Tragedy of the Commons]] — the failure mode stewardship prevents
+- [[ostroms-design-principles|Elinor Ostrom's design principles for commons governance]]
 - Community-based resource management
 - Collective action and shared responsibility
 
@@ -308,7 +309,7 @@ System Questions:
 - Global Ecovillage Network - Community-based stewardship examples
 
 ### Tools and Frameworks
-- Elinor Ostrom's Design Principles for Commons Governance
+- [[ostroms-design-principles|Elinor Ostrom's Design Principles for Commons Governance]]
 - The Natural Step - Framework for sustainable stewardship
 - Permaculture Design Principles - Ecological stewardship methodology
 - The Doughnut Economics model - Social and ecological stewardship boundaries

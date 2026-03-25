@@ -47,6 +47,8 @@ This section explores the intricate dynamics of human organization, examining ho
 - [[holoptism|Holoptism]] - P2P coordination processes enabling transparent access to participant information and project aims, fostering collective intelligence through horizontal and vertical transparency
 
 ### 7. Governance Principles and Frameworks
+- [[tragedy-of-the-commons|Tragedy of the Commons]] - Hardin's thesis on shared resource overexploitation and community governance responses
+- [[ostroms-design-principles|Ostrom's Design Principles]] - Eight empirically-derived conditions for robust, self-governing institutions managing common-pool resources
 - [[subsidiarity|Subsidiarity]] - Principle of allocating tasks and decisions to the most local level capable of handling them effectively
 - [[hyper-localism|Hyper-Localism]] - Philosophy of extreme decentralization prioritizing neighborhood and household-level autonomy
 - [[sociocracy-3|Sociocracy 3.0]] - Open-source social technology for agile, effective collaboration through consent-based governance and continuous improvement
