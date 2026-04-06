@@ -24,6 +24,7 @@ This section is a comprehensive journey through the art and science of software 
 - Architectural approaches
 - Problem-solving strategies in software design
 - [[specification-driven-development|Specification-Driven Development]]
+- [[documentation-as-code|Documentation as Code]]: treating documentation with the same workflows as software
 
 ### 3. Software Architecture
 
