@@ -16,6 +16,7 @@ This section explores the intricate relationship between culture, education, and
 - Cognitive science of education
 - Transformative learning approaches
 - [[banathy-conversation-methodology|Banathy Conversation Methodology]] - Structured participatory inquiry through self-organized dialogue, no formal presentations
+- [[guild-model|Guild Model]] - Craft transmission through apprenticeship, mastery levels, and demonstrated innovation
 
 ### 2. Cultural Dynamics
 - Anthropological perspectives
