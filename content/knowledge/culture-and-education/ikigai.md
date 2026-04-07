@@ -8,10 +8,15 @@ aliases:
   - "生き甲斐"
   - "Raison d'être"
 tags: ["philosophy", "ikigai", "human-flourishing", "personal-development", "vocation", "integration"]
+updated: 2026-04-06
 
 ---
 
 # Ikigai
+
+<center>
+    <img src="ikigai.png" alt="Ikigai Diagram - The intersection of what you love, what you're good at, what the world needs, and what you can be paid for" width="50%" />
+</center>
 
 **Ikigai** (生き甲斐) is a Japanese concept that translates roughly to "reason for being" or "the joy of living." It combines the terms *iki* ("life") and *kai* ("value" or "worth"), conveying the idea of a life worth living. In Japanese culture, ikigai represents what gives meaning to existence—whether a passion, a relationship, work, or simple daily pleasure.
 
