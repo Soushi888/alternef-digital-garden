@@ -18,6 +18,7 @@ replit.nix
 
 # Local files
 **/*.local.*
+.local
 
 # Playwright test results and artifacts
 test-results/

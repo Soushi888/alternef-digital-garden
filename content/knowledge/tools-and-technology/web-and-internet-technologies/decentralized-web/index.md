@@ -51,6 +51,8 @@ Software for managing cryptographic keys, signing transactions, and interacting 
 - [[taubyte|Taubyte]] — A decentralized cloud computing platform
 - [[metera|Metera]] — Decentralized coordination tooling
 - [[talkee|Talkee]] — Decentralized communication protocol
+- [[activity-pub|ActivityPub]] — W3C protocol for decentralized social federation, the backbone of the Fediverse
+- [[fediverse|Fediverse]] — A federated social network of thousands of independent servers communicating via ActivityPub
 
 ## Related Topics
 
