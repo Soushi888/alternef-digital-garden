@@ -42,6 +42,7 @@ This section explores the intricate dynamics of human organization, examining ho
 - [[network-state-movement|Network State Movement]] - Digital nations and crypto-governance
 - [[open-value-networks|Open Value Networks]] - Decentralized collaborative economic models
 - [[sensorica|Sensorica]] - Pioneering OVN for open-source scientific instrumentation
+- [[composable-resource-networks|Composable Resource Networks]] - How Nondominium extends FOSS accountability into material resources, traceable contributions, and benefit distribution across composable DHT networks
 - [[cognicism|Cognicism]] - AI-augmented collective decision-making and belief tracking systems
 - [[digital-fabrics|Digital Fabrics]] - Decentralized coordination infrastructure enabling self-organizing, anti-fragile, commons-based coordination without platform intermediation
 - [[holoptism|Holoptism]] - P2P coordination processes enabling transparent access to participant information and project aims, fostering collective intelligence through horizontal and vertical transparency
