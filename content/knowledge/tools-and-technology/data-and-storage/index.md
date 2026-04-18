@@ -61,3 +61,7 @@ This section navigates the complex landscape of data management, exploring how i
 - Interdisciplinary understanding of information systems
 
 *A living document reflecting the dynamic world of data and storage technologies.*
+
+## Featured Notes
+
+- [[markdown-as-witnessed-archive|Markdown as Witnessed Archive]] — Why plain Markdown files constitute a legitimate database substrate, the four failure modes that threaten the paradigm, and a three-layer architecture that makes it defensible.
