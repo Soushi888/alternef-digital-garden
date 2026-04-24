@@ -45,6 +45,7 @@ This section explores the intricate dynamics of human organization, examining ho
 - [[cognicism|Cognicism]] - AI-augmented collective decision-making and belief tracking systems
 - [[digital-fabrics|Digital Fabrics]] - Decentralized coordination infrastructure enabling self-organizing, anti-fragile, commons-based coordination without platform intermediation
 - [[holoptism|Holoptism]] - P2P coordination processes enabling transparent access to participant information and project aims, fostering collective intelligence through horizontal and vertical transparency
+- [[open-source-program-office|Open Source Program Office (OSPO)]] - Organizational competency center for open-source strategy, policy, compliance, and community engagement
 
 ### 7. Governance Principles and Frameworks
 - [[tragedy-of-the-commons|Tragedy of the Commons]] - Hardin's thesis on shared resource overexploitation and community governance responses
