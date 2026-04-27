@@ -45,6 +45,12 @@ This section delves into the complex world of economic systems, financial techno
 - Ethical financial decision-making
 - [[accounting-systems|Accounting Systems: Single vs Double Entry]] - Traditional accounting methodologies and financial management systems
 
+### 6. Sovereign Economic Infrastructure
+- [[valueflows|ValueFlows]] - Vocabulary for describing economic activity across all value forms
+- [[rea-accounting|REA Accounting]] - Resource-Event-Agent model underlying ValueFlows
+- [[local-first-accountability|Local-First Accountability]] - Keeping economic data on your own device
+- [[sovereign-economic-node|The Sovereign Economic Node]] - Using VF locally as a personal ledger that federates to P2P commons networks
+
 ## Guiding Principles
 - Economic justice and equity
 - Sustainable value creation
