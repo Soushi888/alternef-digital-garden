@@ -1,5 +1,7 @@
 # 🌿 Alternef Digital Garden
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Soushi888/alternef-digital-garden)
+
 A personal knowledge management system designed as an interconnected digital ecosystem.
 
 🌐 **Explore the Digital Garden**: [https://alternef.garden/](https://alternef.garden/)
