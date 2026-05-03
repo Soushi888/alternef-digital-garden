@@ -39,7 +39,11 @@ This section navigates the complex landscape of digital security and privacy, ex
 - Data minimization strategies
 - [[host-proof-hosting|Host-Proof Hosting]]
 
-### 5. Ethical Security Frameworks
+### 5. Application Security Standards
+- [[owasp|OWASP]] — open standards for web application security risks and verification
+- Vulnerability assessment and penetration testing methodology
+
+### 6. Ethical Security Frameworks
 - Digital rights protection
 - Consent and transparency
 - Responsible data handling
