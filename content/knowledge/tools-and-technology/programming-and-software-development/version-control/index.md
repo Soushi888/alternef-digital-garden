@@ -6,7 +6,6 @@ aliases:
   - Source Control
   - VCS
 tags: ["programming", "software-development", "collaboration", "version-control"]
-
 ---
 
 ## Overview
@@ -18,13 +17,20 @@ The distributed VCS model, pioneered by Git, gives every developer a full copy o
 ## Tools in This Section
 
 ### [[git|Git]]
+
 The dominant distributed version control system. Virtually every software project uses Git for tracking changes, branching, and merging. Created by Linus Torvalds in 2005.
 
 ### [[github|GitHub]]
+
 A cloud-based hosting platform for Git repositories. Adds collaboration features: pull requests, code review, issue tracking, Actions (CI/CD), and GitHub Pages for static site hosting.
 
 ### [[changelog|Changelog]]
+
 A document listing significant changes made in each version of a software project. Changelogs communicate what changed, when, and why, helping users and developers understand the evolution of a project.
+
+### [[git-send-email|Git Send-Email]]
+
+The original Git contribution workflow: patches sent over email via `git format-patch` and `git send-email`, reviewed on mailing lists, applied with `git am`. Used by the Linux kernel, Git itself, PostgreSQL, and forges like [Sourcehut](https://sr.ht/).
 
 ## Key Concepts
 
