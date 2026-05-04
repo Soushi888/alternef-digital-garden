@@ -2,6 +2,7 @@
 title: "Valueflows"
 description: "Valueflows is an open-source vocabulary and protocol designed to describe and track the flow of resources, events, and agents in economic and social ecosystems."
 date: 2025-03-14
+updated: 2026-05-03
 tags: ["finance", "economic-networks", "protocols", "rea", "valueflows", "coordination-infrastructure"]
 
 ---
@@ -51,7 +52,7 @@ These layers connect through "flows," which describe how resources move or trans
 
 - **Community Sharing**: A group shares a lawnmower (resource). Valueflows logs who borrows it (event) and who maintains it, ensuring fair use without money changing hands.
 
-- **Environmental Impact**: A company tracks not just profit but also carbon emissions (a resource) generated or offset during production, making "externalities" visible.
+- **Environmental Impact**: A company tracks not just profit but also freshwater consumption (a resource) drawn from local watersheds during production, making "externalities" visible alongside financial flows.
 
 ## Purpose and Vision
 
@@ -69,6 +70,35 @@ Valueflows is primarily a specification, not an application. It's expressed as:
 - A **protocol** for systems to communicate economic data.
 
 Projects like [[hrea|hREA (on Holochain)]] and Bonfire use Valueflows as their backbone, implementing it in real-world applications. It's designed to be platform-agnostic, so it can work with blockchain, [[what-is-holochain|Holochain]], or even centralized databases.
+
+## Projects Using Valueflows
+
+Valueflows is implemented by a growing ecosystem of projects across different platforms and application domains.
+
+### Holochain Ecosystem
+
+- **[[hrea|hREA]]** ([hrea.io](https://hrea.io/)): A generic Valueflows backend for [[what-is-holochain|Holochain]], providing stable beta core functionality. The reference implementation for decentralized economic coordination.
+- **[Carbon Farm Network](https://www.nycfnhub.com/)** ([GitHub](https://github.com/Carbon-Farm-Network/app-carbon-farm-network)): Supply chain platform by New York Textile Lab connecting fiber producers, designers, and mills.
+- **[Requests and Offers](https://happenings.community/)** ([GitHub](https://github.com/happenings-community/requests-and-offers)): Holochain app by hAppenings Community C.I.C. facilitating exchange within the Holochain ecosystem.
+- **[Sensorica / Nondominium](https://www.sensorica.co/)** ([GitHub](https://github.com/Sensorica/nondominium)): Open value network in Montreal rebuilding their network resource planning (NRP) software on Holochain.
+- **[REA Playspace](https://github.com/lightningrodlabs/rea-playspace)**: Experimental Valueflows sandbox by Lightningrodlabs, created for the Code A university initiative.
+
+### Fediverse Ecosystem
+
+- **[Bonfire](https://bonfirenetworks.org/)** ([GitLab](https://gitlab.com/bonfire-networks/bonfire_valueflows)): Federated social platform supporting Valueflows as an ActivityPub extension for economic coordination.
+- **[LearnDeep](https://learndeep.org/)**: Bonfire-based platform for Milwaukee high school fablabs, tracking tool sharing and maker resources.
+
+### Zenflows Ecosystem
+
+- **[Reflow](https://reflowproject.eu/)**: EU-funded project transforming urban material flows, with a Valueflows backend developed by [Dyne](https://www.dyne.org/).
+- **[Interfacer](https://www.interfacerproject.eu/)**: Collaboration between FabCity Hamburg and Dyne for open-source hardware supply chains.
+
+### Other Applications
+
+- **[GrowGood](https://growgood.org.au/en/)** ([GitLab](https://gitlab.com/growgood/)): Australian platform for farm operation tracking from seed to sale, including ecological flows.
+- **[Basis Project](https://basisproject.net/)**: Protocol for scalable, ecological production and resource allocation.
+- **[Web of Needs](https://researchstudio-sat.github.io/webofneeds/)**: Automated matching of needs and resources across actors using Valueflows intents.
+- **[The Weather Makers](https://theweathermakers.nl/)**: Ecosystem restoration project using Valueflows for large-scale biosphere restoration planning.
 
 ## Semantic Web Integration
 
