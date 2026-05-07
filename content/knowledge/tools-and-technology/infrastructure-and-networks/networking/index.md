@@ -58,6 +58,7 @@ Introduction to distributed computing, system architecture, and coordination cha
 - [[distributed-systems/peer-to-peer|Peer-to-Peer Networks]] - Decentralized network architectures
 - [[distributed-systems/bittorrent|BitTorrent Protocol]] - Distributed file sharing
 - [[distributed-systems/swarm-computing|Swarm Computing]] - Collective intelligence systems
+- [[iroh|Iroh]] - Rust peer-to-peer networking stack with key-based routing
 
 #### Platform-Specific Systems
 - [[distributed-systems/utopia|Utopia]] - Decentralized social platform
