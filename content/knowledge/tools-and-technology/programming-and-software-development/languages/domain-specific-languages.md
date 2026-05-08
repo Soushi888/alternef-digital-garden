@@ -3,7 +3,6 @@ title: Domain-Specific Languages (DSLs)
 date: 2025-02-22
 description: Understanding specialized programming languages designed for specific problem domains
 tags: ["programming", "software-development", "language-design"]
-
 ---
 
 ## Overview
@@ -81,7 +80,7 @@ Domain-Specific Languages (DSLs) are specialized programming languages designed 
 ### Implementation Strategy
 
 - Choice between internal vs external DSL
-- Parser and interpreter design
+- Parser and interpreter design — external DSLs that compile to a target language or machine code typically pass through an [[intermediate-representation|Intermediate Representation (IR)]] to decouple parsing from code generation
 - Integration with host language or platform
 
 ### Maintenance
