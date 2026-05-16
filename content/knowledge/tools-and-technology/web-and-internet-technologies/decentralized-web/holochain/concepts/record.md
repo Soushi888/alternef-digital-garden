@@ -2,7 +2,7 @@
 title: Holochain Records
 date: 2025-02-15
 description: Complete data structures containing entries with metadata and validation information
-tags: ["holochain", "data-structures", "fundamentals"]
+tags: ["holochain", "hdk", "data-structures"]
 
 ---
 

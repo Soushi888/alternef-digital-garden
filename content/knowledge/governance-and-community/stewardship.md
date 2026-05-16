@@ -2,7 +2,7 @@
 title: Stewardship
 date: 2025-10-12
 description: The careful and responsible management of resources, property, or ecosystems entrusted to one's care, emphasizing caretaking rather than ownership
-tags: ["commons", "governance", "sustainability", "ethics", "stewardship", "bioregionalisme", "ecological-governance"]
+tags: ["commons", "governance", "sustainability", "ethics", "stewardship", "bioregionalism", "ecological-governance"]
 
 ---
 

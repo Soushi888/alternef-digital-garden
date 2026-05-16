@@ -2,7 +2,7 @@
 title: C
 date: 2025-02-15
 description: A low-level, procedural programming language known for efficiency, speed, and direct memory manipulation
-tags: ["programming", "low-level", "system"]
+tags: ["programming", "low-level", "systems-programming"]
 
 ---
 

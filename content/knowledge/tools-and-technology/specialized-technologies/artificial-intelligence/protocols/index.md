@@ -5,7 +5,7 @@ description: Standardized interfaces and protocols that enable AI models to inte
 aliases:
   - AI Integration Protocols
   - AI Interoperability
-tags: ["artificial-intelligence", "protocols", "interoperability", "integration", "mcp"]
+tags: ["artificial-intelligence", "protocols", "interoperability", "api", "mcp"]
 
 ---
 

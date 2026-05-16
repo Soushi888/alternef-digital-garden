@@ -3,7 +3,7 @@ title: "Souveraineté Fractale : Comment l'Intégration Multi-Échelle Relie l'H
 date: "2025-11-11"
 author: "Soushi888"
 description: "Exploration de l'intersection de l'hyper-localisme, du bioregionalisme et du cosmo-localisme à travers les fractales, la science de la complexité et la dynamique des réseaux pour créer des systèmes économiques régénératifs fonctionnant simultanément à plusieurs échelles."
-tags: ["blog", "emergence", "bioregionalisme", "cosmo-localisme"]
+tags: ["blog", "emergence", "bioregionalism", "cosmo-localism"]
 ---
 
 ## Introduction : Au-delà des Hiérarchies Linéaires

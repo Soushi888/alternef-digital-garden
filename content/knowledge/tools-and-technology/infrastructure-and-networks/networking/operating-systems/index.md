@@ -3,7 +3,7 @@ title: "Operating Systems"
 date: 2025-10-12
 type: "index"
 description: "Exploring operating system architectures, kernels, and system design principles that power modern computing."
-tags: ["operating-systems", "system-architecture", "kernel", "infrastructure"]
+tags: ["operating-systems", "software-architecture", "kernel", "infrastructure"]
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Tools and Platforms
 description: A comprehensive exploration of digital tools, productivity platforms, and technological ecosystems
-tags: ["tools", "productivity", "platforms"]
+tags: ["programming", "software-development", "productivity"]
 date: 2026-03-11
 ---
 

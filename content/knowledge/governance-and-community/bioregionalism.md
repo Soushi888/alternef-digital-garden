@@ -2,7 +2,7 @@
 title: Bioregionalism
 date: 2025-09-09
 description: A philosophy and practice of living within the natural boundaries and rhythms of one's local ecosystem
-tags: ["bioregionalism", "watersheds", "permaculture", "ecological-governance", "place-based", "cosmo-localisme"]
+tags: ["bioregionalism", "watersheds", "permaculture", "ecological-governance", "place-based", "cosmo-localism"]
 
 ---
 

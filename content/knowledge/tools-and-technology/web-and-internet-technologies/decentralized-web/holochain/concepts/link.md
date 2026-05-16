@@ -2,7 +2,7 @@
 title: Holochain Links
 date: 2025-02-15
 description: Connections between entries that create relationships in the distributed hash table
-tags: ["holochain", "fundamentals", "links"]
+tags: ["holochain", "hdk", "links"]
 
 ---
 

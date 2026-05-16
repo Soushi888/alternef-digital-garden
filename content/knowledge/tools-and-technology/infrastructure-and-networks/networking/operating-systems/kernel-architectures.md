@@ -5,7 +5,7 @@ date: 2025-10-12
 aliases:
   - "Operating System Kernels"
   - "Kernel Design"
-tags: ["operating-systems", "kernel", "system-architecture", "computer-science", "infrastructure"]
+tags: ["operating-systems", "kernel", "software-architecture", "computer-science", "infrastructure"]
 
 ---
 

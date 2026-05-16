@@ -5,7 +5,7 @@ date: 2025-09-12
 aliases:
   - Agent and Actor comparison
   - Distributed computing models comparison
-tags: ["distributed-systems", "concurrent-programming", "actor-model"]
+tags: ["distributed-systems", "concurrency", "actor-model"]
 
 ---
 
