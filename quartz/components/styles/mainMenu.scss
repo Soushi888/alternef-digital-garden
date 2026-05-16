@@ -209,3 +209,23 @@
   font-size: 1.1em;
   opacity: 0.9;
 }
+
+.recent-changes-link {
+  display: block;
+  margin-top: 2rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  color: var(--gray);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--secondary);
+  }
+
+  &.active {
+    color: var(--secondary);
+    font-weight: 600;
+  }
+}

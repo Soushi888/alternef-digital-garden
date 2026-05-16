@@ -84,6 +84,13 @@ export default ((userOpts?: Options) => {
               {renderMenu(permaculturePetals)}
             </div>
           </div>
+
+          <a
+            href={resolveRelative(currentPath, "/recent-changes" as FullSlug)}
+            class={`recent-changes-link${currentPath === "recent-changes" ? " active" : ""}`}
+          >
+            ↻ Recent Changes
+          </a>
         </nav>
       </div>
     )
