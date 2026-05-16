@@ -57,6 +57,11 @@ Use the canonical form on the right instead of the alias on the left.
 | `second-brain` | `knowledge-management` |
 | `note-taking` | `knowledge-management` |
 | `tools-and-technology` | remove (path segment — not a tag) |
+| `concurrent-programming` | `concurrency` |
+| `system-architecture` | `software-architecture` |
+| `holochain-overview` | `holochain` |
+| `ai-assistant` | `artificial-intelligence` |
+| `domain-specific-language` | `dsl` |
 
 ## Domain 1: Land and Nature Stewardship
 
@@ -78,6 +83,11 @@ Use the canonical form on the right instead of the alias on the left.
 | `bioregionalism` | Bioregional economics, place-based identity |
 | `land-management` | Land stewardship, commons, resource management |
 | `circular-economy` | Closed-loop resource flows, zero-waste systems |
+| `agroecology` | Ecological farming systems integrating biodiversity and soil health |
+| `soil-health` | Soil biology, microbial life, regenerative soil practice |
+| `hydrology` | Water cycles, aquifers, watershed dynamics |
+| `water-management` | Water stewardship, irrigation, catchment systems |
+| `ecosystem-restoration` | Rewilding, habitat restoration, ecological recovery |
 
 ---
 
@@ -164,6 +174,15 @@ Use the canonical form on the right instead of the alias on the left.
 | `effect-ts` | Effect TypeScript library for typed functional programming |
 | `natural-language-processing` | NLP, text processing, parsing, language models |
 | `large-language-models` | LLMs, GPT, Claude, transformer architectures |
+| `happs` | Holochain applications (hApps) — installed and running app instances |
+| `ai-safety` | AI safety research, alignment, risk, capability control |
+| `dsl` | Domain-specific languages — small, purpose-built language designs |
+| `deep-learning` | Neural networks, backprop, training pipelines (subset of machine-learning) |
+| `generative-ai` | LLM/diffusion model output: text, images, music, code |
+| `audio` | Audio processing, sound synthesis, digital audio programming |
+| `creative-coding` | Generative art, music-as-code, code as creative and aesthetic medium |
+| `cognitive-extension` | AI tools as extended mind — externalized cognition and agency |
+| `philosophy-of-mind` | Theory of mind, consciousness studies, mental states (cross-domain: also Culture) |
 
 ---
 
@@ -199,6 +218,16 @@ Use the canonical form on the right instead of the alias on the left.
 | `communication` | Written, verbal, and technical communication |
 | `collaboration` | Teamwork, co-creation, collective work, group dynamics |
 | `ethics` | Ethical reasoning, moral philosophy, applied ethics |
+| `philosophy-of-mind` | Philosophy of mind, consciousness studies, mental states |
+| `extended-mind` | Extended mind thesis, distributed cognition, cognitive extension |
+| `metaphysics` | Ontology, being, existence, reality, substance |
+| `mysticism` | Contemplative and esoteric traditions, inner transformation |
+| `history` | Historical analysis, context, and chronological perspective |
+| `trivium` | Grammar, logic, rhetoric — the language arts of the quadrivium |
+| `quadrivium` | Arithmetic, geometry, music, astronomy — the mathematical arts |
+| `tango` | Tango as musical and dance tradition, Piazzolla, nuevo tango |
+| `jazz` | Jazz theory, improvisation, tradition, bebop, modal jazz |
+| `classical-music` | Western classical music tradition, composition, performance |
 | `personal-development` | Personal growth, habits, self-improvement, life design |
 
 ---
@@ -226,6 +255,9 @@ Use the canonical form on the right instead of the alias on the left.
 | `holistic-healing` | Holistic and integrative healing approaches |
 | `mind-body-connection` | Psychosomatic integration, mind-body medicine |
 | `somatic` | Body-centered practices, nervous system regulation |
+| `breathwork` | Pranayama, Wim Hof, somatic breathing, breath as practice |
+| `hatha-yoga` | Physical yoga tradition — postures, alignment, breath |
+| `pranayama` | Yogic breath control practices |
 
 ---
 
@@ -319,3 +351,6 @@ Tags particular to the Alternef Digital Garden and its projects. Valid across al
 | `nondominium` | Nondominium project (commons governance on Holochain) |
 | `sensorica` | Sensorica Open Value Network and related OVN content |
 | `alchemical-codex` | Notes in the Alchemical Codex series |
+| `homunculus` | Alchemical/PAI Homunculus — animated AI familiar, cognitive extension |
+| `personal-ai-infrastructure` | PAI framework — TELOS, Algorithm, digital assistant infrastructure |
+| `telos` | TELOS life-OS concept — teleological identity and purpose system |
