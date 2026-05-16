@@ -111,3 +111,7 @@ Domain-Specific Languages (DSLs) are specialized programming languages designed 
 - Usage examples
 - Integration patterns
 - Versioning strategy
+
+## Examples in This Garden
+
+- [[music-as-code|Music as Code]] — A Rust DSL for composing and rendering music from an immutable IR with polymorphic pitch and rational time

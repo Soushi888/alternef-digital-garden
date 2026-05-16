@@ -2,7 +2,7 @@
 title: Failures in Distributed Systems
 date: 2025-02-21
 description: A comprehensive overview of failures in distributed systems
-tags: ["networking", "distributed-systems"]
+tags: ["networking", "distributed-systems", "fault-tolerance"]
 
 ---
 

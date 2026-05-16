@@ -2,7 +2,7 @@
 title: Juniper
 date: 2025-02-15
 description: A GraphQL server library for Rust.
-tags: ["rust", "crate"]
+tags: ["programming", "rust", "api"]
 
 ---
 

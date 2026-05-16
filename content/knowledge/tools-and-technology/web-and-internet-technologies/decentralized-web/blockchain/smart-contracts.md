@@ -4,7 +4,7 @@ description: "Smart contracts are self-executing contracts with the terms of the
 date: 2025-02-15
 aliases:
   - smart constract
-tags: ["smart-contracts"]
+tags: ["blockchain", "smart-contracts", "web3"]
 
 ---
 

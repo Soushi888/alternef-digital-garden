@@ -2,7 +2,7 @@
 title: "DHCP Server"
 description: "A DHCP server is a network server that automatically provides and assigns IP addresses, default gateways, and other network parameters to client devices"
 aliases: ["Dynamic Host Configuration Protocol", "IP Address Management", "Network Configuration"]
-tags: ["networking", "tcp-ip"]
+tags: ["networking", "tcp-ip", "protocols"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

@@ -4,12 +4,7 @@ description: "A decentralized social network of thousands of independent servers
 aliases:
   - "Federated Universe"
   - "ActivityPub Network"
-tags:
-  - programming
-  - protocols
-  - decentralization
-  - peer-to-peer
-  - open-source
+tags: ["programming", "protocols", "decentralization", "peer-to-peer", "open-source"]
 date: 2026-04-07
 draft: false
 ---

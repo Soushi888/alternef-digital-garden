@@ -3,7 +3,7 @@ title: "Sveltepress"
 description: "Key features include:"
 date: 2025-02-15
 aliases: 
-tags: ["svelte", "frameworks"]
+tags: ["svelte", "frameworks", "web-dev"]
 
 ---
 **SveltePress**: A content-centered site build tool built on top of SvelteKit, a "serverless-first" framework for building web applications. It's designed to allow users to create and publish content with ease, leveraging the simplicity and performance of Svelte and SvelteKit.

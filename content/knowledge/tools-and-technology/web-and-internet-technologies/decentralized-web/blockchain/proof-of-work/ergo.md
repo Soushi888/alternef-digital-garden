@@ -2,7 +2,7 @@
 title: Ergo
 date: 2025-02-15
 description: What is Ergo?
-tags: ["blockchain", "cryptocurrency"]
+tags: ["blockchain", "cryptocurrency", "distributed-systems"]
 
 ---
 

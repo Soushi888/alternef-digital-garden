@@ -2,7 +2,7 @@
 title: "Flowbite"
 description: "Notes on Flowbite."
 date: 2025-02-15
-tags: ["frontend"]
+tags: ["frontend", "javascript", "web-dev"]
 
 ---
 a## Icons

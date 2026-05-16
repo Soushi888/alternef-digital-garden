@@ -2,7 +2,7 @@
 title: "Accounting Systems: Single vs Double Entry"
 description: "Comparison of single-entry and double-entry accounting systems, their differences, use cases, and implications for business financial management"
 date: 2025-01-07
-tags: ["accounting", "finance"]
+tags: ["accounting", "finance", "economics"]
 
 ---
 

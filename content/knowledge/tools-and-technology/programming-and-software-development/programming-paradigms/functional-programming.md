@@ -2,7 +2,7 @@
 title: Functional Programming (FP)
 date: 2025-02-20
 description: A programming paradigm based on function composition, immutability, and declarative computation
-tags: ["programming-paradigms"]
+tags: ["programming", "programming-paradigms", "functional-programming"]
 ---
 
 ## Definition of Functional Programming

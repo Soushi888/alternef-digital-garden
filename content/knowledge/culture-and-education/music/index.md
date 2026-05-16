@@ -19,3 +19,4 @@ Music occupies a unique place at the intersection of mathematical structure and 
 
 - [[quadrivium|Quadrivium]] — Music as one of the four mathematical liberal arts
 - [[collecti-jam|Collecti-Jam]] — Collective musical improvisation as peer-to-peer learning
+- [[knowledge/tools-and-technology/programming-and-software-development/music-as-code|Music as Code]] — Representing musical composition as data types and transformations in code

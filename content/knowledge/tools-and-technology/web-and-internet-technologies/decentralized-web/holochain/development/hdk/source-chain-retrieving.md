@@ -2,7 +2,7 @@
 title: Source Chain Retrieving
 date: 2025-02-15
 description: Methods for querying and retrieving data from the Holochain source chain
-tags: ["holochain", "hdk"]
+tags: ["holochain", "hdk", "distributed-systems"]
 
 ---
 

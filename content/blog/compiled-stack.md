@@ -3,22 +3,7 @@ title: "The Compiled Stack: Building Sovereign Software with Rust, Tauri, Svelte
 date: "2026-02-03"
 author: "Soushi888"
 description: "A case for a unified, zero-waste technology stack (Rust, Tauri, WebAssembly, TypeScript, Svelte, UnoCSS, Holochain, and Effect) connected by functional programming, spanning desktop, web, mobile, and peer-to-peer without compromise."
-tags:
-  [
-    "blog",
-    "rust",
-    "tauri",
-    "svelte",
-    "holochain",
-    "webassembly",
-    "functional-programming",
-    "typescript",
-    "effect-ts",
-    "unocss",
-    "local-first",
-    "peer-to-peer",
-    "software-architecture",
-  ]
+tags: ["blog", "rust", "svelte", "holochain", "functional-programming", "software-architecture", "local-first"]
 ---
 
 *A case for a unified, zero-waste technology stack, and the functional architecture that holds it together, spanning desktop, web, mobile, and peer-to-peer without compromise.*

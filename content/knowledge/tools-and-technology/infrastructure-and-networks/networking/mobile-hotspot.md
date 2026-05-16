@@ -2,7 +2,7 @@
 title: "Mobile Hotspot"
 description: "A mobile hotspot is a portable device that allows you to create a Wi-Fi network using cellular data, enabling you to connect multiple devices to the"
 aliases: ["Mobile Wi-Fi", "Portable Hotspot", "Cellular Hotspot", "Tethering"]
-tags: ["networking", "wireless"]
+tags: ["networking", "wireless", "protocols"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false

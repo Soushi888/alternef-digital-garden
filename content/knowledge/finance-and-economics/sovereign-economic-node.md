@@ -1,7 +1,7 @@
 ---
 title: "The Sovereign Economic Node"
 description: "Using ValueFlows vocabulary locally, in plain files, as a personal economic journal that can federate into a peer-to-peer commons network when ready."
-tags: ["finance", "valueflows", "rea", "local-first", "economic-sovereignty", "holochain", "open-value-networks", "commons"]
+tags: ["finance", "valueflows", "rea", "local-first", "holochain", "commons", "economics"]
 date: 2026-04-26
 ---
 

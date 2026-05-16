@@ -4,7 +4,7 @@ description: "Iagon is a cryptocurrency token that powers a decentralized cloud 
 date: 2025-02-15
 aliases:
   - IAG
-tags: ["storage"]
+tags: ["blockchain", "cardano", "storage"]
 
 ---
 Iagon is a cryptocurrency token that powers a decentralized cloud storage and computing platform. It leverages the [[Cardano]] network to provide a secure, transparent, and compliant solution for data storage and processing.

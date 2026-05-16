@@ -4,7 +4,7 @@ subtitle: "From Flying Universal City to Present-Day Foundations"
 date: 2025-08-22
 author: "Soushi888"
 description: "A 2025 vision for the AlterNef: a modular, P2P educational community built on Aquarian Age principles, from the Flying Universal City concept to present-day technological and governance foundations."
-tags: ["holochain", "distributed-systems", "alternef", "vision-documents", "aquarian-age", "education", "community", "consciousness", "future-projects", "learning"]
+tags: ["alternef", "education", "holochain", "consciousness", "community", "vision-documents", "learning"]
 ---
 
 # The AlterNef: A Vision for the Aquarian Age (2025)

@@ -2,7 +2,7 @@
 title: Object-Oriented Programming
 date: 2025-02-20
 description: A programming paradigm organizing software design around data objects and their interactions
-tags: ["programming-paradigms"]
+tags: ["programming", "programming-paradigms", "software-development"]
 ---
 
 ## Definition of Object-Oriented Programming

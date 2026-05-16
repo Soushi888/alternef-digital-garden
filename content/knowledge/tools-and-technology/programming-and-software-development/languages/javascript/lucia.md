@@ -4,7 +4,7 @@ description: "Notes on Lucia."
 date: 2025-02-15
 aliases:
   - lucia-auth
-tags: ["javascript", "authentication"]
+tags: ["javascript", "authentication", "security"]
 
 ---
 [Lucia documentation](https://lucia-auth.com/)

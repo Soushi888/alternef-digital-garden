@@ -7,7 +7,7 @@ aliases:
   - Effect Fault Tolerance
   - Erlang Patterns in Effect
   - Supervision Patterns in TypeScript
-tags: ["distributed-systems", "functional-programming", "typescript", "error-handling", "fault-tolerance", "erlang", "concurrency", "effect-ts"]
+tags: ["functional-programming", "typescript", "fault-tolerance", "concurrency", "effect-ts", "distributed-systems", "error-handling"]
 
 ---
 

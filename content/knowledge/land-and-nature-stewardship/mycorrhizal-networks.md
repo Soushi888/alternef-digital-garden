@@ -2,7 +2,7 @@
 title: Mycorrhizal Networks
 date: 2025-10-12
 description: Underground symbiotic systems formed by fungi connecting with plant roots, creating vast interconnected webs often called the "Wood Wide Web"
-tags: ["soil-health", "ecology"]
+tags: ["ecology", "soil-health", "permaculture"]
 
 ---
 

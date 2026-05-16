@@ -2,7 +2,7 @@
 title: "Qi Gong: The Art of Cultivating Vital Energy"
 date: 2026-02-03
 description: "An exploration of Qi Gong, an ancient Chinese practice combining gentle movements, controlled breathing, and meditation to harmonize the body's vital energy"
-tags: ["ancient-traditions", "traditional-chinese-medicine", "mind-body-connection", "health", "traditional-medicine", "breathwork", "meditation", "movement-practices"]
+tags: ["health", "qi-gong", "mind-body-connection", "ancient-traditions", "traditional-medicine", "meditation", "movement-practices"]
 ---
 
 # Qi Gong: The Art of Cultivating Vital Energy

@@ -3,7 +3,7 @@ title: "Fractal Sovereignty: How Multi-Scale Integration Bridges Hyper-Local, Bi
 date: "2025-11-11"
 author: "Soushi888"
 description: "Exploring the intersection of hyper-localism, bioregionalism, and cosmo-localism through fractal patterns, complexity science, and network dynamics to create regenerative economic systems that function at multiple scales simultaneously."
-tags: ["governance", "fractal-sovereignty", "economics", "complexity-science", "systems-thinking", "bioregionalism", "blog", "cosmo-localism", "emergence"]
+tags: ["blog", "governance", "economics", "complexity-science", "systems-thinking", "bioregionalism", "cosmo-localism"]
 
 ---
 

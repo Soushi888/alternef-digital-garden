@@ -7,7 +7,7 @@ aliases:
   - "Fedora Server"
   - "Fedora Core"
   - "Red Hat Fedora"
-tags: ["community", "open-source", "software-development", "linux", "innovation", "system", "operating-systems", "red-hat"]
+tags: ["programming", "linux", "open-source", "operating-systems", "software-development", "community", "devops"]
 ---
 
 # Fedora Linux

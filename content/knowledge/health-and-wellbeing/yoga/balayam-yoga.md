@@ -1,7 +1,7 @@
 ---
 title: "Balayam Yoga: The Nail Rubbing Exercise"
 aliases: ["Balyam Yoga", "Nail Rubbing Exercise", "Balayam", "Prasanna Mudra"]
-tags: ["yoga", "health", "mind-body-connection", "movement-practices", "ancient-traditions", "indian-philosophy", "reflexology", "holistic-healing"]
+tags: ["yoga", "health", "mind-body-connection", "movement-practices", "ancient-traditions", "holistic-healing", "meditation"]
 description: "An ancient yogic reflexology practice involving rhythmic nail rubbing, said to stimulate blood circulation to the scalp and activate prana flow through nadis connected to the head region."
 date: 2026-03-14
 ---

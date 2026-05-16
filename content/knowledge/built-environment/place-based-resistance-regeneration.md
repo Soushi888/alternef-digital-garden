@@ -7,7 +7,7 @@ aliases:
   - "Community-Led Regeneration"
   - "Urban Resistance"
   - "Transformative Resilience"
-tags: ["urban-planning"]
+tags: ["architecture", "urban-planning", "community"]
 
 ---
 

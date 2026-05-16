@@ -4,17 +4,7 @@ subtitle: "Toward a Distributed Cognitive Architecture for Transformative Learni
 date: 2026-03-18
 author: "Soushi888"
 description: "A philosophical foundation for the Intelligent Development Interface, bridging PKM traditions, alchemical philosophy, and cognitive science into a distributed cognitive architecture for transformative learning."
-tags:
-  [
-    "education",
-    "philosophy",
-    "cognitive-science",
-    "knowledge-management",
-    "artificial-intelligence",
-    "alchemy",
-    "alternef",
-    "personal-ai-infrastructure",
-  ]
+tags: ["education", "philosophy", "cognitive-science", "knowledge-management", "artificial-intelligence", "alternef", "personal-ai-infrastructure"]
 ---
 
 # The Philosophy of Mind of the IDI

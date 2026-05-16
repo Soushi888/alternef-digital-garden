@@ -2,7 +2,7 @@
 title: Host
 date: 2025-09-10
 description: Holochain's runtime environment that provides secure WebAssembly execution and system API access for guest applications
-tags: ["holochain", "webassembly"]
+tags: ["holochain", "webassembly", "distributed-systems"]
 ---
 
 ## What is a Host?

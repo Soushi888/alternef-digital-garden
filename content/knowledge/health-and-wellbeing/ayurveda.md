@@ -6,7 +6,7 @@ aliases:
   - "Ayurvedic Medicine"
   - "Ayurvedic Healing"
   - "Science of Life"
-tags: ["holistic-healing", "ancient-traditions", "herbal-medicine", "mind-body-connection", "health", "traditional-medicine", "yoga", "indian-philosophy"]
+tags: ["health", "holistic-healing", "ancient-traditions", "traditional-medicine", "mind-body-connection", "indian-philosophy", "herbal-medicine"]
 ---
 
 *The ancient Indian science of life, offering a complete framework for health built on constitutional knowledge, elemental theory, and the wisdom of living in harmony with natural rhythms*

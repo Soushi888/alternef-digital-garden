@@ -4,7 +4,7 @@ date: 2025-02-15
 description: Pretty Good Privacy is a cryptographic method for secure online communication.
 aliases:
   - PGP
-tags: ["cryptography"]
+tags: ["cryptography", "security", "privacy"]
 
 ---
 PGP (Pretty Good Privacy) is a cryptographic method for secure online communication. It encrypts data and provides:

@@ -3,22 +3,7 @@ title: "Mystical Oriented Programming: The Compiled Path"
 date: "2026-02-20"
 author: "Soushi888"
 description: "A programming paradigm that integrates hermetic, alchemical, and esoteric principles into software development, crystallized around the Compiled Stack (Rust, Tauri, WebAssembly, Svelte, UnoCSS, Holochain, Effect) and the functional discipline that unifies it."
-tags:
-  [
-    "blog",
-    "mystical-oriented-programming",
-    "programming-paradigms",
-    "alchemy",
-    "hermeticism",
-    "compiled-stack",
-    "rust",
-    "holochain",
-    "svelte",
-    "effect-ts",
-    "functional-programming",
-    "sacred-geometry",
-    "esoteric",
-  ]
+tags: ["blog", "mystical-oriented-programming", "alchemy", "rust", "holochain", "functional-programming", "programming-paradigms"]
 ---
 
 *A programming paradigm that integrates hermetic, alchemical, and esoteric principles into software development, crystallized around the Compiled Stack and the functional discipline that unifies it.*

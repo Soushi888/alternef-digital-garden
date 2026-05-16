@@ -4,7 +4,7 @@ date: 2026-03-03
 description: Platforms for creating, managing, and publishing digital content without requiring deep technical expertise
 aliases:
   - CMS
-tags: ["web-dev", "tools"]
+tags: ["programming", "web-dev", "tools"]
 
 ---
 

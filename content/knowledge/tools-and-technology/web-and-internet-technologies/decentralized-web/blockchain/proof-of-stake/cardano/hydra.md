@@ -3,7 +3,7 @@ title: "Hydra"
 description: "Notes on Hydra."
 date: 2025-02-15
 aliases: 
-tags: ["layer-2"]
+tags: ["blockchain", "cardano", "layer-2"]
 
 ---
 

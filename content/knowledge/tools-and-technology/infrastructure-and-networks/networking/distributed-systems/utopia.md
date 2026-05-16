@@ -2,7 +2,7 @@
 title: Utopia
 description: "Here's a well-crafted introduction for Utopia:"
 date: 2025-02-15
-tags: ["peer-to-peer"]
+tags: ["peer-to-peer", "distributed-systems", "privacy"]
 
 ---
 Here's a well-crafted introduction for Utopia:

@@ -6,7 +6,7 @@ aliases:
   - NFTs
   - NFT
   - Non-Fungible Tokens
-tags: ["cryptocurrency"]
+tags: ["blockchain", "cryptocurrency", "web3"]
 
 ---
 ### Understanding Non-Fungible Tokens (NFTs)

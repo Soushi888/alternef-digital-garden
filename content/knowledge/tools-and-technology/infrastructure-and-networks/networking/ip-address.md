@@ -2,7 +2,7 @@
 title: "IP Address"
 description: "An IP address (Internet Protocol address) is a unique numerical identifier assigned to each device connected to a computer network that uses the Internet"
 aliases: ["IP", "Internet Protocol Address", "IPv4", "IPv6"]
-tags: ["networking", "tcp-ip"]
+tags: ["networking", "tcp-ip", "protocols"]
 created: 2025-12-02
 modified: 2025-12-02
 draft: false
