@@ -18,6 +18,8 @@ A digital garden is an evolving, non-linear approach to creating and sharing per
 - Content is continuously updated and refined
 - Embraces the concept of work-in-progress
 
+See [[organic-note-maturity|Organic Note Maturity in a Digital Garden]] for how this accumulation works in practice, without formal promotion stages.
+
 ### 2. Interconnected Knowledge
 
 - Uses bi-directional linking
