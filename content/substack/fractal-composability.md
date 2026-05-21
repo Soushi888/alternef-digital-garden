@@ -12,6 +12,12 @@ readTime: "8 min"
 
 ---
 
+<center>
+    <img src="fractal-composability-header.png" alt="Alchemical transmutation circles with gold musical notation and violet distributed network nodes converging at a central point — CONIUNCTIO atmosphere" width="100%" />
+</center>
+
+---
+
 Consider two systems that seem to have nothing in common.
 
 The first is a music composition language written in Rust. You describe a melody the way you might describe a sentence: pitch and duration, sequences of notes, simultaneous voices, modifiers that wrap a phrase and give it context. You write music like you write code, and then you render it to audio.
@@ -81,6 +87,10 @@ Two different domains, two different problems, two different teams. The same six
 **Pay-as-you-grow complexity.** You only pay for the structure you actually use. An NDO with no specification and no active process is just an identity anchor. A musical phrase with no modifiers is just notes. Neither system requires you to instantiate the full structure before you know you need it.
 
 These six properties define what it means for a system to be fractally composable, as distinct from merely modular. They travel together. Drop content addressing and reuse becomes ambiguous. Drop closure and complex compositions require new types. Drop progressive activation and you are back to declaring everything up front in a fixed schema. The pattern is an integrated whole.
+
+<center>
+    <img src="fractal-composability-diagram.png" alt="Diagram: MuseCode's five constructors and recursive containment on the left, Nondominium's three-layer NDO with recursive nesting on the right, the six shared properties of fractal composability below" width="100%" />
+</center>
 
 ## Why This Pattern Matters Beyond Code
 
