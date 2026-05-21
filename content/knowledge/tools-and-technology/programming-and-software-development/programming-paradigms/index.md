@@ -82,6 +82,7 @@ _Specialized approaches for particular problem domains_
 - **Reactive Programming**: Stream-oriented and change-propagation focused
 - **Mystical Oriented Programming**: Wisdom-tradition informed development
 - **Complexity Oriented Programming**: Ecology-informed, emergence-first distributed systems
+- **[Fractal Composability](fractal-composability.md)**: Recursive self-application of a primitive to generate the full design space
 
 ## Paradigm Relationships
 
@@ -123,6 +124,7 @@ Different problems benefit from different paradigmatic approaches:
 **User Interface Development** → Component-Based + Reactive
 **Transformative Applications** → Mystical Oriented Programming
 **Complex Distributed Systems** → Complexity Oriented Programming
+**Open Peer-to-Peer Systems** → Fractal Composability
 
 ### Team and Context Considerations
 

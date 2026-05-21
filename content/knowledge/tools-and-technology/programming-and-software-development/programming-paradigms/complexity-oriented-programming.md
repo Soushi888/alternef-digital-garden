@@ -32,6 +32,8 @@ COP elevates several ideas that other paradigms treat as problems or afterthough
 
 **Observer positions** are first-class. Complexity science distinguishes sharply between describing a system from inside versus outside it. COP makes this a language-level distinction, not a philosophical footnote.
 
+→ The structural mechanism underlying COP's recursive elaboration is [[fractal-composability|fractal composability]]: the property that a well-chosen primitive, applied to itself, generates the full design space.
+
 ## Where COP Already Exists Implicitly
 
 Several existing systems approximate COP without naming it:
