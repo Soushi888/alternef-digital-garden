@@ -46,6 +46,7 @@ This section delves into the complex world of economic systems, financial techno
 - [[accounting-systems|Accounting Systems: Single vs Double Entry]] - Traditional accounting methodologies and financial management systems
 
 ### 6. Sovereign Economic Infrastructure
+- [[distributed-economic-planning|Distributed Economic Planning]] - Software infrastructure for cooperative economic coordination beyond market and state
 - [[valueflows|ValueFlows]] - Vocabulary for describing economic activity across all value forms
 - [[rea-accounting|REA Accounting]] - Resource-Event-Agent model underlying ValueFlows
 - [[local-first-accountability|Local-First Accountability]] - Keeping economic data on your own device

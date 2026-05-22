@@ -18,6 +18,7 @@ How hyper-local production, bioregional governance, and cosmo-local knowledge sh
 
 ### Selected Articles
 
+- [[blog/preserved-recursion|Preserved Recursion]]: The algebraic distinction between commoning and industrial production, and why the difference determines what an economy can compute.
 - [[blog/the-compiled-stack|The Compiled Stack]]: A case for a unified technology stack (Rust, Tauri, Svelte, Holochain, Effect) spanning desktop, web, mobile, and P2P.
 - [[blog/beyond-ownership-resource-flow-protocol|Beyond Ownership: The Resource Flow Protocol]]: How a new protocol transforms resource sharing in commons-based economies.
 - [[blog/what-ikigai-adds-to-the-liberal-tradition|What Ikigai Adds to the Liberal Tradition]]: The missing dimension, freedom as responsibility and service to the common good.

@@ -189,6 +189,7 @@ In short, Valueflows is a universal language for describing how value moves thro
 
 ## Related Concepts
 
+- [[distributed-economic-planning|Distributed Economic Planning]] - Working conception using ValueFlows as its ontology for a global commoning system
 - [[rea-accounting]]
 - [[hrea]]
 - [[local-first-accountability]]
