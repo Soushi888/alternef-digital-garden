@@ -33,6 +33,7 @@ Cryptography is the practice and study of techniques for secure communication in
 - [[threshold-cryptography|Threshold Cryptography]]
 - [[Byzantine Fault Tolerance]]
 - [[Formal validation]]
+- [[blind-commit-reveal-protocol|Blind Commit-Reveal Validation Protocol]]
 
 ## Practical Applications
 

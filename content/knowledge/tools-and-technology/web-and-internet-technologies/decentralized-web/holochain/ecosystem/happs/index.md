@@ -11,6 +11,13 @@ This section provides a comprehensive directory of applications (hApps) built on
 
 ## Featured Applications
 
+### [[valichord|ValiChord]]
+
+- Distributed validation infrastructure for computational biomedical research
+- Addresses the reproducibility crisis: 75-90% of biomedical studies cannot be reproduced
+- Uses blind commit-reveal protocol so validators work independently without anchoring bias
+- Harmony Records provide granular, verifiable validation feedback rather than binary verdicts
+
 ### [[perspect3vism|Perspect3vism]]
 
 - Meta-protocol for sovereign social networking
