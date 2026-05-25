@@ -33,7 +33,10 @@
     "test:e2e:performance": "playwright test --project=performance",
     "test:recent-changes": "playwright test tests/e2e/recent-changes.spec.ts",
     "test:ci": "playwright test --reporter=html,/json --output=test-results/ci",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "mcp": "bun run mcp/server.ts",
+    "mcp:index": "bun run mcp/server.ts index",
+    "mcp:serve": "bun run mcp/server.ts serve"
   },
   "engines": {
     "npm": ">=9.3.1",
@@ -53,6 +56,7 @@
   "dependencies": {
     "@clack/prompts": "^0.10.0",
     "@floating-ui/dom": "^1.7.4",
+    "@modelcontextprotocol/sdk": "^1.29.0",
     "@myriaddreamin/rehype-typst": "^0.5.4",
     "@napi-rs/simple-git": "0.1.22",
     "@tweenjs/tween.js": "^25.0.0",
