@@ -5,7 +5,7 @@ date: 2025-02-15
 aliases:
   - Huginn Agents
   - Huginn AI
-tags: ["artificial-intelligence", "open-source", "agents", "automation"]
+tags: ["artificial-intelligence", "open-source", "agent", "automation"]
 
 ---
 

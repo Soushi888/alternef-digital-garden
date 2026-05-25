@@ -1,7 +1,12 @@
 ---
 title: Artificial Intelligence
 date: 2025-03-06
+updated: 2026-05-24
 description: A comprehensive exploration of artificial intelligence, its technologies, approaches, and transformative potential
+aliases:
+  - Artificial Intelligence
+  - artificial-intelligence
+  - AI
 tags: ["programming", "artificial-intelligence", "cognitive-science"]
 ---
 

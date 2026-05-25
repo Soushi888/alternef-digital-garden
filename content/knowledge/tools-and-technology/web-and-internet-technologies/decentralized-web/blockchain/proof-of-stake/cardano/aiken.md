@@ -8,7 +8,7 @@ tags: ["blockchain", "programming", "software-development"]
 
 [[utxo|Unspent Transaction Output]]
 
-Aiken is a new programming language and toolkit for developing smart contracts on the [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/pos/cardano/index|Cardano]] blockchain. It is designed to be a pure [[functional-programming|functional programming]] language that is small and easy to learn, with strong static typing and inference. Aiken takes inspiration from modern languages such as Rust, Elm, and Gleam, which are known for friendly error messages and an overall excellent developer experience. The language is exclusively used for creating the on-chain validator-scripts, and it is not recommended for use in production yet.
+Aiken is a new programming language and toolkit for developing smart contracts on the [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/proof-of-stake/cardano/index|Cardano]] blockchain. It is designed to be a pure [[functional-programming|functional programming]] language that is small and easy to learn, with strong static typing and inference. Aiken takes inspiration from modern languages such as Rust, Elm, and Gleam, which are known for friendly error messages and an overall excellent developer experience. The language is exclusively used for creating the on-chain validator-scripts, and it is not recommended for use in production yet.
 
 Some key features of Aiken include:
 

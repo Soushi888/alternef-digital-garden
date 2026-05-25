@@ -1,8 +1,12 @@
 ---
 title: Svelte
 date: 2025-03-24
+updated: 2026-05-24
 description: A reactive JavaScript framework for building efficient web applications with a revolutionary approach to UI development
-tags: ["web-dev", "javascript", "frontend", "frameworks"]
+aliases:
+  - svelte
+  - Svelte
+tags: ["web-dev", "javascript", "frontend", "frameworks", "svelte"]
 ---
 
 ## Overview

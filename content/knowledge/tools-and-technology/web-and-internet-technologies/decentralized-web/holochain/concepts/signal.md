@@ -7,7 +7,7 @@ tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 
 ---
 #holochain/concepts 
-[[../index|Holochain]]
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 -   Don't wait for a response: fire and forget
 -   Not reliable: signals can be lost without our code knowing

@@ -5,7 +5,7 @@ date: 2025-02-15
 tags: ["programming", "holochain", "distributed-systems"]
 ---
 
-Discover the diverse applications and possibilities enabled by [[Holochain/index]]'s agent-centric architecture.
+Discover the diverse applications and possibilities enabled by [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]'s agent-centric architecture.
 
 ## Governance & Organization
 

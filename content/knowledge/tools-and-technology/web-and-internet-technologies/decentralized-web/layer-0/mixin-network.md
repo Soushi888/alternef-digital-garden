@@ -2,7 +2,10 @@
 title: "Mixin Network"
 description: "Notes on Mixin Network."
 date: 2025-02-15
+aliases:
+  - "Mixin Network"
 tags: ["programming", "distributed-systems", "decentralization", "networking"]
+updated: 2026-05-24
 ---
 
 #blockchains/Layer-0 

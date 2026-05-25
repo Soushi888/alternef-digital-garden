@@ -3,7 +3,7 @@ title: Culture and Education
 description: A holistic exploration of learning, cultural dynamics, and human knowledge transmission
 tags: ["education", "learning"]
 date: 2025-02-12
-
+updated: 2026-05-24
 ---
 
 This section explores the intricate relationship between culture, education, and human knowledge, examining how societies learn, evolve, and transmit understanding across generations.
@@ -66,5 +66,11 @@ This section explores the intricate relationship between culture, education, and
 - Reflective and experiential learning
 - Embracing complexity and nuance
 - Connecting personal and collective knowledge
+
+## Related Domains
+
+- [[knowledge/governance-and-community/index|Governance and Community]] - Education as collective practice, guild models, and community knowledge transmission
+- [[knowledge/health-and-wellbeing/index|Health and Wellbeing]] - Somatic intelligence, embodied learning, and the health dimensions of culture
+- [[knowledge/land-and-nature-stewardship/index|Land and Nature Stewardship]] - Indigenous ecological knowledge, nature-based learning, and place-based education
 
 *A living document reflecting the dynamic landscape of human learning and cultural evolution.*

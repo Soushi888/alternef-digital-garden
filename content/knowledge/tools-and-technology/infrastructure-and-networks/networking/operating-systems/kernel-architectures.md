@@ -16,7 +16,7 @@ A kernel is the core component of an operating system that manages system resour
 ## 1. The Monolithic Kernel
 
 ### Overview
-The monolithic kernel is the traditional and most prevalent architecture, used by operating systems like [[linux/linux|Linux]], most versions of Windows, and macOS.
+The monolithic kernel is the traditional and most prevalent architecture, used by operating systems like [[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux]], most versions of Windows, and macOS.
 
 ### Core Philosophy
 **Put everything in one place.** All the core OS services—process scheduling, memory management, device drivers, file systems, networking stacks—run in a single, large, privileged address space known as kernel space.
@@ -178,7 +178,7 @@ The evolution of kernel architectures continues with emerging trends:
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|Distributed Systems]]
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/virtual-machine|Virtual Machines]]
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/cloud-computing|Cloud Computing]]
-- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Network Fundamentals]]
+- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Network Fundamentals]]
 - [[mirageos|MirageOS - Library Operating System]]
 
 ## Further Reading

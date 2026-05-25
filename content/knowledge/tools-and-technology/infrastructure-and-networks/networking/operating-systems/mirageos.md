@@ -382,4 +382,4 @@ While it requires learning new paradigms and tools, the benefits in security, pe
 - [[knowledge/tools-and-technology/programming-and-software-development/languages/ocaml|OCaml]]
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/cloud-computing|Cloud Computing]]
 - [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|Distributed Systems]]
-- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Network Fundamentals]]
+- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Network Fundamentals]]

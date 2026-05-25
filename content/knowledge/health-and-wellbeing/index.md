@@ -1,9 +1,9 @@
 ---
 title: Health and Wellbeing
 date: 2025-02-12
+updated: 2026-05-24
 description: A holistic exploration of human wellness, integrative health practices, and comprehensive life strategies
 tags: ["personal-development", "mind-body-connection", "health", "movement-practices", "psychology", "stress-physiology", "preventive-medicine"]
-
 ---
 
 # Health and Wellbeing
@@ -57,5 +57,11 @@ This section explores the multidimensional nature of human health, examining phy
 - Evidence-based and intuitive understanding
 - Personal and collective healing journeys
 - Adaptive wellness strategies
+
+## Related Domains
+
+- [[knowledge/culture-and-education/index|Culture and Education]] - Traditional healing knowledge, somatic learning, and mind-body education traditions
+- [[knowledge/land-and-nature-stewardship/index|Land and Nature Stewardship]] - Environmental health, nature connection, and ecological determinants of wellbeing
+- [[knowledge/governance-and-community/index|Governance and Community]] - Community health dynamics, collective healing, and social determinants of health
 
 *A living document reflecting the dynamic landscape of human health and potential.*

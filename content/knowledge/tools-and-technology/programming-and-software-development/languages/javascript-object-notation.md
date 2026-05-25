@@ -3,11 +3,12 @@ title: JavaScript Object Notation
 date: 2025-02-15
 description: A lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.
 aliases:
-  - JSON
-  - json
-  - .json
+  - "JSON"
+  - "json"
+  - ".json"
+  - "JavaScript Object Notation"
 tags: ["web-dev", "javascript", "data-structures"]
-
+updated: 2026-05-24
 ---
 [[javascript|JavaScript]] Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 

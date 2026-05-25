@@ -3,11 +3,13 @@ title: Decentralized Web
 date: 2026-03-03
 description: Protocols, platforms, and concepts for building internet infrastructure that operates without central authorities
 aliases:
-  - Web3
-  - Decentralized Internet
-  - Distributed Web
+  - "Web3"
+  - "Decentralized Internet"
+  - "Distributed Web"
+  - "Decentralized Web"
+  - "web3"
 tags: ["decentralization", "web3", "peer-to-peer", "blockchain", "holochain", "distributed-systems"]
-
+updated: 2026-05-24
 ---
 
 ## Overview
@@ -40,7 +42,7 @@ Content-addressed and peer-to-peer storage systems: IPFS, Filecoin, Arweave, and
 ### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/layer-0/index|Layer 0 Networks]]
 The infrastructure layer beneath blockchains: cross-chain communication, interoperability protocols, and relay networks.
 
-### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/wallets/index|Wallets]]
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/wallets/wallets|Wallets]]
 Software for managing cryptographic keys, signing transactions, and interacting with decentralized applications.
 
 ## Notable Projects

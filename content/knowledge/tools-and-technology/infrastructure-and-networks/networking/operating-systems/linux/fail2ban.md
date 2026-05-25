@@ -111,12 +111,12 @@ Fail2Ban works seamlessly with various Linux distributions and security tools:
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation for system security
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Distribution with Fail2Ban integration
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Distribution with security focus
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and security
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/security|Network Security]]** - Comprehensive security strategies
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/monitoring|System Monitoring]]** - Security event monitoring
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation for system security
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Distribution with Fail2Ban integration
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Distribution with security focus
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and security
+- **[[knowledge/tools-and-technology/security-and-privacy/index|Network Security]]** - Comprehensive security strategies
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|System Monitoring]]** - Security event monitoring
 
 ---
 

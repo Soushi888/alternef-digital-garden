@@ -65,7 +65,7 @@ A comprehensive exploration of [[knowledge/tools-and-technology/web-and-internet
 
 ## Comparative Analysis
 
-1. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/web3|Web3]] - Contrast with blockchain-based Web3
+1. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/web-3|Web3]] - Contrast with blockchain-based Web3
 2. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/layer0|Layer0]] - Protocol stack positioning
 3. Centralized Systems - Key differences
 4. Distributed Ledger - Comparison with blockchain approaches

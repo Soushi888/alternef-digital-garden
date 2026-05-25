@@ -462,8 +462,8 @@ pub async fn handle_network_partition(context: &NetworkContext) -> Result<()> {
 
 ## Related Concepts
 
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/dna|DNA]]** - Application blueprint that uses network seeds
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/dht|DHT]]** - Distributed hash table partitioned by network
+- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/dna-and-zomes|DNA]]** - Application blueprint that uses network seeds
+- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/rrdht|DHT]]** - Distributed hash table partitioned by network
 - **[[peer-discovery|Peer Discovery]]** - Process of finding network participants
 - **[[bootstrap|Bootstrap]]** - Initial network connection mechanism
 - **[[conductor|Conductor]]** - Runtime that manages network connections

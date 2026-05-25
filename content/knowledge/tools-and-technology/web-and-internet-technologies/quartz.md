@@ -67,7 +67,7 @@ The fourth major version (v4) brought significant improvements:
 
 **This very digital garden is built using Quartz v4!** 🌱
 
-The [[/|Alternef Digital Garden]] serves as a living example of Quartz's capabilities, demonstrating:
+The [Alternef Digital Garden](/) serves as a living example of Quartz's capabilities, demonstrating:
 
 - Bi-directional linking
 - Knowledge graph visualization

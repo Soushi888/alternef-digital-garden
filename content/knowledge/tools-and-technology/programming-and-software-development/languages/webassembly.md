@@ -3,11 +3,13 @@ title: "WebAssembly"
 description: "WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine, designed as a portable compilation target for programming languages."
 date: 2025-02-15
 aliases:
-  - WASM
-  - .wasm
-  - Wasm
+  - "WASM"
+  - ".wasm"
+  - "Wasm"
+  - "WebAssembly"
+  - "wasm"
 tags: ["programming", "web-dev", "performance"]
-
+updated: 2026-05-24
 ---
 
 # WebAssembly

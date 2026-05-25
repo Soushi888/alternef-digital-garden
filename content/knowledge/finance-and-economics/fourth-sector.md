@@ -72,7 +72,7 @@ The Fourth Sector aligns closely with emerging economic technologies and framewo
 
 ### Regional Implementation
 - **[[circular-bioregional-economies|Circular Bioregional Economies]]**: Fourth sector models often implement at the bioregional scale, creating self-reinforcing loops of local economic activity
-- **[[cosmo-localisme|Cosmo-localisme]]**: Global knowledge sharing combined with local production and implementation
+- **[[cosmo-localism|Cosmo-localisme]]**: Global knowledge sharing combined with local production and implementation
 - **[[stewardship|Stewardship]]**: The caretaker mindset that underpins fourth sector governance approaches
 
 ## Related Topics
@@ -85,7 +85,7 @@ The Fourth Sector aligns closely with emerging economic technologies and framewo
 ### Governance and Organization
 - [[knowledge/governance-and-community/stewardship|Stewardship]]
 - [[knowledge/governance-and-community/network-state-movement|Network State Movement]]
-- [[knowledge/governance-and-community/cosmo-localisme|Cosmo-localisme]]
+- [[knowledge/governance-and-community/cosmo-localism|Cosmo-localisme]]
 
 ### Implementation Examples
 - [[knowledge/land-and-nature-stewardship/regenerative-agriculture|Regenerative Agriculture]]

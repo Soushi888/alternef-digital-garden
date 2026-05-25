@@ -1,7 +1,11 @@
 ---
 title: Cryptography
 date: 2025-02-20
+updated: 2026-05-24
 description: Comprehensive overview of cryptographic techniques, algorithms, and principles in computer security
+aliases:
+  - cryptography
+  - Cryptography
 tags: ["cryptography", "security", "privacy", "encryption"]
 ---
 

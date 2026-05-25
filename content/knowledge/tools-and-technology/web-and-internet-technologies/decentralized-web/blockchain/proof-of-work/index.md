@@ -1,9 +1,13 @@
 ---
 title: Proof of Work
 date: 2025-02-15
+updated: 2026-05-24
 description: Proof of Work is a consensus algorithm used by certain blockchain networks to validate transactions and create new blocks.
+aliases:
+  - Proof of Work
+  - proof-of-work
+  - PoW
 tags: ["blockchain", "consensus", "distributed-systems"]
-
 ---
 
 Proof of Work (PoW) is a [[Consensus Algorithm]] used by certain [[Blockchain]] networks to validate transactions and create new blocks. It is the original consensus mechanism used by [[Bitcoin]] and is also used by many other cryptocurrencies. The PoW algorithm requires miners to solve complex mathematical puzzles in order to validate transactions and add new blocks to the blockchain.

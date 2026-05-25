@@ -2,7 +2,10 @@
 title: "Antelope"
 description: "Technologies = #blockchains/DPoS"
 date: 2025-02-15
+aliases:
+  - "Antelope"
 tags: ["programming", "blockchain", "decentralization", "governance"]
+updated: 2026-05-24
 ---
 
 Technologies = #blockchains/DPoS

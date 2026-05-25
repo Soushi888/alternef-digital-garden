@@ -2,7 +2,11 @@
 title: "HTTP"
 description: "HTTP (Hypertext Transfer Protocol) is a protocol used to transmit data over the internet. It is a standard communication protocol used between clients"
 date: 2025-02-15
+aliases:
+  - "HTTP"
+  - "Hypertext Transfer Protocol"
 tags: ["programming", "networking", "distributed-systems"]
+updated: 2026-05-24
 ---
 
 #web

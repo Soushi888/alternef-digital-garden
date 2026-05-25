@@ -207,12 +207,12 @@ Linux Mint embraces new computing paradigms:
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Foundation distribution and security infrastructure
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches and comparison
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kubuntu|Kubuntu Linux]]** - Ubuntu variant with KDE Plasma
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Alternative approach to distribution philosophy
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and infrastructure capabilities
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Foundation distribution and security infrastructure
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches and comparison
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/kubuntu|Kubuntu Linux]]** - Ubuntu variant with KDE Plasma
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Alternative approach to distribution philosophy
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and infrastructure capabilities
 
 ---
 

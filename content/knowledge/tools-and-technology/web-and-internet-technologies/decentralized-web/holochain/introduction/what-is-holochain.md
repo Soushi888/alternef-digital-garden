@@ -2,7 +2,7 @@
 title: What is Holochain?
 date: 2025-02-20
 description: A comprehensive explanation of Holochain's unique approach to distributed computing and its key differentiators
-tags: ["holochain", "distributed-systems", "decentralization", "peer-to-peer", "local-first", "agent-centric", "holochain-overview"]
+tags: ["holochain", "distributed-systems", "decentralization", "peer-to-peer", "local-first", "agent-centric"]
 ---
 
 # What is Holochain?
@@ -13,11 +13,11 @@ Holochain is a framework for building peer-to-peer applications and agent-centri
 
 ### Emerging Paradigms
 
-1. [[knowledge/infrastructure-and-networks/distributed-systems/index|Distributed Systems]]
-2. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/peer-to-peer/index|Peer-to-Peer Networks]]
+1. [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|Distributed Systems]]
+2. [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/peer-to-peer|Peer-to-Peer Networks]]
 3. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/index|Decentralized Technology]]
 4. Local-first Software
-5. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/web3|Web3]]
+5. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/web-3|Web3]]
 
 ## Overview
 
@@ -27,11 +27,11 @@ Holochain is a development platform that enables the creation of distributed app
 
 ### Key Concepts
 
-1. **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/cell|Agent]]** - The fundamental unit; each user is an autonomous agent
+1. **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/cell|Agent]]** - The fundamental unit; each user is an autonomous agent
 2. **Source Chain** - Personal cryptographic history chain for each agent
 3. **Distributed Hash Table** - Distributed storage space for data sharing
 4. **Validation Rules** - Ensure system integrity through distributed validation
-5. **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/core-components/agent-centric-architecture|Agent-Centric Architecture]]** - Unique design paradigm
+5. **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/agent-centric-architecture|Agent-Centric Architecture]]** - Unique design paradigm
 
 ### Application Structure
 
@@ -39,7 +39,7 @@ Holochain is a development platform that enables the creation of distributed app
 2. **DNA** - Rules and business logic
 3. **Zome** - Functional modules of a DNA
 4. **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/conductor|Conductor]]** - Runtime that executes hApps
-5. **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/capability-tokens|Capability Tokens]]** - Permission management
+5. **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/capability-tokens|Capability Tokens]]** - Permission management
 
 ## Development
 
@@ -113,8 +113,8 @@ Holochain is a development platform that enables the creation of distributed app
 
 ## Related Topics
 
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/web3|Web3]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/web-3|Web3]]
 - Local-first
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/advanced-topics/layer0|Layer0]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/layer0|Layer0]]
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/index|Blockchain]]
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/peer-to-peer/index|Peer-to-Peer Networks]]
+- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/peer-to-peer|Peer-to-Peer Networks]]

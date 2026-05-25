@@ -2,7 +2,7 @@
 title: Holochain Ecosystem
 date: 2025-03-11
 description: Organizations, projects, communities, and resources that make up the Holochain ecosystem
-tags: ["holochain", "decentralization", "community", "ecosystem", "happs", "holochain-projects"]
+tags: ["holochain", "decentralization", "community", "ecosystem", "happs"]
 ---
 
 ## Overview of the Holochain Ecosystem
@@ -36,7 +36,7 @@ This section explores the vibrant ecosystem surrounding Holochain technology, in
 
 ## Holochain Applications (hApps)
 
-### [[happs/|Holochain Applications Directory]]
+### [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/ecosystem/happs/index|Holochain Applications Directory]]
 
 - Comprehensive directory of applications built on Holochain
 - Implementation examples and case studies

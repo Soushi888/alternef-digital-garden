@@ -7,7 +7,7 @@ tags: ["programming", "holochain", "rust", "distributed-systems"]
 
 # Holochain Development Guide
 
-Comprehensive resources for developers building [[Holochain/index]] applications.
+Comprehensive resources for developers building [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] applications.
 
 ## Learning Paths
 
@@ -81,7 +81,7 @@ Comprehensive resources for developers building [[Holochain/index]] applications
 
 ## Tools and Frameworks
 
-1. [[hdk/index|HDK]] - Holochain Development Kit
+1. [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/hdk/index|HDK]] - Holochain Development Kit
 2. [[HDI]]
 3. [[Holochain Scaffolding tool]]
 4. [[Testing Frameworks]]

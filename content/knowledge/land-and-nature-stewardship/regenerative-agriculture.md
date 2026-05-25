@@ -75,7 +75,7 @@ Despite its growing popularity, regenerative agriculture faces several challenge
 - [[permaculture|Permaculture]] - Design philosophy sharing many regenerative principles
 - [[mycorrhizal-networks|Mycorrhizal Networks]] - Underground fungal networks supporting plant health and soil fertility
 - [[bioregional-stewardship|Bioregional Stewardship]] - Scaling regenerative practices to watershed and ecosystem levels
-- [[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]] - Organizing agriculture within bioregional boundaries and governance systems
+- [[knowledge/governance-and-community/bioregionalism|Bioregionalisme]] - Organizing agriculture within bioregional boundaries and governance systems
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/digital-permaculture|Digital Permaculture]] - Application of regenerative principles to digital systems
 
 ## References

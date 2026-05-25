@@ -319,11 +319,11 @@ backup_file() {
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Unix-inspired implementation
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Unix-inspired implementation
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/kernel-architectures|Kernel Architectures]]** - Low-level system design
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Modern Unix-like distribution
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|System Security]]** - Unix security practices
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Modern Unix-like distribution
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fail2ban|System Security]]** - Unix security practices
 
 ## Further Reading
 

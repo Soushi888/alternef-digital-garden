@@ -36,5 +36,5 @@ An atomic CSS engine with a minimal runtime footprint. Highly configurable with 
 
 ## Related Topics
 
-- [[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]
+- [[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/javascript|JavaScript]]
 - [[knowledge/tools-and-technology/programming-and-software-development/languages/html|HTML]]

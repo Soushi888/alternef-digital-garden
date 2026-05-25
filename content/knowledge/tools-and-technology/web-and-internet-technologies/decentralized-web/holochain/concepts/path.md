@@ -6,7 +6,7 @@ tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 ---
 
 #holochain/concepts 
-[[../index|Holochain]]
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 ## Theory
 -   Anchors are great, but they can introduce problems
@@ -25,7 +25,7 @@ tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 		-   Normally constructed from a string
 -   Demo: [https://holochain-gym.github.io/developers/intermediate/paths/#try-it](https://holochain-gym.github.io/developers/intermediate/paths/#try-it)
 
-## Code example ([[../../development/hdk/index|HDK]])
+## Code example ([[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/hdk/index|HDK]])
 ``` rust
 use hdk::prelude::*;
 use integrity_zome::{EntryTypes, Comment, LinkTypes}; // Import the types defined in our integrity zome

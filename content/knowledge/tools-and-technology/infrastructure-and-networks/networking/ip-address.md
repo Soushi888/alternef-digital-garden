@@ -145,7 +145,7 @@ IPv6 equivalent of ARP with additional functionality:
 - [[tcp-ip|TCP/IP Protocol Suite]] - Underlying protocol architecture
 - [[distributed-systems/domain-name-system|Domain Name System (DNS)]] - Name resolution
 - [[networking|Network Fundamentals]] - Basic networking concepts
-- [[../../../security-and-privacy/index|Network Security]] - Securing IP communications
+- [[knowledge/tools-and-technology/security-and-privacy/index|Network Security]] - Securing IP communications
 
 ## References
 - IETF RFC 791: Internet Protocol (IPv4)

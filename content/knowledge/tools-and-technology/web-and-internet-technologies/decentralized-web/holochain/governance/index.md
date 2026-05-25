@@ -61,6 +61,6 @@ Core values that guide the Holochain ecosystem:
 
 ## Related Topics
 
-- [[../ecosystem/index|Ecosystem]] - Community projects and organizations
-- [[../development/index|Development]] - Technical contribution guidelines
-- [[../introduction/index|Introduction]] - Core principles and philosophy
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/ecosystem/index|Ecosystem]] - Community projects and organizations
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Development]] - Technical contribution guidelines
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/introduction/index|Introduction]] - Core principles and philosophy

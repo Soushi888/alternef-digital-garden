@@ -10,4 +10,4 @@ draft: false
 [[Distributed Systems]]
 [[Networking]]
 
-![[swarm-computing.jpeg]]
+![Swarm Computing](medias/swarm-computing.jpeg)

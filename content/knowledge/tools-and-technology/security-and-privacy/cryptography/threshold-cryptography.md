@@ -31,10 +31,10 @@ Threshold cryptography resolves both limitations simultaneously. Key material is
 
 | Primitive | What is distributed | Reconstruction required | Applies to encryption | Applies to signing |
 |-----------|---------------------|------------------------|----------------------|-------------------|
-| [[shamirs-secret-sharing\|Shamir's Secret Sharing]] | One secret split into shares | Yes (reconstruction window) | Yes | Yes (key custody) |
-| [[multi-signature\|Multi-Signature]] | Independent keys (no shared secret) | No | No | Yes |
+| [[shamirs-secret-sharing|Shamir's Secret Sharing]] | One secret split into shares | Yes (reconstruction window) | Yes | Yes (key custody) |
+| [[multi-signature|Multi-Signature]] | Independent keys (no shared secret) | No | No | Yes |
 | Threshold Cryptography | Key shares (never assembled) | No | Yes | Yes |
-| [[host-proof-hosting\|Host-Proof Hosting]] | Not a key scheme (architectural pattern) | N/A | N/A | N/A |
+| [[host-proof-hosting|Host-Proof Hosting]] | Not a key scheme (architectural pattern) | N/A | N/A | N/A |
 
 ## Applications
 

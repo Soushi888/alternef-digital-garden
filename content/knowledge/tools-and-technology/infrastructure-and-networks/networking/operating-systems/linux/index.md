@@ -6,8 +6,10 @@ aliases:
   - "GNU/Linux"
   - "Linux OS"
   - "Linux Distributions"
+  - "linux"
+  - "Linux"
 tags: ["operating-systems", "linux", "networking", "open-source", "infrastructure", "desktop-environment"]
-
+updated: 2026-05-24
 ---
 
 # Linux Operating System
@@ -63,22 +65,22 @@ Linux distributions package the kernel with selected software to create complete
 ### Major Distribution Families
 
 **Debian-based Distributions**:
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu]]**: User-friendly, popular for servers and desktops
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu]]**: User-friendly, popular for servers and desktops
 - **Debian**: Stable, conservative release cycle, excellent package management
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux-mint|Linux Mint]]**: Ubuntu-based with enhanced desktop experience
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/linux-mint|Linux Mint]]**: Ubuntu-based with enhanced desktop experience
 - **Elementary OS**: macOS-inspired design and user experience
 
 **Red Hat-based Distributions**:
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora]]**: Cutting-edge, community-driven, upstream for RHEL
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora]]**: Cutting-edge, community-driven, upstream for RHEL
 - **CentOS/Rocky Linux/AlmaLinux**: Enterprise-ready, stable, long-term support
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/red-hat|Red Hat Enterprise Linux]]**: Commercial support, security-focused
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/red-hat|Red Hat Enterprise Linux]]**: Commercial support, security-focused
 
 **Arch-based Distributions**:
 - **Arch Linux**: Rolling release, minimalist, user-controlled configuration
 - **Manjaro**: Arch-based with user-friendly installation and configuration
 
 **Specialized Distributions**:
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/nix|NixOS]]**: Declarative configuration, reproducible systems
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/nix|NixOS]]**: Declarative configuration, reproducible systems
 - **Gentoo**: Source-based distribution, maximum customization
 - **OpenWRT**: Router and embedded device operating system
 
@@ -161,9 +163,9 @@ Linux provides robust security mechanisms essential for network infrastructure:
 Linux supports diverse desktop environments for different user preferences:
 
 ### Major Desktop Environments
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME]]**: Modern, touch-friendly, GNOME ecosystem
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma]]**: Feature-rich, highly customizable
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/xfce|Xfce]]**: Lightweight, traditional desktop experience
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/gnome|GNOME]]**: Modern, touch-friendly, GNOME ecosystem
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/kde-plasma|KDE Plasma]]**: Feature-rich, highly customizable
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/xfce|Xfce]]**: Lightweight, traditional desktop experience
 - **Cinnamon**: Traditional layout with modern features
 - **LXQt/LXDE**: Minimal resource usage for older hardware
 
@@ -289,12 +291,12 @@ Linux continues to evolve with emerging technologies:
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/unix|Unix Philosophy]]** - Design principles that influenced Linux
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Popular distribution
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux-mint|Linux Mint]]** - User-friendly Ubuntu-based distribution
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]** - Graphical interfaces
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|Security Tools]]** - System security
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/unix|Unix Philosophy]]** - Design principles that influenced Linux
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Popular distribution
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/linux-mint|Linux Mint]]** - User-friendly Ubuntu-based distribution
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]** - Graphical interfaces
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fail2ban|Security Tools]]** - System security
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and architecture
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems|Operating Systems]]** - OS concepts and alternatives
 
 ---

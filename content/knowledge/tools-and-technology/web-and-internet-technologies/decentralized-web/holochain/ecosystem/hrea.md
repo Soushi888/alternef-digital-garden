@@ -2,8 +2,12 @@
 title: "hREA (Holochain Resource-Event-Agent)"
 description: "hREA is an open-source framework designed to facilitate economic network coordination using the Holochain platform, implementing the Valueflows specification based on the REA accounting model."
 date: 2025-03-14
+aliases:
+  - "hREA"
+  - "hrea"
+  - "HoloREA"
 tags: ["holochain", "rea", "economic-networks", "valueflows", "coordination-infrastructure"]
-
+updated: 2026-05-24
 ---
 
 # hREA (Holochain Resource-Event-Agent)

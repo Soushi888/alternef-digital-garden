@@ -8,11 +8,11 @@ tags: ["pieces", "developer-tools", "ai-assistant", "agent"]
 
 Pieces for Developers is an [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|AI-enabled]] productivity tool designed to enhance developer efficiency. It provides personalized workflow assistance across the entire toolchain, featuring a dedicated desktop application and integrations with many popular IDEs and tools like GitHub Copilot.
 
-The core of Pieces' contextual assistance is its [[Long-Term Memory (LTM) Engine|knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/long-term-memory-engine]].
+The core of Pieces' contextual assistance is its [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/long-term-memory-engine|Long-Term Memory (LTM) Engine]].
 
 ## Using Pieces Copilot with LTM
 
-When integrated, the Pieces Copilot acts as a personal [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/agent|Agent]] that can leverage the [[Long-Term Memory (LTM) Engine|knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/long-term-memory-engine]] to:
+When integrated, the Pieces Copilot acts as a personal [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/agent|Agent]] that can leverage the [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/long-term-memory-engine|Long-Term Memory (LTM) Engine]] to:
 - Fetch related past implementations of a function or method.
 - Retrieve similar code snippets relevant to your current task.
 - Use your saved data to provide contextually accurate suggestions.

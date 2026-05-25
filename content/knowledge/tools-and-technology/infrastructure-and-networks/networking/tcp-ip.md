@@ -229,7 +229,7 @@ TCP/IP is typically described using a four-layer architecture:
 - [[dhcp-server|DHCP Server]] - Automatic IP address configuration
 - [[distributed-systems/domain-name-system|Domain Name System (DNS)]] - Name resolution
 - [[networking|Network Fundamentals]] - Basic networking concepts
-- [[../../../security-and-privacy/index|Network Security]] - Securing TCP/IP communications
+- [[knowledge/tools-and-technology/security-and-privacy/index|Network Security]] - Securing TCP/IP communications
 
 ## References
 - IETF RFC 791: Internet Protocol (IPv4)

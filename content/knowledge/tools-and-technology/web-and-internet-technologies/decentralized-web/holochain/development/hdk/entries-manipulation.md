@@ -2,13 +2,16 @@
 title: Entries Manipulation
 date: 2025-02-15
 description: HDK functions for creating, updating, and managing Holochain entries
+aliases:
+  - "Entries manipulation"
+  - "Entries Manipulation"
 tags: ["holochain", "hdk", "entries"]
-
+updated: 2026-05-24
 ---
 
 # Entries Manipulation
 
-Related: [[../../fundamentals/entry|Entries]] • [[index|HDK]] • [[../../fundamentals/index|Fundamentals]]
+Related: [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/entry|Entries]] • [[index|HDK]] • [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Fundamentals]]
 
 ## [[Entry]] Action
 -   These are actions you can take on your Holochain app's state machine, stored in the app's DHT

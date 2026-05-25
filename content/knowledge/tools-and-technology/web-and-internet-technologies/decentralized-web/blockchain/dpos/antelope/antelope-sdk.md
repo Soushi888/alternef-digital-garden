@@ -2,7 +2,10 @@
 title: "Antelope SDK"
 description: "Notes on Antelope SDK."
 date: 2025-02-15
+aliases:
+  - "Antelope SDK"
 tags: ["programming", "blockchain", "decentralization", "governance"]
+updated: 2026-05-24
 ---
 
 [[Blockchain]]

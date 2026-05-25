@@ -161,11 +161,11 @@ The distinction between desktop and mobile environments continues to blur:
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]** - Modern desktop with excellent network integration
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma]]** - Feature-rich desktop with advanced networking
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/xfce|Xfce Desktop]]** - Lightweight desktop with efficient networking
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and infrastructure
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/security|Network Security]]** - Security considerations for desktop environments
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/gnome|GNOME Desktop]]** - Modern desktop with excellent network integration
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/kde-plasma|KDE Plasma]]** - Feature-rich desktop with advanced networking
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/xfce|Xfce Desktop]]** - Lightweight desktop with efficient networking
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and infrastructure
+- **[[knowledge/tools-and-technology/security-and-privacy/index|Network Security]]** - Security considerations for desktop environments
 
 ---
 

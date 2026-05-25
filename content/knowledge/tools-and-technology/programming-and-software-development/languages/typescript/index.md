@@ -34,5 +34,5 @@ Notable libraries and utilities that are either TypeScript-native or have first-
 
 ## Related Topics
 
-- [[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/index|JavaScript]]
+- [[knowledge/tools-and-technology/programming-and-software-development/languages/javascript/javascript|JavaScript]]
 - [[knowledge/tools-and-technology/programming-and-software-development/index|Programming and Software Development]]

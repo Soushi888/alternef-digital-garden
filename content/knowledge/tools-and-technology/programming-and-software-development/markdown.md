@@ -109,7 +109,7 @@ Learn more about the broader context of digital gardens and their approach to kn
 
 ## Usage in Digital Gardens
 
-In digital gardens like the [[/|Alternef Digital Garden]], Markdown serves as the primary content format:
+In digital gardens like the [Alternef Digital Garden](/), Markdown serves as the primary content format:
 
 - Easy content creation
 - Simple version control

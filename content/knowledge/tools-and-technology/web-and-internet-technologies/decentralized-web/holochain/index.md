@@ -1,8 +1,12 @@
 ---
 title: Holochain
 date: 2025-02-13
-tags: ["holochain", "decentralization", "peer-to-peer", "holochain-overview"]
+updated: 2026-05-24
 description: "An agent-centric distributed computing framework for peer-to-peer applications without blockchain."
+aliases:
+  - holochain
+  - Holochain
+tags: ["holochain", "decentralization", "peer-to-peer"]
 ---
 
 ## What is Holochain?

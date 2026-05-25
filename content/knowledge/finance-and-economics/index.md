@@ -1,9 +1,11 @@
 ---
 title: Finance and Economics
 date: 2025-02-12
+updated: 2026-05-24
 description: A holistic exploration of economic systems, financial technologies, and sustainable value creation
+aliases:
+  - finance-and-economics
 tags: ["economics", "finance"]
-
 ---
 
 ## Overview
@@ -64,5 +66,11 @@ This section delves into the complex world of economic systems, financial techno
 - Critical analysis of economic systems
 - Practical financial understanding
 - Connecting economic theories with real-world dynamics
+
+## Related Domains
+
+- [[knowledge/governance-and-community/index|Governance and Community]] - Economic governance, commons-based production, and collective resource stewardship
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/index|Decentralized Web]] - Blockchain infrastructure, DeFi protocols, and distributed economic coordination tools
+- [[knowledge/land-and-nature-stewardship/index|Land and Nature Stewardship]] - Bioregional economies, local resource flows, and regenerative land-based economic models
 
 *A living document reflecting the dynamic landscape of economic thought and practice.*

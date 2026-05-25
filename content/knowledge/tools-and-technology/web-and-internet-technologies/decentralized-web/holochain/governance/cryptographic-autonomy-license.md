@@ -1,7 +1,11 @@
 ---
 title: Cryptographic Autonomy License
 date: 2025-02-15
+updated: 2026-05-24
 description: A novel open-source license designed to protect user sovereignty and data autonomy in decentralized systems
+aliases:
+  - Cryptographic Autonomy
+  - CAL
 tags: ["decentralization", "open-source", "licensing"]
 ---
 

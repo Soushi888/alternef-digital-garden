@@ -2,8 +2,13 @@
 title: Holochain Entries
 date: 2025-02-15
 description: The basic data structure stored in the distributed hash table and source chain
+aliases:
+  - "Entry"
+  - "Entries"
+  - "Holochain Entry"
+  - "Holochain Entries"
 tags: ["holochain", "hdk", "entries", "data-structures"]
-
+updated: 2026-05-24
 ---
 
 # Holochain Entries

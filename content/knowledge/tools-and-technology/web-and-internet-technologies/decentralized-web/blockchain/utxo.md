@@ -8,7 +8,7 @@ tags: ["blockchain", "cryptocurrency", "utxo"]
 
 ## **What is UTXO in Blockchain?**
 
-UTXO stands for **Unspent Transaction Output**. It is a fundamental concept in **UTXO-based [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/index|blockchains]]** like **[[bitcoin|Bitcoin]]** and **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/pos/cardano/index|Cardano]]**, representing the model used to track ownership of coins.
+UTXO stands for **Unspent Transaction Output**. It is a fundamental concept in **UTXO-based [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/index|blockchains]]** like **[[bitcoin|Bitcoin]]** and **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/proof-of-stake/cardano/index|Cardano]]**, representing the model used to track ownership of coins.
 
 ---
 

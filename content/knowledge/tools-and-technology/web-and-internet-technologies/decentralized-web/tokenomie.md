@@ -44,5 +44,5 @@ Tokenomics is the study of the economic systems within blockchain networks, focu
 
 ## Related Concepts
 
-[[Économie|Economics]] - Traditional economic principles that inform tokenomics
+[[knowledge/finance-and-economics/index|Economics]] - Traditional economic principles that inform tokenomics
 [[Blockchain]] - The underlying technology enabling token systems

@@ -25,11 +25,11 @@ This section provides comprehensive resources for developers looking to build ap
 
 ### Training Materials
 
-- [[holochain-dev-training/|Holochain Developer Training]] - Structured learning resources for new developers
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/holochain-dev-training/index|Holochain Developer Training]] - Structured learning resources for new developers
 
 ### Holochain Development Kit (HDK)
 
-- [[hdk/|Holochain Development Kit]] - Core libraries and APIs for building Holochain applications
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/hdk/index|Holochain Development Kit]] - Core libraries and APIs for building Holochain applications
 
 ## Development Workflow
 

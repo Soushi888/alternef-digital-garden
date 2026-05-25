@@ -2,13 +2,16 @@
 title: Holochain Scaffolding Tool
 date: 2025-02-15
 description: Command-line interface for quickly generating Holochain applications and components
+aliases:
+  - "Holochain Scaffolding tool"
+  - "Holochain Scaffolding Tool"
 tags: ["holochain", "software-development", "hdk"]
-
+updated: 2026-05-24
 ---
 
 # Holochain Scaffolding Tool
 
-Related: [[hdk/index|HDK]] • [[../index|Development Tools]]
+Related: [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/hdk/index|HDK]] • [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Development Tools]]
 
 ['Get Building']('https://developer.holochain.org/get-building/')
 > 'In Quick Start you installed Holochain and built a templated forum application. Here you will use the scaffolding tool to build your own application and learn the basic commands for using the scaffold.'

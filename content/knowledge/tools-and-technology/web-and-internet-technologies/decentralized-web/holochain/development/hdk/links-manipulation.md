@@ -8,7 +8,7 @@ tags: ["holochain", "links", "hdk"]
 
 # Links Manipulation
 
-Related: [[../../fundamentals/link|Links]] • [[index|HDK]] • [[../../fundamentals/index|Fundamentals]]
+Related: [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/link|Links]] • [[index|HDK]] • [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Fundamentals]]
 
 ## [[Link|Links]]
 

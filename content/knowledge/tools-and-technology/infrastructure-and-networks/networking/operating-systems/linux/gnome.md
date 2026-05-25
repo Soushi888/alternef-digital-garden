@@ -132,12 +132,12 @@ GNOME's security model integrates with enterprise-grade technologies:
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Primary distribution using GNOME
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Innovation platform for GNOME development
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma]]** - Major alternative desktop environment
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/accessibility|Accessibility]]** - Inclusive design and assistive technology
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Primary distribution using GNOME
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Innovation platform for GNOME development
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/kde-plasma|KDE Plasma]]** - Major alternative desktop environment
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Accessibility]]** - Inclusive design and assistive technology
 
 ---
 

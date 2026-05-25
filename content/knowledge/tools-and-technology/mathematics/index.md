@@ -34,8 +34,8 @@ This section explores fundamental mathematical concepts, patterns, and their app
 
 ## Connections to Other Domains
 - **Within Tools & Technology**: Algorithm design, [[knowledge/tools-and-technology/security-and-privacy/cryptography/index|cryptography]], [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|AI-ML foundations]]
-- [[knowledge/built-environment|Built Environment]]: Geometric principles, proportions
-- [[knowledge/land-and-nature-stewardship|Nature Stewardship]]: Patterns in natural systems
+- [[knowledge/built-environment/index|Built Environment]]: Geometric principles, proportions
+- [[knowledge/land-and-nature-stewardship/index|Nature Stewardship]]: Patterns in natural systems
 
 ## Mathematical Principles in Technology
 - **Pattern Recognition**: Mathematical structures underpin machine learning and data analysis

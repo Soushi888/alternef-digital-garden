@@ -2,7 +2,11 @@
 title: "Python"
 description: "Notes on Python."
 date: 2025-02-15
+aliases:
+  - "Python"
+  - "python"
 tags: ["programming", "python", "software-development"]
+updated: 2026-05-24
 ---
 
 #backend 

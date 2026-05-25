@@ -2,18 +2,20 @@
 title: "Distributed System"
 date: 2025-02-15
 aliases:
-  - Distributed Systems
-  - distributed system
-  - distributed systems
+  - "Distributed Systems"
+  - "distributed system"
+  - "distributed systems"
+  - "distributed-systems"
+  - "Distributed System"
 tags: ["networking"]
 description: "Architectures and patterns for systems distributed across multiple networked nodes."
-
+updated: 2026-05-24
 ---
 [[Networking]]
 
 [Distributed System course](https://www.distributedsystemscourse.com)
 
-![[centralized-decentralized-distributed.png]]
+![Centralized vs Decentralized vs Distributed](medias/centralized-decentralized-distributed.png)
 
 A distributed system is a collection of independent computers that work together to achieve a common goal by sharing resources, data, and communication across a network. In a distributed system, the computers or nodes are connected by a communication network, and they coordinate their actions by exchanging messages and sharing data.
 

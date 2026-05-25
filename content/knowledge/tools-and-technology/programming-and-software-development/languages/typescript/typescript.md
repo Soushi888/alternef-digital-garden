@@ -2,9 +2,11 @@
 title: "TypeScript"
 description: "Here are some key points:"
 date: 2025-02-15
-aliases: 
+aliases:
+  - "TypeScript"
+  - "typescript"
 tags: ["programming", "javascript", "typescript"]
-
+updated: 2026-05-24
 ---
 **TypeScript is a statically typed, superset of [[JavaScript]] that adds optional static typing and other features to improve the development experience.**
 

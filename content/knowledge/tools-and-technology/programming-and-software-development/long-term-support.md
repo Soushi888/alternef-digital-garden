@@ -20,8 +20,8 @@ description: "A software release model guaranteeing extended support for specifi
 
 | Software | LTS Duration |
 |----------|-------------|
-| [[ubuntu\|Ubuntu LTS]] | 5 years standard, 10 years with Ubuntu Pro |
-| [[node\|Node.js]] | 18 months (e.g., v20.x LTS) |
+| [[ubuntu|Ubuntu LTS]] | 5 years standard, 10 years with Ubuntu Pro |
+| [[node|Node.js]] | 18 months (e.g., v20.x LTS) |
 | Java (17, 21, 25) | Multiple years per major LTS release |
 | Windows 10 LTSB | 10 years |
 | ChromeOS LTS | Security updates every 2 weeks, feature updates every 6 months |

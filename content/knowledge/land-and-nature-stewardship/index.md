@@ -1,9 +1,9 @@
 ---
 title: Land and Nature Stewardship
 date: 2025-02-12
+updated: 2026-05-24
 description: A holistic exploration of ecological relationships, regenerative practices, and human-nature interconnectedness
 tags: ["regenerative-design", "ecology"]
-
 ---
 
 ## Overview
@@ -57,5 +57,12 @@ Land and Nature Stewardship is an interdisciplinary approach that seeks to under
 - Practical and theoretical understanding
 - Hands-on land stewardship experiences
 - Connecting personal and collective ecological awareness
+
+## Related Domains
+
+- [[knowledge/governance-and-community/index|Governance and Community]] - Bioregional governance, commons stewardship, and collective land management
+- [[knowledge/built-environment/index|Built Environment]] - Ecological design, organic architecture, and biophilic building practices
+- [[knowledge/finance-and-economics/index|Finance and Economics]] - Circular bioregional economies, local value flows, and regenerative economic models
+- [[knowledge/health-and-wellbeing/index|Health and Wellbeing]] - Environmental health, nature connection, and ecological determinants of wellbeing
 
 *A living document reflecting the dynamic relationship between humans and the living world.*

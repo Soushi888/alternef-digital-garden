@@ -123,12 +123,12 @@ Plasma's extensibility creates rich possibilities:
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]** - Major alternative desktop environment
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Distribution with KDE variant (Kubuntu)
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Distribution with excellent KDE support
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/customization|System Customization]]** - Personalization and configuration
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/gnome|GNOME Desktop]]** - Major alternative desktop environment
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Distribution with KDE variant (Kubuntu)
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Distribution with excellent KDE support
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|System Customization]]** - Personalization and configuration
 
 ---
 

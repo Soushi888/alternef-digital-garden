@@ -157,11 +157,11 @@ Red Hat's subscription-based business model has influenced how companies approac
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Innovation pipeline and community development
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu]]** - Alternative enterprise distribution approach
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|Security Tools]]** - System security and protection
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and infrastructure
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Innovation pipeline and community development
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu]]** - Alternative enterprise distribution approach
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fail2ban|Security Tools]]** - System security and protection
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and infrastructure
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/cloud-computing|Cloud Computing]]** - Cloud infrastructure and deployment
 
 ---

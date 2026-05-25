@@ -83,8 +83,8 @@ The Holochain Development Kit (HDK) provides the core libraries, APIs, and tools
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/holochain-development-guide|Holochain Development Guide]]
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/how-to-design-an-holochain-application|Application Design]]
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Holochain Architecture]]
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Holochain Fundamentals]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Technical Concepts]]
 
 ## External Resources
 

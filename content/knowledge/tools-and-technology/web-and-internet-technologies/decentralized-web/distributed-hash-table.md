@@ -1,9 +1,12 @@
 ---
 title: Distributed Hash Tables
 date: 2025-02-20
+updated: 2026-05-24
 description: A comprehensive overview of Distributed Hash Table (DHT) technology in decentralized systems
+aliases:
+  - Distributed Hash Table
+  - DHT
 tags: ["networking", "decentralization", "peer-to-peer", "distributed-systems"]
-
 ---
 
 ## Overview

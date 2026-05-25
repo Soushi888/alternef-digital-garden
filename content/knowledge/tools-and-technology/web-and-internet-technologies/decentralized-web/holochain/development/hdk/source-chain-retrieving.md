@@ -8,7 +8,7 @@ tags: ["holochain", "hdk", "distributed-systems"]
 
 # Source Chain Retrieving
 
-Related: [[../../fundamentals/index|Fundamentals]] • [[index|HDK]] • [[../../architecture/index|Architecture]]
+Related: [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Fundamentals]] • [[index|HDK]] • [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Architecture]]
 
 ##  Query
 -   Retrieve the source chain for the cell that's calling "query()"

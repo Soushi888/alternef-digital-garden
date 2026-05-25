@@ -2,9 +2,11 @@
 title: GraphQL
 description: A query language for APIs enabling clients to request exactly the data they need from a single endpoint
 aliases:
-  - Graph Query Language
+  - "Graph Query Language"
+  - "GraphQL"
 tags: ["protocols", "networking", "api", "web-dev", "query-language"]
 date: 2026-03-14
+updated: 2026-05-24
 ---
 
 GraphQL is a query language for APIs and a runtime for executing those queries against your data. Developed internally at Facebook beginning in 2012 and released publicly in 2015, GraphQL emerged as a solution to a real problem: mobile clients on slow connections needed precise data fetching, but [[rest|REST]] APIs returned fixed-shape resources that were too large, too small, or required multiple round-trips to compose.

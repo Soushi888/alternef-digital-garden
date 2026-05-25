@@ -117,12 +117,12 @@ Ubuntu's hybrid model of community development with commercial support has influ
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]** - Default desktop environment
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux-mint|Linux Mint]]** - Popular Ubuntu-based distribution
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fail2ban|Security Tools]]** - System security and protection
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Alternative distribution approach
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/gnome|GNOME Desktop]]** - Default desktop environment
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/linux-mint|Linux Mint]]** - Popular Ubuntu-based distribution
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fail2ban|Security Tools]]** - System security and protection
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Alternative distribution approach
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and architecture
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/cloud-computing|Cloud Computing]]** - Infrastructure and deployment
 
 ---

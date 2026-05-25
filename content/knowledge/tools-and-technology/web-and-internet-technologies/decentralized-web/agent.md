@@ -3,8 +3,12 @@ title: Agent
 date: 2025-02-20
 description: Sovereign digital entities that represent human or computational actors in decentralized systems
 tags: ["decentralization", "web3", "distributed-systems"]
-aliases: ["Digital Agents", "Sovereign Agents"]
-
+aliases:
+  - "Digital Agents"
+  - "Sovereign Agents"
+  - "Agent"
+  - "Agents"
+updated: 2026-05-24
 ---
 
 ## Overview of Agents
@@ -191,7 +195,7 @@ The semantic approach connects agents to broader garden concepts:
 - **[[valueflows|Valueflows]]**: Agents participate in economic networks with verifiable capabilities
 - **[[governance-and-community|Governance]]**: Agent roles and permissions validated against governance rules
 - **[[finance-and-economics|Economic Networks]]**: Agent reputation and history trackable across transactions
-- **[[land-and-nature|Environmental Data]]**: Agent responsibilities and impacts connected to ecological data
+- **[[knowledge/land-and-nature-stewardship/index|Environmental Data]]**: Agent responsibilities and impacts connected to ecological data
 
 ## Philosophical Implications
 

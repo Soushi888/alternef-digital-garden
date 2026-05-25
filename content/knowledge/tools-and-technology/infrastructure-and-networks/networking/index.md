@@ -1,10 +1,13 @@
 ---
 title: "Networking"
 date: 2025-10-12
+updated: 2026-05-24
 type: "index"
 description: "Comprehensive exploration of networking concepts, protocols, distributed systems, and network infrastructure that power modern digital communication."
+aliases:
+  - networking
+  - Networking
 tags: ["networking", "distributed-systems", "protocols", "infrastructure", "internet"]
-
 ---
 
 # Networking
@@ -115,7 +118,7 @@ Learn [[tcp-ip|TCP/IP]], [[dhcp-server|DHCP]], [[user-datagram-protocol|UDP]], a
 Explore [[distributed-systems/index|distributed systems]] concepts, starting with consensus and coordination.
 
 ### 4. **Practical Applications**
-Study [[linux/linux|Linux systems]] and [[cloud-computing|cloud computing]] for real-world implementations.
+Study [[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux systems]] and [[cloud-computing|cloud computing]] for real-world implementations.
 
 ### 5. **Advanced Topics**
 Investigate specialized areas like [[mirageos|unikernels]] and [[lora|IoT networking]].

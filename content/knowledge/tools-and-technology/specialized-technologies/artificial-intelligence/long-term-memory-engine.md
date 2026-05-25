@@ -1,9 +1,12 @@
 ---
 title: Long-Term Memory (LTM) Engine
 date: 2025-07-22
+updated: 2026-05-24
 description: An overview of the Long-Term Memory (LTM) engine used in Pieces for Developers.
+aliases:
+  - Long-Term Memory (LTM) Engine
+  - LTM Engine
 tags: ["local-first", "pieces", "developer-tools", "ai-assistant", "agent", "mcp"]
-
 ---
 
 The Long-Term Memory (LTM) engine is the core of the contextual assistance provided by [[pieces]]. It runs as a modular, event-driven service, acting as a personal [[agent|Agent]] within PiecesOS that activates on-demand to capture and retrieve context.

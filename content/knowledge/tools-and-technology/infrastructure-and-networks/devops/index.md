@@ -3,11 +3,12 @@ title: DevOps
 date: 2025-03-15
 description: A set of practices that combines software development and IT operations
 subtitle: Breaking down silos between development and operations teams
-aliases: 
-  - DevOps
-  - Dev Ops
+aliases:
+  - "DevOps"
+  - "Dev Ops"
+  - "devops"
 tags: ["software-development", "devops", "automation", "nixos"]
-
+updated: 2026-05-24
 ---
 
 DevOps is a set of practices, cultural philosophies, and tools that aim to improve collaboration and efficiency between software **development (Dev)** and IT **operations (Ops)** teams. The term combines "Development" and "Operations," reflecting its goal of breaking down traditional silos between these groups to accelerate the delivery of high-quality software.

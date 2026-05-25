@@ -47,7 +47,7 @@ How operating systems enable communication and coordination across multiple mach
 ### [[knowledge/tools-and-technology/infrastructure-and-networks/networking/virtual-machine|Virtualization]]
 Techniques for running multiple isolated operating systems on shared hardware.
 
-### [[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking Fundamentals]]
+### [[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking Fundamentals]]
 The protocols and technologies that enable network communication in modern OSes.
 
 ### [[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|DevOps and Deployment]]
@@ -56,7 +56,7 @@ How modern operating systems support automated deployment and infrastructure man
 ## Learning Path
 
 1. **Start with**: [[kernel-architectures|Kernel Architectures]] to understand fundamental design choices
-2. **Explore**: [[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux|Linux]] as a practical example of system implementation
+2. **Explore**: [[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux]] as a practical example of system implementation
 3. **Connect**: To [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|distributed systems]] for understanding networked computing
 4. **Apply**: Concepts to [[knowledge/tools-and-technology/infrastructure-and-networks/networking/cloud-computing|cloud computing]] environments
 

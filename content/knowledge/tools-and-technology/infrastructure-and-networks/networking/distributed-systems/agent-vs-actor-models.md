@@ -29,7 +29,7 @@ While often confused or used interchangeably, Agent and Actor models represent d
 
 ## Core Characteristics Comparison
 
-| Aspect | [[actor-model\|Actor Model]] | Agent Model |
+| Aspect | [[actor-model|Actor Model]] | Agent Model |
 |--------|------------|-------------|
 | **Primary Focus** | Concurrent computation | Autonomous behavior |
 | **State Management** | Encapsulated state | Belief/knowledge state |

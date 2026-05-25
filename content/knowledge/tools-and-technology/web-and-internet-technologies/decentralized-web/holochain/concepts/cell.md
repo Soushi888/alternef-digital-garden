@@ -2,8 +2,13 @@
 title: Holochain Cells
 date: 2025-09-10
 description: The fundamental unit of a Holochain application - combining DNA with an agent identity
+aliases:
+  - "Cell"
+  - "Cells"
+  - "Holochain Cell"
+  - "Holochain Cells"
 tags: ["holochain", "distributed-systems", "hdk"]
-
+updated: 2026-05-24
 ---
 
 # Holochain Cells

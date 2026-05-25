@@ -8,7 +8,7 @@ tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
 ---
 # p2p
 
-Eventual consistency is a concept in distributed computing where all nodes in a [[Distributed System/index|distributed system]] eventually become consistent with each other, but this consistency may not be achieved immediately after an update is made. In other words, in an eventually consistent system, updates to a data store will be propagated to all nodes in the system, but it may take some time for all nodes to reflect the updated state.
+Eventual consistency is a concept in distributed computing where all nodes in a [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|distributed system]] eventually become consistent with each other, but this consistency may not be achieved immediately after an update is made. In other words, in an eventually consistent system, updates to a data store will be propagated to all nodes in the system, but it may take some time for all nodes to reflect the updated state.
 
 This is because in a distributed system, nodes may not always be able to communicate with each other in real-time or may have different views of the data at a given time due to network delays, hardware failures, or other issues. As a result, the system may temporarily have inconsistencies, which will eventually be resolved as updates propagate across the network.
 
@@ -16,7 +16,7 @@ Eventual consistency is often used in large-scale distributed systems, such as c
 
 # holochain/concepts
 
-[[../index|Holochain]]
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 - The data state converges to being free of internal contradiction
         -   Relativity does not allow for a universally correct sequence of events

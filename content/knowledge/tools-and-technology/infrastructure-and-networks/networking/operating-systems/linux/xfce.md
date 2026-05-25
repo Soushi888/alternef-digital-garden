@@ -152,12 +152,12 @@ The Xfce community continues to grow, attracting users who value efficiency and 
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]** - Modern desktop alternative
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma]]** - Feature-rich desktop alternative
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Distribution with Xfce variant (Xubuntu)
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/performance|Performance Optimization]]** - System performance considerations
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/gnome|GNOME Desktop]]** - Modern desktop alternative
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/kde-plasma|KDE Plasma]]** - Feature-rich desktop alternative
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Distribution with Xfce variant (Xubuntu)
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Performance Optimization]]** - System performance considerations
 
 ---
 

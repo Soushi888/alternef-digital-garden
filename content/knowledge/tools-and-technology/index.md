@@ -1,9 +1,11 @@
 ---
 title: Tools and Technology
 date: 2025-02-12
+updated: 2026-05-24
 description: An exploration of technological innovations, tools, and their transformative impact on human society and problem-solving across diverse domains.
+aliases:
+  - tools-and-technology
 tags: ["programming", "innovation", "problem-solving"]
-
 ---
 
 This section explores technological innovations, tools, and their transformative impact on human society and problem-solving across diverse domains.
@@ -55,6 +57,13 @@ Analyzing development tools, content management systems, low-code platforms, and
 - Ethical Technology Design
 - Continuous Learning
 - Interdisciplinary Approach
+
+## Related Domains
+
+- [[knowledge/governance-and-community/index|Governance and Community]] - Decentralized protocols, digital fabrics, and technology for collective coordination
+- [[knowledge/finance-and-economics/index|Finance and Economics]] - Blockchain infrastructure, ValueFlows, distributed economic coordination tools
+- [[knowledge/built-environment/index|Built Environment]] - Smart building systems, fabrication technologies, and digital infrastructure
+- [[knowledge/culture-and-education/index|Culture and Education]] - Educational technologies, digital knowledge systems, and tools for learning
 
 ## Contribution Guidelines
 

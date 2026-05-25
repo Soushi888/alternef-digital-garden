@@ -3,9 +3,10 @@ title: "Ethereum Virtual Machine"
 description: "The Ethereum Virtual Machine (EVM) is a foundational component of the Ethereum Blockchain platform, serving as the runtime environment for executing smart"
 date: 2025-02-15
 aliases:
-  - EVM
+  - "EVM"
+  - "Ethereum Virtual Machine"
 tags: ["programming", "blockchain", "smart-contracts", "decentralization"]
-
+updated: 2026-05-24
 ---
 #blockchains/EVM 
 

@@ -1,9 +1,13 @@
 ---
 title: Governance and Community
 date: 2025-02-12
+updated: 2026-05-24
 description: A holistic exploration of collective organization, social dynamics, and collaborative decision-making
+aliases:
+  - "governance-and-community"
+  - "governance"
+  - "Governance"
 tags: ["governance", "community", "collective-intelligence", "social-systems"]
-
 ---
 
 This section explores the intricate dynamics of human organization, examining how communities form, govern themselves, and collaborate to address collective challenges and aspirations.
@@ -83,5 +87,13 @@ This section explores the intricate dynamics of human organization, examining ho
 - Reflective community engagement
 - Critical analysis of social systems
 - Practical understanding of collective dynamics
+
+## Related Domains
+
+- [[knowledge/land-and-nature-stewardship/index|Land and Nature Stewardship]] - Bioregional governance, ecological commons, and watershed-based community organization
+- [[knowledge/finance-and-economics/index|Finance and Economics]] - Commons-based production, open value networks, and cooperative economic infrastructure
+- [[knowledge/culture-and-education/index|Culture and Education]] - Education as collective practice, guild transmission, and community knowledge systems
+- [[knowledge/health-and-wellbeing/index|Health and Wellbeing]] - Community health, collective healing, and social determinants of wellbeing
+- [[knowledge/built-environment/index|Built Environment]] - Collaborative spaces, community-owned infrastructure, and place-based governance
 
 *A living document reflecting the evolving landscape of human collaboration and governance.*

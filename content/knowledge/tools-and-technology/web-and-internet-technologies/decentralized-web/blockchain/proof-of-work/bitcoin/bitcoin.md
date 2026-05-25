@@ -2,9 +2,12 @@
 title: Bitcoin
 date: 2025-02-15
 description: What is Bitcoin?
-aliases: [BTC]
+aliases:
+  - "BTC"
+  - "Bitcoin"
+  - "bitcoin"
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
-
+updated: 2026-05-24
 ---
 
 Technlogie : #blockchains/PoW

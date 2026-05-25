@@ -4,9 +4,12 @@ date: 2025-02-15
 description: Protocol for real-time bidirectional communication between client and server
 subtitle: Enabling persistent connections for web applications
 aliases:
-  - WebSocket
+  - "WebSocket"
+  - "WebSockets"
+  - "Websocket"
+  - "Websockets"
 tags: ["protocols", "frontend", "backend", "real-time-communication"]
-updated: 2026-03-14
+updated: 2026-05-24
 
 ---
 

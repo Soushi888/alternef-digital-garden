@@ -162,13 +162,13 @@ Kubuntu embraces new computing paradigms:
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Foundation distribution and security infrastructure
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/linux-mint|Linux Mint]]** - Ubuntu-based distribution with traditional desktop
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/kde-plasma|KDE Plasma Desktop]]** - Desktop environment and customization capabilities
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches and comparison
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Alternative distribution with excellent KDE support
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and infrastructure capabilities
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Foundation distribution and security infrastructure
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/linux-mint|Linux Mint]]** - Ubuntu-based distribution with traditional desktop
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/kde-plasma|KDE Plasma Desktop]]** - Desktop environment and customization capabilities
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/desktop-environment|Desktop Environments]]** - Alternative desktop approaches and comparison
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Alternative distribution with excellent KDE support
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and infrastructure capabilities
 
 ---
 

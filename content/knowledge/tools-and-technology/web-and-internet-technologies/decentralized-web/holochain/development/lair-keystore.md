@@ -2,8 +2,10 @@
 title: Lair Keystore
 date: 2025-02-15
 description: Lair Keystore is a component that plays a crucial role in managing cryptographic keys securely.
+aliases:
+  - "Lair Keystore"
 tags: ["holochain", "hdk", "security"]
-
+updated: 2026-05-24
 ---
 [GitHub - holochain/lair: secret lair private keystore](https://github.com/holochain/lair)
 > secret lair private keystore. Contribute to holochain/lair development by creating an account on GitHub.

@@ -224,8 +224,8 @@ Cloud computing is the on-demand delivery of IT resources over the Internet with
 - [[networking|Network Fundamentals]] - Cloud networking concepts
 - [[virtual-machine|Virtual Machines]] - Cloud virtualization foundation
 - [[distributed-systems/index|Distributed Systems]] - Cloud distributed architectures
-- [[../devops/index|DevOps]] - Cloud operations and automation
-- [[../../../security-and-privacy/index|Cloud Security]] - Securing cloud environments
+- [[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|DevOps]] - Cloud operations and automation
+- [[knowledge/tools-and-technology/security-and-privacy/index|Cloud Security]] - Securing cloud environments
 
 ## References
 - NIST Cloud Computing Standards: Special Publication 800-145

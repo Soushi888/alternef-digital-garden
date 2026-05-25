@@ -5,7 +5,7 @@ date: 2025-02-15
 tags: ["programming", "holochain", "rust", "hdk"]
 ---
 
-[[../index|Holochain]]
+[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
 
 ## 3 sources of [[Zome|zome]] calls
 -   Conductor receives request on the application port 

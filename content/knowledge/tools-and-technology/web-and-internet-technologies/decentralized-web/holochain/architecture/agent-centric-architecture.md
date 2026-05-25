@@ -9,7 +9,7 @@ tags: ["programming", "holochain", "distributed-systems", "software-architecture
 
 #holochain/concepts
 
-In [[../index|Holochain]], the agency is the power of an [agent](https://developer.holochain.org/glossary/#agent) to act in their environment.
+In [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]], the agency is the power of an [agent](https://developer.holochain.org/glossary/#agent) to act in their environment.
 
 ## An agent is :
 

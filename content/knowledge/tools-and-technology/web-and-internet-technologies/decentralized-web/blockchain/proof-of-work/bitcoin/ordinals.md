@@ -2,7 +2,10 @@
 title: "Ordinals"
 description: "Notes on Ordinals."
 date: 2025-02-15
+aliases:
+  - "Ordinals"
 tags: ["programming", "blockchain", "cryptocurrency", "decentralization"]
+updated: 2026-05-24
 ---
 
 ['Ordinals']('https://ordinals.com')

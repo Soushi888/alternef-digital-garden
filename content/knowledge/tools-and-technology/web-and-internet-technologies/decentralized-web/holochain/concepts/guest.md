@@ -408,7 +408,7 @@ pub fn cross_cell_operation(target_cell: CellId, operation: Operation) -> Extern
 ## Related Concepts
 
 - **[[host|Host]]** - Runtime environment that executes guest applications
-- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/core-primitives/cells|Cells]]** - Container for guest application instances
+- **[[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/cell|Cells]]** - Container for guest application instances
 - **[[wasm|WebAssembly]]** - Execution format for guest applications
 - **[[hdk|HDK]]** - Development kit for building guest applications
 - **[[conductor|Conductor]]** - Host implementation that manages guests

@@ -46,16 +46,16 @@ The seven liberal arts became the core curriculum of:
 
 ### The Trivium (Three Roads)
 The foundational stage focusing on language and thought:
-1. **[[trivium#1-grammar|Grammar]]**: Language structure, literature, and foundational knowledge
-2. **[[trivium#2-logic-dialectic|Logic (Dialectic)]]**: Critical reasoning, argumentation, and philosophical inquiry
-3. **[[trivium#3-rhetoric|Rhetoric]]**: Persuasive expression and eloquent communication
+1. **[[trivium|Grammar]]**: Language structure, literature, and foundational knowledge
+2. **[[trivium|Logic (Dialectic)]]**: Critical reasoning, argumentation, and philosophical inquiry
+3. **[[trivium|Rhetoric]]**: Persuasive expression and eloquent communication
 
 ### The Quadrivium (Four Roads)
 The advanced stage focusing on mathematical and cosmic order:
-1. **[[quadrivium#1-arithmetic--number-in-itself|Arithmetic]]**: Number in itself — pure abstract number
-2. **[[quadrivium#2-geometry--number-in-space|Geometry]]**: Number in space — magnitude and form
-3. **[[quadrivium#3-music-harmonics--number-in-time|Music (Harmonics)]]**: Number in time — proportional relationships
-4. **[[quadrivium#4-astronomy--number-in-space-and-time|Astronomy]]**: Number in space and time — celestial motions
+1. **[[quadrivium|Arithmetic]]**: Number in itself — pure abstract number
+2. **[[quadrivium|Geometry]]**: Number in space — magnitude and form
+3. **[[quadrivium|Music (Harmonics)]]**: Number in time — proportional relationships
+4. **[[quadrivium|Astronomy]]**: Number in space and time — celestial motions
 
 ## Philosophical Foundations
 

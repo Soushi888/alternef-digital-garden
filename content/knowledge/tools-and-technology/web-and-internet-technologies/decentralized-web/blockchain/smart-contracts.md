@@ -3,9 +3,12 @@ title: "Smart Contracts"
 description: "Smart contracts are self-executing contracts with the terms of the agreement directly written into lines of code. They run on a Blockchain network,"
 date: 2025-02-15
 aliases:
-  - smart constract
+  - "smart constract"
+  - "Smart Contracts"
+  - "Smart Contract"
+  - "smart contract"
 tags: ["blockchain", "smart-contracts", "web3"]
-
+updated: 2026-05-24
 ---
 
 Smart contracts are self-executing contracts with the terms of the agreement directly written into lines of code. They run on a [[Blockchain]] network, allowing them to automatically enforce and execute the terms of a contract when predetermined conditions are met. This eliminates the need for intermediaries and ensures that transactions are transparent, conflict-free, and immutable once executed.

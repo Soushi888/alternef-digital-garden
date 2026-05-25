@@ -103,7 +103,7 @@ Sensorica has developed several significant open-source scientific instruments:
 
 ### Open Source and Peer Production
 
-Sensorica builds on the [[open-source]] movement's principles while extending them to physical product development and economic organization. It demonstrates how commons-based peer production can operate at industrial scale while maintaining openness and collaboration.
+Sensorica builds on the [[knowledge/tools-and-technology/index|open-source]] movement's principles while extending them to physical product development and economic organization. It demonstrates how commons-based peer production can operate at industrial scale while maintaining openness and collaboration.
 
 ### Alternative Economics
 

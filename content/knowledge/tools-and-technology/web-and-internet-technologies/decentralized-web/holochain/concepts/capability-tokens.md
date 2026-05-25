@@ -2,9 +2,13 @@
 title: "Capability Tokens"
 description: "use hdk::prelude::*;"
 date: 2025-02-15
-aliases: [capability tokens, capability token, Capability Token]
+aliases:
+  - "capability tokens"
+  - "capability token"
+  - "Capability Token"
+  - "Capability Tokens"
 tags: ["programming", "holochain", "distributed-systems", "peer-to-peer"]
-
+updated: 2026-05-24
 ---
  #holochain/concepts 
 [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]
@@ -149,4 +153,4 @@ fn create_claim_for_zome_function_a(grant_data: (AgentPubkey, Secret)) -> Extern
 ```
 
 ## Example
-![[capability_token_sequence.png]]
+![Capability Token Sequence](capability_token_sequence.png)

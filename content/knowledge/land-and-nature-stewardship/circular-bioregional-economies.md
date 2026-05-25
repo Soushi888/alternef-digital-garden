@@ -299,7 +299,7 @@ Circular bioregional economies connect with several related movements:
 - **[[bioregional-stewardship|Bioregional Stewardship]]: Economic dimension of bioregional organization
 - **[[permaculture|Permaculture]]: Design principles for human settlements and economies
 - **[[regenerative-agriculture|Regenerative Agriculture]]: Agricultural foundation for bioregional economies
-- **[[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]]: Governance systems supporting local economies
+- **[[knowledge/governance-and-community/bioregionalism|Bioregionalisme]]: Governance systems supporting local economies
 - **[[watershed-restoration|Watershed Restoration]]: Natural infrastructure supporting circular resource flows
 - **Degrowth and post-growth**: Economic models prioritizing well-being over growth
 

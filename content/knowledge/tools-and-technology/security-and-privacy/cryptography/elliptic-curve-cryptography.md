@@ -15,4 +15,4 @@ ECC generates keys through the properties of an elliptic curve equation instead 
 
 ## Related pages
 - [[cryptography|Cryptography]]
-- [[asymetric-encryption|Asymetric encryption]]
+- [[asymmetric-encryption|Asymmetric encryption]]

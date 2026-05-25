@@ -2,7 +2,7 @@
 title: Holochain Applications (hApps)
 date: 2025-03-11
 description: Directory of applications, projects, and use cases built on the Holochain framework
-tags: ["holochain", "ecosystem", "happs", "holochain-projects", "applications"]
+tags: ["holochain", "ecosystem", "happs", "applications"]
 ---
 
 ## Overview of Holochain Applications
@@ -108,11 +108,11 @@ This section provides a comprehensive directory of applications (hApps) built on
 
 ## Related Topics
 
-- [[../index|Holochain Ecosystem]]
-- [[../../development/index|Holochain Development]]
-- [[../../applications/index|Holochain Use Cases]]
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/fundamentals/index|Holochain Fundamentals]]
-- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/technical-concepts/index|Technical Concepts]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/ecosystem/index|Holochain Ecosystem]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/development/index|Holochain Development]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/applications/index|Holochain Use Cases]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Holochain Fundamentals]]
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Technical Concepts]]
 
 ## External Resources
 

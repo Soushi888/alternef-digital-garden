@@ -152,12 +152,12 @@ Fedora's innovations often influence other platforms and technologies. The devel
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/red-hat|Red Hat Enterprise Linux]]** - Enterprise platform and innovation destination
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu]]** - Alternative approach to distribution philosophy
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/gnome|GNOME Desktop]]** - Default desktop environment and user experience
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/networking|Networking]]** - Network protocols and infrastructure
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/containerization|Containerization]]** - Container technologies and orchestration
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/red-hat|Red Hat Enterprise Linux]]** - Enterprise platform and innovation destination
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu]]** - Alternative approach to distribution philosophy
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/gnome|GNOME Desktop]]** - Default desktop environment and user experience
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]]** - Network protocols and infrastructure
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|Containerization]]** - Container technologies and orchestration
 
 ---
 

@@ -12,7 +12,7 @@ draft: false
 
 Holoptism is a design principle for peer-to-peer (P2P) processes that enables participants to have free access to comprehensive information about the collective system. It facilitates transparency and coordination without centralized control by providing two dimensions of visibility: **horizontal information** about other participants' existence and contributions, and **vertical information** about the aims, metrics, and documentation of the project as a whole.
 
-Unlike [[panoptism]]—typical of hierarchical organizations where only those at the top have a full view of operations—holoptism creates systems where all members can perceive the dynamics of the collective, fostering [[transparency]] and decentralized coordination.
+Unlike [[panoptism]]—typical of hierarchical organizations where only those at the top have a full view of operations—holoptism creates systems where all members can perceive the dynamics of the collective, fostering [[knowledge/governance-and-community/index|transparency]] and decentralized coordination.
 
 ## Core Dimensions
 

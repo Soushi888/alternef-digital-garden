@@ -1,9 +1,12 @@
 ---
 title: Cardano Blockchain Ecosystem
 date: 2025-02-19
+updated: 2026-05-24
 description: Comprehensive overview of Cardano, a third-generation blockchain platform focused on sustainability, scalability, and interoperability
+aliases:
+  - Cardano
+  - cardano
 tags: ["blockchain", "cardano", "proof-of-stake", "cryptocurrency", "smart-contracts"]
-
 ---
 
 ## Cardano: Next-Generation Blockchain Platform

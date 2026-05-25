@@ -4,7 +4,7 @@ description: "A decentralized, self-organized form of collective intelligence en
 aliases:
   - "Holomidale"
   - "Collective Intelligence Holomidale"
-tags: ["governance", "collective-intelligence", "decentralized-governance", "peer-to-peer", "social-organization", "emergence"]
+tags: ["governance", "collective-intelligence", "peer-to-peer", "social-organization", "emergence"]
 date: 2026-03-09
 draft: false
 ---

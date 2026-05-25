@@ -122,7 +122,7 @@ Bioregional stewardship integrates and enhances several related movements:
 
 - **[[permaculture|Permaculture]]**: Provides design principles applicable at bioregional scale
 - **[[regenerative-agriculture|Regenerative Agriculture]]**: Farming practices that support bioregional health
-- **[[knowledge/governance-and-community/bioregionalisme|Bioregionalisme]]**: Philosophical foundation for bioregional organization and governance
+- **[[knowledge/governance-and-community/bioregionalism|Bioregionalisme]]**: Philosophical foundation for bioregional organization and governance
 - **Indigenous stewardship**: Traditional ecological knowledge organized around natural boundaries
 - **Ecosystem restoration**: Scientific approaches to healing damaged landscapes
 - **Circular economies**: Economic systems modeled on natural ecosystem cycles

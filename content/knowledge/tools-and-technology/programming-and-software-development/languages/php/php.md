@@ -2,7 +2,12 @@
 title: "Php"
 description: "Notes on Php."
 date: 2025-02-15
+aliases:
+  - "PHP"
+  - "php"
+  - "Php"
 tags: ["programming", "web-dev", "software-development"]
+updated: 2026-05-24
 ---
 
 #backend 

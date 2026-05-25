@@ -125,7 +125,7 @@ Research continues to explore hormesis in emerging areas:
 
 ## Related Topics
 
-- [[health-and-wellbeing/index|Health & Wellbeing Overview]]
+- [[knowledge/health-and-wellbeing/index|Health & Wellbeing Overview]]
 - [[stress-physiology|Stress Physiology]]
 - [[preventive-medicine|Preventive Medicine]]
 - [[nutritional-science|Nutritional Science]]

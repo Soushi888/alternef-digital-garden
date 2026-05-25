@@ -94,11 +94,11 @@ While originating in the Linux ecosystem, Nix runs on multiple platforms includi
 
 ## Related Topics
 
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/ubuntu|Ubuntu Linux]]** - Traditional package management approach
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/linux/fedora|Fedora Linux]]** - Alternative package management strategies
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/devops|DevOps]]** - Infrastructure automation and deployment
-- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/containerization|Containerization]]** - Alternative approach to reproducible environments
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Operating System]]** - Foundation concepts and system architecture
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Traditional package management approach
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Alternative package management strategies
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|DevOps]]** - Infrastructure automation and deployment
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|Containerization]]** - Alternative approach to reproducible environments
 
 ---
 

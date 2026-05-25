@@ -2,8 +2,12 @@
 title: C++
 date: 2025-02-15
 description: A powerful, high-performance programming language that extends C with object-oriented programming features
+aliases:
+  - "C++"
+  - "cpp"
+  - "C plus plus"
 tags: ["programming", "low-level", "systems-programming"]
-
+updated: 2026-05-24
 ---
 
 ## Introduction to C++

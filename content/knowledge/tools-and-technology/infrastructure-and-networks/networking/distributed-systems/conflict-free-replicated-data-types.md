@@ -7,7 +7,7 @@ created: 2025-12-02
 modified: 2025-12-02
 draft: false
 ---
-Conflict-free Replicated Data Types (CRDTs) are a type of data structure used in [[Distributed System/index|distributed systems]] to enable concurrent updates to replicated data without the need for coordination or locking mechanisms that can cause delays and reduce system availability.
+Conflict-free Replicated Data Types (CRDTs) are a type of data structure used in [[knowledge/tools-and-technology/infrastructure-and-networks/networking/distributed-systems/index|distributed systems]] to enable concurrent updates to replicated data without the need for coordination or locking mechanisms that can cause delays and reduce system availability.
 
 CRDTs achieve this by ensuring that concurrent updates to the data structure do not conflict with each other and can be merged seamlessly. This is done by defining specific operations that can be applied to the data structure, and by ensuring that these operations are commutative and associative.
 

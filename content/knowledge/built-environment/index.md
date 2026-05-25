@@ -1,9 +1,9 @@
 ---
 title: Built Environment
 date: 2025-02-12
+updated: 2026-05-24
 description: A holistic exploration of human-made spaces, architectural design, and sustainable urban development
 tags: ["sustainability", "architecture", "urban-planning", "design"]
-
 ---
 
 ## Overview
@@ -68,5 +68,11 @@ This section examines the intricate relationship between human societies and the
 - Practical and theoretical exploration
 - Critical analysis of spatial design
 - Hands-on engagement with design challenges
+
+## Related Domains
+
+- [[knowledge/land-and-nature-stewardship/index|Land and Nature Stewardship]] - Ecological systems and regenerative principles underlying sustainable design
+- [[knowledge/governance-and-community/index|Governance and Community]] - Social organization of space, community ownership, and commons-based infrastructure
+- [[knowledge/tools-and-technology/index|Tools and Technology]] - Digital infrastructure, smart building systems, and construction technologies
 
 *A living document reflecting the dynamic evolution of human-made environments.*

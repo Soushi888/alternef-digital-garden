@@ -10,7 +10,7 @@ tags: ["programming", "software-development", "web-dev"]
 ['Generative Objects']('https://www.generativeobjects.com')
 > 'Generative Objects is the first open source'
 
-Works on a [[Outils et Technologie/DWeb/Holochain/Holochain]] integration.
+Works on a [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] integration.
 
 ## GO META PLATFORM : META LOW CODE DEVELOPMENT PLATFORM, FOR DEVELOPERS
 
