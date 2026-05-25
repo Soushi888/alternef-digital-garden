@@ -1,5 +1,8 @@
 ---
 title: "📝 Blog"
+updated: 2026-05-24
+aliases:
+  - blog
 tags: ["blog"]
 ---
 

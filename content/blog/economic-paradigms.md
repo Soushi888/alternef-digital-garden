@@ -89,7 +89,7 @@ Mutual Credit Currencies (MCCs) provide the financial infrastructure for true P2
 
 #### Decentralized Infrastructure
 
-The technological foundation continues to evolve with frameworks like [[Holochain/index]] ble peer-to-peer interactions through:
+The technological foundation continues to evolve with frameworks like [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] ble peer-to-peer interactions through:
 
 - Distributed hash table (DHT) architecture
 - Agent-centric design

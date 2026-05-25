@@ -24,25 +24,25 @@ Whether you're here to observe, contribute, or simply wander between ideas, you'
 
 The garden is organized around seven branches of inquiry. Together they map the territory any community serious about self-governance must eventually navigate.
 
-### 🌱 [[knowledge/land-and-nature-stewardship|Land and Nature Stewardship]]
+### 🌱 [[knowledge/land-and-nature-stewardship/index|Land and Nature Stewardship]]
 Regenerative ecosystems, sustainable land use, and deep ecological thinking.
 
-### 🏙️ [[knowledge/built-environment|Built Environment]]
+### 🏙️ [[knowledge/built-environment/index|Built Environment]]
 Resilient architecture, urban transformation, and nature-integrated design.
 
-### 🛠️ [[knowledge/tools-and-technology|Tools and Technology]]
+### 🛠️ [[knowledge/tools-and-technology/index|Tools and Technology]]
 Decentralized infrastructure, agent-centric computing, and the tools that shape human agency.
 
-### 🌍 [[knowledge/culture-and-education|Culture and Education]]
+### 🌍 [[knowledge/culture-and-education/index|Culture and Education]]
 Non-linear learning, open knowledge systems, and cultural evolution beyond institutional models.
 
-### 🌈 [[knowledge/health-and-wellbeing|Health and Wellbeing]]
+### 🌈 [[knowledge/health-and-wellbeing/index|Health and Wellbeing]]
 Holistic health, mind-body integration, and somatic and energetic practices.
 
-### 💰 [[knowledge/finance-and-economics|Finance and Economics]]
+### 💰 [[knowledge/finance-and-economics/index|Finance and Economics]]
 Post-capitalist coordination, mutual credit, [[valueflows|ValueFlows]], and alternative value exchange.
 
-### 🤝 [[knowledge/governance-and-community|Governance and Community]]
+### 🤝 [[knowledge/governance-and-community/index|Governance and Community]]
 Distributed networks, fractal sovereignty, and participatory governance from household to bioregional scale.
 
 ---
