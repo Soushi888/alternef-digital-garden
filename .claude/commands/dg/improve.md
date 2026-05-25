@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
+allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code, mcp__garden__garden_backlinks, mcp__garden__garden_context, mcp__garden__garden_links, mcp__garden__garden_search]
 description: "Enhance existing digital garden content with AI-driven improvements for structure, clarity, comprehensiveness, and engagement"
 ---
 
@@ -16,23 +16,42 @@ Analyze and enhance existing digital garden content with AI-driven improvements 
 
 ## Usage
 ```
-/dg:improve [target] [--focus area] [--aggressiveness level] [--dry-run] [--interactive] [--validate]
+/dg:improve [target] [--focus area] [--aggressiveness level] [--quick] [--dry-run] [--interactive] [--validate]
 ```
 
 ## Arguments
 - `target` - Target content to improve: file path, folder pattern, or `all`
 - `--focus` - Improvement area: `structure`, `clarity`, `completeness`, `links`, `engagement`, `seo`, `frontmatter`, `all`
 - `--aggressiveness` - Change level: `conservative`, `moderate`, `ambitious` (default: moderate)
+- `--quick` - Frontmatter-only fast path: skip content analysis, MCP context loading, and Playwright validation. Only fixes missing/malformed frontmatter fields (description, date, tags, updated, aliases). Completes in seconds. Implies `--focus frontmatter`.
 - `--dry-run` - Preview improvements without applying changes
 - `--interactive` - Review each improvement before applying
 - `--domain` - Focus on specific knowledge domain only
 - `--validate` - Run link health and frontmatter validation on all modified files after improvements are applied
 
+## Quick Mode (`--quick`)
+
+When `--quick` is passed, skip steps 2-11 of the execution flow and only run:
+
+1. `mcp__garden__garden_validate` on the target to get frontmatter issues
+2. Read frontmatter of flagged notes
+3. Fix only:
+   - Add missing `description` (generate from note title and first paragraph)
+   - Add missing `date` (use git log date or today)
+   - Add missing `tags` (infer from domain and content keywords — load DgTags TagVocabulary.md)
+   - Add/update `updated: YYYY-MM-DD`
+   - Add `aliases` if the note is an index file with no aliases
+4. Write fixes back
+
+**Do NOT** rewrite content, restructure sections, or change wikilinks in `--quick` mode.
+
 ## Execution
-1. **Context Gathering**: Read PAI memory for relevant patterns.
-   - Grep ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/ for relevant past patterns
-   - Read memory/dg-patterns.md if it exists (garden-specific learnings)
-2. **Content Analysis**: Deep analysis of target content for quality, structure, and completeness
+1. **MCP Garden Context** (MANDATORY — before reading any target files):
+   - Call `mcp__garden__garden_status` to confirm index is fresh
+   - Call `mcp__garden__garden_context` on the target note to get body + outgoing links + backlinks + tag siblings in one call
+   - Call `mcp__garden__garden_backlinks` to see all notes that reference the target (informs bidirectional link work)
+   - Only after MCP calls: grep PAI memory for relevant past patterns (memory/dg-patterns.md)
+2. **Content Analysis**: Deep analysis of target content using the MCP context from Step 1; fall back to direct `Read` only for content not surfaced by `garden_context`
 3. **Improvement Scoring**: Rate content across multiple dimensions and identify enhancement opportunities
 4. **Enhancement Generation**: Create specific, actionable improvements based on analysis
 5. **Link Management**: Identify and create strategic wikilinks; for `--focus links`, run full bidirectional link operations (create, analyze, suggest, map) using patterns from the Link Management section below
@@ -299,6 +318,12 @@ Add to related content:
 #### Link Management (--focus links)
 
 Activates when `--focus links` is specified. Supports operations: `create`, `analyze`, `suggest`, `map`.
+
+Use MCP tools as primary path for link analysis before falling back to Grep:
+- **Incoming links to target note**: `mcp__garden__garden_backlinks` (replaces grep for `[[filename]]`)
+- **Note connections + tag siblings**: `mcp__garden__garden_context` (body + outgoing + backlinks in one call)
+- **Outgoing wikilinks from a note**: `mcp__garden__garden_links`
+- **Find notes sharing a concept**: `mcp__garden__garden_search`
 
 ##### Mandatory Wikilink Patterns
 ```markdown

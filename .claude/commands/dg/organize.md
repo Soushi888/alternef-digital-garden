@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite]
+allowed-tools: [Read, Write, Edit, MultiEdit, Glob, Grep, Bash, TodoWrite, mcp__garden__garden_backlinks, mcp__garden__garden_context, mcp__garden__garden_search]
 description: "Organize and restructure digital garden content with automatic link updates and index management"
 ---
 
@@ -32,7 +32,7 @@ Reorganize digital garden content structure, move files between domains, and mai
    - Read memory/dg-patterns.md if it exists (garden-specific learnings)
 2. **Structure Analysis**: Analyze current content structure and identify optimization opportunities
 3. **Path Planning**: Plan target structure with Quartz-compatible paths
-4. **Link Discovery**: Find all internal links pointing to content being moved
+4. **Link Discovery**: Use `mcp__garden__garden_backlinks` on each file being moved to get all incoming links instantly. Fall back to Grep for `[[filename]]` patterns for freshness-critical checks after very recent edits.
 5. **Content Migration**: Move files with proper path handling
 6. **Link Updates**: Update all internal references to moved content
 7. **Index Generation**: Create/update index.md files for affected folders

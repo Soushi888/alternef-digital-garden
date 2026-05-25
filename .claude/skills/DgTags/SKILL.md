@@ -69,6 +69,24 @@ Full rules live in `TagVocabulary.md`. Summary:
 
 **DgQuartzDev**: Tag rendering and TagPage generation belong to DgQuartzDev. Tag content management belongs here.
 
+## Garden MCP Tools — MANDATORY FIRST
+
+**BLOCKING RULE: For any single-note or quick tag lookup, call an MCP tool before reading TagVocabulary.md or running shell commands.**
+
+| Operation | Primary Tool | When to Use IndexTags.ts Instead |
+|-----------|-------------|----------------------------------|
+| List all tags with note counts | `mcp__garden__garden_tag_list` | Never for quick checks |
+| Find all notes carrying a given tag | `mcp__garden__garden_tags` | Never for quick checks |
+| Full tag index + analysis report | `Tools/IndexTags.ts` | Always for IndexTags/AnalyzeTags/OptimizeTags workflows |
+
+**Index freshness protocol:**
+- Before any `garden_tag_list` or `garden_tags` call, if a bulk tag edit (OptimizeTags) just ran: call `mcp__garden__garden_status` first and verify the index has processed all recent writes.
+- `IndexTags.ts` writes to `STATE/` files but does NOT modify content files — it does not affect the garden MCP index.
+- After `OptimizeTags` rewrites frontmatter tags across many files: the file watcher will process each write within ~1s. For 50+ files, wait ~30s and confirm via `garden_status` before trusting `garden_tag_list` counts.
+- **Still stale after 30s?** Run `/dg:index sync` to force a full rebuild.
+
+`garden_tag_list` reads from the live index and is suitable for quick lookups. Use `IndexTags.ts` whenever running the full workflow chains (IndexTags → AnalyzeTags → OptimizeTags).
+
 ## Tools
 
 `Tools/IndexTags.ts` — TypeScript CLI scanner. Scans all `content/**/*.md`, parses frontmatter (handles both YAML array and YAML list formats), writes state files.

@@ -48,6 +48,17 @@ Persistent knowledge layer for the Quartz v4 static site generator. Covers compo
 
 **Context files:** `ComponentArchitecture.md` · `PluginSystem.md` · `TestingGuide.md`
 
+## Garden MCP Tools
+
+For garden structure analysis and note discovery during framework development:
+
+| Operation | Primary Tool | Fallback |
+|-----------|-------------|---------|
+| Domain tree with note counts | `mcp__garden__garden_files` | Glob |
+| Garden health stats (total notes, links, tags) | `mcp__garden__garden_status` | Manual counting |
+| Explore concept landscape for graph work | `mcp__garden__garden_explore` | Multiple Grep |
+| Find notes affected by a build or plugin change | `mcp__garden__garden_search` | Grep |
+
 ## Project Architecture
 
 ```

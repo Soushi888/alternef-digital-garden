@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Write, Glob, Grep, Bash, TodoWrite, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code]
+allowed-tools: [Read, Write, Glob, Grep, Bash, TodoWrite, mcp__playwright__init-browser, mcp__playwright__get-screenshot, mcp__playwright__get-context, mcp__playwright__execute-code, mcp__garden__garden_search, mcp__garden__garden_context, mcp__garden__garden_backlinks, mcp__garden__garden_explore]
 description: "Create new digital garden content with proper Quartz structure, frontmatter templates, and domain taxonomy"
 ---
 
@@ -29,9 +29,11 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
 - `--validate` - Run frontmatter and link validation on created file after creation
 
 ## Execution
-1. **Context Gathering**: Read PAI memory for relevant patterns.
-   - Grep ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/ for relevant past patterns
-   - Read memory/dg-patterns.md if it exists (garden-specific learnings)
+1. **MCP Garden Context** (MANDATORY — before any file reads or path decisions):
+   - Call `mcp__garden__garden_status` to confirm index is fresh
+   - Call `mcp__garden__garden_files` to get the domain tree and verify target directory exists
+   - Call `mcp__garden__garden_search` with the new note's topic/title to find existing related notes (prevents duplicates; informs link suggestions in Step 9)
+   - Only after MCP calls: grep PAI memory for relevant past patterns (memory/dg-patterns.md)
 2. **Content Type Detection**: Determine target path and template based on content type
 3. **Path Generation**: Create Quartz-compatible file paths with proper slugification
 4. **Frontmatter Draft**: Generate all frontmatter fields EXCEPT tags
@@ -416,7 +418,7 @@ When this command runs, OBSERVE generates these ISC:
 ### Cross-Reference Workflow
 When creating content, OBSERVE and BUILD must:
 1. **Tag audit**: Grep existing content for tags on this topic before assigning new ones. Reuse tags that already exist — cross-links are only valuable when tags are consistent.
-2. **Neighbor discovery**: Glob the target domain directory and adjacent domains. Read index files to find notes that share concepts with the new note.
-3. **Backlink scan**: Grep all content for the new note's topic name/aliases — any existing note that mentions this concept should get a wikilink to the new note added.
-4. **Outbound links**: For each concept mentioned in the new note body, check if a garden note already exists for it. If yes, use `[[note-name|Concept Name]]`. If no, decide: create a stub or use plain text.
+2. **Neighbor discovery**: Use `mcp__garden__garden_search` with the note's topic and key concepts to find related notes; use `mcp__garden__garden_explore` for concept landscape mapping. Fall back to Glob + index file reads for freshness-critical checks.
+3. **Backlink scan**: Use `mcp__garden__garden_backlinks` on the closest existing note to find what already references this concept. Fall back to Grep for `[[topic-name]]` patterns.
+4. **Outbound links**: Use `mcp__garden__garden_search` to check if garden notes already exist for concepts mentioned in the new note body. If yes, use `[[note-name|Concept Name]]`. If no, decide: create a stub or use plain text.
 5. **Cross-domain check**: If the concept touches multiple domains (e.g., "blockchain governance" touches tools-and-technology AND governance-and-community), add cross-domain tags AND link to the relevant domain index.

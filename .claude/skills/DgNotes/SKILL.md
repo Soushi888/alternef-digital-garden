@@ -40,13 +40,43 @@ Persistent knowledge layer for the Alternef Digital Garden's 7-domain taxonomy. 
 | Create new knowledge note | `/dg:create` |
 | Organize or restructure notes | `/dg:organize` |
 | Improve note quality | `/dg:improve` |
+| Quick frontmatter-only fix | `/dg:improve --quick` |
 | Add or audit links between notes | `/dg:improve --focus links` |
+| Find and fix broken wikilinks | `Workflows/FindBrokenLinks.md` |
+| Iterative multi-round garden health | `/dg:health-loop` |
 | Explore domain stats and gaps | `/dg:explore` |
+| Explore unresolved links list | `/dg:explore unresolved` |
+| Explore orphaned notes | `/dg:explore orphans` |
+| Validate frontmatter + link health | `/dg:explore validate --domain X` |
 | Publish draft to correct domain | `/dg:publish` |
 | Validate frontmatter and links | Add `--validate` flag to any command |
 | Verify note dates against git history | `--verify-dates` flag or "verify dates" trigger → `Workflows/VerifyDates.md` |
 
 **Context files:** `DomainTaxonomy.md` · `ContentQualityRubric.md` · `KnowledgeNoteTemplate.md` · `DomainIndexTemplate.md` · `CategoryIndexTemplate.md`
+
+## Garden MCP Tools — MANDATORY FIRST
+
+**BLOCKING RULE: For any read or query operation on garden content, a garden MCP tool MUST be called before any Glob/Grep/Bash read.** Exception: use `Read` directly only for immediate post-write verification (within ~2s of writing a file).
+
+| Operation | Primary Tool | Fallback (only if MCP unavailable or stale) |
+|-----------|-------------|----------------------------------------------|
+| Find notes by topic/keyword | `mcp__garden__garden_search` | Grep |
+| Note body + all links + backlinks + tag siblings | `mcp__garden__garden_context` | Read + Grep |
+| Notes that link TO a given note | `mcp__garden__garden_backlinks` | Grep for `[[filename]]` |
+| Outgoing wikilinks from a note | `mcp__garden__garden_links` | Read note |
+| Domain tree with note counts | `mcp__garden__garden_files` | Glob |
+| Garden health and stats | `mcp__garden__garden_status` | Manual counting |
+| **Broken links list (actionable)** | `mcp__garden__garden_unresolved_links` | Python script (see FindBrokenLinks.md) |
+| **Notes with zero backlinks** | `mcp__garden__garden_orphans` | Grep + backlinks per-note |
+| **Frontmatter + link validation** | `mcp__garden__garden_validate` | ValidateNotes.sh |
+| **Alias coverage audit** | `mcp__garden__garden_alias_map` | Grep for `aliases:` in frontmatter |
+
+**Write → Index → MCP protocol:**
+The garden index lags writes by ~1s per file. After writing content:
+- **Single file**: use `Read` for immediate verification, then switch to MCP after 2s.
+- **Bulk operations (10+ files)**: call `mcp__garden__garden_status` and compare `last_indexed` against your last write timestamp. If the index is still processing, wait and re-call. Do NOT use MCP search/backlinks until the index is confirmed fresh.
+- After any `/dg:validate --fix` run: always call `mcp__garden__garden_status` to verify the index rebuilt before the next MCP query.
+- **Index not recovering?** If `last_indexed` stays stale after waiting, run `/dg:index sync` to force a full rebuild.
 
 ## Domain Taxonomy
 
@@ -119,7 +149,10 @@ Prefer `date` and `updated` for consistency with the project CLAUDE.md conventio
 
 ### Tag rules
 
-Tag rules, vocabulary, and format standards live in **`DgTags`** Skill (`TagVocabulary.md`). Load `DgTags` when working with tags. After drafting a note, run the `SuggestTags` workflow from `DgTags` to get validated tag suggestions.
+> **⚠️ MANDATORY: Load `DgTags` before touching any tag field.**
+> Tag rules, vocabulary, and format standards live in the **`DgTags`** Skill (`TagVocabulary.md`). If you modify, add, or suggest tags without loading DgTags first, you risk introducing near-duplicates, singletons, or wrong-format tags. This is non-negotiable.
+
+Load `DgTags` when working with tags. After drafting a note, run the `SuggestTags` workflow from `DgTags` to get validated tag suggestions.
 
 Summary: lowercase kebab-case, domain tag first, 3-7 tags, YAML array format `tags: ["tag1", "tag2"]`.
 

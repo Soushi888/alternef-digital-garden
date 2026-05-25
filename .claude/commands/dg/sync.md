@@ -33,10 +33,14 @@ Synchronize digital garden changes to GitHub with intelligent commit message gen
 3. **Pre-Sync Validation**: Run content validation and build checks
 4. **Git Operations**: Execute git commands with proper error handling
 5. **Quartz Sync**: Use native Quartz sync functionality for optimal deployment
-6. **Deployment**: Deploy to GitHub Pages if requested
-7. **Post-Sync Verification**: Verify successful deployment and site accessibility
-8. **Status Reporting**: Provide detailed sync and deployment status
-9. **Memory Update**: Append key patterns to PAI memory.
+6. **Garden Index Verification** (MANDATORY after any bulk content changes):
+   - Call `mcp__garden__garden_status` to verify the local garden MCP index has processed all recent file writes
+   - If the sync included 10+ modified files: confirm `last_indexed` timestamp is after the last write; if stale, note "Local index is still rebuilding — MCP search results may lag until rebuild completes"
+   - The remote Quartz build (GitHub Actions) rebuilds the search index on deploy; local MCP index is independent and auto-rebuilds via file watcher
+7. **Deployment**: Deploy to GitHub Pages if requested
+8. **Post-Sync Verification**: Verify successful deployment and site accessibility
+9. **Status Reporting**: Provide detailed sync and deployment status
+10. **Memory Update**: Append key patterns to PAI memory.
    - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
 ## Built-in Git Knowledge

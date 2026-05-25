@@ -237,6 +237,19 @@ When linking to knowledge notes, follow these rules from `DgNotes`:
   - CORRECT: `[[knowledge/tools-and-technology/.../mystical-oriented-programming/index|...]]`
 - Never use relative paths (`../`) — they break in Quartz
 
+## Garden MCP Tools — MANDATORY FIRST
+
+**BLOCKING RULE: When looking up existing garden content while writing or editing a blog post, a garden MCP tool MUST be called before any Grep/Glob.** Do not grep for `[[note-name]]` patterns or search for existing notes without first querying the index.
+
+| Operation | Primary Tool | Fallback (only if MCP unavailable or stale) |
+|-----------|-------------|----------------------------------------------|
+| Find knowledge notes on a topic | `mcp__garden__garden_search` | Grep |
+| How a concept connects in the graph | `mcp__garden__garden_context` | Read + Grep |
+| Blog posts already referencing a knowledge note | `mcp__garden__garden_backlinks` | Grep |
+| Explore related concepts before writing | `mcp__garden__garden_explore` | Multiple Grep |
+
+**Index freshness after edits:** After saving a blog post, the index updates within ~1-2s. Use `Read` directly for immediate post-write verification. For bulk blog updates (e.g., fixing frontmatter across multiple posts), call `mcp__garden__garden_status` to confirm the index is current before running any MCP searches.
+
 ## French Translation
 
 French translations live in `content/blog/fr/`. See `TranslationWorkflow.md` for the complete EN→FR workflow.

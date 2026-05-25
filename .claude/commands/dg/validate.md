@@ -1,5 +1,5 @@
 ---
-allowed-tools: [Read, Bash, Glob, Grep]
+allowed-tools: [Read, Bash, Glob, Grep, mcp__garden__garden_status, mcp__garden__garden_files, mcp__garden__garden_tag_list, mcp__garden__garden_tags, mcp__garden__garden_search]
 description: "Validate digital garden content for DG compliance: tags, frontmatter, dates, wikilinks, and emdash rules"
 ---
 
@@ -24,6 +24,15 @@ Systematically validate digital garden content against all DG compliance rules. 
 - `--fix` — Auto-fix safe issues: alias tags → canonical, `created:` → `date:`, `modified:` → `updated:`. Does NOT touch description, unknown tags, or emdash in prose (those require human judgment).
 
 ## Execution
+
+### Step 0: MCP Garden Preflight (MANDATORY — before any shell commands)
+
+1. Call `mcp__garden__garden_status` to get the current index health: total files, last indexed timestamp, and index freshness.
+2. Call `mcp__garden__garden_files` to get the domain tree with per-directory file counts. Use these counts to scope shell validation — they tell you which domains have content.
+3. If `garden_status` reports an index lag > 30 seconds since the last file write (i.e., a `--fix` or bulk edit just ran): note "Index may be stale — shell fallbacks are authoritative for this run" and proceed with shell checks only. Do NOT trust MCP tag queries until `garden_status` confirms freshness.
+4. Use `mcp__garden__garden_tag_list` to get the live tag frequency table. This supplements the TagVocabulary check in Step 4 and catches unknown tags that appear in many files.
+
+**Index rebuild after --fix:** When `--fix` is passed and files are auto-corrected, call `mcp__garden__garden_status` again at the end of the run to confirm the index has caught up with the changes.
 
 ### Step 1: Load Rules (MANDATORY FIRST ACTION)
 Read these files in full before checking a single file:
