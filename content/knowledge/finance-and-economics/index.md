@@ -1,7 +1,7 @@
 ---
 title: Finance and Economics
 date: 2025-02-12
-updated: 2026-05-24
+updated: 2026-06-21
 description: A holistic exploration of economic systems, financial technologies, and sustainable value creation
 aliases:
   - finance-and-economics
@@ -33,6 +33,7 @@ This section delves into the complex world of economic systems, financial techno
 - Regenerative economic models
 - [[open-value-networks|Open Value Networks]] - Collaborative value creation and distribution
 - [[sensorica|Sensorica]] - Real-world OVN implementation and contribution accounting
+- [[grassroots-economics|Grassroots Economics]] - Community inclusion currencies and commitment pooling for local economic resilience
 
 ### 4. Global Economic Dynamics
 - International trade systems
