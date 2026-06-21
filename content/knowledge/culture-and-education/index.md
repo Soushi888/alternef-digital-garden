@@ -3,7 +3,7 @@ title: Culture and Education
 description: A holistic exploration of learning, cultural dynamics, and human knowledge transmission
 tags: ["education", "learning"]
 date: 2025-02-12
-updated: 2026-05-24
+updated: 2026-06-09
 ---
 
 This section explores the intricate relationship between culture, education, and human knowledge, examining how societies learn, evolve, and transmit understanding across generations.
@@ -17,6 +17,7 @@ This section explores the intricate relationship between culture, education, and
 - Transformative learning approaches
 - [[banathy-conversation-methodology|Banathy Conversation Methodology]] - Structured participatory inquiry through self-organized dialogue, no formal presentations
 - [[guild-model|Guild Model]] - Craft transmission through apprenticeship, mastery levels, and demonstrated innovation
+- [[hormesis-and-the-zone-of-proximal-development|Hormesis and the Zone of Proximal Development]] - The shared inverted-U structure of growth across biology and learning
 
 ### 2. Cultural Dynamics
 - Anthropological perspectives
