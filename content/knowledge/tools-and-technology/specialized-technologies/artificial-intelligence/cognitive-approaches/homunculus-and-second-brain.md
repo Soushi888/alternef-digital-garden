@@ -6,6 +6,7 @@ aliases:
   - "Homunculus PKM"
 tags: ["artificial-intelligence", "cognitive-science", "extended-mind", "knowledge-management", "philosophy-of-mind", "digital-garden", "personal-ai-infrastructure"]
 date: 2026-03-11
+updated: 2026-06-21
 ---
 
 Two traditions, separated by centuries, are converging in contemporary AI-assisted knowledge systems. The alchemical Homunculus, a created familiar animated from accumulated matter, and the Second Brain, a cultivated external memory system, are not merely analogous. They are sequential stages of one process: the drive to externalize cognition beyond biological limits.
@@ -79,6 +80,7 @@ The historical proof-of-concept is Luhmann's Zettelkasten: accumulated cards (pr
 
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/index|Cognitive Approaches to AI]]
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/the-homuncular-interface|The Homuncular Interface]]
+- [[blog/uploaded-intelligence-and-the-homunculus|Uploaded Intelligence and the Homunculus]] — Pantheon's destructive upload as the structural inverse of the Homunculus, and the personhood gradient that the "obligations toward the Homunculus" open question above points to.
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]]
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/long-term-memory-engine|Long-Term Memory Engine]]
 - [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/fabric-ai|Fabric AI]]

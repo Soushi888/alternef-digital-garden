@@ -1,6 +1,6 @@
 ---
 title: "📝 Blog"
-updated: 2026-05-24
+updated: 2026-06-21
 aliases:
   - blog
 tags: ["blog"]
@@ -26,6 +26,7 @@ How hyper-local production, bioregional governance, and cosmo-local knowledge sh
 - [[blog/beyond-ownership-resource-flow-protocol|Beyond Ownership: The Resource Flow Protocol]]: How a new protocol transforms resource sharing in commons-based economies.
 - [[blog/what-ikigai-adds-to-the-liberal-tradition|What Ikigai Adds to the Liberal Tradition]]: The missing dimension, freedom as responsibility and service to the common good.
 - [[blog/holochain-ecosystem-reality-check-2025|Holochain Ecosystem Reality Check 2025]]: An honest, data-driven look at where Holochain stands, celebrating progress while addressing real challenges.
+- [[blog/uploaded-intelligence-and-the-homunculus|Uploaded Intelligence and the Homunculus]]: Two ways of joining a mind to a machine. The TV series Pantheon uploads the self into the substrate; the Homunculus cultivates a familiar outside it. Why the show, in the end, argues for the second.
 
 ---
 
