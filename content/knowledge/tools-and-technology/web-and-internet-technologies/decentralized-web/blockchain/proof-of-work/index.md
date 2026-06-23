@@ -1,7 +1,7 @@
 ---
 title: Proof of Work
 date: 2025-02-15
-updated: 2026-05-24
+updated: 2026-06-23
 description: Proof of Work is a consensus algorithm used by certain blockchain networks to validate transactions and create new blocks.
 aliases:
   - Proof of Work
@@ -21,3 +21,10 @@ Here's how it works:
 5. **Reward**: Miners are rewarded for their work with newly minted coins and transaction fees. This incentivizes miners to participate in the network and maintain its security.
 
 Proof of Work is known for its security and resistance to attacks, as it requires significant computational resources to alter the blockchain. However, it also faces criticism for its high energy consumption and environmental impact. This has led to the development of alternative consensus mechanisms, such as [[Proof of Stake]] (PoS), which aim to address these issues.
+
+Not every Proof of Work network rewards miners with newly minted coins. [[knowledge/finance-and-economics/g1-june-currency|Ğ1]] (run on the Duniter software) uses a Proof of Work variant with *personalised difficulty*: the difficulty rises for members who recently produced a block, so block creation rotates among many small participants instead of concentrating in mining farms. There is no block reward at all, since the only money creation is the Universal Dividend shared equally among members, which lets the network run on hardware as modest as a Raspberry Pi.
+
+## Related
+
+- [[knowledge/finance-and-economics/g1-june-currency|Ğ1 (June) Libre Currency]] - A reward-free, energy-light Proof of Work variant with personalised difficulty
+- [[knowledge/finance-and-economics/relative-theory-of-money|Relative Theory of Money]] - The monetary theory behind replacing block rewards with a Universal Dividend

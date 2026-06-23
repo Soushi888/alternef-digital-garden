@@ -1,7 +1,7 @@
 ---
 title: Finance and Economics
 date: 2025-02-12
-updated: 2026-06-21
+updated: 2026-06-23
 description: A holistic exploration of economic systems, financial technologies, and sustainable value creation
 aliases:
   - finance-and-economics
@@ -19,12 +19,14 @@ This section delves into the complex world of economic systems, financial techno
 - Alternative economic models
 - Behavioral economics
 - [[complexity-economy|Complexity Economics]] - Complex adaptive systems approach to economic modeling
+- [[relative-theory-of-money|Relative Theory of Money]] - Symmetry-based monetary theory yielding the Universal Dividend, foundation of the Ğ1 libre currency
 
 ### 2. Financial Technologies
 - Digital financial systems
 - Blockchain and cryptocurrency
 - Fintech innovations
 - Decentralized finance (DeFi)
+- [[g1-june-currency|Ğ1 (June) Libre Currency]] - First cryptocurrency implementing the Relative Theory of Money via a daily Universal Dividend and a human web of trust
 
 ### 3. Sustainable Economic Development
 - Circular economy principles

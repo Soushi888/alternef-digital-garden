@@ -1,6 +1,7 @@
 ---
 title: Commons
 date: 2026-05-24
+updated: 2026-06-23
 description: Shared resources governed collectively by communities, distinct from both private property and state-owned resources
 aliases:
   - commons
@@ -27,5 +28,6 @@ Elinor Ostrom's Nobel Prize-winning research challenged the "[[tragedy-of-the-co
 
 - [[knowledge/governance-and-community/open-value-networks|Open Value Networks]] — Organizational models for commons-based peer production
 - [[knowledge/governance-and-community/digital-fabrics|Digital Fabrics]] — Infrastructure for commons coordination without platform intermediation
+- [[knowledge/finance-and-economics/g1-june-currency|Ğ1 (June) Libre Currency]] - A monetary commons: the libre-currency protocol is collectively governed and money is co-created equally by all members
 - [[knowledge/governance-and-community/index|Governance and Community]] — Broader context for collective resource management
 - [[knowledge/finance-and-economics/index|Finance and Economics]] — Commons-based economic models

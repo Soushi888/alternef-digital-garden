@@ -11,6 +11,7 @@ tags:
   - commons
   - blockchain
 date: 2026-06-21
+updated: 2026-06-23
 draft: false
 ---
 
@@ -69,6 +70,7 @@ The result is an alternative to conventional economic systems, prioritizing coop
 - [[sovereign-economic-node|The Sovereign Economic Node]] - A complementary bottom-up, agent-first approach to economic coordination
 - [[distributed-economic-planning|Distributed Economic Planning]] - Cooperative economic coordination beyond market and state
 - [[ecological-economics|Ecological Economics]] - The ecosystem-restoration dimension of the model
+- [[relative-theory-of-money|Relative Theory of Money]] - Another alternative-currency model, deriving money from spatial and temporal symmetry rather than community vouchers
 - [[knowledge/finance-and-economics/index|Finance and Economics]]
 
 ## References
