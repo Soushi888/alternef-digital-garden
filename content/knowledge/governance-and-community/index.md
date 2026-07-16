@@ -1,7 +1,7 @@
 ---
 title: Governance and Community
 date: 2025-02-12
-updated: 2026-05-24
+updated: 2026-07-16
 description: A holistic exploration of collective organization, social dynamics, and collaborative decision-making
 aliases:
   - "governance-and-community"
@@ -14,66 +14,54 @@ This section explores the intricate dynamics of human organization, examining ho
 
 ## Key Focus Areas
 
-### 1. Democratic Processes
-- Participatory governance models
-- Deliberative democracy
-- Civic engagement strategies
-- Inclusive decision-making frameworks
+This domain is organized into four thematic clusters. The clusters are a map of content, not a folder structure: every note below lives directly in this section.
 
-### 2. Community Dynamics
-- Social network analysis
-- Community resilience
-- Collective identity formation
-- Interpersonal and group communication
+### 1. Commons and Governance Principles
+The foundational theory of shared resources and the principles that let communities govern them without collapsing into either private enclosure or central command.
+- [[commons|Commons]] - Resources owned, maintained, and governed collectively, distinct from both private property and the state
+- [[tragedy-of-the-commons|Tragedy of the Commons]] - Hardin's thesis on shared-resource overexploitation and the community responses that challenge it
+- [[ostroms-design-principles|Ostrom's Design Principles]] - Eight empirically-derived conditions for robust, self-governing commons institutions
+- [[true-commons|True Commons]] - Digital implementation embedding governance rules directly into shared resources
+- [[stewardship|Stewardship]] - Caretaker mindset: responsible management of what is entrusted rather than owned
+- [[solidarity|Solidarity]] - Mutual responsibility and care for the common good
+- [[sustainability|Sustainability]] - Meeting present needs without compromising future generations
 
-### 3. Organizational Structures
-- Collaborative leadership models
-- Decentralized organizational design
-- Adaptive governance systems
-- Conflict resolution mechanisms
-- [[collective-intelligence|Collective Intelligence]] - Shared group intelligence emerging from distributed collaboration, coordination, and diverse individual contributions
-- [[open-value-networks|Open Value Networks]] - Commons-based peer production models
-- [[holomidale-collective-intelligence|Holomidale Collective Intelligence]] - Decentralized, self-organized collective intelligence emerging from digital tools, contrasted with pyramidal command structures
-- [[holonic-structure|Holonic Structure]] - Organizational model of autonomous units (holons) arranged in recursive hierarchies (holarchies), combining local autonomy with systemic coordination
+### 2. Scale and Place-Based Governance
+How authority distributes across local, regional, and global scales, and how it roots in specific places and ecosystems.
+- [[subsidiarity|Subsidiarity]] - Allocating each decision to the most local level competent to handle it
+- [[polycentric-governance|Polycentric Governance]] - Many autonomous, interdependent decision centers coordinating without a single central authority
+- [[fractal-sovereignty|Fractal Sovereignty]] - Multi-scale integration of hyper-local, bioregional, and cosmo-local scales through self-similar patterns
+- [[hyper-localism|Hyper-Localism]] - Extreme decentralization prioritizing neighborhood and household autonomy
+- [[bioregionalism|Bioregionalism]] - Organizing human societies within natural ecological boundaries rather than political borders
+- [[cosmo-localism|Cosmo-localism]] - Global knowledge sharing paired with local production ("design global, manufacture local")
 
-### 4. Digital Governance
-- Online community management
-- Digital democracy technologies
-- Open-source governance models
-- Collaborative digital platforms
-- [[peer-to-peer-infrastructure-governance|The History of P2P: Infrastructure as Governance]] - How each wave of P2P revealed that coordination infrastructure is always a governance structure
-- [[agent-centric-architecture|Agent-centric architectures]]
+### 3. Decentralized Coordination and Digital Governance
+Networked, platform-independent infrastructures and methods for organizing collective action.
+- [[distributed-governance|Distributed Governance]] - Governance distributed across a network of participants rather than concentrated in a central body
+- [[digital-fabrics|Digital Fabrics]] - Decentralized coordination infrastructure enabling self-organizing, commons-based coordination without platform intermediation
+- [[peer-to-peer-infrastructure-governance|The History of P2P: Infrastructure as Governance]] - How each wave of P2P revealed that coordination infrastructure is always governance
+- [[dao|DAO]] - Decentralized autonomous organizations: governance rules encoded and executed on shared infrastructure
 - [[network-state-movement|Network State Movement]] - Digital nations and crypto-governance
-- [[open-value-networks|Open Value Networks]] - Decentralized collaborative economic models
-- [[sensorica|Sensorica]] - Pioneering OVN for open-source scientific instrumentation
-- [[cognicism|Cognicism]] - AI-augmented collective decision-making and belief tracking systems
-- [[digital-fabrics|Digital Fabrics]] - Decentralized coordination infrastructure enabling self-organizing, anti-fragile, commons-based coordination without platform intermediation
-- [[holoptism|Holoptism]] - P2P coordination processes enabling transparent access to participant information and project aims, fostering collective intelligence through horizontal and vertical transparency
-- [[open-source-program-office|Open Source Program Office (OSPO)]] - Organizational competency center for open-source strategy, policy, compliance, and community engagement
+- [[open-source-program-office|Open Source Program Office (OSPO)]] - Organizational center for open-source strategy, policy, and community engagement
+- [[open-value-networks|Open Value Networks]] - Commons-based peer production and network value accounting
+- [[sensorica|Sensorica]] - Pioneering open value network for open-source scientific instrumentation
+- [[sociocracy-3|Sociocracy 3.0]] - Consent-based social technology for agile, effective collaborative governance
+- [[agent-centric-architecture|Agent-centric Architectures]] - Systems designed around individual agents rather than a shared global ledger
 
-### 7. Governance Principles and Frameworks
-- [[tragedy-of-the-commons|Tragedy of the Commons]] - Hardin's thesis on shared resource overexploitation and community governance responses
-- [[ostroms-design-principles|Ostrom's Design Principles]] - Eight empirically-derived conditions for robust, self-governing institutions managing common-pool resources
-- [[subsidiarity|Subsidiarity]] - Principle of allocating tasks and decisions to the most local level capable of handling them effectively
-- [[hyper-localism|Hyper-Localism]] - Philosophy of extreme decentralization prioritizing neighborhood and household-level autonomy
-- [[sociocracy-3|Sociocracy 3.0]] - Open-source social technology for agile, effective collaboration through consent-based governance and continuous improvement
-- Democratic participation and citizen engagement
-- Multi-level governance and intergovernmental coordination
-- Decentralization and local autonomy frameworks
+### 4. Collective Intelligence and Complexity
+How coordinated intelligence and robust order emerge from many interacting agents without central control.
+- [[collective-intelligence|Collective Intelligence]] - Shared group intelligence emerging from distributed collaboration and diverse contributions
+- [[holomidale-collective-intelligence|Holomidale Collective Intelligence]] - Decentralized, self-organized collective intelligence contrasted with pyramidal command
+- [[holonic-structure|Holonic Structure]] - Autonomous units (holons) arranged in recursive holarchies, combining local autonomy with systemic coordination
+- [[holoptism|Holoptism]] - Transparent access to the whole, enabling collective intelligence through horizontal and vertical visibility
+- [[cognicism|Cognicism]] - AI-augmented collective decision-making and belief-tracking systems
+- [[complexity-science|Complexity Science]] - Emergence, self-organization, and adaptation in complex systems (cross-linked with Culture and Education)
 
-### 5. Social Justice and Equity
-- Systemic inequality analysis
-- Inclusive policy development
-- Community empowerment strategies
-- Intersectional approaches to social change
-
-### 6. Place-Based Governance
-- [[cosmo-localism|Cosmo-localism]] - Global knowledge, local production
-- [[bioregionalism|Bioregionalism]] - Governance by natural boundaries
-- [[hyper-localism|Hyper-Localism]] - Extreme decentralization and governance at neighborhood and household scales
-- [[stewardship|Stewardship]] - Caretaker mindset for responsible management
-- Watershed councils and ecological democracy
-- Glocal approaches to resilience
+### Emerging Themes
+Aspirational areas not yet mapped to dedicated notes:
+- **Democratic processes**: participatory models, deliberative democracy, civic engagement
+- **Community dynamics**: social-network analysis, community resilience, collective identity
+- **Social justice and equity**: systemic inequality, inclusive policy, community empowerment
 
 ## Guiding Principles
 - Collective empowerment
