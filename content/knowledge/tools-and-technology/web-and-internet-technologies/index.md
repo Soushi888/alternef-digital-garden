@@ -30,6 +30,7 @@ This section delves into the intricate world of web technologies, exploring the 
 - Blockchain and distributed technologies
 - Decentralized identity systems
 - Open-source web infrastructures
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/index|Decentralized Web]] - Protocols and platforms for internet infrastructure without central authorities
 
 ### 4. Web Development Frameworks
 - Frontend and backend technologies
@@ -48,6 +49,13 @@ This section delves into the intricate world of web technologies, exploring the 
 - WebAssembly
 - Edge computing
 - AI-driven web technologies
+
+### 7. Digital Gardens and Knowledge Management
+- [[digital-garden|Digital Garden]] - A modern approach to personal knowledge management and online publishing
+- [[quartz|Quartz]] - Static site generator that turns Markdown into a fully functional digital garden
+- [[zettelkasten|Zettelkasten]] - Luhmann's method of atomic, interlinked notes forming a self-organizing knowledge network
+- [[personal-knowledge-management|Personal Knowledge Management]] - Collecting, organizing, and connecting information for learning and decision-making
+- [[organic-note-maturity|Organic Note Maturity]] - How notes gain maturity through cross-references and return visits, without formal promotion stages
 
 ## Guiding Principles
 - Open and accessible internet

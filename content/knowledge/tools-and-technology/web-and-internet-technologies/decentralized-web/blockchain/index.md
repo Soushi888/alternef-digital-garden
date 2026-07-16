@@ -20,6 +20,7 @@ Blockchain is a revolutionary distributed ledger technology that enables secure,
 - First blockchain consensus mechanism
 - High computational complexity
 - Examples: Bitcoin, early blockchain networks
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/blockchain/proof-of-work/index|Proof of Work]] - Consensus by computational work, with an overview of proof-of-work chains
 
 ### 2. Proof of Stake (PoS)
 

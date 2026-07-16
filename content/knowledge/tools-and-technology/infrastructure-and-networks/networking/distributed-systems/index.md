@@ -79,6 +79,15 @@ Distributed systems rely on various communication patterns and design techniques
 - [[knowledge/tools-and-technology/security-and-privacy/cryptography/byzantine-fault-tolerance|Byzantine Fault Tolerance]] - Handling arbitrary failures
 - [[consensus|Consensus Algorithms]] - Agreement in distributed systems
 
+## Notes in This Section
+
+- [[peer-to-peer|Peer-to-Peer Networking]] - Architecture where nodes act as equal peers, coordinating without central servers
+- [[bittorrent|BitTorrent Protocol]] - Peer-to-peer protocol distributing file data across a swarm of nodes
+- [[conflict-free-replicated-data-types|Conflict-Free Replicated Data Types (CRDTs)]] - Data structures enabling concurrent replica updates that merge without conflict
+- [[automerge|Automerge]] - CRDT-based library for building local-first, collaborative applications with automatic merging
+- [[swarm-computing|Swarm Computing]] - Distributed coordination where many simple nodes self-organize into collective behavior
+- [[utopia|Utopia]] - Decentralized peer-to-peer ecosystem for private communication and data transfer
+
 ## Related Topics
 
 ![[failures|Failures in Distributed Systems]]

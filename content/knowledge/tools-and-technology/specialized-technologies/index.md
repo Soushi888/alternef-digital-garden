@@ -19,6 +19,7 @@ This section delves into specialized technological domains, exploring innovative
 - Neural networks and deep learning
 - Natural language processing
 - Computer vision and perception systems
+- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|Artificial Intelligence]] - Systems performing tasks that traditionally require human intelligence
 
 ### 2. Geographic Information Systems (GIS)
 - Spatial data analysis
@@ -31,6 +32,7 @@ This section delves into specialized technological domains, exploring innovative
 - Interactive storytelling
 - Game engine technologies
 - Computational creativity in game design
+- [[knowledge/tools-and-technology/specialized-technologies/game-development/index|Game Development]] - Game design, engines, and interactive systems
 
 ### 4. Development Tools and Platforms
 - Advanced integrated development environments
@@ -43,6 +45,7 @@ This section delves into specialized technological domains, exploring innovative
 - Neuromorphic engineering
 - Edge and distributed computing
 - Biomimetic technologies
+- [[knowledge-graphs|Knowledge Graphs]] - Graph-structured data models representing entities and relationships for semantic querying
 - **Mathematical Foundations**: See [[knowledge/tools-and-technology/mathematics/index|Mathematics]] for mathematical structures like the [[knowledge/tools-and-technology/mathematics/perez-hourglass|Perez Hourglass]] with applications in quantum computing and AI memory
 
 ## Guiding Principles

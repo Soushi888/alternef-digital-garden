@@ -6,8 +6,6 @@ description: A holistic exploration of human wellness, integrative health practi
 tags: ["personal-development", "mind-body-connection", "health", "movement-practices", "psychology", "stress-physiology", "preventive-medicine"]
 ---
 
-# Health and Wellbeing
-
 ## Overview
 
 This section explores the multidimensional nature of human health, examining physical, mental, emotional, and spiritual aspects of wellbeing through an integrative and compassionate lens.
@@ -19,15 +17,20 @@ This section explores the multidimensional nature of human health, examining phy
 - Exercise and movement practices
 - Preventive healthcare strategies: [[hormesis|Hormesis]]
 - Biomechanics and human performance
+- [[wolffs-law|Wolff's Law]] - Bone adapts its density and structure to the mechanical loads placed on it
 
 ### 2. Mental and Emotional Wellness
 - Psychological resilience and integration: [[shadow-work|Shadow Work]]
 - Stress management techniques
 - Emotional intelligence development
 - Mindfulness and meditation practices
+- [[mental-health|Mental Health]] - Psychological and emotional wellbeing: coping with stress, working productively, and contributing to community
+- [[self-awareness|Self-Awareness]] - Seeing oneself clearly: thoughts, emotions, patterns, strengths, and blind spots
+- [[consciousness|Consciousness]] - Awareness and subjective first-person experience across contemplative and scientific inquiry
 
 ### 3. Holistic Healing Approaches
 - Integrative and complementary medicine
+- [[holistic-healing|Holistic Healing]] - Addressing the whole person (body, mind, emotions, spirit) rather than isolated symptoms
 - Traditional healing wisdom
 - Mind-body healing practices: [[knowledge/health-and-wellbeing/yoga/index|Yoga Traditions]] ([[hatha-yoga|Hatha Yoga]], [[yoga-des-pharaons|Yoga des Pharaons]], [[kundalini-yoga|Kundalini Yoga]]), [[qi-gong|Qi Gong]]
 - Traditional healing wisdom: [[essenian-healing|Essenian Healing]], [[traditional-chinese-medicine|Traditional Chinese Medicine]], [[ayurveda|Ayurveda]]

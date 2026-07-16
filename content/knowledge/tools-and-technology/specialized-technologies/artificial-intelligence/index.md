@@ -127,3 +127,17 @@ Artificial Intelligence represents a dynamic, evolving field with profound impli
 - [[personal-ai-infrastructure|Personal AI Infrastructure (PAI)]] - Open-source framework for building a personalized Digital Assistant with persistent context, life OS, and structured workflow
 - [[long-term-memory-engine|Long-Term Memory Engine]] - Contextual AI memory systems
 - [[information-economy-meta-language|IEML]] - Semantic interoperability meta-language
+
+## Notable Models and Techniques
+
+- [[gpt|GPT]] - OpenAI's Generative Pre-trained Transformer series, the most widely deployed commercial language models
+- [[llama|Llama]] - Meta's open-weight large language model series, enabling local and community AI deployment
+- [[dalle|DALL-E]] - OpenAI's text-to-image model, producing images from natural language prompts
+- [[midjourney|Midjourney]] - Commercial AI image generation service known for distinctive aesthetic quality
+- [[prompt-engineering|Prompt Engineering]] - Designing and optimizing prompts to reliably elicit desired model behavior
+
+## Subdomains
+
+- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/cognitive-approaches/index|Cognitive Approaches in AI]] - Metacognitive and reasoning-oriented AI methods
+- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/music-generation/index|AI Music Generation]] - Generative models for music and audio
+- [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/protocols/index|AI Protocols]] - Protocols and interfaces for AI systems

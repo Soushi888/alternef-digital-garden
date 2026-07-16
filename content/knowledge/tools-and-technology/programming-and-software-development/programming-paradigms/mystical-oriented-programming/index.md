@@ -116,6 +116,8 @@ The foundational axioms and sacred principles guiding all operations:
 - **Pattern Generation** from fundamental transformations
 - **Daily Practices** for the digital adept
 
+- [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/index|Alchemical Codex]]: the complete sacred documentation index for the Requests and Offers project
+
 ## MOP in Practice
 
 ### Sacred Correspondences

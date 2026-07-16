@@ -19,12 +19,14 @@ This section navigates the complex landscape of digital security and privacy, ex
 - Public key infrastructure
 - Secure communication protocols
 - Cryptographic primitives and their applications
+- [[knowledge/tools-and-technology/security-and-privacy/cryptography/index|Cryptography]] - Techniques, algorithms, and primitives for secure communication
 
 ### 2. Authentication and Identity
 - Multi-factor authentication
 - Identity management systems
 - Biometric technologies
 - Zero-knowledge proof systems
+- [[knowledge/tools-and-technology/security-and-privacy/authentication/index|Authentication]] - Mechanisms for verifying identity and managing access
 
 ### 3. Network Security
 - Firewall technologies

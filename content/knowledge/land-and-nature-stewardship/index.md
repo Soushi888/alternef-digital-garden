@@ -31,6 +31,7 @@ Land and Nature Stewardship is an interdisciplinary approach that seeks to under
 - Indigenous conservation strategies
 - Cultural landscape preservation
 - Wisdom of place-based communities
+- [[indigenous-knowledge|Indigenous Knowledge Systems]] - Traditional ecological and cultural knowledge developed through generations of direct relationship with specific places
 
 ### 4. Bioregional Regeneration and Resilience
 - [[bioregional-stewardship|Watershed restoration and natural hydrology rebuilding]]
@@ -38,6 +39,8 @@ Land and Nature Stewardship is an interdisciplinary approach that seeks to under
 - Native biodiversity recovery and keystone species reintroduction
 - [[circular-bioregional-economies|Circular local economies and bioregional resource flows]]
 - Community-scale ecological stewardship and resilience building
+- [[watersheds|Watersheds]] - Geographical units where surface water drains to a common outlet, the foundation of ecosystem organization
+- [[watershed-restoration|Watershed Restoration]] - Water-centered land management that restores natural hydrology as the basis for ecosystem health
 
 ### 5. Human-Nature Relationships
 - Environmental psychology

@@ -81,6 +81,11 @@ DevOps emerged in the late 2000s, driven by thought leaders like Patrick Debois 
 
 In essence, DevOps is about delivering software faster, better, and more reliably by aligning people, processes, and technology. It's a cultural and technical revolution that's become a cornerstone of modern software engineering.
 
+## Notes in This Section
+
+- [[docker|Docker]] - Containerization platform packaging applications and dependencies into portable, isolated containers
+- [[make|Make]] - Build automation tool that runs tasks and builds targets from rules declared in a Makefile
+
 
 
 

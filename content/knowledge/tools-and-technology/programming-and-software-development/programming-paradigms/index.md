@@ -63,6 +63,8 @@ _How computation is structured and executed_
 - **Functional**: Computation as evaluation of mathematical functions
 - **Object-Oriented**: Organizing code around objects and their interactions
 - **Logic**: Programming through logical relationships and rules
+- [[functional-programming|Functional Programming]]: function composition, immutability, and declarative computation
+- [[object-oriented-programming|Object-Oriented Programming]]: organizing software design around data objects and their interactions
 
 ### Architectural Paradigms
 
@@ -83,6 +85,7 @@ _Specialized approaches for particular problem domains_
 - **Mystical Oriented Programming**: Wisdom-tradition informed development
 - **Complexity Oriented Programming**: Ecology-informed, emergence-first distributed systems
 - **[Fractal Composability](fractal-composability.md)**: Recursive self-application of a primitive to generate the full design space
+- [[cop-lang-sketch|COP-Lang Sketch]]: a syntax sketch for a DSL describing complex systems as ecologies of agents, resources, feedback loops, and attractors
 
 ## Paradigm Relationships
 

@@ -112,5 +112,6 @@ Techniques for building robust and maintainable software.
 
 - [[knowledge/tools-and-technology/programming-and-software-development/software-architecture/index|Software Architecture]]
 - [[specification-driven-development|Specification-Driven Development]]
+- [[innersource|InnerSource]]: applying open-source practices and culture to proprietary code within an organization
 - Clean Code
 - Software Design Principles

@@ -18,6 +18,7 @@ This section delves into the intricate world of digital infrastructure, explorin
 - Internet infrastructure
 - Communication paradigms
 - Network security and resilience
+- [[knowledge/tools-and-technology/infrastructure-and-networks/networking/index|Networking]] - Network protocols, architectures, and communication
 
 ### 2. Distributed Systems
 
@@ -32,6 +33,7 @@ This section delves into the intricate world of digital infrastructure, explorin
 - Infrastructure as Code (IaC)
 - Automated system management
 - Deployment strategies and best practices
+- [[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|DevOps]] - Practices and tooling unifying software development and operations
 
 ### 4. Cloud Computing
 

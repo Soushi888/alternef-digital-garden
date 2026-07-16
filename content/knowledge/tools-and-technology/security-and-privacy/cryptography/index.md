@@ -38,6 +38,7 @@ Cryptography is the practice and study of techniques for secure communication in
 - [[Byzantine Fault Tolerance]]
 - [[Formal validation]]
 - [[blind-commit-reveal-protocol|Blind Commit-Reveal Validation Protocol]]
+- [[mav|Minimum Attack Vector]] - a metric of blockchain mining decentralization
 
 ## Practical Applications
 

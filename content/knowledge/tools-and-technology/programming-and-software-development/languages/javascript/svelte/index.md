@@ -117,6 +117,7 @@ Svelte components are written in `.svelte` files that combine HTML, CSS, and Jav
 - **[[sveltepress|SveltePress]]**: Documentation framework for Svelte
 - **[[svelte-persisted-store|Svelte Persisted Store]]**: State persistence for Svelte
 - **[[shadcn-svelte|Shadcn Svelte]]**: UI component collection
+- **[[made-with-svelte|Made With Svelte]]**: a showcase gallery of applications and sites built with Svelte
 
 ## Getting Started
 

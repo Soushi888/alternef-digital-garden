@@ -36,6 +36,8 @@ This section delves into the complex world of economic systems, financial techno
 - [[open-value-networks|Open Value Networks]] - Collaborative value creation and distribution
 - [[sensorica|Sensorica]] - Real-world OVN implementation and contribution accounting
 - [[grassroots-economics|Grassroots Economics]] - Community inclusion currencies and commitment pooling for local economic resilience
+- [[ecological-economics|Ecological Economics]] - Treats the economy as a subsystem of the biosphere, with natural limits as binding constraints
+- [[fourth-sector|Fourth Sector]] - For-benefit organizations blending market strategies with social and environmental missions
 
 ### 4. Global Economic Dynamics
 - International trade systems
@@ -49,6 +51,7 @@ This section delves into the complex world of economic systems, financial techno
 - Risk management
 - Ethical financial decision-making
 - [[accounting-systems|Accounting Systems: Single vs Double Entry]] - Traditional accounting methodologies and financial management systems
+- [[triple-bottom-line-accounting|Triple Bottom Line Accounting]] - Measuring organizational performance across profit, people, and planet
 
 ### 6. Sovereign Economic Infrastructure
 - [[distributed-economic-planning|Distributed Economic Planning]] - Software infrastructure for cooperative economic coordination beyond market and state

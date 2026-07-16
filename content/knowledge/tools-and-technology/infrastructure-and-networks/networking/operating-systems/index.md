@@ -19,6 +19,9 @@ Comprehensive comparison of monolithic kernels, microkernels, and unikernels, ex
 ### [[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/index|Linux Systems]]
 Deep dive into the world's most successful open-source operating system, its distributions, and ecosystem.
 
+### [[mirageos|MirageOS]]
+Library operating system for building secure, high-performance unikernel applications entirely in OCaml.
+
 ## Key Concepts
 
 ### System Architecture

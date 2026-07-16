@@ -68,6 +68,7 @@ Linux distributions package the kernel with selected software to create complete
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu]]**: User-friendly, popular for servers and desktops
 - **Debian**: Stable, conservative release cycle, excellent package management
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/linux-mint|Linux Mint]]**: Ubuntu-based with enhanced desktop experience
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/kubuntu|Kubuntu]]**: Ubuntu's KDE Plasma variant, combining Ubuntu's stability with the KDE desktop
 - **Elementary OS**: macOS-inspired design and user experience
 
 **Red Hat-based Distributions**:
@@ -78,6 +79,9 @@ Linux distributions package the kernel with selected software to create complete
 **Arch-based Distributions**:
 - **Arch Linux**: Rolling release, minimalist, user-controlled configuration
 - **Manjaro**: Arch-based with user-friendly installation and configuration
+
+**SUSE-based Distributions**:
+- **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/opensuse|openSUSE]]**: Community distribution sponsored by SUSE, with a rolling release (Tumbleweed) and a stable release (Leap)
 
 **Specialized Distributions**:
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/nix|NixOS]]**: Declarative configuration, reproducible systems
