@@ -21,7 +21,7 @@ The foundational theory of shared resources and the principles that let communit
 - [[commons|Commons]] - Resources owned, maintained, and governed collectively, distinct from both private property and the state
 - [[tragedy-of-the-commons|Tragedy of the Commons]] - Hardin's thesis on shared-resource overexploitation and the community responses that challenge it
 - [[ostroms-design-principles|Ostrom's Design Principles]] - Eight empirically-derived conditions for robust, self-governing commons institutions
-- [[true-commons|True Commons]] - Digital implementation embedding governance rules directly into shared resources
+- [[nondominium|Nondominium]] - Property-relations model of custodianship over ownership, with an active Holochain implementation
 - [[stewardship|Stewardship]] - Caretaker mindset: responsible management of what is entrusted rather than owned
 - [[solidarity|Solidarity]] - Mutual responsibility and care for the common good
 - [[sustainability|Sustainability]] - Meeting present needs without compromising future generations

@@ -51,7 +51,7 @@ The third wave attempts to break the centralization paradox by rethinking what k
 
 This architectural shift has a specific governance consequence: it refuses to produce the single capturable ledger that concentrates power. There is no global state for an oligarchy to control. [[what-is-holochain|Holochain]]'s validation rules are community-defined and community-enforced. The protocol provides primitives; governance lives above the substrate, in human social structures.
 
-The [[true-commons|True Commons]] project (Sensorica) builds on this explicitly, using [[valueflows|ValueFlows]]/REA accounting to track contributions and value flows in peer production networks, implementing Ostrom's commons governance principles as a working system rather than a metaphor.
+The [[nondominium|Nondominium]] project (Sensorica) builds on this explicitly, using [[valueflows|ValueFlows]]/REA accounting to track contributions and value flows in peer production networks, implementing Ostrom's commons governance principles as a working system rather than a metaphor.
 
 ## First Principles: What P2P Actually Is
 
@@ -104,7 +104,7 @@ The leverage point is not the protocol or the governance separately. It is the c
 - [[distributed-hash-table|Distributed Hash Tables]] (discovery layer architecture)
 - [[what-is-holochain|Holochain]] (agent-centric P2P implementation)
 - [[open-value-networks|Open Value Networks]] (commons-based peer production)
-- [[true-commons|True Commons]] (commons governance implementation on Holochain)
+- [[nondominium|Nondominium]] (commons governance implementation on Holochain)
 - [[complexity-science|Complexity Science]] (emergence, attractors, scale-free networks)
 - [[valueflows|ValueFlows]] (REA ontology for commons accounting)
 - [[knowledge/governance-and-community/index|Governance and Community]]

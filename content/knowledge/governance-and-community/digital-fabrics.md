@@ -94,7 +94,7 @@ This paradigm shift moves from platform-mediated coordination (where platforms c
 
 ### 1. Coordination Fabrics
 - **Purpose**: Enable stigmergic resource coordination
-- **Examples**: [[true-commons|True Commons]], supply chain coordination systems
+- **Examples**: [[nondominium|Nondominium]], supply chain coordination systems
 - **Key Features**: Resource tracking, event flows, governance embedding
 
 ### 2. Identity Fabrics
@@ -173,9 +173,9 @@ This paradigm shift moves from platform-mediated coordination (where platforms c
 
 ## Use Cases and Applications
 
-### True Commons as Coordination Fabric
+### Nondominium as Coordination Fabric
 
-[[true-commons|True Commons]] stands as a pioneering implementation of a **Coordination Fabric**, demonstrating how digital resources can exist, coordinate, and evolve independently of any centralized control structure. The project, available on [GitHub](https://github.com/Sensorica/true_commons), showcases:
+[[nondominium|Nondominium]] stands as a pioneering implementation of a **Coordination Fabric**, demonstrating how digital resources can exist, coordinate, and evolve independently of any centralized control structure. The project, available on [GitHub](https://github.com/sensorica/nondominium), showcases:
 
 - **Digital Resource Management**: Autonomous lifecycle management
 - **Collaborative Production**: Stigmergic coordination of creative work

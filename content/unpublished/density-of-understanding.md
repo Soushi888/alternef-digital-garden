@@ -62,7 +62,7 @@ The Great Work is not trying to make everyone understand CRISPR or AI alignment.
 
 **hAppenings (Requests and Offers)** addresses coordination under complexity directly. When a community can see, in real time, what its members need and what they can offer, it doesn't require every member to understand the full system. It requires that each member can articulate their particular piece of it, and that the community has infrastructure to match those pieces. This is complexity-navigation through **[[holoptism|visible coordination]]**, not comprehensive understanding.
 
-**[[nondominium-presentation|Nondominium]]** addresses governance under complexity. [[true-commons|Commons resources]] (land, data, shared infrastructure, local climate adaptation) require governance. But governance in accelerating complexity breaks down when it requires experts to hold all power, or when it requires every member to be a policy specialist. Nondominium builds the infrastructure for **[[fractal-sovereignty-multi-scale-integration|distributed authority]]**: governance that doesn't require universal expertise because it distributes decision rights appropriately to who is affected.
+**[[nondominium-presentation|Nondominium]]** addresses governance under complexity. [[nondominium|Commons resources]] (land, data, shared infrastructure, local climate adaptation) require governance. But governance in accelerating complexity breaks down when it requires experts to hold all power, or when it requires every member to be a policy specialist. Nondominium builds the infrastructure for **[[fractal-sovereignty-multi-scale-integration|distributed authority]]**: governance that doesn't require universal expertise because it distributes decision rights appropriately to who is affected.
 
 **IDI (through [[digital-homunculus|PAI as proof of concept]])** addresses the individual dimension without pretending to solve the collective problem through individual mastery. IDI is not "teach everyone everything." IDI is **personalized developmental infrastructure**: AI that helps each person navigate their own learning path, at their own pace, in the direction that serves their actual life. The goal is not to produce people who understand everything; it is to produce people who can navigate their own understanding, identify their own gaps, and find the community resources to fill them.
 
@@ -93,6 +93,6 @@ The Work is not finished. But it is aimed at exactly the right target.
 - [[digital-homunculus|The Digital Homunculus]]
 - [[complexity-science|Complexity Science]]
 - [[holoptism|Holoptism]]
-- [[true-commons|True Commons]]
+- [[true-commons|True Commons]] (deprecated, superseded by [[nondominium|Nondominium]])
 - [[open-value-networks|Open Value Networks]]
 - [[fractal-sovereignty-multi-scale-integration|Fractal Sovereignty and Multi-Scale Integration]]

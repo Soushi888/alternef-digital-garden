@@ -48,7 +48,7 @@ This creates a reputation layer: aggregated feedback history across an agent's i
 
 ---
 
-## Shared Foundation with [[nondominium|Nondominium]]
+## Shared Foundation with [[nondominium-project|Nondominium]]
 
 Both Requests & Offers and Nondominium are built on the same Holochain stack (HDK 0.6 / HDI 0.7), use Svelte 5 + SvelteKit frontends, and share a [[valueflows|ValueFlows]]/[[hrea|hREA]] semantic foundation. Both projects are also exploring [[unyt|Unyt]] integration for decentralized accounting at scale.
 

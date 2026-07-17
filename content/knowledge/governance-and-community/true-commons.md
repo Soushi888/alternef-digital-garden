@@ -1,16 +1,19 @@
 ---
-title: "True Commons"
-description: "Pioneering implementation of Digital Fabrics demonstrating autonomous resource coordination without platform control"
+title: "True Commons (Deprecated)"
+description: "Deprecated: True Commons has been superseded by Nondominium. See the Nondominium project for the active commons governance infrastructure."
 aliases: ["true commons project", "autonomous digital commons"]
-tags: ["commons", "governance", "sensorica", "coordination-infrastructure", "autonomous-agents"]
+tags: ["commons", "governance", "sensorica", "coordination-infrastructure", "deprecated"]
 created: 2025-01-28
-modified: 2025-01-28
+updated: 2026-07-17
 draft: false
 ---
 
-# True Commons
+> [!warning] Deprecated: Superseded by Nondominium
+> This note describes the **True Commons** proof-of-concept, which has been superseded by [[nondominium|Nondominium]] as the active commons governance infrastructure in the [[sensorica|Sensorica]] ecosystem. Nondominium extends the same ValueFlows-compliant, Holochain-based resource coordination with an explicit custodianship model and embedded governance.
+>
+> New notes should link to [[nondominium|Nondominium]] rather than this page. This note is retained for historical context and to keep existing links from breaking.
 
-True Commons is a pioneering implementation of [[digital-fabrics|Digital Fabrics]] that demonstrates how digital resources can exist, coordinate, and evolve independently of any centralized control structure. Developed as part of the [[sensorica|Sensorica]] ecosystem, True Commons serves as a concrete example of fabric-based coordination infrastructure.
+True Commons is a pioneering implementation of [[digital-fabrics|Digital Fabrics]] that demonstrates how digital resources can exist, coordinate, and evolve independently of any centralized control structure. Developed as part of the [[sensorica|Sensorica]] ecosystem, True Commons served as a concrete example of fabric-based coordination infrastructure and as the predecessor of [[nondominium|Nondominium]].
 
 ## Overview
 
@@ -74,4 +77,4 @@ True Commons represents a crucial step toward post-platform coordination by:
 
 ---
 
-*True Commons serves as a foundational implementation showing how Digital Fabrics can enable truly autonomous, self-governing digital ecosystems without platform intermediation.*
+*True Commons served as a foundational implementation showing how Digital Fabrics can enable truly autonomous, self-governing digital ecosystems without platform intermediation. Its active successor, [[nondominium|Nondominium]], carries this work forward.*

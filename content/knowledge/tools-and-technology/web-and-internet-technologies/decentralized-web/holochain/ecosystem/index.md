@@ -44,7 +44,7 @@ This section explores the vibrant ecosystem surrounding Holochain technology, in
 
 ### Featured hApps
 
-- [[nondominium|Nondominium]]: Distributed resource management with custodianship model
+- [[nondominium-project|Nondominium]]: Distributed resource management with custodianship model
 - [[requests-and-offers|Requests & Offers]]: P2P marketplace for skills, services, and resources
 - Acorn: Project management and coordination
 - DeepKey: Distributed key management

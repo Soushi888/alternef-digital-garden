@@ -66,7 +66,7 @@ Who I am, how I got here, and what drives the work.
 Longer-form writing, research, and experiments.
 
 ### [[portfolio|🛠️ Portfolio]]
-The technical projects: [[nondominium|Nondominium]], [[requests-and-offers|Requests & Offers]], and the Holochain infrastructure work.
+The technical projects: [[nondominium-project|Nondominium]], [[requests-and-offers|Requests & Offers]], and the Holochain infrastructure work.
 
 Or simply follow the links between notes. That is how a garden is meant to be explored.
 

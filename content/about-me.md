@@ -31,7 +31,7 @@ That convergence is where I work today. The vocabulary problem (how do different
 
 My main projects form a coherent stack:
 
-**[[nondominium|Nondominium]]** is a [[valueflows|ValueFlows]]-compliant application for tracking and governing shared resources on Holochain, developed with Tiberius Brastaviceanu (Tibi) from [[sensorica|Sensorica's]] Open Value Network. The core idea is custodianship rather than ownership: resources belong to the commons and are managed by designated custodians. We're building the person management, resource tracking, and governance zomes that form the foundational MVP, with a Python ERP bridge connecting legacy systems like Dolibarr to the distributed commons.
+**[[nondominium-project|Nondominium]]** is a [[valueflows|ValueFlows]]-compliant application for tracking and governing shared resources on Holochain, developed with Tiberius Brastaviceanu (Tibi) from [[sensorica|Sensorica's]] Open Value Network. The core idea is custodianship rather than ownership: resources belong to the commons and are managed by designated custodians. We're building the person management, resource tracking, and governance zomes that form the foundational MVP, with a Python ERP bridge connecting legacy systems like Dolibarr to the distributed commons.
 
 **[[requests-and-offers|Requests & Offers]]** is a peer-to-peer marketplace for the Holochain ecosystem, built with hAppenings Community. It enables organic matchmaking of skills, services, and resources without a centralized platform extracting value from every transaction.
 

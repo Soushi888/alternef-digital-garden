@@ -60,12 +60,12 @@ Ostrom's principles apply well beyond traditional CPRs:
 - **Knowledge commons**: Academic research networks, data-sharing agreements
 - **Infrastructure governance**: Internet protocols, shared infrastructure management
 
-The [[true-commons|True Commons]] project exemplifies an attempt to implement these principles in digital infrastructure, embedding governance rules directly within resources rather than relying on external enforcement.
+The [[nondominium|Nondominium]] project exemplifies an attempt to implement these principles in digital infrastructure, embedding governance rules directly within resources rather than relying on external enforcement.
 
 ## Related Topics
 
 - [[knowledge/governance-and-community/index|Governance and Community]]
 - [[subsidiarity|Subsidiarity]] - The nested enterprises principle maps closely to subsidiarity's logic
 - [[complexity-science|Complexity Science]] - Polycentric systems and emergent governance
-- [[true-commons|True Commons]] - Digital implementation of commons governance
+- [[nondominium|Nondominium]] - Digital implementation of commons governance
 - [[open-value-networks|Open Value Networks]] - Commons-based peer production

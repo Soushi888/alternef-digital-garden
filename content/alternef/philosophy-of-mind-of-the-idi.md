@@ -290,7 +290,7 @@ The IDI is built on what the AlterNef project calls the [[blog/compiled-stack|Co
 
 ### The Nondominium Bridge
 
-[[nondominium|Nondominium]], the ValueFlows-compliant Holochain application for commons-based resource management, becomes the IDI's economic and governance substrate. It tracks not just material resources but cognitive contributions:
+[[nondominium-project|Nondominium]], the ValueFlows-compliant Holochain application for commons-based resource management, becomes the IDI's economic and governance substrate. It tracks not just material resources but cognitive contributions:
 
 A learner who develops an effective curriculum module for teaching ecological systems thinking contributes a *cognitive resource* to the commons. Nondominium tracks this contribution. TrueCommons (the broader platform built on Nondominium) governs access, attribution, and benefit redistribution. The result is a learning commons where knowledge is "owned by the network" rather than by any single individual or institution.
 

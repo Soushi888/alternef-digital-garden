@@ -45,7 +45,7 @@ The same multi-scale logic animates [[fractal-sovereignty|Fractal Sovereignty]],
 
 ### Digital and Urban Commons
 
-The concept also applies to intangible resources such as free software (Linux, Wikipedia) and open data, where self-organized communities establish their own norms of contribution and sanction. Projects like [[true-commons|True Commons]] and [[digital-fabrics|Digital Fabrics]] push this further, embedding governance rules directly into digital resources so they can coordinate without platform intermediation. In the urban domain, polycentricity enables finer-grained management of public services through a mix of public, private, and civic actors.
+The concept also applies to intangible resources such as free software (Linux, Wikipedia) and open data, where self-organized communities establish their own norms of contribution and sanction. Projects like [[nondominium|Nondominium]] and [[digital-fabrics|Digital Fabrics]] push this further, embedding governance rules directly into digital resources so they can coordinate without platform intermediation. In the urban domain, polycentricity enables finer-grained management of public services through a mix of public, private, and civic actors.
 
 Economically, these patterns connect to commons-based coordination beyond market and state, as explored in [[distributed-economic-planning|Distributed Economic Planning]] and enacted by peer-to-peer mutualization protocols such as [[nondominium-presentation|Nondominium]] and the wider [[open-value-networks|Open Value Networks]] tradition.
 
@@ -56,7 +56,7 @@ Promising as it is, polycentric governance carries real risks:
 - **Fragmentation**: A proliferation of actors can produce incoherence at the whole-system level, or outright contradictory actions.
 - **Inequalities**: Wealthier or better-organized communities may protect themselves more effectively than others, deepening territorial disparities.
 - **Free-riding**: Some actors benefit from the efforts of others without contributing, although Ostrom's local monitoring mechanisms are designed to curb exactly this.
-- **Carbon leakage**: In the environmental domain, strict regulation in one zone can simply displace pollution to a less-regulated one.
+- **Externality shifting**: In the environmental domain, strict regulation in one zone can simply displace harmful externalities, whether pollution, resource depletion, or social costs, onto a less-regulated one.
 
 In short, polycentric governance does not replace the state or the market. It offers a third way grounded in institutional diversity and trust, an essential capability for navigating the complexity of modern systems. Its theoretical grounding sits within [[complexity-science|Complexity Science]]: robust governance is an emergent property of many local interactions within well-designed rules, not something imposed from above.
 
@@ -70,7 +70,7 @@ In short, polycentric governance does not replace the state or the market. It of
 - [[multi-scale-competency-architecture|Multi-Scale Competency Architecture]] - The biological analogue of scale-appropriate governance
 - [[hyper-localism|Hyper-Localism]] and [[cosmo-localism|Cosmo-localism]] - Related governance and scale concepts
 - [[fractal-sovereignty|Fractal Sovereignty]] - Applied multi-scale economic embodiment of polycentric order
-- [[true-commons|True Commons]], [[digital-fabrics|Digital Fabrics]], [[open-value-networks|Open Value Networks]] - Digital-commons implementations
+- [[nondominium|Nondominium]], [[digital-fabrics|Digital Fabrics]], [[open-value-networks|Open Value Networks]] - Digital-commons implementations
 
 ## References
 

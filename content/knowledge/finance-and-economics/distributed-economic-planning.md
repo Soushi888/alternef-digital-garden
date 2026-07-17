@@ -89,4 +89,4 @@ The underlying model builds on [[rea-accounting|REA (Resource-Event-Agent) accou
 - [[open-value-networks|Open Value Networks]] share the self-assignment and contribution-tracking paradigm
 - [[ostroms-design-principles|Ostrom's Design Principles]] address the same commons governance problems from an empirical political economy angle
 - [[tragedy-of-the-commons|Tragedy of the Commons]] is the failure mode this infrastructure explicitly aims to prevent
-- [[true-commons|True Commons]] (Sensorica) is a working implementation of fabric-based commons coordination in the same ecosystem
+- [[nondominium|Nondominium]] (Sensorica) is the active working implementation of fabric-based commons coordination in the same ecosystem, successor to the deprecated [[true-commons|True Commons]] proof-of-concept

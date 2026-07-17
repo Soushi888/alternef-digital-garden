@@ -96,7 +96,7 @@ The Circle is a small-scale laboratory for holomidale principles: no hierarchy, 
 - [[digital-fabrics|Digital Fabrics]]: Decentralized coordination infrastructure enabling holomidale-style organization
 - [[complexity-science|Complexity Science]]: Emergence and self-organization as theoretical foundations
 - [[sensorica|Sensorica]]: Real-world open value network example of distributed coordination
-- [[true-commons|True Commons]]: Digital commons as a context for holomidale governance
+- [[nondominium|Nondominium]]: Digital commons as a context for holomidale governance
 - [[subsidiarity|Subsidiarity]]: Decentralized decision-making principle compatible with holomidale structures
 - [[knowledge/governance-and-community/index|Governance and Community]]: Domain index
 

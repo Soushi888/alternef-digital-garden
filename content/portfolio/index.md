@@ -19,7 +19,7 @@ The thread connecting all my projects is the same question: **how do we build di
 
 ## Active Projects
 
-### [[nondominium|Nondominium]]
+### [[nondominium-project|Nondominium]]
 
 **Distributed Resource Management on [[what-is-holochain|Holochain]]** | With [[sensorica|Sensorica's]] Open Value Network
 
