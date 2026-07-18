@@ -1,7 +1,7 @@
 ---
 title: Health and Wellbeing
 date: 2025-02-12
-updated: 2026-05-24
+updated: 2026-07-18
 description: A holistic exploration of human wellness, integrative health practices, and comprehensive life strategies
 tags: ["personal-development", "mind-body-connection", "health", "movement-practices", "psychology", "stress-physiology", "preventive-medicine"]
 ---
@@ -33,6 +33,8 @@ This section explores the multidimensional nature of human health, examining phy
 - [[holistic-healing|Holistic Healing]] - Addressing the whole person (body, mind, emotions, spirit) rather than isolated symptoms
 - Traditional healing wisdom
 - Mind-body healing practices: [[knowledge/health-and-wellbeing/yoga/index|Yoga Traditions]] ([[hatha-yoga|Hatha Yoga]], [[yoga-des-pharaons|Yoga des Pharaons]], [[kundalini-yoga|Kundalini Yoga]]), [[qi-gong|Qi Gong]]
+- Breathwork and altered states: [[holotropic-breathwork|Holotropic Breathwork]] - Therapeutic breathing practice using accelerated circular breathing and evocative music for accessing non-ordinary states of consciousness
+- Sound and vibrational healing: [[music-therapy|Music Therapy]] - Clinical and evidence-based practice using music as therapeutic mediator for physical, emotional, cognitive, and social health
 - Traditional healing wisdom: [[essenian-healing|Essenian Healing]], [[traditional-chinese-medicine|Traditional Chinese Medicine]], [[ayurveda|Ayurveda]]
 - Personalized wellness strategies
 

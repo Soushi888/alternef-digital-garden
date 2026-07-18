@@ -258,6 +258,7 @@ Use the canonical form on the right instead of the alias on the left.
 | `breathwork` | Pranayama, Wim Hof, somatic breathing, breath as practice |
 | `hatha-yoga` | Physical yoga tradition — postures, alignment, breath |
 | `pranayama` | Yogic breath control practices |
+| `music-therapy` | Music therapy — clinical and energetic use of sound and music as therapeutic mediators |
 
 ---
 
