@@ -41,6 +41,7 @@ test-temp/
 
 # PAI
 Plans/
+plans/
 MEMORY/
 
 # npm lockfile (project uses bun)

@@ -49,6 +49,8 @@ This section explores the intricate relationship between culture, education, and
 - [[four-freedoms|Four Freedoms]] - Interior, vocational, social, and material dimensions of freedom
 - [[liberal-professions|Liberal Professions]] - Intellectual and service-based professions with specialized qualifications
 - [[systems-thinking|Systems Thinking]] - Holistic analysis of how a system's parts interrelate and behave over time within larger systems
+- [[emile-pinel|Émile Pinel]] - French mathematician-biologist (1906-1985) who built a relativistic, field-theoretic model of the living cell
+- [[pinel-biological-field-theory|Pinel's Biological Field Theory]] - His unitary causal field (champ H1/H2/H3) modeling the cell as a programmed system
 - [[holism|Holism]] - The principle that wholes have properties not present in their parts, analyzed as wholes rather than as collections
 - [[knowledge/culture-and-education/music/index|Music]] - Music as cultural expression, embodied knowledge, and bridge between traditions
 
