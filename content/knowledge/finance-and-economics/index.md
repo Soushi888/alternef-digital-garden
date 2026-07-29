@@ -1,7 +1,7 @@
 ---
 title: Finance and Economics
 date: 2025-02-12
-updated: 2026-06-23
+updated: 2026-07-29
 description: A holistic exploration of economic systems, financial technologies, and sustainable value creation
 aliases:
   - finance-and-economics
@@ -36,6 +36,7 @@ This section delves into the complex world of economic systems, financial techno
 - [[open-value-networks|Open Value Networks]] - Collaborative value creation and distribution
 - [[sensorica|Sensorica]] - Real-world OVN implementation and contribution accounting
 - [[grassroots-economics|Grassroots Economics]] - Community inclusion currencies and commitment pooling for local economic resilience
+- [[multilateral-barter|Multilateral Barter]] - Network-based exchange without money, resolving the double coincidence of wants
 - [[ecological-economics|Ecological Economics]] - Treats the economy as a subsystem of the biosphere, with natural limits as binding constraints
 - [[fourth-sector|Fourth Sector]] - For-benefit organizations blending market strategies with social and environmental missions
 
