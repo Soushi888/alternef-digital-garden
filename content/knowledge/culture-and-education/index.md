@@ -3,7 +3,7 @@ title: Culture and Education
 description: A holistic exploration of learning, cultural dynamics, and human knowledge transmission
 tags: ["education", "learning"]
 date: 2025-02-12
-updated: 2026-06-09
+updated: 2026-08-14
 ---
 
 This section explores the intricate relationship between culture, education, and human knowledge, examining how societies learn, evolve, and transmit understanding across generations.
@@ -38,6 +38,7 @@ This section explores the intricate relationship between culture, education, and
 - Interdisciplinary learning
 - Critical thinking and epistemology
 - [[hermeneutics|Hermeneutics]] - Theory and methodology of interpretation
+- [[exegetical-traditions|Exegetical Traditions]] - Codified rules of reading in the great scriptural lineages, and the root of modern hermeneutics
 - [[teleology|Teleology]] - Philosophical study of purpose and final causes
 - [[philosophia-perennis|Philosophia Perennis]] - Perennial philosophy and universal wisdom across traditions
 - [[multi-scale-competency-architecture|Multi-Scale Competency Architecture]] - Hierarchical organization of problem-solving across biological scales
@@ -52,6 +53,7 @@ This section explores the intricate relationship between culture, education, and
 - [[emile-pinel|Émile Pinel]] - French mathematician-biologist (1906-1985) who built a relativistic, field-theoretic model of the living cell
 - [[pinel-biological-field-theory|Pinel's Biological Field Theory]] - His unitary causal field (champ H1/H2/H3) modeling the cell as a programmed system
 - [[holism|Holism]] - The principle that wholes have properties not present in their parts, analyzed as wholes rather than as collections
+- [[mathematical-intuitionism|Mathematical Intuitionism]] - Mathematics as mental construction, and the rejection of the law of the excluded middle
 - [[knowledge/culture-and-education/music/index|Music]] - Music as cultural expression, embodied knowledge, and bridge between traditions
 
 ### 5. Social and Emotional Learning

@@ -19,6 +19,7 @@ This section explores the technical architecture of Holochain, including its cor
 ### Core Components
 
 - [[agent-centric-architecture|Agent-Centric Architecture]] - Fundamental design paradigm, agent sovereignty
+- [[agent-terminology|Agent Terminology]] - Glossary of agency, agent activity, agent address, and agent ID
 - [[validation-rules|Validation Rules]] - Distributed data integrity mechanism
 - Source Chain - Agent's personal immutable record chain
 - DHT - Distributed Hash Table for shared data

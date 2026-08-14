@@ -1,7 +1,7 @@
 ---
 title: Governance and Community
 date: 2025-02-12
-updated: 2026-07-16
+updated: 2026-08-14
 description: A holistic exploration of collective organization, social dynamics, and collaborative decision-making
 aliases:
   - "governance-and-community"
@@ -47,6 +47,7 @@ Networked, platform-independent infrastructures and methods for organizing colle
 - [[sensorica|Sensorica]] - Pioneering open value network for open-source scientific instrumentation
 - [[sociocracy-3|Sociocracy 3.0]] - Consent-based social technology for agile, effective collaborative governance
 - [[agent-centric-architecture|Agent-centric Architectures]] - Systems designed around individual agents rather than a shared global ledger
+- [[validation-rules-as-interpretive-membrane|Validation Rules as Interpretive Membrane]] - Why writing a network's validation rules is a constitutional act, read across exegesis, SHACL, and Holochain
 
 ### 4. Collective Intelligence and Complexity
 How coordinated intelligence and robust order emerge from many interacting agents without central control.

@@ -1,49 +1,52 @@
 ---
-title: "Agent Centric Architecture"
-description: "Notes on Agent Centric Architecture."
-date: 2025-02-15
-aliases: [Agents, agents, agent, agent ID]
-tags: ["programming", "holochain", "distributed-systems", "software-architecture"]
-
+title: "Agent-Centric Architecture: The Holochain Distinction"
+description: "Holochain is agent-centric, not data-centric. Where blockchain treats the global ledger as the source of truth, Holochain treats each agent's local chain as the source of truth with a DHT as the shared validation layer."
+date: 2026-08-11
+updated: 2026-08-14
+aliases:
+  - "Agent-Centric Architecture"
+  - "Agent-Centric Design"
+tags:
+  - programming
+  - holochain
+  - agent-centric
+  - distributed-systems
+  - peer-to-peer
+  - decentralization
+draft: false
 ---
 
-#holochain/concepts
+## The distinction
 
-In [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]], the agency is the power of an [agent](https://developer.holochain.org/glossary/#agent) to act in their environment.
+Holochain is agent-centric, not data-centric. Where blockchain (Bitcoin, Ethereum) treats the global ledger as the source of truth and every node as a validator of every transaction, Holochain treats each agent's local chain as the source of truth for that agent's actions, with a DHT (distributed hash table) as the shared validation and discovery layer.
 
-## An agent is :
+The practical consequence: Holochain has no global consensus bottleneck, no gas fees, no scalability ceiling imposed by a chain. An agent writes to their own chain (fast, local), publishes headers to the DHT, and peers validate according to application-level DNA rules.
 
-1.  Anyone or anything acting with [agency](https://developer.holochain.org/glossary/#agency), such as a human or bot.
-2.  An agent (see definition 1) who participates in a Holochain [network](https://developer.holochain.org/glossary/#network) through their [[Cell|cell]].
+## Why this matters for commons infrastructure
 
-### Agent activity[¶](https://developer.holochain.org/glossary/#agent-activity "Permanent link")
+Commons-based organizations (Sensorica, Nondominium, the hREA ecosystem) need coordination infrastructure that does not extract value. A data-centric chain either charges gas (extractive) or requires a consortium validator set (oligarchic). An agent-centric DHT lets each member own their data, validate their peers, and fork the DNA (application rules) if governance diverges.
 
-Records of all the [[Source Chain|sources chains]] [actions](https://developer.holochain.org/glossary/#action) that an agent has published, along with any [warrants](https://developer.holochain.org/glossary/#warrant) against them for malicious activity. An agent’s [neighbors](https://developer.holochain.org/glossary/#neighbor), as [peers](https://developer.holochain.org/glossary/#peer) whose [agent addresses](https://developer.holochain.org/glossary/#agent-address) are [near](https://developer.holochain.org/glossary/#nearness) to theirs, are the [validation authorities](https://developer.holochain.org/glossary/#validation-authority) for their agent activity data.
+This supports the ValueFlows economic ontology at the infrastructure layer: VF defines the economic primitives, Holochain provides the sovereign P2P substrate they run on.
 
-### Agent activity operation[¶](https://developer.holochain.org/glossary/#agent-activity-operation "Permanent link")
+## Architectural primitives
 
-A [DHT operation](https://developer.holochain.org/glossary/#dht-operation) produced by the author of a [source chain](https://developer.holochain.org/glossary/#source-chain) [[Entry|record]], notifying the [validation authorities](https://developer.holochain.org/glossary/#validation-authority) for the author’s [agent ID entry](https://developer.holochain.org/glossary/#agent-id-entry) that they’ve published something.
+- **DNA**: the application definition (entry types, link types, validation rules, zome code). Forkable, versionable.
+- **Cell**: a running instance of a DNA, bound to an agent.
+- **DHT**: the shared space where entries and links are published and validated by random peer neighborhoods.
+- **Zome**: a module of code (integrity zome for data model, coordinator zome for logic).
+- **HDK/HDI**: the Rust development kits for writing zome code.
 
-### Agent-centric[¶](https://developer.holochain.org/glossary/#agent-centric "Permanent link")
+## Current state (2026-08)
 
-Describes any [distributed system](https://developer.holochain.org/glossary/#distributed-system) that puts [agents](https://developer.holochain.org/glossary/#agent) at the center of the design, giving them [agency](https://developer.holochain.org/glossary/#agency) over their online identity and the data they create. Agent-centric systems are usually [decentralized](https://developer.holochain.org/glossary/#decentralization) and use [public-key cryptography](https://developer.holochain.org/glossary/#public-key-cryptography) to identify agents. [Git](https://git-scm.com/), Holochain, [Dat](https://www.datprotocol.com/), and [Secure Scuttlebutt](https://scuttlebutt.nz/) are highly agent-centric, while client/server and blockchain systems are less so.
+Holochain v0.7 upgrade is in progress across Nondominium, hAppenings/R&O, and hREA. The Holochain framework ships regular releases; the ecosystem is small but shipped (production hApps exist, not just demos).
 
-### Agent address[¶](https://developer.holochain.org/glossary/#agent-address "Permanent link")
+## Related Topics
 
-The address of an [agent ID](https://developer.holochain.org/glossary/#agent-id) entry on the [[Distributed Hash Table]], calculated from the agent’s [public key](https://developer.holochain.org/glossary/#public-key-cryptography). It is used in locating an agent’s [transport address](https://developer.holochain.org/glossary/#transport-address) for [gossiping](https://developer.holochain.org/glossary/#gossip) and making [remote calls](https://developer.holochain.org/glossary/#remote-call), and in calculating the proper [validation authority](https://developer.holochain.org/glossary/#validation-authority) to send a [DHT operation](https://developer.holochain.org/glossary/#dht-operation) to or receive a piece of [DHT data](https://developer.holochain.org/glossary/#dht-data) from.
-
-### Agent ID[¶](https://developer.holochain.org/glossary/#agent-id "Permanent link")
-
-The public key of an [agent](https://developer.holochain.org/glossary/#agent). It serves as their unique ID in any [DHT](https://developer.holochain.org/glossary/#dht) they join (although an agent can create multiple IDs to use in different spaces if they like).
-
-### Agent ID entry[¶](https://developer.holochain.org/glossary/#agent-id-entry "Permanent link")
-
-The entry associated with the third of the four [genesis records](https://developer.holochain.org/glossary/#genesis-records) at the the beginning of an [agent](https://developer.holochain.org/glossary/#agent)‘s [source chain](https://developer.holochain.org/glossary/#source-chain), which contains their [agent ID](https://developer.holochain.org/glossary/#agent-id). The address of this entry is also the [agent’s address](https://developer.holochain.org/glossary/#agent-address) on the DHT.
-
--   Defined by a private-public key pair
-    -   For cryptographically signing
-    -   Others can cryptographically verify these signatures
--   Action Ledger
-    -   Sequence of all the actions that an agent has taken in a social container
-    -   Signed by the agent
-    -   Merkle trees can create unfalsifiable ledgers
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] - The substrate this architecture describes
+- [[dna-and-zomes|DNA and Zomes]] - How the DNA, integrity zome, and coordinator zome split works in practice
+- [[validation-rules|Validation Rules]] - The peer validation workflow this architecture depends on
+- [[agent-terminology|Agent Terminology]] - Holochain's glossary of agency, agent activity, and agent ID
+- [[hrea|hREA]] - The ValueFlows implementation running on this substrate
+- [[valueflows|ValueFlows]] - The economic ontology this architecture supports at the infrastructure layer
+- [[validation-rules-as-interpretive-membrane|Validation Rules as Interpretive Membrane]] - Why peer-applied admissibility rules are a governance decision
+- [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/architecture/index|Holochain Architecture]] - Broader section context

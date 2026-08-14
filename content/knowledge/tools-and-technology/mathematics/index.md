@@ -1,6 +1,7 @@
 ---
 title: "Mathematics"
 date: 2025-12-11
+updated: 2026-08-11
 description: "Exploration of mathematical concepts, patterns, and their applications across disciplines"
 tags: ["software-architecture", "mathematics"]
 ---
@@ -34,6 +35,7 @@ This section explores fundamental mathematical concepts, patterns, and their app
 
 ## Connections to Other Domains
 - **Within Tools & Technology**: Algorithm design, [[knowledge/tools-and-technology/security-and-privacy/cryptography/index|cryptography]], [[knowledge/tools-and-technology/specialized-technologies/artificial-intelligence/index|AI-ML foundations]]
+- [[knowledge/culture-and-education/index|Culture and Education]]: Foundations and philosophy of mathematics, including [[mathematical-intuitionism|Mathematical Intuitionism]]
 - [[knowledge/built-environment/index|Built Environment]]: Geometric principles, proportions
 - [[knowledge/land-and-nature-stewardship/index|Nature Stewardship]]: Patterns in natural systems
 
