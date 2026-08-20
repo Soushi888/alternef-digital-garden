@@ -348,6 +348,7 @@ Tags particular to the Alternef Digital Garden and its projects. Valid across al
 | `digital-garden` | Digital gardening philosophy, Quartz, note-taking systems |
 | `alchemy` | Alchemical concepts, the PAI Alchemy framework, Hermetic philosophy |
 | `mystical-oriented-programming` | MOP paradigm — programming as spiritual practice |
+| `complexity-oriented-programming` | COP paradigm — modelling complexity faithfully rather than reducing it |
 | `nondominium` | Nondominium project (commons governance on Holochain) |
 | `sensorica` | Sensorica Open Value Network and related OVN content |
 | `alchemical-codex` | Notes in the Alchemical Codex series |
