@@ -1,7 +1,7 @@
 ---
 title: Artificial Intelligence
 date: 2025-03-06
-updated: 2026-05-24
+updated: 2026-08-18
 description: A comprehensive exploration of artificial intelligence, its technologies, approaches, and transformative potential
 aliases:
   - Artificial Intelligence
@@ -135,6 +135,7 @@ Artificial Intelligence represents a dynamic, evolving field with profound impli
 - [[dalle|DALL-E]] - OpenAI's text-to-image model, producing images from natural language prompts
 - [[midjourney|Midjourney]] - Commercial AI image generation service known for distinctive aesthetic quality
 - [[prompt-engineering|Prompt Engineering]] - Designing and optimizing prompts to reliably elicit desired model behavior
+- [[low-rank-adaptation|LoRA (Low-Rank Adaptation)]] - Parameter-efficient fine-tuning that adapts large models through small trainable low-rank matrices
 
 ## Subdomains
 
