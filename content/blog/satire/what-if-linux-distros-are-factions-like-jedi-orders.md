@@ -4,7 +4,8 @@ date: "2025-02-01"
 author: "Soushi888"
 description: A fun thought experiment exploring what Linux distributions would look like if they were organized like Jedi orders, with symbols, philosophies, and membership.
 tags: ["community", "open-source", "blog", "humor", "linux"]
-
+categories:
+  - "satire"
 ---
 
 Let's imagine a scenario where [[linux|Linux]] distributions form factions similar to Jedi Orders. Here's a possible interpretation:
