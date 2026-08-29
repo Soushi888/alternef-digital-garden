@@ -15,6 +15,12 @@ interface FolderContentOptions {
    */
   showFolderCount: boolean
   showSubfolders: boolean
+  /**
+   * List every descendant page instead of collapsing subfolders into a single entry.
+   * Opt in per folder with `recursive: true` in that folder's index.md frontmatter;
+   * this option only sets the default.
+   */
+  recursive: boolean
   sort?: SortFn
   displayMode?: 'list' | 'cards'
 }
@@ -22,6 +28,7 @@ interface FolderContentOptions {
 const defaultOptions: FolderContentOptions = {
   showFolderCount: true,
   showSubfolders: true,
+  recursive: false,
   displayMode: 'list',
 }
 
@@ -32,6 +39,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     const { tree, fileData, allFiles, cfg } = props
     const folderSlug = stripSlashes(simplifySlug(fileData.slug!))
     const folderParts = folderSlug.split(path.posix.sep)
+    const recursive = fileData.frontmatter?.recursive ?? options.recursive
 
     const allPagesInFolder: QuartzPluginData[] = []
     const allPagesInSubfolders: Map<FullSlug, QuartzPluginData[]> = new Map()
@@ -46,7 +54,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         return
       }
 
-      if (isDirectChild) {
+      if (isDirectChild || recursive) {
         allPagesInFolder.push(file)
       } else if (options.showSubfolders) {
         const subfolderSlug = joinSegments(
