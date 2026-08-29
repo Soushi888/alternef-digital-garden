@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import SearchAndDarkmode from "./SearchAndDarkmode"
 import GitHubEditButton from "./GitHubEditButton"
 import RecentChanges from "./RecentChanges"
+import LatestPosts from "./LatestPosts"
 
 export {
   ArticleTitle,
@@ -52,4 +53,5 @@ export {
   SearchAndDarkmode,
   GitHubEditButton,
   RecentChanges,
+  LatestPosts,
 }

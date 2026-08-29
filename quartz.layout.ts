@@ -68,6 +68,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.GitHubEditButton(),
     Component.TagList(),
+    // Blog landing only. FolderPage emits blog/index.html after ContentPage, so the list
+    // layout is the one that wins, but both carry it in case that order ever changes.
+    Component.LatestPosts({
+      title: "Newest articles",
+      folder: "blog",
+      limit: 5,
+      exclude: ["blog/fr"],
+      pages: ["blog/index" as FullSlug],
+    }),
   ],
   left: [
     Component.PageTitle(),
@@ -86,6 +95,15 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.GitHubEditButton(),
     Component.TagList(),
+    // Blog landing only. FolderPage emits blog/index.html after ContentPage, so the list
+    // layout is the one that wins, but both carry it in case that order ever changes.
+    Component.LatestPosts({
+      title: "Newest articles",
+      folder: "blog",
+      limit: 5,
+      exclude: ["blog/fr"],
+      pages: ["blog/index" as FullSlug],
+    }),
   ],
   left: [
     Component.PageTitle(),
