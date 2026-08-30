@@ -4,7 +4,8 @@ date: "2025-11-11"
 author: "Soushi888"
 description: "Exploring the intersection of hyper-localism, bioregionalism, and cosmo-localism through fractal patterns, complexity science, and network dynamics to create regenerative economic systems that function at multiple scales simultaneously."
 tags: ["blog", "governance", "economics", "complexity-science", "systems-thinking", "bioregionalism", "cosmo-localism"]
-
+categories:
+  - "commons-economics"
 ---
 
 ## Introduction: Beyond Linear Hierarchies

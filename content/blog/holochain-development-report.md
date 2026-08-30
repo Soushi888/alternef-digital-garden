@@ -3,8 +3,9 @@ title: "Holochain Development Velocity and Ecosystem Health: A Critical Analysis
 date: 2025-01-05
 draft: true
 tags: ["holochain", "peer-to-peer", "blog", "software-development", "ecosystem", "analysis", "blockchain"]
-categories: ["Technology Analysis", "Distributed Systems"]
 summary: "Critical analysis of Holochain's development patterns, ecosystem maturity gaps, and the reality behind community metrics through comprehensive GitHub research."
+categories:
+  - "holochain"
 ---
 
 # Holochain Development Velocity and Ecosystem Health: A Critical Analysis 2025

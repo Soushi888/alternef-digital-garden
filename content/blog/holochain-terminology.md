@@ -5,6 +5,8 @@ date: 2025-01-20
 author: "soushi888"
 tags: ["holochain", "distributed-systems", "peer-to-peer", "blog", "software-development"]
 category: "technical documentation"
+categories:
+  - "holochain"
 ---
 
 This lexicon provides a comprehensive mapping between [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]]-specific terminology and conventional software development concepts. It's designed to help developers familiar with traditional architectures understand Holochain's distributed paradigm.

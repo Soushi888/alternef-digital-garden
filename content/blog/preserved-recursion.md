@@ -5,6 +5,8 @@ author: "Soushi888"
 description: "Commoning and industrial production are algebraically distinct. One preserves the recursion of its reproduction kernel. The other breaks it at precisely the places where costs stop appearing on any ledger."
 tags: ["blog", "economics", "commons", "functional-programming", "complexity-science", "philosophy"]
 draft: false
+categories:
+  - "commons-economics"
 ---
 
 *Commoning and industrial production are not only politically opposed. They are algebraically distinct. One keeps the recursion intact. The other breaks it at precisely the places where the costs don't show up on any ledger.*

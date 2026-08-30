@@ -4,7 +4,8 @@ date: "2025-11-28"
 author: "Soushi888"
 description: "How the Resource Transport/Flow Protocol (RTP-FP) is transforming resource sharing in commons-based economies through five-dimensional tracking and decentralized governance."
 tags: ["blog", "holochain", "governance", "decentralization", "peer-to-peer", "valueflows", "economics"]
-
+categories:
+  - "commons-economics"
 ---
 
 *How a new protocol is transforming the way we share, track, and steward resources in commons-based economies*

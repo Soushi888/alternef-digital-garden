@@ -5,7 +5,8 @@ date: 2025-12-18
 author: "Soushi888"
 draft: false
 tags: ["philosophy", "blog", "mythology", "physics", "ancient-wisdom", "spirituality"]
-
+categories:
+  - "philosophy"
 ---
 
 **An exploration of the profound correspondences between the Osirian myth and the laws of matter**

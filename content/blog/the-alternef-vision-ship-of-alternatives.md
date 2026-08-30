@@ -4,6 +4,8 @@ subtitle: "Reimagining Education, Community, and Consciousness Evolution"
 date: 2025-09-01
 draft: true
 tags: ["blog", "alternef", "education", "community", "consciousness", "holochain", "learning"]
+categories:
+  - "philosophy"
 ---
 
 *What if education could honor your unique learning rhythm? What if communities could embrace both individual sovereignty and collective wisdom? What if technology could serve human consciousness rather than exploit it?*

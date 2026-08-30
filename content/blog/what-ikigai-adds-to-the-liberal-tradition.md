@@ -4,7 +4,8 @@ date: "2026-01-05"
 author: "Soushi888"
 description: "Exploring the profound connections between the Japanese concept of Ikigai and the four dimensions of freedom (liberal arts, liberal professions, political liberalism, and economic liberalism) to reveal a comprehensive framework for human flourishing."
 tags: ["blog", "education", "philosophy", "ikigai", "liberal-arts", "personal-development", "human-flourishing"]
-
+categories:
+  - "philosophy"
 ---
 
 ## Introduction

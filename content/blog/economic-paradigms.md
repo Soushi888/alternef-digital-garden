@@ -4,7 +4,8 @@ date: "2025-01-06"
 author: "Soushi888"
 description: "An analysis of how the information and peer-to-peer economies manifest in two forms: as tools for corporate control and as pathways to economic emancipation. Exploring the tension between co-optation and genuine alternatives in digital age economics."
 tags: ["blog", "economics", "decentralization", "holochain", "peer-to-peer", "blockchain", "open-source"]
-
+categories:
+  - "commons-economics"
 ---
 
 ## Introduction

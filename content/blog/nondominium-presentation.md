@@ -5,6 +5,8 @@ description: "From Sensorica's open value networks through Valueflows to Nondomi
 date: 2026-02-21
 author: "Soushi888"
 tags: ["blog", "holochain", "decentralization", "governance", "peer-to-peer", "valueflows", "coordination-infrastructure"]
+categories:
+  - "commons-economics"
 ---
 
 <center>

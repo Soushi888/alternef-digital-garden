@@ -5,6 +5,8 @@ date: 2025-08-02
 version: 0.5.0
 tags: ["holochain", "distributed-systems", "rust", "blog", "software-development"]
 category: "Development"
+categories:
+  - "holochain"
 ---
 
 The landscape of learning complex technologies has fundamentally shifted with the advent of sophisticated AI assistants. This transformation is particularly evident in the realm of [[rust|Rust programming]] and [[what-is-holochain|Holochain development]], where the intersection of systems programming, distributed architecture, and novel paradigms traditionally presented significant barriers to entry.

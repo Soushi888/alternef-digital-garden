@@ -4,6 +4,8 @@ date: "2026-02-20"
 author: "Soushi888"
 description: "How the open source silicon movement, cosmo-local production networks, and a renewed understanding of the human-mineral relationship can transform electronics manufacturing from extractive globalization into regenerative, multi-scale technological sovereignty."
 tags: ["blog", "fractal-sovereignty", "electronics-manufacturing", "cosmo-localism", "open-source-silicon", "alchemy", "complexity-science", "regenerative-technology", "libre-silicon", "holochain", "valueflows", "mystical-oriented-programming"]
+categories:
+  - "alchemy-and-ai"
 ---
 
 ## Introduction: The Silicon Paradox

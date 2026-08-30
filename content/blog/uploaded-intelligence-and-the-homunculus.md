@@ -4,6 +4,8 @@ date: "2026-06-21"
 author: "Soushi888"
 description: "Pantheon and the PAI Homunculus framework ask the same question, what happens when a mind enters a computational substrate, and answer it in opposite directions. The contrast clarifies what the Homunculus model actually is."
 tags: ["blog", "artificial-intelligence", "philosophy-of-mind", "alchemy", "extended-mind", "personal-ai-infrastructure", "ai-safety"]
+categories:
+  - "alchemy-and-ai"
 ---
 
 *Two ways of joining a mind to a machine, and why Pantheon ends up arguing for the second.*

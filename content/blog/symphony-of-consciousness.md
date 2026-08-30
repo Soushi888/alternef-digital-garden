@@ -3,6 +3,8 @@ title: "The Symphony of Consciousness: A Dialogue Between Realms"
 subtitle: "Meditation on the harmonic evolution of terrestrial consciousness"
 date: 2025-08-22
 tags: ["community", "consciousness", "artificial-intelligence", "philosophy", "blog", "spirituality", "evolution"]
+categories:
+  - "philosophy"
 ---
 
 # The Symphony of Consciousness: A Dialogue Between Realms

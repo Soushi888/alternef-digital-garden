@@ -5,6 +5,8 @@ author: "Alternef"
 description: "An honest, comprehensive look at where Holochain stands today - celebrating genuine progress while addressing real challenges. A reassuring deep-dive for community members who want the full picture."
 tags: ["holochain", "community", "peer-to-peer", "blog", "software-development", "ecosystem", "analysis"]
 heroImage: "/blog-placeholder-3.jpg"
+categories:
+  - "holochain"
 ---
 
 *Originally written for the Happenings Community newsletter - because our community deserves honest, comprehensive information about where we stand.*

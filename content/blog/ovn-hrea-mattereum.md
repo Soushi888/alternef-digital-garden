@@ -5,6 +5,8 @@ author: "soushi888"
 description: "An exploration of how Holochain's hREA and Mattereum's Asset Passport technology can enhance Open Value Networks"
 tags: ["holochain", "peer-to-peer", "rea", "blog", "blockchain", "peer-production"]
 heroImage: "/blog-placeholder-4.jpg"
+categories:
+  - "commons-economics"
 ---
 
 In this paper we explore a short list of p2p technologies carefully chosen to satisfy our needs in a specific *material peer production* context. We contribute to the p2p movement by bringing our 15 years of experience in open-source, Do-It-Yourself (DIY) hardware development, using an organizational model that we call [Open Value Network (OVN)](https://ovn.world/).

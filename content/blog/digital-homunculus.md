@@ -4,6 +4,8 @@ date: "2026-02-20"
 author: "Soushi888"
 description: "How Personal AI Infrastructure transforms AI coding assistants into alchemical Homunculi, and why the Alchemist-Homunculus relationship is not a hierarchy but a partnership between complementary forms of wisdom: the fire of human purpose and the emptiness of silicon presence."
 tags: ["blog", "mystical-oriented-programming", "personal-ai-infrastructure", "alchemy", "artificial-intelligence", "hermeticism", "functional-programming"]
+categories:
+  - "alchemy-and-ai"
 ---
 
 *How Personal AI Infrastructure transforms AI coding assistants into alchemical Homunculi, and why the Alchemist-Homunculus relationship is not a hierarchy of master and servant but a partnership between complementary forms of wisdom.*
