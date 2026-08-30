@@ -2,6 +2,7 @@
 title: "Where Meaning Lives"
 subtitle: "A semantic layer for Complexity Oriented Programming"
 date: 2026-08-20
+updated: "2026-08-29"
 author: "Soushi888"
 description: "Meaning is the hardest irreducible in any social protocol. Separating what happened from what it is worth turns out to be an architecture decision, not a philosophical one."
 tags:
@@ -13,6 +14,8 @@ tags:
   - "holochain"
   - "knowledge-systems"
 draft: true
+categories:
+  - "commons-economics"
 ---
 
 *Meaning is the hardest irreducible in any social protocol. Separating what happened from what it is worth turns out to be an architecture decision, not a philosophical one.*
@@ -21,7 +24,7 @@ draft: true
 
 ## 1. The hardest irreducible
 
-The premise behind Complexity Oriented Programming is that our dominant paradigms are, at bottom, strategies of reduction. Object orientation reduces a system to encapsulated state and message passing. Functional programming reduces it to referentially transparent expressions. Both are excellent at what they do, and both work by deciding in advance which parts of the world will be allowed into the model. COP takes the opposite bet. It asks what a paradigm would look like if it modelled complexity faithfully rather than making it disappear, and it takes ecologies of interacting agents as its primitive rather than objects or functions.
+The premise behind [[complexity-oriented-programming|Complexity Oriented Programming]] is that our dominant paradigms are, at bottom, strategies of reduction. Object orientation reduces a system to encapsulated state and message passing. Functional programming reduces it to referentially transparent expressions. Both are excellent at what they do, and both work by deciding in advance which parts of the world will be allowed into the model. COP takes the opposite bet. It asks what a paradigm would look like if it modelled complexity faithfully rather than making it disappear, and it takes ecologies of interacting agents as its primitive rather than objects or functions.
 
 Complexity Driven Development, the methodology growing out of that premise, keeps running into one specific irreducible. It is not concurrency, which has good theory. It is not distribution, which has good tooling. It is meaning.
 
@@ -43,7 +46,7 @@ There are two mature bodies of work on that question, and they have been talking
 
 **Semantic analysis** treats meaning as structure. Its move is to decompose: a term is analysed into features, or defined by its position in a system of oppositions, or given a formal interpretation in a model, or represented as a position in a distributional space learned from a corpus. Greimas and structural semantics, Montague and formal semantics, and modern embedding models are very different projects, but they share a commitment. Meaning is something that can be made explicit, and ideally computable. The interpreter is neutralised on purpose. If two analysts using the same method get different results, one of them made a mistake. Reproducibility is the criterion.
 
-**Hermeneutics** treats meaning as an event that happens to someone. It descends from the exegetical traditions, where reading an authoritative text was a codified craft with explicit rules, a transmission lineage, and a community empowered to accept or reject a reading. See [[exegetical-traditions|Exegetical Traditions]] for that genealogy. Schleiermacher's founding move was to generalise those rules to any text at all. Dilthey widened the scope to every expression of human life. Ricoeur extended it further, to action and to history, treating them as readable in the manner of a text. Philosophical hermeneutics is, quite literally, secularised exegesis.
+**[[hermeneutics|Hermeneutics]]** treats meaning as an event that happens to someone. It descends from the exegetical traditions, where reading an authoritative text was a codified craft with explicit rules, a transmission lineage, and a community empowered to accept or reject a reading. See [[exegetical-traditions|Exegetical Traditions]] for that genealogy. Schleiermacher's founding move was to generalise those rules to any text at all. Dilthey widened the scope to every expression of human life. Ricoeur extended it further, to action and to history, treating them as readable in the manner of a text. Philosophical hermeneutics is, quite literally, secularised exegesis.
 
 In this tradition the interpreter is not noise to be filtered out. Gadamer's central claim is that the reader's situation, their inherited assumptions and their historical position, is what makes understanding possible in the first place. Meaning is produced in the encounter between text and reader, and since readers are historically situated, a work is never interpreted once and for all. Each era actualises an aspect the previous ones could not see. Gadamer called this the history of effects: a text carries its posterity of readings as part of what it is.
 
@@ -75,17 +78,17 @@ The interesting thing about these two rules is that a whole branch of engineerin
 
 Global consensus architectures make a specific bet about meaning: that there is one ledger, one state, one true reading, and that divergence between nodes is a failure to be resolved. The bet is not silly. For a currency, a single global ordering is exactly what you want. But it is a bet, and it is the architectural form of the claim that meaning has one location.
 
-Agent centric architectures decline that bet, and the correspondence with the hermeneutic position is closer than analogy.
+[[agent-centric-architecture|Agent centric architectures]] decline that bet, and the correspondence with the hermeneutic position is closer than analogy.
 
-Each agent keeps its own signed, append only chain of what it did and said. This is a first person record. No one else can rewrite it, and no global process can revise it into consistency with someone else's. It is an interpretive history in the strict sense: not the world, but this agent's committed account of its passage through the world.
+Each agent keeps its own signed, append only [[source-chain|chain]] of what it did and said. This is a first person record. No one else can rewrite it, and no global process can revise it into consistency with someone else's. It is an interpretive history in the strict sense: not the world, but this agent's committed account of its passage through the world.
 
-Shared data lives in a space that is validated rather than agreed. Peers check entries against rules, and those rules are the decisive object. They determine what counts as an admissible contribution to this network. Structurally, they are exegetical rules: not a description of what is true, but a specification of what this community will accept as a valid reading. Validity here is produced by a shared membrane, not by correspondence to an external fact.
+Shared data lives in a space that is validated rather than agreed. Peers check entries against rules, and those rules are the decisive object. They determine what counts as an admissible contribution to this network. Structurally, they are exegetical rules: not a description of what is true, but a specification of what this community will accept as a valid reading. Validity here is produced by a shared membrane, not by correspondence to an external fact. That correspondence, and the point where it breaks down, is worked out in [[validation-rules-as-interpretive-membrane|Validation Rules as Interpretive Membrane]].
 
-And here the engineering makes the argument better than the philosophy does. In Holochain, a validation function must be deterministic. It may not read from the network, may not ask who is calling, may not consult the clock. It inspects the operation in front of it and nothing else. This is not a stylistic preference, it is enforced, because every peer must reach the same verdict independently or the network cannot converge.
+And here the engineering makes the argument better than the philosophy does. In Holochain, a [[validation-rules|validation function]] must be deterministic. It may not read from the network, may not ask who is calling, may not consult the clock. It inspects the operation in front of it and nothing else. This is not a stylistic preference, it is enforced, because every peer must reach the same verdict independently or the network cannot converge.
 
 The consequence is worth stating plainly. The validation layer is structurally incapable of situated judgement. It cannot take a position, because it is forbidden from knowing where it stands. Whatever else you build, interpretation cannot live there. The separation this article is arguing for is not a discipline you have to impose on an agent centric stack. It is already load bearing inside one, and the only real question is whether you notice and design with it or conflate the layers somewhere higher up.
 
-Two further properties follow the same logic. Because the rules define the network, changing them produces a different network. A fork is not a failure state. It is a schism in the interpretive community, given first class representation instead of being suppressed as a conflict to arbitrate. And convergence is eventual, partial, and partition tolerant. Nodes gossip, views reconcile over time, and sometimes they do not. That is a much better model of how shared understanding actually behaves than synchronous global agreement, and it maps onto Gadamer's fusion of horizons as a process that is never complete.
+Two further properties follow the same logic. Because the rules define the network, and the integrity zome carrying them is hashed into the [[dna-and-zomes|DNA]], changing them produces a different network. A fork is not a failure state. It is a schism in the interpretive community, given first class representation instead of being suppressed as a conflict to arbitrate. And convergence is eventual, partial, and partition tolerant. Nodes gossip, views reconcile over time, and sometimes they do not. That is a much better model of how shared understanding actually behaves than synchronous global agreement, and it maps onto Gadamer's fusion of horizons as a process that is never complete.
 
 None of this was borrowed from hermeneutics. It came from the engineering constraint of tolerating network partitions without giving up on coordination. That the resulting architecture recapitulates a philosophical position developed for entirely different reasons is worth more than any analogy. Independent convergence is evidence that the shape is real.
 
@@ -97,7 +100,7 @@ The pattern shows up independently in three places that had no reason to converg
 
 ### ValueFlows separates observation from valuation
 
-ValueFlows is a vocabulary for distributed economic networks. Its core records flows: an `EconomicEvent` is an observed movement, with a provider, a receiver, a resource, and a measured quantity, described using a fixed vocabulary of actions such as consume, produce, use, work, transfer and cite.
+[[valueflows|ValueFlows]] is a vocabulary for distributed economic networks, built on the [[rea-accounting|resource, event, agent]] accounting model. Its core records flows: an `EconomicEvent` is an observed movement, with a provider, a receiver, a resource, and a measured quantity, described using a fixed vocabulary of actions such as consume, produce, use, work, transfer and cite.
 
 The design decision that matters is what the core leaves out. It gives you a rigorous account of what happened and does not fix how a network should assign worth to it. Worth is not a property of the event. It is a reading, and it belongs to the network doing the reading. This is precisely why ValueFlows can be adopted by communities with incompatible economic values without imposing convergence on them, which is not a common property in accounting ontologies.
 
@@ -107,7 +110,7 @@ The extension mechanism follows the same logic. The action vocabulary is deliber
 
 ### ADAM separates addressing from interpretation
 
-The ADAM layer, developed by Coasys, builds an agent centric meta ontology on three core concepts: agents, languages and perspectives. It uses Holochain underneath for its distributed hash table and peer to peer networking, so it inherits the properties described above rather than replacing them.
+The [[perspect3vism|ADAM]] layer, developed by Coasys, builds an agent centric meta ontology on three core concepts: agents, languages and perspectives. It uses Holochain underneath for its distributed hash table and peer to peer networking, so it inherits the properties described above rather than replacing them.
 
 Two of its commitments land exactly on our boundary.
 
@@ -115,13 +118,13 @@ The first is at the level of data. Every piece of data in ADAM is an expression:
 
 The second is in the split between languages and perspectives. A language is a pluggable protocol adapter that defines how an expression is stored, addressed and shared, whether that is over IPFS, over Solid, or over plain web URLs. It is infrastructure, and it says nothing about meaning. A perspective is an agent centric semantic graph that gives meaning to expressions through links of the form source, predicate, target. Perspectives are personal by default, and publishing one produces a neighbourhood that other agents can join, at which point joining returns them a perspective of their own. The passage from a private reading to a shared interpretive space is an ordinary runtime operation rather than something fixed before anyone has read anything.
 
-On top of this sits social DNA, which defines reusable interaction patterns: subject classes with typed properties and relations, flows describing possible state transitions, and collections describing relationship patterns. The implementation detail is the interesting part. Social DNA is stored as links inside the perspective itself, using SHACL shapes for structure and a dedicated namespace for behaviour, all of it queryable through the same link queries used for ordinary data. The rules of reading live in the same graph as what they read, and they are as revisable as anything else in it.
+On top of this sits social DNA, which defines reusable interaction patterns: subject classes with typed properties and relations, flows describing possible state transitions, and collections describing relationship patterns. The implementation detail is the interesting part. Social DNA is stored as links inside the perspective itself, using [[shacl|SHACL]] shapes for structure and a dedicated namespace for behaviour, all of it queryable through the same link queries used for ordinary data. The rules of reading live in the same graph as what they read, and they are as revisable as anything else in it.
 
 That reaches something Morin identified as a signature of complex systems, what he called organisational recursion: a loop in which the products are producers of what produces them. ADAM pushes it one level further with a self recursive bootstrap, where the three core concepts are themselves implemented as languages, so that the constitutive layer of the system is expressible and replaceable in the system's own terms. Compiled, immutable rules avoid that loop cleanly. They do not represent it.
 
 ### Functional programming separates composition from emergence
 
-Functional programming looks at first like the wrong ally here. Referential transparency declares that the meaning of an expression does not depend on its context of evaluation, which is the flat contradiction of the hermeneutic position. Semantically, FP buys compositionality at the price of decontextualisation.
+[[functional-programming|Functional programming]] looks at first like the wrong ally here. Referential transparency declares that the meaning of an expression does not depend on its context of evaluation, which is the flat contradiction of the hermeneutic position. Semantically, FP buys compositionality at the price of decontextualisation.
 
 It serves the pattern anyway, for a reason that is usually stated badly. FP does not remove complexity. It relocates all of it into composition. When every rule is locally deterministic and there is no hidden mutable state, a surprising system level behaviour is attributable to interaction rather than to something concealed. That is what makes emergence observable instead of indistinguishable from a bug. An imperative system produces unexpected behaviour too, but you cannot tell whether it came from the ecology or from shared state. Note that this is the same property Holochain enforces on validation, arrived at from a different direction.
 
@@ -159,16 +162,38 @@ Declare the observer. A read is a projection from a position, and the position b
 
 Keep the shared layer thin, and treat every addition to it as a political act, because it is one.
 
-Two things remain open. The first is translation between interpretive communities. Every architecture described here makes plurality representable without making it navigable, and moving meaning across a boundary between communities that do not share a vocabulary is unsolved. It is where a project like IEML places its bet, and the bet has not been settled. The second is organisational recursion. ADAM shows that rules living in the graph they govern can be built, but a system whose rules are genuinely transformed by what they produce still fits badly into anything statically typed, and immutable compiled rules avoid the difficulty rather than addressing it. For a paradigm that takes living systems as its model, that is not a detail. It is the next problem.
+Two things remain open. The first is translation between interpretive communities. Every architecture described here makes plurality representable without making it navigable, and moving meaning across a boundary between communities that do not share a vocabulary is unsolved. It is where a project like [[information-economy-meta-language|IEML]] places its bet, and the bet has not been settled. The second is organisational recursion. ADAM shows that rules living in the graph they govern can be built, but a system whose rules are genuinely transformed by what they produce still fits badly into anything statically typed, and immutable compiled rules avoid the difficulty rather than addressing it. For a paradigm that takes living systems as its model, that is not a detail. It is the next problem.
 
 ## Related
 
-- [[exegetical-traditions|Exegetical Traditions]]
-- [[hermeneutics|Hermeneutics]]
-- [[complexity-oriented-programming|Complexity Oriented Programming]]
-- [[valueflows|ValueFlows]]
-- [[agent-centric-architecture|Agent Centric Architecture]]
-- [[functional-programming|Functional Programming]]
+**The interpretive layer**
+
+- [[hermeneutics|Hermeneutics]]: the tradition this article draws its architecture principle from
+- [[exegetical-traditions|Exegetical Traditions]]: the codified rules of reading that hermeneutics generalised
+- [[validation-rules-as-interpretive-membrane|Validation Rules as Interpretive Membrane]]: where the analogy of section four holds and where it breaks
+- [[the-homuncular-interface|The Homuncular Interface]]: a membrane as a boundary that selects and transforms rather than transmits
+
+**The paradigm**
+
+- [[complexity-oriented-programming|Complexity Oriented Programming]]: the paradigm this article works inside
+- [[complexity-science|Complexity Science]]: emergence, self-organisation, and the systems vocabulary behind it
+- [[functional-programming|Functional Programming]]: composition, immutability, and the limits of both
+
+**The architecture**
+
+- [[agent-centric-architecture|Agent Centric Architecture]]: first person records and validated rather than agreed state
+- [[validation-rules|Validation Rules]]: the determinism constraint that makes situated judgement impossible at that layer
+- [[source-chain|Source Chain]]: the per agent append only record
+- [[perspect3vism|Perspect3vism and Coasys]]: ADAM, its perspectives, languages and expressions
+
+**The economic vocabulary**
+
+- [[valueflows|Valueflows]]: observation separated from valuation
+- [[rea-accounting|REA Accounting]]: the resource, event, agent model underneath it
+
+**Still open**
+
+- [[information-economy-meta-language|IEML]]: one bet on translating meaning across interpretive communities
 
 ---
 
