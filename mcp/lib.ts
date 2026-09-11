@@ -8,7 +8,7 @@
 // globby, so importing lib.ts stays cheap.
 import { Database } from "bun:sqlite"
 import { join } from "path"
-import { makeExcerpt, quoteFtsTerm } from "./text"
+import { makeExcerpt, normalizeDate, quoteFtsTerm } from "./text"
 import { newestMtimeMs, ensureDirSync } from "./fsstat"
 import type { Domain, NoteWithExcerpt } from "./types"
 
@@ -83,13 +83,14 @@ export function searchNotes(db: Database, opts: SearchOptions): SearchHit[] {
     sql += " AND EXISTS (SELECT 1 FROM tags t WHERE t.note_id = n.id AND t.tag = ?)"
     params.push(tag)
   }
-  if (since) {
-    sql += " AND n.date >= ?"
-    params.push(since)
+  // `since` filters in code, after normalizing: rows indexed before ISO dates hold strings like
+  // "Thu Mar 13 2025 20:00:00 GMT-0400", which compare wrongly as text. Without a limit on the
+  // SQL side, the filter cannot drop rows the limit already cut.
+  sql += " ORDER BY rank"
+  if (!since) {
+    sql += " LIMIT ?"
+    params.push(limit)
   }
-
-  sql += " ORDER BY rank LIMIT ?"
-  params.push(limit)
 
   let rows: Array<Record<string, unknown>>
   try {
@@ -100,14 +101,15 @@ export function searchNotes(db: Database, opts: SearchOptions): SearchHit[] {
     return []
   }
 
-  return rows.map((r) => ({
+  const hits = rows.map((r) => ({
     id: r.id as string,
     path: r.path as string,
     title: r.title as string,
-    date: (r.date as string | null) ?? null,
+    date: normalizeDate(r.date),
     score: r.score as number,
     snippet: r.snippet as string,
   }))
+  return since ? hits.filter((h) => h.date !== null && h.date >= since).slice(0, limit) : hits
 }
 
 export interface FullNote extends NoteWithExcerpt {
@@ -127,7 +129,7 @@ export function getNote(db: Database, id: string): FullNote | null {
     path: row.path as string,
     title: row.title as string,
     description: (row.description as string | null) ?? null,
-    date: (row.date as string | null) ?? null,
+    date: normalizeDate(row.date),
     domain: row.domain as string | null as Domain | null,
     draft: row.draft === 1,
     updated: row.updated as string,

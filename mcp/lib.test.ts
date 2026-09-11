@@ -145,6 +145,36 @@ describe("getNote", () => {
   })
 })
 
+describe("rows indexed before ISO dates", () => {
+  // The live index still holds dates like "Thu Mar 13 2025 20:00:00 GMT-0400" until its next sync.
+  test("come back as ISO dates, and since filters them by the date they mean", () => {
+    const rw = openGarden({ root })
+    rw.run(
+      `INSERT INTO notes (id, path, title, description, date, domain, content, draft, updated)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      [
+        "knowledge/biology/zebrafish",
+        "knowledge/biology/zebrafish.md",
+        "Zebrafish",
+        null,
+        "Thu Mar 13 2025 20:00:00 GMT-0400",
+        "biology",
+        "zebrafish regeneration notes",
+        0,
+        "2025-03-14T00:00:00.000Z",
+      ],
+    )
+    rw.close()
+    const db = openGarden({ root, readonly: true })
+    const hit = searchNotes(db, { terms: ["zebrafish"] })
+    expect(hit.map((h) => h.date)).toEqual(["2025-03-14"])
+    expect(getNote(db, "knowledge/biology/zebrafish")!.date).toBe("2025-03-14")
+    expect(searchNotes(db, { terms: ["zebrafish"], since: "2025-03-01" })).toHaveLength(1)
+    expect(searchNotes(db, { terms: ["zebrafish"], since: "2025-04-01" })).toHaveLength(0)
+    db.close()
+  })
+})
+
 describe("freshness", () => {
   test("stale when a content file on disk is newer than the newest indexed row", () => {
     const db = openGarden({ root })
