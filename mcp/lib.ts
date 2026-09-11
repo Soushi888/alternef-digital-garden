@@ -154,7 +154,9 @@ export function freshness(db: Database, contentDir: string): FreshnessResult {
   const lastSynced = lastSyncedRow?.value ?? null
   const newestIndexed = newestRow?.updated ?? null
 
-  const newestOnDiskMs = newestMtimeMs(contentDir)
+  // Whole milliseconds: the index stores ISO milliseconds, and mtimeMs carries a sub-millisecond fraction
+  // that would otherwise make a file indexed at its own mtime read as newer than the index.
+  const newestOnDiskMs = Math.floor(newestMtimeMs(contentDir))
   const newestOnDisk = newestOnDiskMs > 0 ? new Date(newestOnDiskMs).toISOString() : null
 
   const stale =

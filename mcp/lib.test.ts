@@ -156,6 +156,19 @@ describe("freshness", () => {
     db.close()
   })
 
+  test("fresh when the newest file's mtime falls inside the indexed millisecond", () => {
+    // The index stores ISO milliseconds; mtimeMs carries a sub-millisecond fraction.
+    // Measured on the live garden: newestIndexed === newestOnDisk yet stale was true.
+    const db = openGarden({ root })
+    const indexed = freshness(db, contentDir).newestIndexed!
+    const withinSameMs = (new Date(indexed).getTime() + 0.4) / 1000
+    utimesSync(join(contentDir, "note.md"), withinSameMs, withinSameMs)
+    const result = freshness(db, contentDir)
+    expect(result.newestOnDisk).toBe(new Date(indexed).toISOString())
+    expect(result.stale).toBe(false)
+    db.close()
+  })
+
   test("fresh when nothing on disk is newer than the index", () => {
     const db = openGarden({ root })
     const past = new Date("2020-01-01T00:00:00.000Z")
