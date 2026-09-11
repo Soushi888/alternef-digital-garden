@@ -1,5 +1,6 @@
 import { getDb } from "../db"
 import { makeExcerpt } from "../indexer"
+import { getNote } from "../lib"
 import type { Note, NoteWithExcerpt, LinkTarget, LinkSource } from "../types"
 
 interface ContextArgs {
@@ -22,15 +23,12 @@ export function gardenContext({
 }: ContextArgs): ContextResult | null {
   const db = getDb()
 
-  const row = db
-    .prepare("SELECT * FROM notes WHERE (id = ? OR path = ?) AND draft = 0")
-    .get(note, note + ".md") as Record<string, unknown> | null
+  const full = getNote(db, note)
+  if (!full) return null
 
-  if (!row) return null
-
-  const noteId = row.id as string
-  const content = row.content as string
-  const excerpt = makeExcerpt(content)
+  const noteId = full.id
+  const content = full.content
+  const excerpt = full.excerpt
 
   // Outgoing links
   const outlinks = db
@@ -82,14 +80,14 @@ export function gardenContext({
   }
 
   const noteOut: Note & { content?: string; excerpt: string } = {
-    id: row.id as string,
-    path: row.path as string,
-    title: row.title as string,
-    description: (row.description as string | null) ?? null,
-    date: (row.date as string | null) ?? null,
-    domain: row.domain as string | null as Note["domain"],
-    draft: row.draft === 1,
-    updated: row.updated as string,
+    id: full.id,
+    path: full.path,
+    title: full.title,
+    description: full.description,
+    date: full.date,
+    domain: full.domain,
+    draft: full.draft,
+    updated: full.updated,
     excerpt,
   }
 

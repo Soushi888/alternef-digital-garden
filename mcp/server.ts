@@ -49,6 +49,12 @@ const TOOLS = [
       type: "object",
       properties: {
         query: { type: "string", description: "Search query (FTS5 syntax supported)" },
+        terms: {
+          type: "array",
+          items: { type: "string" },
+          description:
+            "Plain search terms, combined with query if both are given. Each term is quoted before reaching FTS5, so punctuation in a term (e.g. 'self-limitation:') can never be parsed as FTS5 syntax.",
+        },
         domain: { type: "string", description: "Filter by knowledge domain" },
         tag: { type: "string", description: "Filter by tag" },
         limit: { type: "number", description: "Max results (default 20)" },
