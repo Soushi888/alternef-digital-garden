@@ -4,7 +4,7 @@ description: "Hermeneutics is the theory and methodology of interpretation, part
 date: 2025-09-16
 aliases: ["Interpretation Theory", "Hermeneutical Theory", "Theory of Interpretation"]
 tags: ["education", "philosophy", "communication"]
-updated: 2026-08-14
+updated: 2026-09-02
 
 ---
 
@@ -141,6 +141,7 @@ In contemporary usage, hermeneutics is often described metaphorically as **"the 
 ## Related Topics
 
 - [[exegetical-traditions|Exegetical Traditions]] - The codified scriptural practices this discipline generalises
+- [[syllogism|Syllogism]] - Deduction operates on meanings already fixed; fixing them is interpretive work
 - [[knowledge/culture-and-education/index|Culture and Education]] - Broader domain context
 - **Epistemology** - Theory of knowledge and justified belief
 - **Phenomenology** - Study of consciousness and experience

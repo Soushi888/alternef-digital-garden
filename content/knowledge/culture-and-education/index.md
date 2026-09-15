@@ -3,7 +3,7 @@ title: Culture and Education
 description: A holistic exploration of learning, cultural dynamics, and human knowledge transmission
 tags: ["education", "learning"]
 date: 2025-02-12
-updated: 2026-08-14
+updated: 2026-09-15
 ---
 
 This section explores the intricate relationship between culture, education, and human knowledge, examining how societies learn, evolve, and transmit understanding across generations.
@@ -45,6 +45,7 @@ This section explores the intricate relationship between culture, education, and
 - [[metacognition|Metacognition]] - Thinking about thinking and self-regulated learning
 - [[liberal-arts|Seven Liberal Arts]] - Classical educational curriculum of Trivium and Quadrivium
 - [[trivium|Trivium]] - The three language arts: Grammar, Logic, and Rhetoric
+- [[syllogism|Syllogism]] - The three-proposition deductive form, and the seam where logic hands off to interpretation
 - [[quadrivium|Quadrivium]] - The four mathematical arts: Arithmetic, Geometry, Music, and Astronomy
 - [[ikigai|Ikigai]] - Japanese concept of life purpose and meaning-making
 - [[four-freedoms|Four Freedoms]] - Interior, vocational, social, and material dimensions of freedom
@@ -54,6 +55,10 @@ This section explores the intricate relationship between culture, education, and
 - [[pinel-biological-field-theory|Pinel's Biological Field Theory]] - His unitary causal field (champ H1/H2/H3) modeling the cell as a programmed system
 - [[holism|Holism]] - The principle that wholes have properties not present in their parts, analyzed as wholes rather than as collections
 - [[mathematical-intuitionism|Mathematical Intuitionism]] - Mathematics as mental construction, and the rejection of the law of the excluded middle
+- [[binary-thinking|Binary Thinking]] - What a dichotomy actually claims, and when collapsing a question to two is the right move
+- [[ternary-thinking|Ternary Thinking]] - Reasoning with three terms instead of two, and a test for when the third one does real work
+- [[quaternary-thinking|Quaternary Thinking]] - Four-term structures, and the question of whether the four is irreducible or two binaries crossed
+- [[dialectic|Dialectic]] - The several methods that word has named, and the formula Hegel never used
 - [[knowledge/culture-and-education/music/index|Music]] - Music as cultural expression, embodied knowledge, and bridge between traditions
 
 ### 5. Social and Emotional Learning

@@ -7,6 +7,7 @@ aliases:
   - "Three Liberal Arts"
   - "Grammar Logic Rhetoric"
 tags: ["education", "liberal-arts", "trivium", "critical-thinking"]
+updated: 2026-09-02
 
 ---
 
@@ -70,7 +71,7 @@ Logic, or dialectic, is the art of correct reasoning—teaching how to analyze a
 
 **Key Practices:**
 - **Socratic dialogue**: Question-driven exploration of ideas
-- **Formal logic**: Syllogisms, deductive and inductive reasoning
+- **Formal logic**: [[syllogism|Syllogisms]], deductive and inductive reasoning
 - **Argument analysis**: Identifying premises, conclusions, and fallacies
 - **Debate and disputation**: Applying logic to contested questions
 
