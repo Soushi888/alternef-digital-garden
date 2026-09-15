@@ -2,7 +2,7 @@
 title: "Where Meaning Lives"
 subtitle: "A semantic layer for Complexity Oriented Programming"
 date: 2026-08-20
-updated: "2026-08-29"
+updated: "2026-09-15"
 author: "Soushi888"
 description: "Meaning is the hardest irreducible in any social protocol. Separating what happened from what it is worth turns out to be an architecture decision, not a philosophical one."
 tags:
@@ -21,6 +21,10 @@ categories:
 *Meaning is the hardest irreducible in any social protocol. Separating what happened from what it is worth turns out to be an architecture decision, not a philosophical one.*
 
 ---
+
+<center>
+    <img src="where-meaning-lives-header.jpeg" alt="Two observation towers on opposite shores, each throwing a beam of light at the same sealed gold record resting on the horizon, one beam cool and one warm. Below the waterline an orderly lattice of identical signed chains; above it the same lattice breaking into constellations that do not agree. The AlterNef crosses the horizon at the right." width="50%" />
+</center>
 
 ## 1. The hardest irreducible
 
