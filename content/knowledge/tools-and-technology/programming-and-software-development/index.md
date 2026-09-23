@@ -3,6 +3,7 @@ title: Programming and Software Development
 date: 2025-02-19
 description: A holistic exploration of software engineering, programming paradigms, and computational thinking
 tags: ["programming", "software-development", "learning"]
+updated: 2026-09-22
 
 ---
 
@@ -29,6 +30,7 @@ This section is a comprehensive journey through the art and science of software 
 - [[drag-and-drop|Drag and Drop]]: interaction pattern for moving elements by dragging them to new positions
 - [[knowledge/tools-and-technology/programming-and-software-development/development-patterns/index|Development Patterns]]: design patterns, construction techniques, and problem-solving strategies
 - [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/index|Programming Paradigms]]: fundamental approaches to organizing and structuring programs
+- [[knowledge/tools-and-technology/programming-and-software-development/type-systems/index|Type Systems]]: algebraic and linear types, read as both programming tools and logic
 
 ### 3. Software Architecture
 

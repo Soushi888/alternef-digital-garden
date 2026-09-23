@@ -6,7 +6,7 @@ aliases:
   - "Functional Programming"
   - "FP"
 tags: ["programming", "programming-paradigms", "functional-programming"]
-updated: 2026-05-24
+updated: 2026-09-22
 ---
 
 ## Definition of Functional Programming
@@ -73,4 +73,5 @@ Functional Programming (FP) is a declarative programming paradigm that treats co
 
 - [[object-oriented-programming]]
 - [[procedural-programming]]
+- [[algebraic-data-types|Algebraic Data Types]]
 - Declarative Programming

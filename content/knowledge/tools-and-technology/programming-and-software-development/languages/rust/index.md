@@ -1,7 +1,7 @@
 ---
 title: "Rust"
 date: 2025-02-15
-updated: 2026-05-24
+updated: 2026-09-22
 aliases:
   - rust
   - Rust
@@ -24,7 +24,7 @@ As of early 2026, Rust continues to gain adoption across industries and has been
 
 ### Memory Safety Without Garbage Collection
 
-Rust prevents memory-related bugs (e.g., null pointer dereferencing, buffer overflows, use-after-free) at compile time using its **ownership model**:
+Rust prevents memory-related bugs (e.g., null pointer dereferencing, buffer overflows, use-after-free) at compile time using its **ownership model**, an affine cousin of [[linear-types|linear types]]:
 - Each value has a single owner.
 - Values are automatically dropped when the owner goes out of scope.
 - References must adhere to strict borrowing rules enforced by the borrow checker.
@@ -39,7 +39,7 @@ Rust's type system ensures thread safety. The compiler prevents data races by en
 
 ### Rich Type System and Pattern Matching
 
-Supports algebraic data types (enums), pattern matching, and type inference, enabling expressive and safe code.
+Supports [[algebraic-data-types|algebraic data types]] (enums), pattern matching, and type inference, enabling expressive and safe code.
 
 ### Excellent Tooling
 

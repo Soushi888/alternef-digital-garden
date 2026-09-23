@@ -1,7 +1,7 @@
 ---
 title: "Mathematics"
 date: 2025-12-11
-updated: 2026-08-11
+updated: 2026-09-22
 description: "Exploration of mathematical concepts, patterns, and their applications across disciplines"
 tags: ["software-architecture", "mathematics"]
 ---
@@ -27,6 +27,7 @@ This section explores fundamental mathematical concepts, patterns, and their app
 - Combinatorics
 - Graph theory
 - Mathematical structures in computer science
+- [[knowledge/tools-and-technology/programming-and-software-development/type-systems/index|Type Systems]]: algebraic and linear types, from logic and category theory
 
 ### 4. Applied Mathematics
 - [[knowledge/tools-and-technology/mathematics/perez-hourglass|Perez Hourglass]] - Mathematical structure with tech applications
