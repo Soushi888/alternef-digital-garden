@@ -73,6 +73,7 @@ Use centered HTML embed with 50% width:
 - Trailing commas in arrays/objects
 - 2-space indentation in code blocks
 - ISO date format in frontmatter: "YYYY-MM-DD"
+- Quotations from primary texts (epigraphs included) follow the citation form in `.claude/skills/DgNotes/WisdomCorpus.md` and stay verbatim, even when the source text uses an em-dash
 
 ## Common Patterns to Avoid
 
