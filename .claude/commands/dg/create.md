@@ -57,6 +57,7 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
     - Check for emdash (`—`) in title, description, body
     - Check wikilink syntax: pipe syntax used, index links use absolute paths
     - Report any violations — do not commit until resolved
+    - Exemption: an em-dash or double hyphen inside an accepted corpus quotation (see [Wisdom Corpus Lookup](#wisdom-corpus-lookup)) is quoted source text. Report it as such, but it does not block the commit
 11. **Playwright Validation**: Test created content renders correctly and links function
 12. **Content Verification**: Verify new content appears in navigation and search
 13. **Memory Update**: Append key patterns to PAI memory.
@@ -89,7 +90,13 @@ A hit is relevant only when the passage uses the topic's own sense. A word match
 
 The garden is public, so only `kind: "full-text"` passages may be quoted. `--cite` restricts the search to those rows. Curator-written material is never quoted as text: that covers every `kind: "summary"` row (their licence is unstated) and a concept's own `gloss` and `summary`. It may be paraphrased in Soushi's words or linked, never quoted.
 
-A concept's `key_passages` name a passage by its `quote` and its `local_id`, the id of the local passage whose text contains that quote. Their `idx` is upstream numbering and addresses nothing locally: never use it. A key passage with `local_id: null` has no local match and is not offered. For the others, fetch the local passage:
+Quotable text comes only from the `text` field that `passage <id> --json` returns. Search hits carry no `text`: their `snippet` holds search highlight brackets and `...` cuts, so it is for judging relevance only and is never quoted or shown as an excerpt. For a search hit worth offering, fetch the full passage with the hit's `id`, never its `idx`:
+
+```bash
+bun "${PAI_DIR}/PAI/Tools/WisdomCorpus.ts" passage <id> --json
+```
+
+A concept's `key_passages` name a passage by its `quote` and its `local_id`, the id of the local passage whose text contains that quote. Their `idx` is upstream numbering and addresses nothing locally: never use it. A key passage whose `local_id` is missing or null has no local match and is not offered. Never quote a key passage's own `text` field; quote only the `text` returned by `passage <local_id>`. For the others, fetch the local passage:
 
 ```bash
 bun "${PAI_DIR}/PAI/Tools/WisdomCorpus.ts" passage <local_id> --json
@@ -109,7 +116,7 @@ Show Soushi at most 3 passages, each with title, author, translator, a short exc
 
 ### Cite an accepted passage
 
-Each accepted passage goes under `## References`, quoted verbatim. A long passage may be trimmed to the contiguous lines that carry the point, with `[...]` marking any cut. With a source URL:
+Each accepted passage goes under `## References`, quoted verbatim from the fetched passage's `text`. When the note's template has no `## References` heading (the Blog Post template has none), add one at the end of the note. A long passage may be trimmed to the contiguous lines that carry the point, with `[...]` marking any cut. With a source URL:
 
 ```md
 ## References
@@ -130,7 +137,7 @@ Without one (the catalog `source` is null for many full texts):
 - Author and translator come from the catalog. Omit "translated by" when `translator` is null.
 - `SOURCE_URL` is the catalog `source` field (the public-domain edition the text was taken from). When it is null, use the second form: the corpus reader link is the only link. Never invent a source URL and never search the web for one to fill the gap.
 - When `license` is set and is not public domain (for example CC BY 4.0), state it after the last link.
-- `SLUG` is the passage's `slug`.
+- `SLUG` is the passage's `slug`. Use the corpus reader link only when the passage's `layer` is `base`: a `commons` row has no upstream reader page, so drop that link, and when no link is left, cite title, author and translator alone.
 - Never alter quoted text. If it contains an em-dash or a double hyphen, report it at Step 10 as quoted source text rather than rewriting the quotation. Fix OCR errors only with Soushi's agreement, marking each fix in [brackets].
 
 ## Built-in Quartz Knowledge
