@@ -58,6 +58,7 @@ When `--quick` is passed, skip steps 2-11 of the execution flow and only run:
 6. **Structure Refinement**: Optimize headings, lists, content flow, and organization
 7. **Clarity Enhancement**: Improve readability, explanations, and concept presentation
 8. **Completeness Analysis**: Add missing sections, examples, or context where needed
+   - **Primary passages** (optional, offer-only): when the note's topic touches a wisdom tradition, run the lookup in `.claude/skills/DgNotes/WisdomCorpus.md` and offer Soushi up to 3 full-text passages for the note's `## References`, skipping any passage the note already cites. Same public-garden rules and citation form as `/dg:create`. Never inserted unasked, never in `--quick` mode, and nothing is said about the corpus when no passage is relevant or the tool is unavailable
 9. **Frontmatter Validation**: Analyze and validate YAML frontmatter metadata for completeness and correctness
 10. **Playwright Validation**: Test improved content renders correctly and links function
 11. **Quality Assurance**: Verify improvements enhance rather than detract from content
@@ -1242,6 +1243,7 @@ function scoreFrontmatter(frontmatterData) {
 
 ## Claude Code Integration
 - **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
+- **Wisdom Corpus**: Optional, offer-only primary passages for References, skipped silently when absent (see `.claude/skills/DgNotes/WisdomCorpus.md`)
 - **Quality Analysis**: Built-in content quality assessment across multiple dimensions
 - **Structure Intelligence**: Deep understanding of optimal content organization and flow
 - **Link Enhancement**: Strategic internal link creation for knowledge graph integration
