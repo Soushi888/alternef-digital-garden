@@ -109,7 +109,8 @@ export default ((userOpts?: Partial<Options>) => {
         title: file.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title,
         link: file.slug as FullSlug,
         date: file.dates?.modified || file.dates?.created || new Date(),
-        createdDate: file.dates?.gitCreated ?? file.dates?.created ?? file.dates?.modified ?? new Date(),
+        createdDate:
+          file.dates?.gitCreated ?? file.dates?.created ?? file.dates?.modified ?? new Date(),
         type: isModified ? "modified" : "created",
         id: `${file.slug}-${isModified ? "modified" : "created"}`,
         excerpt: file.frontmatter?.description,
@@ -178,7 +179,7 @@ export default ((userOpts?: Partial<Options>) => {
               {opts.title ?? "Recent Changes"}
             </a>
           ) : (
-            opts.title ?? "Recent Changes"
+            (opts.title ?? "Recent Changes")
           )}
         </h3>
 

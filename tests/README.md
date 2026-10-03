@@ -239,6 +239,7 @@ npx playwright test tests/e2e/recent-changes.spec.ts --debug
 ### Screenshots and Videos
 
 Tests automatically capture:
+
 - Screenshots on failure
 - Videos of test execution
 - Traces for performance analysis
@@ -286,21 +287,25 @@ Tests capture console errors and warnings for debugging.
 ### Common Issues
 
 **Tests timeout:**
+
 - Increase timeout in `playwright.config.ts`
 - Check if the site is accessible
 - Verify selectors are correct
 
 **Tests fail on CI:**
+
 - Check CI environment setup
 - Ensure all browsers are installed
 - Verify environment variables
 
 **Performance tests fail:**
+
 - Check network conditions
 - Verify site performance manually
 - Adjust thresholds if needed
 
 **Accessibility tests fail:**
+
 - Review WCAG guidelines
 - Check contrast ratios manually
 - Verify screen reader output

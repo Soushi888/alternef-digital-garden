@@ -19,7 +19,11 @@ function pathToRelative(filePath: string): string {
 
 function deriveDomain(id: string): string | null {
   const parts = id.split("/")
-  if (parts[0] === "knowledge" && parts.length > 1 && (DOMAINS as readonly string[]).includes(parts[1])) {
+  if (
+    parts[0] === "knowledge" &&
+    parts.length > 1 &&
+    (DOMAINS as readonly string[]).includes(parts[1])
+  ) {
     return parts[1]
   }
   return null
@@ -32,7 +36,11 @@ function parseWikilinks(content: string): Wikilink[] {
   }))
 }
 
-function resolveWikilink(target: string, allIds: Set<string>, allAliases: Map<string, string>): string | null {
+function resolveWikilink(
+  target: string,
+  allIds: Set<string>,
+  allAliases: Map<string, string>,
+): string | null {
   if (allIds.has(target)) return target
   if (allAliases.has(target)) return allAliases.get(target)!
   for (const id of allIds) {
@@ -42,7 +50,11 @@ function resolveWikilink(target: string, allIds: Set<string>, allAliases: Map<st
 }
 
 function makeExcerpt(content: string, maxLen = 200): string {
-  return content.replace(/^---[\s\S]*?---\n?/, "").replace(/\s+/g, " ").trim().slice(0, maxLen)
+  return content
+    .replace(/^---[\s\S]*?---\n?/, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, maxLen)
 }
 
 interface NoteRecord {
@@ -116,7 +128,17 @@ export async function indexAll(): Promise<number> {
     )
 
     for (const n of notes) {
-      insNote.run(n.id, n.path, n.title, n.description, n.date, n.domain, n.content, n.draft, n.updated)
+      insNote.run(
+        n.id,
+        n.path,
+        n.title,
+        n.description,
+        n.date,
+        n.domain,
+        n.content,
+        n.draft,
+        n.updated,
+      )
       for (const tag of n.tags) insTag.run(n.id, tag)
       for (const alias of n.aliases) insAlias.run(n.id, alias)
     }
@@ -131,7 +153,9 @@ export async function indexAll(): Promise<number> {
   })
 
   rebuild()
-  db.run("INSERT OR REPLACE INTO meta (key, value) VALUES ('last_synced', ?)", [new Date().toISOString()])
+  db.run("INSERT OR REPLACE INTO meta (key, value) VALUES ('last_synced', ?)", [
+    new Date().toISOString(),
+  ])
   return notes.length
 }
 
@@ -145,10 +169,9 @@ export async function syncFile(filePath: string): Promise<void> {
   )
   allIds.add(n.id)
   const allAliases = new Map<string, string>(
-    (db.query("SELECT alias, note_id FROM aliases").all() as { alias: string; note_id: string }[]).map((r) => [
-      r.alias,
-      r.note_id,
-    ]),
+    (
+      db.query("SELECT alias, note_id FROM aliases").all() as { alias: string; note_id: string }[]
+    ).map((r) => [r.alias, r.note_id]),
   )
   for (const alias of n.aliases) allAliases.set(alias, n.id)
 
@@ -167,16 +190,16 @@ export async function syncFile(filePath: string): Promise<void> {
     db.run("DELETE FROM aliases WHERE note_id = ?", [n.id])
     db.run("DELETE FROM links WHERE source_id = ?", [n.id])
 
-    for (const tag of n.tags) db.run("INSERT OR IGNORE INTO tags (note_id, tag) VALUES (?, ?)", [tag ? n.id : "", tag])
-    for (const alias of n.aliases) db.run("INSERT OR IGNORE INTO aliases (note_id, alias) VALUES (?, ?)", [n.id, alias])
+    for (const tag of n.tags)
+      db.run("INSERT OR IGNORE INTO tags (note_id, tag) VALUES (?, ?)", [tag ? n.id : "", tag])
+    for (const alias of n.aliases)
+      db.run("INSERT OR IGNORE INTO aliases (note_id, alias) VALUES (?, ?)", [n.id, alias])
     for (const wl of n.wikilinks) {
       const resolved = resolveWikilink(wl.target, allIds, allAliases)
-      db.run("INSERT INTO links (source_id, target_id, target_raw, display_text) VALUES (?, ?, ?, ?)", [
-        n.id,
-        resolved,
-        wl.target,
-        wl.display,
-      ])
+      db.run(
+        "INSERT INTO links (source_id, target_id, target_raw, display_text) VALUES (?, ?, ?, ?)",
+        [n.id, resolved, wl.target, wl.display],
+      )
     }
   })()
 }

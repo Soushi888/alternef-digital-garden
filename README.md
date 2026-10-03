@@ -14,7 +14,7 @@ Alternef Digital Garden is a sophisticated personal wiki and knowledge sharing p
 
 ### Content Organization
 
-``` text
+```text
 content/
 ├── about-me.md         # Personal introduction
 ├── blog/               # Thought pieces and articles
@@ -31,7 +31,7 @@ content/
 
 ### Technical Architecture
 
-``` text
+```text
 alternef-digital-garden/
 ├── quartz/             # Quartz framework customizations
 │   ├── components/     # React/TypeScript UI components
@@ -48,31 +48,37 @@ alternef-digital-garden/
 Our digital garden spans seven critical areas of knowledge:
 
 1. **Land and Nature Stewardship** 🌾
+
    - Sustainable practices
    - Ecological understanding
    - Environmental conservation
 
 2. **Built Environment** 🏗️
+
    - Architecture
    - Urban planning
    - Infrastructure design
 
 3. **Tools and Technology** 🛠️
+
    - Digital tools
    - Technological innovations
    - Software and hardware insights
 
 4. **Culture and Education** 🌍
+
    - Learning methodologies
    - Cultural studies
    - Social dynamics
 
 5. **Health and Wellbeing** 🌈
+
    - Holistic health approaches
    - Mental and physical wellness
    - Lifestyle strategies
 
 6. **Finance and Economics** 💰
+
    - Economic theories
    - Personal finance
    - Sustainable economic models

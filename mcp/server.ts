@@ -26,9 +26,18 @@ const TOOLS = [
     inputSchema: {
       type: "object",
       properties: {
-        note: { type: "string", description: "Note id (e.g. 'knowledge/tools-and-technology/holochain/index') or path" },
-        includeContent: { type: "boolean", description: "Include full markdown body (default false)" },
-        maxContentBytes: { type: "number", description: "Truncate content at this byte length (default 8000)" },
+        note: {
+          type: "string",
+          description: "Note id (e.g. 'knowledge/tools-and-technology/holochain/index') or path",
+        },
+        includeContent: {
+          type: "boolean",
+          description: "Include full markdown body (default false)",
+        },
+        maxContentBytes: {
+          type: "number",
+          description: "Truncate content at this byte length (default 8000)",
+        },
       },
       required: ["note"],
     },
@@ -92,7 +101,8 @@ const TOOLS = [
   },
   {
     name: "garden_files",
-    description: "Domain tree view with note counts. Shows all 7 knowledge domains, or drills into one.",
+    description:
+      "Domain tree view with note counts. Shows all 7 knowledge domains, or drills into one.",
     inputSchema: {
       type: "object",
       properties: {
@@ -117,7 +127,8 @@ const TOOLS = [
   },
   {
     name: "garden_status",
-    description: "Index stats: total notes, link count, unresolved links, tag count, domain breakdown, DB size.",
+    description:
+      "Index stats: total notes, link count, unresolved links, tag count, domain breakdown, DB size.",
     inputSchema: {
       type: "object",
       properties: {},
@@ -132,7 +143,10 @@ const TOOLS = [
       type: "object",
       properties: {
         limit: { type: "number", description: "Max results (default 50)" },
-        minCount: { type: "number", description: "Only return targets referenced at least this many times (default 1)" },
+        minCount: {
+          type: "number",
+          description: "Only return targets referenced at least this many times (default 1)",
+        },
         domain: { type: "string", description: "Scope to source notes in a specific domain" },
       },
       required: [],
@@ -140,12 +154,16 @@ const TOOLS = [
   },
   {
     name: "garden_orphans",
-    description: "Notes with zero incoming backlinks — no other note links to them. Useful for finding isolated content that needs to be wired into the knowledge graph.",
+    description:
+      "Notes with zero incoming backlinks — no other note links to them. Useful for finding isolated content that needs to be wired into the knowledge graph.",
     inputSchema: {
       type: "object",
       properties: {
         domain: { type: "string", description: "Scope to a specific knowledge domain" },
-        excludeIndexes: { type: "boolean", description: "Exclude domain/directory index files from results (default false)" },
+        excludeIndexes: {
+          type: "boolean",
+          description: "Exclude domain/directory index files from results (default false)",
+        },
       },
       required: [],
     },
@@ -159,7 +177,10 @@ const TOOLS = [
       properties: {
         note: { type: "string", description: "Validate a single note by id or path" },
         domain: { type: "string", description: "Validate all notes in a domain" },
-        onlyWithIssues: { type: "boolean", description: "Only return notes that have issues (default true)" },
+        onlyWithIssues: {
+          type: "boolean",
+          description: "Only return notes that have issues (default true)",
+        },
       },
       required: [],
     },
@@ -172,7 +193,10 @@ const TOOLS = [
       type: "object",
       properties: {
         domain: { type: "string", description: "Scope to a specific knowledge domain" },
-        withAliasesOnly: { type: "boolean", description: "Only return notes that have aliases (default true)" },
+        withAliasesOnly: {
+          type: "boolean",
+          description: "Only return notes that have aliases (default true)",
+        },
       },
       required: [],
     },
@@ -183,10 +207,7 @@ async function serve() {
   initSchema()
   startWatcher()
 
-  const server = new Server(
-    { name: "garden", version: "1.0.0" },
-    { capabilities: { tools: {} } },
-  )
+  const server = new Server({ name: "garden", version: "1.0.0" }, { capabilities: { tools: {} } })
 
   server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools: TOOLS }))
 

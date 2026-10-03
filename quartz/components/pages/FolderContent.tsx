@@ -22,14 +22,14 @@ interface FolderContentOptions {
    */
   recursive: boolean
   sort?: SortFn
-  displayMode?: 'list' | 'cards'
+  displayMode?: "list" | "cards"
 }
 
 const defaultOptions: FolderContentOptions = {
   showFolderCount: true,
   showSubfolders: true,
   recursive: false,
-  displayMode: 'list',
+  displayMode: "list",
 }
 
 export default ((opts?: Partial<FolderContentOptions>) => {

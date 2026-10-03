@@ -1,7 +1,12 @@
 import { getDb } from "../db"
 
 interface ValidationIssue {
-  type: "missing_description" | "missing_date" | "missing_tags" | "unresolved_links" | "no_alias_on_index"
+  type:
+    | "missing_description"
+    | "missing_date"
+    | "missing_tags"
+    | "unresolved_links"
+    | "no_alias_on_index"
   severity: "warning" | "error"
   message: string
 }
@@ -26,7 +31,11 @@ interface ValidateResult {
   notes: NoteValidation[]
 }
 
-export function gardenValidate({ note, domain, onlyWithIssues = true }: ValidateArgs = {}): ValidateResult {
+export function gardenValidate({
+  note,
+  domain,
+  onlyWithIssues = true,
+}: ValidateArgs = {}): ValidateResult {
   const db = getDb()
 
   // Build filter

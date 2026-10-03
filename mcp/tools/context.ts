@@ -15,7 +15,11 @@ interface ContextResult {
   tagSiblings: NoteWithExcerpt[]
 }
 
-export function gardenContext({ note, includeContent = false, maxContentBytes = 8000 }: ContextArgs): ContextResult | null {
+export function gardenContext({
+  note,
+  includeContent = false,
+  maxContentBytes = 8000,
+}: ContextArgs): ContextResult | null {
   const db = getDb()
 
   const row = db
@@ -31,7 +35,11 @@ export function gardenContext({ note, includeContent = false, maxContentBytes = 
   // Outgoing links
   const outlinks = db
     .prepare("SELECT target_id, target_raw, display_text FROM links WHERE source_id = ?")
-    .all(noteId) as Array<{ target_id: string | null; target_raw: string; display_text: string | null }>
+    .all(noteId) as Array<{
+    target_id: string | null
+    target_raw: string
+    display_text: string | null
+  }>
 
   // Backlinks (distinct source notes)
   const backlinks = db
@@ -44,9 +52,9 @@ export function gardenContext({ note, includeContent = false, maxContentBytes = 
     .all(noteId) as Array<{ id: string; title: string; path: string }>
 
   // Tag siblings (notes sharing ≥1 tag, excluding self)
-  const tags = (db.prepare("SELECT tag FROM tags WHERE note_id = ?").all(noteId) as { tag: string }[]).map(
-    (r) => r.tag,
-  )
+  const tags = (
+    db.prepare("SELECT tag FROM tags WHERE note_id = ?").all(noteId) as { tag: string }[]
+  ).map((r) => r.tag)
 
   let tagSiblings: NoteWithExcerpt[] = []
   if (tags.length > 0) {
@@ -66,7 +74,7 @@ export function gardenContext({ note, includeContent = false, maxContentBytes = 
       title: r.title as string,
       description: (r.description as string | null) ?? null,
       date: (r.date as string | null) ?? null,
-      domain: (r.domain as string | null) as NoteWithExcerpt["domain"],
+      domain: r.domain as string | null as NoteWithExcerpt["domain"],
       draft: r.draft === 1,
       updated: r.updated as string,
       excerpt: makeExcerpt(r.content as string),
@@ -79,7 +87,7 @@ export function gardenContext({ note, includeContent = false, maxContentBytes = 
     title: row.title as string,
     description: (row.description as string | null) ?? null,
     date: (row.date as string | null) ?? null,
-    domain: (row.domain as string | null) as Note["domain"],
+    domain: row.domain as string | null as Note["domain"],
     draft: row.draft === 1,
     updated: row.updated as string,
     excerpt,
@@ -91,7 +99,11 @@ export function gardenContext({ note, includeContent = false, maxContentBytes = 
 
   return {
     note: noteOut,
-    outlinks: outlinks.map((r) => ({ id: r.target_id, raw: r.target_raw, display: r.display_text })),
+    outlinks: outlinks.map((r) => ({
+      id: r.target_id,
+      raw: r.target_raw,
+      display: r.display_text,
+    })),
     backlinks: backlinks.map((r) => ({ id: r.id, title: r.title, path: r.path })),
     tagSiblings,
   }
