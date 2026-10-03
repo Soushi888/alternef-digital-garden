@@ -33,6 +33,7 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
    - Call `mcp__garden__garden_status` to confirm index is fresh
    - Call `mcp__garden__garden_files` to get the domain tree and verify target directory exists
    - Call `mcp__garden__garden_search` with the new note's topic/title to find existing related notes (prevents duplicates; informs link suggestions in Step 9)
+   - **Wisdom corpus lookup** (optional, offer-only): run the lookup in [Wisdom Corpus Lookup](#wisdom-corpus-lookup) with the note's topic. Relevant hits are offered to Soushi (at most 3 passages) before drafting; no relevant hit, or no corpus tool or index on this machine, means say nothing and continue exactly as without it
    - Only after MCP calls: grep PAI memory for relevant past patterns (memory/dg-patterns.md)
 2. **Content Type Detection**: Determine target path and template based on content type
 3. **Path Generation**: Create Quartz-compatible file paths with proper slugification
@@ -60,6 +61,57 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
 12. **Content Verification**: Verify new content appears in navigation and search
 13. **Memory Update**: Append key patterns to PAI memory.
     - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
+
+## Wisdom Corpus Lookup
+
+A local mirror of the Wisdom Context Window corpus (https://wisdom.owocki.com/) can supply primary-source passages for a note. It is optional: the note is created exactly as it would be without it whenever the lookup finds nothing relevant or cannot run.
+
+### Run
+
+```bash
+bun ~/.claude/PAI/Tools/WisdomCorpus.ts search "<note topic>" --cite --limit 8 --json
+bun ~/.claude/PAI/Tools/WisdomCorpus.ts concept <topic-slug> --json
+```
+
+- `<topic-slug>` is the kebab-case topic (`non-attachment`, `wu-wei`). `unknown concept` with exit 1 means no concept matches: ignore it.
+- If the search returns zero passages, retry once with the single core term of the topic, then stop.
+- If `~/.claude/PAI/Tools/WisdomCorpus.ts` is missing, or either command fails for any reason other than an unknown concept (no index yet, bun error), skip the lookup silently. Never mention the corpus in that case.
+
+### Judge relevance
+
+A hit is relevant only when the passage uses the topic's own sense. A word match in another sense (snow "flakes" for Nix flakes, "attachment" of a file) is not a hit. If nothing is relevant, say nothing about the corpus and continue.
+
+### Public-garden rule (hard)
+
+The garden is public, so only `kind: "full-text"` passages may be quoted. `--cite` restricts the search to those rows. Curator-written material is never quoted as text: that covers every `kind: "summary"` row (their licence is unstated) and a concept's own `gloss` and `summary`. It may be paraphrased in Soushi's words or linked, never quoted.
+
+A concept's `key_passages` can point into summary texts. Before offering one, check its text:
+
+```bash
+bun ~/.claude/PAI/Tools/WisdomCorpus.ts text <slug> --count 0 --json
+```
+
+Offer it only if `text.kind` is `"full-text"`. Take the passage itself from the key passage's own `text` field: its `idx` is the upstream index and does not address the local `text --from` window. The same call returns the catalog fields the reference needs (`author`, `translator`, `source`, `license`), for search hits too.
+
+### Offer, never insert
+
+Show Soushi at most 3 passages, each with title, author, translator, a short excerpt, and the source URL when the catalog has one. Prefer clean passages: some full-text rows are OCR scans with visible errors, so say so when an excerpt shows them. Soushi picks which ones go in, possibly none. Nothing from the corpus enters the note unless he accepts it.
+
+### Cite an accepted passage
+
+Each accepted passage goes under `## References`, quoted verbatim. A long passage may be trimmed to the contiguous lines that carry the point, with `[...]` marking any cut:
+
+```md
+## References
+- *Title*, Author, translated by Translator. [Original source](SOURCE_URL). Read in the [Wisdom Context Window corpus](https://wisdom.owocki.com/explorer/#/read/SLUG).
+  > Verbatim passage text.
+```
+
+- Author and translator come from the catalog. Omit "translated by" when `translator` is null.
+- `SOURCE_URL` is the catalog `source` field (the public-domain edition the text was taken from). When it is null, drop the "Original source" link and keep the corpus link; never invent a source URL.
+- When `license` is set and is not public domain (for example CC BY 4.0), state it after the source link.
+- `SLUG` is the passage's `slug`.
+- Never alter quoted text. If it contains an em-dash or a double hyphen, report it at Step 10 as quoted source text rather than rewriting the quotation. Fix OCR errors only with Soushi's agreement, marking each fix in [brackets].
 
 ## Built-in Quartz Knowledge
 
