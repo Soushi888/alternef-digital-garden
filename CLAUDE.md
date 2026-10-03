@@ -84,6 +84,13 @@ The core framework lives here. Key subdirectories:
 - **TypeScript**: Strict mode, ESNext target, JSX configured for Preact (`preact/jsx-runtime`).
 - **Commit messages**: `feat:`, `fix:`, `chore:` prefixes (conventional commits pattern).
 
+## Change Workflow
+
+- **Code, tooling and CI**: open an issue, work in a worktree (`.worktrees/<type>-<slug>` on branch `<type>/<slug>` from `origin/main`), and open a PR that closes the issue. The PR must pass the `Quality` and `E2E Tests` workflows before it is marked ready. Soushi merges.
+- **Notes and articles**: a branch and a PR, no issue needed.
+- **Minor changes** (a typo, a one-file doc fix): commit straight to `main`.
+- **Before pushing**: `bunx tsc --noEmit`, `bunx prettier . --check` and `bun run test` must pass locally; the `Quality` workflow runs the same checks.
+
 ## Content Authoring
 
 - Frontmatter fields: `title`, `date`, `tags`, `draft`, `description`, `aliases`.
