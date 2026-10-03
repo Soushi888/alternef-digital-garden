@@ -211,13 +211,18 @@ export function main(argv: string[], env: Record<string, string | undefined>): n
 
   const report = (status: string, violations: Violation[], note?: string) => {
     if (json) {
-      console.log(JSON.stringify({ status, citations: citations.length, violations, note }, null, 2))
+      console.log(
+        JSON.stringify({ status, citations: citations.length, violations, note }, null, 2),
+      )
       return
     }
     console.log("=== Corpus Citation Integrity ===")
     if (note) console.log(note)
-    for (const v of violations) console.log(`  ERROR ${v.file}:${v.line} [${v.kind}] ${v.ref}: ${v.message}`)
-    console.log(`Citations: ${citations.length}  Violations: ${violations.length}  Status: ${status}`)
+    for (const v of violations)
+      console.log(`  ERROR ${v.file}:${v.line} [${v.kind}] ${v.ref}: ${v.message}`)
+    console.log(
+      `Citations: ${citations.length}  Violations: ${violations.length}  Status: ${status}`,
+    )
   }
 
   if (citations.length === 0) {
@@ -226,7 +231,11 @@ export function main(argv: string[], env: Record<string, string | undefined>): n
   }
   const tool = resolveTool(toolFlag, env)
   if (!tool) {
-    report("skipped", [], "SKIPPED: corpus tool not available on this machine, citations not checked.")
+    report(
+      "skipped",
+      [],
+      "SKIPPED: corpus tool not available on this machine, citations not checked.",
+    )
     return 0
   }
 

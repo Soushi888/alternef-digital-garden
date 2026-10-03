@@ -109,7 +109,10 @@ describe("checkCitation", () => {
   const base = { file: "f.md", line: 1, slug: "enchiridion", id: 101 }
   test("verbatim quote passes", () =>
     expect(
-      checkCitation({ ...base, quote: "wish them to happen as they do happen" }, { ok: true, passage }),
+      checkCitation(
+        { ...base, quote: "wish them to happen as they do happen" },
+        { ok: true, passage },
+      ),
     ).toBeNull())
   test("a tool failure other than unknown id throws", () =>
     expect(() =>

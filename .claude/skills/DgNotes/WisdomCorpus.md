@@ -125,10 +125,10 @@ Exit 0 is clean or skipped, 1 is violations, 2 is a corpus tool that failed to r
 
 ## Per-command use
 
-| Command | Use | Writes |
-|---|---|---|
-| `/dg:create` | Lookup during the MCP pre-flight; offer up to 3 passages before drafting | Only accepted passages, under `## References` |
-| `/dg:improve` | For an existing note in a tradition, offer up to 3 passages for its References | Only accepted passages, never unasked |
-| `/dg:explore traditions` | "What do the traditions say" about a note or concept | Nothing |
-| DgBlog | Epigraph or in-text quotation from a primary text | Only accepted passages |
-| `/dg:validate` | Citation integrity over `content/` | Nothing |
+| Command                  | Use                                                                            | Writes                                        |
+| ------------------------ | ------------------------------------------------------------------------------ | --------------------------------------------- |
+| `/dg:create`             | Lookup during the MCP pre-flight; offer up to 3 passages before drafting       | Only accepted passages, under `## References` |
+| `/dg:improve`            | For an existing note in a tradition, offer up to 3 passages for its References | Only accepted passages, never unasked         |
+| `/dg:explore traditions` | "What do the traditions say" about a note or concept                           | Nothing                                       |
+| DgBlog                   | Epigraph or in-text quotation from a primary text                              | Only accepted passages                        |
+| `/dg:validate`           | Citation integrity over `content/`                                             | Nothing                                       |
