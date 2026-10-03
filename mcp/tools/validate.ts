@@ -40,7 +40,7 @@ export function gardenValidate({
 
   // Build filter
   const conditions: string[] = ["n.draft = 0"]
-  const params: unknown[] = []
+  const params: string[] = []
 
   if (note) {
     conditions.push("(n.id = ? OR n.path = ?)")

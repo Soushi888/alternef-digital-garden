@@ -21,7 +21,7 @@ export function gardenAliasMap({
   const db = getDb()
 
   const domainFilter = domain ? "AND n.domain = ?" : ""
-  const params: unknown[] = domain ? [domain] : []
+  const params: string[] = domain ? [domain] : []
 
   const rows = db
     .prepare(

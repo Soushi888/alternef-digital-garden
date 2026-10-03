@@ -23,7 +23,7 @@ export class TestHelpers {
   static async isElementVisibleWithContent(page: Page, selector: string): Promise<boolean> {
     const element = page.locator(selector)
     const isVisible = await element.isVisible()
-    const hasContent = (await element.textContent())?.trim().length > 0
+    const hasContent = ((await element.textContent())?.trim().length ?? 0) > 0
     return isVisible && hasContent
   }
 
@@ -144,7 +144,7 @@ export class TestHelpers {
         title: `Test Item ${i + 1}`,
         link: `/test-item-${i + 1}`,
         date,
-        type: Math.random() > 0.5 ? "created" : "modified",
+        type: (Math.random() > 0.5 ? "created" : "modified") as "created" | "modified",
         excerpt: `This is a test excerpt for item ${i + 1}`,
         tags: [`tag${i + 1}`, "test", "sample"],
       })

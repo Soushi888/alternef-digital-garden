@@ -122,6 +122,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.50.0",
+    "@types/bun": "^1.4.2",
     "@types/cli-spinner": "^0.2.3",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",

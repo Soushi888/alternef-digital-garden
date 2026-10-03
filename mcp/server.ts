@@ -217,43 +217,45 @@ async function serve() {
 
     switch (name) {
       case "garden_context":
-        result = gardenContext(args as Parameters<typeof gardenContext>[0])
+        result = gardenContext(args as unknown as Parameters<typeof gardenContext>[0])
         break
       case "garden_search":
-        result = gardenSearch(args as Parameters<typeof gardenSearch>[0])
+        result = gardenSearch(args as unknown as Parameters<typeof gardenSearch>[0])
         break
       case "garden_backlinks":
-        result = gardenBacklinks(args as Parameters<typeof gardenBacklinks>[0])
+        result = gardenBacklinks(args as unknown as Parameters<typeof gardenBacklinks>[0])
         break
       case "garden_links":
-        result = gardenLinks(args as Parameters<typeof gardenLinks>[0])
+        result = gardenLinks(args as unknown as Parameters<typeof gardenLinks>[0])
         break
       case "garden_tag_list":
         result = gardenTagList()
         break
       case "garden_tags":
-        result = gardenTags(args as Parameters<typeof gardenTags>[0])
+        result = gardenTags(args as unknown as Parameters<typeof gardenTags>[0])
         break
       case "garden_files":
-        result = gardenFiles(args as Parameters<typeof gardenFiles>[0])
+        result = gardenFiles(args as unknown as Parameters<typeof gardenFiles>[0])
         break
       case "garden_explore":
-        result = gardenExplore(args as Parameters<typeof gardenExplore>[0])
+        result = gardenExplore(args as unknown as Parameters<typeof gardenExplore>[0])
         break
       case "garden_status":
         result = gardenStatus()
         break
       case "garden_unresolved_links":
-        result = gardenUnresolvedLinks(args as Parameters<typeof gardenUnresolvedLinks>[0])
+        result = gardenUnresolvedLinks(
+          args as unknown as Parameters<typeof gardenUnresolvedLinks>[0],
+        )
         break
       case "garden_orphans":
-        result = gardenOrphans(args as Parameters<typeof gardenOrphans>[0])
+        result = gardenOrphans(args as unknown as Parameters<typeof gardenOrphans>[0])
         break
       case "garden_validate":
-        result = gardenValidate(args as Parameters<typeof gardenValidate>[0])
+        result = gardenValidate(args as unknown as Parameters<typeof gardenValidate>[0])
         break
       case "garden_alias_map":
-        result = gardenAliasMap(args as Parameters<typeof gardenAliasMap>[0])
+        result = gardenAliasMap(args as unknown as Parameters<typeof gardenAliasMap>[0])
         break
       default:
         throw new Error(`Unknown tool: ${name}`)

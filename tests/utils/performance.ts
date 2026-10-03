@@ -22,8 +22,8 @@ export class PerformanceUtils {
         const paint = performance.getEntriesByType("paint")
 
         const metrics = {
-          domContentLoaded: navigation.domContentLoadedEventEnd - navigation.navigationStart,
-          loadComplete: navigation.loadEventEnd - navigation.navigationStart,
+          domContentLoaded: navigation.domContentLoadedEventEnd - navigation.startTime,
+          loadComplete: navigation.loadEventEnd - navigation.startTime,
           firstPaint: 0,
           firstContentfulPaint: 0,
           largestContentfulPaint: 0,
@@ -174,7 +174,8 @@ export class PerformanceUtils {
         new PerformanceObserver((list) => {
           const entries = list.getEntries()
           if (entries.length > 0) {
-            vitals.fid = entries[0].processingStart - entries[0].startTime
+            const firstInput = entries[0] as PerformanceEventTiming
+            vitals.fid = firstInput.processingStart - firstInput.startTime
           }
           checkComplete()
         }).observe({ entryTypes: ["first-input"] })
