@@ -107,9 +107,24 @@ export function parseCitations(file: string, source: string): Citation[] {
   return out
 }
 
+const WORD_CHAR_RE = /[\p{L}\p{N}]/u
+
+function isWordChar(ch: string | undefined): boolean {
+  return ch !== undefined && WORD_CHAR_RE.test(ch)
+}
+
+/** True when the segment at `at` neither starts nor ends in the middle of a word. */
+function onWordBoundaries(text: string, at: number, seg: string): boolean {
+  const end = at + seg.length
+  const cutStart = isWordChar(seg[0]) && isWordChar(text[at - 1])
+  const cutEnd = isWordChar(seg[seg.length - 1]) && isWordChar(text[end])
+  return !cutStart && !cutEnd
+}
+
 /**
  * A quotation matches when every segment between `[...]` cuts appears in the passage
- * text, in order, after whitespace normalisation. Nothing else may differ.
+ * text, in order, after whitespace normalisation, starting and ending on word boundaries.
+ * `[...]` is the only editorial mark, so a quote cut mid-word fails. Nothing else may differ.
  */
 export function quoteMatches(quote: string, passageText: string): boolean {
   const text = normalise(passageText)
@@ -120,7 +135,8 @@ export function quoteMatches(quote: string, passageText: string): boolean {
   if (segments.length === 0) return false
   let from = 0
   for (const seg of segments) {
-    const at = text.indexOf(seg, from)
+    let at = text.indexOf(seg, from)
+    while (at !== -1 && !onWordBoundaries(text, at, seg)) at = text.indexOf(seg, at + 1)
     if (at === -1) return false
     from = at + seg.length
   }

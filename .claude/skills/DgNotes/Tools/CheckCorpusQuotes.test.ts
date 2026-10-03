@@ -88,6 +88,10 @@ describe("quoteMatches", () => {
   test("out-of-order segments fail", () =>
     expect(quoteMatches("six seven. [...] One two", text)).toBe(false))
   test("an altered word fails", () => expect(quoteMatches("One too three", text)).toBe(false))
+  test("a segment cut mid-word fails", () =>
+    expect(quoteMatches("ne two three four. Fiv", text)).toBe(false))
+  test("a later whole-word occurrence still matches", () =>
+    expect(quoteMatches("art", "smart art")).toBe(true))
 })
 
 describe("parseCitations", () => {
