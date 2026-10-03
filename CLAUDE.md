@@ -8,20 +8,20 @@ Alternef Digital Garden is a personal knowledge management system built on **Qua
 
 ## Commands
 
-| Task | Command |
-|------|---------|
-| Dev server (hot-reload) | `bun quartz build --serve` or `npm run dev` |
-| Production build | `bun quartz build` or `npm run build` |
-| Unit tests | `npm test` |
-| All E2E tests | `npm run test:e2e` |
-| Single E2E test file | `npx playwright test tests/e2e/<file>.spec.ts` |
-| E2E specific browser | `npm run test:e2e:chrome` / `test:e2e:firefox` / `test:e2e:safari` |
-| E2E accessibility | `npm run test:e2e:accessibility` |
-| E2E performance | `npm run test:e2e:performance` |
-| E2E debug mode | `npm run test:e2e:debug` |
-| Type-check + format check | `npm run check` |
-| Auto-format | `npm run format` |
-| Install Playwright browsers | `npm run test:e2e:install` |
+| Task                        | Command                                                            |
+| --------------------------- | ------------------------------------------------------------------ |
+| Dev server (hot-reload)     | `bun quartz build --serve` or `npm run dev`                        |
+| Production build            | `bun quartz build` or `npm run build`                              |
+| Unit tests                  | `npm test`                                                         |
+| All E2E tests               | `npm run test:e2e`                                                 |
+| Single E2E test file        | `npx playwright test tests/e2e/<file>.spec.ts`                     |
+| E2E specific browser        | `npm run test:e2e:chrome` / `test:e2e:firefox` / `test:e2e:safari` |
+| E2E accessibility           | `npm run test:e2e:accessibility`                                   |
+| E2E performance             | `npm run test:e2e:performance`                                     |
+| E2E debug mode              | `npm run test:e2e:debug`                                           |
+| Type-check + format check   | `npm run check`                                                    |
+| Auto-format                 | `npm run format`                                                   |
+| Install Playwright browsers | `npm run test:e2e:install`                                         |
 
 ## Architecture
 
@@ -84,6 +84,13 @@ The core framework lives here. Key subdirectories:
 - **TypeScript**: Strict mode, ESNext target, JSX configured for Preact (`preact/jsx-runtime`).
 - **Commit messages**: `feat:`, `fix:`, `chore:` prefixes (conventional commits pattern).
 
+## Change Workflow
+
+- **Code, tooling and CI**: open an issue, work in a worktree (`.worktrees/<type>-<slug>` on branch `<type>/<slug>` from `origin/main`), and open a PR that closes the issue. The PR must pass the `Quality` and `E2E Tests` workflows before it is marked ready. Soushi merges.
+- **Notes and articles**: a branch and a PR, no issue needed.
+- **Minor changes** (a typo, a one-file doc fix): commit straight to `main`.
+- **Before pushing**: `bunx tsc --noEmit`, `bunx prettier . --check` and `bun run test` must pass locally; the `Quality` workflow runs the same checks.
+
 ## Content Authoring
 
 - Frontmatter fields: `title`, `date`, `tags`, `draft`, `description`, `aliases`.
@@ -99,25 +106,25 @@ The core framework lives here. Key subdirectories:
 
 Three persistent skills provide domain knowledge across all interactions with this garden:
 
-| Skill | Purpose | When to Use |
-|-------|---------|-------------|
-| `DgNotes` | Knowledge note management — domain taxonomy, classification, frontmatter, linking rules | Creating/classifying knowledge notes, managing indexes, wikilink questions |
-| `DgBlog` | Blog post authoring — architecture, writing voice, EN→FR translation | Writing/editing blog posts, translating to French, style guidance |
-| `DgQuartzDev` | Quartz framework development — Preact components, plugins, SCSS, testing | Creating components/plugins, styling, writing tests, build pipeline |
+| Skill         | Purpose                                                                                 | When to Use                                                                |
+| ------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `DgNotes`     | Knowledge note management — domain taxonomy, classification, frontmatter, linking rules | Creating/classifying knowledge notes, managing indexes, wikilink questions |
+| `DgBlog`      | Blog post authoring — architecture, writing voice, EN→FR translation                    | Writing/editing blog posts, translating to French, style guidance          |
+| `DgQuartzDev` | Quartz framework development — Preact components, plugins, SCSS, testing                | Creating components/plugins, styling, writing tests, build pipeline        |
 
 ### How Skills Complement `/dg:*` Commands
 
 Skills provide the **knowledge layer** (taxonomy, style guide, architecture); commands provide the **procedure layer** (step-by-step actions).
 
-| Command | Complementary Skill | Relationship |
-|---------|---------------------|--------------|
-| `/dg:create` | `DgNotes`, `DgBlog` | Skills inform domain classification, frontmatter, and writing voice during creation |
-| `/dg:improve` | `DgNotes`, `DgBlog` | Skills provide quality rubric, style guide, and wikilink rules for improvements and linking (`--focus links`) |
-| `/dg:organize` | `DgNotes` | Skill's domain taxonomy drives reorganization decisions |
-| `/dg:build` | `DgQuartzDev` | Skill provides architecture knowledge for debugging build issues |
-| `/dg:sync` | — | Deployment workflow, no specialized knowledge needed |
-| `/dg:explore` | `DgNotes`, `DgQuartzDev` | Skills provide domain taxonomy and graph structure context for analysis |
-| `/dg:translate` | `DgBlog` | Skill's TranslationWorkflow.md provides complete EN→FR rules and voice conventions |
-| `/dg:publish` | `DgNotes` | Skill provides domain classification for placing unpublished content |
+| Command         | Complementary Skill      | Relationship                                                                                                  |
+| --------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| `/dg:create`    | `DgNotes`, `DgBlog`      | Skills inform domain classification, frontmatter, and writing voice during creation                           |
+| `/dg:improve`   | `DgNotes`, `DgBlog`      | Skills provide quality rubric, style guide, and wikilink rules for improvements and linking (`--focus links`) |
+| `/dg:organize`  | `DgNotes`                | Skill's domain taxonomy drives reorganization decisions                                                       |
+| `/dg:build`     | `DgQuartzDev`            | Skill provides architecture knowledge for debugging build issues                                              |
+| `/dg:sync`      | —                        | Deployment workflow, no specialized knowledge needed                                                          |
+| `/dg:explore`   | `DgNotes`, `DgQuartzDev` | Skills provide domain taxonomy and graph structure context for analysis                                       |
+| `/dg:translate` | `DgBlog`                 | Skill's TranslationWorkflow.md provides complete EN→FR rules and voice conventions                            |
+| `/dg:publish`   | `DgNotes`                | Skill provides domain classification for placing unpublished content                                          |
 
 Note: `--validate` is a flag available on `create`, `improve`, `organize`, `build`, and `sync` — not a standalone command.

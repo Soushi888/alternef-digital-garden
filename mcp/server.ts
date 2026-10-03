@@ -26,9 +26,18 @@ const TOOLS = [
     inputSchema: {
       type: "object",
       properties: {
-        note: { type: "string", description: "Note id (e.g. 'knowledge/tools-and-technology/holochain/index') or path" },
-        includeContent: { type: "boolean", description: "Include full markdown body (default false)" },
-        maxContentBytes: { type: "number", description: "Truncate content at this byte length (default 8000)" },
+        note: {
+          type: "string",
+          description: "Note id (e.g. 'knowledge/tools-and-technology/holochain/index') or path",
+        },
+        includeContent: {
+          type: "boolean",
+          description: "Include full markdown body (default false)",
+        },
+        maxContentBytes: {
+          type: "number",
+          description: "Truncate content at this byte length (default 8000)",
+        },
       },
       required: ["note"],
     },
@@ -92,7 +101,8 @@ const TOOLS = [
   },
   {
     name: "garden_files",
-    description: "Domain tree view with note counts. Shows all 7 knowledge domains, or drills into one.",
+    description:
+      "Domain tree view with note counts. Shows all 7 knowledge domains, or drills into one.",
     inputSchema: {
       type: "object",
       properties: {
@@ -117,7 +127,8 @@ const TOOLS = [
   },
   {
     name: "garden_status",
-    description: "Index stats: total notes, link count, unresolved links, tag count, domain breakdown, DB size.",
+    description:
+      "Index stats: total notes, link count, unresolved links, tag count, domain breakdown, DB size.",
     inputSchema: {
       type: "object",
       properties: {},
@@ -132,7 +143,10 @@ const TOOLS = [
       type: "object",
       properties: {
         limit: { type: "number", description: "Max results (default 50)" },
-        minCount: { type: "number", description: "Only return targets referenced at least this many times (default 1)" },
+        minCount: {
+          type: "number",
+          description: "Only return targets referenced at least this many times (default 1)",
+        },
         domain: { type: "string", description: "Scope to source notes in a specific domain" },
       },
       required: [],
@@ -140,12 +154,16 @@ const TOOLS = [
   },
   {
     name: "garden_orphans",
-    description: "Notes with zero incoming backlinks — no other note links to them. Useful for finding isolated content that needs to be wired into the knowledge graph.",
+    description:
+      "Notes with zero incoming backlinks — no other note links to them. Useful for finding isolated content that needs to be wired into the knowledge graph.",
     inputSchema: {
       type: "object",
       properties: {
         domain: { type: "string", description: "Scope to a specific knowledge domain" },
-        excludeIndexes: { type: "boolean", description: "Exclude domain/directory index files from results (default false)" },
+        excludeIndexes: {
+          type: "boolean",
+          description: "Exclude domain/directory index files from results (default false)",
+        },
       },
       required: [],
     },
@@ -159,7 +177,10 @@ const TOOLS = [
       properties: {
         note: { type: "string", description: "Validate a single note by id or path" },
         domain: { type: "string", description: "Validate all notes in a domain" },
-        onlyWithIssues: { type: "boolean", description: "Only return notes that have issues (default true)" },
+        onlyWithIssues: {
+          type: "boolean",
+          description: "Only return notes that have issues (default true)",
+        },
       },
       required: [],
     },
@@ -172,7 +193,10 @@ const TOOLS = [
       type: "object",
       properties: {
         domain: { type: "string", description: "Scope to a specific knowledge domain" },
-        withAliasesOnly: { type: "boolean", description: "Only return notes that have aliases (default true)" },
+        withAliasesOnly: {
+          type: "boolean",
+          description: "Only return notes that have aliases (default true)",
+        },
       },
       required: [],
     },
@@ -183,10 +207,7 @@ async function serve() {
   initSchema()
   startWatcher()
 
-  const server = new Server(
-    { name: "garden", version: "1.0.0" },
-    { capabilities: { tools: {} } },
-  )
+  const server = new Server({ name: "garden", version: "1.0.0" }, { capabilities: { tools: {} } })
 
   server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools: TOOLS }))
 
@@ -196,43 +217,45 @@ async function serve() {
 
     switch (name) {
       case "garden_context":
-        result = gardenContext(args as Parameters<typeof gardenContext>[0])
+        result = gardenContext(args as unknown as Parameters<typeof gardenContext>[0])
         break
       case "garden_search":
-        result = gardenSearch(args as Parameters<typeof gardenSearch>[0])
+        result = gardenSearch(args as unknown as Parameters<typeof gardenSearch>[0])
         break
       case "garden_backlinks":
-        result = gardenBacklinks(args as Parameters<typeof gardenBacklinks>[0])
+        result = gardenBacklinks(args as unknown as Parameters<typeof gardenBacklinks>[0])
         break
       case "garden_links":
-        result = gardenLinks(args as Parameters<typeof gardenLinks>[0])
+        result = gardenLinks(args as unknown as Parameters<typeof gardenLinks>[0])
         break
       case "garden_tag_list":
         result = gardenTagList()
         break
       case "garden_tags":
-        result = gardenTags(args as Parameters<typeof gardenTags>[0])
+        result = gardenTags(args as unknown as Parameters<typeof gardenTags>[0])
         break
       case "garden_files":
-        result = gardenFiles(args as Parameters<typeof gardenFiles>[0])
+        result = gardenFiles(args as unknown as Parameters<typeof gardenFiles>[0])
         break
       case "garden_explore":
-        result = gardenExplore(args as Parameters<typeof gardenExplore>[0])
+        result = gardenExplore(args as unknown as Parameters<typeof gardenExplore>[0])
         break
       case "garden_status":
         result = gardenStatus()
         break
       case "garden_unresolved_links":
-        result = gardenUnresolvedLinks(args as Parameters<typeof gardenUnresolvedLinks>[0])
+        result = gardenUnresolvedLinks(
+          args as unknown as Parameters<typeof gardenUnresolvedLinks>[0],
+        )
         break
       case "garden_orphans":
-        result = gardenOrphans(args as Parameters<typeof gardenOrphans>[0])
+        result = gardenOrphans(args as unknown as Parameters<typeof gardenOrphans>[0])
         break
       case "garden_validate":
-        result = gardenValidate(args as Parameters<typeof gardenValidate>[0])
+        result = gardenValidate(args as unknown as Parameters<typeof gardenValidate>[0])
         break
       case "garden_alias_map":
-        result = gardenAliasMap(args as Parameters<typeof gardenAliasMap>[0])
+        result = gardenAliasMap(args as unknown as Parameters<typeof gardenAliasMap>[0])
         break
       default:
         throw new Error(`Unknown tool: ${name}`)

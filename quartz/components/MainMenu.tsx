@@ -17,17 +17,33 @@ const mainMenu: MenuItem[] = [
   { title: "Home", path: "/" as FullSlug, icon: "🏠" },
   { title: "About Me", path: "/about-me" as FullSlug, icon: "👤" },
   { title: "Blog", path: "/blog" as FullSlug, icon: "✍️" },
-  { title: "Portfolio", path: "/portfolio" as FullSlug, icon: "🎨" }
+  { title: "Portfolio", path: "/portfolio" as FullSlug, icon: "🎨" },
 ]
 
 const permaculturePetals: MenuItem[] = [
-  { title: "Land & Nature Stewardship", path: "/knowledge/land-and-nature-stewardship" as FullSlug, icon: "🌱" },
+  {
+    title: "Land & Nature Stewardship",
+    path: "/knowledge/land-and-nature-stewardship" as FullSlug,
+    icon: "🌱",
+  },
   { title: "Built Environment", path: "/knowledge/built-environment" as FullSlug, icon: "🏗️" },
   { title: "Tools & Technology", path: "/knowledge/tools-and-technology" as FullSlug, icon: "🛠️" },
-  { title: "Culture & Education", path: "/knowledge/culture-and-education" as FullSlug, icon: "📚" },
+  {
+    title: "Culture & Education",
+    path: "/knowledge/culture-and-education" as FullSlug,
+    icon: "📚",
+  },
   { title: "Health & Wellbeing", path: "/knowledge/health-and-wellbeing" as FullSlug, icon: "🌿" },
-  { title: "Finance & Economics", path: "/knowledge/finance-and-economics" as FullSlug, icon: "💰" },
-  { title: "Governance & Community", path: "/knowledge/governance-and-community" as FullSlug, icon: "🤝" }
+  {
+    title: "Finance & Economics",
+    path: "/knowledge/finance-and-economics" as FullSlug,
+    icon: "💰",
+  },
+  {
+    title: "Governance & Community",
+    path: "/knowledge/governance-and-community" as FullSlug,
+    icon: "🤝",
+  },
 ]
 
 interface Options {
@@ -51,10 +67,7 @@ export default ((userOpts?: Options) => {
           const resolvedPath = resolveRelative(currentPath, item.path)
           return (
             <li key={item.path}>
-              <a
-                href={resolvedPath}
-                class={currentPath === item.path ? "active" : ""}
-              >
+              <a href={resolvedPath} class={currentPath === item.path ? "active" : ""}>
                 {item.icon && <span class="icon">{item.icon}</span>}
                 <span class="title">{item.title}</span>
               </a>
@@ -74,15 +87,15 @@ export default ((userOpts?: Options) => {
           </div>
         </button>
         <nav class="main-menu-nav">
-          <div class="main-menu">
-            {renderMenu(mainMenu)}
-          </div>
-          
+          <div class="main-menu">{renderMenu(mainMenu)}</div>
+
           <div class="knowledge-base">
-            <h3><a href={resolveRelative(currentPath, "/knowledge" as FullSlug)}><span class="icon">🌺</span> Knowledge Garden</a></h3>
-            <div class="permaculture-petals">
-              {renderMenu(permaculturePetals)}
-            </div>
+            <h3>
+              <a href={resolveRelative(currentPath, "/knowledge" as FullSlug)}>
+                <span class="icon">🌺</span> Knowledge Garden
+              </a>
+            </h3>
+            <div class="permaculture-petals">{renderMenu(permaculturePetals)}</div>
           </div>
 
           <a

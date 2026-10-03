@@ -40,7 +40,7 @@ export function gardenSearch({ query, domain, tag, limit = 20 }: SearchArgs): No
     title: r.title as string,
     description: (r.description as string | null) ?? null,
     date: (r.date as string | null) ?? null,
-    domain: (r.domain as string | null) as NoteWithExcerpt["domain"],
+    domain: r.domain as string | null as NoteWithExcerpt["domain"],
     draft: r.draft === 1,
     updated: r.updated as string,
     excerpt: makeExcerpt(r.content as string),

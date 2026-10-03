@@ -109,7 +109,8 @@ export default ((userOpts?: Partial<Options>) => {
         title: file.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title,
         link: file.slug as FullSlug,
         date: file.dates?.modified || file.dates?.created || new Date(),
-        createdDate: file.dates?.gitCreated ?? file.dates?.created ?? file.dates?.modified ?? new Date(),
+        createdDate:
+          file.dates?.gitCreated ?? file.dates?.created ?? file.dates?.modified ?? new Date(),
         type: isModified ? "modified" : "created",
         id: `${file.slug}-${isModified ? "modified" : "created"}`,
         excerpt: file.frontmatter?.description,
@@ -152,16 +153,13 @@ export default ((userOpts?: Partial<Options>) => {
       })),
     ).replace(/<\//g, "<\\/")
 
-    // For showFilter: pre-render pageSize items per type so both "New" and "Updated" tabs
-    // start with visible content. Each item is tagged with its index in filtered (= allData)
-    // via data-idx so the client can correctly initialize its deduplication set.
+    // For showFilter: pre-render the first pageSize items of the "All" view. The client
+    // re-renders the other tabs from the JSON island and resumes Load More on "All" at
+    // the server-rendered count, so this must be exactly that view's first page.
     // For !showFilter: flat limit cap, no Load More.
     const filteredWithIdx = filtered.map((item, idx) => ({ item, idx }))
     const initialItems = opts.showFilter
-      ? [
-          ...filteredWithIdx.filter(({ item }) => item.type === "created").slice(0, opts.pageSize),
-          ...filteredWithIdx.filter(({ item }) => item.type === "modified").slice(0, opts.pageSize),
-        ].sort((a, b) => b.item.date.getTime() - a.item.date.getTime())
+      ? filteredWithIdx.slice(0, opts.pageSize)
       : filteredWithIdx.slice(0, opts.limit)
 
     return (
@@ -178,7 +176,7 @@ export default ((userOpts?: Partial<Options>) => {
               {opts.title ?? "Recent Changes"}
             </a>
           ) : (
-            opts.title ?? "Recent Changes"
+            (opts.title ?? "Recent Changes")
           )}
         </h3>
 

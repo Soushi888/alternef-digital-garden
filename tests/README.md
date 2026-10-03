@@ -85,10 +85,10 @@ npm run test:e2e:performance
 - ✅ Real data integration (no demo data)
 - ✅ Date formatting (relative time)
 - ✅ Link navigation functionality
-- ✅ Change type indicators (New/Updated)
+- ✅ Change type indicators (Created/Edited)
 - ✅ Excerpts in detailed view
 - ✅ Tags in detailed view
-- ✅ "View all changes" link functionality
+- ✅ Heading link to the full recent changes page
 
 ### Responsive Design
 
@@ -191,7 +191,7 @@ npm run test:e2e:report
 3. **Real Data**: Verifies no demo data like "Introduction to Permaculture"
 4. **Date Formatting**: Validates relative time formats ("2 days ago")
 5. **Navigation**: Links work and navigate to correct pages
-6. **Change Types**: Properly shows "New" or "Updated" indicators
+6. **Change Types**: Properly shows "Created" or "Edited" indicators
 
 ### Dedicated Page Testing
 
@@ -239,6 +239,7 @@ npx playwright test tests/e2e/recent-changes.spec.ts --debug
 ### Screenshots and Videos
 
 Tests automatically capture:
+
 - Screenshots on failure
 - Videos of test execution
 - Traces for performance analysis
@@ -286,21 +287,25 @@ Tests capture console errors and warnings for debugging.
 ### Common Issues
 
 **Tests timeout:**
+
 - Increase timeout in `playwright.config.ts`
 - Check if the site is accessible
 - Verify selectors are correct
 
 **Tests fail on CI:**
+
 - Check CI environment setup
 - Ensure all browsers are installed
 - Verify environment variables
 
 **Performance tests fail:**
+
 - Check network conditions
 - Verify site performance manually
 - Adjust thresholds if needed
 
 **Accessibility tests fail:**
+
 - Review WCAG guidelines
 - Check contrast ratios manually
 - Verify screen reader output
