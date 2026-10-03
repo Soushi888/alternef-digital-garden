@@ -33,7 +33,7 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
    - Call `mcp__garden__garden_status` to confirm index is fresh
    - Call `mcp__garden__garden_files` to get the domain tree and verify target directory exists
    - Call `mcp__garden__garden_search` with the new note's topic/title to find existing related notes (prevents duplicates; informs link suggestions in Step 9)
-   - **Wisdom corpus lookup** (optional, offer-only): run the lookup in [Wisdom Corpus Lookup](#wisdom-corpus-lookup) with the note's topic. Relevant hits are offered to Soushi (at most 3 passages) before drafting; no relevant hit, or no corpus tool or index on this machine, means say nothing and continue exactly as without it
+   - **Wisdom corpus lookup** (optional, offer-only): run the lookup in [Wisdom Corpus Lookup](#wisdom-corpus-lookup) with the note's topic. Relevant hits are offered to Soushi (at most 3 passages) before drafting; no relevant hit, or no corpus tool or index on this machine (`PAI_DIR` unset or the tool absent), means say nothing and continue exactly as without it
    - Only after MCP calls: grep PAI memory for relevant past patterns (memory/dg-patterns.md)
 2. **Content Type Detection**: Determine target path and template based on content type
 3. **Path Generation**: Create Quartz-compatible file paths with proper slugification
@@ -69,13 +69,17 @@ A local mirror of the Wisdom Context Window corpus (https://wisdom.owocki.com/) 
 ### Run
 
 ```bash
-bun ~/.claude/PAI/Tools/WisdomCorpus.ts search "<note topic>" --cite --limit 8 --json
-bun ~/.claude/PAI/Tools/WisdomCorpus.ts concept <topic-slug> --json
+bun "${PAI_DIR}/PAI/Tools/WisdomCorpus.ts" search "<note topic>" --cite --limit 8 --json
+bun "${PAI_DIR}/PAI/Tools/WisdomCorpus.ts" concept <topic-slug> --json
 ```
 
 - `<topic-slug>` is the kebab-case topic (`non-attachment`, `wu-wei`). `unknown concept` with exit 1 means no concept matches: ignore it.
 - If the search returns zero passages, retry once with the single core term of the topic, then stop.
-- If `~/.claude/PAI/Tools/WisdomCorpus.ts` is missing, or either command fails for any reason other than an unknown concept (no index yet, bun error), skip the lookup silently. Never mention the corpus in that case.
+- If `PAI_DIR` is unset, the tool is absent at that path, or either command fails for any reason other than an unknown concept (no index yet, bun error), skip the lookup silently. Never mention the corpus in that case.
+
+### Use `passages` only
+
+`search --json` returns an object with two lists: `passages` and `annotations`. Read `passages` only. `annotations` are private notes: never show them, quote them, paraphrase them or let them shape the note. No annotation text ever enters a garden note.
 
 ### Judge relevance
 
@@ -85,13 +89,19 @@ A hit is relevant only when the passage uses the topic's own sense. A word match
 
 The garden is public, so only `kind: "full-text"` passages may be quoted. `--cite` restricts the search to those rows. Curator-written material is never quoted as text: that covers every `kind: "summary"` row (their licence is unstated) and a concept's own `gloss` and `summary`. It may be paraphrased in Soushi's words or linked, never quoted.
 
-A concept's `key_passages` can point into summary texts. Before offering one, check its text:
+A concept's `key_passages` name a passage by its `quote` and its `local_id`, the id of the local passage whose text contains that quote. Their `idx` is upstream numbering and addresses nothing locally: never use it. A key passage with `local_id: null` has no local match and is not offered. For the others, fetch the local passage:
 
 ```bash
-bun ~/.claude/PAI/Tools/WisdomCorpus.ts text <slug> --count 0 --json
+bun "${PAI_DIR}/PAI/Tools/WisdomCorpus.ts" passage <local_id> --json
 ```
 
-Offer it only if `text.kind` is `"full-text"`. Take the passage itself from the key passage's own `text` field: its `idx` is the upstream index and does not address the local `text --from` window. The same call returns the catalog fields the reference needs (`author`, `translator`, `source`, `license`), for search hits too.
+Offer it only if its `kind` is `"full-text"`. The `quote` is the excerpt to show; the passage's own `text` is what gets quoted, trimmed around the quote.
+
+For any passage, search hit or key passage, read the catalog fields the reference needs (`author`, `translator`, `source`, `license`, `kind`) from:
+
+```bash
+bun "${PAI_DIR}/PAI/Tools/WisdomCorpus.ts" text <slug> --count 0 --json
+```
 
 ### Offer, never insert
 
@@ -99,17 +109,27 @@ Show Soushi at most 3 passages, each with title, author, translator, a short exc
 
 ### Cite an accepted passage
 
-Each accepted passage goes under `## References`, quoted verbatim. A long passage may be trimmed to the contiguous lines that carry the point, with `[...]` marking any cut:
+Each accepted passage goes under `## References`, quoted verbatim. A long passage may be trimmed to the contiguous lines that carry the point, with `[...]` marking any cut. With a source URL:
 
 ```md
 ## References
-- *Title*, Author, translated by Translator. [Original source](SOURCE_URL). Read in the [Wisdom Context Window corpus](https://wisdom.owocki.com/explorer/#/read/SLUG).
+
+- _Title_, Author, translated by Translator. [Original source](SOURCE_URL). Read in the [Wisdom Context Window corpus](https://wisdom.owocki.com/explorer/#/read/SLUG).
+  > Verbatim passage text.
+```
+
+Without one (the catalog `source` is null for many full texts):
+
+```md
+## References
+
+- _Title_, Author, translated by Translator. Read in the [Wisdom Context Window corpus](https://wisdom.owocki.com/explorer/#/read/SLUG).
   > Verbatim passage text.
 ```
 
 - Author and translator come from the catalog. Omit "translated by" when `translator` is null.
-- `SOURCE_URL` is the catalog `source` field (the public-domain edition the text was taken from). When it is null, drop the "Original source" link and keep the corpus link; never invent a source URL.
-- When `license` is set and is not public domain (for example CC BY 4.0), state it after the source link.
+- `SOURCE_URL` is the catalog `source` field (the public-domain edition the text was taken from). When it is null, use the second form: the corpus reader link is the only link. Never invent a source URL and never search the web for one to fill the gap.
+- When `license` is set and is not public domain (for example CC BY 4.0), state it after the last link.
 - `SLUG` is the passage's `slug`.
 - Never alter quoted text. If it contains an em-dash or a double hyphen, report it at Step 10 as quoted source text rather than rewriting the quotation. Fix OCR errors only with Soushi's agreement, marking each fix in [brackets].
 
@@ -434,6 +454,7 @@ async function validateLinkPatterns(page, contentPath) {
 
 ## Claude Code Integration
 - **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
+- **Wisdom Corpus**: Optional, offer-only lookup of full-text public-domain passages through `${PAI_DIR}/PAI/Tools/WisdomCorpus.ts`, skipped silently when absent (see [Wisdom Corpus Lookup](#wisdom-corpus-lookup))
 - **Path Intelligence**: Built-in understanding of Quartz content structure
 - **Taxonomy Integration**: Auto-suggests relevant tags based on domain and existing content
 - **Template System**: Self-contained frontmatter and structure templates
