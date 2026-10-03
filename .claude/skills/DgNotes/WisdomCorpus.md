@@ -102,6 +102,14 @@ _Title_, Author, translated by Translator. [Original source](SOURCE_URL), passag
 > Verbatim passage text.
 ```
 
+Without a catalog `source`, the reader link takes its place:
+
+```md
+_Title_, Author, translated by Translator. Read in the [Wisdom Context Window corpus](https://wisdom.owocki.com/explorer/#/read/SLUG), passage `wcw:SLUG/ID`:
+
+> Verbatim passage text.
+```
+
 An epigraph carries its full attribution where it stands; it is not repeated under `## References`.
 
 ### Rules for every form
@@ -110,12 +118,12 @@ An epigraph carries its full attribution where it stands; it is not repeated und
 - `SOURCE_URL` is the catalog `source` field, the public-domain edition the text was taken from. When it is null, the corpus reader link is the only link. Never invent a source URL and never search the web for one: a substitute edition could attribute the quote to a different text than the one it was taken from.
 - When `license` is set and is not public domain (for example CC BY 4.0), state it after the last link.
 - Use the corpus reader link `https://wisdom.owocki.com/explorer/#/read/SLUG` only when the passage's `layer` is `base`: a `commons` row has no upstream reader page, so drop that link and keep title, author, translator and the marker.
-- The quotation is the passage `text`, verbatim. A long passage may be trimmed to the contiguous lines that carry the point, with `[...]` marking each cut; the kept segments stay in their original order. `[...]` is the only editorial mark allowed: no corrected spelling, no added emphasis, no bracketed insertions. A passage whose OCR errors make it unreadable is not quoted; offer a cleaner one instead.
+- The quotation is the passage `text`, verbatim. A long passage may be trimmed to the contiguous lines that carry the point, with `[...]` marking each cut; the kept segments stay in their original order and each starts and ends on a whole word. `[...]` is the only editorial mark allowed: no corrected spelling, no added emphasis, no bracketed insertions. A passage whose OCR errors make it unreadable is not quoted; offer a cleaner one instead.
 - Never alter quoted text to satisfy a style rule. An em-dash or double hyphen inside a cited quotation is quoted source text: report it as such, and it does not block a commit.
 
 ## Integrity check
 
-`/dg:validate` runs `.claude/skills/DgNotes/Tools/CheckCorpusQuotes.ts`, which reads every marker in `content/`, fetches `passage <ID> --json`, and reports as a violation: a quotation that does not match the passage text (whitespace normalised, `[...]` cuts allowed), an unknown id, a slug that does not match the passage, a passage that is not `full-text`, and a marker with no quotation after it. Without the corpus tool on the machine, the check is skipped with a note.
+`/dg:validate` runs `.claude/skills/DgNotes/Tools/CheckCorpusQuotes.ts`, which reads every marker in `content/`, fetches `passage <ID> --json`, and reports as a violation: a quotation that does not match the passage text (whitespace normalised, `[...]` cuts allowed, each kept segment on word boundaries), an unknown id, a slug that does not match the passage, a passage that is not `full-text`, and a marker with no quotation after it. Without the corpus tool on the machine, the check is skipped with a note.
 
 ```bash
 bun .claude/skills/DgNotes/Tools/CheckCorpusQuotes.ts [paths...] [--json]
