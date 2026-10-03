@@ -46,7 +46,7 @@ This documentation outlines the custom Quartz components created to enhance the 
 - **Purpose:** Displays a dynamic list of recently created or updated content.
 - **Pattern:** Uses the standard `QuartzComponentConstructor` factory pattern (same as `RecentNotes`).
 - **Features:**
-  - Classifies notes as **New** or **Updated** using `gitCreated` (first git commit date) vs `modified` (latest git commit date). A note is "Updated" if `modified − gitCreated > 1 hour`, meaning at least two distinct commits touched the file. Files renamed in git history are handled correctly via a rename-aware cache built at build time by the `CreatedModifiedDate` plugin.
+  - Classifies notes as **Created** or **Edited** (badge text; `data-type` is `created`/`modified`) using `gitCreated` (first git commit date) vs `modified` (latest git commit date). A note is "Edited" if `modified − gitCreated > 1 hour`, meaning at least two distinct commits touched the file. Files renamed in git history are handled correctly via a rename-aware cache built at build time by the `CreatedModifiedDate` plugin.
   - Relies on the `CreatedModifiedDate` transformer plugin to populate `file.dates.gitCreated`.
   - Formats dates relatively (e.g., "2 days ago").
   - Can optionally display content excerpts and tags.
@@ -55,24 +55,26 @@ This documentation outlines the custom Quartz components created to enhance the 
   - The `ChangedItem` type is defined in `quartz/components/utils/recentChanges.ts`.
 - **Configuration (Constructor Options):**
   - `title` (string, default: "Recent Changes"): The heading for the component.
-  - `limit` (number, default: 10): Maximum number of items to display.
+  - `limit` (number, default: 10): Maximum number of items to display when `showFilter` is false. With `showFilter`, every note is available through Load More.
   - `showCreated` (boolean, default: true): Whether to include newly created items.
   - `showModified` (boolean, default: true): Whether to include updated items.
   - `filterBy` (string[], default: []): An array of keywords; only items whose path includes one of these keywords will be shown.
   - `detailed` (boolean, default: false): If true, enables potentially showing excerpts and tags.
   - `showExcerpt` (boolean, default: false): If true and `detailed` is true, shows content excerpts.
   - `showTags` (boolean, default: false): If true and `detailed` is true, shows content tags.
-  - `showFilter` (boolean, default: false): If true, renders All/New/Updated filter buttons and a Load More button. Filter choice persists in `localStorage`. Each filter has its own independent pagination state.
-  - `pageSize` (number, default: 20): Items revealed per Load More click when `showFilter` is true.
-  - `linkToMore` (SimpleSlug | false, default: false): If set and `showFilter` is false, shows a "View all changes" link when items exceed the limit.
+  - `showFilter` (boolean, default: false): If true, renders the All/Timeline/Recently Edited tabs, a tab description line and a Load More button. Tab choice persists in `localStorage`. Each tab has its own independent pagination state.
+  - `pageSize` (number, default: 20): Items rendered initially and added per Load More click when `showFilter` is true.
+  - `linkToMore` (SimpleSlug | false, default: false): If set, the heading links to this page. When `showFilter` is false it also shows a "View all changes" link when items exceed the limit.
   - `pages` (FullSlug[], default: []): Only render on these pages. Empty array means render on all pages.
-- **Filter and pagination behaviour:** When `showFilter` is true, items beyond `pageSize` start hidden (`rc-hidden-page`). Client-side JS tracks a separate visible count per filter (`all`/`created`/`modified`) so switching filters never resets another filter's pagination progress. Load More is shown only when the active filter has more items to reveal; it is hidden when all items of that type are already visible.
+- **Filter and pagination behaviour:** When `showFilter` is true, the server renders only the first `pageSize` items of the All view (most recent activity first) and embeds every item in a JSON data island (`script.rc-items-data`). The tabs are sort views over that data: **All** by most recent activity, **Timeline** by creation date, **Recently Edited** by modification date (edited notes only). Load More injects the next `pageSize` items from the active tab's sorted array and shows how many remain. Client-side JS keeps a loaded count per tab, so switching tabs never resets another tab's pagination progress. Load More is hidden once the active tab has nothing left to load.
 - **Layout Integration:**
   ```typescript
-  // Homepage: compact view with link to full page
+  // Homepage: tabbed widget, heading links to the full page
   Component.RecentChanges({
-    limit: 5,
+    limit: 20,
     title: "Recent Updates",
+    showFilter: true,
+    pageSize: 10,
     linkToMore: "recent-changes" as SimpleSlug,
     pages: ["index" as FullSlug],
   })
