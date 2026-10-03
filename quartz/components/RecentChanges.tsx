@@ -153,16 +153,13 @@ export default ((userOpts?: Partial<Options>) => {
       })),
     ).replace(/<\//g, "<\\/")
 
-    // For showFilter: pre-render pageSize items per type so both "New" and "Updated" tabs
-    // start with visible content. Each item is tagged with its index in filtered (= allData)
-    // via data-idx so the client can correctly initialize its deduplication set.
+    // For showFilter: pre-render the first pageSize items of the "All" view. The client
+    // re-renders the other tabs from the JSON island and resumes Load More on "All" at
+    // the server-rendered count, so this must be exactly that view's first page.
     // For !showFilter: flat limit cap, no Load More.
     const filteredWithIdx = filtered.map((item, idx) => ({ item, idx }))
     const initialItems = opts.showFilter
-      ? [
-          ...filteredWithIdx.filter(({ item }) => item.type === "created").slice(0, opts.pageSize),
-          ...filteredWithIdx.filter(({ item }) => item.type === "modified").slice(0, opts.pageSize),
-        ].sort((a, b) => b.item.date.getTime() - a.item.date.getTime())
+      ? filteredWithIdx.slice(0, opts.pageSize)
       : filteredWithIdx.slice(0, opts.limit)
 
     return (

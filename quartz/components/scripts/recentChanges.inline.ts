@@ -183,11 +183,12 @@ function setupRecentChanges() {
       }
     }
 
+    // Re-renders a tab with as many items as it had loaded before, so switching tabs
+    // never discards another tab's Load More progress.
     function renderTab(filter: string) {
       safeList.innerHTML = ""
-      injectedCount[filter] = 0
       const arr = sortedArrays[filter] ?? []
-      const end = Math.min(pageSize, arr.length)
+      const end = Math.min(Math.max(pageSize, injectedCount[filter]), arr.length)
       for (let i = 0; i < end; i++) {
         safeList.appendChild(createItemEl(arr[i], filter))
       }
