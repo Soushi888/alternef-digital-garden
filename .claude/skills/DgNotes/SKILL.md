@@ -51,8 +51,10 @@ Persistent knowledge layer for the Alternef Digital Garden's 7-domain taxonomy. 
 | Publish draft to correct domain | `/dg:publish` |
 | Validate frontmatter and links | Add `--validate` flag to any command |
 | Verify note dates against git history | `--verify-dates` flag or "verify dates" trigger → `Workflows/VerifyDates.md` |
+| Primary passages from a wisdom tradition (lookup, quoting, citation) | `WisdomCorpus.md` (used by `/dg:create`, `/dg:improve`, `/dg:explore traditions`, DgBlog) |
+| Check corpus quotations against their passages | `/dg:validate` → `Tools/CheckCorpusQuotes.ts` |
 
-**Context files:** `DomainTaxonomy.md` · `ContentQualityRubric.md` · `KnowledgeNoteTemplate.md` · `DomainIndexTemplate.md` · `CategoryIndexTemplate.md`
+**Context files:** `DomainTaxonomy.md` · `ContentQualityRubric.md` · `KnowledgeNoteTemplate.md` · `DomainIndexTemplate.md` · `CategoryIndexTemplate.md` · `WisdomCorpus.md`
 
 ## Garden MCP Tools — MANDATORY FIRST
 
@@ -217,6 +219,8 @@ See `ContentQualityRubric.md` for the scoring system used to evaluate note quali
 `Tools/ValidateNotes.sh` — Shell script for batch validation of notes in a domain directory. Used internally by the `--validate` flag across `/dg:create`, `/dg:improve`, `/dg:organize`, and `/dg:build`.
 
 `Tools/CheckDates.sh` — Detects date anomalies by comparing frontmatter dates against git history: year mismatches, future dates, inverted dates, and wrong field names (`created`/`modified` instead of `date`/`updated`). Results cached in `STATE/`. See `Workflows/VerifyDates.md` for the full workflow.
+
+`Tools/CheckCorpusQuotes.ts`: checks every quotation carrying the corpus citation marker against its passage (see `WisdomCorpus.md`). Skips with a note when the corpus tool is absent. Tests: `bun test ./.claude/skills/DgNotes/Tools/CheckCorpusQuotes.test.ts` (the leading `./` is needed: bun skips dot-directories when discovering tests).
 
 Run directly for quick batch checks:
 ```bash
