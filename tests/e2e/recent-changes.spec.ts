@@ -39,7 +39,7 @@ test.describe("RecentChanges Component E2E Tests", () => {
       await expect(title).toContainText(EXPECTED_CONTENT.HOMEPAGE_TITLE)
     })
 
-    test("should display up to 5 items on homepage", async ({ page }) => {
+    test("should display up to one page (10) of items on homepage", async ({ page }) => {
       await page.goto(SITE_URL)
       await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER)
 
@@ -111,7 +111,7 @@ test.describe("RecentChanges Component E2E Tests", () => {
       }
     })
 
-    test("should show correct change types (New/Updated)", async ({ page }) => {
+    test("should show correct change types (Created/Edited)", async ({ page }) => {
       await page.goto(SITE_URL)
       await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER)
 
@@ -120,27 +120,23 @@ test.describe("RecentChanges Component E2E Tests", () => {
       if ((await typeElements.count()) > 0) {
         for (let i = 0; i < (await typeElements.count()); i++) {
           const typeText = await typeElements.nth(i).textContent()
-          expect(["New", "Updated"]).toContain(typeText!)
+          expect(["Created", "Edited"]).toContain(typeText!)
         }
       }
     })
 
-    test('should have "View all changes" link when items exceed limit', async ({ page }) => {
+    test("should link the title to the full recent changes page", async ({ page }) => {
       await page.goto(SITE_URL)
       await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER)
 
-      const moreLink = page.locator(SELECTORS.RECENT_CHANGES_MORE + " a")
+      // With the filter bar enabled, Load More replaces the "View all changes" footer;
+      // the title link is the route to the dedicated page.
+      const titleLink = page.locator(`${SELECTORS.RECENT_CHANGES_CONTAINER} h3 a`)
+      await expect(titleLink).toBeVisible()
+      await expect(titleLink).toContainText(EXPECTED_CONTENT.HOMEPAGE_TITLE)
 
-      // Only check if there are enough items to trigger the "more" link
-      const items = page.locator(SELECTORS.RECENT_CHANGE_ITEM)
-      if ((await items.count()) >= EXPECTED_CONTENT.MAX_ITEMS_HOMEPAGE) {
-        await expect(moreLink).toBeVisible()
-        await expect(moreLink).toContainText("View all changes")
-
-        // Test the link (may be absolute or relative path)
-        const href = await moreLink.getAttribute("href")
-        expect(href).toMatch(/\.?\/recent-changes$/)
-      }
+      const href = await titleLink.getAttribute("href")
+      expect(href).toMatch(/\.?\/recent-changes$/)
     })
   })
 
@@ -473,7 +469,7 @@ test.describe("RecentChanges Component E2E Tests", () => {
       // Navigate to recent changes page from homepage
       await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER)
 
-      const moreLink = page.locator(SELECTORS.RECENT_CHANGES_MORE + " a")
+      const moreLink = page.locator(`${SELECTORS.RECENT_CHANGES_CONTAINER} h3 a`)
 
       if (await moreLink.isVisible()) {
         await moreLink.click()
@@ -571,6 +567,17 @@ test.describe("RecentChanges Component E2E Tests", () => {
 
       const loadMoreBtn = page.locator(".recent-changes-load-more")
 
+      // Items beyond the first page live in the JSON data island, not the DOM,
+      // so each tab's total comes from there.
+      const totals = await page.locator(".rc-items-data").evaluate((el) => {
+        const data: { k: string }[] = JSON.parse(el.textContent ?? "[]")
+        return {
+          all: data.length,
+          created: data.length,
+          modified: data.filter((x) => x.k === "modified").length,
+        }
+      })
+
       for (const filter of ["all", "created", "modified"] as const) {
         await page.locator(`.recent-changes-filter button[data-filter="${filter}"]`).click()
         await page.waitForTimeout(50)
@@ -580,21 +587,10 @@ test.describe("RecentChanges Component E2E Tests", () => {
           .filter({ visible: true })
           .count()
 
-        // Total DOM items of this type (visible + hidden)
-        const totalOfType =
-          filter === "all"
-            ? await page.locator(SELECTORS.RECENT_CHANGE_ITEM).count()
-            : await page.locator(`${SELECTORS.RECENT_CHANGE_ITEM}[data-type="${filter}"]`).count()
-
         const loadMoreVisible = await loadMoreBtn.isVisible()
 
-        if (totalOfType <= visibleCount) {
-          // All items of this type are visible — button should be hidden
-          expect(loadMoreVisible).toBe(false)
-        } else {
-          // More items remain — button should be visible
-          expect(loadMoreVisible).toBe(true)
-        }
+        // Button shows exactly when this tab has items not yet rendered
+        expect(loadMoreVisible).toBe(totals[filter] > visibleCount)
       }
     })
 
@@ -653,12 +649,12 @@ test.describe("RecentChanges Component E2E Tests", () => {
       await page.evaluate(() => localStorage.removeItem("recent-changes-filter"))
     })
 
-    test("homepage widget has no filter bar", async ({ page }) => {
+    test("homepage widget has a filter bar", async ({ page }) => {
       await page.goto(SITE_URL)
       await page.waitForSelector(SELECTORS.RECENT_CHANGES_CONTAINER)
 
       const filterGroup = page.locator(".recent-changes-filter")
-      expect(await filterGroup.count()).toBe(0)
+      await expect(filterGroup).toBeVisible()
     })
   })
 

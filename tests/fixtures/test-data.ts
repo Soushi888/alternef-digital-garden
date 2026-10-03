@@ -27,7 +27,7 @@ export const TEST_CONFIG = {
     HOMEPAGE_TITLE: "Recent Updates",
     RECENT_CHANGES_PAGE_TITLE: "Recent Changes",
     MIN_ITEMS_HOMEPAGE: 1,
-    MAX_ITEMS_HOMEPAGE: 5,
+    MAX_ITEMS_HOMEPAGE: 10, // homepage pageSize in quartz.layout.ts
     MIN_ITEMS_DETAILED: 1,
     MAX_ITEMS_DETAILED: 20,
   },
@@ -93,10 +93,14 @@ export const TEST_CONFIG = {
     RELATIVE: [
       "just now",
       "minutes ago",
+      "hour ago",
       "hours ago",
       "days ago",
+      "week ago",
       "weeks ago",
+      "month ago",
       "months ago",
+      "year ago",
       "years ago",
       "yesterday",
     ],
