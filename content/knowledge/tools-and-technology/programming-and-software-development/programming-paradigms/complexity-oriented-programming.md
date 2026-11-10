@@ -3,6 +3,7 @@ title: "Complexity Oriented Programming"
 description: "A programming paradigm that models complex systems faithfully rather than reducing them, treating emergence, feedback loops, and attractors as first-class design concerns."
 tags: ["programming", "programming-paradigms", "complexity-science", "complexity-oriented-programming", "mystical-oriented-programming", "distributed-systems", "emergence"]
 date: 2026-03-11
+updated: 2026-11-10
 draft: false
 ---
 
@@ -71,6 +72,8 @@ As a thought experiment, a DSL designed explicitly for COP would abandon procedu
 ## The Hard Problem
 
 The challenge is tooling. Debuggers, type systems, and test suites all assume reducibility. A bug in a COP system may not be a bug at all: it may be the system settling into an attractor you did not anticipate. Verification in COP is closer to simulation and formal methods than to unit testing. You run the ecology and watch what emerges, just as a field ecologist does.
+
+[[algebraic-effects|Effect handlers]] point one way forward: code that only declares its requests can run against a simulated ecology before it meets the real one.
 
 This is not a reason to abandon the paradigm. It is a reason to build new tools, ones honest about what kind of systems we are actually building.
 

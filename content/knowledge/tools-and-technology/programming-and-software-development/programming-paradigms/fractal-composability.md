@@ -1,6 +1,7 @@
 ---
 title: "Fractal Composability"
 date: 2026-05-21
+updated: 2026-11-10
 description: "The design property where a system's primitive can be recursively composed with itself, generating arbitrary complexity without ever leaving its own grammar."
 tags: ["programming", "programming-paradigms", "complexity-oriented-programming", "software-architecture", "distributed-systems"]
 draft: false
@@ -64,6 +65,8 @@ Nondominium uses the action hash of the NDO genesis entry as the permanent ident
 
 In both cases, the cryptographic hash of a structure becomes that structure's name. This is not incidental. It is what lets fractal composition work in practice. You can refer to and reuse subtrees without ambiguity. The same fragment in different contexts retains its identity. Composition stays clean because identity is intrinsic to structure rather than imposed from outside.
 
+[[unison|Unison]] applies the same principle to every definition of a program: see [[content-addressed-code|Content-Addressed Code]].
+
 This is also why these systems compose well with [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/index|Holochain]] and other DHT-based substrates: the substrate already speaks the language of content-addressed identity natively.
 
 ## The Six Properties
@@ -98,6 +101,7 @@ The pattern is not specific to software. Bach's fugues exhibit it (subject as pr
 ## Related Topics
 
 - [[complexity-oriented-programming|Complexity Oriented Programming]]
+- [[content-addressed-code|Content-Addressed Code]]
 - [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/index|Mystical Oriented Programming]]
 - [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/mystical-oriented-programming/alchemical-codex/PRIMA-MATERIA|Prima Materia]]
 - [[holonic-structure|Holonic Structure]]

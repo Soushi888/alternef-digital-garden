@@ -1,7 +1,7 @@
 ---
 title: DNA and Zomes
 date: 2026-03-03
-updated: 2026-05-24
+updated: 2026-11-10
 description: How Holochain applications are structured through DNA, integrity zomes, and coordinator zomes
 aliases:
   - Zome
@@ -96,6 +96,7 @@ This separation allows Holochain applications to evolve their behavior (UI logic
 - [[entry|Entry]] - Data types defined in integrity zomes
 - [[conductor|Conductor]] - Runtime that manages DNA instances
 - [[hdk|HDK]] - Rust library for writing zomes
+- [[content-addressing-in-unison-and-holochain|Content Addressing in Unison and Holochain]] - The DNA hash read beside Unison's content-addressed code
 
 ## References
 

@@ -5,6 +5,7 @@ aliases:
   - InterPlanetary File System
 tags: ["distributed-systems", "decentralization", "peer-to-peer", "storage", "protocols"]
 date: 2026-03-14
+updated: 2026-11-10
 ---
 
 IPFS (InterPlanetary File System) is a peer-to-peer hypermedia protocol that replaces location-based addressing with content-based addressing. On the traditional web, a file lives at a URL: a specific server, a specific path. If that server goes down or the path changes, the file disappears. IPFS identifies files by what they contain: a cryptographic hash of the content, called a Content Identifier (CID). Any node holding the same content can serve it, making the network resilient to censorship, server failure, and link rot.
@@ -44,6 +45,7 @@ IPFS embodies the same structural challenge as any commons: availability depends
 ## Related Concepts
 
 - [[distributed-hash-table|Distributed Hash Table]]
+- [[content-addressed-code|Content-Addressed Code]]: the same principle applied to program definitions
 - [[arweave|Arweave]]
 - [[ceramic-network|Ceramic Network]]
 - [[holochain|Holochain]]

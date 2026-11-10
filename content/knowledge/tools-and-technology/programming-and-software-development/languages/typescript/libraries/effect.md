@@ -1,6 +1,7 @@
 ---
 title: Effect
 date: 2025-03-15
+updated: 2026-11-10
 description: Powerful TypeScript framework for building robust, type-safe applications
 subtitle: A functional approach to managing side effects, errors, and concurrency
 aliases:
@@ -93,6 +94,7 @@ Effect is actively maintained by the team at **Effect-TS** and has a growing com
 Effect-TS enables implementing sophisticated fault-tolerance patterns inspired by proven distributed systems approaches:
 
 - **[[effect-supervision-patterns|Supervision Patterns]]** - Implement Erlang-style supervision trees with Effect's Fiber and Scope systems
+- **[[algebraic-effects|Algebraic Effects in Direct Style]]** - How Effect's lazy descriptions and `Effect.gen` compare with Unison's direct-style abilities
 - **Structured Concurrency** - Hierarchical process management with automatic cleanup and resource management
 - **Typed Error Recovery** - Explicit error handling strategies with compile-time safety guarantees
 
