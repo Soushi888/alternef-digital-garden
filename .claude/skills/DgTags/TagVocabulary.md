@@ -183,6 +183,7 @@ Use the canonical form on the right instead of the alias on the left.
 | `creative-coding` | Generative art, music-as-code, code as creative and aesthetic medium |
 | `cognitive-extension` | AI tools as extended mind — externalized cognition and agency |
 | `philosophy-of-mind` | Theory of mind, consciousness studies, mental states (cross-domain: also Culture) |
+| `content-addressing` | Identifying code or data by the hash of its content: Unison, IPFS, Holochain DNA |
 
 ---
 
