@@ -1,6 +1,7 @@
 ---
 title: Holochain Concepts
 date: 2025-03-11
+updated: 2026-11-10
 description: Core concepts, data structures, and technical primitives that make up the Holochain framework
 tags: ["holochain", "decentralization"]
 ---
@@ -12,6 +13,7 @@ This section contains all Holochain concepts in a single unified directory: data
 ## Application Structure
 
 - [[dna-and-zomes|DNA and Zomes]] - The integrity/coordinator split; how DNA hashes define networks
+- [[content-addressing-in-unison-and-holochain|Content Addressing in Unison and Holochain]] - Identity that follows content, in code and in networks
 - [[cell|Cell]] - The fundamental unit of a running Holochain application
 - [[social-dna|Social DNA]] - Social application patterns and reusable DNA compositions
 

@@ -3,7 +3,7 @@ title: Programming and Software Development
 date: 2025-02-19
 description: A holistic exploration of software engineering, programming paradigms, and computational thinking
 tags: ["programming", "software-development", "learning"]
-updated: 2026-09-22
+updated: 2026-11-10
 
 ---
 
@@ -19,6 +19,8 @@ This section is a comprehensive journey through the art and science of software 
 - Comparative language analysis
 - Language-specific paradigms and best practices
 - [[markdown|Markdown]]: lightweight markup syntax for formatted text that converts easily to HTML
+- [[unison|Unison]]: functional language whose definitions are identified by the hash of their syntax tree
+- [[blood|Blood]]: newly announced language promising content-addressed code and effect systems at systems-level performance
 
 ### 2. Development Patterns
 
