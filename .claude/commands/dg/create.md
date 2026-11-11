@@ -33,6 +33,7 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
    - Call `mcp__garden__garden_status` to confirm index is fresh
    - Call `mcp__garden__garden_files` to get the domain tree and verify target directory exists
    - Call `mcp__garden__garden_search` with the new note's topic/title to find existing related notes (prevents duplicates; informs link suggestions in Step 9)
+   - **Wisdom corpus lookup** (optional, offer-only): run the lookup described in `.claude/skills/DgNotes/WisdomCorpus.md` (summary in [Wisdom Corpus Lookup](#wisdom-corpus-lookup)) with the note's topic. Relevant hits are offered to Soushi (at most 3 passages) before drafting; no relevant hit, or no corpus tool or index on this machine (`PAI_DIR` unset or the tool absent), means say nothing and continue exactly as without it
    - Only after MCP calls: grep PAI memory for relevant past patterns (memory/dg-patterns.md)
 2. **Content Type Detection**: Determine target path and template based on content type
 3. **Path Generation**: Create Quartz-compatible file paths with proper slugification
@@ -56,10 +57,15 @@ Create new content for your Alternef Digital Garden with proper Quartz-compatibl
     - Check for emdash (`—`) in title, description, body
     - Check wikilink syntax: pipe syntax used, index links use absolute paths
     - Report any violations — do not commit until resolved
+    - Exemption: an em-dash or double hyphen inside an accepted corpus quotation (see `.claude/skills/DgNotes/WisdomCorpus.md`) is quoted source text. Report it as such, but it does not block the commit
 11. **Playwright Validation**: Test created content renders correctly and links function
 12. **Content Verification**: Verify new content appears in navigation and search
 13. **Memory Update**: Append key patterns to PAI memory.
     - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
+
+## Wisdom Corpus Lookup
+
+The lookup, its public-garden rules, the offer-never-insert behaviour and the citation form all live in `.claude/skills/DgNotes/WisdomCorpus.md`. Read it before running the lookup at Step 1. In short: when the note's topic touches a wisdom tradition, run the documented `concepts`, `concept` and `search --cite` calls, judge relevance, and offer Soushi at most 3 full-text passages before drafting. Nothing enters the note unless he accepts it; accepted passages go under `## References` in the citation form that `/dg:validate` checks. When the corpus tool is unavailable, skip silently and create the note exactly as without it.
 
 ## Built-in Quartz Knowledge
 
@@ -382,6 +388,7 @@ async function validateLinkPatterns(page, contentPath) {
 
 ## Claude Code Integration
 - **PAI Memory**: Reads and writes ~/.claude/.../memory/dg-patterns.md for cross-session pattern persistence
+- **Wisdom Corpus**: Optional, offer-only lookup of full-text public-domain passages through `${PAI_DIR}/PAI/Tools/WisdomCorpus.ts`, skipped silently when absent (see `.claude/skills/DgNotes/WisdomCorpus.md`)
 - **Path Intelligence**: Built-in understanding of Quartz content structure
 - **Taxonomy Integration**: Auto-suggests relevant tags based on domain and existing content
 - **Template System**: Self-contained frontmatter and structure templates

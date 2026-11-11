@@ -128,6 +128,9 @@ Tag vocabulary and format standards live in **`DgTags`** (`TagVocabulary.md`). L
 [Opening paragraphs that set context and frame the problem]
 ```
 
+### Epigraphs and quotations from primary texts
+An essay or article may open with an epigraph, or quote a passage inside a section, drawn from a primary text of a wisdom tradition. Take it only through `.claude/skills/DgNotes/WisdomCorpus.md`: the same lookup, the same public-garden rules (full-text public-domain passages only, quoted from a fetched passage, never from memory), the same offer-never-insert behaviour, and its epigraph citation form with the `` `wcw:SLUG/ID` `` marker, which `/dg:validate` checks verbatim. The epigraph sits after the italic hook and its `---`, and carries its full attribution where it stands.
+
 ### Body organization
 - **4-6 major sections** (H2 `##`)
 - Each section covers one major concept or technology

@@ -12,7 +12,7 @@ Load these skills for validation rules before running any check:
 - **DgTags** — Tag vocabulary, alias table, domain index tags, count rules
 
 ## Purpose
-Systematically validate digital garden content against all DG compliance rules. Run after any create/improve/edit operation, or as a standalone audit of any path. Catches tag vocabulary violations, frontmatter gaps, wrong date fields, emdash usage, and wikilink problems before they reach GitHub.
+Systematically validate digital garden content against all DG compliance rules. Run after any create/improve/edit operation, or as a standalone audit of any path. Catches tag vocabulary violations, frontmatter gaps, wrong date fields, emdash usage, wikilink problems, and altered corpus quotations before they reach GitHub.
 
 ## Usage
 ```
@@ -103,6 +103,8 @@ grep -n "—" <file>
 
 Any match outside a fenced code block → ERROR with line number. Also check `--` used as punctuation (two hyphens between words, not in code).
 
+Exception: a match inside a cited corpus quotation (the blockquote after a `` `wcw:SLUG/ID` `` marker, see `.claude/skills/DgNotes/WisdomCorpus.md`) is quoted source text. Report it as INFO, not ERROR: the quotation must stay verbatim, and Step 7 verifies it.
+
 ### Step 6: Wikilink Checks
 
 Grep file for `\[\[` patterns and verify:
@@ -119,6 +121,18 @@ bash .claude/skills/DgNotes/Tools/CheckDates.sh <target>
 ```
 
 Parse their output and include any additional findings in the report.
+
+Then run the corpus citation integrity check on the same target:
+
+```bash
+bun .claude/skills/DgNotes/Tools/CheckCorpusQuotes.ts <target> --json
+```
+
+It checks every quotation carrying the corpus marker `` `wcw:SLUG/ID` `` against `passage <ID> --json` (rules: `.claude/skills/DgNotes/WisdomCorpus.md`). Map its result into the report:
+- Each entry in `violations` → ERROR under `[corpus]`, with file, line, marker and kind (`text-mismatch`, `unknown-id`, `slug-mismatch`, `not-full-text`, `missing-quotation`)
+- `status: "skipped"` (no corpus tool on this machine) → one note in the report header: "Corpus citations not checked: tool unavailable". Not a violation
+- Exit code 2 (the corpus tool failed to run) → the same kind of note with its message. Not a violation
+- `--fix` never touches a cited quotation: re-fetch the passage and correct it by hand
 
 ### Step 8: Report
 
@@ -171,6 +185,7 @@ After fixing, re-run Steps 3-6 on changed files and report the delta.
 - Missing `description` (content must be written by hand)
 - Emdash in prose (sentence restructuring required)
 - Wikilinks without pipe syntax (display text must be chosen)
+- Corpus quotations (they must be re-fetched from the passage, never rewritten)
 
 ## PAI ISC Template
 When this command runs, OBSERVE generates these ISC:
@@ -180,6 +195,7 @@ When this command runs, OBSERVE generates these ISC:
 - ISC: Emdash violations reported with line numbers
 - ISC: Wikilink violations reported with correct form shown
 - ISC: Shell tools (ValidateNotes.sh, CheckDates.sh) executed and output included
+- ISC: CheckCorpusQuotes.ts executed; every corpus citation violation reported, or the skip noted
 - ISC: Summary counts correct (errors / warnings / clean files)
 - ISC-A: No files modified unless `--fix` explicitly passed
 - ISC-A: `--fix` never touches description, unknown tags, or emdash in prose
