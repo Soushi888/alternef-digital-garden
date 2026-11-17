@@ -1,7 +1,7 @@
 ---
 title: DNA and Zomes
 date: 2026-03-03
-updated: 2026-11-10
+updated: 2026-11-16
 description: How Holochain applications are structured through DNA, integrity zomes, and coordinator zomes
 aliases:
   - Zome
@@ -9,7 +9,7 @@ aliases:
   - Holochain DNA
   - Integrity Zomes
   - Coordinator Zomes
-tags: ["holochain", "decentralization", "architecture"]
+tags: ["holochain", "decentralization", "architecture", "content-addressing"]
 
 ---
 
@@ -19,13 +19,13 @@ In Holochain, a **DNA** defines a unique application space. It is a bundle of co
 
 ## DNA: The Application Identity
 
-A DNA is an immutable, content-addressable bundle. When you install a DNA on your device, you join a specific p2p network defined by that DNA's hash. Changing the DNA produces a different hash and therefore a different network.
+A DNA is a [[content-addressing|content-addressed]] bundle. When you install a DNA on your device, you join a specific p2p network defined by that DNA's hash. The hash covers the integrity section only: the integrity zomes and the DNA modifiers (network seed and properties). Changing any of those produces a different hash and therefore a different network; coordinator zomes sit outside the hash and can change after installation.
 
 Key properties:
 - Hash uniquely identifies the network
-- Immutable once deployed (changes create a new DNA)
+- Integrity section immutable once deployed (changes create a new DNA)
 - Contains one or more integrity zomes and zero or more coordinator zomes
-- Optionally includes properties (configuration values)
+- Optionally includes properties (configuration values), which count as modifiers and change the hash
 
 ## Integrity Zomes
 

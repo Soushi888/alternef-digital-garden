@@ -3,18 +3,18 @@ title: IPFS
 description: A peer-to-peer hypermedia protocol for content-addressed, distributed file storage
 aliases:
   - InterPlanetary File System
-tags: ["distributed-systems", "decentralization", "peer-to-peer", "storage", "protocols"]
+tags: ["distributed-systems", "content-addressing", "decentralization", "peer-to-peer", "storage", "protocols"]
 date: 2026-03-14
-updated: 2026-11-10
+updated: 2026-11-16
 ---
 
-IPFS (InterPlanetary File System) is a peer-to-peer hypermedia protocol that replaces location-based addressing with content-based addressing. On the traditional web, a file lives at a URL: a specific server, a specific path. If that server goes down or the path changes, the file disappears. IPFS identifies files by what they contain: a cryptographic hash of the content, called a Content Identifier (CID). Any node holding the same content can serve it, making the network resilient to censorship, server failure, and link rot.
+IPFS (InterPlanetary File System) is a peer-to-peer hypermedia protocol that replaces location-based addressing with [[content-addressing|content addressing]]. On the traditional web, a file lives at a URL: a specific server, a specific path. If that server goes down or the path changes, the file disappears. IPFS identifies files by what they contain: a cryptographic hash of the content, called a Content Identifier (CID). Any node holding the same content can serve it, making the network resilient to censorship, server failure, and link rot.
 
 This shift from "where is it?" to "what is it?" is foundational to the decentralized web. A resource on IPFS exists as long as at least one node has pinned it and is online. No single server controls access.
 
 ## How IPFS Works
 
-**Content Identifiers (CIDs)**: Every piece of content on IPFS gets a CID, a hash of the content itself. The same file always has the same CID, regardless of where it is stored. Two nodes holding the same file are interchangeable as sources. This immutability is a feature: CIDs are verifiable proofs of content, not mutable pointers.
+**Content Identifiers (CIDs)**: Every piece of content on IPFS gets a CID, a hash of the content itself (sha-256 by default) plus a codec that says how to read the bytes. The same file always has the same CID, regardless of where it is stored. Two nodes holding the same file are interchangeable as sources. This immutability is a feature: CIDs are verifiable proofs of content, not mutable pointers.
 
 **[[distributed-hash-table|Distributed Hash Table]]**: IPFS uses a DHT (specifically a variant of Kademlia) for peer discovery. When you request a CID, the network looks up which peers hold it and routes you to them. No central index is needed; the routing table is distributed across all participating nodes.
 
@@ -44,6 +44,7 @@ IPFS embodies the same structural challenge as any commons: availability depends
 
 ## Related Concepts
 
+- [[content-addressing|Content Addressing]]: the general principle IPFS applies to files
 - [[distributed-hash-table|Distributed Hash Table]]
 - [[content-addressed-code|Content-Addressed Code]]: the same principle applied to program definitions
 - [[arweave|Arweave]]

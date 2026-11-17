@@ -5,13 +5,15 @@ aliases:
   - "Git VCS"
   - "Git version control"
 date: 2025-02-15
-updated: 2026-05-02
-tags: ["programming", "version-control", "software-development", "open-source"]
+updated: 2026-11-16
+tags: ["programming", "version-control", "software-development", "open-source", "content-addressing"]
 ---
 
 Git is a free and open source distributed version control system designed for speed, correctness, and support for non-linear development. Linus Torvalds created it in 2005 to manage Linux kernel contributions after the team lost access to BitKeeper. The core design decision: every developer holds a full copy of the repository history, not just a working copy checked out from a server.
 
 Internally, Git represents history as a [[Directed Acyclic Graph (DAG)|directed acyclic graph]] of commit objects. Each commit points to its parent(s), a tree object (representing the directory snapshot), and carries author, committer, and message metadata. Branches are lightweight pointers to commits, not copies of files.
+
+Under the history sits a [[content-addressing|content-addressable]] object store: every blob, tree and commit is keyed by the hash of a short header plus its content. Branches and tags are the mutable layer on top of that immutable store.
 
 ## Core Concepts
 
@@ -19,7 +21,7 @@ Internally, Git represents history as a [[Directed Acyclic Graph (DAG)|directed 
 
 **Staging area (index)**: A buffer between the working directory and the next commit. `git add` stages changes selectively, allowing a single commit to be composed from partial file changes.
 
-**Commit**: An immutable snapshot of the entire repository tree at a point in time. Git identifies commits by their SHA-1 (now SHA-256 in newer repos) hash, computed from content, not filenames or timestamps.
+**Commit**: An immutable snapshot of the entire repository tree at a point in time. Git identifies commits by their SHA-1 hash, computed from content, not filenames or timestamps. SHA-256 is available as an opt-in object format (`git init --object-format=sha256`); SHA-1 remains the default.
 
 **Branch**: A named pointer to a commit. Creating a branch is nearly instant because it only creates a 41-byte file. `HEAD` is a special pointer that tracks which branch you are currently on.
 
@@ -67,4 +69,5 @@ git push origin <branch>      # Push a branch to the remote
 - [[github|GitHub]]: cloud hosting platform built on Git; adds pull requests, Actions, and issue tracking
 - [[git-send-email|Git Send-Email]]: the original email-driven patch contribution workflow
 - [[changelog|Changelog]]: conventions for documenting what changed across versions
+- [[content-addressing|Content Addressing]]: the principle behind Git's object store
 - [[knowledge/tools-and-technology/programming-and-software-development/version-control/index|Version Control]]

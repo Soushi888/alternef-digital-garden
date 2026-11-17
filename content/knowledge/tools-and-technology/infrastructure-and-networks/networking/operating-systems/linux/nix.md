@@ -1,13 +1,14 @@
 ---
 title: "Nix Package Manager"
 date: 2025-02-15
+updated: 2026-11-16
 description: "Nix as a revolutionary approach to package management and system configuration through functional programming"
 aliases:
   - "NixOS"
   - "Nix Package Manager"
   - "Nix Shell"
   - "Functional Package Management"
-tags: ["functional-programming", "linux", "devops", "nix"]
+tags: ["functional-programming", "linux", "devops", "nix", "content-addressing"]
 
 ---
 
@@ -25,11 +26,11 @@ Unlike traditional package managers that rely on imperative scripts and mutable 
 
 Nix treats package building as pure functions: given the same inputs, a package build will always produce the same output, regardless of the system state or previous installations. This mathematical purity enables unprecedented reproducibility and reliability in software deployment.
 
-## Technical Innovation: Content-Addressed Storage
+## Technical Innovation: Hash-Addressed Storage
 
 ### Cryptographic Hashing
 
-Nix's most significant technical innovation is its use of **content-addressed storage**. Every package is stored in a unique directory identified by a cryptographic hash of all its inputs and build process. This means:
+Nix's most significant technical innovation is a store where every package lives in a directory named by a cryptographic hash. By default that hash covers all the build's inputs, not its output: the Nix manual calls these store objects **input-addressed**. Store objects whose path is computed from their contents are **content-addressed** in the strict sense ([[content-addressing|Content Addressing]]), and content-addressed derivations, which avoid rebuilds when a change to a derivation leaves its output the same, are still an experimental feature (`ca-derivations`). Either way, this means:
 
 - **Reproducible builds** across different machines and environments
 - **Atomic upgrades** and rollbacks without system instability
@@ -98,6 +99,7 @@ While originating in the Linux ecosystem, Nix runs on multiple platforms includi
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/ubuntu|Ubuntu Linux]]** - Traditional package management approach
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/networking/operating-systems/linux/fedora|Fedora Linux]]** - Alternative package management strategies
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|DevOps]]** - Infrastructure automation and deployment
+- **[[content-addressing|Content Addressing]]** - The principle behind hash-named stores, and where Nix departs from it
 - **[[knowledge/tools-and-technology/infrastructure-and-networks/devops/index|Containerization]]** - Alternative approach to reproducible environments
 
 ---

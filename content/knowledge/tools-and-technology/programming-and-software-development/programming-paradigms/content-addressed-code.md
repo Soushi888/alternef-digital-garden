@@ -1,6 +1,7 @@
 ---
 title: "Content-Addressed Code"
 date: 2026-11-10
+updated: 2026-11-16
 description: "Identifying each code definition by a hash of its content instead of its name, and the cascade of consequences that follows: no rebuilds, no dependency conflicts, relocatable computation."
 aliases:
   - "Content Addressed Code"
@@ -10,7 +11,7 @@ draft: false
 ---
 
 In a conventional language, the identity of a definition is its name and its place in a text file.
-Content addressing replaces that identity with a hash of the definition itself.
+[[content-addressing|Content addressing]] replaces that identity with a hash of the definition itself.
 The question this note follows is simple: what changes when code is identified by what it is rather than by what it is called?
 
 ## Key Concepts
@@ -59,7 +60,7 @@ Type-based search, fully hyperlinked code and instant renames that break nothing
 
 ## A Property of Fractal Composition
 
-[[fractal-composability|Fractal Composability]] lists content-addressed identity among the six properties that make a system fractally composable, and shows it at work in MuseCode phrases and in the Nondominium genesis hash.
+[[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/fractal-composability|Fractal Composability]] lists content-addressed identity among the six properties that make a system fractally composable, and shows it at work in MuseCode phrases and in the Nondominium genesis hash.
 Unison carries the same move down to every definition of a program.
 A definition reused in a thousand places keeps one identity, so composition never has to ask which copy is meant.
 Read this way, Unison is a language whose unit of code already satisfies the reuse condition that [[complexity-oriented-programming|Complexity Oriented Programming]] needs from its primitives.
@@ -75,12 +76,13 @@ Adopting content-addressed code means adopting the tooling that comes with it.
 
 ## Related Topics
 
+- [[content-addressing|Content Addressing]]: the general principle, across files, builds, code and networks
 - [[codebase-as-database|The Codebase as a Database]]: what content addressing does to branches, merges and refactoring
 - [[algebraic-effects|Algebraic Effects in Direct Style]]: the other half of Unison's design
 - [[blood|Blood]]: a newly announced language built on the same idea
 - [[content-addressing-in-unison-and-holochain|Content Addressing in Unison and Holochain]]: the same principle applied to code and to data
 - [[ipfs|IPFS]]: content addressing applied to files
-- [[fractal-composability|Fractal Composability]]: content-addressed identity as a condition of recursive composition
+- [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/fractal-composability|Fractal Composability]]: content-addressed identity as a condition of recursive composition
 - [[complexity-oriented-programming|Complexity Oriented Programming]]
 - [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/index|Programming Paradigms]]
 

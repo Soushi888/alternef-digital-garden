@@ -1,7 +1,7 @@
 ---
 title: Distributed Hash Tables
 date: 2025-02-20
-updated: 2026-05-24
+updated: 2026-11-16
 description: A comprehensive overview of Distributed Hash Table (DHT) technology in decentralized systems
 aliases:
   - Distributed Hash Table
@@ -102,6 +102,7 @@ A Distributed Hash Table is a decentralized system that provides a lookup servic
 
 ## Related Concepts
 
+- [[content-addressing|Content Addressing]]: the hash a DHT resolves is a name and a proof at once
 - [[peer-to-peer-networking]]
 - [[holochain-architecture-overview]]
 - Blockchain
