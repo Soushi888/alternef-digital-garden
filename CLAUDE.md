@@ -23,6 +23,13 @@ Alternef Digital Garden is a personal knowledge management system built on **Qua
 | Auto-format                 | `npm run format`                                                   |
 | Install Playwright browsers | `npm run test:e2e:install`                                         |
 
+## Toolchain
+
+`flake.nix` provides the dev shell (Bun, Node.js 22, Playwright browsers from nixpkgs).
+Run commands with `nix develop -c <command>`; the `Quality` and `E2E Tests` workflows run every step in that shell through `.github/actions/setup-nix`.
+`@playwright/test` is pinned to exactly the nixpkgs `playwright-driver` version (exposed as `$PLAYWRIGHT_DRIVER_VERSION` in the shell): bump both together, never one alone.
+Inside the shell, `npm run test:e2e:install` is not needed.
+
 ## Architecture
 
 ### Content Layer (`content/`)

@@ -10,6 +10,12 @@ on:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
+# Every run step executes inside the flake's dev shell. Playwright's browsers come from nixpkgs
+# (PLAYWRIGHT_BROWSERS_PATH), so no job downloads browsers or depends on the runner's distribution.
+defaults:
+  run:
+    shell: nix develop --command bash -e {0}
+
 jobs:
   e2e-tests:
     timeout-minutes: 60
@@ -25,14 +31,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps ${{ matrix.browser }}
 
       - name: Build site
         run: bun run build
@@ -60,14 +63,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps chromium
 
       - name: Run accessibility tests
         run: bunx playwright test --project=accessibility
@@ -88,14 +88,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps chromium
 
       - name: Run performance tests
         run: bunx playwright test --project=performance
@@ -116,14 +113,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps chromium
 
       - name: Run mobile tests
         run: bunx playwright test --project='Mobile Chrome'
@@ -145,14 +139,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4

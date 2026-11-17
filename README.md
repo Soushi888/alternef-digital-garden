@@ -116,9 +116,22 @@ Our digital garden spans seven critical areas of knowledge:
 
 ### Prerequisites
 
-- Node.js (latest LTS version)
+- [Nix](https://nixos.org/download/) with flakes enabled (recommended), or Bun and Node.js 22 installed by hand
 - Git
 - Code Editor (VSCode/Codium recommended)
+
+### Nix Dev Shell
+
+`flake.nix` pins the whole toolchain: Bun, Node.js and the Playwright browsers.
+CI runs every command inside this same shell.
+
+```bash
+nix develop            # enter the shell
+nix develop -c bun run build   # or run one command in it
+```
+
+Playwright's browsers come from nixpkgs, so `@playwright/test` in `package.json` is pinned to exactly the nixpkgs `playwright-driver` version.
+When `flake.lock` is updated, update the package to match: `nix develop -c bash -c 'bun add -d -E @playwright/test@$PLAYWRIGHT_DRIVER_VERSION'`.
 
 ### Local Development
 
