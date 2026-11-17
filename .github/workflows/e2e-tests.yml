@@ -37,11 +37,24 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      # nixpkgs' WebKit closes on the first newPage (#57), so the WebKit shards use
+      # Playwright's own WebKit build, installed outside the Nix store.
+      - name: Install Playwright WebKit
+        if: matrix.browser == 'webkit'
+        run: |
+          export PLAYWRIGHT_BROWSERS_PATH="$HOME/.cache/ms-playwright"
+          unset PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD
+          bunx playwright install --with-deps webkit
+
       - name: Build site
         run: bun run build
 
       - name: Run E2E tests
-        run: bunx playwright test --project=${{ matrix.browser }} --shard=${{ matrix.shard }}/4
+        run: |
+          if [ "${{ matrix.browser }}" = webkit ]; then
+            export PLAYWRIGHT_BROWSERS_PATH="$HOME/.cache/ms-playwright"
+          fi
+          bunx playwright test --project=${{ matrix.browser }} --shard=${{ matrix.shard }}/4
         env:
           CI: true
           SITE_URL: https://alternef.garden
