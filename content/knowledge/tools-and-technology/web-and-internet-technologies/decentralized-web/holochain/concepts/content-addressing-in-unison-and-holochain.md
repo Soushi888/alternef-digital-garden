@@ -1,6 +1,7 @@
 ---
 title: "Content Addressing in Unison and Holochain"
 date: 2026-11-10
+updated: 2026-11-16
 description: "The same principle applied twice: Unison identifies code by its hash, Holochain identifies data and networks by theirs, and both must carry continuity across versions when identity follows content."
 aliases:
   - "Unison and Holochain"
@@ -8,7 +9,7 @@ tags: ["programming", "holochain", "content-addressing", "distributed-systems", 
 draft: false
 ---
 
-An argued parallel between two systems that put the hash at the centre of identity.
+An argued parallel between two systems that put the hash at the centre of identity, read against the general principle in [[content-addressing|Content Addressing]].
 The facts about each system are sourced from its documentation; the parallel itself is the argument, and it stands or falls on its own.
 [[unison|Unison]] applies content addressing to code: a definition is its hash, and names are movable pointers.
 Holochain applies it to data and to networks: entries and actions are addressed by their hash, and a DNA's hash defines the network its agents join.
@@ -44,12 +45,13 @@ Both rely on the fact that a hash is at once a name and a proof.
 
 ## Related Topics
 
+- [[content-addressing|Content Addressing]]: the general principle and its mutable layer
 - [[dna-and-zomes|DNA and Zomes]]
 - [[unison|Unison]]
 - [[content-addressed-code|Content-Addressed Code]]
 - [[distributed-hash-table|Distributed Hash Tables]]
 - [[ipfs|IPFS]]
-- [[fractal-composability|Fractal Composability]]: the Nondominium genesis hash as compositional identity
+- [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/fractal-composability|Fractal Composability]]: the Nondominium genesis hash as compositional identity
 - [[knowledge/tools-and-technology/web-and-internet-technologies/decentralized-web/holochain/concepts/index|Holochain Concepts]]
 
 ## References

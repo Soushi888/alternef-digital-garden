@@ -1,7 +1,7 @@
 ---
 title: Programming Paradigms
 date: 2025-08-04
-updated: 2026-11-10
+updated: 2026-11-16
 description: Different fundamental approaches to organizing and structuring computer programs, each with distinct philosophies, principles, and patterns for solving computational problems.
 tags: ["programming-paradigms"]
 
@@ -92,13 +92,13 @@ _Specialized approaches for particular problem domains_
 
 _What changes when code is identified by what it is rather than by what it is called_
 
-A cluster of notes around [[unison|Unison]] and the newly announced [[blood|Blood]] language.
+A cluster of notes around [[unison|Unison]] and the newly announced [[blood|Blood]] language, under the general principle described in [[content-addressing|Content Addressing]].
 Reading order: start with [[content-addressed-code|Content-Addressed Code]], then [[unison|Unison]].
 [[codebase-as-database|The Codebase as a Database]] follows from both.
 [[algebraic-effects|Algebraic Effects in Direct Style]] stands on its own.
 [[blood|Blood]] reads best last, because almost everything it promises is explained in the other notes.
 [[content-addressing-in-unison-and-holochain|Content Addressing in Unison and Holochain]] carries the idea from code to data and networks.
-The cluster meets [[complexity-oriented-programming|Complexity Oriented Programming]] twice: content addressing is one of the six properties of [[fractal-composability|Fractal Composability]], and effect handlers answer part of the verification problem COP names.
+The cluster meets [[complexity-oriented-programming|Complexity Oriented Programming]] twice: content addressing is one of the six properties of [[knowledge/tools-and-technology/programming-and-software-development/programming-paradigms/fractal-composability|Fractal Composability]], and effect handlers answer part of the verification problem COP names.
 
 The Unison notes rest on the official documentation, read on 2026-11-10.
 The Blood note rests on almost nothing public: a placeholder website and the announcement post.
