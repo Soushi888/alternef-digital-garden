@@ -1,1 +1,4 @@
 * text=auto eol=lf
+
+# Drafts are private: encrypted at rest on the remote, plaintext once unlocked
+content/unpublished/** filter=git-crypt diff=git-crypt

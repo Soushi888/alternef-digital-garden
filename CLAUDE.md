@@ -97,6 +97,7 @@ The core framework lives here. Key subdirectories:
 - Internal links use wikilink syntax: `[[path/to/note]]` or `[[note|display text]]`.
 - Dates sourced from frontmatter first, then filesystem.
 - Files in `content/unpublished/` or with `draft: true` are not built.
+- `content/unpublished/` is encrypted with git-crypt (`.gitattributes`): the remote holds ciphertext, a checkout unlocked with `git-crypt unlock <keyfile>` reads plaintext. A new worktree needs the key copied into its git dir before checkout (see the Worktree skill).
 - Patterns ignored by Quartz: `private/`, `templates/`, `.obsidian/`.
 - **No emdashes**: Never use emdash (`—`) or double hyphens (`--`) as punctuation in content. Use colons for definitions/lists (`**Term**: description`), commas or parentheses for asides, or restructure the sentence. This applies to all content written for external use (blog posts, notes, portfolio pages, descriptions).
 
