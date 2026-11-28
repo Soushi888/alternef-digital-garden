@@ -6,7 +6,6 @@ aliases:
   - "FAIR Guiding Principles"
 tags: ["semantic-web", "linked-data", "valueflows", "holochain", "json-ld"]
 date: 2026-11-27
-draft: true
 ---
 
 The FAIR Guiding Principles (Wilkinson et al., 2016) describe what makes data and metadata findable, accessible, interoperable and reusable.
@@ -85,7 +84,7 @@ What is missing is a resolver, in the spirit of w3id, that turns a hash into a p
 
 ## Commons governance as R1.1
 
-In a commons-oriented application such as [[portfolio/nondominium|Nondominium]], the governance rules attached to a shared resource play the role R1.1 gives to a data usage license.
+In a commons-oriented application such as [[portfolio/nondominium-project|Nondominium]], the governance rules attached to a shared resource play the role R1.1 gives to a data usage license.
 Expressing those rules in a formal vocabulary would make them interoperable across networks.
 This is also where CARE meets FAIR: a license says what anyone may do with the data, while commons governance says who decides, which is the question CARE's Authority to control asks.
 
