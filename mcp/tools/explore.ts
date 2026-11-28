@@ -38,7 +38,9 @@ export function gardenExplore({ query, maxNotes = 10 }: ExploreArgs): ExploreRes
   } catch {
     // FTS5 query parse error — fall back to LIKE-based search
     const terms = safeFtsQuery.split(/\s+/).filter(Boolean)
-    const likeClauses = terms.map(() => "(n.title LIKE ? OR n.description LIKE ? OR n.content LIKE ?)").join(" AND ")
+    const likeClauses = terms
+      .map(() => "(n.title LIKE ? OR n.description LIKE ? OR n.content LIKE ?)")
+      .join(" AND ")
     const likeParams = terms.flatMap((t) => [`%${t}%`, `%${t}%`, `%${t}%`])
     rows = db
       .prepare(
@@ -56,7 +58,7 @@ export function gardenExplore({ query, maxNotes = 10 }: ExploreArgs): ExploreRes
     title: r.title as string,
     description: (r.description as string | null) ?? null,
     date: (r.date as string | null) ?? null,
-    domain: (r.domain as string | null) as NoteWithExcerpt["domain"],
+    domain: r.domain as string | null as NoteWithExcerpt["domain"],
     draft: r.draft === 1,
     updated: r.updated as string,
     excerpt: makeExcerpt(r.content as string),

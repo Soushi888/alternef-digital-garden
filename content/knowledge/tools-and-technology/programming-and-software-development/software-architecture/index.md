@@ -7,7 +7,7 @@ aliases:
   - "software architecture"
   - "Software Architecture"
 tags: ["software-architecture", "design", "software-development"]
-updated: 2026-05-24
+updated: 2026-10-08
 ---
 
 ## Overview
@@ -34,6 +34,8 @@ A hierarchical approach to visualizing and documenting software architecture acr
 - Domain-Driven Design
 - Clean Architecture
 - Separation of Concerns
+- [[orthogonal-architecture|Orthogonal Architecture]]: independent components that combine without hidden interactions
+- [[orthogonality-and-functional-programming|Orthogonality and Functional Programming]]: how FP mechanisms make orthogonal design the default
 
 ## Related Concepts
 

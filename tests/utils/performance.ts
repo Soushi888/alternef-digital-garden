@@ -1,4 +1,4 @@
-import { Page } from '@playwright/test';
+import { Page } from "@playwright/test"
 
 /**
  * Performance testing utilities for web components
@@ -8,235 +8,239 @@ export class PerformanceUtils {
    * Measure page load performance metrics
    */
   static async measurePageLoad(page: Page): Promise<{
-    domContentLoaded: number;
-    loadComplete: number;
-    firstPaint: number;
-    firstContentfulPaint: number;
-    largestContentfulPaint: number;
+    domContentLoaded: number
+    loadComplete: number
+    firstPaint: number
+    firstContentfulPaint: number
+    largestContentfulPaint: number
   }> {
     return page.evaluate(() => {
       return new Promise((resolve) => {
-        const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
-        const paint = performance.getEntriesByType('paint');
+        const navigation = performance.getEntriesByType(
+          "navigation",
+        )[0] as PerformanceNavigationTiming
+        const paint = performance.getEntriesByType("paint")
 
         const metrics = {
-          domContentLoaded: navigation.domContentLoadedEventEnd - navigation.navigationStart,
-          loadComplete: navigation.loadEventEnd - navigation.navigationStart,
+          domContentLoaded: navigation.domContentLoadedEventEnd - navigation.startTime,
+          loadComplete: navigation.loadEventEnd - navigation.startTime,
           firstPaint: 0,
           firstContentfulPaint: 0,
-          largestContentfulPaint: 0
-        };
+          largestContentfulPaint: 0,
+        }
 
         paint.forEach((entry) => {
-          if (entry.name === 'first-paint') {
-            metrics.firstPaint = entry.startTime;
-          } else if (entry.name === 'first-contentful-paint') {
-            metrics.firstContentfulPaint = entry.startTime;
+          if (entry.name === "first-paint") {
+            metrics.firstPaint = entry.startTime
+          } else if (entry.name === "first-contentful-paint") {
+            metrics.firstContentfulPaint = entry.startTime
           }
-        });
+        })
 
         // Try to get LCP if available
         new PerformanceObserver((list) => {
-          const entries = list.getEntries();
-          const lastEntry = entries[entries.length - 1];
-          metrics.largestContentfulPaint = lastEntry.startTime;
-          resolve(metrics);
-        }).observe({ entryTypes: ['largest-contentful-paint'] });
+          const entries = list.getEntries()
+          const lastEntry = entries[entries.length - 1]
+          metrics.largestContentfulPaint = lastEntry.startTime
+          resolve(metrics)
+        }).observe({ entryTypes: ["largest-contentful-paint"] })
 
         // Fallback if LCP observer doesn't fire quickly
-        setTimeout(() => resolve(metrics), 2000);
-      });
-    });
+        setTimeout(() => resolve(metrics), 2000)
+      })
+    })
   }
 
   /**
    * Measure component rendering performance
    */
-  static async measureComponentRender(page: Page, componentSelector: string): Promise<{
-    renderTime: number;
-    elementCount: number;
-    domNodes: number;
+  static async measureComponentRender(
+    page: Page,
+    componentSelector: string,
+  ): Promise<{
+    renderTime: number
+    elementCount: number
+    domNodes: number
   }> {
-    const startTime = Date.now();
+    const startTime = Date.now()
 
-    const elementCount = await page.locator(componentSelector).count();
+    const elementCount = await page.locator(componentSelector).count()
 
     const metrics = await page.evaluate((selector) => {
-      const component = document.querySelector(selector);
-      if (!component) return { domNodes: 0 };
+      const component = document.querySelector(selector)
+      if (!component) return { domNodes: 0 }
 
-      const walker = document.createTreeWalker(
-        component,
-        NodeFilter.SHOW_ALL,
-        null
-      );
+      const walker = document.createTreeWalker(component, NodeFilter.SHOW_ALL, null)
 
-      let nodeCount = 0;
+      let nodeCount = 0
       while (walker.nextNode()) {
-        nodeCount++;
+        nodeCount++
       }
 
-      return { domNodes: nodeCount };
-    }, componentSelector);
+      return { domNodes: nodeCount }
+    }, componentSelector)
 
-    const renderTime = Date.now() - startTime;
+    const renderTime = Date.now() - startTime
 
     return {
       renderTime,
       elementCount,
-      domNodes: metrics.domNodes
-    };
+      domNodes: metrics.domNodes,
+    }
   }
 
   /**
    * Check memory usage
    */
   static async checkMemoryUsage(page: Page): Promise<{
-    usedJSHeapSize: number;
-    totalJSHeapSize: number;
-    jsHeapSizeLimit: number;
+    usedJSHeapSize: number
+    totalJSHeapSize: number
+    jsHeapSizeLimit: number
   }> {
     return page.evaluate(() => {
-      const performance = (window as any).performance;
+      const performance = (window as any).performance
       if (performance && performance.memory) {
         return {
           usedJSHeapSize: performance.memory.usedJSHeapSize,
           totalJSHeapSize: performance.memory.totalJSHeapSize,
-          jsHeapSizeLimit: performance.memory.jsHeapSizeLimit
-        };
+          jsHeapSizeLimit: performance.memory.jsHeapSizeLimit,
+        }
       }
       return {
         usedJSHeapSize: 0,
         totalJSHeapSize: 0,
-        jsHeapSizeLimit: 0
-      };
-    });
+        jsHeapSizeLimit: 0,
+      }
+    })
   }
 
   /**
    * Measure network performance
    */
   static async measureNetworkPerformance(page: Page): Promise<{
-    totalRequests: number;
-    totalSize: number;
-    slowRequests: Array<{ url: string; duration: number }>;
+    totalRequests: number
+    totalSize: number
+    slowRequests: Array<{ url: string; duration: number }>
   }> {
-    const requests: Array<{ url: string; duration: number; size: number }> = [];
+    const requests: Array<{ url: string; duration: number; size: number }> = []
 
-    page.on('response', async (response) => {
-      const url = response.url();
-      const timing = await response.request().timing();
-      const duration = timing.responseEnd - timing.requestStart;
+    page.on("response", async (response) => {
+      const url = response.url()
+      const timing = await response.request().timing()
+      const duration = timing.responseEnd - timing.requestStart
 
       // Estimate size from headers if available
-      const contentLength = response.headers()['content-length'];
-      const size = contentLength ? parseInt(contentLength) : 0;
+      const contentLength = response.headers()["content-length"]
+      const size = contentLength ? parseInt(contentLength) : 0
 
-      requests.push({ url, duration, size });
-    });
+      requests.push({ url, duration, size })
+    })
 
     // Wait a bit for all requests to complete
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(2000)
 
-    const totalRequests = requests.length;
-    const totalSize = requests.reduce((sum, req) => sum + req.size, 0);
-    const slowRequests = requests.filter(req => req.duration > 1000); // requests taking > 1s
+    const totalRequests = requests.length
+    const totalSize = requests.reduce((sum, req) => sum + req.size, 0)
+    const slowRequests = requests.filter((req) => req.duration > 1000) // requests taking > 1s
 
     return {
       totalRequests,
       totalSize,
-      slowRequests
-    };
+      slowRequests,
+    }
   }
 
   /**
    * Check Core Web Vitals
    */
   static async checkCoreWebVitals(page: Page): Promise<{
-    lcp: number; // Largest Contentful Paint
-    fid: number; // First Input Delay
-    cls: number; // Cumulative Layout Shift
+    lcp: number // Largest Contentful Paint
+    fid: number // First Input Delay
+    cls: number // Cumulative Layout Shift
   }> {
     return page.evaluate(() => {
       return new Promise((resolve) => {
-        const vitals = { lcp: 0, fid: 0, cls: 0 };
+        const vitals = { lcp: 0, fid: 0, cls: 0 }
 
         // LCP
         new PerformanceObserver((list) => {
-          const entries = list.getEntries();
-          const lastEntry = entries[entries.length - 1];
-          vitals.lcp = lastEntry.startTime;
-          checkComplete();
-        }).observe({ entryTypes: ['largest-contentful-paint'] });
+          const entries = list.getEntries()
+          const lastEntry = entries[entries.length - 1]
+          vitals.lcp = lastEntry.startTime
+          checkComplete()
+        }).observe({ entryTypes: ["largest-contentful-paint"] })
 
         // FID (approximation using first input)
         new PerformanceObserver((list) => {
-          const entries = list.getEntries();
+          const entries = list.getEntries()
           if (entries.length > 0) {
-            vitals.fid = entries[0].processingStart - entries[0].startTime;
+            const firstInput = entries[0] as PerformanceEventTiming
+            vitals.fid = firstInput.processingStart - firstInput.startTime
           }
-          checkComplete();
-        }).observe({ entryTypes: ['first-input'] });
+          checkComplete()
+        }).observe({ entryTypes: ["first-input"] })
 
         // CLS
-        let clsValue = 0;
+        let clsValue = 0
         new PerformanceObserver((list) => {
           for (const entry of list.getEntries()) {
             if (!(entry as any).hadRecentInput) {
-              clsValue += (entry as any).value;
+              clsValue += (entry as any).value
             }
           }
-          vitals.cls = clsValue;
-          checkComplete();
-        }).observe({ entryTypes: ['layout-shift'] });
+          vitals.cls = clsValue
+          checkComplete()
+        }).observe({ entryTypes: ["layout-shift"] })
 
-        let timeoutId: NodeJS.Timeout;
+        let timeoutId: NodeJS.Timeout
         const checkComplete = () => {
-          clearTimeout(timeoutId);
-          timeoutId = setTimeout(() => resolve(vitals), 500);
-        };
+          clearTimeout(timeoutId)
+          timeoutId = setTimeout(() => resolve(vitals), 500)
+        }
 
         // Fallback timeout
-        setTimeout(() => resolve(vitals), 5000);
-      });
-    });
+        setTimeout(() => resolve(vitals), 5000)
+      })
+    })
   }
 
   /**
    * Analyze bundle size impact
    */
   static async analyzeBundleSize(page: Page): Promise<{
-    jsSize: number;
-    cssSize: number;
-    imageSize: number;
-    totalSize: number;
+    jsSize: number
+    cssSize: number
+    imageSize: number
+    totalSize: number
   }> {
     const resources = await page.evaluate(() => {
-      const performanceEntries = performance.getEntriesByType('resource') as PerformanceResourceTiming[];
+      const performanceEntries = performance.getEntriesByType(
+        "resource",
+      ) as PerformanceResourceTiming[]
 
       const analysis = {
         jsSize: 0,
         cssSize: 0,
         imageSize: 0,
-        totalSize: 0
-      };
+        totalSize: 0,
+      }
 
       performanceEntries.forEach((entry) => {
-        const size = entry.transferSize || 0;
-        analysis.totalSize += size;
+        const size = entry.transferSize || 0
+        analysis.totalSize += size
 
-        if (entry.name.endsWith('.js')) {
-          analysis.jsSize += size;
-        } else if (entry.name.endsWith('.css')) {
-          analysis.cssSize += size;
+        if (entry.name.endsWith(".js")) {
+          analysis.jsSize += size
+        } else if (entry.name.endsWith(".css")) {
+          analysis.cssSize += size
         } else if (entry.name.match(/\.(jpg|jpeg|png|gif|webp|svg)$/i)) {
-          analysis.imageSize += size;
+          analysis.imageSize += size
         }
-      });
+      })
 
-      return analysis;
-    });
+      return analysis
+    })
 
-    return resources;
+    return resources
   }
 }

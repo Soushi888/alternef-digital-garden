@@ -8,7 +8,7 @@ export const DOMAINS = [
   "governance-and-community",
 ] as const
 
-export type Domain = typeof DOMAINS[number]
+export type Domain = (typeof DOMAINS)[number]
 
 export interface Note {
   id: string

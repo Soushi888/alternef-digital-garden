@@ -1,8 +1,9 @@
 ---
 title: "Iroh"
 date: 2026-05-07
+updated: 2026-11-16
 description: "A modular peer-to-peer networking stack in Rust that enables direct device-to-device connections using public key identifiers instead of IP addresses."
-tags: ["programming", "peer-to-peer", "networking", "protocols", "rust", "distributed-systems"]
+tags: ["programming", "peer-to-peer", "networking", "protocols", "rust", "distributed-systems", "content-addressing"]
 ---
 
 Iroh is a modular peer-to-peer networking library written in Rust, developed by [n0](https://n0.computer/). Rather than dialing IP addresses, Iroh lets you dial public keys, making it possible to connect any two devices directly, regardless of network topology.
@@ -56,7 +57,7 @@ Iroh's base layer provides raw QUIC connections. Higher-level protocols are comp
 
 ### iroh-blobs
 
-Content-addressed data transfer using BLAKE3 hashing. Transfers are resumable and every chunk is verifiable, making it suitable for large file sync, backup, and distribution use cases.
+[[content-addressing|Content-addressed]] data transfer using BLAKE3 hashing. Transfers are resumable and every chunk is verifiable, making it suitable for large file sync, backup, and distribution use cases.
 
 ### iroh-gossip
 
@@ -104,6 +105,7 @@ Iroh occupies similar territory to [[distributed-systems/peer-to-peer|libp2p]] b
 - [[distributed-systems/peer-to-peer|Peer-to-Peer Networks]]
 - [[distributed-systems/bittorrent|BitTorrent Protocol]]
 - [[distributed-systems/conflict-free-replicated-data-types|CRDTs]]
+- [[content-addressing|Content Addressing]]
 - [[user-datagram-protocol|UDP Protocol]]
 - [[tcp-ip|TCP/IP Protocol Suite]]
 

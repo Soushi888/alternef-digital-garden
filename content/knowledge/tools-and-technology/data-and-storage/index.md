@@ -1,6 +1,7 @@
 ---
 title: Data and Storage
 date: 2025-02-19
+updated: 2026-11-16
 description: A holistic exploration of data management, storage technologies, and information architecture
 tags: ["storage", "data-modeling"]
 
@@ -64,4 +65,5 @@ This section navigates the complex landscape of data management, exploring how i
 
 ## Featured Notes
 
+- [[content-addressing|Content Addressing]]: naming data by a hash of what it contains instead of where it is stored, the hub for its uses in files, builds, code and networks.
 - [[markdown-as-witnessed-archive|Markdown as Witnessed Archive]] — Why plain Markdown files constitute a legitimate database substrate, the four failure modes that threaten the paradigm, and a three-layer architecture that makes it defensible.

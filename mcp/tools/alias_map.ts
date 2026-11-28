@@ -14,11 +14,14 @@ interface AliasMapArgs {
   withAliasesOnly?: boolean
 }
 
-export function gardenAliasMap({ domain, withAliasesOnly = true }: AliasMapArgs = {}): AliasEntry[] {
+export function gardenAliasMap({
+  domain,
+  withAliasesOnly = true,
+}: AliasMapArgs = {}): AliasEntry[] {
   const db = getDb()
 
   const domainFilter = domain ? "AND n.domain = ?" : ""
-  const params: unknown[] = domain ? [domain] : []
+  const params: string[] = domain ? [domain] : []
 
   const rows = db
     .prepare(
@@ -42,7 +45,7 @@ export function gardenAliasMap({ domain, withAliasesOnly = true }: AliasMapArgs 
   return rows.map((r) => ({
     id: r.id,
     title: r.title,
-    domain: (r.domain as Domain | null),
+    domain: r.domain as Domain | null,
     path: r.path,
     aliases: r.alias_list ? r.alias_list.split("|") : [],
   }))

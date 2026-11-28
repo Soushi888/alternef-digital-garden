@@ -14,10 +14,11 @@ function buildGitFirstCommitCache(cwd: string): Map<string, number> {
   try {
     // Process in chronological order (--reverse) so rename chains propagate correctly:
     // when A→B→C, each rename transfers the original add-date to the new path.
-    const output = execSync(
-      "git log --reverse --diff-filter=AR --name-status --format='%aI'",
-      { cwd, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
-    )
+    const output = execSync("git log --reverse --diff-filter=AR --name-status --format='%aI'", {
+      cwd,
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    })
     let currentTs: number | null = null
     for (const line of output.split("\n")) {
       const trimmed = line.trim()

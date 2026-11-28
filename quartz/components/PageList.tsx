@@ -29,16 +29,16 @@ export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
 type Props = {
   limit?: number
   sort?: SortFn
-  displayMode?: 'list' | 'cards'
+  displayMode?: "list" | "cards"
 } & QuartzComponentProps
 
-export const PageList: QuartzComponent = ({ 
-  cfg, 
-  fileData, 
-  allFiles, 
-  limit, 
-  sort, 
-  displayMode = 'list' 
+export const PageList: QuartzComponent = ({
+  cfg,
+  fileData,
+  allFiles,
+  limit,
+  sort,
+  displayMode = "list",
 }: Props) => {
   const sorter = sort ?? byDateAndAlphabetical(cfg)
   let list = allFiles.sort(sorter)
@@ -51,25 +51,23 @@ export const PageList: QuartzComponent = ({
     if (page.frontmatter?.description) {
       return page.frontmatter.description
     }
-    
+
     // If no description in frontmatter, try to extract first paragraph from content
-    const contentString = page.content?.toString() || ''
-    const firstParagraph = contentString.split('\n\n')[0]
-    return firstParagraph.length > 200 
-      ? firstParagraph.slice(0, 200) + '...' 
-      : firstParagraph
+    const contentString = page.content?.toString() || ""
+    const firstParagraph = contentString.split("\n\n")[0]
+    return firstParagraph.length > 200 ? firstParagraph.slice(0, 200) + "..." : firstParagraph
   }
 
   const extractImage = (page: QuartzPluginData): string | undefined => {
     // Try to extract image from frontmatter, with explicit type checking
     const imageFromFrontmatter = page.frontmatter?.image ?? page.frontmatter?.cover
 
-    return typeof imageFromFrontmatter === 'string' && imageFromFrontmatter.trim() !== ''
+    return typeof imageFromFrontmatter === "string" && imageFromFrontmatter.trim() !== ""
       ? imageFromFrontmatter
       : undefined
   }
 
-  return displayMode === 'cards' ? (
+  return displayMode === "cards" ? (
     <div class="blog-card-grid">
       {list.map((page) => {
         const title = page.frontmatter?.title

@@ -11,8 +11,14 @@ export function gardenLinks({ note }: { note: string }): LinkTarget[] {
   if (!row) return []
 
   const rows = db
-    .prepare("SELECT target_id, target_raw, display_text FROM links WHERE source_id = ? ORDER BY target_raw")
-    .all(row.id) as Array<{ target_id: string | null; target_raw: string; display_text: string | null }>
+    .prepare(
+      "SELECT target_id, target_raw, display_text FROM links WHERE source_id = ? ORDER BY target_raw",
+    )
+    .all(row.id) as Array<{
+    target_id: string | null
+    target_raw: string
+    display_text: string | null
+  }>
 
   return rows.map((r) => ({ id: r.target_id, raw: r.target_raw, display: r.display_text }))
 }

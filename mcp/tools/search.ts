@@ -1,48 +1,31 @@
 import { getDb } from "../db"
-import { makeExcerpt } from "../indexer"
+import { getNote, searchNotes } from "../lib"
 import type { NoteWithExcerpt } from "../types"
 
 interface SearchArgs {
   query: string
+  terms?: string[]
   domain?: string
   tag?: string
   limit?: number
 }
 
-export function gardenSearch({ query, domain, tag, limit = 20 }: SearchArgs): NoteWithExcerpt[] {
+export function gardenSearch({
+  query,
+  terms,
+  domain,
+  tag,
+  limit = 20,
+}: SearchArgs): NoteWithExcerpt[] {
   const db = getDb()
+  const hits = searchNotes(db, { query, terms, domain, tag, limit })
 
-  let sql = `
-    SELECT n.id, n.path, n.title, n.description, n.date, n.domain, n.draft, n.updated, n.content
-    FROM notes_fts
-    JOIN notes n ON notes_fts.rowid = n.rowid
-    WHERE notes_fts MATCH ? AND n.draft = 0
-  `
-  const params: (string | number)[] = [query]
-
-  if (domain) {
-    sql += " AND n.domain = ?"
-    params.push(domain)
+  const notes: NoteWithExcerpt[] = []
+  for (const hit of hits) {
+    const full = getNote(db, hit.id)
+    if (!full) continue
+    const { content: _content, ...note } = full
+    notes.push(note)
   }
-
-  if (tag) {
-    sql += " AND EXISTS (SELECT 1 FROM tags t WHERE t.note_id = n.id AND t.tag = ?)"
-    params.push(tag)
-  }
-
-  sql += " ORDER BY rank LIMIT ?"
-  params.push(limit)
-
-  const rows = db.prepare(sql).all(...params) as Array<Record<string, unknown>>
-  return rows.map((r) => ({
-    id: r.id as string,
-    path: r.path as string,
-    title: r.title as string,
-    description: (r.description as string | null) ?? null,
-    date: (r.date as string | null) ?? null,
-    domain: (r.domain as string | null) as NoteWithExcerpt["domain"],
-    draft: r.draft === 1,
-    updated: r.updated as string,
-    excerpt: makeExcerpt(r.content as string),
-  }))
+  return notes
 }

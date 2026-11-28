@@ -11,7 +11,7 @@ export function gardenOrphans({ domain, excludeIndexes = false }: OrphansArgs = 
 
   const domainFilter = domain ? "AND n.domain = ?" : ""
   const indexFilter = excludeIndexes ? "AND n.id NOT LIKE '%/index'" : ""
-  const params: unknown[] = domain ? [domain] : []
+  const params: string[] = domain ? [domain] : []
 
   return db
     .prepare(

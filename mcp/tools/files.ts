@@ -41,16 +41,22 @@ export function gardenFiles({ domain, depth = 2 }: FilesArgs): FileTree {
   // All domains overview
   const children: FileTree[] = DOMAINS.map((d) => {
     const c = (
-      db.prepare("SELECT COUNT(*) as c FROM notes WHERE domain = ? AND draft = 0").get(d) as { c: number }
+      db.prepare("SELECT COUNT(*) as c FROM notes WHERE domain = ? AND draft = 0").get(d) as {
+        c: number
+      }
     ).c
     return { name: d, count: c }
   }).sort((a, b) => b.count - a.count)
 
   const topLevel = (
-    db.prepare("SELECT COUNT(*) as c FROM notes WHERE domain IS NULL AND draft = 0").get() as { c: number }
+    db.prepare("SELECT COUNT(*) as c FROM notes WHERE domain IS NULL AND draft = 0").get() as {
+      c: number
+    }
   ).c
 
-  const total = (db.prepare("SELECT COUNT(*) as c FROM notes WHERE draft = 0").get() as { c: number }).c
+  const total = (
+    db.prepare("SELECT COUNT(*) as c FROM notes WHERE draft = 0").get() as { c: number }
+  ).c
 
   return {
     name: "garden",

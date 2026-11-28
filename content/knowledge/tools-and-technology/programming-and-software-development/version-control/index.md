@@ -1,6 +1,7 @@
 ---
 title: Version Control
 date: 2026-03-03
+updated: 2026-11-10
 description: Tools and practices for tracking changes in source code, collaborating on codebases, and managing software history
 aliases:
   - Source Control
@@ -31,6 +32,10 @@ A document listing significant changes made in each version of a software projec
 ### [[git-send-email|Git Send-Email]]
 
 The original Git contribution workflow: patches sent over email via `git format-patch` and `git send-email`, reviewed on mailing lists, applied with `git am`. Used by the Linux kernel, Git itself, PostgreSQL, and forges like [Sourcehut](https://sr.ht/).
+
+### [[codebase-as-database|The Codebase as a Database]]
+
+What branching, merging and refactoring become when code definitions live by hash in a database rather than in text files, as in Unison and the announced Blood language.
 
 ## Key Concepts
 

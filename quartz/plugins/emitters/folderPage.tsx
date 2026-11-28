@@ -23,16 +23,16 @@ import DepGraph from "../../depgraph"
 
 interface FolderPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
-  displayMode?: 'list' | 'cards'
+  displayMode?: "list" | "cards"
 }
 
 export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (userOpts) => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     ...defaultListPageLayout,
-    pageBody: FolderContent({ 
+    pageBody: FolderContent({
       sort: userOpts?.sort,
-      displayMode: userOpts?.displayMode || 'list'
+      displayMode: userOpts?.displayMode || "list",
     }),
     ...userOpts,
   }
@@ -111,13 +111,13 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
       for (const folder of folders) {
         const slug = joinSegments(folder, "index") as FullSlug
         const [tree, file] = folderDescriptions[folder]
-        
+
         // // Skip folder page generation if an index.md exists
-        // const hasIndexPage = allFiles.some(f => 
-        //   f.slug === joinSegments(folder, "index") || 
+        // const hasIndexPage = allFiles.some(f =>
+        //   f.slug === joinSegments(folder, "index") ||
         //   f.slug === joinSegments(folder, "index.md")
         // )
-        
+
         // if (hasIndexPage) {
         //   continue // Skip folder page generation
         // }

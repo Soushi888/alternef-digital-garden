@@ -1,12 +1,12 @@
-import { defineConfig, devices } from '@playwright/test';
-import { TEST_CONFIG } from './tests/fixtures/test-data';
+import { defineConfig, devices } from "@playwright/test"
+import { TEST_CONFIG } from "./tests/fixtures/test-data"
 
 /**
  * Playwright configuration for RecentChanges component testing
  * Supports multiple browsers, devices, and testing environments
  */
 export default defineConfig({
-  testDir: './tests/e2e',
+  testDir: "./tests/e2e",
 
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -22,11 +22,14 @@ export default defineConfig({
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    ['html', {
-      outputFolder: './playwright-report',
-      open: process.env.CI ? 'never' : 'on-failure'
-    }],
-    ['list']
+    [
+      "html",
+      {
+        outputFolder: "./playwright-report",
+        open: process.env.CI ? "never" : "on-failure",
+      },
+    ],
+    ["list"],
   ],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -35,13 +38,13 @@ export default defineConfig({
     baseURL: TEST_CONFIG.SITE_URL,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: "on-first-retry",
 
     /* Take screenshot on failure */
-    screenshot: 'only-on-failure',
+    screenshot: "only-on-failure",
 
     /* Record video on failure */
-    video: 'retain-on-failure',
+    video: "retain-on-failure",
 
     /* Global timeout for each action */
     actionTimeout: 15000,
@@ -53,71 +56,71 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: "chromium",
       use: {
-        ...devices['Desktop Chrome'],
+        ...devices["Desktop Chrome"],
         viewport: { width: 1280, height: 720 },
         contextOptions: {
           // Enable Chrome DevTools for debugging
           ignoreHTTPSErrors: true,
-        }
+        },
       },
     },
 
     {
-      name: 'firefox',
+      name: "firefox",
       use: {
-        ...devices['Desktop Firefox'],
+        ...devices["Desktop Firefox"],
         viewport: { width: 1280, height: 720 },
       },
     },
 
     {
-      name: 'webkit',
+      name: "webkit",
       use: {
-        ...devices['Desktop Safari'],
+        ...devices["Desktop Safari"],
         viewport: { width: 1280, height: 720 },
       },
     },
 
     /* Test against mobile viewports. */
     {
-      name: 'Mobile Chrome',
+      name: "Mobile Chrome",
       use: {
-        ...devices['Pixel 5'],
+        ...devices["Pixel 5"],
         ...TEST_CONFIG.DEVICES.MOBILE_SMALL,
       },
     },
     {
-      name: 'Mobile Safari',
+      name: "Mobile Safari",
       use: {
-        ...devices['iPhone 12'],
+        ...devices["iPhone 12"],
         ...TEST_CONFIG.DEVICES.MOBILE_SMALL,
       },
     },
 
     /* Test against branded browsers. */
     {
-      name: 'Microsoft Edge',
+      name: "Microsoft Edge",
       use: {
-        ...devices['Desktop Edge'],
-        channel: 'msedge',
+        ...devices["Desktop Edge"],
+        channel: "msedge",
       },
     },
 
     /* Test with different device sizes */
     {
-      name: 'Tablet',
+      name: "Tablet",
       use: {
-        ...devices['iPad Pro'],
+        ...devices["iPad Pro"],
         ...TEST_CONFIG.DEVICES.TABLET,
       },
     },
 
     {
-      name: 'Widescreen',
+      name: "Widescreen",
       use: {
-        ...devices['Desktop Chrome'],
+        ...devices["Desktop Chrome"],
         viewport: TEST_CONFIG.DEVICES.WIDESCREEN.viewport,
         userAgent: TEST_CONFIG.DEVICES.WIDESCREEN.userAgent,
       },
@@ -125,30 +128,30 @@ export default defineConfig({
 
     /* Accessibility-focused test project */
     {
-      name: 'accessibility',
+      name: "accessibility",
       use: {
-        ...devices['Desktop Chrome'],
+        ...devices["Desktop Chrome"],
         viewport: { width: 1280, height: 720 },
       },
-      testMatch: '**/*accessibility*.spec.ts',
-      dependencies: ['chromium'],
+      testMatch: "**/*accessibility*.spec.ts",
+      dependencies: ["chromium"],
     },
 
     /* Performance-focused test project */
     {
-      name: 'performance',
+      name: "performance",
       use: {
-        ...devices['Desktop Chrome'],
+        ...devices["Desktop Chrome"],
         viewport: { width: 1280, height: 720 },
       },
-      testMatch: '**/*performance*.spec.ts',
-      dependencies: ['chromium'],
+      testMatch: "**/*performance*.spec.ts",
+      dependencies: ["chromium"],
     },
   ],
 
   /* Global setup and teardown */
-  globalSetup: './tests/global-setup.ts',
-  globalTeardown: './tests/global-teardown.ts',
+  globalSetup: "./tests/global-setup.ts",
+  globalTeardown: "./tests/global-teardown.ts",
 
   /* Test timeout */
   timeout: 60000,
@@ -159,11 +162,11 @@ export default defineConfig({
   },
 
   /* Output directory for test artifacts */
-  outputDir: './test-results',
+  outputDir: "./test-results",
 
   /* Web server configuration for local development */
   webServer: {
-    command: 'bun run dev',
+    command: "bun run dev",
     url: TEST_CONFIG.LOCAL_URL,
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
@@ -175,10 +178,10 @@ export default defineConfig({
 
   /* Metadata for test organization */
   metadata: {
-    'Test Environment': process.env.NODE_ENV || 'test',
-    'Browser Versions': 'Latest stable',
-    'Test Suite': 'RecentChanges Component E2E Tests',
-    'Accessibility Standard': 'WCAG 2.1 AA',
-    'Performance Standards': 'Core Web Vitals',
+    "Test Environment": process.env.NODE_ENV || "test",
+    "Browser Versions": "Latest stable",
+    "Test Suite": "RecentChanges Component E2E Tests",
+    "Accessibility Standard": "WCAG 2.1 AA",
+    "Performance Standards": "Core Web Vitals",
   },
-});
+})
