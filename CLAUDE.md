@@ -87,7 +87,7 @@ The core framework lives here. Key subdirectories:
 ## Change Workflow
 
 - **Code, tooling and CI**: open an issue, work in a worktree (`.worktrees/<type>-<slug>` on branch `<type>/<slug>` from `origin/main`), and open a PR that closes the issue. The PR must pass the `Quality` and `E2E Tests` workflows before it is marked ready. Soushi merges.
-- **Notes and articles**: a branch and a PR, no issue needed.
+- **Notes and articles**: a branch and a PR, no issue needed. Content-only PRs (`content/**`) skip the `E2E Tests` workflow and need only `Quality` (about a minute); the daily scheduled E2E run still covers the whole site.
 - **Minor changes** (a typo, a one-file doc fix): commit straight to `main`.
 - **Before pushing**: `bunx tsc --noEmit`, `bunx prettier . --check` and `bun run test` must pass locally; the `Quality` workflow runs the same checks.
 
