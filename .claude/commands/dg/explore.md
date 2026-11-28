@@ -19,8 +19,8 @@ Browse, query, and analyze the digital garden to understand its current state, i
 ```
 
 ## Arguments
-- `operation` - Exploration mode: `overview`, `orphans`, `unresolved`, `search`, `graph`, `gaps`, `stats`, `validate`
-- `query` - Search term, tag, or topic (for `search` operation)
+- `operation` - Exploration mode: `overview`, `orphans`, `unresolved`, `search`, `graph`, `gaps`, `stats`, `validate`, `traditions`
+- `query` - Search term, tag, or topic (for `search`); a note path or concept (for `traditions`)
 - `--domain` - Scope to specific knowledge domain only
 - `--format` - Output format: `text` (default), `table`, `json`
 
@@ -78,6 +78,15 @@ Identify underdeveloped areas:
 - Missing index files for directories with 2+ notes
 - Topics referenced in tags but having no dedicated note
 
+### `traditions [note-or-concept]`
+"What do the traditions say" about a note's topic or a concept, drawn from the optional wisdom corpus (rules and commands: `.claude/skills/DgNotes/WisdomCorpus.md`). Presented as material for Soushi to read, never written anywhere.
+- For a note path, the topic is its title (via `mcp__garden__garden_context`); otherwise the query is the topic
+- Concepts the corpus graph knows for the topic (`concepts`, then `concept <slug>` for the best match): name, tradition, and key passages that have a `local_id`
+- Full-text passages from `search --cite`, grouped by tradition and capped at one or two per tradition so that distinct traditions are heard, each fetched with `passage <id> --json` before any of its text is shown
+- For each passage: tradition, title, author, translator, a short excerpt from the fetched `text`, and the `wcw:SLUG/ID` marker so it can be cited later
+- Curator glosses and summaries are paraphrased, never quoted; private annotations are never shown
+- When the corpus tool is unavailable, say only that this operation needs it, and stop
+
 ### `stats`
 Full garden statistics:
 - Total file count by type (knowledge, blog, portfolio)
@@ -100,11 +109,13 @@ Full garden statistics:
    - **graph**: `mcp__garden__garden_explore` for concept landscape; if `garden_explore` fails with FTS5 error, fall back to `mcp__garden__garden_search` with individual terms + `mcp__garden__garden_status` for node/edge counts
    - **gaps**: `mcp__garden__garden_status` for domain counts + `mcp__garden__garden_search` for stub detection; Grep as fallback
    - **stats**: `mcp__garden__garden_status` for totals; `mcp__garden__garden_tag_list` for tag frequency
+   - **traditions**: `mcp__garden__garden_context` for a note target, then the corpus calls in `.claude/skills/DgNotes/WisdomCorpus.md` (`concepts`, `concept`, `search --cite`, `passage`) through Bash. Read-only: nothing is written, not even a References entry; citing a passage is `/dg:improve`'s job
 4. **Format Results**: Present findings in requested format
 5. **Suggest Next Actions**: Based on findings, suggest relevant follow-up commands
    - Orphans found: suggest `/dg:improve --focus links`
    - Stubs found: suggest `/dg:improve [file] --focus completeness`
    - Missing indexes: suggest `/dg:organize --create-index`
+   - Traditions material worth keeping: suggest `/dg:improve [file]` to offer the passages for its References
 6. **Memory Update**: Append key patterns to PAI memory.
    - If new patterns discovered, append to ~/.claude/projects/-home-soushi888-Projets-alternef-digital-garden/memory/dg-patterns.md
 
@@ -113,6 +124,7 @@ Full garden statistics:
 - **PAI Memory**: Reads dg-patterns.md to contextualize findings
 - **Glob/Grep-Based**: Uses native file search — no build required
 - **Domain-Aware**: Understands the 7-domain taxonomy for classification
+- **Wisdom Corpus**: `traditions` reads the optional corpus through `${PAI_DIR}/PAI/Tools/WisdomCorpus.ts`; absent tool means the operation reports it cannot run
 
 ## PAI ISC Template
 When this command runs, OBSERVE generates these ISC:
@@ -121,3 +133,4 @@ When this command runs, OBSERVE generates these ISC:
 - ISC: Stats counts are accurate based on file inventory
 - ISC-A: No content files modified during explore operation
 - ISC-A: No wikilinks or frontmatter changed during analysis
+- ISC-A: `traditions` shows no annotation text and quotes no summary-kind passage
