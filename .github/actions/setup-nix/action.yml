@@ -1,0 +1,18 @@
+name: Setup Nix
+description: Install Nix with flakes and restore the Nix store cache keyed on flake.lock.
+
+runs:
+  using: composite
+  steps:
+    - name: Install Nix
+      uses: cachix/install-nix-action@v31
+
+    - name: Restore and save the Nix store
+      uses: nix-community/cache-nix-action@v7
+      with:
+        primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
+        restore-prefixes-first-match: nix-${{ runner.os }}-
+
+    - name: Build the dev shell
+      shell: bash
+      run: nix develop --command true

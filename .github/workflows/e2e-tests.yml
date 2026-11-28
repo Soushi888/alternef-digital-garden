@@ -15,6 +15,12 @@ on:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
+# Every run step executes inside the flake's dev shell. Playwright's browsers come from nixpkgs
+# (PLAYWRIGHT_BROWSERS_PATH), so no job downloads browsers or depends on the runner's distribution.
+defaults:
+  run:
+    shell: nix develop --command bash -e {0}
+
 jobs:
   e2e-tests:
     timeout-minutes: 60
@@ -23,21 +29,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        browser: [chromium, firefox, webkit]
+        browser: [chromium, firefox]
         shard: [1, 2, 3, 4]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps ${{ matrix.browser }}
 
       - name: Build site
         run: bun run build
@@ -57,9 +60,21 @@ jobs:
             test-results/
             playwright-report/
 
-  accessibility-tests:
-    timeout-minutes: 30
+  # WebKit runs outside the Nix shell. nixpkgs' WebKit closes on the first newPage, and
+  # Playwright's own WebKit fails every network load when started from the Nix shell on
+  # the runner (#57). This job is the pre-Nix setup until that is solved.
+  e2e-tests-webkit:
+    timeout-minutes: 60
     runs-on: ubuntu-24.04
+
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
+
+    defaults:
+      run:
+        shell: bash
 
     steps:
       - name: Checkout repository
@@ -71,8 +86,40 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps chromium
+      - name: Install Playwright WebKit
+        run: bunx playwright install --with-deps webkit
+
+      - name: Build site
+        run: bun run build
+
+      - name: Run E2E tests
+        run: bunx playwright test --project=webkit --shard=${{ matrix.shard }}/4
+        env:
+          CI: true
+          SITE_URL: https://alternef.garden
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report-webkit-shard-${{ matrix.shard }}
+          path: |
+            test-results/
+            playwright-report/
+
+  accessibility-tests:
+    timeout-minutes: 30
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
+
+      - name: Install dependencies
+        run: bun install
 
       - name: Run accessibility tests
         run: bunx playwright test --project=accessibility
@@ -93,14 +140,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps chromium
 
       - name: Run performance tests
         run: bunx playwright test --project=performance
@@ -121,14 +165,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps chromium
 
       - name: Run mobile tests
         run: bunx playwright test --project='Mobile Chrome'
@@ -143,21 +184,18 @@ jobs:
 
   merge-reports:
     if: always()
-    needs: [e2e-tests, accessibility-tests, performance-tests, mobile-tests]
+    needs: [e2e-tests, e2e-tests-webkit, accessibility-tests, performance-tests, mobile-tests]
     runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Nix
+        uses: ./.github/actions/setup-nix
 
       - name: Install dependencies
         run: bun install
-
-      - name: Install Playwright Browsers
-        run: bunx playwright install --with-deps
 
       - name: Download all artifacts
         uses: actions/download-artifact@v8
