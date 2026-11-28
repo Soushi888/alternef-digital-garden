@@ -5,6 +5,7 @@ import { join, relative } from "path"
 import { getDb, initSchema } from "./db"
 import { DOMAINS } from "./types"
 import type { Wikilink } from "./types"
+import { makeExcerpt, normalizeDate } from "./text"
 
 const CONTENT_DIR = join(import.meta.dir, "../content")
 const WIKILINK_RE = /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g
@@ -49,14 +50,6 @@ function resolveWikilink(
   return null
 }
 
-function makeExcerpt(content: string, maxLen = 200): string {
-  return content
-    .replace(/^---[\s\S]*?---\n?/, "")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, maxLen)
-}
-
 interface NoteRecord {
   id: string
   path: string
@@ -82,7 +75,7 @@ async function parseFile(filePath: string): Promise<NoteRecord> {
     path: pathToRelative(filePath),
     title: typeof fm.title === "string" ? fm.title : (id.split("/").pop() ?? id),
     description: typeof fm.description === "string" ? fm.description : null,
-    date: fm.date != null ? String(fm.date) : null,
+    date: normalizeDate(fm.date),
     domain: deriveDomain(id),
     content,
     draft: fm.draft === true ? 1 : 0,
